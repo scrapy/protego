@@ -1,1 +1,18 @@
+# compiled files
+__pycache__/
+*.py[cod]
+
+# distribution / packaging
+*.egg-info/
+*.egg
+.eggs/
+build/
+
+# environments
 venv
+
+# test
+.tox/
+
+# ide
+.vscode/
