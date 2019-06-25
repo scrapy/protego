@@ -9,7 +9,7 @@ __pycache__/
 build/
 
 # environments
-venv
+*venv*/
 
 # test
 .tox/
