@@ -1,5 +1,6 @@
 from collections import namedtuple
-from six.moves.urllib.parse import urlparse
+import re
+from six.moves.urllib.parse import urlparse, urlunparse, ParseResult
 
 Record = namedtuple('Record', ['field', 'value'])
 
@@ -13,14 +14,20 @@ class RecordGroup:
         self.sorted_rules = None
 
     def add_user_agent(self, user_agent):
-        self.user_agents.append(user_agent.strip().lower())
+        user_agent = user_agent.strip().lower()
+        if user_agent != '*' and '*' in user_agent:
+            user_agent = user_agent.replace('*', '')
+        self.user_agents.append(user_agent)
 
     def applies_to(self, robotname):
         robotname = robotname.strip().lower()
         for user_agent in self.user_agents:
-            if (robotname in user_agent) or (user_agent == '*'):
-                return True
-        return False
+            if user_agent == '*':
+                return 1
+            if user_agent in robotname:
+                return len(user_agent)
+
+        return 0
 
     def allow(self, path):
         self.rules.append(Record(field='allow', value=path))
@@ -28,17 +35,30 @@ class RecordGroup:
     def disallow(self, path):
         self.rules.append(Record(field='disallow', value=path))
 
+    def _parser_match(self, pattern, url):
+        s = re.split(r'([$*])', pattern)
+        for index, substr in enumerate(s):
+            if substr not in ['*', '$']:
+                s[index] = re.escape(substr)
+            else:
+                s[index] = s[index].replace('*', '.*')
+        pattern = '^' + ''.join(s)
+        if re.findall(pattern, url):
+            return True
+        return False
+
     def allowed(self, url):
         if not self.sorted_rules:
-            self.sorted_rules = []
             self.sorted_rules = sorted(
                 self.rules, key=lambda r: len(r.value), reverse=True)
 
-        path = urlparse(url).path
+        parts = urlparse(url)
+        parts = ParseResult('', '', parts.path, '', parts.query, '')
+        url = urlunparse(parts)
 
         allowed = True
         for record in self.sorted_rules:
-            if path.startswith(record.value):
+            if self._parser_match(record.value, url):
                 if record.field == 'disallow':
                     allowed = False
                 break
@@ -119,19 +139,27 @@ class Protego:
                 self.record_groups.sort(key=lambda o: o is record_group)
                 break
 
-    def allowed(self, url, user_agent):
+    def _get_matching_record_group(self, user_agent):
+        matched_group = None
+        match_score = 0
         for record_group in self.record_groups:
-            if record_group.applies_to(user_agent):
-                return record_group.allowed(url)
+            score = record_group.applies_to(user_agent)
+            if score > match_score:
+                match_score = score
+                matched_group = record_group
+        return matched_group
 
-        return True
+    def allowed(self, url, user_agent):
+        matched_group = self._get_matching_record_group(user_agent)
+        if not matched_group:
+            return True
+        return matched_group.allowed(url)
 
     def crawl_delay(self, user_agent):
-        for record_group in self.record_groups:
-            if record_group.applies_to(user_agent):
-                return record_group.get_crawl_delay()
-
-        return None
+        matched_group = self._get_matching_record_group(user_agent)
+        if not matched_group:
+            return None
+        return matched_group.get_crawl_delay()
 
     def sitemaps(self):
         return iter(self.sitemap_list)

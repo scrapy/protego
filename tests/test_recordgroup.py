@@ -1,69 +1,68 @@
 # encoding=utf-8
-from protego import Protego
 from unittest import TestCase
+
+from protego import Protego
 
 
 class TestProtego(TestCase):
     def test_allowed(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: /disallowed \n"
-                             "Allow: /allowed \n"
-                             "Crawl-delay: 10")
-        rp = Protego.parse(content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: /disallowed \n"
+                   "Allow: /allowed \n"
+                   "Crawl-delay: 10")
+        rp = Protego.parse(content=content)
         self.assertTrue(rp.allowed("https://www.site.local/allowed", "*"))
         self.assertFalse(rp.allowed("https://www.site.local/disallowed", "*"))
 
     def test_length_based_precedence(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: / \n"
-                             "Allow: /page")
-        rp = Protego.parse(content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: / \n"
+                   "Allow: /page")
+        rp = Protego.parse(content=content)
         self.assertTrue(rp.allowed("https://www.site.local/page", "*"))
 
     def test_sitemaps(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: /disallowed \n"
-                             "Allow: /allowed \n"
-                             "Sitemap: https://site.local/sitemap.xml")
-        rp = Protego.parse(
-            content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: /disallowed \n"
+                   "Allow: /allowed \n"
+                   "Sitemap: https://site.local/sitemap.xml \n"
+                   "Allow: /another_allowed \n"
+                   "Sitemap: https://site.local/sitemap2.xml")
+        rp = Protego.parse(content=content)
         sitemaps = list(rp.sitemaps())
-        self.assertTrue(len(sitemaps) == 1)
+        self.assertTrue(len(sitemaps) == 2)
         self.assertTrue("https://site.local/sitemap.xml" in sitemaps)
+        self.assertTrue("https://site.local/sitemap2.xml" in sitemaps)
 
     def test_no_sitemaps(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: /disallowed \n"
-                             "Allow: /allowed \n"
-                             "Crawl-delay: 10")
-        rp = Protego.parse(
-            content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: /disallowed \n"
+                   "Allow: /allowed \n"
+                   "Crawl-delay: 10")
+        rp = Protego.parse(content=content)
         self.assertTrue(not list(rp.sitemaps()))
 
     def test_no_preferred_host(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: /disallowed \n"
-                             "Allow: /allowed \n"
-                             "Crawl-delay: 10")
-        rp = Protego.parse(
-            content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: /disallowed \n"
+                   "Allow: /allowed \n"
+                   "Crawl-delay: 10")
+        rp = Protego.parse(content=content)
         self.assertTrue(rp.preferred_host() is None)
 
     def test_crawl_delay(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: /disallowed \n"
-                             "Allow: /allowed \n"
-                             "Crawl-delay: 10")
-        rp = Protego.parse(
-            content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: /disallowed \n"
+                   "Allow: /allowed \n"
+                   "Crawl-delay: 10")
+        rp = Protego.parse(content=content)
         self.assertTrue(rp.crawl_delay('*') == 10.0)
 
     def test_no_crawl_delay(self):
-        robotstxt_content = ("User-agent: * \n"
-                             "Disallow: /disallowed \n"
-                             "Allow: /allowed")
-        rp = Protego.parse(
-            content=robotstxt_content)
+        content = ("User-agent: * \n"
+                   "Disallow: /disallowed \n"
+                   "Allow: /allowed")
+        rp = Protego.parse(content=content)
         self.assertTrue(rp.crawl_delay('*') is None)
 
     def test_empty_response(self):
@@ -75,7 +74,7 @@ class TestProtego(TestCase):
         self.assertTrue(rp.allowed("https://site.local/disallowed", "*"))
 
     def test_unicode_url_and_useragent(self):
-        robotstxt_content = u"""
+        content = u"""
         User-Agent: *
         Disallow: /admin/
         Disallow: /static/
@@ -84,8 +83,7 @@ class TestProtego(TestCase):
         Disallow: /wiki/Käyttäjä:
         User-Agent: UnicödeBöt
         Disallow: /some/randome/page.html"""
-        rp = Protego.parse(
-            content=robotstxt_content)
+        rp = Protego.parse(content=content)
         self.assertTrue(rp.allowed("https://site.local/", "*"))
         self.assertFalse(rp.allowed("https://site.local/admin/", "*"))
         self.assertFalse(rp.allowed("https://site.local/static/", "*"))
