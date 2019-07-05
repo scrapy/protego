@@ -418,6 +418,41 @@ class TestProtego(TestCase):
         self.assertTrue(rp.allowed("https://site.local/failure", "one"))
         self.assertTrue(rp.allowed("https://site.local/failure", "two"))
 
+        content = (
+            "allow: /foo/bar/\n"
+            "\n"
+            "user-agent: FooBot\n"
+            "disallow: /\n"
+            "allow: /x/\n"
+            "user-agent: BarBot\n"
+            "disallow: /\n"
+            "allow: /y/\n"
+            "\n"
+            "\n"
+            "allow: /w/\n"
+            "user-agent: BazBot\n"
+            "\n"
+            "user-agent: FooBot\n"
+            "allow: /z/\n"
+            "disallow: /\n")
+        url_w = "http://foo.bar/w/a"
+        url_x = "http://foo.bar/x/b"
+        url_y = "http://foo.bar/y/c"
+        url_z = "http://foo.bar/z/d"
+        url_foo = "http://foo.bar/foo/bar/"
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed(url_x, "FooBot"))
+        self.assertTrue(rp.allowed(url_z, "FooBot"))
+        self.assertFalse(rp.allowed(url_y, "FooBot"))
+        self.assertTrue(rp.allowed(url_y, "BarBot"))
+        self.assertTrue(rp.allowed(url_w, "BarBot"))
+        self.assertFalse(rp.allowed(url_z, "BarBot"))
+        self.assertTrue(rp.allowed(url_z, "BazBot"))
+
+        self.assertFalse(rp.allowed(url_foo, 'FooBot'))
+        self.assertFalse(rp.allowed(url_foo, 'BarBot'))
+        self.assertFalse(rp.allowed(url_foo, 'BazBot'))
+
     def test_comments(self):
         content = """
         # comment 1
@@ -713,3 +748,41 @@ class TestProtego(TestCase):
         self.assertFalse(rp.allowed('/foo', 'ia_archiver'))
         self.assertFalse(rp.allowed('/foobar', 'ia_archiver'))
         self.assertFalse(rp.allowed('/content/2', 'ia_archiver'))
+
+    def test_generosity(self):
+        robotstxt_incorrect = """
+        Foo: Foobot
+        Bar: /"""
+        rp = Protego.parse(content=robotstxt_incorrect)
+        self.assertTrue(rp.allowed('http://foo.bar/x/y', 'FooBot'))
+
+        robotstxt_incorrect_accepted = """
+        user-agent foobot
+        disallow /
+        """
+        rp = Protego.parse(content=robotstxt_incorrect_accepted)
+        self.assertFalse(rp.allowed('http://foo.bar/x/y', 'FooBot'))
+
+    def test_directive_case_insensitivity(self):
+        content = """
+        USER-AGENT: onebot
+        ALLOW: /x
+        DISALLOW: /
+
+        user-agent: twobot
+        allow: /x
+        disallow: /
+
+        uSEr-aGEnT: threeBot
+        AlLoW: /x
+        DIsALlOw: /
+        """
+        url_allowed = "http://foo.bar/x/y"
+        url_disallowed = "http://foo.bar/a/b"
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed(url_allowed, 'onebot'))
+        self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
+        self.assertTrue(rp.allowed(url_allowed, 'twobot'))
+        self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
+        self.assertTrue(rp.allowed(url_allowed, 'threebot'))
+        self.assertFalse(rp.allowed(url_disallowed, 'onebot'))

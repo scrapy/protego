@@ -7,6 +7,19 @@ Record = namedtuple('Record', ['field', 'value'])
 RequestRate = namedtuple(
     'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
 
+DISALLOW_DIRECTIVE = ['disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw']
+ALLOW_DIRECTIVE = ['allow']
+USER_AGENT_DIRECTIVE = ['user-agent', 'useragent', 'user agent']
+SITEMAP_DIRECTIVE = ['sitemap', 'sitemaps', 'site-map']
+CRAWL_DELAY_DIRECTIVE = ['crawl-delay', 'crawl delay']
+REQUEST_RATE_DIRECTIVE = ['request-rate', 'request rate']
+
+
+def is_valid_directive(d):
+    return d in DISALLOW_DIRECTIVE or d in ALLOW_DIRECTIVE \
+        or d in USER_AGENT_DIRECTIVE or d in SITEMAP_DIRECTIVE \
+        or d in CRAWL_DELAY_DIRECTIVE or d in REQUEST_RATE_DIRECTIVE
+
 
 class RecordGroup:
 
@@ -139,10 +152,19 @@ class Protego:
                 line = line[0: hash_pos].strip()
 
             line = line.strip()
-            if (not line) or line.find(':') == -1:
+            if not line:
                 continue
 
-            field, value = line.split(':', 1)
+            if line.find(':') != -1:
+                field, value = line.split(':', 1)
+            else:
+                # this line contains no colon. We will be generous here and give it a second chance.
+                parts = line.rsplit(' ', 1)
+                if not len(parts) == 2:
+                    continue
+                print(parts)
+                field, value = parts
+
             field = field.strip().lower()
             value = value.strip()
 
@@ -153,7 +175,7 @@ class Protego:
             if not current_record_group and field != 'user-agent':
                 continue
 
-            if field == 'user-agent':
+            if field in USER_AGENT_DIRECTIVE:
                 if previous_record and previous_record.field != 'user-agent':
                     current_record_group = None
 
@@ -163,19 +185,19 @@ class Protego:
 
                 current_record_group.add_user_agent(value)
 
-            elif field == 'allow':
+            elif field in ALLOW_DIRECTIVE:
                 current_record_group.allow(value)
 
-            elif field == 'disallow':
+            elif field in DISALLOW_DIRECTIVE:
                 current_record_group.disallow(value)
 
-            elif field == 'sitemap':
+            elif field in SITEMAP_DIRECTIVE:
                 self.sitemap_list.append(value)
 
-            elif field == 'crawl-delay':
+            elif field in CRAWL_DELAY_DIRECTIVE:
                 current_record_group.set_crawl_delay(value)
 
-            elif field == 'request-rate':
+            elif field in REQUEST_RATE_DIRECTIVE:
                 parts = value.split()
                 if len(parts) == 2:
                     rate, time_period = parts
