@@ -34,8 +34,11 @@ class RecordGroup:
         return 0
 
     def _quote_path(self, path, safe='/'):
+        if path == '/?' or path == '/;':
+            return path
         parts = urlparse(path)
-        parts = ParseResult('', '', quote(unquote(parts.path), safe=safe),
+        path = re.sub("%2[fF]", "\n", parts.path)
+        parts = ParseResult('', '', quote(unquote(path), safe=safe).replace("\n", "%2F"),
                             parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
@@ -49,6 +52,7 @@ class RecordGroup:
         self.rules.append(Record(field='disallow', value=path))
 
     def _parser_match(self, pattern, url):
+        pattern = re.sub(r'\*+', '*', pattern)
         s = re.split(r'([$*])', pattern)
         for index, substr in enumerate(s):
             if substr not in ['*', '$']:
@@ -63,7 +67,7 @@ class RecordGroup:
     def allowed(self, url):
         if not self.sorted_rules:
             self.sorted_rules = sorted(
-                self.rules, key=lambda r: len(r.value), reverse=True)
+                self.rules, key=lambda r: (len(r.value), r.field == 'allow'), reverse=True)
 
         url = self._quote_path(url)
 
@@ -89,14 +93,14 @@ class RecordGroup:
     def set_request_rate(self, rate, time_period):
         requests, seconds = rate.split('/')
         requests = int(requests)
-        if seconds[-1] == 'm':
-            seconds = int(seconds[:-1]) * 60
-        elif seconds[-1] == 'h':
-            seconds = int(seconds[:-1]) * 3600
-        elif seconds[-1] == 'd':
-            seconds = int(seconds[:-1]) * 86400
-        else:
-            seconds = int(seconds[:-1])
+        time_unit = seconds[-1].lower()
+        seconds = int(seconds[:-1])
+        if time_unit == 'm':
+            seconds *= 60
+        elif time_unit == 'h':
+            seconds *= 3600
+        elif time_unit == 'd':
+            seconds *= 86400
 
         start_time = None
         end_time = None
@@ -142,7 +146,11 @@ class Protego:
             field = field.strip().lower()
             value = value.strip()
 
-            if (not value) or (not current_record_group and field != 'user-agent'):
+            if not value:
+                previous_record = Record(field, value)
+                continue
+
+            if not current_record_group and field != 'user-agent':
                 continue
 
             if field == 'user-agent':
@@ -181,6 +189,7 @@ class Protego:
             previous_record = Record(field, value)
 
         for record_group in self.record_groups:
+            print(record_group.user_agents)
             if '*' in record_group.user_agents:
                 self.record_groups.sort(key=lambda o: o is record_group)
                 break

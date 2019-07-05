@@ -77,6 +77,7 @@ class TestProtego(TestCase):
                    "Allow: /allowed \n"
                    "Sitemap: https://site.local/sitemap.xml \n"
                    "Allow: /another_allowed \n"
+                   "User-agent: testbot \n"
                    "Sitemap: https://site.local/sitemap2.xml")
         rp = Protego.parse(content=content)
         sitemaps = list(rp.sitemaps())
@@ -104,9 +105,12 @@ class TestProtego(TestCase):
         content = ("User-agent: * \n"
                    "Disallow: /disallowed \n"
                    "Allow: /allowed \n"
-                   "Crawl-delay: 10")
+                   "Crawl-delay: 10 \n"
+                   "User-agent: testbot\n"
+                   "Crawl-delay: 15 \n")
         rp = Protego.parse(content=content)
         self.assertTrue(rp.crawl_delay('*') == 10.0)
+        self.assertTrue(rp.crawl_delay('testbot') == 15.0)
 
     def test_malformed_crawl_delay(self):
         content = ("User-agent: * \n"
@@ -225,6 +229,79 @@ class TestProtego(TestCase):
         self.assertTrue(rp.allowed(
             "https://www.site.local/is_allowed_too", "second"))
 
+        content = """
+        # robots.txt for http://www.example.com/
+        
+        User-agent: Rule1TestBot
+        Disallow:  /foo*
+        
+        User-agent: Rule2TestBot
+        Disallow:  /foo*/bar.html
+        
+        # Disallows anything containing the letter m!
+        User-agent: Rule3TestBot
+        Disallow:  *m
+        
+        User-agent: Rule4TestBot
+        Allow:  /foo/bar.html
+        Disallow: *
+        
+        User-agent: Rule5TestBot
+        Disallow:  /foo*/*bar.html
+        
+        User-agent: Rule6TestBot
+        Allow:  /foo$
+        Disallow:  /foo
+        
+        # Exercise excessive wildcards
+        # https://bitbucket.org/philip_semanchuk/robotexclusionrulesparser/issues/1
+        User-agent: Rule7TestBot
+        Allow: *****************/****.js
+        
+        """
+        rp = Protego.parse(content=content)
+
+        def is_allowed(ua, url):
+            return rp.allowed(url, ua)
+        self.assertTrue(is_allowed("Rule1TestBot", "/fo.html"))
+        self.assertFalse(is_allowed("Rule1TestBot", "/foo.html"))
+        self.assertFalse(is_allowed("Rule1TestBot", "/food"))
+        self.assertFalse(is_allowed("Rule1TestBot", "/foo/bar.html"))
+
+        self.assertTrue(is_allowed("Rule2TestBot", "/fo.html"))
+        self.assertFalse(is_allowed("Rule2TestBot", "/foo/bar.html"))
+        self.assertFalse(is_allowed("Rule2TestBot", "/food/bar.html"))
+        self.assertFalse(is_allowed("Rule2TestBot", "/foo/a/b/c/x/y/z/bar.html"))
+        self.assertTrue(is_allowed("Rule2TestBot", "/food/xyz.html"))
+
+        self.assertFalse(is_allowed("Rule3TestBot", "/foo.htm"))
+        self.assertFalse(is_allowed("Rule3TestBot", "/foo.html"))
+        self.assertTrue(is_allowed("Rule3TestBot", "/foo"))
+        self.assertFalse(is_allowed("Rule3TestBot", "/foom"))
+        self.assertFalse(is_allowed("Rule3TestBot", "/moo"))
+        self.assertFalse(is_allowed("Rule3TestBot", "/foo/bar.html"))
+        self.assertTrue(is_allowed("Rule3TestBot", "/foo/bar.txt"))
+
+        self.assertFalse(is_allowed("Rule4TestBot", "/fo.html"))
+        self.assertFalse(is_allowed("Rule4TestBot", "/foo.html"))
+        self.assertFalse(is_allowed("Rule4TestBot", "/foo"))
+        self.assertTrue(is_allowed("Rule4TestBot", "/foo/bar.html"))
+        self.assertFalse(is_allowed("Rule4TestBot", "/foo/bar.txt"))
+
+        self.assertFalse(is_allowed("Rule5TestBot", "/foo/bar.html"))
+        self.assertFalse(is_allowed("Rule5TestBot", "/food/rebar.html"))
+        self.assertTrue(is_allowed("Rule5TestBot", "/food/rebarf.html"))
+        self.assertFalse(is_allowed("Rule5TestBot", "/foo/a/b/c/rebar.html"))
+        self.assertFalse(is_allowed("Rule5TestBot", "/foo/a/b/c/bar.html"))
+
+        self.assertTrue(is_allowed("Rule6TestBot", "/foo"))
+        self.assertFalse(is_allowed("Rule6TestBot", "/foo/"))
+        self.assertFalse(is_allowed("Rule6TestBot", "/foo/bar.html"))
+        self.assertFalse(is_allowed("Rule6TestBot", "/fooey"))
+
+        self.assertTrue(is_allowed("Rule7TestBot", "xyz/foo.js"))
+        self.assertTrue(is_allowed("Rule7TestBot", "/inlife/daily/fashion-20160727/"))
+
     def test_unicode_url_and_useragent(self):
         content = u"""
         User-Agent: *
@@ -252,6 +329,30 @@ class TestProtego(TestCase):
             "https://site.local/some/randome/page.html", "*"))
         self.assertFalse(rp.allowed(
             "https://site.local/some/randome/page.html", u"UnicödeBöt"))
+
+        content = """
+        # robots.txt for http://www.example.com/
+        
+        User-Agent: Jävla-Foobot
+        Disallow: /
+        
+        User-Agent: \u041b\u044c\u0432\u0456\u0432-bot
+        Disallow: /totalitarianism/
+        
+        """
+        rp = Protego.parse(content=content)
+
+        def is_allowed(ua, url):
+            return rp.allowed(url, ua)
+
+        user_agent = "jävla-fanbot"
+        self.assertTrue(is_allowed(user_agent, "/foo/bar.html"))
+        self.assertFalse(is_allowed(user_agent.replace("fan", "foo"), "/foo/bar.html"))
+        self.assertTrue(is_allowed("foobot", "/"))
+
+        user_agent = "Mozilla/5.0 (compatible; \u041b\u044c\u0432\u0456\u0432-bot/1.1)"
+        self.assertTrue(is_allowed(user_agent, "/"))
+        self.assertFalse(is_allowed(user_agent, "/totalitarianism/foo.htm"))
 
     def test_no_leading_user_agent(self):
         """Record groups without a user-agent should be ignored."""
@@ -389,3 +490,226 @@ class TestProtego(TestCase):
         rp = Protego.parse(content=content)
         self.assertTrue(rp.allowed("https://site.local/path1", "testbot"))
         self.assertTrue(rp.allowed("https://site.local/path2", "testbot"))
+
+    def test_1994rfc_example(self):
+        """Test parser on examples form 1994 RFC."""
+        content = """
+        # robots.txt for http://www.example.com/
+        User-agent: *
+        Disallow: /cyberworld/map/ # This is an infinite virtual URL space
+        Disallow: /tmp/ # these will soon disappear
+        Disallow: /foo.html
+        """
+        rp = Protego.parse(content=content)
+        user_agent = "CrunchyFrogBot"
+        self.assertTrue(rp.allowed("/", user_agent))
+        self.assertFalse(rp.allowed("/foo.html", user_agent))
+        self.assertTrue(rp.allowed("/foo.htm", user_agent))
+        self.assertTrue(rp.allowed("/foo.shtml", user_agent))
+        self.assertFalse(rp.allowed("/foo.htmlx", user_agent))
+        self.assertTrue(rp.allowed("/cyberworld/index.html", user_agent))
+        self.assertFalse(rp.allowed("/tmp/foo.html", user_agent))
+        # Since it is the caller's responsibility to make sure the host name
+        # matches, the parser disallows foo.html regardless of what I pass for
+        # host name and protocol.
+        self.assertFalse(rp.allowed("http://example.com/foo.html", user_agent))
+        self.assertFalse(rp.allowed("http://www.example.com/foo.html", user_agent))
+        self.assertFalse(rp.allowed("http://www.example.org/foo.html", user_agent))
+        self.assertFalse(rp.allowed("https://www.example.org/foo.html", user_agent))
+        self.assertFalse(rp.allowed("ftp://example.net/foo.html", user_agent))
+
+    def test_1996rfc_examples(self):
+        """Test parser on examples form 1996 RFC."""
+        content = """
+        # robots.txt for http://www.example.com/
+
+        User-agent: 1bot
+        Allow: /tmp
+        Disallow: /
+
+        User-agent: 2bot
+        Allow: /tmp/
+        Disallow: /
+
+        User-agent: 3bot
+        Allow: /a%3cd.html
+        Disallow: /
+
+        User-agent: 4bot
+        Allow: /a%3Cd.html
+        Disallow: /
+
+        User-agent: 5bot
+        Allow: /a%2fb.html
+        Disallow: /
+
+        User-agent: 6bot
+        Allow: /a/b.html
+        Disallow: /
+
+        User-agent: 7bot
+        Allow: /%7ejoe/index.html
+        Disallow: /
+
+        User-agent: 8bot
+        Allow: /~joe/index.html
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("/tmp.html", "1bot"))
+        self.assertTrue(rp.allowed("/tmp", "1bot"))
+        self.assertTrue(rp.allowed("/tmp/a.html", "1bot"))
+        self.assertFalse(rp.allowed("/tmp", "2bot"))
+        self.assertTrue(rp.allowed("/tmp/", "2bot"))
+        self.assertTrue(rp.allowed("/tmp/a.html", "2bot"))
+        self.assertTrue(rp.allowed("/a%3cd.html", "3bot"))
+        self.assertTrue(rp.allowed("/a%3Cd.html", "3bot"))
+        self.assertTrue(rp.allowed("/a%3cd.html", "4bot"))
+        self.assertTrue(rp.allowed("/a%3Cd.html", "4bot"))
+        self.assertTrue(rp.allowed("/a%2fb.html", "5bot"))
+        self.assertFalse(rp.allowed("/a/b.html", "5bot"))
+        self.assertFalse(rp.allowed("/a%2fb.html", "6bot"))
+        self.assertTrue(rp.allowed("/a/b.html", "6bot"))
+        self.assertTrue(rp.allowed("/~joe/index.html", "7bot"))
+        self.assertTrue(rp.allowed("/%7Ejoe/index.html", "8bot"))
+
+        content = """
+        # /robots.txt for http://www.example.org/
+        # comments to webmaster@example.org
+
+        User-agent: unhipbot
+        Disallow: /
+
+        User-agent: webcrawler
+        User-agent: excite
+        Disallow:
+
+        User-agent: *
+        Disallow: /org/plans.html
+        Allow: /org/
+        Allow: /serv
+        Allow: /~mak
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+
+        def is_allowed(ua, url):
+            return rp.allowed(url, ua)
+        self.assertFalse(is_allowed("unhipbot", "http://www.example.org/"))
+        self.assertTrue(is_allowed("webcrawler", "http://www.example.org/"))
+        self.assertTrue(is_allowed("excite", "http://www.example.org/"))
+        self.assertFalse(is_allowed("OtherBot", "http://www.example.org/"))
+        self.assertFalse(is_allowed("unhipbot", "http://www.example.org/index.html"))
+        self.assertTrue(is_allowed("webcrawler", "http://www.example.org/index.html"))
+        self.assertTrue(is_allowed("excite", "http://www.example.org/index.html"))
+        self.assertFalse(is_allowed("OtherBot", "http://www.example.org/index.html"))
+        # The original document contains tests for robots.txt. I dropped them. I presume that no
+        # one will fetch robots.txt to see if they're allowed to fetch robots.txt. Sheesh...
+        #   assert(parser.is_allowed("unhipbot", "http://www.example.org/robots.txt") == True)
+        #   assert(parser.is_allowed("webcrawler", "http://www.example.org/robots.txt") == True)
+        #   assert(parser.is_allowed("excite", "http://www.example.org/robots.txt") == True)
+        #   assert(parser.is_allowed("OtherBot", "http://www.example.org/robots.txt") == True)
+        self.assertFalse(is_allowed("unhipbot", "http://www.example.org/server.html"))
+        self.assertTrue(is_allowed("webcrawler", "http://www.example.org/server.html"))
+        self.assertTrue(is_allowed("excite", "http://www.example.org/server.html"))
+        self.assertTrue(is_allowed("OtherBot", "http://www.example.org/server.html"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/services/fast.html"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/services/fast.html"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/services/fast.html"))
+        self.assertTrue(is_allowed("OtherBot",
+                                   "http://www.example.org/services/fast.html"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/services/slow.html"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/services/slow.html"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/services/slow.html"))
+        self.assertTrue(is_allowed("OtherBot",
+                                   "http://www.example.org/services/slow.html"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/orgo.gif"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/orgo.gif"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/orgo.gif"))
+        self.assertFalse(is_allowed("OtherBot",
+                                    "http://www.example.org/orgo.gif"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/org/about.html"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/org/about.html"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/org/about.html"))
+        self.assertTrue(is_allowed("OtherBot",
+                                   "http://www.example.org/org/about.html"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/org/plans.html"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/org/plans.html"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/org/plans.html"))
+        self.assertFalse(is_allowed("OtherBot",
+                                    "http://www.example.org/org/plans.html"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/%7Ejim/jim.html"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/%7Ejim/jim.html"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/%7Ejim/jim.html"))
+        self.assertFalse(is_allowed("OtherBot",
+                                    "http://www.example.org/%7Ejim/jim.html"))
+        self.assertFalse(is_allowed("unhipbot",
+                                    "http://www.example.org/%7Emak/mak.html"))
+        self.assertTrue(is_allowed("webcrawler",
+                                   "http://www.example.org/%7Emak/mak.html"))
+        self.assertTrue(is_allowed("excite",
+                                   "http://www.example.org/%7Emak/mak.html"))
+        self.assertTrue(is_allowed("OtherBot",
+                                   "http://www.example.org/%7Emak/mak.html"))
+
+    def test_implicit_allow(self):
+        content = """
+        # robots.txt for http://www.example.com/
+        
+        User-agent: *
+        Disallow:    /
+        
+        User-agent: foobot
+        Disallow:
+        """
+        rp = Protego.parse(content=content)
+
+        def is_allowed(ua, url):
+            return rp.allowed(url, ua)
+        self.assertTrue(is_allowed("foobot", "/"))
+        self.assertTrue(is_allowed("foobot", "/bar.html"))
+        self.assertFalse(is_allowed("SomeOtherBot", "/"))
+        self.assertFalse(is_allowed("SomeOtherBot", "/blahblahblah"))
+
+    def test_grouping_unknown_keys(self):
+        '''
+        When we encounter unknown keys, we should disregard any grouping that may have
+        happened between user agent rules.
+        This is an example from the wild. Despite `Noindex` not being a valid directive,
+        we'll not consider the '*' and 'ia_archiver' rules together.
+        '''
+        content = """
+        User-agent: abc
+        Disallow: /content/2/
+        User-agent: *
+        Noindex: /gb.html
+        Noindex: /content/2/
+        User-agent: ia_archiver
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed('/foo', 'agent'))
+        self.assertTrue(rp.allowed('/foobar', 'agent'))
+        self.assertTrue(rp.allowed('/content/2', 'agent'))
+        self.assertFalse(rp.allowed('/bar', 'ia_archiver'))
+        self.assertFalse(rp.allowed('/foo', 'ia_archiver'))
+        self.assertFalse(rp.allowed('/foobar', 'ia_archiver'))
+        self.assertFalse(rp.allowed('/content/2', 'ia_archiver'))
