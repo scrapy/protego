@@ -22,6 +22,101 @@ class TestProtego(TestCase):
         self.assertTrue(rp.allowed("https://www.site.local/page", "*"))
         self.assertFalse(rp.allowed("https://www.site.local/elsewhere", "*"))
 
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x/page.html\n"
+                   "allow: /x/\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /x/page.html\n"
+                   "disallow: /x/\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+        self.assertFalse(rp.allowed("http://foo.bar/x/", "FooBot"))
+
+        # In case of equivalent disallow and allow patterns for the same
+        # user-agent, allow is used.
+        content = ("user-agent: FooBot\n"
+                   "disallow: \n"
+                   "allow: \n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "disallow: /\n"
+                   "allow: /\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x\n"
+                   "allow: /x/\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/x/", "FooBot"))
+        self.assertFalse(rp.allowed("http://foo.bar/x", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x/page.html\n"
+                   "allow: /x/page.html\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /page\n"
+                   "disallow: /*.html\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/page", "FooBot"))
+        self.assertFalse(rp.allowed("http://foo.bar/page.html", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /x/page.\n"
+                   "disallow: /*.html\n")
+        rp = Protego.parse(content=content)
+        # Longest match wins.
+        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+        self.assertFalse(rp.allowed("http://foo.bar/x/y.html", "FooBot"))
+
+        content = ("User-agent: *\n"
+                   "Disallow: /x/\n"
+                   "User-agent: FooBot\n"
+                   "Disallow: /y/\n")
+        rp = Protego.parse(content=content)
+        # Most specific group for FooBot allows implicitly /x/page.
+        self.assertTrue(rp.allowed("http://foo.bar/x/page", "FooBot"))
+        self.assertFalse(rp.allowed("http://foo.bar/y/page", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /p\n"
+                   "disallow: /\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://example.com/page", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /folder\n"
+                   "disallow: /folder\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://example.com/folder/page", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "disallow: /folder\n"
+                   "allow: /folder\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://example.com/folder/page", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /page\n"
+                   "disallow: /*.htm\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.allowed("http://example.com/page.htm", "FooBot"))
+
+        content = ("user-agent: FooBot\n"
+                   "allow: /$\n"
+                   "disallow: /\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://example.com/", "FooBot"))
+        self.assertFalse(rp.allowed("http://example.com/page.html", "FooBot"))
+
     def test_escaped_url(self):
         content = ("User-agent: * \n"
                    "Disallow: / \n"
@@ -302,6 +397,24 @@ class TestProtego(TestCase):
         self.assertTrue(is_allowed("Rule7TestBot", "xyz/foo.js"))
         self.assertTrue(is_allowed("Rule7TestBot", "/inlife/daily/fashion-20160727/"))
 
+        content = ("User-agent: FooBot\n"
+                   "Disallow: /foo/bar/quz\n"
+                   "Allow: /foo/*/qux\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.allowed("http://foo.bar/foo/bar/quz", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/quz", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo//quz", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bax/quz", "FooBot"))
+
+        content = ("User-agent: FooBot\n"
+                   "Disallow: /foo/bar$\n"
+                   "Allow: /foo/bar/qux\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.allowed("http://foo.bar/foo/bar", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/qux", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/baz", "FooBot"))
+
     def test_unicode_url_and_useragent(self):
         content = u"""
         User-Agent: *
@@ -472,6 +585,14 @@ class TestProtego(TestCase):
         self.assertTrue(rp.allowed("https://site.local/commented", "two"))
         self.assertTrue(rp.allowed("https://site.local/default-ua", "one"))
         self.assertTrue(rp.allowed("https://site.local/default-ua", "two"))
+
+        content = ("User-agent: FooBot\n"
+                   "# Disallow: /\n"
+                   "Disallow: /foo/quz#qux\n"
+                   "Allow: /\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar", "FooBot"))
+        self.assertFalse(rp.allowed("http://foo.bar/foo/quz", "FooBot"))
 
     def test_skip_unknown_directives(self):
         content = """
@@ -728,15 +849,15 @@ class TestProtego(TestCase):
         '''
         When we encounter unknown keys, we should disregard any grouping that may have
         happened between user agent rules.
-        This is an example from the wild. Despite `Noindex` not being a valid directive,
+        This is an example from the wild. `Invalid_directive` not being a valid directive,
         we'll not consider the '*' and 'ia_archiver' rules together.
         '''
         content = """
         User-agent: abc
         Disallow: /content/2/
         User-agent: *
-        Noindex: /gb.html
-        Noindex: /content/2/
+        Invalid_directive: /gb.html
+        Invalid_directive: /content/2/
         User-agent: ia_archiver
         Disallow: /
         """
@@ -786,3 +907,95 @@ class TestProtego(TestCase):
         self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
         self.assertTrue(rp.allowed(url_allowed, 'threebot'))
         self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
+
+    def test_line_endings(self):
+        dos_file = ("User-Agent: foo\r\n"
+                    "Allow: /some/path\r\n"
+                    "User-Agent: bar\r\n"
+                    "\r\n"
+                    "\r\n"
+                    "Disallow: /\r\n")
+
+        unix_file = ("User-Agent: foo\n"
+                     "Allow: /some/path\n"
+                     "User-Agent: bar\n"
+                     "\n"
+                     "\n"
+                     "Disallow: /\n")
+
+        mac_file = ("User-Agent: foo\r"
+                    "Allow: /some/path\r"
+                    "User-Agent: bar\r"
+                    "\r"
+                    "\r"
+                    "Disallow: /\r")
+
+        no_final_line_ending = ("User-Agent: foo\n"
+                                "Allow: /some/path\n"
+                                "User-Agent: bar\n"
+                                "\n"
+                                "\n"
+                                "Disallow: /")
+
+        mixed_file = ("User-Agent: foo\n"
+                      "Allow: /some/path\r\n"
+                      "User-Agent: bar\n"
+                      "\r\n"
+                      "\n"
+                      "Disallow: /")
+
+        test_url = 'http://site.local/some/path/'
+        for content in [dos_file, unix_file, mac_file, no_final_line_ending, mixed_file]:
+            rp = Protego.parse(content=content)
+            self.assertEqual(rp._total_line_seen(), 6)
+            self.assertEqual(rp._total_directive_seen(), 4)
+            self.assertTrue(rp.allowed(test_url, 'foo'))
+            self.assertFalse(rp.allowed(test_url, 'bar'))
+
+    def test_index_html_is_directory(self):
+        content = ("User-Agent: *\n"
+                   "Allow: /allowed-slash/index.html\n"
+                   "Disallow: /\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.com/allowed-slash/", "footbot"))
+        self.assertTrue(rp.allowed("http://foo.com/allowed-slash/index.html", "footbot"))
+        self.assertFalse(rp.allowed("http://foo.com/allowed-slash/index.htm", "footbot"))
+        self.assertFalse(rp.allowed("http://foo.com/anyother-url", "footbot"))
+
+    def test_percentage_encoding(self):
+        content = ("User-agent: FooBot\n"
+                   "Disallow: /\n"
+                   "Allow: /foo/bar?qux=taz&baz=http://foo.bar?tar&par\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar?qux=taz&baz=http://foo.bar?tar&par", "FooBot"))
+
+        content = ("User-agent: FooBot\n"
+                   "Disallow: /\n"
+                   "Allow: /foo/bar/ツ\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/ツ", "FooBot"))
+
+        content = ("User-agent: FooBot\n"
+                   "Disallow: /\n"
+                   "Allow: /foo/bar/%E3%83%84\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/ツ", "FooBot"))
+
+        content = ("User-agent: FooBot\n"
+                   "Disallow: /\n"
+                   "Allow: /foo/bar/%62%61%7A\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/baz", "FooBot"))
+        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%62%61%7A", "FooBot"))
+
+    def test_url_case_sensitivity(self):
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x/\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.allowed("http://foo.bar/x/y", "FooBot"))
+        content = ("user-agent: FooBot\n"
+                   "disallow: /X/\n")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.allowed("http://foo.bar/x/y", "FooBot"))

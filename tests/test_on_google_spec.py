@@ -79,6 +79,8 @@ def test_user_agent_precedence(path, user_agent):
         ('/*.php', '/filename.php/', True),
         ('/*.php', '/windows.PHP', False),
         ('/*.php', '/', False),
+        ('/*.php', '/index?f=filename.php/', True),
+        ('/*.php', '/index?php', False),
 
         ('/*.php$', '/filename.php', True),
         ('/*.php$', '/folder/filename.php', True),
@@ -86,6 +88,7 @@ def test_user_agent_precedence(path, user_agent):
         ('/*.php$', '/filename.php/', False),
         ('/*.php$', '/filename.php5', False),
         ('/*.php$', '/windows.PHP', False),
+        ('/*.php$', '/filename?php', False),
 
         ('/fish*.php', '/fish.php', True),
         ('/fish*.php', '/fishheads/catfish.php?parameters', True),

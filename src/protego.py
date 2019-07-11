@@ -3,47 +3,36 @@ from datetime import time
 from collections import namedtuple
 from six.moves.urllib.parse import urlparse, urlunparse, ParseResult, quote, unquote
 
-Record = namedtuple('Record', ['field', 'value'])
+Rule = namedtuple('Rule', ['field', 'value'])
 RequestRate = namedtuple(
     'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
 
-DISALLOW_DIRECTIVE = ['disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw']
-ALLOW_DIRECTIVE = ['allow']
-USER_AGENT_DIRECTIVE = ['user-agent', 'useragent', 'user agent']
-SITEMAP_DIRECTIVE = ['sitemap', 'sitemaps', 'site-map']
-CRAWL_DELAY_DIRECTIVE = ['crawl-delay', 'crawl delay']
-REQUEST_RATE_DIRECTIVE = ['request-rate', 'request rate']
+DISALLOW_DIRECTIVE = {'disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw'}
+ALLOW_DIRECTIVE = {'allow'}
+USER_AGENT_DIRECTIVE = {'user-agent', 'useragent', 'user agent'}
+SITEMAP_DIRECTIVE = {'sitemap', 'sitemaps', 'site-map'}
+CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
+REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
 
 
-def is_valid_directive(d):
-    return d in DISALLOW_DIRECTIVE or d in ALLOW_DIRECTIVE \
-        or d in USER_AGENT_DIRECTIVE or d in SITEMAP_DIRECTIVE \
-        or d in CRAWL_DELAY_DIRECTIVE or d in REQUEST_RATE_DIRECTIVE
-
-
-class RecordGroup:
+class RuleSet:
 
     def __init__(self):
-        self.user_agents = []
+        self.user_agent = None
         self.rules = []
         self.crawl_delay = None
-        self.sorted_rules = None
+        self.rules_sorted = False
         self.req_rate = None
 
-    def add_user_agent(self, user_agent):
-        user_agent = user_agent.strip().lower()
-        if user_agent != '*' and '*' in user_agent:
-            user_agent = user_agent.replace('*', '')
-        self.user_agents.append(user_agent)
+    def set_user_agent(self, user_agent):
+        self.user_agent = user_agent
 
     def applies_to(self, robotname):
         robotname = robotname.strip().lower()
-        for user_agent in self.user_agents:
-            if user_agent == '*':
-                return 1
-            if user_agent in robotname:
-                return len(user_agent)
-
+        if self.user_agent == '*':
+            return 1
+        if self.user_agent in robotname:
+            return len(self.user_agent)
         return 0
 
     def _quote_path(self, path, safe='/'):
@@ -58,11 +47,15 @@ class RecordGroup:
 
     def allow(self, path):
         path = self._quote_path(path, safe='/*$')
-        self.rules.append(Record(field='allow', value=path))
+        self.rules.append(Rule(field='allow', value=path))
+
+        # if index.html is allowed, we interpret this as / being allowed too.
+        if path.endswith('/index.html'):
+            self.allow(path[:-10] + '$')
 
     def disallow(self, path):
         path = self._quote_path(path, safe='/*$')
-        self.rules.append(Record(field='disallow', value=path))
+        self.rules.append(Rule(field='disallow', value=path))
 
     def _parser_match(self, pattern, url):
         pattern = re.sub(r'\*+', '*', pattern)
@@ -78,19 +71,16 @@ class RecordGroup:
         return False
 
     def allowed(self, url):
-        if not self.sorted_rules:
-            self.sorted_rules = sorted(
-                self.rules, key=lambda r: (len(r.value), r.field == 'allow'), reverse=True)
-
+        if not self.rules_sorted:
+            self.rules = sorted(self.rules, key=lambda r: (len(r.value), r.field == 'allow'), reverse=True)
+            self.rules_sorted = True
         url = self._quote_path(url)
-
         allowed = True
-        for record in self.sorted_rules:
-            if self._parser_match(record.value, url):
-                if record.field == 'disallow':
+        for rule in self.rules:
+            if self._parser_match(rule.value, url):
+                if rule.field == 'disallow':
                     allowed = False
                 break
-
         return allowed
 
     def set_crawl_delay(self, delay):
@@ -131,9 +121,12 @@ class RecordGroup:
 class Protego:
 
     def __init__(self):
-        self.record_groups = []
+        self.user_agents = {}
         self.host = None
         self.sitemap_list = []
+        self.total_line_seen = 0
+        self.invalid_directive_seen = 0
+        self.total_directive_seen = 0
 
     @classmethod
     def parse(cls, content):
@@ -142,11 +135,12 @@ class Protego:
         return o
 
     def _parse_robotstxt(self, content):
-        lines = content.split('\n')
-        current_record_group = None
-        previous_record = None
+        lines = content.splitlines()
+        current_user_agents = []
+        previous_rule = None
 
         for line in lines:
+            self.total_line_seen += 1
             hash_pos = line.find('#')
             if hash_pos != -1:
                 line = line[0: hash_pos].strip()
@@ -162,40 +156,52 @@ class Protego:
                 parts = line.rsplit(' ', 1)
                 if not len(parts) == 2:
                     continue
-                print(parts)
                 field, value = parts
 
             field = field.strip().lower()
             value = value.strip()
 
             if not value:
-                previous_record = Record(field, value)
+                previous_rule = Rule(field, value)
                 continue
 
-            if not current_record_group and field != 'user-agent':
+            if not current_user_agents and field not in USER_AGENT_DIRECTIVE:
                 continue
+
+            self.total_directive_seen += 1
 
             if field in USER_AGENT_DIRECTIVE:
-                if previous_record and previous_record.field != 'user-agent':
-                    current_record_group = None
+                if previous_rule and previous_rule.field not in USER_AGENT_DIRECTIVE:
+                    current_user_agents = []
 
-                if not current_record_group:
-                    current_record_group = RecordGroup()
-                    self.record_groups.append(current_record_group)
+                user_agent = value.strip().lower()
+                if user_agent != '*' and '*' in user_agent:
+                    user_agent = user_agent.replace('*', '')
 
-                current_record_group.add_user_agent(value)
+                rule_set = self.user_agents.get(user_agent, None)
+                if rule_set and rule_set not in current_user_agents:
+                    current_user_agents.append(rule_set)
+
+                if not rule_set:
+                    rule_set = RuleSet()
+                    rule_set.set_user_agent(user_agent)
+                    self.user_agents[user_agent] = rule_set
+                    current_user_agents.append(rule_set)
 
             elif field in ALLOW_DIRECTIVE:
-                current_record_group.allow(value)
+                for user_agent in current_user_agents:
+                    user_agent.allow(value)
 
             elif field in DISALLOW_DIRECTIVE:
-                current_record_group.disallow(value)
+                for user_agent in current_user_agents:
+                    user_agent.disallow(value)
 
             elif field in SITEMAP_DIRECTIVE:
                 self.sitemap_list.append(value)
 
             elif field in CRAWL_DELAY_DIRECTIVE:
-                current_record_group.set_crawl_delay(value)
+                for user_agent in current_user_agents:
+                    user_agent.set_crawl_delay(value)
 
             elif field in REQUEST_RATE_DIRECTIVE:
                 parts = value.split()
@@ -203,46 +209,58 @@ class Protego:
                     rate, time_period = parts
                 else:
                     rate, time_period = parts[0], ''
-                current_record_group.set_request_rate(rate, time_period)
+                for user_agent in current_user_agents:
+                    user_agent.set_request_rate(rate, time_period)
 
             elif field == 'host':
                 self.host = value
 
-            previous_record = Record(field, value)
+            else:
+                self.invalid_directive_seen += 1
 
-        for record_group in self.record_groups:
-            print(record_group.user_agents)
-            if '*' in record_group.user_agents:
-                self.record_groups.sort(key=lambda o: o is record_group)
-                break
+            previous_rule = Rule(field, value)
 
-    def _get_matching_record_group(self, user_agent):
-        match_score, matched_group = max(
-            ((rg.applies_to(user_agent), rg) for rg in self.record_groups), key=lambda p: p[0], default=(0, None))
+    def _get_matching_rule_set(self, user_agent):
+        score_rule_set_pairs = ((rs.applies_to(user_agent), rs) for rs in self.user_agents.values())
+        match_score, matched_rule_set = max(score_rule_set_pairs, key=lambda p: p[0], default=(0, None))
         if not match_score:
             return None
-        return matched_group
+        return matched_rule_set
 
     def allowed(self, url, user_agent):
-        matched_group = self._get_matching_record_group(user_agent)
-        if not matched_group:
+        matched_rule_set = self._get_matching_rule_set(user_agent)
+        if not matched_rule_set:
             return True
-        return matched_group.allowed(url)
+        return matched_rule_set.allowed(url)
 
     def crawl_delay(self, user_agent):
-        matched_group = self._get_matching_record_group(user_agent)
-        if not matched_group:
+        matched_rule_set = self._get_matching_rule_set(user_agent)
+        if not matched_rule_set:
             return None
-        return matched_group.get_crawl_delay()
+        return matched_rule_set.get_crawl_delay()
 
     def request_rate(self, user_agent):
-        matched_group = self._get_matching_record_group(user_agent)
-        if not matched_group:
+        matched_rule_set = self._get_matching_rule_set(user_agent)
+        if not matched_rule_set:
             return None
-        return matched_group.get_request_rate()
+        return matched_rule_set.get_request_rate()
 
     def sitemaps(self):
         return iter(self.sitemap_list)
 
     def preferred_host(self):
         return self.host
+
+    # methods below are only used by tests
+
+    def _total_line_seen(self):
+        return self.total_line_seen
+
+    def _valid_directive_seen(self):
+        return self.total_directive_seen - self.invalid_directive_seen
+
+    def _total_directive_seen(self):
+        return self.total_directive_seen
+
+    def _invalid_directive_seen(self):
+        return self.invalid_directive_seen
