@@ -221,8 +221,10 @@ class Protego:
             previous_rule = Rule(field, value)
 
     def _get_matching_rule_set(self, user_agent):
+        if not self.user_agents:
+            return None
         score_rule_set_pairs = ((rs.applies_to(user_agent), rs) for rs in self.user_agents.values())
-        match_score, matched_rule_set = max(score_rule_set_pairs, key=lambda p: p[0], default=(0, None))
+        match_score, matched_rule_set = max(score_rule_set_pairs, key=lambda p: p[0])
         if not match_score:
             return None
         return matched_rule_set
