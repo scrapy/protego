@@ -971,17 +971,17 @@ class TestProtego(TestCase):
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"
-                   "Allow: /foo/bar/ツ\n")
+                   u"Allow: /foo/bar/ツ\n")
         rp = Protego.parse(content=content)
         self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/ツ", "FooBot"))
+        self.assertTrue(rp.allowed(u"http://foo.bar/foo/bar/ツ", "FooBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"
                    "Allow: /foo/bar/%E3%83%84\n")
         rp = Protego.parse(content=content)
         self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/ツ", "FooBot"))
+        self.assertTrue(rp.allowed(u"http://foo.bar/foo/bar/ツ", "FooBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"

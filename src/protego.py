@@ -1,6 +1,7 @@
 import re
 from datetime import time
 from collections import namedtuple
+import six
 from six.moves.urllib.parse import urlparse, urlunparse, ParseResult, quote, unquote
 
 Rule = namedtuple('Rule', ['field', 'value'])
@@ -40,8 +41,12 @@ class RuleSet:
             return path
         parts = urlparse(path)
         path = re.sub("%2[fF]", "\n", parts.path)
-        parts = ParseResult('', '', quote(unquote(path), safe=safe).replace("\n", "%2F"),
-                            parts.params, parts.query, parts.fragment)
+        if six.PY2:
+            path = quote(unquote(path.encode('utf-8')), safe=safe).decode('utf-8')
+        else:
+            path = quote(unquote(path), safe=safe)
+        path.replace("\n", "%2F")
+        parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
 
