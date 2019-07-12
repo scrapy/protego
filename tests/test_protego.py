@@ -11,29 +11,29 @@ class TestProtego(TestCase):
                    "Allow: /allowed \n"
                    "Crawl-delay: 10")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://www.site.local/allowed", "*"))
-        self.assertFalse(rp.allowed("https://www.site.local/disallowed", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/allowed", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/disallowed", "*"))
 
     def test_length_based_precedence(self):
         content = ("User-agent: * \n"
                    "Disallow: / \n"
                    "Allow: /page")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://www.site.local/page", "*"))
-        self.assertFalse(rp.allowed("https://www.site.local/elsewhere", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/page", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/elsewhere", "*"))
 
         content = ("user-agent: FooBot\n"
                    "disallow: /x/page.html\n"
                    "allow: /x/\n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/page.html", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /x/page.html\n"
                    "disallow: /x/\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
-        self.assertFalse(rp.allowed("http://foo.bar/x/", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/page.html", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/", "FooBot"))
 
         # In case of equivalent disallow and allow patterns for the same
         # user-agent, allow is used.
@@ -41,41 +41,41 @@ class TestProtego(TestCase):
                    "disallow: \n"
                    "allow: \n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/page.html", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "disallow: /\n"
                    "allow: /\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/page.html", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "disallow: /x\n"
                    "allow: /x/\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/x/", "FooBot"))
-        self.assertFalse(rp.allowed("http://foo.bar/x", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "disallow: /x/page.html\n"
                    "allow: /x/page.html\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/page.html", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /page\n"
                    "disallow: /*.html\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/page", "FooBot"))
-        self.assertFalse(rp.allowed("http://foo.bar/page.html", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/page", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/page.html", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /x/page.\n"
                    "disallow: /*.html\n")
         rp = Protego.parse(content=content)
         # Longest match wins.
-        self.assertTrue(rp.allowed("http://foo.bar/x/page.html", "FooBot"))
-        self.assertFalse(rp.allowed("http://foo.bar/x/y.html", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/page.html", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/y.html", "FooBot"))
 
         content = ("User-agent: *\n"
                    "Disallow: /x/\n"
@@ -83,88 +83,88 @@ class TestProtego(TestCase):
                    "Disallow: /y/\n")
         rp = Protego.parse(content=content)
         # Most specific group for FooBot allows implicitly /x/page.
-        self.assertTrue(rp.allowed("http://foo.bar/x/page", "FooBot"))
-        self.assertFalse(rp.allowed("http://foo.bar/y/page", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/page", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/y/page", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /p\n"
                    "disallow: /\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://example.com/page", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/page", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /folder\n"
                    "disallow: /folder\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://example.com/folder/page", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/folder/page", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "disallow: /folder\n"
                    "allow: /folder\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://example.com/folder/page", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/folder/page", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /page\n"
                    "disallow: /*.htm\n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("http://example.com/page.htm", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://example.com/page.htm", "FooBot"))
 
         content = ("user-agent: FooBot\n"
                    "allow: /$\n"
                    "disallow: /\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://example.com/", "FooBot"))
-        self.assertFalse(rp.allowed("http://example.com/page.html", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://example.com/page.html", "FooBot"))
 
     def test_escaped_url(self):
         content = ("User-agent: * \n"
                    "Disallow: / \n"
                    "Allow: /a%3cd.html")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://www.site.local/a<d.html", "*"))
-        self.assertTrue(rp.allowed("https://www.site.local/a%3cd.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a<d.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a%3cd.html", "*"))
 
         content = ("User-agent: * \n"
                    "Disallow: / \n"
                    "Allow: /a%3c*")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://www.site.local/a<d.html", "*"))
-        self.assertTrue(rp.allowed("https://www.site.local/a%3cd.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a<d.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a%3cd.html", "*"))
 
     def test_unescaped_url(self):
         content = ("User-agent: * \n"
                    "Disallow: / \n"
                    "Allow: /a<d.html")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://www.site.local/a<d.html", "*"))
-        self.assertTrue(rp.allowed("https://www.site.local/a%3cd.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a<d.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a%3cd.html", "*"))
 
         content = ("User-agent: * \n"
                    "Disallow: / \n"
                    "Allow: /a<*")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://www.site.local/a<d.html", "*"))
-        self.assertTrue(rp.allowed("https://www.site.local/a%3cd.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a<d.html", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/a%3cd.html", "*"))
 
     def test_url_parts(self):
         content = ("User-agent: * \n"
                    "Disallow: /path;params?query \n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "http://userinfo@exmaple.com:10/path;params?query#fragment", "*"))
 
         content = ("User-agent: * \n"
                    "Disallow: /? \n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("/?query", "*"))
-        self.assertTrue(rp.allowed('/', '*'))
+        self.assertFalse(rp.can_fetch("/?query", "*"))
+        self.assertTrue(rp.can_fetch('/', '*'))
 
         content = ("User-agent: * \n"
                    "Disallow: /; \n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("/;params", "*"))
-        self.assertTrue(rp.allowed('/', '*'))
+        self.assertFalse(rp.can_fetch("/;params", "*"))
+        self.assertTrue(rp.can_fetch('/', '*'))
 
     def test_sitemaps(self):
         content = ("User-agent: * \n"
@@ -175,7 +175,7 @@ class TestProtego(TestCase):
                    "User-agent: testbot \n"
                    "Sitemap: https://site.local/sitemap2.xml")
         rp = Protego.parse(content=content)
-        sitemaps = list(rp.sitemaps())
+        sitemaps = list(rp.sitemaps)
         self.assertTrue(len(sitemaps) == 2)
         self.assertTrue("https://site.local/sitemap.xml" in sitemaps)
         self.assertTrue("https://site.local/sitemap2.xml" in sitemaps)
@@ -186,7 +186,7 @@ class TestProtego(TestCase):
                    "Allow: /allowed \n"
                    "Crawl-delay: 10")
         rp = Protego.parse(content=content)
-        self.assertTrue(not list(rp.sitemaps()))
+        self.assertTrue(not list(rp.sitemaps))
 
     def test_no_preferred_host(self):
         content = ("User-agent: * \n"
@@ -194,7 +194,7 @@ class TestProtego(TestCase):
                    "Allow: /allowed \n"
                    "Crawl-delay: 10")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.preferred_host() is None)
+        self.assertTrue(rp.preferred_host is None)
 
     def test_crawl_delay(self):
         content = ("User-agent: * \n"
@@ -282,10 +282,10 @@ class TestProtego(TestCase):
     def test_empty_response(self):
         """empty response should equal 'allow all'"""
         rp = Protego.parse(content='')
-        self.assertTrue(rp.allowed("https://site.local/", "*"))
-        self.assertTrue(rp.allowed("https://site.local/", "chrome"))
-        self.assertTrue(rp.allowed("https://site.local/index.html", "*"))
-        self.assertTrue(rp.allowed("https://site.local/disallowed", "*"))
+        self.assertTrue(rp.can_fetch("https://site.local/", "*"))
+        self.assertTrue(rp.can_fetch("https://site.local/", "chrome"))
+        self.assertTrue(rp.can_fetch("https://site.local/index.html", "*"))
+        self.assertTrue(rp.can_fetch("https://site.local/disallowed", "*"))
 
     def test_allowed_wildcards(self):
         content = """User-agent: first
@@ -298,30 +298,30 @@ class TestProtego(TestCase):
                 """
         rp = Protego.parse(content=content)
 
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch(
             "https://www.site.local/disallowed", "first"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://www.site.local/disallowed/xyz/end", "first"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://www.site.local/disallowed/abc/end", "first"))
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch(
             "https://www.site.local/disallowed/xyz/endinglater", "first"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://www.site.local/protegoworks", "first"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://www.site.local/protego_works", "first"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://www.site.local/protego/works", "first"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://www.site.local/protego_does_work", "first"))
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch(
             "https://www.site.local/rotego_does_work", "first"))
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch(
             "https://www.site.local/protego_does_wor", "first"))
-        self.assertTrue(rp.allowed("https://www.site.local/allowed", "second"))
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch("https://www.site.local/allowed", "second"))
+        self.assertTrue(rp.can_fetch(
             "https://www.site.local/is_still_allowed", "second"))
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch(
             "https://www.site.local/is_allowed_too", "second"))
 
         content = """
@@ -357,7 +357,7 @@ class TestProtego(TestCase):
         rp = Protego.parse(content=content)
 
         def is_allowed(ua, url):
-            return rp.allowed(url, ua)
+            return rp.can_fetch(url, ua)
         self.assertTrue(is_allowed("Rule1TestBot", "/fo.html"))
         self.assertFalse(is_allowed("Rule1TestBot", "/foo.html"))
         self.assertFalse(is_allowed("Rule1TestBot", "/food"))
@@ -401,19 +401,19 @@ class TestProtego(TestCase):
                    "Disallow: /foo/bar/quz\n"
                    "Allow: /foo/*/qux\n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("http://foo.bar/foo/bar/quz", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/quz", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo//quz", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bax/quz", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/foo/bar/quz", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/quz", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo//quz", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bax/quz", "FooBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /foo/bar$\n"
                    "Allow: /foo/bar/qux\n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("http://foo.bar/foo/bar", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/qux", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/baz", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/foo/bar", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/qux", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/baz", "FooBot"))
 
     def test_unicode_url_and_useragent(self):
         content = u"""
@@ -427,20 +427,20 @@ class TestProtego(TestCase):
         User-Agent: UnicödeBöt
         Disallow: /some/randome/page.html"""
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://site.local/", "*"))
-        self.assertFalse(rp.allowed("https://site.local/admin/", "*"))
-        self.assertFalse(rp.allowed("https://site.local/static/", "*"))
-        self.assertTrue(rp.allowed("https://site.local/admin/", u"UnicödeBöt"))
-        self.assertFalse(rp.allowed(
+        self.assertTrue(rp.can_fetch("https://site.local/", "*"))
+        self.assertFalse(rp.can_fetch("https://site.local/admin/", "*"))
+        self.assertFalse(rp.can_fetch("https://site.local/static/", "*"))
+        self.assertTrue(rp.can_fetch("https://site.local/admin/", u"UnicödeBöt"))
+        self.assertFalse(rp.can_fetch(
             "https://site.local/wiki/K%C3%A4ytt%C3%A4j%C3%A4:", "*"))
-        self.assertFalse(rp.allowed(u"https://site.local/wiki/Käyttäjä:", "*"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(u"https://site.local/wiki/Käyttäjä:", "*"))
+        self.assertFalse(rp.can_fetch(
             u"https://site.local/wiki/Keskustelu_k%C3%A4ytt%C3%A4j%C3%A4st%C3%A4:", "*"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             u"https://site.local/wiki/Keskustelu_käyttäjästä:", "*"))
-        self.assertTrue(rp.allowed(
+        self.assertTrue(rp.can_fetch(
             "https://site.local/some/randome/page.html", "*"))
-        self.assertFalse(rp.allowed(
+        self.assertFalse(rp.can_fetch(
             "https://site.local/some/randome/page.html", u"UnicödeBöt"))
 
         content = """
@@ -456,7 +456,7 @@ class TestProtego(TestCase):
         rp = Protego.parse(content=content)
 
         def is_allowed(ua, url):
-            return rp.allowed(url, ua)
+            return rp.can_fetch(url, ua)
 
         user_agent = "jävla-fanbot"
         self.assertTrue(is_allowed(user_agent, "/foo/bar.html"))
@@ -477,11 +477,11 @@ class TestProtego(TestCase):
         Disallow: /withUA
         """
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://site.local/withoutUA", "mybot"))
-        self.assertTrue(rp.allowed("https://site.local/withoutUA", "testbot"))
-        self.assertTrue(rp.allowed("https://site.local/withoutUA", "*"))
-        self.assertTrue(rp.allowed("https://site.local/withUA", "mybot"))
-        self.assertFalse(rp.allowed("https://site.local/withUA", "testbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/withoutUA", "mybot"))
+        self.assertTrue(rp.can_fetch("https://site.local/withoutUA", "testbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/withoutUA", "*"))
+        self.assertTrue(rp.can_fetch("https://site.local/withUA", "mybot"))
+        self.assertFalse(rp.can_fetch("https://site.local/withUA", "testbot"))
         self.assertTrue(rp.crawl_delay('testbot') is None)
         self.assertTrue(rp.crawl_delay('*') is None)
 
@@ -497,9 +497,9 @@ class TestProtego(TestCase):
         Disallow: /testbot
         """
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("https://site.local/default-UA", "mybot"))
-        self.assertTrue(rp.allowed("https://site.local/default-UA", "testbot"))
-        self.assertTrue(rp.allowed("https://site.local/default-UA", "robot"))
+        self.assertFalse(rp.can_fetch("https://site.local/default-UA", "mybot"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-UA", "testbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-UA", "robot"))
 
     def test_user_agent_case_insensitivity(self):
         content = """
@@ -510,12 +510,12 @@ class TestProtego(TestCase):
         Disallow: /default-UA
         """
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("https://site.local/testbot", "TESTbot"))
-        self.assertTrue(rp.allowed("https://site.local/default-UA", "TESTbot"))
-        self.assertFalse(rp.allowed("https://site.local/testbot", "testbot"))
-        self.assertTrue(rp.allowed("https://site.local/default-UA", "testbot"))
-        self.assertFalse(rp.allowed("https://site.local/testbot", "tEStbOt"))
-        self.assertTrue(rp.allowed("https://site.local/default-UA", "tEStbOt"))
+        self.assertFalse(rp.can_fetch("https://site.local/testbot", "TESTbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-UA", "TESTbot"))
+        self.assertFalse(rp.can_fetch("https://site.local/testbot", "testbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-UA", "testbot"))
+        self.assertFalse(rp.can_fetch("https://site.local/testbot", "tEStbOt"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-UA", "tEStbOt"))
 
     def test_user_agent_grouping(self):
         content = """
@@ -526,10 +526,10 @@ class TestProtego(TestCase):
         Disallow: /failure
         """
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("https://site.local/success", "one"))
-        self.assertFalse(rp.allowed("https://site.local/success", "two"))
-        self.assertTrue(rp.allowed("https://site.local/failure", "one"))
-        self.assertTrue(rp.allowed("https://site.local/failure", "two"))
+        self.assertFalse(rp.can_fetch("https://site.local/success", "one"))
+        self.assertFalse(rp.can_fetch("https://site.local/success", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/failure", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/failure", "two"))
 
         content = (
             "allow: /foo/bar/\n"
@@ -554,17 +554,17 @@ class TestProtego(TestCase):
         url_z = "http://foo.bar/z/d"
         url_foo = "http://foo.bar/foo/bar/"
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed(url_x, "FooBot"))
-        self.assertTrue(rp.allowed(url_z, "FooBot"))
-        self.assertFalse(rp.allowed(url_y, "FooBot"))
-        self.assertTrue(rp.allowed(url_y, "BarBot"))
-        self.assertTrue(rp.allowed(url_w, "BarBot"))
-        self.assertFalse(rp.allowed(url_z, "BarBot"))
-        self.assertTrue(rp.allowed(url_z, "BazBot"))
+        self.assertTrue(rp.can_fetch(url_x, "FooBot"))
+        self.assertTrue(rp.can_fetch(url_z, "FooBot"))
+        self.assertFalse(rp.can_fetch(url_y, "FooBot"))
+        self.assertTrue(rp.can_fetch(url_y, "BarBot"))
+        self.assertTrue(rp.can_fetch(url_w, "BarBot"))
+        self.assertFalse(rp.can_fetch(url_z, "BarBot"))
+        self.assertTrue(rp.can_fetch(url_z, "BazBot"))
 
-        self.assertFalse(rp.allowed(url_foo, 'FooBot'))
-        self.assertFalse(rp.allowed(url_foo, 'BarBot'))
-        self.assertFalse(rp.allowed(url_foo, 'BazBot'))
+        self.assertFalse(rp.can_fetch(url_foo, 'FooBot'))
+        self.assertFalse(rp.can_fetch(url_foo, 'BarBot'))
+        self.assertFalse(rp.can_fetch(url_foo, 'BazBot'))
 
     def test_comments(self):
         content = """
@@ -579,20 +579,20 @@ class TestProtego(TestCase):
         Disallow: /default-ua
         """
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("https://site.local/one-two-bot", "one"))
-        self.assertFalse(rp.allowed("https://site.local/one-two-bot", "two"))
-        self.assertTrue(rp.allowed("https://site.local/commented", "one"))
-        self.assertTrue(rp.allowed("https://site.local/commented", "two"))
-        self.assertTrue(rp.allowed("https://site.local/default-ua", "one"))
-        self.assertTrue(rp.allowed("https://site.local/default-ua", "two"))
+        self.assertFalse(rp.can_fetch("https://site.local/one-two-bot", "one"))
+        self.assertFalse(rp.can_fetch("https://site.local/one-two-bot", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/commented", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/commented", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-ua", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/default-ua", "two"))
 
         content = ("User-agent: FooBot\n"
                    "# Disallow: /\n"
                    "Disallow: /foo/quz#qux\n"
                    "Allow: /\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar", "FooBot"))
-        self.assertFalse(rp.allowed("http://foo.bar/foo/quz", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/foo/quz", "FooBot"))
 
     def test_skip_unknown_directives(self):
         content = """
@@ -603,10 +603,10 @@ class TestProtego(TestCase):
         Disallow: /bot-two
         """
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("https://site.local/bot-one", "one"))
-        self.assertTrue(rp.allowed("https://site.local/bot-two", "one"))
-        self.assertFalse(rp.allowed("https://site.local/bot-two", "two"))
-        self.assertTrue(rp.allowed("https://site.local/bot-one", "two"))
+        self.assertFalse(rp.can_fetch("https://site.local/bot-one", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/bot-two", "one"))
+        self.assertFalse(rp.can_fetch("https://site.local/bot-two", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/bot-one", "two"))
 
     def test_skip_malformed_line(self):
         content = """
@@ -617,10 +617,10 @@ class TestProtego(TestCase):
         Disallow: /bot-two
         """
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("https://site.local/bot-one", "one"))
-        self.assertTrue(rp.allowed("https://site.local/bot-two", "one"))
-        self.assertFalse(rp.allowed("https://site.local/bot-two", "two"))
-        self.assertTrue(rp.allowed("https://site.local/bot-one", "two"))
+        self.assertFalse(rp.can_fetch("https://site.local/bot-one", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/bot-two", "one"))
+        self.assertFalse(rp.can_fetch("https://site.local/bot-two", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/bot-one", "two"))
 
     def test_empty_disallow_allow_directives(self):
         """Directives without path should be ignored."""
@@ -632,10 +632,10 @@ class TestProtego(TestCase):
         Allow:
         """
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://site.local/path1", "one"))
-        self.assertTrue(rp.allowed("https://site.local/path2", "one"))
-        self.assertTrue(rp.allowed("https://site.local/path1", "two"))
-        self.assertTrue(rp.allowed("https://site.local/path2", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/path1", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/path2", "one"))
+        self.assertTrue(rp.can_fetch("https://site.local/path1", "two"))
+        self.assertTrue(rp.can_fetch("https://site.local/path2", "two"))
 
     def test_empty_record_group(self):
         content = """
@@ -644,8 +644,8 @@ class TestProtego(TestCase):
         User-Agent: testbot
         """
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("https://site.local/path1", "testbot"))
-        self.assertTrue(rp.allowed("https://site.local/path2", "testbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/path1", "testbot"))
+        self.assertTrue(rp.can_fetch("https://site.local/path2", "testbot"))
 
     def test_1994rfc_example(self):
         """Test parser on examples form 1994 RFC."""
@@ -658,21 +658,21 @@ class TestProtego(TestCase):
         """
         rp = Protego.parse(content=content)
         user_agent = "CrunchyFrogBot"
-        self.assertTrue(rp.allowed("/", user_agent))
-        self.assertFalse(rp.allowed("/foo.html", user_agent))
-        self.assertTrue(rp.allowed("/foo.htm", user_agent))
-        self.assertTrue(rp.allowed("/foo.shtml", user_agent))
-        self.assertFalse(rp.allowed("/foo.htmlx", user_agent))
-        self.assertTrue(rp.allowed("/cyberworld/index.html", user_agent))
-        self.assertFalse(rp.allowed("/tmp/foo.html", user_agent))
+        self.assertTrue(rp.can_fetch("/", user_agent))
+        self.assertFalse(rp.can_fetch("/foo.html", user_agent))
+        self.assertTrue(rp.can_fetch("/foo.htm", user_agent))
+        self.assertTrue(rp.can_fetch("/foo.shtml", user_agent))
+        self.assertFalse(rp.can_fetch("/foo.htmlx", user_agent))
+        self.assertTrue(rp.can_fetch("/cyberworld/index.html", user_agent))
+        self.assertFalse(rp.can_fetch("/tmp/foo.html", user_agent))
         # Since it is the caller's responsibility to make sure the host name
         # matches, the parser disallows foo.html regardless of what I pass for
         # host name and protocol.
-        self.assertFalse(rp.allowed("http://example.com/foo.html", user_agent))
-        self.assertFalse(rp.allowed("http://www.example.com/foo.html", user_agent))
-        self.assertFalse(rp.allowed("http://www.example.org/foo.html", user_agent))
-        self.assertFalse(rp.allowed("https://www.example.org/foo.html", user_agent))
-        self.assertFalse(rp.allowed("ftp://example.net/foo.html", user_agent))
+        self.assertFalse(rp.can_fetch("http://example.com/foo.html", user_agent))
+        self.assertFalse(rp.can_fetch("http://www.example.com/foo.html", user_agent))
+        self.assertFalse(rp.can_fetch("http://www.example.org/foo.html", user_agent))
+        self.assertFalse(rp.can_fetch("https://www.example.org/foo.html", user_agent))
+        self.assertFalse(rp.can_fetch("ftp://example.net/foo.html", user_agent))
 
     def test_1996rfc_examples(self):
         """Test parser on examples form 1996 RFC."""
@@ -712,22 +712,22 @@ class TestProtego(TestCase):
         Disallow: /
         """
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("/tmp.html", "1bot"))
-        self.assertTrue(rp.allowed("/tmp", "1bot"))
-        self.assertTrue(rp.allowed("/tmp/a.html", "1bot"))
-        self.assertFalse(rp.allowed("/tmp", "2bot"))
-        self.assertTrue(rp.allowed("/tmp/", "2bot"))
-        self.assertTrue(rp.allowed("/tmp/a.html", "2bot"))
-        self.assertTrue(rp.allowed("/a%3cd.html", "3bot"))
-        self.assertTrue(rp.allowed("/a%3Cd.html", "3bot"))
-        self.assertTrue(rp.allowed("/a%3cd.html", "4bot"))
-        self.assertTrue(rp.allowed("/a%3Cd.html", "4bot"))
-        self.assertTrue(rp.allowed("/a%2fb.html", "5bot"))
-        self.assertFalse(rp.allowed("/a/b.html", "5bot"))
-        self.assertFalse(rp.allowed("/a%2fb.html", "6bot"))
-        self.assertTrue(rp.allowed("/a/b.html", "6bot"))
-        self.assertTrue(rp.allowed("/~joe/index.html", "7bot"))
-        self.assertTrue(rp.allowed("/%7Ejoe/index.html", "8bot"))
+        self.assertTrue(rp.can_fetch("/tmp.html", "1bot"))
+        self.assertTrue(rp.can_fetch("/tmp", "1bot"))
+        self.assertTrue(rp.can_fetch("/tmp/a.html", "1bot"))
+        self.assertFalse(rp.can_fetch("/tmp", "2bot"))
+        self.assertTrue(rp.can_fetch("/tmp/", "2bot"))
+        self.assertTrue(rp.can_fetch("/tmp/a.html", "2bot"))
+        self.assertTrue(rp.can_fetch("/a%3cd.html", "3bot"))
+        self.assertTrue(rp.can_fetch("/a%3Cd.html", "3bot"))
+        self.assertTrue(rp.can_fetch("/a%3cd.html", "4bot"))
+        self.assertTrue(rp.can_fetch("/a%3Cd.html", "4bot"))
+        self.assertTrue(rp.can_fetch("/a%2fb.html", "5bot"))
+        self.assertFalse(rp.can_fetch("/a/b.html", "5bot"))
+        self.assertFalse(rp.can_fetch("/a%2fb.html", "6bot"))
+        self.assertTrue(rp.can_fetch("/a/b.html", "6bot"))
+        self.assertTrue(rp.can_fetch("/~joe/index.html", "7bot"))
+        self.assertTrue(rp.can_fetch("/%7Ejoe/index.html", "8bot"))
 
         content = """
         # /robots.txt for http://www.example.org/
@@ -750,7 +750,7 @@ class TestProtego(TestCase):
         rp = Protego.parse(content=content)
 
         def is_allowed(ua, url):
-            return rp.allowed(url, ua)
+            return rp.can_fetch(url, ua)
         self.assertFalse(is_allowed("unhipbot", "http://www.example.org/"))
         self.assertTrue(is_allowed("webcrawler", "http://www.example.org/"))
         self.assertTrue(is_allowed("excite", "http://www.example.org/"))
@@ -839,7 +839,7 @@ class TestProtego(TestCase):
         rp = Protego.parse(content=content)
 
         def is_allowed(ua, url):
-            return rp.allowed(url, ua)
+            return rp.can_fetch(url, ua)
         self.assertTrue(is_allowed("foobot", "/"))
         self.assertTrue(is_allowed("foobot", "/bar.html"))
         self.assertFalse(is_allowed("SomeOtherBot", "/"))
@@ -862,27 +862,27 @@ class TestProtego(TestCase):
         Disallow: /
         """
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed('/foo', 'agent'))
-        self.assertTrue(rp.allowed('/foobar', 'agent'))
-        self.assertTrue(rp.allowed('/content/2', 'agent'))
-        self.assertFalse(rp.allowed('/bar', 'ia_archiver'))
-        self.assertFalse(rp.allowed('/foo', 'ia_archiver'))
-        self.assertFalse(rp.allowed('/foobar', 'ia_archiver'))
-        self.assertFalse(rp.allowed('/content/2', 'ia_archiver'))
+        self.assertTrue(rp.can_fetch('/foo', 'agent'))
+        self.assertTrue(rp.can_fetch('/foobar', 'agent'))
+        self.assertTrue(rp.can_fetch('/content/2', 'agent'))
+        self.assertFalse(rp.can_fetch('/bar', 'ia_archiver'))
+        self.assertFalse(rp.can_fetch('/foo', 'ia_archiver'))
+        self.assertFalse(rp.can_fetch('/foobar', 'ia_archiver'))
+        self.assertFalse(rp.can_fetch('/content/2', 'ia_archiver'))
 
     def test_generosity(self):
         robotstxt_incorrect = """
         Foo: Foobot
         Bar: /"""
         rp = Protego.parse(content=robotstxt_incorrect)
-        self.assertTrue(rp.allowed('http://foo.bar/x/y', 'FooBot'))
+        self.assertTrue(rp.can_fetch('http://foo.bar/x/y', 'FooBot'))
 
         robotstxt_incorrect_accepted = """
         user-agent foobot
         disallow /
         """
         rp = Protego.parse(content=robotstxt_incorrect_accepted)
-        self.assertFalse(rp.allowed('http://foo.bar/x/y', 'FooBot'))
+        self.assertFalse(rp.can_fetch('http://foo.bar/x/y', 'FooBot'))
 
     def test_directive_case_insensitivity(self):
         content = """
@@ -901,12 +901,12 @@ class TestProtego(TestCase):
         url_allowed = "http://foo.bar/x/y"
         url_disallowed = "http://foo.bar/a/b"
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed(url_allowed, 'onebot'))
-        self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
-        self.assertTrue(rp.allowed(url_allowed, 'twobot'))
-        self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
-        self.assertTrue(rp.allowed(url_allowed, 'threebot'))
-        self.assertFalse(rp.allowed(url_disallowed, 'onebot'))
+        self.assertTrue(rp.can_fetch(url_allowed, 'onebot'))
+        self.assertFalse(rp.can_fetch(url_disallowed, 'onebot'))
+        self.assertTrue(rp.can_fetch(url_allowed, 'twobot'))
+        self.assertFalse(rp.can_fetch(url_disallowed, 'onebot'))
+        self.assertTrue(rp.can_fetch(url_allowed, 'threebot'))
+        self.assertFalse(rp.can_fetch(url_disallowed, 'onebot'))
 
     def test_line_endings(self):
         dos_file = ("User-Agent: foo\r\n"
@@ -947,55 +947,55 @@ class TestProtego(TestCase):
         test_url = 'http://site.local/some/path/'
         for content in [dos_file, unix_file, mac_file, no_final_line_ending, mixed_file]:
             rp = Protego.parse(content=content)
-            self.assertEqual(rp._total_line_seen(), 6)
-            self.assertEqual(rp._total_directive_seen(), 4)
-            self.assertTrue(rp.allowed(test_url, 'foo'))
-            self.assertFalse(rp.allowed(test_url, 'bar'))
+            self.assertEqual(rp._total_line_seen, 6)
+            self.assertEqual(rp._total_directive_seen, 4)
+            self.assertTrue(rp.can_fetch(test_url, 'foo'))
+            self.assertFalse(rp.can_fetch(test_url, 'bar'))
 
     def test_index_html_is_directory(self):
         content = ("User-Agent: *\n"
                    "Allow: /allowed-slash/index.html\n"
                    "Disallow: /\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.com/allowed-slash/", "footbot"))
-        self.assertTrue(rp.allowed("http://foo.com/allowed-slash/index.html", "footbot"))
-        self.assertFalse(rp.allowed("http://foo.com/allowed-slash/index.htm", "footbot"))
-        self.assertFalse(rp.allowed("http://foo.com/anyother-url", "footbot"))
+        self.assertTrue(rp.can_fetch("http://foo.com/allowed-slash/", "footbot"))
+        self.assertTrue(rp.can_fetch("http://foo.com/allowed-slash/index.html", "footbot"))
+        self.assertFalse(rp.can_fetch("http://foo.com/allowed-slash/index.htm", "footbot"))
+        self.assertFalse(rp.can_fetch("http://foo.com/anyother-url", "footbot"))
 
     def test_percentage_encoding(self):
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"
                    "Allow: /foo/bar?qux=taz&baz=http://foo.bar?tar&par\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar?qux=taz&baz=http://foo.bar?tar&par", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar?qux=taz&baz=http://foo.bar?tar&par", "FooBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"
                    u"Allow: /foo/bar/ツ\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
-        self.assertTrue(rp.allowed(u"http://foo.bar/foo/bar/ツ", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
+        self.assertTrue(rp.can_fetch(u"http://foo.bar/foo/bar/ツ", "FooBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"
                    "Allow: /foo/bar/%E3%83%84\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
-        self.assertTrue(rp.allowed(u"http://foo.bar/foo/bar/ツ", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/%E3%83%84", "FooBot"))
+        self.assertTrue(rp.can_fetch(u"http://foo.bar/foo/bar/ツ", "FooBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /\n"
                    "Allow: /foo/bar/%62%61%7A\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/baz", "FooBot"))
-        self.assertTrue(rp.allowed("http://foo.bar/foo/bar/%62%61%7A", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/baz", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/foo/bar/%62%61%7A", "FooBot"))
 
     def test_url_case_sensitivity(self):
         content = ("user-agent: FooBot\n"
                    "disallow: /x/\n")
         rp = Protego.parse(content=content)
-        self.assertFalse(rp.allowed("http://foo.bar/x/y", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/y", "FooBot"))
         content = ("user-agent: FooBot\n"
                    "disallow: /X/\n")
         rp = Protego.parse(content=content)
-        self.assertTrue(rp.allowed("http://foo.bar/x/y", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/y", "FooBot"))

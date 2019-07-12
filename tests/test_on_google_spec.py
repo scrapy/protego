@@ -28,7 +28,7 @@ def test_user_agent_precedence(path, user_agent):
     """
     rp = Protego.parse(content=robotstxt_content)
     for allowed_path in ('/group1', '/group2', '/group3'):
-        if rp.allowed(allowed_path, user_agent):
+        if rp.can_fetch(allowed_path, user_agent):
             break
     else:
         allowed_path = None
@@ -102,7 +102,7 @@ def test_path_matching(pattern, path, match):
     disallow: {}
     """.format(pattern)
     rp = Protego.parse(content)
-    assert (not rp.allowed(path, '*')) == match
+    assert (not rp.can_fetch(path, '*')) == match
 
 
 @pytest.mark.parametrize(
@@ -121,4 +121,4 @@ def test_record_precedence(rules, url, allowed):
     {}
     """.format(rules)
     rp = Protego.parse(content)
-    assert rp.allowed(url, '*') == allowed
+    assert rp.can_fetch(url, '*') == allowed
