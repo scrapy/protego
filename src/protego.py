@@ -68,7 +68,7 @@ class _RuleSet(object):
             path = quote(unquote(path), safe=safe)
 
         path.replace("\n", "%2F")
-        parts = ParseResult('', '', path + end_char, parts.params, parts.query, parts.fragment)
+        parts = ParseResult('', '', path + last_char, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
 
