@@ -16,6 +16,8 @@ CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
 REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
 HOST_DIRECTIVE = {'host'}
 
+__all__ = ['RequestRate', 'Protego']
+
 
 class _RuleSet(object):
     """Internal class which stores rules for a user agent."""
@@ -47,10 +49,13 @@ class _RuleSet(object):
 
     def _quote_path(self, path, safe='/'):
         """Return percent encoded path."""
-        # Corner case for query only and param only URLs.
-        # If we don't return now, urlparse will convert them to '/'.
-        if path == '/?' or path == '/;':
-            return path
+        # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
+        # Save the last character otherwise, urlparse will kill it.
+        last_char = ''
+        if path[-1] == '?' or path[-1] == ';':
+            last_char = path[-1]
+            path = path[:-1]
+
         parts = urlparse(path)
 
         # According to 1997RFC, escaped '/' should not be converted back.
@@ -63,7 +68,7 @@ class _RuleSet(object):
             path = quote(unquote(path), safe=safe)
 
         path.replace("\n", "%2F")
-        parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
+        parts = ParseResult('', '', path + end_char, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
 
