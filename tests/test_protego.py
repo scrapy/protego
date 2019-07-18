@@ -14,6 +14,13 @@ class TestProtego(TestCase):
         self.assertTrue(rp.can_fetch("https://www.site.local/allowed", "*"))
         self.assertFalse(rp.can_fetch("https://www.site.local/disallowed", "*"))
 
+        content = ("User-agent: * \n"
+                   "Disallow: /d \n"
+                   "Crawl-delay: 10")
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.can_fetch("https://www.site.local/abc/d", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/disallowed", "*"))
+
     def test_length_based_precedence(self):
         content = ("User-agent: * \n"
                    "Disallow: / \n"

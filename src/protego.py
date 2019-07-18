@@ -4,7 +4,7 @@ from collections import namedtuple
 import six
 from six.moves.urllib.parse import urlparse, urlunparse, ParseResult, quote, unquote
 
-Rule = namedtuple('Rule', ['field', 'value'])
+Rule = namedtuple('Rule', ['field', 'value', 'priority'])
 RequestRate = namedtuple(
     'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
 
@@ -23,18 +23,10 @@ class _RuleSet(object):
     """Internal class which stores rules for a user agent."""
 
     def __init__(self):
-        self._user_agent = None
+        self.user_agent = None
         self._rules = []
         self._crawl_delay = None
         self._req_rate = None
-
-    @property
-    def user_agent(self):
-        return self._user_agent
-
-    @user_agent.setter
-    def user_agent(self, value):
-        self._user_agent = value
 
     def applies_to(self, robotname):
         """Return matching score."""
@@ -72,28 +64,29 @@ class _RuleSet(object):
         path = urlunparse(parts)
         return path
 
-    def allow(self, path):
-        path = self._quote_path(path, safe='/*$')
-        self._rules.append(Rule(field='allow', value=path))
+    def allow(self, pattern):
+        regex_obj = re.compile(self._prepare_pattern(pattern))
+        self._rules.append(Rule(field='allow', value=regex_obj, priority=len(pattern)))
 
         # If index.html is allowed, we interpret this as / being allowed too.
-        if path.endswith('/index.html'):
-            self.allow(path[:-10] + '$')
+        if pattern.endswith('/index.html'):
+            self.allow(pattern[:-10] + '$')
 
         # Sort rules based on length. If two disallow & allow rules have same
         # length, allow rule is prioritised.
-        self._rules.sort(key=lambda r: (len(r.value), r.field == 'allow'), reverse=True)
+        self._rules.sort(key=lambda r: (r.priority, r.field == 'allow'), reverse=True)
 
-    def disallow(self, path):
-        path = self._quote_path(path, safe='/*$')
-        self._rules.append(Rule(field='disallow', value=path))
+    def disallow(self, pattern):
+        regex_obj = re.compile(self._prepare_pattern(pattern))
+        self._rules.append(Rule(field='disallow', value=regex_obj, priority=len(pattern)))
 
         # Sort rules based on length. If two disallow & allow rules have same
         # length, allow rule is prioritised.
-        self._rules.sort(key=lambda r: (len(r.value), r.field == 'allow'), reverse=True)
+        self._rules.sort(key=lambda r: (r.priority, r.field == 'allow'), reverse=True)
 
-    def _parser_match(self, pattern, url):
+    def _prepare_pattern(self, pattern):
         """Return True if pattern matches the URL, otherwise return False."""
+        pattern = self._quote_path(pattern, safe='/*$')
         pattern = re.sub(r'\*+', '*', pattern)
         s = re.split(r'([$*])', pattern)
         for index, substr in enumerate(s):
@@ -101,17 +94,15 @@ class _RuleSet(object):
                 s[index] = re.escape(substr)
             else:
                 s[index] = s[index].replace('*', '.*')
-        pattern = '^' + ''.join(s)
-        if re.findall(pattern, url):
-            return True
-        return False
+        pattern = ''.join(s)
+        return pattern
 
     def can_fetch(self, url):
         """Return if the url can be fetched."""
         url = self._quote_path(url)
         allowed = True
         for rule in self._rules:
-            if self._parser_match(rule.value, url):
+            if rule.value.match(url):
                 if rule.field == 'disallow':
                     allowed = False
                 break
@@ -161,7 +152,7 @@ class _RuleSet(object):
                 start_time, end_time = time_period.split('-')
                 start_time = time(int(start_time[:2]), int(start_time[-2:]))
                 end_time = time(int(end_time[:2]), int(end_time[-2:]))
-        except:
+        except Exception:
             # Value is malformed, do nothing.
             return
         else:
@@ -171,7 +162,7 @@ class _RuleSet(object):
 class Protego(object):
 
     def __init__(self):
-        # A dict mapping user agents to rule sets.
+        # A dict mapping user agents (specified in robots.txt) to rule sets.
         self._user_agents = {}
 
         # Preferred host specified in the robots.txt
@@ -179,6 +170,9 @@ class Protego(object):
 
         # A list of sitemaps specified in the robots.txt
         self._sitemap_list = []
+
+        # A memoization table mapping user agents (used in queries) to matching rule sets.
+        self._matched_rule_set = {}
 
         # To be used by tests only
         self._total_line_seen = 0
@@ -198,7 +192,7 @@ class Protego(object):
         current_user_agents = []
 
         # Last encountered rule irrespective of whether it was valid or not.
-        previous_rule = None
+        previous_rule_field = None
 
         for line in lines:
             self._total_line_seen += 1
@@ -228,7 +222,7 @@ class Protego(object):
 
             # Ignore rules with no value part (e.g. "Disallow: ", "Allow: ").
             if not value:
-                previous_rule = Rule(field, value)
+                previous_rule_field = field
                 continue
 
             # Ignore rules without a corresponding user agent.
@@ -238,7 +232,7 @@ class Protego(object):
             self._total_directive_seen += 1
 
             if field in USER_AGENT_DIRECTIVE:
-                if previous_rule and previous_rule.field not in USER_AGENT_DIRECTIVE:
+                if previous_rule_field and previous_rule_field not in USER_AGENT_DIRECTIVE:
                     current_user_agents = []
 
                 # Wildcards are not supported in the user agent values.
@@ -283,16 +277,20 @@ class Protego(object):
             else:
                 self._invalid_directive_seen += 1
 
-            previous_rule = Rule(field, value)
+            previous_rule_field = field
 
     def _get_matching_rule_set(self, user_agent):
         """Return the rule set with highest matching score."""
         if not self._user_agents:
             return None
+        if user_agent in self._matched_rule_set:
+            return self._matched_rule_set[user_agent]
         score_rule_set_pairs = ((rs.applies_to(user_agent), rs) for rs in self._user_agents.values())
         match_score, matched_rule_set = max(score_rule_set_pairs, key=lambda p: p[0])
         if not match_score:
+            self._matched_rule_set[user_agent] = None
             return None
+        self._matched_rule_set[user_agent] = matched_rule_set
         return matched_rule_set
 
     def can_fetch(self, url, user_agent):
