@@ -1,0 +1,38 @@
+##
+# In accessing or using any REA Group Website you agree that you will not use any automated device,
+# software, process or means to access, retrieve, scrape, or index any REA Group Website or any
+# content on any REA Group Website. Notwithstanding the foregoing, REA Group may permit automated
+# access to certain REA Group Website pages strictly for the purpose of including content in publicly
+# available general search engines. This does not include any such access by websites that
+# specifically aggregate property listings and/or information as part of their business.  REA Group
+# strictly prohibits any automated access by these types of websites.
+##
+
+User-agent: *
+Disallow:
+Sitemap: https://www.realestate.com.au/xml-sitemap/pdp-sitemap.xml.gz
+Sitemap: https://www.realestate.com.au/xml-sitemap/srp-sitemap.xml.gz
+Sitemap: https://www.realestate.com.au/xml-sitemap/p4ep-sitemap.xml.gz
+Sitemap: http://www.realestate.com.au/invest/sitemap_index.xml.gz
+Sitemap: https://www.realestate.com.au/agency/sitemap.xml
+Sitemap: https://www.realestate.com.au/international/sitemap-index.xml
+Sitemap: https://www.realestate.com.au/neighbourhoods/sitemap_index.xml
+Sitemap: https://www.realestate.com.au/xml-sitemap/streets-sitemap-index.xml
+Sitemap: http://www.realestate.com.au/news/sitemaps/sitemap_index.xml
+
+user-agent: googlebot-news
+Disallow: /
+Allow: /news/
+
+User-agent: YakazBot
+Disallow: /
+
+User-Agent: trovitBot
+Disallow: /
+
+User-Agent: Eyeotabot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+

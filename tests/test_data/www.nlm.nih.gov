@@ -1,0 +1,37 @@
+User-agent: *
+Disallow: /accenture/
+Disallow: /cgi/
+Disallow: /sitemessages/
+Disallow: /admin/
+Disallow: /homedev/
+Disallow: /test/
+# Archived pages
+Disallow: /archive/
+# MEDLINEplus specfic
+Disallow: /medlineplus2/
+Disallow: /medlineplus/medplapp/
+Disallow: /medlineplus/URLchecker/
+Disallow: /medlineplus/usp/
+Disallow: /medlineplus/logs/
+Disallow: /medlineplus/stats/
+Disallow: /medlineplus/glftp/
+Disallow: /medlineplus/procedures/
+Disallow: /medlineplus/mobilefeeds/
+Disallow: /medlineplus/spanish/mobilefeeds/
+Disallow: /medlineplus/feeds/topics/
+Disallow: /medlineplus/groupfeeds/
+Disallow: /medlineplus/spanish/feeds/topics/
+Disallow: /medlineplus/spanish/groupfeeds/
+Disallow: /medlineplus/golocal/
+Disallow: /medlineplus/golocaldocs/
+Disallow: /medlineplus/xml/
+Disallow: /medlineplus/xml/vocabulary/
+Disallow: /medlineplus/scwidget/topsearch.html
+Disallow: /medlineplus/spanish/scwidget/topsearch.html
+
+# Framed versions of vhp presentations.  Non-framed versions are allowed - TSL 05JAN1999
+Disallow: /research/visible/vhpconf98/AUTHORS/WERNER2/
+Disallow: /research/visible/vhpconf98/AUTHORS/SACHSE2/
+
+# GoLocal extranet
+Disallow: /golocal/extranet/

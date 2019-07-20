@@ -1,0 +1,13 @@
+#Sitemap: https://www.tatasky.com/sitemap.xml
+
+User-agent: *
+Disallow: #GSP contains html files
+Disallow: /wps/wcm/connect/TataSky_Beta_ContentLibrary/Channels/
+Disallow: /wps/um/secure/attributes/users/c
+Disallow: /wps/portal/TataSky/channels?uri=nm:oid:Z6_J8H0I0S0J8HLE0A9NBEO4F3G65
+Disallow: /wps/portal/TataSky/set-top-boxes/tata-sky-4k?uri=nm:oid:Z6_LO002J80J0J7E0A2L8877I3AH6
+Disallow: /*?uri=nm:oid:Z6_J8H0I0S0J8HLE0A9NBEO4F3G65
+Disallow: /wps/portal/TataSky/footerpages/conditions/corporateoffer/corporate%20offer/!ut/p/a1/tZNbb4IwGIb_il542bQpBcolERPn5ozDE9yYj1KUKQexWeZ-_YrxYpsRXLL1qof3bfs9b4tDvMJhDm_pBlRa5LCvx6G1fpoQQkecjCZkahKXUnsx9ScG86gWBN8Evjcg7uPi4dn2h3Tg0CZ_3yMtfsu4z09uNJe0-Zc4xKHIVam2OFCg4Lg7rSOpYC2KXMlc7dOogurUI5dF3ZFVduxAHne0JE5rUsceEUVVFhUo2SmSRFZXE_U5pUhjHACTglkWQ4YhY8TAlsiBhKDEJJxFBhhAxBWXq4u35HKuqyWZRkGN_ixoYttGN9BV2DevOWPY_yWW0R3vkVbj_nijtwW1RWmeFHj1MwutSl8Ph9DV2dcxvyu8-tfwG0H0PfsrCOJEsTCBIiosDcIBjiKbc-RQZiYmZ5zaVjOIy8f4wxJxmc3n84wbJ7R7GX7MkmzJFSeGud90u58hKjUi/
+Disallow: /wps/portal/TataSky/footerpages/conditions/corporateoffer/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOJ9_A0MjLwsDLz8DQJNDRyNjMzDAoP9jU1cjPQLsh0VAQtO59Q!
+Disallow: /wps/portal/TataSky/footerpages/conditions/corporateoffer/*
+Disallow: /wps/portal/TataSky/channels/whats-hot/!ut/p/a1/pZBNb4JAEIZ_jUeyswi7yxEixlKjiZQqeyELru1WWVEnTe2vL9ReevArzm0yz5uZeYgkCyKt-jRvCs3Wqk3XS1aMpwBuIiCZwmwIYTqcRME4imjstkD-D0gHMYTPr08Tno7cOPYfy7P-bXk4UyFcy8-JJLKy2OA7yVGhOqyPRalRFdXWora4MeVe7Y89-Bv2oFHV-tDFmsosSS48TQXl3Ak4ZY6nhHYCxqjDxVK7K9-nUOrTmiuiLgKdiV_gwqt564KffTbzSHrn1ckN9s3HbifD1mGn6wvJ4h6JTZ1lWS36bDb6flnV8x-H8P0W/ 

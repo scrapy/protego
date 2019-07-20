@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /vicman.net
+Disallow: /vicman
+Disallow: /fdm
+Disallow: /admin
+Disallow: /board/*.*$
+Disallow: /downloads/
+
+User-agent: Bingbot
+Disallow: /search/

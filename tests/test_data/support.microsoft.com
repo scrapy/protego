@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /errors
+Disallow: /search/default.aspx?*
+Disallow: /default.aspx/kb/
+Disallow: /default.aspx/ph/
+Disallow: /common/survey.aspx
+Disallow: /oas/
+Disallow: /gp/gsshomepage/
+Disallow: /gp/international_new/
+Disallow: /mats/?diagid=100001&eulaaccept=yes
+Disallow: /mats/default.aspx?diagid=100001&eulaaccept=yes
+Disallow: /ServiceDesks/
+Disallow: /support/
+Disallow: /directory/
+Disallow: /common/
+Disallow: /hotfix/
+Disallow: /gethelp/
+Disallow: /authoring/
+Disallow: /contact/menu*
+Disallow: /*/contact/menu*
+Disallow: /contact/partner*
+Disallow: /*/contact/partner*
+Disallow: /kb/
+
+Sitemap: https://support.microsoft.com/sitemap_index
+Sitemap: https://support.microsoft.com/superfresh

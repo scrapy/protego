@@ -1,0 +1,64 @@
+# Kaiser Permanente: robots.txt 
+
+User-agent: *
+Disallow: /northern-california/physicians/
+
+# sitemaps - English
+Sitemap: https://healthy.kaiserpermanente.org/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/sitemapdam
+# region sitemaps - English
+Sitemap: https://healthy.kaiserpermanente.org/northern-california/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/southern-california/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/colorado-denver-boulder-mountain-northern/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/southern-colorado/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/georgia/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/hawaii/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/oregon-washington/sitemap
+# facility sitemaps - English
+Sitemap: https://healthy.kaiserpermanente.org/northern-california/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/southern-california/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/colorado-denver-boulder-mountain-northern/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/southern-colorado/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/georgia/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/hawaii/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/maryland-virginia-washington-dc/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/oregon-washington/facilities/sitemap
+# doctor sitemaps - English
+Sitemap: https://healthy.kaiserpermanente.org/southern-california/physicians/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/colorado-denver-boulder-mountain-northern/clinicians/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/southern-colorado/clinicians/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/georgia/clinicians/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/hawaii/provider/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/oregon-washington/clinicians/sitemap
+# sitemaps - Spanish
+Sitemap: https://espanol.kaiserpermanente.org/es/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/sitemapdam
+# region sitemaps - Spanish
+Sitemap: https://espanol.kaiserpermanente.org/es/northern-california/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/southern-california/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/colorado-denver-boulder-mountain-northern/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/southern-colorado/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/georgia/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/hawaii/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/maryland-virginia-washington-dc/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/oregon-washington/sitemap
+# facility sitemaps - Spanish
+Sitemap: https://healthy.kaiserpermanente.org/es/northern-california/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/southern-california/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/colorado-denver-boulder-mountain-northern/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/southern-colorado/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/georgia/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/hawaii/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/maryland-virginia-washington-dc/facilities/sitemap
+Sitemap: https://healthy.kaiserpermanente.org/es/oregon-washington/facilities/sitemap
+# doctor sitemaps - Spanish
+Sitemap: https://espanol.kaiserpermanente.org/es/southern-california/physicians/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/colorado-denver-boulder-mountain-northern/clinicians/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/southern-colorado/clinicians/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/georgia/clinicians/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/hawaii/provider/sitemap
+Sitemap: https://espanol.kaiserpermanente.org/es/oregon-washington/clinicians/sitemap
+# portal sitemaps
+Sitemap: https://healthy.kaiserpermanente.org/content/dam/kporg/system/sitemap/sitemap-portal.xml
+Sitemap: https://healthy.kaiserpermanente.org/content/dam/kporg/system/sitemap/sitemap-portal-es.xml

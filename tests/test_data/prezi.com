@@ -1,0 +1,36 @@
+User-agent: *
+
+Disallow: /accept/
+Disallow: /activate/
+Disallow: /admin/
+Disallow: /api/
+Disallow: /bin/
+Disallow: /cms/
+Disallow: /dmca/
+Disallow: /download/
+Disallow: /embedkey/
+Disallow: /embedtest/
+Disallow: /explore/search/
+Disallow: /export/
+Disallow: /featured/add/
+Disallow: /featured/admin/
+Disallow: /group/
+Disallow: /media/
+Disallow: /nexus/
+Disallow: /payment/
+Disallow: /preview/
+Disallow: /prezi/
+Disallow: /profile/
+Disallow: /recommend/
+Disallow: /requestbeta/
+Disallow: /resources/
+Disallow: /styles/
+Disallow: /su/
+Disallow: /view/
+
+Sitemap: https://prezi.com/sitemap_index.xml
+Sitemap: https://prezi.com/sitemap_next_prezi_index.xml
+Sitemap: https://prezi.com/sitemap_next_prezi_mq_index.xml
+Sitemap: https://prezi.com/sitemap_classic_prezi_index.xml
+Sitemap: https://prezi.com/sitemap_classic_prezi_mq_index.xml
+Sitemap: https://prezi.com/sitemap_seo_landing.xml

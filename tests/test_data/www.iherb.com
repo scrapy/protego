@@ -1,0 +1,36 @@
+﻿User-agent: *
+Disallow: /EditCart
+Disallow: /WishList
+Disallow: /Logout
+Disallow: /Checkout
+Disallow: /ordersummary
+Disallow: /NotificationList
+Disallow: /ChangePassword
+Disallow: /AddressBook
+Disallow: /Profile
+Disallow: /PersonalInfo
+Disallow: /Pro/RecentProductSelection
+Disallow: /Pro/VisitedProduct
+Disallow: /Pro/GetFeatured
+Disallow: /Pro/CustomerBought
+Disallow: /Pro/EnableCustomerHistory
+Disallow: /Pro/DisableCustomerHistory
+Disallow: /Pro/ReviewFeedback
+Disallow: /Pro/ViewSwitcher
+Disallow: /Pro/Maintentance
+Disallow: /Pro/ReportAbuse
+Disallow: /Pro/CustomerViewed
+Disallow: /Search
+Disallow: /search
+Disallow: /home/error/_404
+Disallow: /me/*
+Disallow: /Me/*
+Disallow: /tr/
+Disallow: /cart
+Allow: /tr/list
+Allow: /tr/cb
+
+Sitemap: https://www.iherb.com/sitemap_index.xml
+
+user-agent: msnbot
+Crawl-delay: 2

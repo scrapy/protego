@@ -1,0 +1,12 @@
+User-agent: *
+Sitemap: https://www.nature.com/sitemap.xml
+Sitemap: https://www.nature.com/subjects/sitemap.xml
+Sitemap: https://www.nature.com/naturecareers/sitemap.xml
+Disallow: /*.pdf$
+Disallow: /*.PDF$
+Disallow: /*/*/*/pf/
+Disallow: /*.otmi$
+Disallow: /*/*/*/*/otmi/
+Disallow: /*/*/*/*/fp/
+Disallow: /protocolexchange/labgroups/
+Disallow: /naturecareers/jobs/search

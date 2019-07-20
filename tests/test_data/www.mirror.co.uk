@@ -1,0 +1,50 @@
+Sitemap: https://www.mirror.co.uk/map_news.xml
+Sitemap: https://www.mirror.co.uk/sitemaps/sitemap_index.xml
+User-agent: *
+Crawl-delay: 10.0
+
+Disallow: /search/
+Disallow: /comm-part-test/
+Disallow: /*service=ajax
+Disallow: /centenary-fund/
+Disallow: /3am/weird-celeb-news/xxx-1341448
+Disallow: /3am/weird-celeb-news/tamara-ecclestone-watched-boyfriends-sex-1341448
+Disallow: /comm-part-test/oh-like-beside-seaside-uk-1722203
+Disallow: /resources/js/s_code.js
+Disallow: /template/
+Disallow: /tv/tv-news/jean-alexander-dies-coronation-streets-3764827
+Disallow: /3am/celebrity-news/anne-kirkbride-dead-bill-roache-5013775
+Disallow: /lifestyle/cartoons/andy-capp/andy-capp
+Disallow: /lifestyle/cartoons/the-gag-vault/gag-vault
+Disallow: /lifestyle/cartoons/perishers/perishers
+Disallow: /lifestyle/cartoons/horace/horace
+Disallow: /lifestyle/cartoons/garth/garth
+Disallow: /lifestyle/cartoons/mandy/mandy
+Disallow: /lifestyle/cartoons/kerber-black/
+Disallow: /regression-test-home/
+Disallow: /5293/
+
+User-agent: daumoa
+Disallow: /
+
+User-agent: Sosospider
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
+User-agent: semetrical
+Disallow: /
+
+User-agent: Googlebot-News
+Disallow: /thedavedesk/
+#Agent Specific Disallowed Sections
+
+User-agent: AhrefsBot 
+Disallow: /
+
+User-agent: grapeshot
+Crawl-delay: 0
+
+User-agent: bingbot
+Crawl-delay: 1

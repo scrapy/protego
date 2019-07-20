@@ -1,0 +1,20 @@
+# robots.txt file for http://sourceforge.net and https://sourceforge.net
+# please contact staff@sourceforge.net with questions or concerns
+
+User-agent: *
+Disallow: /p/*/code/*
+Disallow: /p/rumtmarc/code-0/
+Disallow: /p/chronolabs-cooperative/fonts/
+Disallow: /*/ci/
+Disallow: /*/commit_browser_data
+Disallow: /projects/*/files/*/stats/timeline
+Disallow: /projects/*/files/*/stats/map
+Disallow: /projects/*/files/*/stats/os
+Disallow: /*_escaped_fragment_
+
+Sitemap: https://sourceforge.net/sitemap.xml
+Sitemap: https://sourceforge.net/allura_sitemap/sitemap.xml
+Sitemap: https://sourceforge.net/directory_sitemap.xml
+Sitemap: https://sourceforge.net/software_sitemap.xml
+Sitemap: https://sourceforge.net/blog/sitemap_index.xml
+Sitemap: https://sourceforge.net/articles/sitemap_index.xml

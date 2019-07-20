@@ -1,0 +1,178 @@
+# Public site - # bot must follow this rules
+# Site scaping is permited IF the user-agent is clearly identify it as a bot and
+#  the bot owner and is using less than 200 request per minute
+# Bot identification must have a owner url or contact if we need to contact then
+# Bots with fake user-agent will be blocked
+# Bots trying to use too many IPs to increase performance may also be blocked.
+# If you need more than 200 RPM, please contact the email techops at jumia com
+#
+# Sitemap files
+Sitemap: https://static.jumia.com.ng/index-sitemap.xml
+
+# multiple brand selectors
+User-agent: *
+Disallow: *--*
+
+# facets
+User-agent: *
+Disallow: /*ac_design=
+Disallow: /*age_group=
+Disallow: /*attachment_id=
+Disallow: /*app_topsize=
+Disallow: /*appbottom_size=
+Disallow: /*area_of_use=
+Disallow: /*band_material=
+Disallow: /*battery=
+Disallow: /*beauty_features=
+Disallow: /*burners=
+Disallow: /*capacity=
+Disallow: /*capacity_litres=
+Disallow: /*capacity_kg=
+Disallow: /*capacity_kva=
+Disallow: /*capacity_mah=
+Disallow: /*car_scent=
+Disallow: /*case_material=
+Disallow: /*collection=
+Disallow: /*color=
+Disallow: /*color_family=
+Disallow: /*collar_type=
+Disallow: /*compatible_with=
+Disallow: /*connection=
+Disallow: /*connectivity=
+Disallow: /*connexion=
+Disallow: /*cookertype=
+Disallow: /*cpu_brand=
+Disallow: /*cpu_speed=
+Disallow: /*diapers_size=
+Disallow: /*dir=
+Disallow: /*display_features=
+Disallow: /*display_size=
+Disallow: /*display_type=
+Disallow: /*electronics_features=
+Disallow: /*fan_type=
+Disallow: /*fridge_feet=
+Disallow: /*from=
+Disallow: /*gender=
+Disallow: /*graphics_card=
+Disallow: /*graphics_memory=
+Disallow: /*grounds=
+Disallow: /*hair_type=
+Disallow: /*hdd_size=
+Disallow: /*heatertype=
+Disallow: /*heels_height=
+Disallow: /*heel_type=
+Disallow: /*horse_power=
+Disallow: /*jumia_recommended=
+Disallow: /*kettle_material=
+Disallow: /*lightingtype=
+Disallow: /*machine_type=
+Disallow: /*main_material=
+Disallow: /*material_family=
+Disallow: /*megapixels=
+Disallow: /*megapixels_secondary=
+Disallow: /*network_supported=
+Disallow: /*network_type=
+Disallow: /*operating_system=
+Disallow: /*optical_zoom=
+Disallow: /*paper_size=
+Disallow: /*perfume_size=
+Disallow: /*perfume_type=
+Disallow: /*phone_compatibility=
+Disallow: /*power=
+Disallow: /*price=
+Disallow: /*product_line=
+Disallow: /*product_type=
+Disallow: /*ram=
+Disallow: /*ram_memory=
+Disallow: /*rating=
+Disallow: /*replytocom=
+Disallow: /*rom_stockage=
+Disallow: /*school_level=
+Disallow: /*screentechnolgy=
+Disallow: /*season=
+Disallow: /*seller_product=
+Disallow: /*seller_score=
+Disallow: /*setDevice=
+Disallow: /*shipped_from=
+Disallow: /*shipped_from_overseas=
+Disallow: /*shoe_size=
+Disallow: /*size=
+Disallow: /*sim_number=
+Disallow: /*simcard_type=
+Disallow: /*skin_type=
+Disallow: /*sort=
+Disallow: /*sortDirection=
+Disallow: /*sortdirection=
+Disallow: /*source=
+Disallow: /*special_price=
+Disallow: /*sports_features=
+Disallow: /*storage_capacity=
+Disallow: /*stove_type=
+Disallow: /*style=
+Disallow: /*system_memory=
+Disallow: /*tag=
+Disallow: /*toys_characters=
+Disallow: /*token=*
+Disallow: /*tv_technology=
+Disallow: /*userSpecific=
+Disallow: /*viewType=
+Disallow: /*washingmachine_type=
+Disallow: /*watch_resistance=
+Disallow: /*waterdispenser=
+Disallow: /*wattage=
+Disallow: /*width=
+Disallow: /*SWJIYLWA*
+
+# site search
+User-agent: *
+Disallow: /*q=
+
+# paths
+User-agent: *
+Disallow: /ur/
+Disallow: /assets/
+Disallow: /recommendation/
+Disallow: /customer/
+Disallow: /wishlist/
+Disallow: /suggestion/
+Disallow: /cart/
+Disallow: /catalog/
+Disallow: /onepagecheckout/
+Disallow: /ratingreview/
+Disallow: /index/error/
+Disallow: /ajax/reminder/
+Disallow: /top-searched/
+Disallow: /top-searched/*/
+Disallow: /electronics-clearance-sale/
+Disallow: /electronics-clearance-sale/*/
+Disallow: /*/universal/
+Disallow: /*/generic/
+Disallow: /*/fashion/
+Disallow: /*/general/
+Disallow: /*/samwood/
+Disallow: /*/louis-will/
+Disallow: /*/fashion-brand/
+Disallow: /*/allwin/
+Disallow: /*/glorystar/
+Disallow: /*/all-products/
+Disallow: /all-products/*/
+Disallow: /*/top-sellers/
+Disallow: /checkout/success/
+#Allow access to product specifications and ratings
+Allow: /catalog/productspecifications/
+Allow: /catalog/productratingsreviews/
+
+#Jumia global bot control
+Disallow: /jumia-global/ 
+Disallow: /*/jumia-global*
+Disallow: /jumia-global-*
+Disallow: /miscellaneous/
+
+#Bypass "--" Rule
+Allow: /*.css$
+Allow: /*.js
+Allow: *--*.png
+
+#Block Crawling of CSB pages
+Disallow: /*/*/*/
+Disallow: /*/javascript

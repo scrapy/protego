@@ -1,0 +1,87 @@
+User-agent: *
+Disallow: /~
+Disallow: /pmm-templates/
+
+#
+# Discovery Park
+#
+#   Updated by Jakob Knigga (jknigga) 9/21/2017
+#
+Disallow: /discoverypark/bdmce/news/
+Disallow: /discoverypark/bdmce/events/
+Disallow: /discoverypark/bioscience/news/
+Disallow: /discoverypark/bioscience/events/
+Disallow: /discoverypark/birck/news/
+Disallow: /discoverypark/birck/events/
+Disallow: /discoverypark/caid/news/
+Disallow: /discoverypark/caid/events/
+Disallow: /discoverypark/c3bio/news/
+Disallow: /discoverypark/c3bio/events/
+Disallow: /discoverypark/climate/news/
+Disallow: /discoverypark/climate/events/
+Disallow: /discoverypark/drug-discovery/news/
+Disallow: /discoverypark/drug-discovery/events/
+Disallow: /discoverypark/energy/news/
+Disallow: /discoverypark/energy/events/	
+Disallow: /discoverypark/environment/news/
+Disallow: /discoverypark/environment/events/
+Disallow: /discoverypark/food/news/
+Disallow: /discoverypark/food/events/
+Disallow: /discoverypark/igsdi/news/
+Disallow: /discoverypark/igsdi/events/
+Disallow: /discoverypark/nextrans/news/
+Disallow: /discoverypark/nextrans/events/
+Disallow: /discoverypark/pillars/pi4d/news/
+Disallow: /discoverypark/pillars/pi4d/events/
+Disallow: /discoverypark/pillars/integrative-neuroscience-center/news/
+Disallow: /discoverypark/pillars/integrative-neuroscience-center/events/
+Disallow: /discoverypark/ppri/news/
+Disallow: /discoverypark/ppri/events/
+Disallow: /discoverypark/rche/news/
+Disallow: /discoverypark/rche/events/
+Disallow: /discoverypark/vaccine/news/
+Disallow: /discoverypark/vaccine/events/
+Disallow: /discoverypark/wghi/news/
+Disallow: /discoverypark/wghi/events/
+
+#
+# HHS
+#
+#    Updated by Lisa Stein 1/27/2017 - FP 764035
+#
+Disallow: /hhs/hdfs/r28j51xz/
+
+#
+# Vet
+#
+#    Updated by Osmar Lopez 5/29/2019 - FP 1114881
+#
+Disallow: /vet/application
+Disallow: /vet/badges
+Disallow: /vet/blocks
+Disallow: /vet/building-directory
+Disallow: /vet/campaign-emails
+Disallow: /vet/courses
+Disallow: /vet/ctr/files/documents/CTR-Research-Information.pdf
+Disallow: /vet/ctr/files/documents/CTR-Translational-Research.pdf
+Disallow: /vet/dvm/admissions/files/Insiders Guide.pdf
+Disallow: /vet/dvmconnect
+Disallow: /vet/epubs
+Disallow: /vet/files/includes
+Disallow: /vet/fileshare
+Disallow: /vet/intranet
+Disallow: /vet/pcop/videos
+Disallow: /vet/scheduler
+Disallow: /vet/secure
+Disallow: /vet/sharepoint
+Disallow: /vet/supportpvm
+Disallow: /vet/sureshmittal
+Disallow: /vet/test
+Disallow: /vet/vtconnect
+Disallow: /vet/vth/files/documents/181108-rDVM-Fall-Mailing.pdf
+
+#
+# Site Map
+#
+
+Sitemap: http://www.purdue.edu/sitemap.xml 

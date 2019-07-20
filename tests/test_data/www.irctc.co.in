@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>IRCTC Next Generation eTicketing System</title>
+  <base href="/nget/">  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="data:image/vnd.microsoft.icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAABILAAASCwAAAAAAAAAAAAD9/Pz//////9u6uf+5enj/woqJ/8KKif/CjIr/r2hm/92/vv/Po6L/2rm4/8ucmv+waWf/48nJ///////+/f3//fz8///////Uraz/sGpo/6NRT/+rX13/sGln/8qbmf/dv7//tnVz/8GJh/+0cG7/z6Sj/+LHxv///////v39//7+/v//////7Nra/+LIx//XsrH/2rm4/+/h4P/Gk5H/4cTD/9Clo//Xs7L/6NTU/8mYlv/x5eT///////7+/v///////v7+///////t3dz/7Nzc//7+/v///////////+/y8f/t8vL/8uXl/+bR0P/27u3///////7+/v////////////////+9goH/xJCP//jy8v///v7/9/T0/9rV1P/Z1dT/8vX1/7Z4dv9/DQn/hhoX/7Nwbv/+/Pz////////////PpKP/m0JA////////////9fb2/+ft7P/5/Pz////////////v5uX/0ayq/9Gnpv+RMC3/0Kel////////////s29s/6BMSf//////9/j4/+DX1//YtbT/1Kuq/+rY2P/u3t7/8+vq//f7+///////4cbF/72CgP///////////8qamf+EFhP/1LKx//z////kzMz/hRcU/6VVU//NoJ//lTc0/+nU1P/w8vL/+/v6//Tq6v/Uraz////////////17ez/ljc0/8uiof//////5c7O/48sKf/iycj/yJiW/4khHf/w4OD/8vX1//Lz8v/48PD/7d7e///////+/v7//////+TU1P/18PD//////+XOzf+NJyT/iB0a/8qbmv+nWFb/6NDQ//f7+//o5uX///////37+//////////////////k5eX/1NHQ//f7+//r2Nj/nkZE/51FQv/TrKv/rmdl/+vX1//4+/v/4d/e///////+/v7//////////////////Pv7/+rp6P/Z19b/4N7d/+7r6v/7+fn//fv7//z5+f//////8fHw/9vZ2f////////////////////////////////////////////Pz8//o5+b/6Ofm//Dv7v/y7u3/8OXl/+zo6P/i4eH///////////////////////////////////////v39//79vb/////////////////plpY/5Q3NP/38fH///////7+/v/////////////////////////////////+/v7/2rq5/9/Cwf/z6en/wIeF/4MUEP/JmZf///////78/P///////////////////////////////////v7///////r29v/HlJP/nENA/44qJ//Bion//v39////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" rel="icon" type="image/x-icon" />
+  <link async='async' rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link async='async' rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeng@5.2.7/resources/primeng.min.css" />
+  <link async='async' rel="stylesheet" href="https://cdn.jsdelivr.net/npm/primeng@5.2.7/resources/themes/omega/theme.css" />
+  <link async='async' rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" />
+  <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1976d2">
+<link rel="stylesheet" href="/nget/styles.afc787792f7b752827e4.css"></head>
+<body>
+  <style type="text/css">
+    .loading_div {
+      background-image: url("./assets/images/loading-min.gif");
+      background-repeat: no-repeat;
+      height: 100px;
+      width:  100px;
+      background-size: 100px 100px;
+    }
+    #outer {
+      padding-top: 20vh;
+      width: 100%;
+      text-align: center;
+    }
+    .grecaptcha-badge {
+      display: none;
+    }
+    #inner {
+      display: inline-block;
+    }
+  </style>
+
+  <app-root>
+    <div id="outer">
+      <div id="inner">
+        <div class="loading_div"></div>
+      </div>
+    </div>
+  </app-root>
+
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-49954655-1', 'auto', {'sampleRate': '2.0'});
+    ga('send', 'pageview');
+
+    var d = new Date();
+    var m = d.getHours() * 60 + d.getMinutes();
+    chatBot = !((m > 585 && m <= 620) || (m > 645 && m <= 680)) && !('/nget/print-ticket' == window.location.pathname || '/nget/redirect' == window.location.pathname || '/nget/booking-confirm' == window.location.pathname);
+    if(chatBot){
+      setTimeout(function(){
+        loadChatBot();
+      }, 5000);
+    }
+    function loadChatBot() {
+      var keyJs ="https://assistant.corover.mobi/irctc/demo/res/chatbotlib.min.js",
+      fileJs=document.createElement('script');
+      fileJs.type = "text/javascript";
+      fileJs.src = keyJs;
+      fileJs.async = true;
+      document.getElementsByTagName("body")[0].appendChild(fileJs);
+    }
+  </script>
+  <script> window._izq = window._izq || []; window._izq.push(["init"]); </script>
+  <script async='async' src="https://cdn.izooto.com/scripts/9f884804099c970cf4712b990fd34a7ecf2d160e.js"></script>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script type="text/javascript" src="/nget/runtime.871b96e7f86cac532368.js"></script><script type="text/javascript" src="/nget/polyfills.23b58980b2e026efb81d.js"></script><script type="text/javascript" src="/nget/main.6984ce0c7156fade9079.js"></script></body>
+</html>

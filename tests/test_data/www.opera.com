@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /o/
+Disallow: /*/o/
+Disallow: /abtest/
+Disallow: /*/abtest/
+Disallow: /client/
+Disallow: /downloadassets/
+Disallow: /*/downloadassets/
+Disallow: /download/get*
+Disallow: /promoassets/
+Disallow: /*/promoassets/
+Disallow: /campaign/
+Disallow: /*/campaign/
+Disallow: /suite/
+Disallow: /*/suite/
+Disallow: /info/
+Disallow: /*/info/
+Disallow: /computer/thanks
+Disallow: /*/computer/thanks
+Disallow: /ofa/
+Disallow: /*/ofa/
+
+Sitemap: https://www.opera.com/sitemap.xml

@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /apps
+Disallow: /apps/
+Disallow: /search
+Disallow: /search/
+Disallow: /bugs?
+Disallow: /bugs/*
+Disallow: /tools/lint/
+Disallow: /settings
+Disallow: /settings/
+Disallow: /*?revision
+Disallow: /workplace/status
+Disallow: /workplace/status/
+
+Sitemap: https://developers.facebook.com/sitemap-blog.xml
+Sitemap: https://developers.facebook.com/sitemap-docs.xml
+Sitemap: https://developers.facebook.com/sitemap-open-graph.xml
+Sitemap: https://developers.facebook.com/sitemap-sdk-android.xml
+Sitemap: https://developers.facebook.com/sitemap-sdk-ios.xml
+Sitemap: https://developers.facebook.com/sitemap-products.xml
+Sitemap: https://developers.facebook.com/sitemap-success-stories.xml
+Sitemap: https://developers.facebook.com/sitemap-fbstart.xml
+Sitemap: https://developers.facebook.com/sitemap-developer-circles.xml
+Sitemap: https://developers.facebook.com/sitemap-videos.xml

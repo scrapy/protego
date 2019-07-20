@@ -1,0 +1,23 @@
+﻿User-agent: *
+Allow: /
+Disallow: /dev/
+Disallow: */order-
+Disallow: */existing
+Disallow: *affiliate
+Disallow: */closed/
+Disallow: */sim-ordersummary/
+Disallow: *acq1
+Disallow: *uinf1
+Disallow: *uinf2
+Disallow: *acq1
+Disallow: *acq2
+Disallow: *ec1
+Disallow: *ec2
+Disallow: */retention
+Disallow: /lookup-pages
+Disallow: /modals/
+Disallow: /local-navigation/
+Disallow: /campaign/
+Disallow: /pricing/
+
+Sitemap: https://www.bt.com/sitemap.xml
