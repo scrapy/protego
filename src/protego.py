@@ -3,6 +3,9 @@ from datetime import time
 from collections import namedtuple
 import six
 from six.moves.urllib.parse import urlparse, urlunparse, ParseResult, quote, unquote
+import logging
+
+logger = logging.getLogger(__name__)
 
 Rule = namedtuple('Rule', ['field', 'value', 'priority'])
 RequestRate = namedtuple(
@@ -22,17 +25,16 @@ __all__ = ['RequestRate', 'Protego']
 class _RuleSet(object):
     """Internal class which stores rules for a user agent."""
 
-    def __init__(self):
+    def __init__(self, parser_instance):
         self.user_agent = None
         self._rules = []
         self._crawl_delay = None
         self._req_rate = None
+        self._parser_instance = parser_instance
 
     def applies_to(self, robotname):
         """Return matching score."""
         robotname = robotname.strip().lower()
-        if not self.user_agent:
-            return 0
         if self.user_agent == '*':
             return 1
         if self.user_agent in robotname:
@@ -118,7 +120,11 @@ class _RuleSet(object):
         try:
             delay = float(delay)
         except ValueError:
-            delay = None
+            # Value is malformed, do nothing.
+            logger.debug("Malformed rule at line {} : cannot set crawl delay to '{}'."
+                         " Ignoring this rule.".format(self._parser_instance._total_line_seen, delay))
+            return
+
         self._crawl_delay = delay
 
     @property
@@ -154,9 +160,11 @@ class _RuleSet(object):
                 end_time = time(int(end_time[:2]), int(end_time[-2:]))
         except Exception:
             # Value is malformed, do nothing.
+            logger.debug("Malformed rule at line {} : cannot set request rate using '{}'."
+                         " Ignoring this rule.".format(self._parser_instance._total_line_seen, value))
             return
-        else:
-            self._req_rate = RequestRate(requests, seconds, start_time, end_time)
+
+        self._req_rate = RequestRate(requests, seconds, start_time, end_time)
 
 
 class Protego(object):
@@ -174,7 +182,6 @@ class Protego(object):
         # A memoization table mapping user agents (used in queries) to matching rule sets.
         self._matched_rule_set = {}
 
-        # To be used by tests only
         self._total_line_seen = 0
         self._invalid_directive_seen = 0
         self._total_directive_seen = 0
@@ -227,6 +234,7 @@ class Protego(object):
 
             # Ignore rules without a corresponding user agent.
             if not current_user_agents and field not in USER_AGENT_DIRECTIVE:
+                logger.debug("Rule at line {} without any user agent to enforce it on.".format(self._total_line_seen))
                 continue
 
             self._total_directive_seen += 1
@@ -247,7 +255,7 @@ class Protego(object):
                     current_user_agents.append(rule_set)
 
                 if not rule_set:
-                    rule_set = _RuleSet()
+                    rule_set = _RuleSet(self)
                     rule_set.user_agent = user_agent
                     self._user_agents[user_agent] = rule_set
                     current_user_agents.append(rule_set)
@@ -331,7 +339,6 @@ class Protego(object):
         """Get the preferred host."""
         return self._host
 
-    # To be used by tests only
     @property
     def _valid_directive_seen(self):
         return self._total_directive_seen - self._invalid_directive_seen
