@@ -1,0 +1,12 @@
+User-agent: SemrushBot
+User-agent: SemrushBot-SA
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+User-agent: NaverBot
+User-agent: Yeti
+User-agent: YoudaoBot
+User-agent: moget
+User-agent: ichiro
+User-agent: BLEXBot
+Disallow: /

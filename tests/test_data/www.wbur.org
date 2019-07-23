@@ -1,0 +1,7 @@
+# Hello robot!
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.wbur.org/sitemap.xml.gz
+Sitemap: https://www.wbur.org/sitemap-googlenews.xml.gz

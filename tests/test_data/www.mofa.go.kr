@@ -1,0 +1,827 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/wc/robots.html
+#
+# For syntax checking, see:
+# http://www.sxw.org.uk/computing/robots/check.html
+
+User-agent: *
+# Paths (no clean URLs)
+Disallow : /
+Allow : /jp-yokohama-ja/
+Allow : /jp-niigata-ja/
+Allow : /jp-kobe-ko/
+Allow : /oecd-ko/
+Allow : /cd-ko/
+Allow : /se-ko/
+Allow : /de-hamburg-ko/
+Allow : /kh-ko/
+Allow : /ph-en/
+Allow : /tm-ko/
+Allow : /by-ko/
+Allow : /kg-ko/
+Allow : /de-ko/
+Allow : /pk-karachi-en/
+Allow : /at-ko/
+Allow : /ca-montreal-ko/
+Allow : /cm-ko/
+Allow : /cm-en/
+Allow : /gh-ko/
+Allow : /ru-vladivostok-ru/
+Allow : /pg-en/
+Allow : /hn-ko/
+Allow : /jp-kobe-ja/
+Allow : /hn-es/
+Allow : /us-losangeles-ko/
+Allow : /be-ko/
+Allow : /id-ko/
+Allow : /us-losangeles-en/
+Allow : /us-newyork-ko/
+Allow : /un-en/
+Allow : /au-ko/
+Allow : /mm-en/
+Allow : /th-ko/
+Allow : /az-en/
+Allow : /za-en/
+Allow : /ru-irkutsk-ko/
+Allow : /hk-ko/
+Allow : /jp-osaka-ja/
+Allow : /bo-ko/
+Allow : /us-atlanta-ko/
+Allow : /us-atlanta-en/
+Allow : /la-en/
+Allow : /jp-sendai-ja/
+Allow : /fr-ko/
+Allow : /us-newyork-en/
+Allow : /cn-chengdu-ko/
+Allow : /cn-chengdu-zh/
+Allow : /ae-dubai-ko/
+Allow : /id-id/
+Allow : /sk-ko/
+Allow : /cn-guangzhou-ko/
+Allow : /tw-zh/
+Allow : /tt-ko/
+Allow : /kw-ko/
+Allow : /tt-en/
+Allow : /tr-istanbul-ko/
+Allow : /eng/
+Allow : /us-houston-ko/
+Allow : /us-honolulu-ko/
+Allow : /us-houston-en/
+Allow : /jp-niigata-ko/
+Allow : /bn-ko/
+Allow : /www/
+Allow : /my-ko/
+Allow : /kz-kk/
+Allow : /co-ko/
+Allow : /hk-en/
+Allow : /kz-almaty-ko/
+Allow : /it-ko/
+Allow : /qa-ko/
+Allow : /jp-fukuoka-ko/
+Allow : /sa-jeddah-ko/
+Allow : /es-es/
+Allow : /jp-ko/
+Allow : /az-ko/
+Allow : /unesco-en/
+Allow : /jp-hiroshima-ko/
+Allow : /ph-ko/
+Allow : /unesco-ko/
+Allow : /ua-ko/
+Allow : /jp-hiroshima-ja/
+Allow : /cn-wuhan-ko/
+Allow : /cn-wuhan-zh/
+Allow : /ch-geneva-ko/
+Allow : /cn-xian-zh/
+Allow : /by-ru/
+Allow : /tl-ko/
+Allow : /br-saopaulo-pt/
+Allow : /ru-ru/
+Allow : /cn-guangzhou-zh/
+Allow : /ru-irkutsk-ru/
+Allow : /cz-cs/
+Allow : /ca-ko/
+Allow : /nz-ko/
+Allow : /jp-yokohama-ko/
+Allow : /jp-nagoya-ko/
+Allow : /de-bonn-ko/
+Allow : /dk-ko/
+Allow : /tw-ko/
+Allow : /us-boston-ko/
+Allow : /at-de/
+Allow : /fj-ko/
+Allow : /br-saopaulo-ko/
+Allow : /us-chicago-ko/
+Allow : /np-ko/
+Allow : /us-chicago-en/
+Allow : /de-frankfurt-ko/
+Allow : /ca-en/
+Allow : /de-bonn-de/
+Allow : /ke-ko/
+Allow : /de-frankfurt-de/
+Allow : /pk-karachi-ko/
+Allow : /hr-ko/
+Allow : /vn-hochiminh-ko/
+Allow : /tz-ko/
+Allow : /ar-es/
+Allow : /bo-es/
+Allow : /co-es/
+Allow : /jp-fukuoka-ja/
+Allow : /jp-ja/
+Allow : /do-es/
+Allow : /ec-es/
+Allow : /gt-es/
+Allow : /ch-de/
+Allow : /ni-es/
+Allow : /pa-es/
+Allow : /py-es/
+Allow : /de-hamburg-de/
+Allow : /jp-nagoya-ja/
+Allow : /pe-es/
+Allow : /uy-es/
+Allow : /ve-es/
+Allow : /jp-sapporo-ja/
+Allow : /kz-almaty-kk/
+Allow : /cd-fr/
+Allow : /kg-ky/
+Allow : /ci-fr/
+Allow : /ru-stpetersburg-ru/
+Allow : /ma-ar/
+Allow : /tj-tg/
+Allow : /sn-fr/
+Allow : /ao-pt/
+Allow : /fr-fr/
+Allow : /eg-ar/
+Allow : /it-milano-it/
+Allow : /iq-ar/
+Allow : /sa-jeddah-en/
+Allow : /jo-ar/
+Allow : /ly-ar/
+Allow : /va-it/
+Allow : /qa-en/
+Allow : /es-las-es/
+Allow : /sa-ar/
+Allow : /tr-tr/
+Allow : /tr-istanbul-tr/
+Allow : /ae-en/
+Allow : /bg-bg/
+Allow : /ye-en/
+Allow : /ir-en/
+Allow : /hu-en/
+Allow : /pt-pt/
+Allow : /ro-en/
+Allow : /sk-sk/
+Allow : /vn-hochiminh-vi/
+Allow : /ua-uk/
+Allow : /tl-en/
+Allow : /th-th/
+Allow : /mn-mn/
+Allow : /uz-ru/
+Allow : /it-it/
+Allow : /af-en/
+Allow : /nz-auckland-en/
+Allow : /ke-en/
+Allow : /ng-lagos-en/
+Allow : /lb-en/
+Allow : /tz-en/
+Allow : /et-en/
+Allow : /rw-en/
+Allow : /zw-en/
+Allow : /au-en/
+Allow : /bd-en/
+Allow : /ie-en/
+Allow : /nl-en/
+Allow : /fj-en/
+Allow : /oecd-en/
+Allow : /fi-en/
+Allow : /in-mumbai-en/
+Allow : /nz-en/
+Allow : /se-en/
+Allow : /sg-en/
+Allow : /us-anchorage-en/
+Allow : /lk-en/
+Allow : /us-boston-en/
+Allow : /au-sydney-en/
+Allow : /us-honolulu-en/
+Allow : /us-sanfrancisco-en/
+Allow : /jm-en/
+Allow : /ca-vancouver-en/
+Allow : /mm-ko/
+Allow : /bd-ko/
+Allow : /nz-auckland-ko/
+Allow : /gt-ko/
+Allow : /br-ko/
+Allow : /ar-ko/
+Allow : /ec-ko/
+Allow : /pg-ko/
+Allow : /uy-ko/
+Allow : /cl-ko/
+Allow : /cr-ko/
+Allow : /pa-ko/
+Allow : /py-ko/
+Allow : /pe-ko/
+Allow : /us-hagatna-ko/
+Allow : /do-ko/
+Allow : /la-ko/
+Allow : /mn-ko/
+Allow : /in-mumbai-ko/
+Allow : /mx-ko/
+Allow : /ve-ko/
+Allow : /ps-ko/
+Allow : /tn-ko/
+Allow : /us-seattle-ko/
+Allow : /jm-ko/
+Allow : /zw-ko/
+Allow : /ga-ko/
+Allow : /za-ko/
+Allow : /ng-ko/
+Allow : /ng-lagos-ko/
+Allow : /lb-ko/
+Allow : /ly-ko/
+Allow : /sa-ko/
+Allow : /sn-ko/
+Allow : /sd-ko/
+Allow : /ae-ko/
+Allow : /ao-ko/
+Allow : /dz-ko/
+Allow : /fi-ko/
+Allow : /et-ko/
+Allow : /ye-ko/
+Allow : /jo-ko/
+Allow : /iq-ko/
+Allow : /eg-ko/
+Allow : /pl-ko/
+Allow : /ir-ko/
+Allow : /pt-ko/
+Allow : /tj-ko/
+Allow : /kz-ko/
+Allow : /cz-ko/
+Allow : /uz-ko/
+Allow : /ch-ko/
+Allow : /au-sydney-ko/
+Allow : /rs-ko/
+Allow : /ru-vladivostok-ko/
+Allow : /bg-ko/
+Allow : /af-ko/
+Allow : /it-milano-ko/
+Allow : /ro-ko/
+Allow : /ru-ko/
+Allow : /no-ko/
+Allow : /nl-ko/
+Allow : /gr-ko/
+Allow : /jp-sendai-ko/
+Allow : /rw-ko/
+Allow : /vn-ko/
+Allow : /jp-sapporo-ko/
+Allow : /lk-ko/
+Allow : /cn-xian-ko/
+Allow : /jp-osaka-ko/
+Allow : /in-ko/
+Allow : /ma-ko/
+Allow : /il-ko/
+Allow : /es-las-ko/
+Allow : /tr-ko/
+Allow : /au-melbourne-ko/
+Allow : /ca-vancouver-ko/
+Allow : /ie-ko/
+Allow : /un-ko/
+Allow : /ci-ko/
+Allow : /cn-ko/
+Allow : /bh-ko/
+Allow : /ug-ko/
+Allow : /ca-toronto-ko/
+Allow : /cn-shanghai-ko/
+Allow : /cn-qingdao-ko/
+Allow : /cn-zh/
+Allow : /asean-ko/
+Allow : /gb-ko/
+Allow : /ge-ko/
+Allow : /ug-en/
+Allow : /be-en/
+Allow : /kw-en/
+Allow : /ae-dubai-en/
+Allow : /br-pt/
+Allow : /ru-stpetersburg-ko/
+Allow : /cn-dalian-ko/
+Allow : /es-ko/
+Allow : /in-en/
+Allow : /cn-qingdao-zh/
+Allow : /cn-shanghai-zh/
+Allow : /cn-shenyang-zh/
+Allow : /sd-ar/
+Allow : /ca-fr/
+Allow : /dz-ar/
+Allow : /ga-fr/
+Allow : /mg-fr/
+Allow : /tn-fr/
+Allow : /cl-es/
+Allow : /cr-es/
+Allow : /mx-es/
+Allow : /sv-es/
+Allow : /tm-ru/
+Allow : /vn-vi/
+Allow : /asean-en/
+Allow : /de-de/
+Allow : /mz-ko/
+Allow : /kh-siemreap-ko/
+Allow : /us-ko/
+Allow : /gq-ko/
+Allow : /om-en/
+Allow : /us-en/
+Allow : /sg-ko/
+Allow : /my-en/
+Allow : /bh-en/
+Allow : /us-dallas-en/
+Allow : /us-dallas-ko/
+Allow : /hu-ko/
+Allow : /au-melbourne-en/
+Allow : /ch-en/
+Allow : /mg-ko/
+Allow : /ca-toronto-en/
+Allow : /us-sanfrancisco-ko/
+Allow : /ni-ko/
+Allow : /dk-en/
+Allow : /ps-en/
+Allow : /ph-cebu-ko/
+Allow : /pl-pl/
+Allow : /mz-pt/
+Allow : /cn-shenyang-ko/
+Allow : /no-en/
+Allow : /in-chennai-ko/
+Allow : /in-chennai-en/
+Allow : /rs-sr/
+Allow : /us-seattle-en/
+Allow : /sv-ko/
+Allow : /gh-en/
+Allow : /us-anchorage-ko/
+Allow : /ph-cebu-en/
+Allow : /uz-uz/
+Allow : /pk-en/
+Allow : /hr-hr/
+Allow : /va-ko/
+Allow : /youth/
+Allow : /pk-ko/
+Allow : /om-ko/
+Allow : /np-en/
+Allow : /bn-en/
+Allow : /kh-en/
+Allow : /gr-en/
+Allow : /at-en/
+Allow : /us-hagatna-en/
+Allow : /ng-en/
+Allow : /il-en/
+Allow : /minister/
+Allow : /ch-geneva-en/
+Allow : /gb-en/
+Allow : /ca-montreal-en/
+Allow : /es-barcelona-ko/
+Allow : /es-barcelona-es/
+Allow : /teenager/
+
+Disallow: /www/brd/m_4124/
+Disallow: /com/
+Disallow: /www/brd/m_4124/list.do
+Disallow: /www/brd/m_4124/view.do
+Disallow: /www/brd/m_4112/
+Disallow: /www/brd/m_4112/list.do
+Disallow: /www/brd/m_4112/view.do
+Disallow: /ve-ko/brd/m_6005/list.do	
+Disallow: /vn-hochiminh-ko/brd/m_4031/list.do	
+Disallow: /vn-hochiminh-ko/brd/m_4032/list.do	
+Disallow: /vn-ko/brd/m_2211/list.do	
+Disallow: /vn-ko/brd/m_2210/list.do	
+Disallow: /vn-ko/brd/m_2212/list.do	
+Disallow: /ye-ko/brd/m_11255/list.do	
+Disallow: /ye-ko/brd/m_11254/list.do	
+Disallow: /ye-ko/brd/m_11256/list.do	
+Disallow: /za-ko/brd/m_9945/list.do	
+Disallow: /za-ko/brd/m_9944/list.do	
+Disallow: /za-ko/brd/m_9946/list.do	
+Disallow: /zw-ko/brd/m_10471/list.do	
+Disallow: /zw-ko/brd/m_10470/list.do	
+Disallow: /zw-ko/brd/m_10472/list.do	
+Disallow: /ae-ko/brd/m_13070/list.do	
+Disallow: /ae-ko/brd/m_13069/list.do	
+Disallow: /ae-ko/brd/m_13071/list.do	
+Disallow: /ae-ko/brd/m_13066/list.do	
+Disallow: /af-ko/brd/m_2633/list.do	
+Disallow: /af-ko/brd/m_2632/list.do	
+Disallow: /af-ko/brd/m_2634/list.do	
+Disallow: /ao-ko/brd/m_10327/list.do	
+Disallow: /az-ko/brd/m_8271/list.do	
+Disallow: /az-ko/brd/m_8270/list.do	
+Disallow: /az-ko/brd/m_8272/list.do	
+Disallow: /us-anchorage-ko/brd/m_5108/list.do	
+Disallow: /us-anchorage-ko/brd/m_5105/list.do	
+Disallow: /us-anchorage-ko/brd/m_5110/list.do	
+Disallow: /ar-ko/brd/m_6230/list.do	
+Disallow: /at-ko/brd/m_8475/list.do	
+Disallow: /at-ko/brd/m_8474/list.do	
+Disallow: /at-ko/brd/m_8476/list.do	
+Disallow: /au-ko/brd/m_3910/list.do	
+Disallow: /au-ko/brd/m_3909/list.do	
+Disallow: /au-ko/brd/m_3911/list.do	
+Disallow: /au-melbourne-ko/brd/m_2004/list.do	
+Disallow: /au-melbourne-ko/brd/m_2003/list.do	
+Disallow: /au-melbourne-ko/brd/m_2005/list.do	
+Disallow: /au-melbourne-ko/brd/m_2022/list.do	
+Disallow: /au-ko/brd/m_3957/list.do	
+Disallow: /au-melbourne-ko/brd/m_2023/list.do	
+Disallow: /au-sydney-ko/brd/m_2494/list.do	
+Disallow: /au-sydney-ko/brd/m_2472/list.do	
+Disallow: /bd-ko/brd/m_2166/list.do	
+Disallow: /bd-ko/brd/m_2165/list.do	
+Disallow: /bd-ko/brd/m_2167/list.do	
+Disallow: /be-ko/brd/m_7581/list.do	
+Disallow: /bg-ko/brd/m_7763/list.do	
+Disallow: /bg-ko/brd/m_7764/list.do	
+Disallow: /bh-ko/brd/m_10961/list.do	
+Disallow: /by-ko/brd/m_7648/list.do	
+Disallow: /by-ko/brd/m_7647/list.do	
+Disallow: /by-ko/brd/m_7649/list.do	
+Disallow: /by-ko/brd/m_7651/list.do	
+Disallow: /bn-ko/brd/m_2281/list.do	
+Disallow: /bn-ko/brd/m_2280/list.do	
+Disallow: /bn-ko/brd/m_2282/list.do	
+Disallow: /us-boston-ko/brd/m_4636/list.do	
+Disallow: /us-boston-ko/brd/m_4635/list.do	
+Disallow: /sa-jeddah-ko/brd/m_11603/list.do	
+Disallow: /us-boston-ko/brd/m_4637/list.do	
+Disallow: /br-ko/brd/m_6121/list.do	
+Disallow: /br-ko/brd/m_6120/list.do	
+Disallow: /br-ko/brd/m_6122/list.do	
+Disallow: /br-saopaulo-ko/brd/m_6175/list.do	
+Disallow: /br-saopaulo-ko/brd/m_6174/list.do	
+Disallow: /br-saopaulo-ko/brd/m_6176/list.do	
+Disallow: /bo-ko/brd/m_6067/list.do	
+Disallow: /bo-ko/brd/m_6066/list.do	
+Disallow: /bo-ko/brd/m_6068/list.do	
+Disallow: /ca-ko/brd/m_5361/list.do	
+Disallow: /ca-ko/brd/m_5360/list.do	
+Disallow: /ca-ko/brd/m_5362/list.do	
+Disallow: /pk-karachi-ko/brd/m_2997/list.do	
+Disallow: /pk-karachi-ko/brd/m_2996/list.do	
+Disallow: /pk-karachi-ko/brd/m_2998/list.do	
+Disallow: /ca-montreal-ko/brd/m_4463/list.do	
+Disallow: /ca-montreal-ko/brd/m_4464/list.do	
+Disallow: /ca-toronto-ko/brd/m_5407/list.do	
+Disallow: /ca-vancouver-ko/brd/m_4592/list.do	
+Disallow: /cd-ko/brd/m_10681/list.do	
+Disallow: /in-chennai-ko/brd/m_2938/list.do	
+Disallow: /ch-ko/brd/m_8046/list.do	
+Disallow: /ch-ko/brd/m_8045/list.do	
+Disallow: /ch-ko/brd/m_8047/list.do	
+Disallow: /cn-dalian-ko/brd/m_350/list.do	
+Disallow: /cl-ko/brd/m_6553/list.do	
+Disallow: /cl-ko/brd/m_6552/list.do	
+Disallow: /cl-ko/brd/m_6554/list.do	
+Disallow: /cm-ko/brd/m_10509/list.do	
+Disallow: /cm-ko/brd/m_10508/list.do	
+Disallow: /cm-ko/brd/m_10510/list.do	
+Disallow: /cn-chengdu-ko/brd/m_1321/list.do	
+Disallow: /cn-ko/brd/m_1267/list.do	
+Disallow: /cn-guangzhou-ko/brd/m_128/list.do	
+Disallow: /cn-guangzhou-ko/brd/m_126/list.do	
+Disallow: /cn-guangzhou-ko/brd/m_129/list.do	
+Disallow: /cn-shanghai-ko/brd/m_509/list.do	
+Disallow: /cn-wuhan-ko/brd/m_992/list.do	
+Disallow: /cn-xian-ko/brd/m_749/list.do	
+Disallow: /cn-xian-ko/brd/m_748/list.do	
+Disallow: /cn-xian-ko/brd/m_750/list.do	
+Disallow: /co-ko/brd/m_6667/list.do	
+Disallow: /co-ko/brd/m_6666/list.do	
+Disallow: /co-ko/brd/m_6668/list.do	
+Disallow: /cr-ko/brd/m_6614/list.do	
+Disallow: /rs-ko/brd/m_7920/list.do	
+Disallow: /rs-ko/brd/m_7919/list.do	
+Disallow: /rs-ko/brd/m_7921/list.do	
+Disallow: /ci-ko/brd/m_10623/list.do	
+Disallow: /ci-ko/brd/m_10622/list.do	
+Disallow: /ci-ko/brd/m_10624/list.do	
+Disallow: /cz-ko/brd/m_8943/list.do	
+Disallow: /cz-ko/brd/m_8942/list.do	
+Disallow: /cz-ko/brd/m_8944/list.do	
+Disallow: /ae-dubai-ko/brd/m_10779/list.do	
+Disallow: /ae-dubai-ko/brd/m_10778/list.do	
+Disallow: /ae-dubai-ko/brd/m_10780/list.do	
+Disallow: /de-ko/brd/m_7210/list.do	
+Disallow: /de-ko/brd/m_7209/list.do	
+Disallow: /de-ko/brd/m_7211/list.do	
+Disallow: /dk-ko/brd/m_7156/list.do	
+Disallow: /dk-ko/brd/m_7155/list.do	
+Disallow: /dk-ko/brd/m_7157/list.do	
+Disallow: /do-ko/brd/m_5877/list.do	
+Disallow: /dz-ko/brd/m_11215/list.do	
+Disallow: /dz-ko/brd/m_11214/list.do	
+Disallow: /dz-ko/brd/m_11216/list.do	
+Disallow: /ec-ko/brd/m_6267/list.do	
+Disallow: /ec-ko/brd/m_6266/list.do	
+Disallow: /ec-ko/brd/m_6268/list.do	
+Disallow: /eg-ko/brd/m_11522/list.do	
+Disallow: /us-ko/brd/m_4518/list.do	
+Disallow: /es-ko/brd/m_8109/list.do	
+Disallow: /es-ko/brd/m_8108/list.do	
+Disallow: /es-ko/brd/m_8110/list.do	
+Disallow: /es-las-ko/brd/m_7289/list.do	
+Disallow: /es-las-ko/brd/m_7287/list.do	
+Disallow: /es-las-ko/brd/m_7291/list.do	
+Disallow: /et-ko/brd/m_10373/list.do	
+Disallow: /fi-ko/brd/m_9635/list.do	
+Disallow: /fi-ko/brd/m_9634/list.do	
+Disallow: /fi-ko/brd/m_9636/list.do	
+Disallow: /fj-ko/brd/m_3589/list.do	
+Disallow: /fj-ko/brd/m_3578/list.do	
+Disallow: /fj-ko/brd/m_3591/list.do	
+Disallow: /fr-ko/brd/m_9471/list.do	
+Disallow: /fr-ko/brd/m_9470/list.do	
+Disallow: /fr-ko/brd/m_9472/list.do	
+Disallow: /de-frankfurt-ko/brd/m_9531/list.do	
+Disallow: /ga-ko/brd/m_9840/list.do	
+Disallow: /ga-ko/brd/m_9839/list.do	
+Disallow: /ga-ko/brd/m_9841/list.do	
+Disallow: /ge-ko/brd/m_8888/list.do	
+Disallow: /ge-ko/brd/m_8887/list.do	
+Disallow: /ge-ko/brd/m_8889/list.do	
+Disallow: /gh-ko/brd/m_9774/list.do	
+Disallow: /gh-ko/brd/m_9773/list.do	
+Disallow: /gh-ko/brd/m_9775/list.do	
+Disallow: /ng-lagos-ko/brd/m_10004/list.do	
+Disallow: /ng-lagos-ko/brd/m_10003/list.do	
+Disallow: /ng-lagos-ko/brd/m_10006/list.do	
+Disallow: /gq-ko/brd/m_10440/list.do	
+Disallow: /gr-ko/brd/m_7021/list.do	
+Disallow: /gr-ko/brd/m_7020/list.do	
+Disallow: /gt-ko/brd/m_5706/list.do	
+Disallow: /gt-ko/brd/m_5705/list.do	
+Disallow: /gt-ko/brd/m_5707/list.do	
+Disallow: /de-hamburg-ko/brd/m_9689/list.do	
+Disallow: /hk-ko/brd/m_1518/list.do	
+Disallow: /hk-ko/brd/m_1517/list.do	
+Disallow: /hk-ko/brd/m_1519/list.do	
+Disallow: /hn-ko/brd/m_6374/list.do	
+Disallow: /hn-ko/brd/m_6373/list.do	
+Disallow: /hn-ko/brd/m_6375/list.do	
+Disallow: /hr-ko/brd/m_9099/list.do	
+Disallow: /hr-ko/brd/m_9098/list.do	
+Disallow: /hr-ko/brd/m_9100/list.do	
+Disallow: /hu-ko/brd/m_9733/list.do	
+Disallow: /id-ko/brd/m_2884/list.do	
+Disallow: /id-ko/brd/m_2883/list.do	
+Disallow: /id-ko/brd/m_2885/list.do	
+Disallow: /ie-ko/brd/m_8202/list.do	
+Disallow: /ie-ko/brd/m_8201/list.do	
+Disallow: /ie-ko/brd/m_8203/list.do	
+Disallow: /il-ko/brd/m_11478/list.do	
+Disallow: /in-ko/brd/m_2826/list.do	
+Disallow: /in-mumbai-ko/brd/m_2049/list.do	
+Disallow: /in-mumbai-ko/brd/m_2048/list.do	
+Disallow: /in-mumbai-ko/brd/m_2050/list.do	
+Disallow: /iq-ko/brd/m_11338/list.do	
+Disallow: /iq-ko/brd/m_11336/list.do	
+Disallow: /iq-ko/brd/m_11339/list.do	
+Disallow: /ir-ko/brd/m_11407/list.do	
+Disallow: /it-milano-ko/brd/m_7517/list.do	
+Disallow: /it-milano-ko/brd/m_7516/list.do	
+Disallow: /it-milano-ko/brd/m_7518/list.do	
+Disallow: /sa-jeddah-ko/brd/m_11602/list.do	
+Disallow: /sa-jeddah-ko/brd/m_11601/list.do	
+Disallow: /jm-ko/brd/m_6497/list.do	
+Disallow: /jm-ko/brd/m_6495/list.do	
+Disallow: /jm-ko/brd/m_6498/list.do	
+Disallow: /jo-ko/brd/m_11174/list.do	
+Disallow: /jo-ko/brd/m_11173/list.do	
+Disallow: /jo-ko/brd/m_11175/list.do	
+Disallow: /jp-fukuoka-ko/brd/m_1617/list.do	
+Disallow: /jp-fukuoka-ko/brd/m_1619/list.do	
+Disallow: /jp-hiroshima-ko/brd/m_1690/list.do	
+Disallow: /jp-ko/brd/m_1080/list.do	
+Disallow: /jp-ko/brd/m_1078/list.do	
+Disallow: /jp-ko/brd/m_1081/list.do	
+Disallow: /jp-kobe-ko/brd/m_65/list.do	
+Disallow: /jp-kobe-ko/brd/m_64/list.do	
+Disallow: /jp-kobe-ko/brd/m_67/list.do	
+Disallow: /jp-nagoya-ko/brd/m_287/list.do	
+Disallow: /jp-nagoya-ko/brd/m_286/list.do	
+Disallow: /jp-nagoya-ko/brd/m_289/list.do	
+Disallow: /jp-niigata-ko/brd/m_239/list.do	
+Disallow: /jp-niigata-ko/brd/m_237/list.do	
+Disallow: /jp-osaka-ko/brd/m_808/list.do	
+Disallow: /jp-osaka-ko/brd/m_807/list.do	
+Disallow: /jp-osaka-ko/brd/m_810/list.do	
+Disallow: /jp-sapporo-ko/brd/m_457/list.do	
+Disallow: /jp-sapporo-ko/brd/m_456/list.do	
+Disallow: /jp-sapporo-ko/brd/m_458/list.do	
+Disallow: /jp-sendai-ko/brd/m_701/list.do	
+Disallow: /jp-sendai-ko/brd/m_702/list.do	
+Disallow: /jp-yokohama-ko/brd/m_940/list.do	
+Disallow: /jp-yokohama-ko/brd/m_939/list.do	
+Disallow: /jp-yokohama-ko/brd/m_942/list.do	
+Disallow: /ke-ko/brd/m_10565/list.do	
+Disallow: /kg-ko/brd/m_9156/list.do	
+Disallow: /kg-ko/brd/m_9155/list.do	
+Disallow: /kg-ko/brd/m_9157/list.do	
+Disallow: /kh-ko/brd/m_3116/list.do	
+Disallow: /kh-ko/brd/m_3109/list.do	
+Disallow: /kh-ko/brd/m_3118/list.do	
+Disallow: /kw-ko/brd/m_11681/list.do	
+Disallow: /kz-almaty-ko/brd/m_8325/list.do	
+Disallow: /kz-almaty-ko/brd/m_8323/list.do	
+Disallow: /kz-almaty-ko/brd/m_8326/list.do	
+Disallow: /kz-ko/brd/m_9012/list.do	
+Disallow: /kz-ko/brd/m_9010/list.do	
+Disallow: /kz-ko/brd/m_9014/list.do	
+Disallow: /la-ko/brd/m_1877/list.do	
+Disallow: /la-ko/brd/m_1876/list.do	
+Disallow: /la-ko/brd/m_1878/list.do	
+Disallow: /lb-ko/brd/m_10816/list.do	
+Disallow: /lb-ko/brd/m_10818/list.do	
+Disallow: /lk-ko/brd/m_2387/list.do	
+Disallow: /lk-ko/brd/m_2386/list.do	
+Disallow: /lk-ko/brd/m_2389/list.do	
+Disallow: /us-losangeles-ko/brd/m_4374/list.do	
+Disallow: /us-losangeles-ko/brd/m_4373/list.do	
+Disallow: /us-losangeles-ko/brd/m_4375/list.do	
+Disallow: /ma-ko/brd/m_10917/list.do	
+Disallow: /mn-ko/brd/m_380/list.do	
+Disallow: /mm-ko/brd/m_2103/list.do	
+Disallow: /mm-ko/brd/m_2102/list.do	
+Disallow: /mm-ko/brd/m_2104/list.do	
+Disallow: /mx-ko/brd/m_5946/list.do	
+Disallow: /mx-ko/brd/m_5945/list.do	
+Disallow: /mx-ko/brd/m_5947/list.do	
+Disallow: /my-ko/brd/m_1932/list.do	
+Disallow: /my-ko/brd/m_1931/list.do	
+Disallow: /my-ko/brd/m_1934/list.do	
+Disallow: /mz-ko/brd/m_10146/list.do	
+Disallow: /mz-ko/brd/m_10145/list.do	
+Disallow: /mz-ko/brd/m_10147/list.do	
+Disallow: /ni-ko/brd/m_5811/list.do	
+Disallow: /ni-ko/brd/m_5808/list.do	
+Disallow: /ni-ko/brd/m_5812/list.do	
+Disallow: /ng-ko/brd/m_9901/list.do	
+Disallow: /ng-ko/brd/m_9900/list.do	
+Disallow: /ng-ko/brd/m_9902/list.do	
+Disallow: /nl-ko/brd/m_7076/list.do	
+Disallow: /np-ko/brd/m_1724/list.do	
+Disallow: /np-ko/brd/m_1723/list.do	
+Disallow: /np-ko/brd/m_1725/list.do	
+Disallow: /no-ko/brd/m_7116/list.do	
+Disallow: /no-ko/brd/m_7117/list.do	
+Disallow: /nz-auckland-ko/brd/m_2683/list.do	
+Disallow: /nz-auckland-ko/brd/m_2684/list.do	
+Disallow: /nz-ko/brd/m_1782/list.do	
+Disallow: /nz-ko/brd/m_1781/list.do	
+Disallow: /nz-ko/brd/m_1783/list.do	
+Disallow: /om-ko/brd/m_11288/list.do	
+Disallow: /om-ko/brd/m_11289/list.do	
+Disallow: /pa-ko/brd/m_6783/list.do	
+Disallow: /pa-ko/brd/m_6782/list.do	
+Disallow: /pa-ko/brd/m_6784/list.do	
+Disallow: /pe-ko/brd/m_6896/list.do	
+Disallow: /pe-ko/brd/m_6894/list.do	
+Disallow: /pe-ko/brd/m_6897/list.do	
+Disallow: /pg-ko/brd/m_3432/list.do	
+Disallow: /pg-ko/brd/m_3431/list.do	
+Disallow: /pg-ko/brd/m_3433/list.do	
+Disallow: /ph-cebu-ko/brd/m_2336/list.do	
+Disallow: /ph-cebu-ko/brd/m_2335/list.do	
+Disallow: /ph-cebu-ko/brd/m_2337/list.do	
+Disallow: /ph-ko/brd/m_3650/list.do	
+Disallow: /ph-ko/brd/m_3649/list.do	
+Disallow: /ph-ko/brd/m_3651/list.do	
+Disallow: /us-atlanta-ko/brd/m_4886/list.do	
+Disallow: /us-atlanta-ko/brd/m_4885/list.do	
+Disallow: /us-atlanta-ko/brd/m_4887/list.do	
+Disallow: /pk-ko/brd/m_3368/list.do	
+Disallow: /pk-ko/brd/m_3366/list.do	
+Disallow: /pk-ko/brd/m_3371/list.do	
+Disallow: /pl-ko/brd/m_9383/list.do	
+Disallow: /pl-ko/brd/m_9381/list.do	
+Disallow: /pl-ko/brd/m_9385/list.do	
+Disallow: /ps-ko/brd/m_11750/list.do	
+Disallow: /ps-ko/brd/m_11749/list.do	
+Disallow: /ps-ko/brd/m_11751/list.do	
+Disallow: /pt-ko/brd/m_9331/list.do	
+Disallow: /pt-ko/brd/m_9330/list.do	
+Disallow: /pt-ko/brd/m_9332/list.do	
+Disallow: /py-ko/brd/m_6841/list.do	
+Disallow: /qa-ko/brd/m_11646/list.do	
+Disallow: /qa-ko/brd/m_11645/list.do	
+Disallow: /qa-ko/brd/m_11647/list.do	
+Disallow: /ro-ko/brd/m_7416/list.do	
+Disallow: /ro-ko/brd/m_7415/list.do	
+Disallow: /ro-ko/brd/m_7417/list.do	
+Disallow: /ru-irkutsk-ko/brd/m_8696/list.do	
+Disallow: /ru-irkutsk-ko/brd/m_8695/list.do	
+Disallow: /ru-irkutsk-ko/brd/m_8697/list.do	
+Disallow: /ru-ko/brd/m_7346/list.do	
+Disallow: /ru-ko/brd/m_7345/list.do	
+Disallow: /ru-ko/brd/m_7347/list.do	
+Disallow: /ru-stpetersburg-ko/brd/m_7864/list.do	
+Disallow: /ru-vladivostok-ko/brd/m_7812/list.do	
+Disallow: /ru-vladivostok-ko/brd/m_7811/list.do	
+Disallow: /ru-vladivostok-ko/brd/m_7813/list.do	
+Disallow: /rw-ko/brd/m_10064/list.do	
+Disallow: /rw-ko/brd/m_10063/list.do	
+Disallow: /rw-ko/brd/m_10065/list.do	
+Disallow: /sa-ko/brd/m_11070/list.do	
+Disallow: /sa-ko/brd/m_11069/list.do	
+Disallow: /sa-ko/brd/m_11072/list.do	
+Disallow: /sd-ko/brd/m_10270/list.do	
+Disallow: /sd-ko/brd/m_10268/list.do	
+Disallow: /sd-ko/brd/m_10271/list.do	
+Disallow: /se-ko/brd/m_7997/list.do	
+Disallow: /se-ko/brd/m_7994/list.do	
+Disallow: /se-ko/brd/m_7999/list.do	
+Disallow: /sg-ko/brd/m_2527/list.do	
+Disallow: /sg-ko/brd/m_2526/list.do	
+Disallow: /sg-ko/brd/m_2528/list.do	
+Disallow: /sk-ko/brd/m_8154/list.do	
+Disallow: /sk-ko/brd/m_8153/list.do	
+Disallow: /sk-ko/brd/m_8155/list.do	
+Disallow: /sn-ko/brd/m_10185/list.do	
+Disallow: /sn-ko/brd/m_10184/list.do	
+Disallow: /sn-ko/brd/m_10186/list.do	
+Disallow: /kh-siemreap-ko/brd/m_2438/list.do	
+Disallow: /sv-ko/brd/m_6330/list.do	
+Disallow: /sv-ko/brd/m_6329/list.do	
+Disallow: /tt-ko/brd/m_6729/list.do	
+Disallow: /tt-ko/brd/m_6728/list.do	
+Disallow: /tt-ko/brd/m_6730/list.do	
+Disallow: /th-ko/brd/m_3226/list.do	
+Disallow: /th-ko/brd/m_3225/list.do	
+Disallow: /th-ko/brd/m_3227/list.do	
+Disallow: /tj-ko/brd/m_9209/list.do	
+Disallow: /tj-ko/brd/m_9208/list.do	
+Disallow: /tj-ko/brd/m_9210/list.do	
+Disallow: /tm-ko/brd/m_9291/list.do	
+Disallow: /tm-ko/brd/m_9290/list.do	
+Disallow: /tm-ko/brd/m_9292/list.do	
+Disallow: /tl-ko/brd/m_1836/list.do	
+Disallow: /tl-ko/brd/m_1835/list.do	
+Disallow: /tl-ko/brd/m_1837/list.do	
+Disallow: /tr-istanbul-ko/brd/m_8831/list.do	
+Disallow: /tr-istanbul-ko/brd/m_8830/list.do	
+Disallow: /tr-istanbul-ko/brd/m_8832/list.do	
+Disallow: /tr-ko/brd/m_9243/list.do	
+Disallow: /tr-ko/brd/m_9242/list.do	
+Disallow: /tr-ko/brd/m_9244/list.do	
+Disallow: /tn-ko/brd/m_11720/list.do	
+Disallow: /tn-ko/brd/m_11719/list.do	
+Disallow: /tn-ko/brd/m_11721/list.do	
+Disallow: /tw-ko/brd/m_1462/list.do	
+Disallow: /tw-ko/brd/m_1461/list.do	
+Disallow: /tw-ko/brd/m_1464/list.do	
+Disallow: /tz-ko/brd/m_10725/list.do	
+Disallow: /tz-ko/brd/m_10723/list.do	
+Disallow: /tz-ko/brd/m_10727/list.do	
+Disallow: /ua-ko/brd/m_8621/list.do	
+Disallow: /ua-ko/brd/m_8620/list.do	
+Disallow: /ua-ko/brd/m_8622/list.do	
+Disallow: /ug-ko/brd/m_10415/list.do	
+Disallow: /ug-ko/brd/m_10414/list.do	
+Disallow: /ug-ko/brd/m_10416/list.do	
+Disallow: /uy-ko/brd/m_6456/list.do	
+Disallow: /uy-ko/brd/m_6455/list.do	
+Disallow: /uy-ko/brd/m_6457/list.do	
+Disallow: /gb-ko/brd/m_8397/list.do	
+Disallow: /us-chicago-ko/brd/m_4802/list.do	
+Disallow: /us-chicago-ko/brd/m_4801/list.do	
+Disallow: /us-chicago-ko/brd/m_4804/list.do	
+Disallow: /us-dallas-ko/brd/m_4311/list.do	
+Disallow: /us-dallas-ko/brd/m_4310/list.do	
+Disallow: /us-dallas-ko/brd/m_4312/list.do	
+Disallow: /us-hagatna-ko/brd/m_5516/list.do	
+Disallow: /us-hagatna-ko/brd/m_5515/list.do	
+Disallow: /us-hagatna-ko/brd/m_5517/list.do	
+Disallow: /us-honolulu-ko/brd/m_5575/list.do	
+Disallow: /us-honolulu-ko/brd/m_5574/list.do	
+Disallow: /us-honolulu-ko/brd/m_5576/list.do	
+Disallow: /us-houston-ko/brd/m_5627/list.do	
+Disallow: /us-houston-ko/brd/m_5626/list.do	
+Disallow: /us-houston-ko/brd/m_5629/list.do	
+Disallow: /us-newyork-ko/brd/m_4256/list.do	
+Disallow: /us-newyork-ko/brd/m_4254/list.do	
+Disallow: /us-newyork-ko/brd/m_4257/list.do	
+Disallow: /us-seattle-ko/brd/m_4719/list.do	
+Disallow: /us-seattle-ko/brd/m_4718/list.do	
+Disallow: /us-seattle-ko/brd/m_4720/list.do	
+Disallow: /us-sanfrancisco-ko/brd/m_4686/list.do	
+Disallow: /uz-ko/brd/m_8566/list.do	
+Disallow: /uz-ko/brd/m_8567/list.do	
+Disallow: /ve-ko/brd/m_6003/list.do	
+Disallow: /ve-ko/brd/m_6000/list.do
+Disallow: /es-barcelona-ko/brd/m_21171/list.do
+Disallow: /es-barcelona-ko/brd/m_21172/list.do
+Disallow: /es-barcelona-ko/brd/m_21173/list.do

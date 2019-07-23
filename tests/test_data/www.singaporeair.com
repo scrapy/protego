@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+Disallow: /booking-flow.form
+Disallow: /saa/
+Disallow: /maintenance/
+Disallow: /en_UK/partner-kf-upgrade/SPG/
+Disallow: /kfStatusUpgrade.form
+Disallow: /en_UK/partner-kf-upgrade-terms/
+Disallow: /en_UK/ppsclub-krisflyer/stayintouch/
+Disallow: /categoryListing.form
+Disallow: /aircraftSeatmapDisplay.form
+Disallow: /skl_wifi/
+Disallow: /sqdirect/
+Disallow: /en_UK/sg/flying-withus/before-the-flight/mySQupgrade-faq
+Disallow: /flightDisruption.form
+Disallow: /travel-info/requests/flight-disruption/
+Disallow: /bestWebFareGuarantee.form
+
+Crawl-Delay: 2
+Sitemap: http://www.singaporeair.com/sitemap.xml

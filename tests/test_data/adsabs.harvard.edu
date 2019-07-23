@@ -1,0 +1,52 @@
+
+# let search engines know where things are
+Sitemap: http://adsabs.harvard.edu/sitemap_index.xml
+
+# Google
+# http://www.google.com/bot.html
+User-agent: Googlebot
+Disallow: /cgi-bin/
+Allow: /abs/
+Allow: /full/
+
+# Bing
+# http://search.msn.com/msnbot.htm
+User-agent: bingbot
+Disallow: /cgi-bin/
+Allow: /abs/
+Allow: /full/
+
+# MS Live
+# http://search.msn.com/msnbot.htm
+User-agent: msnbot
+Disallow: /cgi-bin/
+Allow: /abs/
+Allow: /full/
+
+# MS Academic
+# http://search.msn.com/msnbot.htm
+User-agent: librabot
+Disallow: /cgi-bin/
+Allow: /abs/
+Allow: /full/
+
+# Yahoo
+# http://help.yahoo.com/help/us/ysearch/slurp
+User-agent: Slurp
+Disallow: /cgi-bin/
+Allow: /abs/
+Allow: /full/
+
+# Ask.com
+# http://about.ask.com/en/docs/about/webmasters.shtml
+User-agent: Teoma
+Disallow: /cgi-bin/
+Allow: /abs/
+Disallow: /full/
+
+# disallow harvesting from all other robots
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /abs/
+Disallow: /full/
+

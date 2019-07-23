@@ -1,0 +1,44 @@
+User-agent: *
+Allow: /
+Disallow: /captcha/
+Disallow: /cmlink/
+Disallow: /cm/
+Disallow: /content/
+Disallow: /dapi/
+Disallow: /greenfield-times/
+Disallow: /poll/
+Disallow: /polopolydevelopment/
+Disallow: /test-redesign/
+Disallow: /test-homepage/
+Disallow: /mma/
+Disallow: /CIS/
+Disallow: /kerry-fraser-1.88470/
+Disallow: /home/
+Disallow: /longform/
+Disallow: /Speed_Optimization_Page/
+Disallow: /Search2/
+Disallow: /that-s-hockey-2nite/
+Disallow: /radio/vancouver-1040-i-1410/
+Disallow: /CIS/
+Disallow: /MMA/
+Disallow: /Golf-Gear/
+Disallow: /Golf-Features/
+Disallow: /HPTO-jayanddan/
+Disallow: /hp-engr-del/
+Disallow: /scott-macarthur-1.19250
+Disallow: /talent/scott-cullen-1.56454
+Disallow: /derek-taylor-1.1154283
+Disallow: //scott-cullen-1.1285586
+
+Sitemap: http://www.tsn.ca/sitemap_video.xml
+Sitemap: http://www.tsn.ca/sitemap_news.xml
+Sitemap: http://www.tsn.ca/sitemap-part1.xml
+Sitemap: http://www.tsn.ca/sitemap-part2.xml
+Sitemap: http://www.tsn.ca/sitemap-part3.xml
+Sitemap: http://www.tsn.ca/sitemap-part4.xml
+
+User-agent: Googlebot-Image
+Allow: /polopoly_fs/
+
+User-agent: Twitterbot
+Allow: /

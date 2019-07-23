@@ -1,0 +1,29 @@
+User-agent: *
+Allow: /
+
+Disallow: /traffic/webservices/
+Disallow: /Traffic/webservices/
+Disallow: *198.238.212.10/
+Disallow: *wwwi.wsdot.wa.gov
+Disallow: *testcf.wsdot.wa.gov
+Disallow: *betatraffic.wsdot.wa.gov
+Disallow: *traffic.wsdot.wa.gov
+Disallow: *lists.wsdot.wa.gov
+Disallow: *images.wsdot.wa.gov
+Disallow: /NR/rdonlyres/4BA5B017-7597-4B6E-846C-F853CCBEDC55/0/Attach5CommentResponses1.pdf
+Disallow: /NR/rdonlyres/42EAF55D-8D43-45A5-8BDF-DD573F001555/43468/AMBERAlertFactSheet1.pdf
+Disallow: /NR/rdonlyres/F69400AD-0D2F-46EC-8C08-3B966CE98467/0/WSDOTApprovedRegularDealersList.pdf
+Disallow: /biz/construction/reports/
+Disallow: *webpub3qa.wsdot.wa.gov
+Disallow: /qpr/
+Disallow: *ftp://ftp.wsdot.wa.gov
+Disallow: /ferries/mvw/Default.aspx
+Disallow: /Public/Templates
+Disallow: /ArcGIS/rest/
+Disallow: /Projects/SR20/AnacortesTerminal*
+
+User-agent: SemrushBot
+Disallow: / 
+
+User-agent: SemrushBot-SA
+Disallow: / 

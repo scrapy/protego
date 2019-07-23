@@ -1,0 +1,51 @@
+Sitemap: https://www.upc.edu/sitemap.xml.gz
+
+# Define access-restrictions for robots/spiders
+# http://www.robotstxt.org/wc/norobots.html
+
+
+
+# By default we allow robots to access all areas of our site
+# already accessible to anonymous users
+
+User-agent: *
+Disallow: */noindex-upc/*
+Disallow: /*sendto_form$
+Disallow: /*folder_factories$
+Disallow: /sga/*.pdf
+Disallow: /slt/gina*
+Disallow: /slt/assessorament*
+Disallow: /slt/aeronautica*
+Disallow: /slt/informe-mundial*
+Disallow: /slt/mobility*
+Disallow: /sostenible2015*
+Disallow: *manage_translations_form$
+Disallow: *folder_contents$
+Disallow: sdp/ca/concursos-i-oposicions-del-pas/convocatories-de-concursos
+Disallow: sdp/ca/concursos-personal-docent-i-investigador/convocatories-de-concursos 
+Disallow: sri/ca/estudiantat/mobilitat-pas/resolucions
+Disallow: sri/ca/estudiantat/mobilitat-pdi/personal-upc/erasmus-accio-ka10
+Disallow: /genweb-pre*
+
+
+
+
+# Add Googlebot-specific syntax extension to exclude forms
+# that are repeated for each piece of content in the site
+# the wildcard is only supported by Googlebot
+# http://www.google.com/support/webmasters/bin/answer.py?answer=40367&ctx=sibling
+
+User-Agent: Googlebot
+Disallow: /*?
+Disallow: /*atct_album_view$
+Disallow: /*folder_factories$
+Disallow: /*folder_summary_view$
+Disallow: /*login_form$
+Disallow: /*mail_password_form$
+Disallow: /*search
+Disallow: /*search_rss$
+Disallow: /*sendto_form$
+Disallow: /*summary_view$
+Disallow: /*thumbnail_view$
+Disallow: /*view$
+Disallow: /genweb-pre*

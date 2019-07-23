@@ -1,0 +1,15 @@
+User-agent: *
+ 
+# Parameters
+Disallow: /*?WT.ac=
+Disallow: /*?WABFormEntryCommand=
+Disallow: /*?pid=
+Disallow: /*?cid=
+Disallow: /*?utm_source=
+Disallow: /*?wtfrom=
+Disallow: /*?mobile%3dfalse
+Disallow: /*?value=logoff
+Disallow: /*?WT.mc_id=
+ 
+ 
+sitemap: https://www.hsbc.com.my/sitemaps.xml

@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /asp/English/sendmail.asp
+Disallow: /asp/English/sendorder.asp
+Disallow: /asp/German/sendmail.asp
+Disallow: /asp/German/sendorder.asp
+Disallow: /Customers/
+Disallow: /Download/PAD/
+Disallow: /toas/
+Disallow: /moas/
+Disallow: /aspx/
+Disallow: /online-demos/business-cards/BusinessCardHandler.ashx
+User-agent: CrazyWebCrawler-Spider
+Disallow: /
+Sitemap: https://www.tec-it.com/SiteMapXml.aspx?https

@@ -1,0 +1,5 @@
+User-agent: PowerMapper
+Allow: /
+User-agent: * 
+Allow: /
+Disallow: /oldhq/

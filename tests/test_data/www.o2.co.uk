@@ -1,0 +1,40 @@
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Disallow: /shop/refreshTariffs/*
+Disallow: /*?activeTabNum=8*
+Disallow: /login*
+Disallow: /assets2/theme/
+Disallow: */bluedawn-theme/
+Disallow: /search?
+Disallow: /storelocator/*
+Disallow: /shop/prepaysims/*
+Disallow: /*?is4G=true*
+Disallow: /*?is4G=false*
+Disallow: /*?activeTabNum=*
+Disallow: /search
+Disallow: /browsing/
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-image
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+Sitemap: https://www.o2.co.uk/sitemap.xml
+Sitemap: https://www.o2.co.uk/sitemap.xml

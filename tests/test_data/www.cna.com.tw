@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /*/*/sendmail?Url=*
+
+# User-agent: ia_archiver
+# Disallow: /MakerList/Index?*
+# Disallow: /MakerContent/Index?*
+# Disallow: /VideoList/Index?*
+# Disallow: /VideoContent/Index?*
+Disallow: /culture/topicpreview/*
+Disallow: /culture/articlepreview/*
+Disallow: /gallery/*
+Disallow: /.well-known/amphtml/apikey.pub
+
+Sitemap: http://www.cna.com.tw/sitemap_fromRemote_cfp.xml

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /beta
+Disallow: /Pages/SocialLogin.aspx?provider=twitter
+Disallow: *?ID
+
+
+Sitemap:https://www.dishtv.in/sitemap.xml

@@ -1,0 +1,8 @@
+User-Agent: *
+Sitemap: https://www.nationwide.co.uk/handlers/sitemap.ashx
+
+Disallow: /*.xsl
+Disallow: /search?term=*
+
+#Hostname last
+Host: www.nationwide.co.uk

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Disallow: /dailyhistory
+Disallow: /about/history-and-tradition/this-day-at-nc-state/
+Disallow: /discover/
+Allow: /wp/wp-admin/admin-ajax.php
+
+Sitemap: https://www.ncsu.edu/sitemap.xml

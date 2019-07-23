@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /en/howitworks/flextag.shtml
+Disallow: /en/support/carpools.shtml
+Disallow: /en/support/content/faq_general_gnrl_content.html
+Disallow: /en/howitworks/gettingstarted.shtml
+Disallow: /en/howitworks/makeapayment.shtml
+Disallow: /en/ggb/onetimepayment.shtml

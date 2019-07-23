@@ -1,0 +1,26 @@
+﻿User-agent: *
+Disallow: /systemsok
+Disallow: /503.html
+Disallow: /Pagenotfound
+Disallow: /Pagenottranslated
+Disallow: /test/
+
+Sitemap: https://www.sdu.dk/da/sitemap.xml
+Sitemap: https://www.sdu.dk/en/sitemap.xml
+Sitemap: https://www.sdu.dk/en/atlas/sitemap.xml
+Sitemap: https://www.sdu.dk/da/ctu/sitemap.xml
+Sitemap: https://www.sdu.dk/en/ctu/sitemap.xml
+Sitemap: https://www.sdu.dk/da/cws/sitemap.xml
+Sitemap: https://www.sdu.dk/en/cws/sitemap.xml
+Sitemap: https://www.sdu.dk/en/daws/sitemap.xml
+Sitemap: https://www.sdu.dk/da/dias/sitemap.xml
+Sitemap: https://www.sdu.dk/en/dias/sitemap.xml
+Sitemap: https://www.sdu.dk/da/flash/sitemap.xml
+Sitemap: https://www.sdu.dk/en/flash/sitemap.xml
+Sitemap: https://www.sdu.dk/da/havetsskove/sitemap.xml
+Sitemap: https://www.sdu.dk/en/havetsskove/sitemap.xml
+Sitemap: https://www.sdu.dk/en/imaging/sitemap.xml
+Sitemap: https://www.sdu.dk/da/sif/sitemap.xml
+Sitemap: https://www.sdu.dk/en/sif/sitemap.xml
+Sitemap: https://www.sdu.dk/da/uol/sitemap.xml
+Sitemap: https://www.sdu.dk/en/uol/sitemap.xml

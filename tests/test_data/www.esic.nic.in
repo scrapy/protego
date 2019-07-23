@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="title" content="404 Error">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="description" content="404 Error">
+<title>404 Error</title>
+
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" /><link rel="stylesheet" type="text/css" href="/css/roboto-f.css" /><link rel="stylesheet" type="text/css" href="/css/style.css" /><link rel="stylesheet" type="text/css" href="/css/main_RO.css" /><link rel="stylesheet" type="text/css" href="/css/dd-List.css" /><link rel="stylesheet" type="text/css" href="/css/expandcollapse.css" /><link rel="stylesheet" type="text/css" href="/owl-carousel/owl.carousel.css" /><link rel="stylesheet" type="text/css" href="/css/datepicker/pikaday.css" /><script type="text/javascript" src="/js/bootstrap.js"></script><script type="text/javascript" src="/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/jquery.bxslider.js"></script><script type="text/javascript" src="/js/jquery.bxslider.min.js"></script><script type="text/javascript" src="/js/datepicker/moment.js"></script><script type="text/javascript" src="/js/datepicker/pikaday.js"></script><script type="text/javascript" src="/js/jquery.indySliceSlider.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script><script type="text/javascript" src="/js/owl.carousel.js"></script><link rel="stylesheet" type="text/css" href="/css/ESIC.css" />
+<style type="text/css">
+#owl-demo .item{
+	margin:0;
+}
+
+#owl-demo .item a, #owl-demo .item img{
+	display: block;
+	width: 100%;
+}
+#owl-demo .owl-wrapper-outer{
+	border-radius:0px;
+	box-shadow:none;
+	position:relative;
+	border:0px;
+}
+
+#owl-demo .owl-controls .owl-page span{
+	width:30px;
+	height:3px;
+	background:#ccc;
+	opacity:100;
+	box-shadow:none;
+}
+#owl-demo .owl-controls .owl-page.active span{
+	background:#C74A44;
+}
+
+#owl-demo .owl-pagination{
+	top:5px;
+}
+#owl-demo .owl-buttons{
+	display:none;
+}
+
+@media only screen and (max-width:800px){
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+ <div class="main">
+   <script type="text/javascript" src="/js/custom_log.js"></script>
+<header class="_head">
+    	<div class="_topHD pdGridM">
+        	<div class="_clearBx">
+            	<nav class="row">
+                	<div class="col-md-11 col-xs-4">
+                    	
+                        <a href="javascript:void(0);" class="_mobNav"><span></span></a>
+                        
+                    	<div id="top-nav" class="_action4Mob">
+                        	<a href="javascript:void(0);" class="_closeM">&times;</a>
+							
+                            <ul class="">
+                                <li><a href="/" class="active"><i class="hm"></i> Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#"><i class="abt"></i> About Us</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="/about-us">About ESIC</a></li>
+                                    <li><a href="/organization-chart">Organisational Chart</a></li>
+                                    <li><a href="minister-message"  >Hon'ble Minister</a></li>
+                                   <!-- <li><a href="dg-message">DG Message</a></li>-->
+                                    <li><a href="headquarters-office">Who’s Who</a></li>
+                                    <li><a href="/esi-acts">ESI Act</a></li>
+                                    <li class="dropdown mDrop">
+                                    	<a href="#">ESI Scheme</a>
+                                        <ul class="dropdown-menu">
+                                        	<li><a href="/coverage">Coverage</a></li>
+                                            <li><a href="/administration">Administration</a></li>
+                                            <li><a href="/finance">Finance</a></li>
+                                            <li><a href="/contribution">Contribution</a></li>
+                                            <li><a href="/information-benefits">Information - Benefits</a></li>
+                                            <li><a href="/wages">Wages</a></li>
+											<li><a href="/attachments/files/esic at a glance.pdf" target="_blank">ESIC at a Glance
+</a></li>
+                                            
+                                            
+                                        </ul>
+                                    </li>
+                                    </ul>
+                                </li>
+    
+                                <li><a href="/information-benefits"><i class="cash"></i> Benefits</a></li>
+                                <li class="dropdown">
+                                	<a href="#"><i class="off"></i> Offices</a>
+                                    <ul class="dropdown-menu">
+                                    <li><a href="/regional-offices">RO/SRO</a></li>
+                                    <li><a href="/dcbos">DCBO</a></li>
+									 <li><a href="/branchs">Branch Office</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                	<a href="#"><i class="med"></i> Health Services</a>
+                                    <ul class="dropdown-menu">
+  									 <li><a  href="/dispensaries"  >Dispensary</a></li>
+                                    <li><a href="/hospital-list">ESIC Hospitals (Run by ESI Corporation)</a></li> 
+									<li><a href="/hospitals" >ESIS Hospitals (Run by State Govt.)</a></li>
+                                    <li><a  href="/medical-institution"  >Medical Education Institutions</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="/tenders"><i class="tnd"></i> Tenders</a></li>
+                                <li><a href="/recruitments"><i class="rec"></i> Recruitments</a></li>
+                                <li><a href="/admissions"><i class="adm"></i> Admissions</a></li>
+                                <li><a href="/contact-us"><i class="cont"></i> Contact Us</a></li>
+                            </ul>
+							
+					  </div>
+                    </div>
+                    <div class="col-md-1 col-xs-8">	
+                    	<div class="_lang">
+						
+						  <div id="dd" class="_lang-box" tabindex="1">
+							<select name="data[setlanguage]" id="setlanguage" class="">
+								<option value="en" selected="selected" selected>English</option>
+								<option value="hi" >Hindi</option>
+							</select>
+                          </div>
+						
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>   
+  <div class="_bodyMID pdGridM text-center">
+    	<div class="row">
+        	<img src="/img/404.png" alt="" /><br><br>
+			<a href="/" style="margin: 14px;background: #C74A44;padding: 10px;color: #fff;">
+			    << Back to home</a>
+        </div>
+    </div>  
+ </div>
+ <footer>
+ 	<div class="pdGridM">
+    	        
+        	 <ul class="_clearBx _fooLst">
+            	<li>
+                	<p class="_toll"><span>Toll Free / Help Desk</span></p>
+                	<h3 class="common-hd">1800-11-2526</h3>
+                </li>
+                <li>
+                	<p class="_toll"><span>Medical Helpline</span></p>
+                	<h3 class="common-hd">1800-11-3839</h3>
+                </li>
+                <li>
+                	<p class="_toll"><span class="_screenICO">Connect With Us</span></p>
+                	<p class="social-ico">
+						<a href="https://www.facebook.com/esichq" target="_blank" title="ESIC Hospitals & Dispensaries  on facebook"><img src="/images/fb.png" alt="Facebook" />						</a>
+						<a href="https://twitter.com/esichq" title="Twitter" target="_blank" ><img src="/images/tw.png" alt="Twitter"/></a>
+						<a href="https://www.youtube.com/channel/UC1TKzj7f8qQ7eMU9VV7r4Mg"  title="YouTube" target="_blank" ><img src="/images/yt.png" alt="YouTube"/></a>
+					</p>
+                </li>
+                <li>
+                	<p><img src="/images/chinta-se-mukti.png" alt="Chinta Se Mukti"/></p>
+                    <p class="_toll">Mobile App</p>
+                    <p class="social-ico">
+                    <a href="https://play.google.com/store/apps/details?id=in.gov.umang.negd.g2c" class="_appStore0" title="Umang Android App" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank" ><img src="/images/google-play-store.png" alt="Play Store"/></a>
+                    <a href="https://itunes.apple.com/in/app/umang/id1236448857?mt=8" title="Apple Store"  onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/IOS-store.png" alt="IOS Store"/></a>
+                    <a href="https://www.microsoft.com/en-in/p/umang/9mt92gmrj19c?rtc=1&activetab=pivot:overviewtab" title="Window App Store" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/window-app.png" alt="Window App"/></a></p>
+                </li>
+            </ul>
+            
+			 <div class="_fooLnk"><a href="/terms-and-conditions">Terms & Conditions</a> <em>/</em> <a href="/website-policies">Website Policy</a> <em>/</em> <a href="/hyperlinking-policy">Hyperlink Policy</a> <em>/</em> <a href="/copyright-policy">Copyright Policy</a> <em>/</em> <a href="/help">Help</a> <em>/</em> <a href="/help">Sitemap</a> <em>/</em> <a href="/disclaimer">Disclaimer</a></div>
+            
+      <hr class="_hr02">
+      
+      <div class="row" style="margin-bottom:10px">
+      		<div class="col-sm-3"><p class="_copy">© Copyright 2019, ESIC.</p></div>
+            <div class="col-sm-9">
+            	<p class="_porTLNk">
+                	<a href="https://mohfw.nic.in/" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/MOHFW.jpg" alt="MOHFW"/></a> 
+					<a href="http://whoindia.org/" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/WHO.jpg" alt="who"/></a> 
+					<a href="https://www.nic.in/" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/NIC.jpg" alt="NIC"/></a>
+					<a href="https://www.india.gov.in/" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/INDIA-GOV.jpg" alt="INDIA-GOV"/></a>
+					<a href="https://www.ncs.gov.in/Pages/default.aspx" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/NCS.jpg"  alt="NCS"/></a>
+					<a href="https://labour.nic.in/" onclick="return confirm('This is external link. Are you sure you want to continue?');"  target="_blank"><img src="/images/LABOUR.jpg" alt="LABOUR"/></a>
+                </p>
+            </div>
+      </div>
+      
+	  	  
+        
+    </div>
+    
+    <div class="newsH">
+        <div class="_nBx">
+            <marquee direction="left" scrolldelay="no" scrollamount="3" width="100%" onmouseover="stop()" onmouseout="start()">
+            <!--  <font color="#ec9d62">Aadhaar’ linking with Insurance Number & online authentication has been stopped due to administrative reasons. Identity of Beneficiary may be ascertained by physical verification of any Government issued Photo Identity Cards.--> <!-- Atal Beemit Vyakti Kalyan Yojana (ABVKY) is a new welfare measure (Cash Compensation) for the eligible IPs who have been rendered unemployed. --></font>&nbsp;&nbsp;&nbsp;
+          <!-- <a href=" https://www.esichospitals.gov.in/admissionportal/");" target="_blank">Click here to apply for issue of Ward of IP Certificate for 2019-20</a> -->
+            </marquee>
+			
+        </div>
+	</div>
+ </footer>
+ 
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+	$(".tab_content").hide();
+	$(".tab_content:first").show(); 
+
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active");
+		$(this).addClass("active");
+		$(".tab_content").hide();
+		var activeTab = $(this).attr("rel"); 
+		$("#"+activeTab).fadeIn(); 
+	});
+});
+
+</script> 
+
+
+
+<script>
+$(document).ready(function(){	
+	$('._close_01').click(function() {
+	$("#video_01").attr('src','https://www.youtube.com/embed/S8FhRiBHMmo');   
+});
+
+$('._close_02').click(function() {
+	$("#video_02").attr('src','https://www.youtube.com/embed/I75eJNBA-18');   
+});
+
+$('._close_03').click(function() {
+	$("#video_03").attr('src','https://www.youtube.com/embed/jF2wXVsN8Z8');   
+});
+
+$('._close_04').click(function() {
+	$("#video_04").attr('src','https://www.youtube.com/embed/Mto8hBsll1U');   
+});
+
+$('._close_05').click(function() {
+	$("#video_05").attr('src','https://www.youtube.com/embed/ce9uaCQFYF0');   
+});
+
+$('._close_06').click(function() {
+	$("#video_06").attr('src','https://www.youtube.com/embed/JdU1DFG1cZI');   
+});
+
+$('._close_07').click(function() {
+	$("#video_07").attr('src','https://www.youtube.com/embed/jLfSp6OYXpI');   
+});
+
+$('._close_08').click(function() {
+	$("#video_08").attr('src','https://www.youtube.com/embed/JUPYPvF8sb0');   
+});
+$('._close_09').click(function() {
+	$("#video_09").attr('src','https://www.youtube.com/embed/SQdEJHvnvc8');   
+});
+$('._close_10').click(function() {
+	$("#video_10").attr('src','https://www.youtube.com/embed/9-scOz6OzBY');   
+});
+$('._close_11').click(function() {
+	$("#video_11").attr('src','https://www.youtube.com/embed/_M_az_1CeFA');   
+});
+$('._close_12').click(function() {
+	$("#video_12").attr('src','https://www.youtube.com/embed/RdZLeKJgUuk');   
+});
+$('._close_13').click(function() {
+	$("#video_13").attr('src','https://www.youtube.com/embed/Io-qtLtytd4');   
+});
+$('._close_14').click(function() {
+	$("#video_14").attr('src','https://www.youtube.com/embed/SsnHODg-pVw');   
+});
+$('._close_15').click(function() {
+	$("#video_15").attr('src','https://www.youtube.com/embed/rjcO-GAxrho');   
+});
+
+
+	
+});
+</script> 
+</body>
+
+<script type="text/javascript" src="/js/bootstrap.js"></script><script type="text/javascript" src="/js/bootstrap.min.js"></script><script type="text/javascript" src="/js/jquery-3.2.0.min.js"></script>
+<!--Owl Carousel-->
+<script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script><script type="text/javascript">
+
+// Tab Function
+$(document).ready(function() {
+
+
+// Slideshow
+$("#owl-demo").owlCarousel({
+navigation : true, // Show next and prev buttons
+autoPlay: 4500, //Set AutoPlay to 3 seconds
+	
+items : 1,
+itemsDesktop : [1199,1],
+itemsDesktopSmall : [1024,1],
+itemsTablet: [1023,1], 
+itemsMobile : [600,1] // 2 items between 600 and 0
+
+});
+
+
+//Toggle Animate Menu
+
+$("._mobNav").click(function(){
+    $("#top-nav").animate({width: 'toggle'});
+});
+
+$("._closeM").click(function(){
+    $("#top-nav").animate({width: 'toggle'});
+});
+
+$("._mobNav0").click(function(){
+    $("._expendTAB").slideToggle();
+});
+
+});
+
+</script>
+
+<script>
+
+// Top Navigation///////////////////////////////////////////////////////
+
+$(function(){
+  
+  $('li.dropdown > a').on('click',function(event){
+    
+    event.preventDefault()
+    
+    $(this).parent().find('ul').first().toggle(300);
+    
+    $(this).parent().siblings().find('ul').hide(200);
+    
+    //Hide menu when clicked outside
+    $(this).parent().find('ul').mouseleave(function(){  
+      var thisUI = $(this);
+      $('html').click(function(){
+        thisUI.hide();
+        $('html').unbind('click');
+      });
+    });
+    
+  });
+
+});
+</script>
+
+
+<style>
+	#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #b6332e; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+   // border-radius: 10px; /* Rounded corners */
+}
+
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+	</style>
+	
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+   $('html,body').animate({scrollTop:0},'slow');return false;
+}
+</script>
+
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+   $('html,body').animate({scrollTop:0},'slow');return false;
+}
+</script>
+
+<script>
+
+ $(document).ready(function(){ 
+ 	$('#setlanguage').change(function(){ 
+	           window.location.href='/pages/changelang/'+$(this).val();
+	});
+	
+	
+ });
+</script>
+<script>
+	
+	var picker = new Pikaday(
+    {
+        field: document.getElementById('from'),
+        format : "Y-MM-DD",
+        firstDay: 1,
+        minDate: new Date('2000-01-01'),
+        maxDate: new Date(),
+        yearRange: [2000,2020]      
+    });
+
+  var picker = new Pikaday(
+    {
+        field: document.getElementById('to'),
+        format : "Y-MM-DD",
+        firstDay: 1,
+        minDate: new Date('2000-01-01'),
+        maxDate: new Date(),
+        yearRange: [2000,2020]      
+    });
+
+    </script>
+<!--<button onclick="topFunction()" id="myBtn" title="Go to top"></button>-->
+<!--Expend/Collapse-->
+<script type="text/javascript" src="/js/expandcollapse.js"></script></html>

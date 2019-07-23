@@ -1,0 +1,8 @@
+User-agent:*
+Disallow:/tz
+Disallow:/gg
+Disallow:/74
+Disallow:/71
+Disallow:/6e
+#限制校外访问的url，禁止收录
+Disallow:/*.psp*/

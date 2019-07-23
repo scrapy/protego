@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /profil
+Disallow: /postavite-oglas
+Disallow: /upload
+Disallow: img.halooglasi.com/slike/oglasi/Thumbs/*/m
+Disallow: img.halooglasi.com/slike/oglasi/Thumbs/*/s
+Disallow: *?print
+Disallow: /prijava
+Disallow: /registracija
+Disallow: /images/basic/
+Sitemap: http://www.halooglasi.com/sitemap.xml

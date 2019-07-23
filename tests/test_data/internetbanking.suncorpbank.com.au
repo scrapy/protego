@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 no-responsive" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js ie7 lt-ie9 lt-ie8 no-responsive" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js ie8 lt-ie9 no-responsive" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js responsive" lang="en">
+<!--<![endif]-->
+<head>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta http-equiv="Content-Security-Policy" content="
+        default-src 'self' http://*.ensighten.com http://*.demdex.net http://*.suncorp.com.au;
+        style-src 'self' 'unsafe-inline';
+        script-src 'self' 'unsafe-eval' 'unsafe-inline' http://*.tt.omtrdc.net http://*.ensighten.com http://*.demdex.net 'nonce-94pdi2k36ahn7meelspjjms5qhn1thf5vu3nr2rq';
+        img-src 'self' http://nexus.ensighten.com http://*.everesttech.net http://*.demdex.net http://*.suncorp.com.au data:;
+        form-action 'self' https://*.suncorpbank.com.au https://*.suncorp.com.au">
+    <title>Login</title>
+
+    <link rel="shortcut icon" href="/usermgmt/app-resources/bower_components/sg-base/dist/suncorpnew/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="/usermgmt/app-resources/bower_components/normalize-css/normalize.css"/>
+<link rel="stylesheet" type="text/css" media="screen" href="/usermgmt/cssgzip/gzip_391288229/cssgzip/bundles/suncorpnew-uama.css" />
+    <script src="/usermgmt/app-resources/bower_components/jquery/jquery.min.js"></script>
+    <script src="/usermgmt/app-resources/uama/common/js/min/ensighten.js"></script>
+    <script src="/usermgmt/app-resources/bower_components/modernizr/modernizr.min.js"></script>
+    <script src="/usermgmt/app-resources/uama/common/js/min/styleguide.generated.js"></script>
+
+        <script type="text/javascript" nonce=94pdi2k36ahn7meelspjjms5qhn1thf5vu3nr2rq>
+        BTAnalytics.init(
+                {
+                    siteID: "bk:sun",
+                    brand: "sun",
+                    environment: "prod",
+                    rsID: "sun",
+                    dataModel: {},
+                    metricsServer: "suncorp.com.au"
+                });
+        BTAnalytics.register_values({pageName: "bk:sun:secapp:ib:login-page"})
+        if ("login-page" == "login_err") {
+            BTAnalytics.register_values({events: ["VALIDATION_ERROR"]});
+            if (typeof webAnalytics !== 'undefined') {
+                webAnalytics.publish("event", "page_view");
+            }
+        }
+        </script>
+        <script src="https://nexus.ensighten.com/suncorp/sun-uama-prod/Bootstrap.js"></script>
+</head>
+
+<body class="sg-Page">
+<header class="sg-Header">
+    <div class="sg-Header-content">
+        <div class="sg-Header-column">
+            <a class="sg-Header-logo" href="https://www.suncorp.com.au/banking/" target="_blank">
+            </a>
+        </div>
+        <div class="sg-Header-column sg-u-width10of10 sg-u-textRight">
+            <div class="sg-Grid-row">
+                <h1 class="ib-header">Internet Banking</h1>
+                <span class="Icon-lock--default Icon--medium"></span>
+            </div>
+
+            <div id="bannerInfo" class="ib-banner-info">
+                <span class="sg-u-mediumAndSmallHidden"><strong>BSB</strong> 484-799</span>
+                <span class="sg-u-mediumAndSmallHidden"><strong>Swift Code</strong> METWAU4B</span>
+            </div>
+        </div>
+    </div>
+</header>
+    <main class="sg-Main">
+        <div class="sg-Main-content">
+            <div class="sg-Box sg-Box--error sg-Box--withIcon uama-hidden" id="simpleErrorBox">
+                <div class="sg-Box-icon sg-Box-icon--withBackground">
+                    <span class="sg-Box--errorIcon"></span>
+                </div>
+                <div class="sg-Box-content">
+                    <p></p>
+                </div>
+            </div>
+                <div class="sg-Flextable sg-Flextable--2cols sg-Flextable--collapseLarge">
+<div  login-session class="sg-Flextable-cell">
+    <h3 class="ib-form-header sg-u-marginBottom">Login to Internet Banking</h3>
+    <form action="https://internetbanking.suncorpbank.com.au/oam/server/auth_cred_submit" method="post" id="loginForm">
+        <fieldset class="ib-question-group sg-u-marginBotton">
+            <input class="sg-Input" type="hidden" name="request_id" value="4409917933157039993"/>
+            <div class="question">
+                <label for="username" class="sg-Type--title">Customer ID</label>
+                <input class="sg-Input sg-u-widthLarge" id="UserId" tabindex="1" autofocus="autofocus" name="username" type="text" autocomplete="off" maxlength="10">
+            </div>
+
+            <div class="question">
+                <label for="password" class="sg-Type--title">Password</label>
+                <div class="password-container">
+                    <div class="password-input">
+                        <input class="sg-Input sg-u-widthLarge" id="password" tabindex="2" name="password" type="password" autocomplete="off">
+                    </div>
+                </div>
+                <div class="capslock-warning">
+                    <div class="warning">
+                        <p class="sg-Type--size14"><span class="Icon-alert--error Icon--small" id="capslock-icon"></span><strong>Caps Lock is on.</strong> Passwords are case sensitive.</p>
+                    </div>
+                </div>
+                <a href="/usermgmt/public/suncorpbank/forgotpwd">Forgot your password?</a>
+            </div>
+
+            <div class="question">
+                <label for="passcode" class="sg-Type--title">Token Code</label>
+                <p><span class="formItemComment sg-Type--size15 sg-Type--colourText">Required if you have a security token or you use the Suncorp Secured App.</span></p>
+                <div class="sg-Box sg-Box--withIcon token-input">
+                    <input class="sg-Input sg-u-widthLarge" tabindex="3" id="passcode" name="passcode" type="password" autocomplete="off" maxLength="8">
+                    <span data-content-id="#whatAreSecurityTokens" class="Icon-question--secondary Icon--medium js-Tooltip"></span>
+                    <div class="sg-Tooltip js-TooltipContent" id="whatAreSecurityTokens">
+                        <div class="sg-Tooltip-arrow js-Arrow"></div>
+                        <div class="sg-Tooltip-header">
+                            <button class="sg-Tooltip-headerBtnClose js-closeModal">Close</button>
+                            <h6 class="sg-Tooltip-headerTitle">Security Tokens</h6>
+                        </div>
+                        <div class="sg-Tooltip-body sg-Type--size15">
+                            <p>
+                                A security token is an additional, optional form of identification you can use when banking online. You can order security tokens from within Internet Banking, under the 'Settings and Security' tab.
+                            </p>
+                            <a target="_blank" href="https://www.suncorp.com.au/banking/faqs/using-our-services/internet-banking/security-token.html#security-token">Read more about Security Tokens</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <p>
+                    <button type="submit" id="login-button" class="sg-Btn sg-Btn--primary sg-u-widthLarge" tabindex="4">
+                        Login
+                    </button>
+                </p>
+                <p>
+                    First time here?
+                    <a href="https://internetbanking.suncorpbank.com.au/Registration/Requirements" target="_blank">Register for Internet Banking</a>
+                </p>
+            </div>
+        </fieldset>
+    </form>
+</div>
+<script src="/usermgmt/app-resources/uama/common/js/min/login-ib.js" ></script>
+
+<div class="sg-Flextable-cell sg-Flextable-cell--2of5 sg-Flextable-cell--light help-section">
+    <p class="sg-Type--size24">Need some help?</p>
+    <p>If you have forgotten your Internet Banking Customer ID, please call our Customer Service Team on 13 11 55 or +61 7 3362 1222 if you are located overseas.</p>
+    <ul class="sg-List-unstyled help-items">
+        <li><a href=https://www.suncorp.com.au/banking/help-support/ways-to-bank/online.html target="_blank" class="sg-Type--bold sg-Type--colourDark">Other Help & Support</a></li>
+        <ul class="sg-List-iconXsmall">
+            <li class="Icon-arrowRight--default"><a href=https://www.suncorp.com.au/banking/faqs/using-our-services/internet-banking.html target="_blank">Frequently asked questions</a></li>
+            <li class="Icon-arrowRight--default"><a href=https://www.suncorp.com.au/banking/help-support/ways-to-bank/online.html target="_blank">How to use Internet Banking</a></li>
+        </ul>
+        <li><a href=https://www.suncorp.com.au/banking/security.html target="_blank" class="sg-Type--bold sg-Type--colourDark">Being safe online</a></li>
+        <ul class="sg-List-iconXsmall">
+            <li class="Icon-arrowRight--default"><a href=https://www.suncorp.com.au/banking/security/how-we-protect-your-money.html target="_blank">See how we protect your money online</a></li>
+            <li class="Icon-arrowRight--default"><a href=https://www.suncorp.com.au/banking/security/online-fraud.html target="_blank">Identity scams at home</a></li>
+            <li class="Icon-arrowRight--default"><a href=https://www.suncorp.com.au/banking/security/safe-banking-tips.html target="_blank">Safe banking tips</a></li>
+            <li class="Icon-arrowRight--default"><a href=https://www.suncorp.com.au/banking/security/protecting-your-computer.html target="_blank">Protecting your computer</a></li>
+        </ul>
+    </ul>
+
+    <div class="sg-Box sg-Box--withIcon security-section">
+        <div class="sg-Box-icon">
+            <span class="Icon-security--default-security Icon--large"></span>
+        </div>
+        <div class="sg-Box-content">
+            <strong>Suncorp Security</strong>
+            <p>Committed to providing you a safe banking environment</p>
+        </div>
+    </div>
+</div>
+
+                </div>
+        </div>
+    </main>
+<footer class="sg-Footer">
+    <div class="sg-Footer-content">
+        <ul class="sg-List-horizontal">
+            <li><a href=https://www.suncorp.com.au/banking/help-support/ways-to-bank/online/terms.html target="_blank">Terms and Conditions</a></li>
+            <li><a href=https://www.suncorp.com.au/banking/help-support/contact-us.html target="_blank">Contact Us</a></li>
+        </ul>
+        <p id="copyright" class="sg-Type--small sg-Type--muted">© Copyright Suncorp-Metway Ltd ABN 66 010 831 722<br/>Suncorp Internet Banking, Issued by Suncorp-Metway Limited AFSL No 229882</p>
+    </div>
+</footer>
+<script src="/usermgmt/app-resources/uama/common/js/min/common.behaviour.js"></script>
+</body>
+</html>
+

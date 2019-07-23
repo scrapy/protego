@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /find-new/
+Disallow: /account/
+Disallow: /goto/
+Disallow: /posts/
+Disallow: /login/
+Disallow: /search/
+Disallow: /collection/
+Disallow: /8833889/
+Disallow: /avfadmin/
+Disallow: /members/
+Disallow: /conversations/
+Disallow: /admin.php
+Disallow: *AF%81*
+Disallow: */write$
+Disallow: */viewing$
+Disallow: */add-reply$
+Allow: /
+Crawl-delay: 10
+
+Sitemap: https://www.avforums.com/sitemap.php

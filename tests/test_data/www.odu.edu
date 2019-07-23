@@ -1,0 +1,17 @@
+User-agent: Googlebot
+Disallow: */_jcr_content/*
+Disallow: /life/buildings/*
+User-agent: ia_archiver
+Disallow: */_jcr_content/*
+Disallow: /life/buildings/*
+User-agent: AdsBot-Google
+Disallow: */_jcr_content/*
+Disallow: /life/buildings/*
+User-agent: bingbot
+Disallow: */_jcr_content/*
+Disallow: /life/buildings/*
+User-agent: Slurp
+Disallow: */_jcr_content/*
+Disallow: /life/buildings/*
+User-agent: *
+Disallow: /

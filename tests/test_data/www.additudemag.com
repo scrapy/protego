@@ -1,0 +1,35 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+User-agent: *
+Disallow: /wp-includes/
+Disallow: /wp-content/uploads/
+Disallow: /forums/users/
+Disallow: /comment-page-1/
+Disallow: /comment-page-2/
+Disallow: /comment-page-4/
+Disallow: /comment-page-5/
+Disallow: /search/
+# Sitemap archive
+Sitemap: https://www.additudemag.com/sitemap-1997.xml
+Sitemap: https://www.additudemag.com/sitemap-2000.xml
+Sitemap: https://www.additudemag.com/sitemap-2001.xml
+Sitemap: https://www.additudemag.com/sitemap-2002.xml
+Sitemap: https://www.additudemag.com/sitemap-2003.xml
+Sitemap: https://www.additudemag.com/sitemap-2004.xml
+Sitemap: https://www.additudemag.com/sitemap-2005.xml
+Sitemap: https://www.additudemag.com/sitemap-2006.xml
+Sitemap: https://www.additudemag.com/sitemap-2007.xml
+Sitemap: https://www.additudemag.com/sitemap-2008.xml
+Sitemap: https://www.additudemag.com/sitemap-2009.xml
+Sitemap: https://www.additudemag.com/sitemap-2010.xml
+Sitemap: https://www.additudemag.com/sitemap-2011.xml
+Sitemap: https://www.additudemag.com/sitemap-2012.xml
+Sitemap: https://www.additudemag.com/sitemap-2013.xml
+Sitemap: https://www.additudemag.com/sitemap-2014.xml
+Sitemap: https://www.additudemag.com/sitemap-2015.xml
+Sitemap: https://www.additudemag.com/sitemap-2016.xml
+Sitemap: https://www.additudemag.com/sitemap-2017.xml
+Sitemap: https://www.additudemag.com/sitemap-2018.xml
+Sitemap: https://www.additudemag.com/sitemap-2019.xml
+

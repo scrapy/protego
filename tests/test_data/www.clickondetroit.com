@@ -1,0 +1,11 @@
+User-Agent: *
+Sitemap: https://www.clickondetroit.com/content-syndication-portlet/feedServlet?obfType=GOOGLE_NEWS_SITEMAPS&siteId=800002
+Sitemap: https://www.clickondetroit.com/sitemap.xml
+Disallow: /test/*
+Disallow: /web/*
+Disallow: /sponsored/*
+User-Agent: Googlebot
+Disallow: /feeds/rssFeed?*
+User-Agent: bingbot
+User-Agent: magnetbot
+Disallow: /weather/alerts

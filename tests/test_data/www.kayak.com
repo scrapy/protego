@@ -1,5 +1,5 @@
 #Build version: R474c
-#Generated on: Fri Jul 19 01:00:00 EDT 2019
+#Generated on: Mon Jul 22 01:00:00 EDT 2019
 
 User-agent: *
 Allow: /api/search/V8/hotel/

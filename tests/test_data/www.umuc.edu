@@ -1,0 +1,35 @@
+
+User-agent: LinkCheck
+Allow: /corporate/
+
+User-agent: SiteCheck-sitecrawl
+Allow: /corporate/
+
+User-agent: *
+Disallow: /admin/
+Disallow: /com/
+Disallow: /corporate/
+Disallow: /commonspot/
+Disallow: /cscr/
+Disallow: /customcf/
+Disallow: /element-admin/
+Disallow: /server-error.cfm
+Disallow: /formredesign/
+Disallow: /forms/
+Disallow: /landing-pages/
+Disallow: /lib/
+Disallow: /myumuc/
+Disallow: /renderhandlers/
+Disallow: /rte-snippets/
+Disallow: /templates/
+Disallow: /tools/
+Disallow: /umuc-apps/
+Disallow: /utility/
+Disallow: /web-to-lead/
+Disallow: /not-found.cfm
+Disallow: /search-results.cfm
+Disallow: /search-results.cfm?*
+Disallow: /*?renderforprint*
+Disallow: /portal/
+
+Sitemap: https://www.umuc.edu/customcf/sitemap/2.0/sitemap.xml

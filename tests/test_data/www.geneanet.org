@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /mon_compte/file/
+Disallow: /annuaire/fonds/external/
+Disallow: /beta/access
+Disallow: /compare/
+Disallow: /connexion/
+Disallow: /cross/search/
+Disallow: /individus/compare/
+Disallow: /indexation?share_hash=
+Disallow: /mon_compte/
+Disallow: /messagerie/
+Disallow: /moderation/
+Disallow: /ml/
+Disallow: /search/preferences/
+Disallow: /premium/payment/
+Disallow: /subscribe/
+Disallow: /sys/sources/
+Disallow: /variantes/noms/
+Disallow: /community/contributions/
+Disallow: /archives/livres/
+
+User-agent: proximic
+Disallow: /fonds/

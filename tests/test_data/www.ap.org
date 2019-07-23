@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /search
+Disallow: /search.jsp
+Disallow: /services/ticker
+Disallow: /services/ticker.jsp
+Disallow: /services/more-from-ap
+Disallow: /services/more-from-ap.jsp
+Sitemap: https://www.ap.org/sitemap.xml

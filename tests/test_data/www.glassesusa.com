@@ -1,0 +1,34 @@
+User-agent: Googlebot
+Disallow: /*?SID=*
+Disallow: /*order=*
+Disallow: /*mode=*
+Disallow: /*dir=*
+Disallow: /home*
+Disallow: /*?affid=*
+Disallow: /lp/*
+Disallow: /test/*
+Disallow: /dev/*
+Disallow: /glassesmembership/package/compare/product/*
+Disallow: /salesperson/result/*
+Disallow: /catalogsearch/*
+Disallow: /save-on-glasses-1
+Disallow: /save-on-glasses-2
+Disallow: /save-on-glasses-3
+Disallow: /tag/product/list/*
+Disallow: /optician/*
+
+User-agent: *
+Disallow: /lp/*
+Disallow: /ldradmin/*
+Disallow: /dev/*
+Disallow: /test/*
+Disallow: /liuna*
+Disallow: /dev/*
+Disallow: /glassesmembership/package/compare/product/*
+Disallow: /salesperson/result/*
+Disallow: /catalogsearch/*
+Disallow: /save-on-glasses-1
+Disallow: /save-on-glasses-2
+Disallow: /save-on-glasses-3
+Disallow: /optician/*
+Crawl-delay:20

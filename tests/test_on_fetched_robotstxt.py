@@ -12,6 +12,11 @@ robotstxts = [(f) for f in listdir(test_data_directory) if isfile(join(test_data
 def test_no_exceptions(path_to_robotstxt):
     try:
         with open(join(test_data_directory, path_to_robotstxt), 'rb') as f:
-            Protego.parse(content=f.read().decode('utf-8'))
+            try:
+                content = f.read().decode('utf-8')
+            except UnicodeDecodeError:
+                # Downloaded robots.txt is malformed, ignore this
+                return
+            Protego.parse(content=content)
     except:
         assert False, "Exception raised while parsing {}".format(join(path_to_robotstxt, 'robots.txt'))

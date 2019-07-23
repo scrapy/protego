@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /thesaurus/
+
+User-agent: NinjaBot
+Allow: /

@@ -1,0 +1,13 @@
+user-agent: Mediapartners-Google
+user-agent: AdsBot-Google
+user-agent: googlebot
+user-agent: APIs-Google
+user-agent: AdIdxBot
+user-agent: MSNBot
+user-agent: Bingbot
+user-agent: BingPreview
+Disallow:
+Allow: /
+
+User-agent: *
+Disallow: /search

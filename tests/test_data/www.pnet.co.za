@@ -1,0 +1,50 @@
+#
+# Any other use of robots or failure to obey the robots exclusion standards
+# set forth at <http://www.robotstxt.org/wc/exclusion.html> is strictly
+# prohibited.
+#
+# StepStone
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /images/
+Disallow: /images
+Disallow: /aboutus/cv.cfm
+Disallow: /document.all.id
+Disallow: /admin/ 
+Disallow: /controllers/
+Disallow: /cfcomponents/
+Disallow: /jobagent/
+Disallow: /alteon/
+Disallow: /error/
+Disallow: /work/
+Disallow: /offers/offer_detail.cfm?click=yes&nofooter=1&ID=76637
+Disallow: /offers/viewTemplatefr.cfm?id=96827&Compid=4990&lang=DE&parentid=96827&admin=0
+Disallow: /*listing_footer.cfm$
+Disallow: /listingprint/*
+
+#Added 22.6.2017
+Disallow: /5/jobapply*
+Disallow: /skylight-backend*
+
+#Added 6.10.2017
+Allow: /5/index.cfm/jsmanager/*
+
+User-agent: Cliqzbot
+Disallow: /
+
+#Added 8.9.2017
+Disallow: /public-api/v1/job-applications/*
+
+#Added 9.1.2018
+Disallow: /rb_4660e43b-3028-4140-83fd-c3a5f3bfa8aa*
+Disallow: /rb_enq93261*
+Disallow: /dstlstpstn.js*
+Disallow: /poweredbys/searchbox/*
+Disallow: /skylight-ui/v2/widget/*
+
+
+User-agent: BingPreview
+Crawl-Delay: 30
+
+Added 17.6.2019
+Sitemap: https://www.pnet.co.za/5/sitemaps/za/sitemapindex.xml

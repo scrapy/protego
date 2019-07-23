@@ -1,0 +1,1 @@
+# robots.txt for http://www.monitor.co.ug/ -- Daily MonitorUser-agent: *sitemap: http://www.monitor.co.ug/sitemap-index.xmlDisallow: /*.json$Disallow: /printVersion/Disallow: /css/

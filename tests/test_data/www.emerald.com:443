@@ -1,0 +1,9 @@
+User-agent: *
+Sitemap: https://www.emerald.com/insight/sitemap.xml
+Disallow: /insight/login
+Disallow: /insight/logout
+Disallow: /insight/products
+Disallow: /insight/profile
+Disallow: /insight/savedSearches
+Disallow: /insight/search
+crawl-delay: 1

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /accounts/login
+Disallow: /janrain/login
+Disallow: /accounts/create
+Disallow: /f/
+Disallow: /api/
+Disallow: /admin/
+
+Host: primagames.com
+Sitemap: http://primagames.com/sitemap.xml
+

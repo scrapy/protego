@@ -1,0 +1,81 @@
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /2.0/big-logos/
+
+User-agent: Kyoto-Tohoku-Crawler
+Disallow: /
+
+User-agent: Kyoto-Crawler
+Disallow: /
+
+User-agent: Sogou Spider
+Disallow: /
+
+User-agent: Sogou web spider
+Disallow: /
+
+User-agent: *
+Disallow: /apisearch.html
+Disallow: /gotojob.html
+Disallow: /my_jobs.html
+Disallow: /my_alerts.html
+Disallow: /my_account.html
+Disallow: /login.html
+Disallow: /my_search.html
+Disallow: /directjob.html
+Disallow: /sponsorjob.html
+Disallow: /gotoad.html
+Disallow: /GetJobAt/http/
+Disallow: /recruitnet/get_new_job_count.jsp
+Disallow: /linkedinlogin.html
+Disallow: /advanced_search.html
+Disallow: /trackerror.html
+Disallow: /demo/*
+Disallow: /recruitnet/sg/*
+
+Noindex: /apisearch.html
+Noindex: /rss.html
+Noindex: /gotojob.html
+Noindex: /my_jobs.html
+Noindex: /my_alerts.html
+Noindex: /my_account.html
+Noindex: /login.html
+Noindex: /my_search.html
+Noindex: /directjob.html
+Noindex: /sponsorjob.html
+Noindex: /gotoad.html
+Noindex: /GetJobAt/http/
+Noindex: /recruitnet/get_new_job_count.jsp
+Noindex: /linkedinlogin.html
+Noindex: /advanced_search.html
+Noindex: /trackerror.html
+Noindex: /demo/*
+Noindex: /recruitnet/sg/*
+
+Sitemap: https://australia.recruit.net/sitemap_au_https_index.xml
+Sitemap: https://canada.recruit.net/sitemap_ca_https_index.xml
+Sitemap: https://china.recruit.net/sitemap_cn_https_index.xml
+Sitemap: https://hongkong.recruit.net/sitemap_hk_https_index.xml
+Sitemap: https://indonesia.recruit.net/sitemap_id_https_index.xml
+Sitemap: https://india.recruit.net/sitemap_ind_https_index.xml
+Sitemap: https://jp.recruit.net/sitemap_jp_https_index.xml
+Sitemap: https://malaysia.recruit.net/sitemap_mly_https_index.xml
+Sitemap: https://newzealand.recruit.net/sitemap_nz_https_index.xml
+Sitemap: https://philippines.recruit.net/sitemap_ph_https_index.xml
+Sitemap: https://singapore.recruit.net/sitemap_sg_https_index.xml
+Sitemap: https://thailand.recruit.net/sitemap_th_https_index.xml
+Sitemap: https://usa.recruit.net/sitemap_usa_https_index.xml
+Sitemap: https://uk.recruit.net/sitemap_uk_https_index.xml
+Sitemap: https://vietnam.recruit.net/sitemap_vn_https_index.xml
+Sitemap: https://ie.recruit.net/sitemap_irl_https_index.xml
+Sitemap: https://za.recruit.net/sitemap_za_https_index.xml
+Sitemap: https://nl.recruit.net/sitemap_nl_https_index.xml
+Sitemap: https://usa.recruit.net/sitemap_usa_loc_https_index.xml
+Sitemap: https://ng.recruit.net/sitemap_ng_https_index.xml
+Sitemap: https://canada.recruit.net/sitemap_ca_loc_https_index.xml
+Sitemap: https://india.recruit.net/sitemap_ind_loc_https_index.xml
+Sitemap: https://australia.recruit.net/sitemap_au_loc_https_index.xml
+Sitemap: https://uk.recruit.net/sitemap_uk_loc_https_index.xml

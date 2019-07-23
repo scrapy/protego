@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /includes/
+Disallow: /js/
+Disallow: /support/
+Disallow: login.php
+Disallow: /help/privacy.php
+Disallow: /help/terms.php
+Disallow: /rc/
+Disallow: /_mockups/
+

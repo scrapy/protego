@@ -1,0 +1,34 @@
+# For domain: http://www.ajol.info
+# ROBOTS START
+
+
+User-agent: SemanticScholarBot
+Disallow: /*/cart/*
+Disallow: /*login*
+Crawl-delay: 5
+
+
+User-agent: *
+Disallow: /*/cart/*
+Disallow: /*login*
+Crawl-delay: 5
+
+User-agent: Mediapartners-Google
+Disallow: /*login*
+Allow: /*/cart/*
+
+User-agent: Slurp
+Crawl-delay: 5
+
+User-agent: Yahoo! Slurp
+Crawl-delay: 5
+
+
+User-agent: Yandex
+Crawl-delay: 5
+
+
+
+
+
+# ROBOTS END

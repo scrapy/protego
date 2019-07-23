@@ -1,0 +1,37 @@
+User-agent: Yandex
+Allow: /zen_feed/
+Allow: /archive/
+Allow: /sections/
+Allow: /*area=rss*
+Disallow: /search/
+Disallow: /cache/static_fragment/
+Disallow: /*area=*
+Disallow: /*mode=print$
+Disallow: /*-export-comment.xml
+Disallow: /*area=sendToFriend
+Disallow: /addComment*
+Disallow: /*add=
+Disallow: /photoHelper/
+Disallow: /promokody/code/*
+Disallow: /comments/*
+
+User-agent: *
+Allow: /archive/*
+Allow: /sections/*
+Allow: /*area=rss*
+Disallow: /search/
+Disallow: /cache/static_fragment/
+Disallow: /*area=*
+Disallow: /*mode=print$
+Disallow: /*-export-comment.xml
+Disallow: /*area=sendToFriend
+Disallow: *ajax*
+Disallow: /addComment*
+Disallow: /*add=
+Disallow: /photoHelper/
+Disallow: /promokody/code/*
+Disallow: /comments/*
+
+Host: https://www.pravda.ru
+Sitemap: https://www.pravda.ru/sitemap_index.xml
+Sitemap: https://www.pravda.ru/promokody-sitemap.xml

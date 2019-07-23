@@ -1,0 +1,73 @@
+User-agent: *
+Disallow: /*.swf$
+Disallow: /*.flv$
+Disallow: /*.fla$
+Disallow: /*.as$
+Disallow: /*.txt$
+Disallow: /*?div=
+Disallow: /*?goto=
+Disallow: */dam/aircanada/portal/data/
+Disallow: */dam/aircanada/portal/directives/
+Disallow: */dam/aircanada/portal/html/
+Disallow: */dam/aircanada/portal/jwt/
+Disallow: */dam/aircanada/portal/videos/
+Disallow: */dam/aircanada/portal/darksite/
+Disallow: */dam/aircanada/portal/adohotlinks/
+Disallow: */dam/aircanada/portal/maintenance/
+Disallow: */dam/aircanada/portal/framework/
+Disallow: */dam/aircanada/portal/legacy/
+Disallow: */dam/aircanada/portal/misc-js/
+Disallow: */dam/aircanada/portal/akamai/
+Disallow: */dam/aircanada/portal/fonts/
+Disallow: */dam/aircanada/portal/json/
+Disallow: */dam/aircanada/revenue/
+Disallow: */dam/aircanada/adonews/
+Disallow: */dam/aircanada/data/
+Disallow: */dam/aircanada/generic/
+Disallow: /content/aircanada-config/
+Disallow: /aircanada-config/
+Disallow: /content/aircanada-config.html
+Disallow: /aircanada-config.html
+Disallow: /content/targetcontent.html
+Disallow: /targetcontent.html
+Disallow: /content/targetcontent/
+Disallow: /targetcontent/
+Disallow: /content/parent/
+Disallow: /content/aircanada/undermaintenance.html
+Disallow: /content/aircanada/darksite.html
+Disallow: /content/aircanada/darksite/
+Disallow: /undermaintenance.html
+Disallow: /site.html
+Disallow: /site/
+Disallow: /darksite.html
+Disallow: /darksite/
+Disallow: */home/gerr.html
+Disallow: */home/error.html
+Disallow: */home/error/
+Disallow: */home/book/check-in.html
+Disallow: */home/book/travels/hotels/redirection.html$
+Disallow: */home/book/travels/hotels/redirection/
+Disallow: */home/book/travels/hotels/processing.html
+Disallow: */home/book/travels/cars/cars_en.html
+Disallow: */home/book/travels/cars/cars_fr.html
+Disallow: */home/book/travels/cars/cars_de.html
+Disallow: */home/book/travels/cars/cars_es.html
+Disallow: */home/book/travels/cars/cars_it.html
+Disallow: */home/book/travels/cars/cars_ja.html
+Disallow: */home/book/travels/cars/cars_zh.html
+Disallow: */home/book/xredirect.html
+Disallow: */revenue/
+Disallow: */ado/
+
+Disallow: */ado/home.html
+
+Disallow: */ado/home/
+
+Disallow: */ado/profile/view.html
+
+Disallow: */email
+
+Disallow: */i18nemail
+
+SITEMAP: https://www.aircanada.com/sitemapindex.xml
+SITEMAP: https://www.aircanada.com/sitemap_index.xml

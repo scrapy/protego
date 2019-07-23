@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /style/
+Disallow: /localeProp/
+Disallow: /META-INF/
+Disallow: /?wicket:interface
+Disallow: /secure/
+Disallow: /global/en/secure/
+Disallow: /global/zh_TW/secure/
+Disallow: /global/zh_CN/secure/
+Disallow: /global/ja/secure/
+Disallow: /us/en/secure/
+Disallow: /us/zh_TW/secure/
+Disallow: /us/zh_CN/secure/
+Disallow: /us/ja/secure/

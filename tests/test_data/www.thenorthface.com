@@ -1,0 +1,64 @@
+# robots.txt for www.thenorthface.com
+
+User-agent: *
+Disallow: /shop/CompareProductsDisplay
+Disallow: /shop/OrderCalculate
+Disallow: /shop/InterestItemAdd
+Disallow: /shop/VFLogoff
+Disallow: /shop/VFPRReviewFormView
+Disallow: /webapp/wcs/stores/servlet/*iframeDOMWindow=true
+Disallow: /webapp/wcs/stores/servlet/LogonForm
+Disallow: /webapp/wcs/stores/servlet/OrderItemDisplay
+Disallow: /webapp/wcs/stores/servlet/TNFContactUsView
+Disallow: /webapp/wcs/stores/servlet/CategoryDisplay
+Disallow: /webapp/wcs/stores/servlet/ProductDisplay
+Disallow: /*/VFAjaxProductVideoView
+Disallow: /?CountryPref=
+Disallow: /*?stop_mobi=
+#updated 8-30-16 
+Disallow: /*storeId=201*
+Noindex: /*storeId=201*
+Disallow: /*storeId=202*
+Noindex: /*storeId=202*
+Disallow: /*storeId=212*
+Noindex: /*storeId=212*
+Disallow: /*storeId=208*
+Noindex: /*storeId=208*
+Disallow: /*storeId=216*
+Noindex: /*storeId=216*
+#added 8-30-16
+Disallow: /shop/CategoryDisplay?*
+Disallow: /shop/ProductDisplay?*
+Disallow: /shop/tag/
+#search results pages updated 9-8-16
+Disallow: /shop/SearchDisplay
+Disallow: /webapp/wcs/stores/servlet/VFSearchDisplay
+Noindex: /webapp/wcs/stores/servlet/VFSearchDisplay
+Disallow: /shop/VFSearchDisplay
+Noindex: /shop/VFSearchDisplay
+Disallow: /webapp/wcs/stores/servlet/TNFSearchResult
+Disallow: /storeipads.html
+Noindex: /storeipads.html
+Disallow: /*employee-sale
+Noindex: /*employee-sale
+Disallow: /employee-sale*
+Noindex: /employee-sale*
+Disallow: /WIP
+Noindex: /WIP
+Disallow: /WIP/*
+Noindex: /WIP/*
+#added 1-19-18
+Disallow: /webapp/wcs/stores/servlet/Product*
+Disallow: /wcsstore/TNF_STORE_US_ECOM/
+Disallow: /shop/VFLogonFormHopUp
+#sitemaps
+Sitemap: https://www.thenorthface.com/.sitemap.xml
+Sitemap: https://www.thenorthface.com/sitemap_7001.xml.gz
+Sitemap: https://www.thenorthface.com/sitemap_7002.xml.gz
+
+User-agent: AdsBot-Google
+Disallow: /webapp/wcs/stores/servlet/OrderItemDisplay
+Disallow: /webapp/wcs/stores/servlet/VFShippingAddressView
+Disallow: /webapp/wcs/stores/servlet/VFBillingAndPaymentView
+Disallow: /shop/SingleShipmentOrderSummaryView
+Disallow: /webapp/wcs/stores/servlet/OrderOKView

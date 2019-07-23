@@ -1,0 +1,42 @@
+User-agent: * 
+
+Disallow: /bin/
+Disallow: /alliance/
+Disallow: */jcr:content/*                                 
+Disallow: /public/bin/
+Disallow: /chat/
+Disallow: /search.html?*
+Disallow: /program-finder-two.html?*
+Disallow: /rfi/business-and-management-degrees.html
+Disallow: /rfi/request-information.html
+Disallow: /rfi-m/business-and-management-degrees.html
+Disallow: /rfi-m/business-and-management-degrees.html
+Disallow: /vr/
+Disallow: /splitter/
+Disallow: /etc/
+Disallow: /libs/
+Disallow: /apps/
+Disallow: /api/
+Disallow: /inc/
+Disallow: /js/
+Disallow: /ContinuingEd/
+Disallow: /info/
+Disallow: /aCloud/
+Disallow: /genesys-chat.html?*
+Disallow: /find/
+
+Allow:  /etc/*.js
+Allow:  /etc/*.css
+Allow:	/etc/designs/uopx/*.jpg
+Allow:	/etc/designs/uopx/*.png
+Allow:	/etc/designs/uopx/*.gif
+Allow:  /etc/designs/ac/*.jpg
+Allow:  /etc/designs/ac/*.png
+Allow:  /etc/designs/ac/*.gif
+Allow: /apps/uopx/*.css
+Allow: /apps/altcloud/components/*.js
+Allow: /apps/altcloud/components/*.css
+Allow: /apps/careers/components/*.css
+Allow: /apps/careers/components/*.js
+
+Sitemap: http://www.phoenix.edu/sitemap_index.xml

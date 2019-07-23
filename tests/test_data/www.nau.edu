@@ -1,0 +1,22 @@
+User-agent: *
+
+Disallow: /Workarea/
+Disallow: /NAU/Util/ReCaptcha/ajax.recaptcha.ashx
+Disallow: /InternSearch/
+Disallow: /InternalTools/
+Disallow: /search.aspx
+
+Disallow: /its/services/exchange
+Disallow: /its/learn/exchange/mobile/
+Disallow: /its/learn/exchange/mobile/about/
+Disallow: /its/learn/exchange/entourage-2008/
+Disallow: /its/learn/exchange/outlook-2010/
+Disallow: /its/learn/exchange/outlook-2011/
+Disallow: /its/learn/exchange/outlook-2013/
+Disallow: /its/services/exchange/owa/
+Disallow: /its/learn/exchange/email-quota/
+Disallow: /its/learn/exchange/retention/
+Disallow: /its/learn/exchange/pop-imap/
+Disallow: /its/services/sharedemail/
+Disallow: /its/services/Retiree/
+Disallow: /gallery.aspx

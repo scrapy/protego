@@ -1,3 +1,5 @@
+Sitemap: https://www.rollingstone.com/sitemap.xml
+Sitemap: https://www.rollingstone.com/news-sitemap.xml
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php

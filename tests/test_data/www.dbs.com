@@ -1,0 +1,71 @@
+User-agent: Googlebot
+Allow: /personal/loans/
+Allow: /personal-zh/loans/
+Allow: /personal/credit-cards/
+Allow: /personal-zh/credit-cards/
+Allow: /personal/credit-cards/promotions/DBS-CV-YouthCard.html
+Allow: /personal-zh/credit-cards/promotions/DBS-CV-YouthCard.html
+Allow: /livemore/
+Allow: /insights/
+Allow: /marina-regatta/
+Allow: /sailing/
+Allow: /sparks/index.html
+Dissallow: /B3W-qTPjPeSSLAFk/
+Disallow: /livemore/geodetect.html
+Disallow: /treasures-zh/promo/newchapter/index.html
+Disallow: /treasures/promo/newchapter/index.html
+Disallow: /treasures-zh/promo/newchapter/multi-asset-products.html
+Disallow: /treasures/promo/newchapter/multi-asset-products.html
+Disallow: /B3W-qTPjPeSSLAFk/
+
+User-agent: Twitterbot
+Disallow: *
+
+Allow: /iwov-resources/
+
+User-agent: *
+Allow: /
+Allow: /personal/
+Allow: /personal-zh/
+Allow: /treasures/
+Allow: /treasures-zh/
+Allow: /treasures-private-client/
+Allow: /treasures-private-client-zh/
+Allow: /private-banking/
+Allow: /private-banking-zh/
+Allow: /personal/credit-cards/promotions/DBS-CV-YouthCard.html
+Allow: /personal-zh/credit-cards/promotions/DBS-CV-YouthCard.html
+Allow: /livemore/
+Allow: /insights/
+Allow: /marina-regatta/
+Allow: /sailing/
+Allow: /sparks/index.html
+Dissallow: /B3W-qTPjPeSSLAFk/
+Disallow: /livemore/geodetect.html
+Disallow: /zh/consumer/promotion/08.html
+Disallow: /personal-zh/credit-cards/find-latest-offer-test.page
+Disallow: /personal/credit-cards/find-latest-offer-test.page
+Disallow: /ecPortalWeb/CardForms/everyday_Platinum/chi/Form01.aspx
+Disallow: /ecPortalWeb/CardForms/everyday_Platinum/eng/Form01.aspx
+Disallow: /ecPortalWeb/CardForms/COMPASS_STUDENT/chi/Form01.aspx
+Disallow: /ecPortalWeb/CardForms/COMPASS_STUDENT/eng/Form01.aspx
+Disallow: /en/consumer/creditcards/pdf/compassenroll.pdf
+Disallow: /zh/consumer/creditcards/pdf/compassenroll.pdf
+Disallow: /en/consumer/creditcards/benefits/internetaccount/
+Disallow: /zh/consumer/creditcards/benefits/internetaccount/
+Disallow: /zh/consumer/creditcards/pdf/enroll.pdf
+Disallow: /en/consumer/creditcards/pdf/enroll.pdf
+Disallow: /personal-zh/credit-cards/cards/cv-plus
+Disallow: /personal/credit-cards/cards/cv-plus
+Disallow: /ecPortalWeb/CardForms/LongCard/Form01.aspx?CardType=CVPlus&Lang=zh-hk
+Disallow: /ecPortalWeb/CardForms/LongCard/Form01.aspx?CardType=CVPlus&Lang=en-us
+Disallow: /treasures/promo/newchapter/index.html
+Disallow: /treasures/promo/newchapter/m/index.html
+Disallow: /treasures-zh/promo/newchapter/index.html
+Disallow: /treasures-zh/promo/newchapter/m/index.html
+Disallow: /personal/emkt/
+Disallow: /personal-zh/emkt/
+Disallow: /B3W-qTPjPeSSLAFk/
+ 
+sitemap:http://www.dbs.com/sitemap.xml
+sitemap:https://www.dbs.com/digibank/in/sitemap.xml

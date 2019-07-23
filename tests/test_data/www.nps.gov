@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /ns/
+Disallow: /search/
+Disallow: /loader.cfm
+Disallow: /*loader.cfm*

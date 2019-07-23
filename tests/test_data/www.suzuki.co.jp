@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<title>スズキ お探しのページがみつかりません。</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" id="viewport">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="スズキ株式会社 オフィシャルWEBサイト">
+<meta name="keywords" content="SUZUKI,スズキ,鈴木,すずき,軽自動車,小型車,二輪車,セニアカー,電動車いす,福祉車両,船外機,モータースポーツ">
+<link rel="shortcut icon" href="/commons/icon/favicon.ico">
+<link rel="apple-touch-icon-precomposed apple-touch-icon" href="/commons/icon/apple-touch-icon.png"> 
+<script src="/commons/js/import.js"></script>
+<script src="/error/js/index.js"></script>
+<link rel="stylesheet" href="/commons/css/reset.css">
+<link rel="stylesheet" href="/commons/css/common_pc.css" class="switch">
+<link rel="stylesheet" href="/error/css/index_pc.css" class="switch">
+<!--<link rel="stylesheet" href="/commons/css/common_sp.css" class="switch">
+<link rel="stylesheet" href="/error/css/index_sp.css" class="switch">-->
+</head>
+
+<body>
+<div id="stage">
+  <div id="stageLoading"><span id="loadingWrap"><img src="/commons/img/suzukiLogo_g_load.svg"></span></div>
+  <!-- header --> 
+  <header id="header">
+    <div class="contents clearfix">
+      <h1 id="suzukiLogo"><a href="/"><img src="/commons/img/suzukiLogo.svg" alt="スズキ株式会社"></a></h1>
+      <div id="globalMenu">
+        <div id="globalMenu_btn"><img src="/commons/img/h_menuBtn.svg" alt="MENU"/></div>
+        <div id="globalMenu_global"><a href="https://www.globalsuzuki.com/">GLOBAL</a></div>
+        <div id="slideMenu">
+          <div id="slideMenuInner">
+            <div id="slideMenuHead">
+              <div id="closeBtn"><img src="/commons/img/h_menuBtn_close.svg" alt="CLOSE"/></div>
+            </div>
+            <ul id="commonMenu" class="clearfix">
+              <li><a href="/">ホーム</a></li>
+              <li><a href="/corporate/">企業情報</a></li>
+              <li><a href="/ir/">IR情報</a></li>
+              <li><a href="http://saiyo.suzuki.co.jp/top-1/">採用情報</a></li>
+              <li><a href="/affiliated/">関連企業</a></li>
+              <li><a href="/recall/">リコール等情報</a></li>
+            </ul>
+          </div>
+        </div>
+		<div id="searchArea" class="mf_finder_container">
+		  <mf-search-box
+           submit-text=""
+           ajax-url="//mf2apr01.marsflag.com/suzuki__ja_all__customelement/x_search.x"
+           serp-url="/sitesearch/index.html#/"
+           doctype-hidden
+           options-hidden
+        ></mf-search-box>
+		</div>
+      </div>
+    </div>
+  </header>
+  <!-- /header -->
+  <!-- mainMenu -->
+  <div id="mainMenu">
+    <div class="contents">
+      <ul class="clearfix gennoB">
+        <li><a href="/car/">四輪車</a></li>
+        <li><a href="http://www1.suzuki.co.jp/motor/">二輪車</a></li>
+        <li><a href="/welfare/">電動車いす</a></li>
+        <li><a href="http://www1.suzuki.co.jp/marine/">マリン</a></li>
+        <li><a href="http://www1.suzuki.co.jp/power/">産業機器</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- /mainMenu --> 
+  <!-- /header --> 
+  <!-- mainTitle -->
+  <div id="mainTitle">
+    <div class="contents">
+      <h1 class="gennoM">スズキのサイトで<br>
+        なにかお探しですか？</h1>
+    </div>
+  </div>
+  <!-- /mainTitle --> 
+  <!-- mainContents -->
+  <div id="mainContents">
+    <div class="contents">
+      <div id="text" class="flat_sp">
+        <p id="logo"><img src="/commons/img/suzukiLogo_g.svg" alt="スズキ株式会社"/></p>
+        <p class="gennoM">お探しのページが見つかりません。</p>
+        <p>ウェブサイトのリンク（URL）が変更または削除された可能性があります。<br>
+          ブックマーク登録されていた方は、お手数ですがブックマークの変更をお願いいたします。</p>
+      </div>
+    </div>
+  </div>
+  <!-- /mainContents -->
+  <footer> 
+    <div id="footerM">
+      <!-- HOME & 404 -->
+      <div class="contents">
+        <div class="footerMbox">
+          <p class="title"><a href="/car/">四輪車の情報</a></p>
+          <ul>
+            <li><a href="/car/lineup/">ラインアップ</a></li>
+            <li><a href="/car/purchase/">購入サポート</a></li>
+            <li><a href="/car/afterservice/">アフターサービス</a></li>
+            <li><a href="/car/carlife/">カーライフサポート</a></li>
+            <li><a href="/car/entertainment/">エンタテインメント</a></li>
+            <li><a href="https://www.suzuki.co.jp/accessory_car/">アクセサリー</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="http://www1.suzuki.co.jp/motor/">二輪車の情報</a></p>
+          <ul>
+            <li><a href="http://www1.suzuki.co.jp/motor/full_line/">ラインアップ</a></li>
+            <li><a href="http://www1.suzuki.co.jp/motor/sslchk/">カタログ請求</a></li>
+            <li><a href="http://www1.suzuki.co.jp/motor/shops/">展示車・試乗車&amp;販売店検索</a></li>
+            <li><a href="http://www1.suzuki.co.jp/motor/accessory/">アクセサリー</a></li>
+            <li><a href="http://used.suzukibikeshop.com/">中古車情報</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="/welfare/">電動車いすの情報</a></p>
+          <ul>
+            <li><a href="/welfare/lineup/">ラインアップ</a></li>
+            <li><a href="/welfare/purchase/">購入サポート</a></li>
+            <li><a href="/welfare/terms/">ご利用にあたって</a></li>
+            <li><a href="/welfare/entertainment/">エンタテインメント</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="http://www1.suzuki.co.jp/marine/">マリンの情報</a></p>
+          <ul>
+            <li><a href="http://www1.suzuki.co.jp/marine/4st/">4ストローク船外機</a></li>
+            <li><a href="http://www1.suzuki.co.jp/marine/shops/">販売店検索</a></li>
+            <li><a href="http://www1.suzuki.co.jp/marine/catalog/">カタログ請求</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="http://www1.suzuki.co.jp/power/">産業機器の情報</a></p>
+          <ul>
+            <li><a href="http://www1.suzuki.co.jp/power/">超音波機器ラインアップ</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="/corporate/">企業情報</a></p>
+          <ul>
+            <li><a href="/corporate/message/">トップメッセージ</a></li>
+            <li><a href="/corporate/outline/">会社概要</a></li>
+            <li><a href="/corporate/csr_environment/">CSR・環境取り組み</a></li>
+            <li><a href="/corporate/producingbase/">生産拠点</a></li>
+            <li><a href="/corporate/research/">研究開発</a></li>
+            <li><a href="/corporate/development/">沿革</a></li>
+            <li><a href="/corporate/faq/">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="/ir/">IR情報</a></p>
+          <ul>
+            <li><a href="/ir/news/">IRニュース</a></li>
+            <li><a href="/ir/library/">IRライブラリー</a></li>
+            <li><a href="/ir/stock/">株式・社債・格付情報</a></li>
+            <li><a href="/ir/highlight/">財務ハイライト</a></li>
+            <li><a href="/ir/calendar/">IRカレンダー</a></li>
+            <li><a href="/ir/faq/">よくあるご質問</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="http://saiyo.suzuki.co.jp/top-1/">採用情報</a></p>
+          <ul>
+            <li><a href="http://saiyo.suzuki.co.jp/graduate/">新卒採用情報</a></li>
+            <li><a href="http://www.suzuki-careers.com/">キャリア採用情報</a></li>
+            <li><a href="/recruit/">四輪販売会社グループ採用情報</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="/affiliated/">関連企業</a></p>
+          <ul>
+            <li><a href="http://www.suzuki-business.co.jp/">スズキビジネス</a></li>
+            <li><a href="http://www.suzuki-finance.co.jp/">スズキファイナンス</a></li>
+          </ul>
+        </div>
+        <div class="footerMbox">
+          <p class="title"><a href="http://www1.suzuki.co.jp/t_and_f/">スズキ浜松アスリートクラブ</a></p>
+          <ul>
+            <li></li>
+            <li><a href="http://www1.suzuki.co.jp/t_and_f/library/">データライブラリ</a></li>
+            <li><a href="http://www1.suzuki.co.jp/t_and_f/profile/">選手プロフィール</a></li>
+          </ul>
+        </div>
+      </div>
+    </div> 
+        <div id="footerB">
+      <div class="contents clearfix">
+        <div class="right_pc right_sp">
+          <ul class="clearfix">
+            <li><a href="/sitemap/">サイトマップ</a></li>
+            <li><a href="/foruse/">ご利用にあたって</a></li>
+            <li><a href="/privacy_statement/">個人情報の取り扱いについて</a></li>
+          </ul>
+        </div>
+        <div class="left_pc left_sp">COPYRIGHT SUZUKI MOTOR CORPORATION. ALL RIGHTS RESERVED.</div>
+      </div>
+    </div> 
+  </footer>
+</div>
+</body>
+</html>

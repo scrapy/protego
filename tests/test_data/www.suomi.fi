@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /palaute
+Disallow: /respons
+Disallow: /feedback
+
+Sitemap: https://www.suomi.fi/sitemap_index.xml

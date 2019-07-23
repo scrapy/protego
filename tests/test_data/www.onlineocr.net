@@ -1,0 +1,256 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html id="master_en" xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Free Online OCR - convert PDF to Word or Image to text
+</title><meta name="Keywords" content="Free Online OCR service,ocr,online ocr,free ocr,ocr software,optical character recognition,pdf ocr,pdf to word,convert pdf to word,jpeg to word,text recognition,image to text" /><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /><link href="/images/favicon.ico" rel="icon" type="image/x-icon" /><link href="/images/favicon.ico" rel="shortcut icon" type="image/x-icon" /><link href="styles/bootstrap.debug.css" rel="stylesheet" type="text/css" /><link href="styles/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" /><link href="styles/Site.css" rel="stylesheet" type="text/css" /><link href="styles/Site-header2.css" rel="stylesheet" type="text/css" /><link rel="alternate" hreflang="x-default" href="https://www.onlineocr.net/" /><link rel="alternate" hreflang="en" href="https://www.onlineocr.net/" /><link rel="alternate" hreflang="es" href="https://www.onlineocr.net/es/" /><link rel="alternate" hreflang="de" href="https://www.onlineocr.net/de/" /><link rel="alternate" hreflang="fr" href="https://www.onlineocr.net/fr/" /><link rel="alternate" hreflang="ru" href="https://www.onlineocr.net/ru/" /><link rel="alternate" hreflang="it" href="https://www.onlineocr.net/it/" /><link rel="alternate" hreflang="pl" href="https://www.onlineocr.net/pl/" /><link rel="alternate" hreflang="pt" href="https://www.onlineocr.net/pt/" /><link rel="alternate" hreflang="ja" href="https://www.onlineocr.net/ja/" /><link rel="alternate" hreflang="ko" href="https://www.onlineocr.net/ko/" /><link rel="alternate" hreflang="zh-hans" href="https://www.onlineocr.net/zh_hans/" /><link rel="alternate" hreflang="zh-hant" href="https://www.onlineocr.net/zh_hant/" />
+
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-39943348-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function () {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+</script><meta name="description" content="Free Online OCR service allows you to convert PDF document to MS Word file, scanned images to editable text formats and extract text from PDF files" /></head>
+<body>
+    <form method="post" action="./" id="ctl23">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTgxMjc1Mzc3NA9kFgJmD2QWAgIBD2QWAgIDD2QWDAIDDw8WAh4HVmlzaWJsZWhkZAIHDw8WAh8AaGRkAgkPDxYCHwBoZGQCDQ8PFgIfAGhkZAIPD2QWAgIDD2QWBAIDD2QWAmYPZBYGAgEPEA8WAh4LXyFEYXRhQm91bmRnZBAVLgdFTkdMSVNICUFGUklLQUFOUwhBTEJBTklBTgZCQVNRVUUJQlJBWklMSUFOCUJVTEdBUklBTgxCWUVMT1JVU1NJQU4HQ0FUQUxBThFDSElORVNFU0lNUExJRklFRBJDSElORVNFVFJBRElUSU9OQUwIQ1JPQVRJQU4FQ1pFQ0gGREFOSVNIBURVVENICUVTUEVSQU5UTwhFU1RPTklBTgdGSU5OSVNIBkZSRU5DSAhHQUxJQ0lBTgZHRVJNQU4FR1JFRUsJSFVOR0FSSUFOCUlDRUxBTkRJQwpJTkRPTkVTSUFOB0lUQUxJQU4ISkFQQU5FU0UGS09SRUFOBUxBVElOB0xBVFZJQU4KTElUSFVBTklBTgpNQUNFRE9OSUFOBU1BTEFZCU1PTERBVklBTglOT1JXRUdJQU4GUE9MSVNIClBPUlRVR1VFU0UIUk9NQU5JQU4HUlVTU0lBTgdTRVJCSUFOBlNMT1ZBSwlTTE9WRU5JQU4HU1BBTklTSAdTV0VESVNIB1RBR0FMT0cHVFVSS0lTSAlVS1JBSU5JQU4VLgdFTkdMSVNICUFGUklLQUFOUwhBTEJBTklBTgZCQVNRVUUJQlJBWklMSUFOCUJVTEdBUklBTgxCWUVMT1JVU1NJQU4HQ0FUQUxBThFDSElORVNFU0lNUExJRklFRBJDSElORVNFVFJBRElUSU9OQUwIQ1JPQVRJQU4FQ1pFQ0gGREFOSVNIBURVVENICUVTUEVSQU5UTwhFU1RPTklBTgdGSU5OSVNIBkZSRU5DSAhHQUxJQ0lBTgZHRVJNQU4FR1JFRUsJSFVOR0FSSUFOCUlDRUxBTkRJQwpJTkRPTkVTSUFOB0lUQUxJQU4ISkFQQU5FU0UGS09SRUFOBUxBVElOB0xBVFZJQU4KTElUSFVBTklBTgpNQUNFRE9OSUFOBU1BTEFZCU1PTERBVklBTglOT1JXRUdJQU4GUE9MSVNIClBPUlRVR1VFU0UIUk9NQU5JQU4HUlVTU0lBTgdTRVJCSUFOBlNMT1ZBSwlTTE9WRU5JQU4HU1BBTklTSAdTV0VESVNIB1RBR0FMT0cHVFVSS0lTSAlVS1JBSU5JQU4UKwMuZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2RkAgMPEA8WAh8BZ2QQFQMVTWljcm9zb2Z0IFdvcmQgKGRvY3gpFk1pY3Jvc29mdCBFeGNlbCAoeGxzeCkQVGV4dCBQbGFpbiAodHh0KRUDFU1pY3Jvc29mdCBXb3JkIChkb2N4KRZNaWNyb3NvZnQgRXhjZWwgKHhsc3gpEFRleHQgUGxhaW4gKHR4dCkUKwMDZ2dnZGQCBQ8PFgIeB0VuYWJsZWRoFgIeB29uY2xpY2sF0gFpZiAodHlwZW9mKFBhZ2VfQ2xpZW50VmFsaWRhdGUpID09ICdmdW5jdGlvbicpIHsgUGFnZV9DbGllbnRWYWxpZGF0ZSgpO2lmICghUGFnZV9Jc1ZhbGlkKSByZXR1cm4gZmFsc2U7IH07IHZhciBzZWxmID0gdGhpczsgd2luZG93LnNldFRpbWVvdXQoIGZ1bmN0aW9uICgpe3NlbGYuZGlzYWJsZWQgPSB0cnVlOyBzZWxmLnZhbHVlID0gJ3dhaXRpbmcuLi4nfSwgMTAgKTtkAgcPZBYCZg9kFgQCBw8PFgIfAGhkZAIJDw8WAh8AaGRkAhEPEA8WAh8BZ2QQFQwHRU5HTElTSAdERVVUU0NICEVTUEHDkU9MCUZSQU7Dh0FJUwhJVEFMSUFOTwnml6XmnKzoqp4KUE9SVFVHVcOKUwZQT0xTS0kJ7ZWc6rWt7Ja0DtCg0KPQodCh0JrQmNCZD+S4reaWhyAo566A5L2TKQ/kuK3mlocgKOe5gemrlCkVDAdFTkdMSVNIB0RFVVRTQ0gIRVNQQcORT0wJRlJBTsOHQUlTCElUQUxJQU5PCeaXpeacrOiqngpQT1JUVUdVw4pTBlBPTFNLSQntlZzqta3slrQO0KDQo9Ch0KHQmtCY0JkP5Lit5paHICjnroDkvZMpD+S4reaWhyAo57mB6auUKRQrAwxnZ2dnZ2dnZ2dnZ2cWAWZkZE1plBHfAhPsAIiSKFFGHujqyEAKApS+mr7Xb87FxpIX" />
+
+
+<script src="/ScriptResource.axd?d=7MOvOuPSsF9XjvMW7yMVkJh1FPWHCFK2-0A3uzRB6ZsnZupkQq98P9dMEh41OYluVBK7NdB-KW6iAbCsE_FWzVSFSU4HhkGUKglhjpp-6DwNh5un5fdPQMVJYTfwfAuM5C5ZutceB0iTO6NCEw6QB8QQxOepygoF0pYBLYAj0G41&amp;t=ffffffff999c3159" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=xmgKlNq75zVFGJ8TtX8-mA2IUh2vNz53h8heRJaTD-8MkBtg9VXdQxATady1J3ZKXvCT2jwtD_A_n1ERqRll3zvk-QhwF249EFgBHEARKRg9po5FF7frCalbwKvT6ZE9UhkrkaXWjOpSRwQBnFIJtyl06Q4hq2tSMgNyHeZze_U1&amp;t=ffffffff999c3159" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAELYW9MjKLwMeVDuVvlXKenoAvLvu2g6rSVVa6mHPu64d7yvSi6n7AW/VzUYKk6Y7Q2+RaGjTqDdWpA7SjjKzyU+HTlR8fuNQ74tR10I5Cuptc7KT008nvm9mtfuj/efT+iFUEMwM7wLug/BExmFc2XqA1ydpKnPuHR57pOawhT0QWao5hNDCHcAy218F1JJk7ANf6NyiT8HGl0qGBRGHwdyLXW5TN56D0w6pY9SZSIbarWtaom8UV8QyDBc43oIhROvotRnlJC5mRhOpMcSz/EQe5/nMjxE8/4RUtVoNEMeNzr+jFakQFQojzGcKwjpdLe5Ss1Z3Y234VOli79FM0LbyLsYsX6LyVKMy2JMD4uDo6N2FfA1FmCtKSbM3mKPpfhSlGe3THu0ictQ4vEXgDQtI/TE2X2eOQoHG9o7xobxSEfk5YdtH3DejhX7r2weLBXm0ZMso9jURRTeRzhTzyCXj0xWfHcQsptBqbkVqg4Y82W49hxw52AujnUaKUYX41rdDEAA6RLL0iy9uOGoRMgsodeaKb/HCR9fWx4CyZ7CviPF36fLXZCd1wDFl+IESVuObr04Q9ACrBdmpSt4zSc98vrgcwUdEs+jf2jYwf7XLso5acUKYByxCXmgTO9ndbfFrNVrmPXK3O4Ze7lR8HRiwz24TNY1rHwlEVO9CnvyhmcfbbxnvtCKqT8fXNDLbUURP2MVOoqrNHcOx6eVOisQ7Eh3zloYsiBwuqzKa94gnw7edvRzXoY3bmXLScz+P1+xJvsmn6KmZtGDR7fBASFtV74NYOcdvCCD694tSl3Sz5O0jdxugzQzKSkx5j+izD//zl6nmbWNNugfgEuXIp0S5ukHjrvYexLc78W0dnqGU0kXHjeR2Cg3/1cCfUKXWyC9ZuhFHPqu7U9Bcv0p7MdUbzONfXpxVec+jdTHq3uLU72I1sZbP3q3wbG+wF79PyTqryHyTmaK3F+ZtERKpUYICH7HAUCt5qL6jSzEsXEBr7hXj0ssgPhyKUHeb40htcG/csWwsIK6nn9pF8dlnxVWBHbOuECBEcq6PBZAPhzcHEOGi3qWeITSejb9PerI1+83IiD1ojx3ifICOCZWDYMbC4N4v20ziDsEv6+xE7g5e+ATXhqAN+C4aYtgnuENwX6JBEtCsniq73C6sy++xGwKUHW6Hr/+aWDOt4SEsNXsVBVyl6FfrJiCSNAJ4sGNCzb+GMn8HFXKAcdmWBW/7CdM1BxQnKXlWQZM25DgMk9BSiLMz64i5PPc3T9L8MYgI6SGTcJF0YwrbK3D2j2exqoGU+c3YdrATWhibI6ciZm8QNnmBe3X1zsSg5XPrpWaRsZES518CFzEnKqL/CGT5X1rjb0/0wx8EdcgE9WWVTXecdTofDDNiI8R++GFkV00j2e5r8yRRPWPXa49BLceBFDWhdW7wl4oRigF6GBLRbH9fQ==" />
+     <table class="tbl_style">
+        <tr class="tbl_style_header"><td/>
+            <td class="tbl_style_block">
+            <table><tr><td  class="tbl_style_block"><a class="mainOCRLink"  href="/">HOME</a>
+                    <a class="mainOCRLink"  href="/service/about" >ABOUT</a>
+                    <a class="mainOCRLink"  href="/service/keyfeatures" >KEY FEATURES</a>
+                    <a class="mainOCRLink"  href="/service/ocrwebservice" >OCR WEB SERVICE</a>
+                    <a class="mainOCRLink"  href="/service/emailocr" >EMAIL OCR</a>
+                    <a class="mainOCRLink"  href="/service/bonusprogram" >BONUS PROGRAM</a>
+                    <a class="mainOCRLink"  href="/service/faq" >FAQ</a>
+                    <a class="mainOCRLink"  href="/pdftoexcel" >PDF TO EXCEL</a></td>
+                    <td  class="tbl_style_block3"><div id="panelLogin" align="right">
+	
+                    <a class="lLink" href="/account/login">LOGIN</a>
+                    <a class="gLink" href="/account/signup">SIGN UP</a>
+</div>
+                    </td></tr></table></td><td/></tr>
+       <tr><td/><td class="tbl_style_block" ><img id="mainImg1" src="Images/ONLINE_OCR_LOGO.JPG" />
+     
+           <br/></td></tr>
+        <tr><td colspan="3"></td></tr>
+        <tr><td/><td class="tbl_style_block">
+            </td><td/></tr>
+                <tr><td colspan="3"><div id="panelCaption2">
+
+</div></td></tr>
+                <tr><td colspan="3"></td></tr><tr><td/>
+     <td class="tbl_style_block">
+     <div id="main">
+
+<div id="MainContent_mainPanel">
+	
+    <table class="tbl_style">
+    <tr style="height:220px;">
+    <td><br/>
+    <p><hh3>FREE ONLINE OCR SERVICE</hh3></p>
+            <p><hh4>Use Optical Character Recognition software online. Service supports <br/> 46 languages including Chinese, Japanese and Korean</hh4></p><br/>
+            <p><hh3>CONVERT SCANNED PDF TO WORD</hh3></p>
+            <hh4>Extract text from PDF and images (JPG, BMP, TIFF, GIF) and convert into editable <br/> Word, Excel and Text output formats</hh4><br/></td>
+
+    <td rowspan="4" style="vertical-align:top; min-width:301px" ><div style="padding-top:10px">
+
+    <!-- Default_300_600 -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-6836623321866370" data-ad-slot="7835008980"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script> 
+      
+    <br/></div>
+    <div style="padding-top:10px">
+        
+    <!-- Default_300_250 -->
+<!--
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle"  style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-6836623321866370" data-ad-slot="5241784440"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>  
+-->
+    </div>
+    </td></tr>
+    <tr  style="height:120px; min-height:120px" >
+    <td>
+	
+    <!-- Default_Top_728_90_EX -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6836623321866370" data-ad-slot="5948308054"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
+    </td>
+    </tr>
+    <tr style="height:15px;"><td><div id="MainContent_panel42" style="margin-right:45px">
+
+	</div></td></tr>
+    <tr><td style="vertical-align:top;">
+        <table><tr style="height: 50px">
+                <td style="width: 170px"><hg5>1 STEP - Upload file</hg5></td>
+                <td colspan="2" style="width:320px"><hg5>2 STEP - Select language and output format</hg5></td>
+                <td><hg5>3 STEP - Convert</hg5></td></tr>
+            <tr><td style="width: 210px"><span class="btn btn-custom-lighten fileinput-button" style="width:200px" ><span class="btn-large" >Select file...</span><input id="fileupload" type="file" name="files[]" multiple></span></td> 
+                <td colspan="3"><div id="MainContent_UpdatePanel2">
+		
+                    <table ><tr><td style="width:240px"><select name="ctl00$MainContent$comboLanguages" id="MainContent_comboLanguages">
+			<option value="ENGLISH">ENGLISH</option>
+			<option value="AFRIKAANS">AFRIKAANS</option>
+			<option value="ALBANIAN">ALBANIAN</option>
+			<option value="BASQUE">BASQUE</option>
+			<option value="BRAZILIAN">BRAZILIAN</option>
+			<option value="BULGARIAN">BULGARIAN</option>
+			<option value="BYELORUSSIAN">BYELORUSSIAN</option>
+			<option value="CATALAN">CATALAN</option>
+			<option value="CHINESESIMPLIFIED">CHINESESIMPLIFIED</option>
+			<option value="CHINESETRADITIONAL">CHINESETRADITIONAL</option>
+			<option value="CROATIAN">CROATIAN</option>
+			<option value="CZECH">CZECH</option>
+			<option value="DANISH">DANISH</option>
+			<option value="DUTCH">DUTCH</option>
+			<option value="ESPERANTO">ESPERANTO</option>
+			<option value="ESTONIAN">ESTONIAN</option>
+			<option value="FINNISH">FINNISH</option>
+			<option value="FRENCH">FRENCH</option>
+			<option value="GALICIAN">GALICIAN</option>
+			<option value="GERMAN">GERMAN</option>
+			<option value="GREEK">GREEK</option>
+			<option value="HUNGARIAN">HUNGARIAN</option>
+			<option value="ICELANDIC">ICELANDIC</option>
+			<option value="INDONESIAN">INDONESIAN</option>
+			<option value="ITALIAN">ITALIAN</option>
+			<option value="JAPANESE">JAPANESE</option>
+			<option value="KOREAN">KOREAN</option>
+			<option value="LATIN">LATIN</option>
+			<option value="LATVIAN">LATVIAN</option>
+			<option value="LITHUANIAN">LITHUANIAN</option>
+			<option value="MACEDONIAN">MACEDONIAN</option>
+			<option value="MALAY">MALAY</option>
+			<option value="MOLDAVIAN">MOLDAVIAN</option>
+			<option value="NORWEGIAN">NORWEGIAN</option>
+			<option value="POLISH">POLISH</option>
+			<option value="PORTUGUESE">PORTUGUESE</option>
+			<option value="ROMANIAN">ROMANIAN</option>
+			<option value="RUSSIAN">RUSSIAN</option>
+			<option value="SERBIAN">SERBIAN</option>
+			<option value="SLOVAK">SLOVAK</option>
+			<option value="SLOVENIAN">SLOVENIAN</option>
+			<option value="SPANISH">SPANISH</option>
+			<option value="SWEDISH">SWEDISH</option>
+			<option value="TAGALOG">TAGALOG</option>
+			<option value="TURKISH">TURKISH</option>
+			<option value="UKRAINIAN">UKRAINIAN</option>
+
+		</select></td> 
+                        <td style="width: 240px"><select name="ctl00$MainContent$comboOutput" id="MainContent_comboOutput">
+			<option value="Microsoft Word (docx)">Microsoft Word (docx)</option>
+			<option value="Microsoft Excel (xlsx)">Microsoft Excel (xlsx)</option>
+			<option value="Text Plain (txt)">Text Plain (txt)</option>
+
+		</select></td> 
+                        <td style="width: 240px"><input type="submit" name="ctl00$MainContent$btnOCRConvert" value="CONVERT" id="MainContent_btnOCRConvert" disabled="disabled" class="aspNetDisabled btn btn-custom-lighten" onclick="if (typeof(Page_ClientValidate) == &#39;function&#39;) { Page_ClientValidate();if (!Page_IsValid) return false; }; var self = this; window.setTimeout( function (){self.disabled = true; self.value = &#39;waiting...&#39;}, 10 );" />
+                        </td></tr></table>
+	</div></td></tr>
+            <tr style="height:20px;">
+                <td style="vertical-align:bottom" colspan="4" ><p><span id="MainContent_lbProgressFile2"><b><font face="Courier New" color="#444444" size="3">Max file size 15 mb.</font></b></span></p></td>
+            </tr>
+            <tr style="height:30px;"><td colspan="4" ><div id="progress" class="progress progress-bar-info" style="display: none; width:850px; height:5px; " ><div id="barAnimation" class="bar"></div></div>
+                <div ID="alert" hidden="hidden" style="width:800px"><button aria-hidden="true" class="close" data-dismiss="alert" type="button"></button><span ID="message"></span></div></td></tr>
+            <tr><td colspan="4"><div id="MainContent_UpdatePanel1">
+		
+                    <div id="MainContent_PanelText">
+			
+                        <table><tr><td  style="width: 290px;"><h6>Use OCR software</h6></td>                                
+                                <td  style="width: 290px;"><h6>Convert PDF to Word</h6></td>                                
+                                <td  style="width: 290px;" ><h6>Free Service</h6></td></tr>
+                            <tr><td  style="padding-right:30px; text-align:justify; vertical-align:top;">
+                                    <h12>without installation on your computer. Recognize text and characters from PDF scanned documents (including multipage files), photographs and digital camera captured images.</h12></td>                                
+                                    <td style="padding-right:30px;  text-align:justify; vertical-align:top;">
+                                    <h12>Convert text and Images from your scanned PDF document into the editable DOC format. Converted documents look exactly like the original - tables, columns and graphics.</h12></td>                                
+                                    <td style="padding-right:20px;  text-align:justify">
+                                    <h12>OnlineOCR.net is a free OCR service in a "Guest mode" (without registration) that allows you to convert 15 files per hour (and 15 pages into multipage files). Registration will give you ability to convert multipage PDF documents and other features.</h12></td></tr></table><br/><br/>
+                        
+		</div>
+                    
+                            <br/>
+                    
+                    
+                    
+                    
+                 
+	</div></td></tr></table>
+
+            <!-- Default_728_90 -->
+            <!--<img id="MainContent_Image1" src="Images/728_90.png" />-->
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-6836623321866370" data-ad-slot="3845129647"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+ 
+            <input type="hidden" name="ctl00$MainContent$hdnFullPath" id="MainContent_hdnFullPath" value="-1" />
+            <input type="hidden" name="ctl00$MainContent$hdnFileName" id="MainContent_hdnFileName" value="-1" />
+            <input type="hidden" name="ctl00$MainContent$hdnFileNameEx" id="MainContent_hdnFileNameEx" value="-1" />
+            <br />
+            <span id="MainContent_Timer1" style="display:none;"></span>
+        </td>
+        </tr>
+        <tr style="height:auto"/></table>
+
+</div>
+</div><br /><br /><br /></td><td/></tr></table><div style="height:50px"/>
+    <div id="footer">
+          <table class="tbl_style">
+            <tr><td colspan="3" style="border-color:Silver; border-width: 1px; border-top-style: solid" /></tr>
+            <tr  style="height:40px" ><td/><td style="width:1200px">
+                    <!--<a class="CLink"  href="/">HOME</a>/
+                    <a class="CLink"  href="/service/about" >ABOUT</a>/
+                    <a class="CLink"  href="/service/keyfeatures" >KEY FEATURES</a>/
+                    <a class="CLink"  href="/service/ocrwebservice" >OCR WEB SERVICE</a>/
+                    <a class="CLink"  href="/service/emailocr" >EMAIL OCR</a>/
+                    <a class="CLink"  href="/service/bonusprogram" >BONUS PROGRAM</a>/
+                    <a class="CLink"  href="/service/faq" >FAQ</a>/
+                    -->
+                    <a class="CLink2"  href="/service/termsofservice" >TERMS OF SERVICE</a>/
+                    <a class="CLink"  href="/service/privacypolicy" >PRIVACY POLICY</a>/
+                    <a class="CLink"  href="/service/contactus">CONTACT US</a></td><td/></tr>
+            <tr style="height:40px"><td/><td><table><tr><td><hw7>Copyright © 2009-2018 Online OCR</hw7></td><td style="padding-left:590px">
+                        <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=onlineocr" addthis:url="https://www.onlineocr.net" addthis:title="Free Online OCR service"><img src="https://s7.addthis.com/static/btn/v2/lg-bookmark-en.gif" height="16" alt="Bookmark and Share" style=" text-align:right"/></a></td>
+                        <td  style="padding-left:30px"><select name="ctl00$DropDownLanguage" id="DropDownLanguage">
+	<option selected="selected" value="ENGLISH">ENGLISH</option>
+	<option value="DEUTSCH">DEUTSCH</option>
+	<option value="ESPAÑOL">ESPA&#209;OL</option>
+	<option value="FRANÇAIS">FRAN&#199;AIS</option>
+	<option value="ITALIANO">ITALIANO</option>
+	<option value="日本語">日本語</option>
+	<option value="PORTUGUÊS">PORTUGU&#202;S</option>
+	<option value="POLSKI">POLSKI</option>
+	<option value="한국어">한국어</option>
+	<option value="РУССКИЙ">РУССКИЙ</option>
+	<option value="中文 (简体)">中文 (简体)</option>
+	<option value="中文 (繁體)">中文 (繁體)</option>
+
+</select></td>
+                     </tr></table></td><td/></tr></table></div>
+    <script src="/scripts/jquery-1.10.2.js"></script>
+    <script src="/scripts/jquery.ui.widget.js"></script>
+    <script src="/scripts/jquery.iframe-transport.js"></script>
+    <script src="/scripts/jquery.fileupload.js"></script>
+    <script src="/scripts/upload.bootstrap.js"></script>
+    <script src="/scripts/uploadex.bootstrap.js"></script>
+    <script src="/scripts/bootstrap.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.add_init(function() {
+    $create(Sys.UI._Timer, {"enabled":false,"interval":1000,"uniqueID":"ctl00$MainContent$Timer1"}, null, null, $get("MainContent_Timer1"));
+});
+//]]>
+</script>
+</form>
+</body>
+</html>

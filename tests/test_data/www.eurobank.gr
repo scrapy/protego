@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Allow: */oikonomikes-katastaseis-thigatrikon-2005/$
+Disallow: */oikonomikes-katastaseis-thigatrikon-2005/*
+Disallow: /*?pg=*
+
+Sitemap: https://www.eurobank.gr/sitemap_index.xml
+Sitemap: https://www.eurobank.gr/sitemap_segment_1.xml

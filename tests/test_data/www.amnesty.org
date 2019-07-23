@@ -1,0 +1,10 @@
+﻿User-agent: *
+Disallow: /facebook/
+Disallow: /languageselectorpartial/
+Disallow: /twitter/
+Disallow: /en/search/
+Disallow: /es/search/
+Disallow: /fr/search/
+Disallow: /ar/search/
+
+Sitemap: https://www.amnesty.org/sitemap.xml

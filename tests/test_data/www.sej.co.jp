@@ -1,0 +1,30 @@
+User-agent: *
+Sitemap:http://www.sej.co.jp/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej/html/products/area/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej/html/products/original/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej/html/nanaco/bonuspoints/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej/html/products/tickets/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej/html/products/media/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej/html/products/ff/sitemap.xml
+Sitemap:http://www.sej.co.jp/owner/sitemap.xml
+Sitemap:http://www.sej.co.jp/sej_case/sitemap.xml
+Disallow: /*pre/
+Disallow: /q
+Disallow: /sidemenu
+Disallow: /80
+Disallow: /366
+Disallow: /526
+Disallow: /1180
+Disallow: /redirect
+Disallow: /new_info
+Disallow: /company/news_release
+Disallow: /n
+Disallow: /cmp/stcam.html
+Disallow: /*m/
+Allow: /i/products/7premium/
+Disallow: /inquiry.html
+Disallow: /appif
+Disallow: /appinfo
+Disallow: */allpurpose
+Disallow: /mailmagazine
+Allow: /i/item/

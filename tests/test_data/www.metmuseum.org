@@ -1,0 +1,124 @@
+﻿# metmuseum.org/ 
+
+# robots.txt created for http://metmuseum.org 
+
+
+user-agent: googlebot 
+allow: / 
+
+user-agent: googlebot-image 
+allow: / 
+
+user-agent: googlebot-mobile 
+allow: / 
+
+User-agent: Pinterest
+Crawl-delay: 10
+
+User-agent: Flipboard
+disallow: 
+
+User-agent: FlipboardProxy
+disallow:
+
+user-agent: msnbot 
+disallow: 
+
+user-agent: slurp 
+disallow: 
+
+user-agent: teoma 
+disallow: 
+
+user-agent: twiceler 
+disallow: 
+
+user-agent: gigabot 
+disallow: 
+
+user-agent: scrubby 
+disallow: 
+
+user-agent: robozilla 
+disallow: 
+
+user-agent: nutch 
+disallow: 
+
+user-agent: ia_archiver 
+disallow:
+
+user-agent: baiduspider-ads 
+disallow: 
+
+user-agent: naverbot 
+disallow: 
+
+user-agent: yeti 
+disallow: 
+
+user-agent: yahoo-mmcrawler 
+disallow: 
+
+user-agent: psbot 
+disallow: 
+
+user-agent: asterias 
+disallow: 
+
+user-agent: yahoo-blogs/v3.9 
+disallow: 
+
+#baiduspider 
+user-agent: baiduspider 
+disallow: 
+
+user-agent: mozilla/5.0(compatible; baiduspider/2.0; +http://www.baidu.com/search/spider.html) 
+disallow: 
+
+#yandex 
+user-agent: spider 
+disallow: 
+
+user-agent: yandex 
+disallow: 
+
+user-agent: yandex.com 
+disallow: 
+
+user-agent: yandexbot/3.0 
+disallow: 
+
+#sosospider 
+user-agent: sosospider+ 
+disallow: 
+
+#ezooms 
+user-agent: ezooms 
+disallow: 
+
+user-agent: ezooms/1.0 
+disallow: 
+
+#sogou 
+user-agent: sogou spider 
+disallow: 
+
+user-agent: * 
+disallow: /api/ 
+disallow: /sitecore/ 
+disallow: /sitecore/ 
+disallow: /sitecore_files/ 
+disallow: /sitecore modules/ 
+disallow: /app_browsers/ 
+disallow: /app_config/ 
+disallow: /app_data/ 
+disallow: /temp/ 
+disallow: /upload/ 
+disallow: /xsl/
+disallow: /ghidorah/
+disallow: /kramar-notebook/
+disallow: /art/libraries-and-research-centers/leonard-lauder-research-center/research/digital-archives/kramar-project
+disallow: /welcome
+
+sitemap: http://www.metmuseum.org/sitemaps/sitemap_index

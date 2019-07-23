@@ -1,0 +1,43 @@
+
+User-agent: *
+Sitemap: https://www.harveynorman.com.au/sitemap.xml
+Disallow: /sendtofriend/form/*
+Disallow: /checkout/cart/add/
+Disallow: /checkout/cart/
+Disallow: /store/index/selector/
+Disallow: /customer/account/login/
+Disallow: /customer/account/create/
+Disallow: /catalog/product_compare/add/product/
+Disallow: /wishlist/index/add/product/
+Disallow: /(?:[_]|price=\d*-\d*|order=name|mode=list)/
+Disallow: /*/~/.*
+Disallow: /applybuy/apply/modal/
+Disallow: /applybuy/apply/terms/id/
+Disallow: /forms/product/rate/
+Disallow: /more-info/sms-security-code/modal/
+Disallow: /privacy-policy/generic-publications/
+Disallow: /email-preference$
+Disallow: /hn-email-unsubscribe
+Disallow: /hn-email-unsubscribe-confirm
+Disallow: /promos$
+Disallow: /stores-checker
+
+Disallow: /everdure-hub-ii-electric-charcoal-bbq.html
+Disallow: /everdure-4k-charcoal-oven-graphite.html
+Disallow: /everdure-4k-charcoal-oven-mint.html
+Disallow: /everdure-4k-charcoal-oven-orange.html
+Disallow: /everdure-4k-charcoal-oven-red.html
+Disallow: /everdure-4k-charcoal-oven-stone.html
+Disallow: /everdure-mobile-preparation-kitchen.html
+
+Disallow: /more-info/product-care-computers
+Disallow: /more-info/product-care-electrical
+Disallow: /more-info/pickup
+Disallow: /more-info/reservations
+Disallow: /more-info/product-care-computer
+Disallow: /more-info/products-care-computer
+Disallow: /more-info/products-care-computers
+
+Disallow: https://azcd.harveynorman.com.au
+Disallow: https://azcd.harveynorman.com.au/*
+

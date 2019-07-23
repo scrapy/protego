@@ -1,0 +1,20 @@
+User-agent: *
+Disallow: /ni/
+Disallow: /*/ni/
+Disallow: /all/
+Disallow: /corpdisc/
+Disallow: /newsletter/
+Disallow: /f/net/newsletter.html
+Disallow: /f/net/ni/
+Disallow: /f/net/process
+Disallow: /f/net/ord/
+Disallow: /wsdata/
+Disallow: /signup
+Disallow: /search
+Disallow: /search/
+
+User-agent: msnbot
+Crawl-delay: 1
+
+
+Sitemap: https://www.fragrancenet.com/sitemap_index1.xml

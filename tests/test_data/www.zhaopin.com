@@ -66,7 +66,7 @@
  
   
   <link rel="stylesheet" href="//fecdn4.zhaopin.cn/www/vendors.5d6744.css"><link rel="stylesheet" href="//fecdn1.zhaopin.cn/www/index.487b5a.css">
-  <script>var zpPageRequestId = "0af57a480c3c4480af5a41af179ae28d-" + (new Date()).valueOf() + "-" + parseInt(Math.random() * 1000000)</script>
+  <script>var zpPageRequestId = "ce35646019434351bac0aa4dca904952-" + (new Date()).valueOf() + "-" + parseInt(Math.random() * 1000000)</script>
   <link rel="shortcut icon" type="image/png" href="//common-bucket.zhaopin.cn/img/zhilian-ico/zhilian-ico-1.0.0.png">
   <link rel="stylesheet" type="text/css" href="//images.zhaopin.cn//www/ihome/font/iconfont.css">
   <link href="//common-bucket.zhaopin.cn/css/idangerous.swiper.min/idangerous.swiper.min-2.7.6.css" rel="stylesheet">  
@@ -115,8 +115,8 @@
     <ul>
   	
    	<li><a href='https://special.zhaopin.com/Flying/Society/20190604/87760180_17021734_ZL45864/careers.html' onmousedown="return AdsClick(14869,452943)"  target="_blank"><img class="am bm " cid="87760180" bid="14869" lid="452943" border="0" src="//img01.zhaopin.cn/img_button/201907/19/023154_181651450574.gif" width="795" height="64" alt="央视频融媒体发展有限公司招聘信息" /></a></li> 
-<li><a href='http://spdb.zhaopin.com/' onmousedown="return AdsClick(14869,452940)"  target="_blank"><img class=" bm ct300500" cid="19508562" bid="14869" lid="452940" border="0" src="//img01.zhaopin.cn/img_button/201907/12/46_110944517137.jpg" width="795" height="64" alt="上海浦东发展银行股份有限公司招聘信息" /></a></li> 
 <li><a href='https://company.zhaopin.com/CZ142781850.htm' onmousedown="return AdsClick(14869,452942)"  target="_blank"><img class="am bm ct160000 ct160400" cid="14278185" bid="14869" lid="452942" border="0" src="//img00.zhaopin.cn/img_button/201907/17/huifeng_164638519917.gif" width="795" height="64" alt="汇丰软件开发(广东)有限公司招聘信息" /></a></li> 
+<li><a href='http://spdb.zhaopin.com/' onmousedown="return AdsClick(14869,452940)"  target="_blank"><img class=" bm ct300500" cid="19508562" bid="14869" lid="452940" border="0" src="//img01.zhaopin.cn/img_button/201907/12/46_110944517137.jpg" width="795" height="64" alt="上海浦东发展银行股份有限公司招聘信息" /></a></li> 
 <!--ZHAOPININDEX_AQU8in1 Success end-->
 
 
@@ -136,14 +136,14 @@
     <div class="hidden"> A区下半八合一</div>
     <div class="adsBox ad8in1 ad8in1No">
       <ul>
-        <li><a href='http://special.zhaopin.com/2019/shz/szsb052249/' onmousedown="return AdsClick(14870,452915)"  target="_blank"><img class="am bm ct140000 ct180100 ct200600 ct200800" cid="12072887" bid="14870" lid="452915" border="0" src="//img00.zhaopin.cn/img_button/201907/19/0_175303373064.gif" width="392" height="64"  alt="深圳市宝能投资集团招聘信息"></a></li> 
-<li><a href='http://zhaopin.epicc.com.cn/zhaopin/' onmousedown="return AdsClick(14870,452918)"  rel='nofollow'  target="_blank"><img class="am bm ct180000 ct180100" cid="12038424" bid="14870" lid="452918" border="0" src="//img02.zhaopin.cn/img_button/201812/29/50412_154209514179.gif" width="392" height="64"  alt="中国人民财产保险股份有限公司招聘信息"></a></li> 
-<li><a href='https://special.zhaopin.com/h5/2019/gz/zgyz071514/' onmousedown="return AdsClick(14870,452916)"  target="_blank"><img class="am bm ct300500" cid="19216041" bid="14870" lid="452916" border="0" src="//img00.zhaopin.cn/img_button/201907/18/youchu_095636346671.jpg" width="392" height="64"  alt="中国邮政储蓄银行股份有限公司广东省分行招聘信息"></a></li> 
-<li><a href='https://psbcgxxyk2019.zhaopin.com/' onmousedown="return AdsClick(14870,452913)"  target="_blank"><img class="am bm ct180000" cid="17212631" bid="14870" lid="452913" border="0" src="//img02.zhaopin.cn/img_button/201907/16/0124_110258931867.jpg" width="392" height="64"  alt="中国邮政储蓄银行股份有限公司广西壮族自治区分行招聘信息"></a></li> 
+        <li><a href='http://special.zhaopin.com/2019/fz/zgyz072281/' onmousedown="return AdsClick(14870,452921)"  target="_blank"><img class="am bm ct300500" cid="20541581" bid="14870" lid="452921" border="0" src="//img00.zhaopin.cn/img_button/201907/22/0081_203245862994.jpg" width="392" height="64"  alt="中国邮政储蓄银行股份有限公司福建省分行招聘信息"></a></li> 
+<li><a href='https://special.zhaopin.com/2019/nc/jxjt071830/' onmousedown="return AdsClick(14870,452912)"  target="_blank"><img class="am bm " cid="63947353" bid="14870" lid="452912" border="0" src="//img01.zhaopin.cn/img_button/201907/19/0_174632948891.jpg" width="392" height="64"  alt="江西金投置地有限公司招聘信息"></a></li> 
 <li><a href='http://www.retail-recruitment.bmw.zhaopin.com/' onmousedown="return AdsClick(14870,452911)"  target="_blank"><img class="am bm ct121000" cid="12038940" bid="14870" lid="452911" border="0" src="//img01.zhaopin.cn/img_button/201907/15/465_174725138992.jpg" width="392" height="64"  alt="华晨宝马汽车有限公司市场部(北京)招聘信息"></a></li> 
 <li><a href='http://special.zhaopin.com/campus/2017/bf/bjmj092631/' onmousedown="return AdsClick(14870,452919)"  target="_blank"><img class="am bm ct201100" cid="18071692" bid="14870" lid="452919" border="0" src="//img00.zhaopin.cn/img_button/201907/10/392_163159813387.gif" width="392" height="64"  alt="美吉姆国际儿童教育中心招聘信息"></a></li> 
-<li><a href='https://special.zhaopin.com/2019/bf/zgbx070481/' onmousedown="return AdsClick(14870,452926)"  target="_blank"><img class="am bm " cid="20811861" bid="14870" lid="452926" border="0" src="//img01.zhaopin.cn/img_button/201907/07/392_134718547981.jpg" width="392" height="64"  alt="中国保险保障基金有限责任公司招聘信息"></a></li> 
 <li><a href='http://special.zhaopin.com/2017/sh/sjsjs031523/' onmousedown="return AdsClick(14870,452914)"  target="_blank"><img class="am bm " cid="34194008" bid="14870" lid="452914" border="0" src="//img00.zhaopin.cn/img_button/201907/02/4102145_182405126783.gif" width="392" height="64"  alt="上交所技术有限责任公司招聘信息"></a></li> 
+<li><a href='http://zhaopin.epicc.com.cn/zhaopin/' onmousedown="return AdsClick(14870,452918)"  rel='nofollow'  target="_blank"><img class="am bm ct180000 ct180100" cid="12038424" bid="14870" lid="452918" border="0" src="//img02.zhaopin.cn/img_button/201812/29/50412_154209514179.gif" width="392" height="64"  alt="中国人民财产保险股份有限公司招聘信息"></a></li> 
+<li><a href='http://special.zhaopin.com/2019/shz/szsb052249/' onmousedown="return AdsClick(14870,452915)"  target="_blank"><img class="am bm ct140000 ct180100 ct200600 ct200800" cid="12072887" bid="14870" lid="452915" border="0" src="//img00.zhaopin.cn/img_button/201907/19/0_175303373064.gif" width="392" height="64"  alt="深圳市宝能投资集团招聘信息"></a></li> 
+<li><a href='https://special.zhaopin.com/h5/2019/gz/zgyz071514/' onmousedown="return AdsClick(14870,452916)"  target="_blank"><img class="am bm ct300500" cid="19216041" bid="14870" lid="452916" border="0" src="//img00.zhaopin.cn/img_button/201907/18/youchu_095636346671.jpg" width="392" height="64"  alt="中国邮政储蓄银行股份有限公司广东省分行招聘信息"></a></li> 
 <li><a href='https://xiaoyuan.zhaopin.com/qiuzhiganhuo' onmousedown="return AdsClick(14879,453716)"  target="_blank"><img class="bm" border="0" src="//img00.zhaopin.cn/img_button/201807/13/asdsad_110438151946.jpg" width="392" height="64"  alt="厦门高端人才科技有限公司招聘信息"></a></li> 
 
 
@@ -658,16 +658,13 @@
     <div class="hidden">八合一</div>
     <div class="adsBox ad8in1 ad8in1No">
       <ul>
-        <li><a href='https://special.zhaopin.com/Flying/Society/20190711/47994881_17373264_ZL29170/' onmousedown="return AdsClick(14871,452984)"  target="_blank"><img class="am bm ct180000 ct180100 ct300500 ct300900" cid="47994881" bid="14871" lid="452984" border="0" lazy_src="//img01.zhaopin.cn/img_button/201907/19/5012_165738556449.gif" width="392" height="64"  alt="燕赵财产保险股份有限公司招聘信息"></a></li> 
-<li><a href='http://special.zhaopin.com/2019/bf/lxxz012295/' onmousedown="return AdsClick(14871,453277)"  target="_blank"><img class="am bm " cid="55719022" bid="14871" lid="453277" border="0" lazy_src="//img00.zhaopin.cn/img_button/201906/06/7_182412742031.jpg" width="392" height="64"  alt="利星行(中国)汽车企业管理有限公司招聘信息"></a></li> 
-<li><a href='https://special.zhaopin.com/pagepublish/46778028/index.html' onmousedown="return AdsClick(14871,452986)"  target="_blank"><img class="am bm " cid="46778028" bid="14871" lid="452986" border="0" lazy_src="//img00.zhaopin.cn/img_button/201907/16/55_153955343678.jpg" width="392" height="64"  alt="银川滨河人力资源管理有限公司招聘信息"></a></li> 
-<li><a href='https://special.zhaopin.com/Flying/Campus/20190705/34880_14393714_ZL30105/' onmousedown="return AdsClick(14871,452989)"  target="_blank"><img class="am bm " cid="87574571" bid="14871" lid="452989" border="0" lazy_src="//img02.zhaopin.cn/img_button/201907/09/1_172417763069.gif" width="392" height="64"  alt="张家口盛垣供电服务有限公司招聘信息"></a></li> 
-<li><a href='https://special.zhaopin.com/Flying/Campus/20190704/80113_18103865_ZL30105/' onmousedown="return AdsClick(14871,452988)"  target="_blank"><img class="am bm " cid="23655403" bid="14871" lid="452988" border="0" lazy_src="//img01.zhaopin.cn/img_button/201907/09/2_171724959325.gif" width="392" height="64"  alt="承德辰飞供电服务有限公司招聘信息"></a></li> 
-<li><a href='http://special.zhaopin.com/2016/bf/zqdl042723/' onmousedown="return AdsClick(14871,452985)"  target="_blank"><img class="am bm ct210500" cid="28743711" bid="14871" lid="452985" border="0" lazy_src="//img01.zhaopin.cn/img_button/201907/12/0_110538733913.gif" width="392" height="64"  alt="中企动力科技股份有限公司招聘信息"></a></li> 
+        <li><a href='https://special.zhaopin.com/Flying/Society/20190722/44497913_15473701_ZL29170/' onmousedown="return AdsClick(14871,453358)"  target="_blank"><img class="am bm " cid="44497913" bid="14871" lid="453358" border="0" lazy_src="//img01.zhaopin.cn/img_button/201907/22/3_165911296118.gif" width="392" height="64"  alt="建投遵化热电有限责任公司招聘信息"></a></li> 
 <li><a href='http://www.51testing.net/htm/zpwting/zhaopinbq.htm' onmousedown="return AdsClick(14871,453271)"  rel='nofollow'  target="_blank"><img class=" bm ct160400 ct201100" cid="14536272" bid="14871" lid="453271" border="0" lazy_src="//img00.zhaopin.cn/img_button/201903/05/0_113040603786.jpg" width="392" height="64"  alt="博为峰(北京)信息技术有限公司招聘信息"></a></li> 
+<li><a href='https://special.zhaopin.com/Flying/Society/20190711/47994881_17373264_ZL29170/' onmousedown="return AdsClick(14871,452984)"  target="_blank"><img class="am bm ct180000 ct180100 ct300500 ct300900" cid="47994881" bid="14871" lid="452984" border="0" lazy_src="//img01.zhaopin.cn/img_button/201907/19/5012_165738556449.gif" width="392" height="64"  alt="燕赵财产保险股份有限公司招聘信息"></a></li> 
 <li><a href='https://company.zhaopin.com/CZ520536220.htm' onmousedown="return AdsClick(14871,453272)"  target="_blank"><img class="am bm " cid="52053622" bid="14871" lid="453272" border="0" lazy_src="//img01.zhaopin.cn/img_button/201907/12/2_131919820916.gif" width="392" height="64"  alt="长安汽车金融有限公司招聘信息"></a></li> 
 <li><a href='http://www.51testing.net/htm/zpeing/zhaopinbq2.htm' onmousedown="return AdsClick(14871,452987)"  rel='nofollow'  target="_blank"><img class=" bm ct160400 ct201100" cid="14536272" bid="14871" lid="452987" border="0" lazy_src="//img00.zhaopin.cn/img_button/201811/12/02_164429902048.jpg" width="392" height="64"  alt="博为峰(北京)信息技术有限公司招聘信息"></a></li> 
 <li><a href='http://special.zhaopin.com/2016/nc/jxss042092/' onmousedown="return AdsClick(14871,452983)"  target="_blank"><img class="am bm ct180000" cid="25717701" bid="14871" lid="452983" border="0" lazy_src="//img00.zhaopin.cn/img_button/201907/17/0_130828105391.gif" width="392" height="64"  alt="江西省省属国有企业资产经营(控股)有限公司招聘信息"></a></li> 
+<li><a href='http://special.zhaopin.com/2019/bf/lxxz012295/' onmousedown="return AdsClick(14871,453277)"  target="_blank"><img class="am bm " cid="55719022" bid="14871" lid="453277" border="0" lazy_src="//img00.zhaopin.cn/img_button/201906/06/7_182412742031.jpg" width="392" height="64"  alt="利星行(中国)汽车企业管理有限公司招聘信息"></a></li> 
 <li><a href='https://xiaoyuan.zhaopin.com' onmousedown="return AdsClick(14880,598026)"  target="_blank"><img class="bm" border="0" lazy_src="//img00.zhaopin.cn/img_button/201807/13/asdsa_110411587911.jpg" width="392" height="64"  alt="厦门高端人才科技有限公司招聘信息"></a></li> 
 <li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091196&idx=1&sn=ba11fb14d0da587b6eae5e321a87fe90&chksm=7279e739450e6e2f404fcff1784f25db190dbbc462d2aad0e662960ac14387ffb990dba459f6#rd' onmousedown="return AdsClick(14880,453718)"  rel='nofollow'  target="_blank"><img class="bm" border="0" lazy_src="//img00.zhaopin.cn/img_button/201903/07/2_104250458865.jpg" width="392" height="64"  alt="厦门高端人才科技有限公司招聘信息"></a></li> 
 <!--ZHAOPINDEX_8in1 Success end-->
@@ -779,11 +776,17 @@
     <div class="hidden">四合一</div>
     <div class="adsBox ad4in1">
       <ul>
-        
+        <li><a href='http://special.zhaopin.com/bj/2014/yms120337/' onmousedown="return AdsClick(14874,453039)"  target="_blank"><img class="am bm ct100100 ct160000 ct170000 ct210500" cid="12100438" bid="14874" lid="453039" src="//img02.zhaopin.cn/img_button/201907/18/88_101754715737.gif" width="190" height="64"  title="亚马逊信息服务（北京）有限公司" alt="亚马逊信息服务（北京）有限公司招聘信息"></a></li>
+
 
  
         
-        
+        <li><a href='http://cn.mikecrm.com/R46t64O' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/19/gjl_151438932154.jpg" width='190' height='64' border=0></a></li>
+<li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091196&idx=1&sn=ba11fb14d0da587b6eae5e321a87fe90&chksm=7279e739450e6e2f404fcff1784f25db190dbbc462d2aad0e662960ac14387ffb990dba459f6#rd' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/4_104441852557.jpg" width='190' height='64' border=0></a></li>
+<li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091286&idx=1&sn=686ab904a8fbdf0d6c595e01fff5c454&chksm=7279e793450e6e85ca5b0a997cc8a553e0bd9cd4395eb2a5785356d14fce37d516d404e66a39#rd' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/5_104542497278.jpg" width='190' height='64' border=0></a></li>
+<li><a href='https://xuexifang.zhaopin.com/#/index/resumeHomePC' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/6_104617986294.jpg" width='190' height='64' border=0></a></li>
+<li><a href='https://xiaoyuan.zhaopin.com/' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/23/asd_084026665021.jpg" width='190' height='64' border=0></a></li>
+
 
         
       </ul>
@@ -796,19 +799,19 @@
     </div>
     <div class="adsBox ad3in1">
       <ul>
-        <li><a href='https://special.zhaopin.com/Flying/Society/20190617/57809628_14040241_ZL32254/index.html' onmousedown="return AdsClick(14872,453139)"  target="_blank"><img class="am bm " cid="57809628" bid="14872" lid="453139" src="//img02.zhaopin.cn/img_button/201907/19/4655_134559174742.gif" width="140" height="60"  title="日医(北京)居家养老服务有限公司" alt="日医(北京)居家养老服务有限公司招聘信息"></a></li>
+        <li><a href='http://special.zhaopin.com/2016/fz/xyyh041921/index.html' onmousedown="return AdsClick(14872,453142)"  target="_blank"><img class="am bm ct180000" cid="20123431" bid="14872" lid="453142" src="//img02.zhaopin.cn/img_button/201906/05/56_180150689872.jpg" width="140" height="60"  title="兴业银行股份有限公司" alt="兴业银行股份有限公司招聘信息"></a></li>
+<li><a href='http://special.zhaopin.com/gz/2009/xcrs071728/jobs.htm' onmousedown="return AdsClick(14872,453147)"  target="_blank"><img class="am bm ct180100" cid="12061585" bid="14872" lid="453147" src="//img01.zhaopin.cn/img_button/201809/26/26_165514814661.jpg" width="140" height="60"  title="中信保诚人寿保险有限公司" alt="中信保诚人寿保险有限公司招聘信息"></a></li>
+<li><a href='https://special.zhaopin.com/Flying/Society/20190617/57809628_14040241_ZL32254/index.html' onmousedown="return AdsClick(14872,453139)"  target="_blank"><img class="am bm " cid="57809628" bid="14872" lid="453139" src="//img02.zhaopin.cn/img_button/201907/19/4655_134559174742.gif" width="140" height="60"  title="日医(北京)居家养老服务有限公司" alt="日医(北京)居家养老服务有限公司招聘信息"></a></li>
 <li><a href='http://special.zhaopin.com/bj/2012/jingang100827/' onmousedown="return AdsClick(14872,453143)"  target="_blank"><img class="am bm ct129900 ct150000" cid="13422831" bid="14872" lid="453143" src="//img01.zhaopin.cn/img_button/201902/02/4_100404494540.jpg" width="140" height="60"  title="北京京港地铁有限公司" alt="北京京港地铁有限公司招聘信息"></a></li>
 <li><a href='http://special.zhaopin.com/2016/bf/zjsj103162/' onmousedown="return AdsClick(14872,453140)"  target="_blank"><img class="am bm ct140000" cid="31428591" bid="14872" lid="453140" src="//img01.zhaopin.cn/img_button/201907/17/zhongjian_165817451868.jpg" width="140" height="60"  title="中建三局第一建设工程有限责任公司北京分公司" alt="中建三局第一建设工程有限责任公司北京分公司招聘信息"></a></li>
-<li><a href='http://special.zhaopin.com/gz/2009/xcrs071728/jobs.htm' onmousedown="return AdsClick(14872,453147)"  target="_blank"><img class="am bm ct180100" cid="12061585" bid="14872" lid="453147" src="//img01.zhaopin.cn/img_button/201809/26/26_165514814661.jpg" width="140" height="60"  title="中信保诚人寿保险有限公司" alt="中信保诚人寿保险有限公司招聘信息"></a></li>
 <!--MQZP Success end--><!--MQZP Success end-->
 
  
        
         
-        <li><a href='https://xiaoyuan.zhaopin.com/Kongxuan' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/19/xj_150500101363.jpg" width='140' height='60' border=0></a></li>
-<li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091298&idx=1&sn=9700ecb9b2fe60c11f1c58dbc0b7db0e&chksm=7279e7a7450e6eb1a06c7d01a9d85ac396868731745c5415f23dce5e7a656a0a612ec06fe74f#rd' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/10_110756965668.jpg" width='140' height='60' border=0></a></li>
+        <li><a href='https://xuexifang.zhaopin.com/#/index/resumeHomePC' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/11_110834566676.jpg" width='140' height='60' border=0></a></li>
+<li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091295&idx=1&sn=33c4ba4801b908d21a8fecd2c0f57d54&chksm=7279e79a450e6e8c38458c23b2d4cfba9d51d186565b3f1d421f078ec8458164c56d2004894b#rd' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/9_110735536239.jpg" width='140' height='60' border=0></a></li>
 <li><a href='https://cct.zhaopin.com/jobfair' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/03/asdsad_084722931330.jpg" width='140' height='60' border=0></a></li>
-<li><a href='https://xuexifang.zhaopin.com/#/index/resumeHomePC' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/11_110834566676.jpg" width='140' height='60' border=0></a></li>
 
 
       </ul>
@@ -840,19 +843,11 @@
     </div>
     <div class="adsBox ad2in1">
       <ul>
-         <li><a href='http://special.zhaopin.com/2016/fz/xyyh041921/index.html' onmousedown="return AdsClick(14876,453240)"  target="_blank"><img class=" bm ct180000" cid="20123431" bid="14876" lid="453240" src="//img02.zhaopin.cn/img_button/201907/01/006_103235511772.jpg" alt="兴业银行股份有限公司招聘信息" width="140" height="52" border="0"></a><br /><a href='http://special.zhaopin.com/2016/fz/xyyh041921/index.html' onmousedown="return AdsClick(14876,453240)"  target="_blank">兴业银行</a></li>
- 
+         
 
  
          
-        <li><a href='https://xiaoyuan.zhaopin.com/qiuzhiganhuo?id=80013&sid=121129997&site=TLB1' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/19/ls_145356442303.jpg" width='140' height='52' border=0></a><br /><a href='https://xiaoyuan.zhaopin.com/qiuzhiganhuo?id=80013&sid=121129997&site=TLB1' target='_blank'>量身定职</a></li>
-<li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091295&idx=1&sn=33c4ba4801b908d21a8fecd2c0f57d54&chksm=7279e79a450e6e8c38458c23b2d4cfba9d51d186565b3f1d421f078ec8458164c56d2004894b#rd' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/8_104749988790.jpg" width='140' height='52' border=0></a><br /><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091295&idx=1&sn=33c4ba4801b908d21a8fecd2c0f57d54&chksm=7279e79a450e6e8c38458c23b2d4cfba9d51d186565b3f1d421f078ec8458164c56d2004894b#rd' target='_blank'>心理压力测试</a></li>
-<li><a href='https://sxh.zhaopin.com/' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/13/asd12_111749737980.jpg" width='140' height='52' border=0></a><br /><a href='https://sxh.zhaopin.com/' target='_blank'>PC空中双选会</a></li>
-<li><a href='https://zxxy.zhaopin.com/zxxy/index.html' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/13/asd122_111820654050.jpg" width='140' height='52' border=0></a><br /><a href='https://zxxy.zhaopin.com/zxxy/index.html' target='_blank'>智联盟招聘</a></li>
-<li><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091196&idx=1&sn=ba11fb14d0da587b6eae5e321a87fe90&chksm=7279e739450e6e2f404fcff1784f25db190dbbc462d2aad0e662960ac14387ffb990dba459f6#rd' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201903/07/7_104705414746.jpg" width='140' height='52' border=0></a><br /><a href='https://mp.weixin.qq.com/s?__biz=MzI1MDE1MjA0Mg==&mid=504091196&idx=1&sn=ba11fb14d0da587b6eae5e321a87fe90&chksm=7279e739450e6e2f404fcff1784f25db190dbbc462d2aad0e662960ac14387ffb990dba459f6#rd' target='_blank'>职业性格测评</a></li>
-<li><a href='https://xiaoyuan.zhaopin.com/qiuzhiganhuo?id=80064' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/19/sy_150023779404.jpg" width='140' height='52' border=0></a><br /><a href='https://xiaoyuan.zhaopin.com/qiuzhiganhuo?id=80064' target='_blank'>量身定职</a></li>
-<li><a href='https://xiaoyuan.zhaopin.com/' target='_blank'><img class="bm" lazy_src="//img05.zhaopin.cn/img_button/201807/19/sy_145553113115.jpg" width='140' height='52' border=0></a><br /><a href='https://xiaoyuan.zhaopin.com/' target='_blank'>PC首页</a></li>
-
+        
 
       </ul>
     </div>

@@ -1,0 +1,6 @@
+ # Virginia Commonwealth University
+User-agent: *
+Disallow: /admissions/in-state-form/
+Disallow: /admissions/noxfer-dev-accepted-students/
+Disallow: /makeitreal/*
+Disallow: /security-and-fire-safety-report/* 

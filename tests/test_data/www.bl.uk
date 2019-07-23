@@ -1,0 +1,26 @@
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /scripts/
+Disallow: /landing/
+Disallow: /services/learning/tinc/
+Disallow: /surveys/newspaperwebsite/
+Disallow: /surveys/
+Disallow: /facebook/
+Disallow: /catalogues/dbases/subscribed_dbases.html
+Disallow: /catalogues/dbases/subscribed_others.html
+Disallow: /catalogues/dbases/free_dbases.html
+Disallow: /catalogues/indiaofficeselect/
+Disallow: /vos-test/
+Disallow: /boxoffice/
+Disallow: /britishlibrary/
+Allow: /britishlibrary/resources/*
+Allow: /britishlibrary/~/media/*
+# Crawl-delay: 10
+
+Sitemap: http://www.bl.uk/sitemap_index.xml

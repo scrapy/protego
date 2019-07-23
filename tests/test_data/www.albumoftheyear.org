@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /search.php
+Disallow: /feed/
+Disallow: /add-album.php
+Disallow: /add-rating.php
+Disallow: /add-review.php
+Disallow: /album/corrections.php
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+User-agent: Yandex
+Crawl-delay: 5

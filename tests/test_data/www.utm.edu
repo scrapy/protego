@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /webshare/webrequest/
+Disallow: /webshare/facsenate/
+Disallow: /webshare/Faculty_Senate/
+Disallow: /admin/
+Disallow: /acme/
+Disallow: /portal/
+Disallow: _*

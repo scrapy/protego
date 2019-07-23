@@ -1,0 +1,56 @@
+User-agent: *
+Disallow: /page-not-found
+Disallow: /error
+Disallow: /stop
+Disallow: /landing/private-client/private-client
+Disallow: /landing/business/bizessentials-bonus
+Disallow: /landing/deposit/150-checking-ATM-landing-ATM150
+Disallow: /landing/deposit/300-checking-ATM-landing-PIN300
+Disallow: /landing/deposit/300-rate-savings-checking-SVPRMO-COF300
+Disallow: /landing/deposit/300-100-pick-checking-landing-COF300-OFS100
+Disallow: /landing/deposit/200-50-checking-savings-landing-RL200C-SV50RL
+Disallow: /landing/deposit/150-50-checking-savings-prospect-landing-PAM150-SGPR50
+Disallow: /landing/deposit/300-200-checking-savings-landing-COF300-ESB200
+Disallow: /landing/deposit/150-100-checking-savings-prospect-landing-PAM150-SVG100
+Disallow: /landing/deposit/50-money-market-landing-SVSC50/money-market-cert-MM50TR-TR100M-SA200T
+Disallow: /landing/deposit/250-pick-a-checking-landing-ONLINE
+Disallow: /landing/deposit/175-pick-checking-switch-landing-KEV175
+Disallow: /SSO/Logout-Digital-Banking
+Disallow: /SSO/SSO-Open-and-Fund
+Disallow: /SSO/SSO-Auto-Loan-Application
+Disallow: /SSO/SSO-Change-of-Address
+Disallow: /SSO/SSO-Overdraft-Form
+Disallow: /SSO/SSO-Replace-Debit-or-Credit-Card
+Disallow: /SSO/SSO-Request-Balance-Transfer
+Disallow: /SSO/SSO-Request-Credit-Limit-Decrease
+Disallow: /SSO/SSO-Request-Credit-Limit-Increase
+Disallow: /SSO/SSO-Request-Current-PIN
+Disallow: /SSO/SSO-Travel-Notification
+Disallow: /SSO/SSO-Visa-Classic-Credit-Card-Application
+Disallow: /SSO/SSO-Visa-Platinum-Credit-Card-
+Disallow: /SSO/SSO-Visa-Signature-Credit-Card-Application
+Disallow: /SSO-Messages/URL
+Disallow: /SSO-Messages/URL-Enrolled
+Disallow: /SSO-Messages/URL-Enrolled-has-Token
+Disallow: /SSO-Messages/URL-Not-Enrolled
+Disallow: /SSO-Messages/URL-RETAIL
+Disallow: /SSO-Messages/URL-Enrolled-RETAIL
+Disallow: /SSO-Messages/URL-Enrolled-has-Token-RETAIL
+Disallow: /SSO-Messages/URL-Not-Enrolled-RETAIL
+Disallow: /iframes/BBOL-Cut-Off-Times
+Disallow: /iframes/BBOL-FAQs
+Disallow: /iframes/Mobile-Account-Detail
+Disallow: /iframes/Mobile-BillPay-Detail
+Disallow: /iframes/Mobile-Main
+Disallow: /iframes/Mobile-Phone-Main
+Disallow: /iframes/Mobile-Transaction-Detail
+Disallow: /iframes/Mobile-Transfer-Detail
+Disallow: /iframes/Mobile-Transfer-Screen
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: SiteLockSpider
+Disallow: /
+User-agent: SiteLockSpider [en] (WinNT; I ;Nav)
+Disallow: /

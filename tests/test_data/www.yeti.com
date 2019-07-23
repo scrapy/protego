@@ -1,0 +1,80 @@
+User-agent: BaiDuSpider
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: *
+Crawl-delay: 10
+
+# Directories
+Disallow: */account/
+Disallow: */cart/
+Disallow: */login/
+Disallow: */supplier-vendor-program
+Disallow: */dealer-employee.html
+Disallow: */campus-store.html
+
+# Parameters
+Disallow: */*?q=
+Disallow: */*&q=
+Disallow: */*?p=
+Disallow: */*&p=
+Disallow: */*?search=
+Disallow: */*&search=
+Disallow: */*?timestamp=
+Disallow: */*&timestamp=
+Disallow: */*?vgid=
+Disallow: */*prefn1=
+Disallow: */*original=
+Disallow: */*bvstate=
+Disallow: */*bvrrp=
+Disallow: */*?dwvar_
+Disallow: */*scheme
+Disallow: */*?cgid=
+Disallow: */*?pid=
+Disallow: */*?vid=
+Disallow: */*?gclid=
+Disallow: */*?cid=
+Disallow: */*?cPath=
+Disallow: */*?lang=
+
+# Updated
+Disallow: */Account-PasswordResetDialogForm
+Disallow: */Account-PasswordResetModalHandle
+Disallow: */BackInStock-HandleForm
+Disallow: */Cart-AddBonusProduct
+Disallow: */Cart-AddCouponJson
+Disallow: */Cart-AddProduct
+Disallow: */Cart-MiniAddProduct
+Disallow: */Cart-SubmitForm
+Disallow: */COBilling-ResetPaymentForms
+Disallow: */Compare-AddProduct
+Disallow: */Compare-RemoveProduct
+Disallow: */COShipping-GetApplicableShippingMethodsJSON
+Disallow: */COShippingMultiple-AddEditAddressJSON
+Disallow: */COShipping-SelectShippingMethod
+Disallow: */ExactTarget-CreateSubscriber
+Disallow: */GiftCert-AddToBasket
+Disallow: */Link-Product*
+Disallow: */Login-LoginForm*
+Disallow: */Page-Include
+Disallow: */Page-Show*
+Disallow: */Product-Detail
+Disallow: */Product-GetAvailability
+Disallow: */Product-GetBonusProducts
+Disallow: */Product-GetSetItem
+Disallow: */Product-Productnav
+Disallow: */Product-ShowInCategory
+Disallow: */QAS-UpdateAddress
+Disallow: */QAS-VerifyAddress
+Disallow: */QAS-VerifyEmail
+Disallow: */RegisterProduct-SendForm
+Disallow: */Resources-Load
+Disallow: */StoreInventory-Inventory
+Disallow: */StoreInventory-SetPreferredStore
+Disallow: */StoreInventory-SetStore
+Disallow: */StoreInventory-SetZipCode
+
+
+Sitemap: https://www.yeti.com/sitemap_index.xml

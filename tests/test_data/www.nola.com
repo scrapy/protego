@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /tncms/tracking/
+Disallow: /_services/
+Disallow: /tncms/openid2/
+Disallow: /tncms/counter/
+Disallow: /tncms/auth/
+Disallow: /tncms/admin/
+Disallow: /tncms/gtm/
+Disallow: /tncms/block/
+Disallow: /tncms/search/
+Disallow: /search/?
+Disallow: /news/podcasts/?
+Disallow: /tncms/webservice/
+Disallow: /tncms/messaging/
+Disallow: /classifieds/*?
+Disallow: /marketplace/*action=srch
+Disallow: /tncms/calendar/
+Disallow: /tncms/disqus/
+Disallow: /tncms/user/
+Disallow: /users/admin/
+Disallow: /users/login/?
+Disallow: /users/signup/?
+
+Sitemap: https://www.nola.com/sitemap.xml

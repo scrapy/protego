@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.geogebra.org/a-sitemap.xml
+Sitemap: https://www.geogebra.org/m-sitemap-index.xml
+Sitemap: https://www.geogebra.org/special-sitemap.xml
+Sitemap: https://www.geogebra.org/t-sitemap.xml
+Sitemap: https://www.geogebra.org/u-sitemap.xml

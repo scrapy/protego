@@ -1,5 +1,5 @@
 # http://docs.oracle.com/robots.txt
-# Generated: 2019-07-19T00:31:27Z
+# Generated: 2019-07-22T00:31:28Z
 # Questions: Ted Gilchrist, Robert Crews
 User-agent: *
 Disallow: /cds/

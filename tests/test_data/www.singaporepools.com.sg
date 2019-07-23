@@ -1,0 +1,830 @@
+
+<!DOCTYPE html >
+<html class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths ms-isBot" dir="ltr" lang="en-GB">
+    <head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta http-equiv="X-UA-Compatible" content="IE=10" /><meta name="googlebot" content="NOODP, noarchive" /><meta name="google-site-verification" content="7Mtupvvt7CUqf_1TShAcHJrkaE6grCBnmu9xQejwjwk" /><link rel="SHORTCUT ICON" href="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/images/favicon.ico" type="image/x-icon" /><link rel="apple-touch-icon-precomposed" href="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/images/favicon-152.png" /><meta name="msapplication-TileColor" content="#005CB9" /><meta name="msapplication-TileImage" content="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/images/favicon-144.png" /><meta name="GENERATOR" content="Microsoft SharePoint" /><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" /><title>
+	
+            Home
+            
+            
+            Page not found
+            
+        
+</title>
+        <link rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/corev15.css?rev=OqAycmyMLoQIDkAlzHdMhQ%3D%3D"/>
+<link rel="stylesheet" type="text/css" href="/Style%20Library/SPPLContentEditorStyles.css"/>
+
+        
+        <script type="text/javascript" src="/_layouts/15/init.js?rev=0%2BjgcYFw8Xoj0N42kzP%2BcQ%3D%3D"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=5w6Xr6eBxWwcODKF6mkkVsgP2gDG-vnz5l51l_F1WztsI0SMPgqRVGcWFFDbpN7k47pB6aGkHjmNncGLP42t5XAhT-R1vmZlkIYHi0OrPNcnCDw08j9Gj9mkySdJcULzRmSygcRQgGvEsypScqPxwTUMIWF1kfWkVc64ubzgEmYEsZ-mrFiW-yN-_07ktzaR0&amp;t=ffffffffcd368728"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D"></script>
+<script type="text/javascript">RegisterSod("initstrings.js", "\u002f_layouts\u002f15\u002f1033\u002finitstrings.js?rev=2N3pk\u00252FwjnG3Tj9o5NrqHcg\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("strings.js", "\u002f_layouts\u002f15\u002f1033\u002fstrings.js?rev=y6khbhv1Os2YPb5X0keqRg\u00253D\u00253D");RegisterSodDep("strings.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sp.init.js", "\u002f_layouts\u002f15\u002fsp.init.js?rev=jvJC3Kl5gbORaLtf7kxULQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.res.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=yNk\u00252FhRzgBn40LJVP\u00252BqfgdQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002f15\u002fsp.ui.dialog.js?rev=0xf6wCIW4E1pN83I9nSIJQ\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.init.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("core.js", "\u002f_layouts\u002f15\u002fcore.js?rev=drep\u00252FVpUvfktWJG\u00252Fl4UQ\u00252Bg\u00253D\u00253D");RegisterSodDep("core.js", "strings.js");</script>
+<script type="text/javascript">RegisterSod("menu.js", "\u002f_layouts\u002f15\u002fmenu.js?rev=q3IuDaBADYgaV\u00252BNJoTKbmA\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=VYAJYBo5H8I3gVSL3MzD6A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("callout.js", "\u002f_layouts\u002f15\u002fcallout.js?rev=ryx2n4ePkYj1\u00252FALmcsXZfA\u00253D\u00253D");RegisterSodDep("callout.js", "strings.js");RegisterSodDep("callout.js", "mQuery.js");RegisterSodDep("callout.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("clienttemplates.js", "\u002f_layouts\u002f15\u002fclienttemplates.js?rev=y3xh0qyJB62CM2ZD4nL8tw\u00253D\u00253D");RegisterSodDep("clienttemplates.js", "initstrings.js");</script>
+<script type="text/javascript">RegisterSod("sharing.js", "\u002f_layouts\u002f15\u002fsharing.js?rev=kuxIlOxkkypT9A17r72Ljw\u00253D\u00253D");RegisterSodDep("sharing.js", "strings.js");RegisterSodDep("sharing.js", "mQuery.js");RegisterSodDep("sharing.js", "clienttemplates.js");RegisterSodDep("sharing.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("suitelinks.js", "\u002f_layouts\u002f15\u002fsuitelinks.js?rev=REwVU5jSsadDdOZlCx4wpA\u00253D\u00253D");RegisterSodDep("suitelinks.js", "strings.js");RegisterSodDep("suitelinks.js", "core.js");</script>
+<script type="text/javascript">RegisterSod("sp.runtime.js", "\u002f_layouts\u002f15\u002fsp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("sp.js", "\u002f_layouts\u002f15\u002fsp.js?rev=38t1tBEEonTR8ozTCV4YrA\u00253D\u00253D");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");</script>
+<script type="text/javascript">RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=Pbfi3FBmvy2ewPqDZp16\u00252BQ\u00253D\u00253D");RegisterSodDep("userprofile", "sp.runtime.js");</script>
+<script type="text/javascript">RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=sObFmln\u00252BGVrczIpXNeFRrg\u00253D\u00253D");RegisterSodDep("followingcommon.js", "strings.js");RegisterSodDep("followingcommon.js", "sp.js");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "core.js");RegisterSodDep("followingcommon.js", "mQuery.js");</script>
+<script type="text/javascript">RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=ProfileBrowserScriptRes\u0026rev=J5HzNnB\u00252FO1Id\u00252FGI18rpRcw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=Ua8qmZSU9nyf53S7PEyJwQ\u00253D\u00253D");RegisterSodDep("sp.ui.mysitecommon.js", "sp.init.js");RegisterSodDep("sp.ui.mysitecommon.js", "sp.runtime.js");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fnon_ie.js?rev=W2q45TO627Zi6ztdktTOtA\u00253D\u00253D");RegisterSodDep("browserScript", "strings.js");</script>
+<script type="text/javascript">RegisterSod("inplview", "\u002f_layouts\u002f15\u002finplview.js?rev=FJslh\u00252FITKI8BRLkElp\u00252FWdA\u00253D\u00253D");RegisterSodDep("inplview", "strings.js");RegisterSodDep("inplview", "core.js");RegisterSodDep("inplview", "sp.js");</script>
+<link type="text/xml" rel="alternate" href="/_vti_bin/spsdisco.aspx" />
+            
+            
+            
+            
+            
+            
+            
+        
+            <link rel="canonical" href="http://www.singaporepools.com.sg:80/Pages/PageNotFoundError.aspx?404;http://www.singaporepools.com.sg:80/robots.txt" />
+            
+            
+        <span id="DeltaSPWebPartManager">
+            
+        </span><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta charset="utf-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+        
+        <meta name="description" /><meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=yes" /><link href="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/css/jquery-ui.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/bxslider/jquery.bxslider.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/colorbox/colorbox.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/slick.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/bootstrap.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/bootstrap-sortable.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/main.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/responsive.css" rel="stylesheet" /><link href="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/css/NCSCustom.css" rel="stylesheet" />
+        
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <!--<script src="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/scripts/jquery-1.7.1.min.js">//<![CDATA[//]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/jquery-1.10.2.js">//<![CDATA[//]]></script>        
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/enquire.js">//<![CDATA[//]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/plugins.js">//<![CDATA[//]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/modules.js?v=2">//<![CDATA[//]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/main.js?v=2">//<![CDATA[//]]></script>-->
+        <script src="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/scripts/jquery-1.10.2.min.js">//<![CDATA[
+        
+        
+        
+        
+        
+        
+        
+        
+        //]]></script>
+        <script src="/_layouts/15/Ncs.Sppl.Corpweb/Resources/en/scripts/include.js">//<![CDATA[
+        
+        
+        
+        
+        
+        
+        
+        
+        //]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/modernizr.js">//<![CDATA[ 
+        
+        
+        
+        
+        
+        
+        
+        
+        //]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/plugins.min.js">//<![CDATA[ 
+        
+        
+        
+        
+        
+        
+        
+        
+        //]]></script>
+		<script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/redirection.js">//<![CDATA[ 
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        //]]></script>
+        <!--<script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/vendor/enquire.js">//<![CDATA[//]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/plugins.js">//<![CDATA[//]]></script>
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/modules.js">//<![CDATA[//]]></script>        
+        <script src="/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/main.js">//<![CDATA[//]]></script>-->
+        
+    </head>
+    <body onhashchange="if (typeof(_spBodyOnHashChange) != 'undefined') _spBodyOnHashChange();"><div id="imgPrefetch" style="display:none">
+<img src="/_layouts/15/images/spcommon.png?rev=23" />
+</div>
+<form method="post" action="./robots.txt?404%3bhttp%3a%2f%2fwww.singaporepools.com.sg%3a80%2frobots.txt" id="aspnetForm">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x1A96B34207CBAF57BF75466EF77064F2F504F16C4636D2F4D34497718FD81D62BE4C5C1C4B98BD46017F5872251B4205D4E7E15254A48F459BFAE81A5D198F4D,22 Jul 2019 21:20:19 -0000" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUBMA9kFgJmD2QWAgIBD2QWBgIBD2QWBgIMD2QWAmYPZBYCAgMPFgIeE1ByZXZpb3VzQ29udHJvbE1vZGULKYgBTWljcm9zb2Z0LlNoYXJlUG9pbnQuV2ViQ29udHJvbHMuU1BDb250cm9sTW9kZSwgTWljcm9zb2Z0LlNoYXJlUG9pbnQsIFZlcnNpb249MTUuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49NzFlOWJjZTExMWU5NDI5YwFkAhgPZBYCAgMPZBYCZg9kFgJmDzwrAAYAZAIaD2QWAgIBD2QWCAUmZ180NDI3Zjg3OF9mOTE0XzQ4ZDlfYWE3OV81ZjM2MTI0OTRkNDgPZBYCZg8WBB4FY2xhc3MFH21zLXJ0ZS1lbWJlZGNvZGUgbXMtcnRlLWVtYmVkd3AeCWlubmVyaHRtbAUvPHNjcmlwdCBsYW5ndWFnZT0iamF2YXNjcmlwdCI+DQoNCg0KCQk8L3NjcmlwdD5kBSZnX2U3YmIxOTNjX2U5ZjRfNDhjMl9iNzNkXzJmOTk5MTI5ZGI5ZA9kFgRmDxYCHgdWaXNpYmxlaGQCAQ8WAh8DaGQFJmdfYjk0YTU0MTBfZDZmMF80MGMxXzgxNGZfZjhmYWVkMjQ0OTE3D2QWBGYPFgIfA2hkAgEPFgIfA2hkBSZnX2M2ODA3ODVkXzgwN2RfNGIyYV9iYTVhXzc2MWVlYWEyZjQyNw9kFgJmDxYEHwEFH21zLXJ0ZS1lbWJlZGNvZGUgbXMtcnRlLWVtYmVkd3AfAgXPAjxzY3JpcHQgbGFuZ3VhZ2U9ImphdmFzY3JpcHQiPg0KJChkb2N1bWVudCkucmVhZHkoZnVuY3Rpb24gKCkgeyAgICAgIA0KJCgnI0NIJykuaGlkZSgpOw0KJCgnI0VOJykuaGlkZSgpOw0KDQppZiAod2luZG93LmxvY2F0aW9uLmhyZWYuaW5kZXhPZigiL2VuLyIpID4gLTEpIHsNCiQoJyNFTicpLnNob3coKTsNCiQoJyNDSCcpLmhpZGUoKTsNCn0NCmVsc2UgaWYgKHdpbmRvdy5sb2NhdGlvbi5ocmVmLmluZGV4T2YoIi9jaC8iKSA+IC0xKSB7DQokKCcjRU4nKS5oaWRlKCk7DQokKCcjQ0gnKS5zaG93KCk7DQp9DQplbHNlIHsNCiQoJyNFTicpLnNob3coKTsNCn0NCn0pOw0KPC9zY3JpcHQ+ZAIFD2QWBAIED2QWAgICD2QWAgIFD2QWAgIDDxYCHwNoFgJmD2QWBAICD2QWBgIBDxYCHwNoZAIDDxYCHwNoZAIFDxYCHwNoZAIDDw8WAh4JQWNjZXNzS2V5BQEvZGQCCA9kFgICAg9kFgQCAQ8PFgIfA2hkZAIDDxYCHwALKwQBZAIUD2QWAgIBDxYCHwALKwQBZGQHKAFbq6ZlZxKl4IAf8BHErcpP8C8nthr2vlvyRgm5Rw==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'BLANKINTERNET#0';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002f", webAbsoluteUrl: "http:\u002f\u002fwww.singaporepools.com.sg", siteAbsoluteUrl: "http:\u002f\u002fwww.singaporepools.com.sg", serverRequestPath: "\u002fPages\u002fPageNotFoundError.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "Home", webTemplate: "53", tenantAppVersion: "0", isAppWeb: false, webLogoUrl: "_layouts\u002f15\u002fimages\u002fsiteicon.png", webLanguage: 1033, currentLanguage: 1033, currentUICultureName: "en-US", currentCultureName: "en-GB", clientServerTimeDelta: new Date("2019-07-22T21:20:19.0392196Z") - new Date(), siteClientTag: "3242$$15.0.4701.1000", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:16,Low:196673},pageListId:"{02b86a85-876c-481f-bf04-e815aa8fe8ba}",pageItemId:1, pagePersonalizationScope:1, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};var _spWebPartComponents = new Object();//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() 
+        {
+          ExecuteOrDelayUntilScriptLoaded(
+            function()
+            {
+              var pairs = SP.ScriptHelpers.getDocumentQueryPairs();
+              var followDoc, itemId, listId, docName;
+              for (var key in pairs)
+              {
+                if(key.toLowerCase() == 'followdocument') 
+                  followDoc = pairs[key];
+                else if(key.toLowerCase() == 'itemid') 
+                  itemId = pairs[key];
+                else if(key.toLowerCase() == 'listid') 
+                  listId = pairs[key];
+                else if(key.toLowerCase() == 'docname') 
+                  docName = decodeURI(pairs[key]);
+              } 
+
+              if(followDoc != null && followDoc == '1' && listId!=null && itemId != null && docName != null)
+              {
+                SP.SOD.executeFunc('followingcommon.js', 'FollowDocumentFromEmail', function() 
+                { 
+                  FollowDocumentFromEmail(itemId, listId, docName);
+                });
+              }
+
+            }, 'SP.init.js');
+
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+
+            if (typeof(SPClientTemplates) === 'undefined' || SPClientTemplates === null || (typeof(APD_InAssetPicker) === 'function' && APD_InAssetPicker())) {
+                return;
+            }
+
+            var renderFollowFooter = function(renderCtx,  calloutActionMenu)
+            {
+                if (renderCtx.ListTemplateType == 700) 
+                    myDocsActionsMenuPopulator(renderCtx, calloutActionMenu);
+                else
+                    CalloutOnPostRenderTemplate(renderCtx, calloutActionMenu);
+
+                var listItem = renderCtx.CurrentItem;
+                if (typeof(listItem) === 'undefined' || listItem === null) {
+                    return;
+                }
+                if (listItem.FSObjType == 0) {
+                    calloutActionMenu.addAction(new CalloutAction({
+                        text: Strings.STS.L_CalloutFollowAction,
+                        tooltip: Strings.STS.L_CalloutFollowAction_Tooltip,
+                        onClickCallback: function (calloutActionClickEvent, calloutAction) {
+                            var callout = GetCalloutFromRenderCtx(renderCtx);
+                            if (!(typeof(callout) === 'undefined' || callout === null))
+                                callout.close();
+                            SP.SOD.executeFunc('followingcommon.js', 'FollowSelectedDocument', function() { FollowSelectedDocument(renderCtx); });
+                        }
+                    }));
+                }
+            };
+
+            var registerOverride = function(id) {
+                var followingOverridePostRenderCtx = {};
+                followingOverridePostRenderCtx.BaseViewID = 'Callout';
+                followingOverridePostRenderCtx.ListTemplateType = id;
+                followingOverridePostRenderCtx.Templates = {};
+                followingOverridePostRenderCtx.Templates.Footer = function(renderCtx) {
+                    var  renderECB;
+                    if (typeof(isSharedWithMeView) === 'undefined' || isSharedWithMeView === null) {
+                        renderECB = true;
+                    } else {
+                        var viewCtx = getViewCtxFromCalloutCtx(renderCtx);
+                        renderECB = !isSharedWithMeView(viewCtx);
+                    }
+                    return CalloutRenderFooterTemplate(renderCtx, renderFollowFooter, renderECB);
+                };
+                SPClientTemplates.TemplateManager.RegisterTemplateOverrides(followingOverridePostRenderCtx);
+            }
+            registerOverride(101);
+            registerOverride(700);
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BAB98CB3" />
+        <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="/ns.html?id=GTM-NZWZ85" height="0" width="0" style="display:none;visibility:hidden">
+            </iframe>
+        </noscript>
+        <script>//<![CDATA[
+	(function(w,d,s,l,i){
+		w[l]=w[l]||[];
+		w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});
+		var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+		j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})
+	(window,document,'script','dataLayer','GTM-NZWZ85');
+	
+        //]]></script>
+        <!-- End Google Tag Manager -->
+        
+        
+        
+        
+        <div id="ms-designer-ribbon">
+            <div>
+	
+	<div id="s4-ribbonrow" style="visibility:hidden;display:none"></div>
+
+</div>
+
+
+            
+        </div>
+        
+        
+        <div id="s4-workspace" class="snap-content">
+            <div id="s4-bodyContainer">
+                <div id="wrapper">
+                    <div data-name="ContentPlaceHolderMain">
+                        
+                        
+                        <span id="DeltaPlaceHolderMain">
+                            
+            
+            
+            
+            <div class="article-banner">
+                
+                
+                <div id="ctl00_PlaceHolderMain_ctl01_label" style='display:none'>Top Image</div><div id="ctl00_PlaceHolderMain_ctl01__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl01_label"><div class="ms-rtestate-read ms-rte-wpbox"><div class="ms-rtestate-notify  ms-rtestate-read 4427f878-f914-48d9-aa79-5f3612494d48" id="div_4427f878-f914-48d9-aa79-5f3612494d48" unselectable="on"><div id="MSOZoneCell_WebPartctl00_ctl41_g_4427f878_f914_48d9_aa79_5f3612494d48" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+	<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+	<div WebPartID="ef03a29d-48eb-4ab2-88fd-970381078a3b" WebPartID2="4427f878-f914-48d9-aa79-5f3612494d48" HasPers="false" id="WebPartctl00_ctl41_g_4427f878_f914_48d9_aa79_5f3612494d48" width="100%" class="ms-WPBody noindex " allowRemove="false" allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl41_g_4427f878_f914_48d9_aa79_5f3612494d48">
+		<DIV class="ms-rte-embedcode ms-rte-embedwp"><script language="javascript">
+
+
+		</script></DIV>
+	</div><div class="ms-clear"></div></div>
+</div>
+</div></div><div id="vid_4427f878-f914-48d9-aa79-5f3612494d48" unselectable="on" style="display&#58;none;"></div></div></div>
+                
+            </div>
+            <section class="section results">
+                <div class="section-wrapper">
+                    <div class="main-article" style="float:none;" id="rightLayoutZone">
+                        <div data-name="WebPartZone1">
+                            
+                            
+                            <div>
+                                <div class="ms-webpart-zone ms-fullWidth">
+	<div id="MSOZoneCell_WebPartctl00_ctl41_g_c680785d_807d_4b2a_ba5a_761eeaa2f427" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+			<div WebPartID="c680785d-807d-4b2a-ba5a-761eeaa2f427" HasPers="false" id="WebPartctl00_ctl41_g_c680785d_807d_4b2a_ba5a_761eeaa2f427" width="100%" class="ms-WPBody noindex " allowDelete="false" allowExport="false" style="" ><div id="ctl00_ctl41_g_c680785d_807d_4b2a_ba5a_761eeaa2f427">
+				<DIV class="ms-rte-embedcode ms-rte-embedwp"><script language="javascript">
+$(document).ready(function () {      
+$('#CH').hide();
+$('#EN').hide();
+
+if (window.location.href.indexOf("/en/") > -1) {
+$('#EN').show();
+$('#CH').hide();
+}
+else if (window.location.href.indexOf("/ch/") > -1) {
+$('#EN').hide();
+$('#CH').show();
+}
+else {
+$('#EN').show();
+}
+});
+</script></DIV>
+			</div><div class="ms-clear"></div></div>
+		</div>
+	</div>
+</div>
+                            </div>
+                            
+                        </div>
+                        <div data-name="WebPartZone2">
+                            
+                            
+                            <div>
+                                <div class="ms-webpart-zone ms-fullWidth">
+	<div id="MSOZoneCell_WebPartWPQ1" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+			<div WebPartID="e7bb193c-e9f4-48c2-b73d-2f999129db9d" HasPers="false" id="WebPartWPQ1" width="100%" class="ms-WPBody noindex " allowDelete="false" style="" ><div class="ms-rtestate-field"><div id="EN" style="display: block;">
+   <span style="font-size: 26pt;"><strong>Page not found</strong></span> 
+   <h3>Sorry, the page you are looking for cannot be found on our website.</h3> 
+   <p> 
+      <span class="ms-rteFontSize-2" style="font-size: 11pt;">You may try our 
+         <span lang="EN-GB"> 
+            <a href="/"> 
+               <font color="#0072c6" style="font-size: 11pt;">homepage</font></a></span> to see if you can find a topic of your interest from there</span></p>
+</div></div><div class="ms-clear"></div></div>
+		</div><div class="ms-PartSpacingVertical"></div>
+	</div><div id="MSOZoneCell_WebPartWPQ2" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+		<div class="ms-webpart-chrome ms-webpart-chrome-vertical ms-webpart-chrome-fullWidth ">
+			<div WebPartID="b94a5410-d6f0-40c1-814f-f8faed244917" HasPers="false" id="WebPartWPQ2" width="100%" class="ms-WPBody noindex " allowDelete="false" style="" ><div class="ms-rtestate-field"><div id="CH">
+   <span style="font-size: 26pt;"><strong>页面不存在</strong></span>
+   <h3>
+      <strong>很抱歉，您访问的网址没有相关页面。</strong></h3>
+   <p>
+      <span class="ms-rteFontSize-2" style="font-size: 11pt;">请<span lang="EN-GB"><a href="/"><font color="#0072c6" style="font-size: 11pt;">返回首页</font></a></span>搜索您要寻找的内容。</span></p>
+</div></div><div class="ms-clear"></div></div>
+		</div>
+	</div>
+</div>
+                            </div>
+                            
+                        </div>
+                        <div data-name="EditModePanelShowInEdit">
+                            
+                            
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <div style='display:none' id='hidZone'><div class="ms-webpart-zone ms-fullWidth">
+	<div id="MSOZoneCell_WebPartctl00_ctl41_g_4427f878_f914_48d9_aa79_5f3612494d48" class="s4-wpcell-plain ms-webpartzone-cell ms-webpart-cell-vertical ms-fullWidth ">
+
+	</div>
+</div></div>
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">//<![CDATA[
+        /*
+        $(window).bind("load", function() {
+		    var langVersion = document.location.href.indexOf("/ch/") > 0 ? 'ch' : 'en'; 
+		    $('<div />').load('/DataFileArchive/Homepage/header' + langVersion + '.html', function () { $("#wrapper").before($(this).html()); });
+		    $('<div />').load('/DataFileArchive/Homepage/footer' + langVersion + '.html', function () { $("#wrapper").append($(this).html()); });
+		    if ($(window).width() < 1024) {
+		        $('<div />').load('/DataFileArchive/Homepage/mobilenav' + langVersion + '.html', function () { $("#s4-workspace").before($(this).html()); })
+		    } else {
+		        //setTimeout($('<div />').load('/DataFileArchive/Homepage/mobilenav'+ langVersion +'.html', function () { $("#s4-workspace").before($(this).html()); }),5000);
+		        $('<div />').load('/DataFileArchive/Homepage/mobilenav' + langVersion + '.html', function () { $("#s4-workspace").before($(this).html()); })
+		    }                               
+        
+            Modernizr.load([
+                {
+                    test: window.matchMedia,
+                    nope: "/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/vendor/enquire-polyfill.js",
+                    yep: "/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/vendor/enquire.js"
+                },
+                "/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/modules.js?v=1",
+                "/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/main.js"                
+            ]);         
+        });
+        */
+        
+        
+        
+        
+        
+        
+        //]]></script>
+        <!--[if lt IE 9]>
+            <script type="text/javascript">//<![CDATA[
+                function loadSelectivizr() {
+                    function fireWhenJqueryReady() {
+                        if(typeof jQuery !== 'undefined') {
+                            var script = document.createElement("script");
+                            script.type = "text/javascript";
+                            script.src = "/_layouts/15/NCS.SPPL.CorpWeb/Resources/en/scripts/vendor/selectivizr.js";
+                            document.body.appendChild(script);
+                        } else {
+                            setTimeout( fireWhenJqueryReady, 250 );
+                        }
+                    }
+                    fireWhenJqueryReady();
+                }
+                loadSelectivizr();
+                
+                
+            //]]></script>
+        <![endif]-->
+        <div id="cboxOverlay" style="display: none;">
+        </div>
+        <div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;">
+            <div id="cboxWrapper">
+                <div>
+                    <div id="cboxTopLeft" style="float: left;">
+                    </div>
+                    <div id="cboxTopCenter" style="float: left;">
+                    </div>
+                    <div id="cboxTopRight" style="float: left;">
+                    </div>
+                </div>
+                <div style="clear: left;">
+                    <div id="cboxMiddleLeft" style="float: left;">
+                    </div>
+                    <div id="cboxContent" style="float: left;">
+                        <div id="cboxTitle" style="float: left;">
+                        </div>
+                        <div id="cboxCurrent" style="float: left;">
+                        </div>
+                        <button type="button" id="cboxPrevious">
+                        </button>
+                        <button type="button" id="cboxNext">
+                        </button>
+                        <button id="cboxSlideshow">
+                        </button>
+                        <div id="cboxLoadingOverlay" style="float: left;">
+                        </div>
+                        <div id="cboxLoadingGraphic" style="float: left;">
+                        </div>
+                    </div>
+                    <div id="cboxMiddleRight" style="float: left;">
+                    </div>
+                </div>
+                <div style="clear: left;">
+                    <div id="cboxBottomLeft" style="float: left;">
+                    </div>
+                    <div id="cboxBottomCenter" style="float: left;">
+                    </div>
+                    <div id="cboxBottomRight" style="float: left;">
+                    </div>
+                </div>
+            </div>
+            <div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;">
+            </div>
+        </div>
+        <script>//<![CDATA[
+	
+			var LangVal  = '';
+            function getXMLHttpRequest() {
+		        if (window.XMLHttpRequest) {
+		            return new window.XMLHttpRequest;
+		        }
+		        else {
+		            try {
+		                return new ActiveXObject("MSXML2.XMLHTTP.3.0");
+		            }
+		            catch (ex) {
+		                return null;
+		            }
+		        }
+		    };
+		
+		    var old_url;
+		    var new_url;
+		    var xmlhttp = getXMLHttpRequest();
+		    var msg;
+		    var en_msg = 'Sorry. The page in requested language currently is not available.';
+		    var ch_msg = 'Sorry. The page in requested language currently is not available.';
+		
+		    function handler() {
+			    try		   
+			    {
+			    //alert(xmlhttp.readyState);
+		        if (xmlhttp.readyState == 4) {		            		
+		            if (xmlhttp.status == 404) { 
+		            	alert(en_msg); 
+		            	if(old_url.indexOf("/ch/") > -1)
+		            	{
+		            		 setCookie("SGPoolLang", 'en');
+		            	}
+		            	else
+		            	{
+		            		setCookie("SGPoolLang", 'ch');
+
+		            	}
+		            	window.location = old_url; 
+		            }
+		            else { 
+		            	if(new_url.indexOf("/ch/") > -1)
+		            	{
+		            		 setCookie("SGPoolLang", 'ch');
+		            	}
+		            	else
+		            	{
+		            		setCookie("SGPoolLang", 'en');
+
+		            	}
+
+		            window.location = new_url; }
+		        }
+		        else { //alert(new_url);
+		        //alert(xmlhttp.readyState +'-- Ravi');
+						//window.location = new_url; 
+						}
+				}
+				catch(err)
+				{
+					alert(msg); 
+				}
+		
+		    }
+			 var userLang = navigator.language || navigator.userLanguage;
+			 
+			
+			 if(document.location.href.indexOf("6000") == -1)
+		      {		    
+		      	if(document.location.href.toLowerCase().indexOf("/en/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/ch/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/fb/pages/odds_fixtures.aspx") > -1 || document.location.href.toLowerCase().indexOf("/4d/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/toto/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/sweep/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/spa/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/mr/pages/motor_racing_odds.aspx") > -1)
+		      	{  		
+			     	checkCookie();	
+			    }	      
+		      }
+			 
+			 function setCookie(cname, cvalue) {				 		
+			 	var domain  = window.location.hostname;    
+			    //document.cookie = cname + "=" + cvalue;
+			    //alert(cname+"="+cvalue+'; domain='+window.location.hostname+'');
+			    var exdate=new Date(); exdate.setDate(exdate.getDate() + 365);
+			    document.cookie=  cname + "=" +( cvalue ) +"; expires=" + exdate.toUTCString() + "; path=/; domain="+domain;
+			    //document.cookie = cname + "=" +escape( cvalue ) +"; path=/"; ) +
+				//( ( domain ) ? "domain=" + domain "" );
+			    //document.cookie = cname+"="+cvalue+'; domain='+window.location.hostname+''; 
+			}
+			
+			function getCookie(cname) {
+			    var name = cname + "=";
+			    var ca = document.cookie.split(';');
+			    for(var i=0; i<ca.length; i++) {
+			        var c = ca[i];
+			        while (c.charAt(0)==' ') c = c.substring(1);
+			        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+			    }
+			    return "";
+			}
+			
+			function checkCookie() {
+			    var SGPoolLang = getCookie("SGPoolLang");				    		    
+			    if (SGPoolLang.length == 0) {
+			    	//alert(SGPoolLang +'Not Exits');
+			         setCookie("SGPoolLang", userLang);
+			         switch_page(userLang);
+			    } else {	
+			    	//alert(SGPoolLang +'Exits');		        
+			        switch_page(SGPoolLang);
+			    }
+			}		
+			
+			function switch_page(Lang) {
+			//alert(Lang +'==='+  document.location.href.indexOf("/ch/") +'----'+ document.location.href.indexOf("6000"));
+			LangVal  = Lang			
+			if(Lang == 1 && document.location.href.indexOf("/ch/") > -1 && document.location.href.indexOf("6000") == -1)
+			{				
+				//alert('2');
+		        old_url = document.location.href.replace('#','');
+		        //	old_url = 'http://localhost:8080/en/corporate/index.html';
+		        new_url = old_url;
+		
+				//alert('3');
+		        if (old_url.indexOf("/ch/") < 0) {
+		            new_url = old_url.replace("/en/", "/ch/");
+		            msg = en_msg;
+		            //alert('ch');
+		            if(document.location.href.toLowerCase().indexOf("/en/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/ch/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/fb/pages/odds_fixtures.aspx") > -1 || document.location.href.toLowerCase().indexOf("/4d/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/toto/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/sweep/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/spa/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/mr/pages/motor_racing_odds.aspx") > -1)
+		      		{
+		            	setCookie("SGPoolLang", 'ch');
+		            }
+		        }
+		        else if (old_url.indexOf("/en/") < 0) {
+		            new_url = old_url.replace("/ch/", "/en/");
+		            msg = msg;
+		            //alert('en');	
+		            if(document.location.href.toLowerCase().indexOf("/en/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/ch/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/fb/pages/odds_fixtures.aspx") > -1 || document.location.href.toLowerCase().indexOf("/4d/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/toto/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/sweep/pages/results.aspx") > -1 || document.location.href.toLowerCase().indexOf("/spa/pages/default.aspx") > -1 || document.location.href.toLowerCase().indexOf("/mr/pages/motor_racing_odds.aspx") > -1)
+		      		{	            
+			            setCookie("SGPoolLang", 'en');
+		            }
+		        }
+				
+		        // alert('in check - old url : '+old_url);
+		         //alert('in check - new url : '+new_url);
+		
+		        xmlhttp.onreadystatechange = handler;
+		        xmlhttp.open('HEAD', new_url, true);
+		        xmlhttp.send(null);
+			}
+			else if(Lang == 2 && document.location.href.indexOf("/en/") > -1 && document.location.href.indexOf("6000") == -1)
+			{				
+				//alert(Lang);
+		        old_url = document.location.href.replace('#','');
+		        //	old_url = 'http://localhost:8080/en/corporate/index.html';
+		        new_url = old_url;
+				//alert(old_url);
+		
+		        if (old_url.indexOf("/ch/") < 0) {
+		            new_url = old_url.replace("/en/", "/ch/");
+		            msg = en_msg;
+		            //alert('ch');
+		            setCookie("SGPoolLang", 'ch');
+		        }
+		        else if (old_url.indexOf("/en/") < 0) {
+		            new_url = old_url.replace("/ch/", "/en/");
+		            msg = msg;
+		            //alert('en');		            
+		            setCookie("SGPoolLang", 'en');
+		        }
+		
+		         //alert('in check - old url : '+old_url);
+		         //alert('in check - new url : '+new_url);
+		
+		        xmlhttp.onreadystatechange = handler;
+		        xmlhttp.open('HEAD', new_url, true);
+		        xmlhttp.send(null);
+			}
+			else if(Lang != 1 && Lang != 2 && document.location.href.indexOf("6000") == -1)
+			{
+		        var blnStatus = false;		       
+		        old_url = document.location.href.replace('#','');
+		        new_url = old_url;
+		        //ert(Lang +'--='+ Lang.indexOf("ch") +'--='+ old_url.indexOf("/en/"));
+		        //ert(Lang +'--='+ Lang.indexOf("en") +'--='+ old_url.indexOf("/ch/"));
+		       // alert(Lang.toLowerCase().indexOf("ch") +'--- '+ Lang);
+				if(Lang.toLowerCase().indexOf("ch") > -1 || Lang.toLowerCase().indexOf("zh") > -1 || Lang.toLowerCase().indexOf("zh-cn") > -1 || Lang.toLowerCase().indexOf("zh-sg") > -1 || Lang.toLowerCase().indexOf("zh-Hans") > -1)
+				{
+					Lang = 'ch';
+				}
+				else{
+					Lang = 'en';
+				}
+				//alert(Lang +'--'+ old_url);
+		        if (Lang.indexOf("ch") > -1 && old_url.indexOf("/en/") > -1) {
+		            new_url = old_url.replace("/en/", "/ch/");
+		            msg = en_msg;
+		            blnStatus = true;
+		        }
+		        else if (Lang.indexOf("en") > -1 && old_url.indexOf("/ch/") > -1) {
+		            new_url = old_url.replace("/ch/", "/en/");
+		            msg = msg;
+     	            blnStatus = true;
+		        }
+				//alert(blnStatus +'--'+ new_url);
+		         //alert('in check - old url : '+old_url);
+		         //alert('in check - new url : '+new_url);
+				if(blnStatus)
+				{
+			        xmlhttp.onreadystatechange = handler;
+			        xmlhttp.open('HEAD', new_url, true);
+			        xmlhttp.send(null);
+		        }
+		      }
+		       else if(document.location.href.indexOf("6000") > -1)
+		      {
+		      	old_url = document.location.href.replace('#','');
+		        //	old_url = 'http://localhost:8080/en/corporate/index.html';
+		        new_url = old_url;
+		      	//alert(Lang);
+		      	if(Lang == 1)
+		      	{
+		      		if (old_url.indexOf("/en/") < 0) {
+			            new_url = old_url.replace("/ch/", "/en/");
+			            msg = msg;
+			            //alert('en');		            
+			            setCookie("SGPoolLang", 'en');
+			        }			       
+		      	}
+		      	else if(Lang == 2){
+		      		
+					if (old_url.indexOf("/ch/") < 0) {
+			            new_url = old_url.replace("/en/", "/ch/");
+			            msg = en_msg;
+			            //alert('ch');
+			           setCookie("SGPoolLang", 'ch');
+			        }
+
+		      	}
+		        
+		
+		         //alert('in check - old url : '+old_url);
+		         //alert('in check - new url : '+new_url);
+				try{
+		        xmlhttp.onreadystatechange = handler;
+		        xmlhttp.open('HEAD', new_url, true);
+		        xmlhttp.send(null);
+		        }
+		        catch(err)
+		        {
+		        	//alert('ravi -- '+ err);
+		        }
+		      }
+		      else if(document.location.href.indexOf("/outlets/") > -1 || document.location.href.indexOf("/subscribe/") > -1)
+		      {
+			      if(Lang == 2)
+			      {
+		      	 var en_msg = 'Sorry. The page in requested language currently is not available.';
+    			 alert(en_msg);
+    			 }
+		      }
+		    } 
+		            
+        
+        
+        
+        	
+        
+        
+        
+        //]]></script>
+    <div id="DeltaFormDigest">
+<script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0x1A96B34207CBAF57BF75466EF77064F2F504F16C4636D2F4D34497718FD81D62BE4C5C1C4B98BD46017F5872251B4205D4E7E15254A48F459BFAE81A5D198F4D,22 Jul 2019 21:20:19 -0000';
+            g_updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script>
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;window.g_updateFormDigestPageLoaded = new Date(); window.g_updateFormDigestPageLoaded.setDate(window.g_updateFormDigestPageLoaded.getDate() -5);var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{02b86a85-876c-481f-bf04-e815aa8fe8ba}",itemId: 1,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fPages",itemPermissions:{High:16,Low:196673}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';var g_clientIdDeltaPlaceHolderMain = "DeltaPlaceHolderMain";
+var g_clientIdDeltaPlaceHolderUtilityContent = "DeltaPlaceHolderUtilityContent";
+//]]>
+</script>
+</form><span id="DeltaPlaceHolderUtilityContent"></span></body>
+</html><!-- 5 Output cache not used.  Reason: Cache profile "Disabled" disables caching for "Anonymous" users. -->

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /*?*print=yes*
+Disallow: /*?*pubman.mpdl.mpg.de*
+Disallow: /*?*research_topic*
+Disallow: /*?*filter_order*
+Disallow: /*?*jahr*
+Disallow: /*?*monat*
+Disallow: /*?*year*
+Disallow: /*?*month*
+Sitemap: https://www.mpg.de/sitemap.xml

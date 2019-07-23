@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /download/
+Disallow: /html/
+Disallow: /cyber/
+Disallow: /bet/
+Disallow: /china-info/
+Disallow: /fame/

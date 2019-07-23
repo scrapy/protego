@@ -1,0 +1,50 @@
+User-agent: *
+
+# Allow bot to enter
+Allow: /
+
+Allow: /fileadmin/*
+
+# Only allow URLs generated with RealURL
+Disallow: /*?id=*
+Disallow: /*&id=*
+
+# L=0 is the default language
+Disallow: /*?L=0*
+Disallow: /*&L=0*
+
+# typeNum = 98 is usually the print version.
+Disallow: /*?type=98*
+Disallow: /*&type=98*
+
+# Should always be protected (.htaccess)
+Disallow: /*/Private/*
+Disallow: /fileadmin/templates/*
+Disallow: /*/Configuration/*
+
+Disallow: /typo3*
+
+Allow: /typo3temp/*.css
+Allow: /typo3temp/*.css.*.gzip
+Allow: /typo3temp/*.js
+Allow: /typo3temp/*.js.*.gzip
+Allow: /typo3temp/*.jpg$
+Allow: /typo3temp/*.gif$
+Allow: /typo3temp/*.png$
+
+Allow: /typo3/*.css
+Allow: /typo3/*.css.*.gzip
+Allow: /typo3/*.js
+Allow: /typo3/*.js.*.gzip
+Allow: /typo3/*.jpg$
+Allow: /typo3/*.gif$
+Allow: /typo3/*.png$
+
+# allow public folders of extensions
+Allow: /typo3conf/ext/*/Public/*
+
+Disallow: *.sql
+Disallow: *.sql.gz
+
+# configure sitemap link depending on generator
+Sitemap: http://www.maxon.net/sitemap.xml

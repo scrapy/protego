@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:/frip/*/
+Disallow:/robots.txt

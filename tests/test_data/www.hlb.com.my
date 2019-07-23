@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /content/site-configuration/*
+Disallow: /content/campaigns/
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA 
+Disallow: /
+
+Sitemap: https://www.hlb.com.my/sitemap.xml
+Sitemap: https://www.hlb.com.my/sitemap-en.xml
+Sitemap: https://www.hlb.com.my/sitemap-ms.xml
+Sitemap: https://www.hlb.com.my/sitemap-ch.xml
+Sitemap: https://www.hlisb.com.my/sitemap.xml
+Sitemap: https://www.hlisb.com.my/sitemap-en.xml
+Sitemap: https://www.hlisb.com.my/sitemap-ms.xml

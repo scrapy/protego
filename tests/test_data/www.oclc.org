@@ -1,0 +1,15 @@
+User-agent: *
+Crawl-Delay: 5
+Disallow: */:F*:/*
+Disallow: *contacts/all-contacts.*.html
+Disallow: *contacts/all-contacts/us-sales.*.html
+Disallow: */member-stories.*.html
+Disallow: */services/a-z.*.html
+Disallow: */developer/gallery.*.en.html
+Disallow: */developer/news.*.en.html
+Disallow: */developer/develop/web-services.*.en.html
+
+User-agent: two
+Disallow: /
+
+SITEMAP: https://www.oclc.org/sitemap.xml

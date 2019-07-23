@@ -1,0 +1,56 @@
+
+User-agent: *
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+Disallow: /ppcaff/
+Disallow: /landingpage/
+Disallow: /unavailable
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+#Quote Journeys
+Disallow: /travel-insurance-application
+Disallow: /rod-fishing-licence-application
+Disallow: /rfl-app/
+Disallow: /rfl-cc/
+Disallow: /request-callback-thank-you
+Disallow: /pre-paid-funeral-plan to /pre-paid-funeral-plan-unavailable
+Disallow: /travel-money/card-2016
+Disallow: /dam/jcr:185b3f42-9edf-4f60-8608-7c3d12b78af1/life_insurance_key_information.pdf
+Disallow: /dam/jcr:7d9f74c9-21ba-4286-968e-86e9e3d8c064/free_parent_life_cover_terms_and_conditions.pdf
+Disallow: /dam/jcr:00c8e5f3-c56c-4432-a891-051e7ccdecbb/over-50s-life-cover-key-information.pdf
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /myaccount/
+Disallow: /node/add/
+Disallow: /rba/
+Disallow: /registration-app/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /tablet/
+Disallow: /*thank-you/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=logout/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+
+Sitemap: https://www.postoffice.co.uk/sitemap/sitemapindex.xml
+

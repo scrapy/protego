@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /search
+Disallow: /foreditors
+Disallow: /epdf/
+Disallow: /about/institutional-support/membership/
+Disallow: /about/membership/members/
+Disallow: /about/oa-funding-and-policy-support/
+Disallow: /*/*/*/sharedit
+Sitemap: https://www.biomedcentral.com/sitemap.xml

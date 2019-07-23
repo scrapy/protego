@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /*/away
+Disallow: /*/blogs
+Disallow: /*/profile
+Disallow: /*/matchlist
+Disallow: /*/replays/search
+Disallow: /*/bans
+Disallow: /*/register
+Disallow: /*/lostpassword
+Disallow: /*/search
+Crawl-delay: 2

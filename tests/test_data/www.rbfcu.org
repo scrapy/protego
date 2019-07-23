@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /nola
+Disallow: /docs/default-source/web/
+Disallow: /images/default-source/nbo/
+
+Sitemap: https://www.rbfcu.org/sitemap.xml

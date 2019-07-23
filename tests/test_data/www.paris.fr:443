@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /live/*
+Disallow: /page/*
+Disallow: /rechercher/*
+Disallow: /previsualisation/*
+Disallow: /navigation
+Sitemap: https://www.paris.fr/sitemap.xml

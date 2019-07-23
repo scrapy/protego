@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /index.php/  
+Disallow: /u/
+Disallow: /apps/ur/dbcontrol/

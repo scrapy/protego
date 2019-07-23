@@ -1,0 +1,81 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+#Commented out to support SEC.gov Site Index
+# Disallow: /search/ 
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password/
+Disallow: /index.php/user/register/
+Disallow: /index.php/user/login/
+Disallow: /index.php/user/logout/
+
+#SEC
+Allow: /Archives/edgar/data
+Disallow: /Archives/bin
+Disallow: /Archives/etc
+Disallow: /Archives/usr
+Disallow: /cgi-bin
+Disallow: /bin
+Disallow: /Archives/edgar/vprr/XXXX
+Disallow: /Archives/edgar/vprr/vprr_removal
+Disallow: /Archives/edgar/vprr/bin
+Disallow: /nb
+Disallow: /video/live
+Disallow: /Archives/edgar/data/1473971/000109181814000042/ex101002.gif
+Disallow: /node
+Sitemap: http://www.sec.gov/sitemap.xml
+Sitemap: https://www.sec.gov/sitemap/sitemap-index.xml
+Sitemap: https://www.investor.gov/sitemap.xml
+Sitemap: https://www.sec.gov/files-sitemap.xml

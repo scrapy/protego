@@ -1,0 +1,432 @@
+Sitemap: https://www.otago.ac.nz/_assets/OtagoCorporate/sitemaps/_default.xml
+
+User-agent: dotbot
+Crawl-delay: 10
+
+User-agent: Flamingo_SearchEngine
+Disallow: /
+
+User-agent: GSA Index Warmer
+Disallow: /
+
+User-agent: gsa-crawler
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: rogerbot
+Crawl-delay: 10
+  
+User-agent: *
+Disallow: /?
+Disallow: /*/cdf_flyout_*.html
+Disallow: /*/search/
+Disallow: /*/ss_*.html
+Disallow: /*?papercode*%20*
+Disallow: /*?*year=
+Disallow: /*?*month=
+Disallow: /*?*day=
+
+Disallow: /_subsite2
+
+
+Disallow: /conferences/george-abbott-2015/
+Disallow: /conferences/george-abbott-2016/
+Disallow: /conferences/george-abbott-2018/
+
+
+
+Disallow: /administration/service_divisions/external-engagement/marketingoffice.html
+Disallow: /administration/service_divisions/external-engagement/marketing-services.html
+Disallow: /about/accommodation/
+Disallow: /api
+Disallow: /appliedsciences/news/otago393201.html
+Disallow: /apply/otago709449.html
+Disallow: /askotago-customerportal
+Disallow: /auckland-centre/about/map.html
+
+Disallow: /biochemistry/news/otago699506.html
+Disallow: /biochemistry/postgraduate/papers/Admin/
+Disallow: /biochemistry/undergraduate/papers/admin/
+
+Disallow: /bioethics/about/otago040053.html
+Disallow: /bioethics/news/events/otago682663.html
+Disallow: /bioethics/news/events/otago662563.html
+Disallow: /bioethics/news/events/otago683761.html
+Disallow: /bioethics/news/events/otago664476.html
+Disallow: /bioethics/postgraduate/otago040068.html
+Disallow: /bioethics/postgraduate/papers/admin/
+Disallow: /bioethics/postgraduate/qualifications/dclindent.html
+Disallow: /bioethics/postgraduate/qualifications/msme.html
+Disallow: /bioethics/undergraduate/otago040063.html
+Disallow: /bioethics/undergraduate/papers/admin/
+
+Disallow: /botany/study/papers/admin/
+
+Disallow: /canadianstudies/
+Disallow: /cgi-bin/
+Disallow: /christchurch/departments/otago065960.html
+Disallow: /christchurch/departments/otago080502.html
+Disallow: /christchurch/departments/phgp/
+Disallow: /christchurch/msme.html
+Disallow: /christchurch/pgdiphealsc.html
+Disallow: /christchurch/research/cardioendocrine/*
+Disallow: /christchurch/study/accommodation/otago652144.html
+Disallow: /christchurch/study/accommodation/otago652634.html
+Disallow: /christchurch/study/accommodation/otago652639.html
+Disallow: /christchurch/study/accommodation/otago652644.html
+Disallow: /christchurch/study/accommodation/otago653165.html
+Disallow: /christchurch/study/accommodation/otago652713.html
+Disallow: /christchurch/study/accommodation/otago652716.html
+Disallow: /christchurch/study/accommodation/otago653080.html
+Disallow: /christchurch/study/accommodation/otago653142.html
+Disallow: /christchurch/study/accommodation/otago653274.html
+Disallow: /christchurch/study/accommodation/otago653331.html
+Disallow: /christchurch/study/accommodation/otago653394.html
+Disallow: /christchurch/study/accommodation/otago653593.html
+Disallow: /christchurch/study/accommodation/otago678220.html
+Disallow: /christchurch/study/accommodation/otago680220.html
+Disallow: /christchurch/study/accommodation/otago680423.html
+Disallow: /christchurch/study/papers/?papercode=AVME785
+Disallow: /christchurch/study/papers/admin/
+Disallow: /christchurch/study/postgraduate/otago074546.html
+Disallow: /christchurch/study/biomedical-sciences/otago011944.html
+Disallow: /classics/study/papers/admin/
+Disallow: /communications-office/news/otago654881.html
+Disallow: /conferences/
+Disallow: /contacts/departments/
+Disallow: /courses/ba.html
+Disallow: /courses/mpharm.html
+Disallow: /courses/qualifications/mpharm.html
+Disallow: /courses/qualifications/pgdippharm.html
+Disallow: /courses/subjects/otago034664.html
+Disallow: /crcf/
+Disallow: /cs/groups/public/@otagobulletineditor/documents/contributorimg/otago643032.jpg
+Disallow: /cs/idcplg
+Disallow: /cs/*.xml$
+
+Disallow: /devcons
+Disallow: /devcontrib
+Disallow: /donations/
+
+Disallow: /dsm-gprh/about/otago040054.html
+Disallow: /dsm-gprh/postgraduate/otago040071.html
+Disallow: /dsm-gprh/postgraduate/otago040067.html
+Disallow: /dsm-gprh/postgraduate/research-opportunities/otago659153.html 
+Disallow: /dsm-gprh/undergraduate/otago040064.html
+
+Disallow: /dsm-medicine/about/otago040054.html
+Disallow: /dsm-medicine/news/otago636521.html
+Disallow: /dsm-medicine/people/otago052681.html
+Disallow: /dsm-medicine/postgraduate/otago040071.html
+Disallow: /dsm-medicine/undergraduate/otago040061.html
+
+Disallow: /dsm-pathology/about/otago075652.html
+Disallow: /dsm-pathology/about/otago040053.html
+Disallow: /dsm-pathology/news/medicalforum.html
+Disallow: /dsm-pathology/news/otago625648.html
+Disallow: /dsm-pathology/news/otago687178.html
+Disallow: /dsm-pathology/news/otago625658.html
+Disallow: /dsm-pathology/news/otago692639.html
+Disallow: /dsm-pathology/undergraduate/otago040063.html
+Disallow: /dsm-pathology/undergraduate/otago040906.html
+Disallow: /dsm-pathology/postgraduate/otago047836.html
+Disallow: /dsm-pathology/postgraduate/otago040067.html
+Disallow: /dsm-pathology/postgraduate/otago040071.html
+Disallow: /dsm-pathology/postgraduate/otago040069.html
+Disallow: /dsm-pathology/postgraduate/otago047838.html
+Disallow: /dsm-pathology/undergraduate/otago040911.html
+Disallow: /dsm-pathology/undergraduate/papers/admin/
+
+Disallow: /dsm-psm/about/otago040053.html
+Disallow: /dsm-psm/people/academic-search/profile/?id=835
+Disallow: /dsm-psm/people/academic-search/profile/?id=1142
+Disallow: /dsm-psm/postgraduate/papers/admin/
+Disallow: /dsm-psm/postgraduate/otago654299.html
+Disallow: /dsm-psm/postgraduate/otago040069.html
+Disallow: /dsm-psm/undergraduate/otago040064.html
+Disallow: /dsm-psm/undergraduate/otago040911.html
+Disallow: /dsm-psm/undergraduate/otago040063.html
+Disallow: /dsm-psm/undergraduate/otago040285.html
+Disallow: /dsm-psm/undergraduate/otago040906.html
+Disallow: /dsm-psm/undergraduate/otago040061.html
+Disallow: /dsm-psm/undergraduate/papers/admin/
+
+Disallow: /dsm-surgery/study/undergraduate/otago043918.html
+
+Disallow: /dsm/postgraduate/otago047838.html
+Disallow: /dsm/undergraduate/otago043720.html
+Disallow: /dsm/undergraduate/otago040906.html
+Disallow: /dsm/undergraduate/otago040285.html
+Disallow: /dsm/undergraduate/otago040911.html
+
+Disallow: /ecology/undergraduate.html
+Disallow: /english-linguistics/news/otago090921.html
+Disallow: /examtemplates/
+Disallow: /events/
+
+Disallow: /financialservices/resources/travel-insurance/otago613481.html
+Disallow: /financialservices/Secure/
+Disallow: /flats/
+Disallow: /food-science/study/undergraduate/papers/admin/
+Disallow: /forms/
+Disallow: /forms/reach/ 
+
+
+Disallow: /free-radical/postgraduate-research-opportunities/otago012109.html
+Disallow: /free-radical/postgraduate-research-opportunities/otago012109.html
+Disallow: /free-radical/postgraduate-research-opportunities/otago012110.html
+Disallow: /free-radical/postgraduate-research-opportunities/otago670757.html
+Disallow: /free-radical/staff/otago012109.html
+Disallow: /free-radical/staff/otago012110.html
+Disallow: /free-radical/staff/otago012133.html
+Disallow: /free-radical/staff/otago012137.html
+Disallow: /free-radical/staff/otago012139.html
+Disallow: /free-radical/staff/otago012153.html
+Disallow: /free-radical/staff/otago034193.html
+Disallow: /free-radical/staff/otago067847.html
+Disallow: /free-radical/staff/otago067853.html
+Disallow: /free-radical/staff/otago081158.html
+Disallow: /free-radical/staff/otago083359.html
+
+Disallow: /future-students/otago661286.html
+Disallow: /future-students/otago664809.html
+Disallow: /future-students/sa_appinfo.html
+Disallow: /future-students/otago661287.html
+Disallow: /future-students/publications.html
+Disallow: /future-students/sa_faqs.html
+Disallow: /future-students/otago661288.html
+Disallow: /future-students/otago661289.html
+Disallow: /future-students/otago-154419.html
+Disallow: /future-students/otago-154818.html
+Disallow: /future-students/fees-and-scholarships/otago712927.html
+Disallow: /future-students/fees-and-scholarships/scholarships/checklist/otago-154818.html
+Disallow: /future-students/accommodation/postgraduate/index.html
+Disallow: /future-students/otago665825.pdf
+Disallow: /future-students/otago556016.pdf
+Disallow: /future-students/otago002170.html
+Disallow: /future-students/otago646874.pdf
+Disallow: /future-students/otago646876.pdf
+Disallow: /future-students/otago662444.pdf
+Disallow: /future-students/otago646878.pdf
+Disallow: /future-students/otago676687.pdf
+Disallow: /future-students/maori/otago672363.pdf
+Disallow: /future-students/otago646875.pdf
+Disallow: /future-students/otago646877.pdf
+Disallow: /future-students/otago-154419.html
+Disallow: /future-students/otago-154818.html
+Disallow: /future-students/otago-154418.html
+
+Disallow: /genetics/staff/spencer.html
+Disallow: /genetics/study/papers/admin/
+Disallow: /geography/study/papers/admin/
+Disallow: /geology/study/papers/admin/
+
+Disallow: /bioethics/postgraduate/papers/?papercode=CHIN132
+Disallow: /dsm/undergraduate/papers/?papercode=ASIA101
+Disallow: /mfco/undergraduate/papers/?papercode=ASIA201
+Disallow: /bioethics/postgraduate/papers/?papercode=CHIN232
+Disallow: /bioethics/postgraduate/papers/?papercode=CHIN334
+Disallow: /bioethics/postgraduate/papers/?papercode=CHIN335
+Disallow: /cela/papers/?papercode=FREN441
+Disallow: /bioethics/postgraduate/papers/?papercode=JAPA131
+Disallow: /cela/papers/?papercode=JAPA441
+Disallow: /cela/papers/?papercode=JAPA451 
+Disallow: /cela/papers/?papercode=THEA456
+
+Disallow: /hazard-management/papers/admin/
+Disallow: /hd_dev/
+Disallow: /hdinternal/
+Disallow: /healthsciences/about/admin/otago033798.html
+Disallow: /healthsciences/otago622600.html
+Disallow: /healthsciences/expertise/profile/index.html?id=1792
+Disallow: /healthsciences/students/postgraduate/hazard-management/papers/admin/
+Disallow: /healthsciences/students/professional/otago054917.html
+Disallow: /healthsciences/students/professional/otago054939.html
+Disallow: /healthsciences/students/professional/otago058499.html
+Disallow: /healthsciences/students/professional/otago058500.html
+Disallow: /healthsciences/students/professional/otago058502.html
+Disallow: /healthsciences/students/professional/otago058568.html
+Disallow: /healthsciences/students/professional/otago058572.html
+Disallow: /healthsciences/students/professional/otago058575.html
+Disallow: /healthsciences/students/professional/otago058577.html
+Disallow: /healthsciences/students/professional/otago058578.html
+Disallow: /healthsciences/students/professional/otago058894.html
+Disallow: /healthsciences/students/professional/otago063654.html
+Disallow: /healthsciences/students/professional/otago081968.html
+Disallow: /healthsciences/students/professional/otago612777.html
+Disallow: /healthsciences/students/professional/otago663321.html
+Disallow: /hekitenga/2015/
+Disallow: /history/study/art-history-visual-culture/papers/admin/
+Disallow: /humannutrition/study/distance-learning/papers/admin/
+Disallow: /humannutrition/study/undergraduate/papers/admin/
+Disallow: /humanresources/health-and-safety/management/otago065609.html
+Disallow: /humanresources/projects/
+
+Disallow: /internationalhealth/postgraduate/admin/
+Disallow: /its_webdev/
+Disallow: /its/staff/mcq/restricted/
+
+Disallow: /languagescultures/programmes/asian-studies/papers/admin/
+Disallow: /languagescultures/programmes/chinese/papers/admin/
+Disallow: /languagescultures/programmes/european-studies/papers/admin/
+Disallow: /languagescultures/programmes/french/papers/admin/
+Disallow: /languagescultures/programmes/german/papers/admin/
+Disallow: /languagescultures/programmes/global-studies/papers/admin/
+Disallow: /languagescultures/programmes/japanese/papers/admin/
+Disallow: /languagescultures/programmes/spanish/papers/admin/
+Disallow: /law/research/emergingtechnologies/otago026493.html
+Disallow: /law/undergraduate/papers/admin/
+Disallow: /librarytest
+
+Disallow: /mba/*.php
+
+Disallow: /management/international-business/postgraduate.html
+Disallow: /management/study/msusbus.html
+Disallow: /management/study/papers/admin/
+Disallow: /marinestudies/database/
+Disallow: /marketing/otago111613.pdf
+Disallow: /media-expertise/admin/
+Disallow: /media-expertise/profile/
+
+Disallow: /medical-school/about/otago040054.html
+Disallow: /medical-school/about/otago040053.html
+Disallow: /medical-school/about/otago040054.html
+Disallow: /medical-school/about/otago043716.html
+Disallow: /medical-school/about/otago043717.html
+Disallow: /medical-school/about/otago043718.html
+Disallow: /medical-school/about/otago068230.html
+Disallow: /medical-school/about/otago075652.html
+Disallow: /medical-school/people/otago052681.html
+Disallop: /medical-school/postgraduate/nursing/index.html
+Disallow: /medical-school/postgraduate/otago040067.html
+Disallow: /medical-school/postgraduate/otago040068.html
+Disallow: /medical-school/postgraduate/otago040069.html
+Disallow: /medical-school/postgraduate/otago040071.html
+Disallow: /medical-school/postgraduate/otago047836.html
+Disallow: /medical-school/postgraduate/otago047838.html
+Disallow: /medical-school/postgraduate/otago654299.html
+Disallow: /medical-school/undergraduate/medicine/otago707683.docx
+Disallow: /medical-school/undergraduate/otago040061.html
+Disallow: /medical-school/undergraduate/otago040063.html
+Disallow: /medical-school/undergraduate/otago040064.html
+Disallow: /medical-school/undergraduate/otago040285.html
+Disallow: /medical-school/undergraduate/otago040911.html
+Disallow: /medical-school/undergraduate/otago043720.html
+Disallow: /medicine/staff/otago669448.html
+Disallow: /medlabsci/alumni/otago050087.html	
+Disallow: /mfco/undergraduate/papers/admin/
+Disallow: /mintst/programme/papers/admin/
+Disallow: /music/study/papers/
+
+Disallow: /ncpacs/study/papers/admin/
+Disallow: /news/events/?days=-1
+Disallow: /news/events/index.html?days=-1
+Disallow: /news/mediaoffice.html
+
+Disallow: /otagobulletin/news/otago292605.html
+Disallow: /otagobulletin/news/otago643034.html
+Disallow: /OtagoCorporate/
+
+Disallow: /pacific/otago081341.pdf
+Disallow: /papers/
+Disallow: /payments/
+Disallow: /personnelservices/
+Disallow: /phal/news/events/
+
+Disallow: /phal/education/postgraduate/papers/?papercode=ANAT495 
+Disallow: /phal/education/postgraduate/papers/?papercode=ANAT454 
+Disallow: /phal/education/postgraduate/papers/?papercode=MATH403 
+Disallow: /phal/education/postgraduate/papers/?papercode=BTNY465 
+Disallow: /phal/education/postgraduate/papers/?papercode=PLBI495 
+Disallow: /phal/education/postgraduate/papers/?subjcode=SURV 
+Disallow: /phal/education/postgraduate/papers/?subjcode=GENE 
+Disallow: /phal/education/postgraduate/papers/admin/
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=EMAN404 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=STAT443 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=MARI429 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=GEOL490 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=PHSI438 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=SURV569 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=SURV578 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=GEOL480 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=STAT491 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=BIOC496 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=EMAN402 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=INFO420 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=ELEC443 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=GEOG490 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=BTNY480 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=MARI480 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=SURV476 
+Disallow: /phal/education/postgraduate/papers/index.html?papercode=BIOC480
+Disallow: /phal/education/undergraduate/papers/admin/
+Disallow: /phonebook/
+Disallow: /pharmacy/people/profile/index.html?id=2675
+Disallow: /pharmacy/undergraduate/papers/admin/
+Disallow: /physics/study/postgraduate/admin/
+Disallow: /physics/study/undergraduate/admin/
+Disallow: /physio/profiles/otago078263.html
+Disallow: /physio/postgraduate/papers/admin/
+Disallow: /physio/undergraduate/papers/admin/
+Disallow: /politics/spencer.html
+Disallow: /politics/study/papers/admin/
+Disallow: /prodcons
+Disallow: /prodcontrib
+Disallow: /projectoffice/
+Disallow: /propertyservices/services/campus-development/index.html
+Disallow: /prospectivestudents/
+Disallow: /psychology/study/papers/?papercode=CELS191
+Disallow: /psychology/study/papers/admin/
+Disallow: /physio/otago089721.html
+
+Disallow: /sample
+Disallow: /sas
+Disallow: /search
+Disallow: /secondarypageinput
+Disallow: /sciences/study/postgraduate/profiles/otago078263.html
+Disallow: /sgc/study/gender/papers/admin/
+Disallow: /sgc/study/socialwork/papers/admin/
+Disallow: /sgc/study/sociology/papers/admin/
+
+Disallow: /studenthealth/otago694259.html
+Disallow: /studenthealth/otago697223.html
+
+Disallow: /sjwri/people/craniofacial-biomechanics/otago078263.html
+Disallow: /studentservices/director/private/
+Disallow: /study-public-health/otago074546.html
+Disallow: /study/otago000718.pdf
+Disallow: /study/otago001326
+Disallow: /summerschool/study/papers/admin/
+Disallow: /surveying/study/papers/admin/
+Disallow: /surveying/study/undergraduate.html
+
+Disallow: /testcons
+Disallow: /testcontrib
+Disallow: /theatrestudies/study/papers/
+Disallow: /theology/johnson.html
+Disallow: /theology/study/papers/
+Disallow: /theology/study/papers/admin/
+Disallow: /tourism/study/postgraduate/papers/admin/
+Disallow: /tourism/study/undergraduate/papers/admin/
+
+Disallow: /vacancies
+Disallow: /votechat/
+
+Disallow: /webservices/apis/
+Disallow: /wellington/departments/radiationtherapy/research/otago048853.html
+Disallow: /wellington/departments/primaryhealthcaregeneralpractice/undergraduate/palliative-care-art-work/otago653596.html
+Disallow: /wellington/departments/primaryhealthcaregeneralpractice/undergraduate/palliative-care-art-work/index.html
+Disallow: /wellington/departments/publichealth/summerschool/otago705470.html
+Disallow: /wellington/departments/publichealth/summerschool/otago705749.html
+Disallow: /wellington/departments/publichealth/summerschool/otago705750.html
+Disallow: /wellington/departments/publichealth/summerschool/otago706340.html
+Disallow: /wellington/research/whrc/
+Disallow: /wellington/study/papers/admin/
+Disallow: /womens-health-postg/papers/admin/
+
+Disallow: /xml/
+
+Disallow: /zoology/study/papers/
+Disallow: /zoology/study/papers/admin/

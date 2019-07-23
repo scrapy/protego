@@ -1,0 +1,20 @@
+User-agent: Baiduspider
+Disallow: /Products/tv/androidtv/
+
+User-agent: BaiduImagespider
+Disallow: /Products/tv/androidtv/
+
+User-agent: BaiduMobaider
+Disallow: /Products/tv/androidtv/
+
+User-agent: Yeti
+Disallow: /Products/tv/androidtv/
+
+User-agent: Googlebot
+Disallow: /Products/tv/seeingisbelieving/
+
+User-agent: *
+Disallow: /Products/CameraSystem/NVMS/software/exe/hotfix/
+
+User-agent: *
+Disallow: /Products/felica/business/tech-support/st_*.html

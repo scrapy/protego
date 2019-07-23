@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="zh-TW" ng-app="aswebApp" ng-controller="aswebCtrl">
+<head>
+   <base href="/">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="shortcut icon" href="favicon.ico" />
+   <link rel="stylesheet" href="include/bootstrap/css/bootstrap.css" type="text/css" />
+   <link rel="stylesheet" href="css/maincore.css" type="text/css" />
+   <link rel="stylesheet" href="css/style.css" type="text/css" />
+   <link rel="stylesheet" href="css/e-style.css" type="text/css" />
+   <link rel="stylesheet" href="css/asweb.css" type="text/css" />
+   <!--[if lt IE 9]>
+      <script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+   <![endif]-->
+   <!--highslide-->
+   <link rel="stylesheet" href="include/highslide/highslide.css" type="text/css"/>
+   <title ng-bind="lang == 'ch' ? siteInfo.ch : siteInfo.en">中央研究院網站</title>
+   <!-- GA -->
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-86556059-1', 'auto');
+      ga('send', 'pageview');
+      var inHouse = '0';
+   </script>
+<style>
+.carousel-indicators {
+/*
+   text-align: right;
+float: right;
+right: 2% !important;
+left: inherit;
+ bottom: 50px;*/
+}
+</style>
+</head>
+<body class="stretched">
+   <div id="wrapper" class="clearfix">
+      <header class="header">
+         <div id="header-wrap">
+            <div class="container clearfix">
+               <div id="primary-menu-trigger"><i class=" icon-reorder icon-2x pull-left icon-border" style="color:#003377;"></i></div>
+               <!--logo-->
+               <div class="col_one_fourth header-left-part">
+                  <div id="logo22">
+                     <a href="" class="standard-logo" ng-click="backHome(lang)">
+                        <img src="images/logo.png" alt="Logo" class="for-logo-pc">
+                        <img src="images/mobile-logo.png" alt="Logo" class="for-logo-pad">
+                     </a>
+                     <a href="" class="retina-logo" ng-click="backHome(lang)">
+                        <img src="images/logo@2x.png" alt="Logo" class="for-logo-pc">
+                        <img src="images/mobile-logo@2x.png" alt="Logo" class="for-logo-pad">
+                     </a>
+                  </div>
+               </div>
+
+               <div class="col_three_fourth col_last header-right-part">
+                  <!--roleMenus-->
+                  <div ng-class="lang == 'ch' ? 'col_half' : 'col-md-7'">
+                     <ul class="identity list-style-1" ng-class="lang == 'ch' ? '' : 'list-style-3 row'">
+                        <li ng-repeat="m in roleMenus" ng-if="(lang == 'ch' && m.mName) || (lang == 'en' && m.mNameEn)"><a ng-href="{{lang == 'ch' ? m.linkUrl : m.linkUrlEn}}" target="{{lang == 'ch' ? m.target : m.targetEn}}" ng-style="{'color': m.mColor}"><span ng-bind="lang == 'ch' ? m.mName : m.mNameEn"></span></a>
+                           <ul class="drop-section" ng-if="m.subTree">
+                              <li ng-repeat="mm in m.subTree" ng-if="(lang == 'ch' && mm.mName) || (lang == 'en' && mm.mNameEn)" class="drop-title-01"><a ng-href="{{lang == 'ch' ? mm.linkUrl : mm.linkUrlEn}}" target="{{lang == 'ch' ? mm.target : mm.targetEn}}" ng-style="{'color': m.mColor}"><span ng-bind="lang == 'ch' ? mm.mName : mm.mNameEn"></span></a></li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+                  <!--topMenus-->
+                  <div class="col_last" ng-class="lang == 'ch' ? 'col_half' : 'col-md-5'">
+                     <a href="https://anniversary.sinica.edu.tw/" target="_blank"><img class="img" src="images/90logob.png" height="32" width="" alt='90logo'></a><!-- 90 週年logo -->
+                     <ul class="green-menu list-style-1">
+                        <li ng-repeat="m in langMenus" ng-if="(lang == 'ch' && m.mName) || (lang == 'en' && m.mNameEn)"><a href='' ng-click="setLang(lang == 'ch' ? m.linkUrl : m.linkUrlEn)"><span ng-bind="lang == 'ch' ? m.mName : m.mNameEn"></span></a></li>
+                        <li ng-repeat="m in topMenus" ng-if="(lang == 'ch' && m.mName) || (lang == 'en' && m.mNameEn)"><a ng-href="{{lang == 'ch' ? m.linkUrl : m.linkUrlEn}}" target="{{lang == 'ch' ? m.target : m.targetEn}}" ng-style="{'color': m.mColor}"><span ng-bind="lang == 'ch' ? m.mName : m.mNameEn"></span></a></li>
+                     </ul>
+                  </div>
+                  <div class="clear"></div>
+                  
+                  <!--mainMenus-->
+                  <div class="col_three_fourth header-menu-width">
+                     <nav id="primary-menu">
+                        <ul class="main-menu">
+                           <li ng-repeat="m in mainMenus" ng-if="(lang == 'ch' && m.mName) || (lang == 'en' && m.mNameEn)" ng-class="((lang == 'ch' && m.linkUrl) || (lang == 'en' && m.linkUrlEn)) ? '' : 'noLink'"><a ng-href="{{lang == 'ch' ? m.linkUrl : m.linkUrlEn}}" target="{{lang == 'ch' ? m.target : m.targetEn}}" ng-style="{'color': m.mColor}"><div ng-bind="lang == 'ch' ? m.mName : m.mNameEn" ng-class="lang == 'ch' ? 'mainMenusTitle' : ''"></div></a>
+                              <ul class="sub-menu-section" ng-if="m.subTree">
+                                 <li ng-repeat="mm in m.subTree" ng-if="(lang == 'ch' && mm.mName) || (lang == 'en' && mm.mNameEn)" ng-class="((lang == 'ch' && mm.linkUrl) || (lang == 'en' && mm.linkUrlEn)) ? 'pointer' : 'noLink'">
+                                    <a ng-href="{{lang == 'ch' ? mm.linkUrl : mm.linkUrlEn}}" target="{{lang == 'ch' ? mm.target : mm.targetEn}}"><div class="sub-menu-title" ng-bind="lang == 'ch' ? mm.mName : mm.mNameEn" ng-style="{'color': mm.mColor}"></div></a>
+                                    <ul class="packet menu-three-section" ng-repeat="mmm in mm.subTree" ng-if="mm.subTree">
+                                       <li ng-if="(lang == 'ch' && mmm.mName) || (lang == 'en' && mmm.mNameEn)" ng-class="((lang == 'ch' && mmm.linkUrl) || (lang == 'en' && mmm.linkUrlEn)) ? '' : 'noLink'">
+                                          <a ng-href="{{lang == 'ch' ? mmm.linkUrl : mmm.linkUrlEn}}" target="{{lang == 'ch' ? mmm.target : mmm.targetEn}}" ng-style="{'color': mmm.mColor}"><div ng-bind="lang == 'ch' ? ('▼'+ mmm.mName) : ('▼'+ mmm.mNameEn)"></div></a>
+                                       </li>
+                                       <li ng-repeat="mmmm in mmm.subTree" ng-if="(lang == 'ch' && mmmm.mName) || (lang == 'en' && mmmm.mNameEn)" ng-class="((lang == 'ch' && mmmm.linkUrl) || (lang == 'en' && mmmmm.linkUrlEn)) ? '' : 'noLink'">
+                                             <a ng-href="{{lang == 'ch' ? mmmm.linkUrl : mmmm.linkUrlEn}}" target="{{lang == 'ch' ? mmmm.target : mmmm.targetEn}}" ng-style="{'color': mmmm.mColor}"><div ng-bind="lang == 'ch' ? mmmm.mName : mmmm.mNameEn"></div></a>
+                                       </li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+                  
+                  <!--search-->
+                  <form name="search" target="_blank" method="get" action="//google.com.tw/search">
+                     <div class="col_one_fourth col_last header-search-width">
+                        <div class="input-group searchBar">
+                           <input type="text" name="q" id="search" title="search" class="form-control search-bar" placeholder="{{lang == 'ch' ? siteInfo.searchPH_ch : siteInfo.searchPH_en}}">
+                           <input type="hidden" name="sitesearch" value="sinica.edu.tw">
+                           <span class="input-group-btn">
+                              <button class="btn btn-default" type="button" onClick="document.search.submit();" onkeypress="document.search.submit();">{{lang == 'ch' ? siteInfo.search_ch : siteInfo.search_en}}</button>
+                           </span>
+                        </div>
+                     </div>
+                  </form>
+                  <div class="clear"></div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section ng-show="slide == 1">
+         <div class="container clearfix">
+            <div class="row">
+               <div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" 
+                     ng-repeat="r in (lang == 'ch' ? slides : slidesEn) track by $index" data-slide-to="{{$index}}" ng-class="$index == 0 ? 'active' : ''">
+                    </li>
+                  </ol>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                      <div class="item" ng-repeat="r in (lang == 'ch' ? slides : slidesEn) track by $index" ng-class="$index == 0 ? 'active' : ''">
+                         <div class="col_two_third col_last slider-margin slider-img floatright">
+                            <a ng-href="{{lang == 'ch' ? r.linkUrl : r.linkUrlEn}}" target="{{lang == 'ch' ? r.target : r.targetEn}}">
+                               <img ng-src="{{lang == 'ch' ? r.imgUrl : r.imgUrlEn}}" width="100%" alt="{{lang == 'ch' ? r.title : r.titleEn}}"></a>
+                        </div>
+                        <div class="col_one_third slider-text floatleft">
+                            <div class="flex-caption slider-caption-bg">
+                               <h2 class="slideTitle">
+                                 <a ng-href="{{lang == 'ch' ? r.linkUrl : r.linkUrlEn}}" target="{{lang == 'ch' ? r.target : r.targetEn}}" ng-bind="lang == 'ch' ? r.title : r.titleEn"></a></h2>
+                                 <div class="slideTxt" ng-bind-html="lang == 'ch' ? (r.summary | cut:true:250:' ...') : (r.summaryEn | cut:true:400:' ...')"></div>
+                                 <div class="more-link-style1 slideMore text-right">
+                                    <a ng-href="#/{{lang}}/newsList/1" target="_self">{{lang == 'ch' ? '更多專題報導.....' : 'more.....'}}</a>
+                                 </div>
+                            </div>
+                         </div>
+                      </div>
+                  </div>
+                  
+                  <!-- Controls -->
+                  <span class="carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </span>
+                  <span class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </span>
+               </div>
+            </div>
+         </div>
+      </section>
+      <div ng-view></div>
+      <!--footer&copyrights-->
+      <div class="container clearfix">
+         <div class="row">
+            <footer id="footer">
+               <div id="copyrights">
+                  <div class="copyright" ng-bind-html="lang == 'ch' ? webtail.contents : webtail.contentsEn">
+                  </div>
+               </div>
+            </footer>
+         </div>
+      </div>
+   </div>
+
+   <div id="gotoTop" class="icon-angle-up"></div>
+
+   <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript" src="js/plugins.js"></script>
+   <script type="text/javascript" src="js/jquery.nivo.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <!--angularjs-->
+   <script type="text/javascript" src='include/angularjs/angular.min.js'></script>
+   <script type="text/javascript" src='include/angularjs/angular-route.min.js'></script>
+   <script type="text/javascript" src='include/angularjs/angular-sanitize.min.js'></script>
+   <script type="text/javascript" src="js/aswebSvcs.js"></script>
+   <script type="text/javascript" src="js/aswebFctrs.js"></script>
+   <script type="text/javascript" src="js/aswebCtrls.js"></script>
+   <script type="text/javascript" src="js/asweb.js"></script>
+
+   <!--Footer Scripts-->
+   <script type="text/javascript" src="js/functions.js"></script>
+   <script type="text/javascript">
+      function startSlide() {
+         $('.nivoSlider').nivoSlider({
+            effect: 'random',
+            slices: 15,
+            boxCols: 12,
+            boxRows: 6,
+            animSpeed: 500,
+            pauseTime: 10000,
+            directionNav: true,
+            controlNav: true,
+            pauseOnHover: true,
+            prevText: '<i class="icon-angle-left"></i>',
+            nextText: '<i class="icon-angle-right"></i>',
+            afterLoad: function(){
+               $('#slider').find('.nivo-caption').addClass('slider-caption-bg');
+            }
+         });
+      }
+   </script>
+   <!--highslide-->
+   <script src="include/highslide/highslide-with-gallery.js"></script>
+   <script type="text/javascript">
+      hs.graphicsDir = 'include/highslide/graphics/';
+      hs.align = 'center';
+      hs.transitions = ['expand', 'crossfade'];
+      hs.outlineType = 'rounded-white';
+      hs.fadeInOut = true;
+      hs.numberPosition = 'caption';
+      hs.dimmingOpacity = 0.75;
+      // Add the controlbar
+      if (hs.addSlideshow) hs.addSlideshow({
+         //slideshowGroup: 'group1',
+         interval: 5000,
+         repeat: false,
+         useControls: true,
+         fixedControls: 'fit',
+         overlayOptions: {
+            opacity: .75,
+            position: 'bottom center',
+            hideOnMouseOut: true
+         }
+      });
+   </script>
+</body>
+</html>

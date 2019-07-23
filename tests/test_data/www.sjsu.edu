@@ -1,0 +1,27 @@
+#########################################
+# Welcome to San Jose State University
+#
+# Note: Please do not over load the servers
+# http://its.sjsu.edu            
+#
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /contact/
+Disallow: /police/crime_reporting/crime_blotter/
+Disallow: /police/docs/blotter/
+Disallow: /atn/
+# Disallow: /ecampus/
+Disallow: /mae/
+Disallow: /resources/
+Disallow: /computereng/
+Disallow: /provost/budget/flg/docs/
+Disallow: /drc/
+Disallow: /hrtm/
+Disallow: /typeahead.js/
+Disallow: /sjsuhome/assets/js/typeahead/
+Disallow: /ldp/
+Disallow: /gallery-pics/
+Disallow: /*/gallery-pics/
+Disallow: /logout/
+# Site Map Listing
+Sitemap: http://www.sjsu.edu/indexmap.txt

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /prmc/quality
+Disallow: /umhs/about-umhs/strategic.html
+
+
+
+User-agent: googlebot
+Disallow: /prmc/quality
+Disallow: /umhs/about-umhs/strategic.html
+
+

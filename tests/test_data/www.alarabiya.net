@@ -28,7 +28,7 @@ function getHostUri() {
     var loc = document.location;
     return loc.toString();
 }
-setCookie('YPF8827340282Jdskjhfiw_928937459182JAX666', '157.40.62.237', 10);
+setCookie('YPF8827340282Jdskjhfiw_928937459182JAX666', '103.88.218.109', 10);
 try {  
     location.reload(true);  
 } catch (err1) {  

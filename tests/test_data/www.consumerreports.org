@@ -1,0 +1,44 @@
+User-agent: *
+Disallow: /access
+Disallow: /cro/search.htm
+Disallow: /search
+Disallow: /health/search.htm
+Disallow: /*.print.html$
+Disallow: /*.print.htm$
+Disallow: /*._print.html$
+Disallow: /*._print.htm$
+Disallow: /content/dam/cro/interactive/PRO410_Sept%20Premium.pdf
+Disallow: /cro/cars/repair/index.htm
+Disallow: /cro/cars/repair/service/index.htm
+Disallow: /cro/cars/repair/estimate/index.htm
+Disallow: /cro/cars/repair/encyclopedia/index.htm
+Disallow: /cro/cars/repair/repair-pal-encyclopedia-content.htm
+Disallow: /cro/cars/models/used/*/recalls.htm
+Disallow: /bin/home/calendar/
+Disallow: /*jcr:content*
+Disallow: /*preview_print.html$
+Disallow: /*.print.html$
+Disallow: /data/*
+Disallow: /bayer/bayer-letter-to-the-editor-on-essure-story/
+Disallow: /cro/news/2007/09/with-directbuy-it-will-cost-you-a-lot-to-save/index.htm 
+
+Allow: /cars
+Allow: /cars$
+Allow: /cars-
+Allow: /cars/used-cars$
+Allow: /data/products/graph
+
+User-agent: Zing-BottaBot/2.0
+Disallow: /
+
+User-agent: Google-HTTP-Java-Client/1.17.0-rc (gzip)
+Disallow: /video/.*
+
+User-agent: istellabot/t.1
+Disallow: /video/.*
+
+User-agent: Pcore-HTTP/v0.24.5
+Disallow: /video/.*
+
+User-agent: trendkite-akashic-crawler
+Disallow: /

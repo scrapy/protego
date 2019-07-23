@@ -1,0 +1,86 @@
+User-agent: *
+
+Disallow: /politics-postgraduate-study/ #SJT 14/02/2014 as per INC00000249467
+Disallow: /it/archive/ #old IT content still showing. SJT 20/10/2014
+Disallow: /lsm/research/divisions/imaging/study/imaging-centre/ #Now redirected away SJT 04/11/2014
+Disallow: /sspp/departments/sshm/events/research-seminars.aspx #deleted page still showing in Google. SJT 21/01/2015
+Disallow: /aboutkings/governance/equality/athena/iwd.aspx #deleted page SJT 12/02/15
+Disallow: /ioppn/news/events/2014/October/The-14th-Maudsley-Forum-2014.aspx #old event SJT 10/03/2015
+Disallow: /ioppn/news/events/2013/october/Maudsley-Forum-2013.aspx #old event
+Disallow: /lsm/research/divisions/dns/Transcampus.aspx #moved SJT 16/06/15
+#Library changes 09/09/15
+Disallow: /library/resources/archivespec/
+Disallow: /zPearsons/  #IKM 21 Oct 15
+Disallow: /zikmrazor/  #IKM 21 Oct 15
+Disallow: /innovation/research/support/researchoffice/funding/type/
+Disallow: /sspp/departments/sshm/news/sshmnews.aspx
+Disallow: /virtualtour/ #IKM 1 Feb 16
+Disallow: /newsevents/news/newsrecords/docs/Investigation-Report---19-January.pdf
+Disallow: /library/collections/archivespec/collections/lhcma.aspx
+Disallow: /campuslife/residences/
+Disallow: *?ContensisTextOnly=true*
+Disallow: /sspp/departments/education/research/ldc/study/res-degree/phds/OliviaKnapton.aspx
+Disallow: /law/research/centres/construction/assets/bim-research-report-1-jul-2016.pdf
+Disallow: /campuslife/sport/facilities/fitnesscentreindex.aspx
+Disallow: /nursing/nonmedical-approved-clinician-survey.aspx
+Disallow: /campuslife/services/student-advice-support/how/immigration/
+Disallow: /campuslife/services/student-advice-support/how/immigration2/
+Disallow: /campuslife/services/student-advice-support/how/instlstudentsupport/
+Disallow: /artshums/depts/mlc
+Disallow: /campuslife/services/howwecanhelp/
+Disallow: /campuslife/services/grad/Ceremonies/Faculty-awards/Graduate-list-for-Kings-Learning-Institute-July-2017.pdf
+Disallow: /search/  # Stop Google indexing our search
+Disallow: /study/schools-and-colleges/resources-events/conference-teachers-advisers.aspx
+# Kings online - remove Hayley Flethcher Pearsons
+Disallow: /lsm/research/divisions/meded-old/
+Disallow: /study/online/psychology-msc/
+Disallow: /study/online/psychology-msc
+Disallow: /study/online/applied-neuroscience-msc/
+Disallow: /study/online/applied-neuroscience-msc
+Disallow: /study/online/global-finance-and-banking-msc/
+Disallow: /study/online/global-finance-and-banking-msc
+Disallow: /study/online/public-health-msc/
+Disallow: /study/online/public-health-msc
+Disallow: /study/online/international-corporate-financial-and-commercial-law-llm/
+Disallow: /study/online/international-corporate-financial-and-commercial-law-llm
+Disallow: /study/online/english-for-academic-purposes/
+Disallow: /study/online/english-for-academic-purposes
+Disallow: /study/online/international-affairs/
+Disallow: /study/online/international-affairs
+Disallow: /nms/depts/mathematics/news/event-information/eventsrecords/thephysmarch13.aspx
+Disallow: /dentistry-2/
+Disallow: /sspp/departments/education/about/index.aspx
+Disallow: /business/research/centres/dafm.aspx
+Disallow: /business/research/centres/dafm/dafm.aspx
+Disallow: /business/people/*-*
+Disallow: /study/postgraduate/fees-and-funding/student-funding/postgraduate-taught-funding/postgraduate-masters-loan2018.aspx
+Disallow: /monitoring/
+Disallow: /lsm/research/divisions/cardio/
+Disallow: /home
+Disallow: /cultural/connected-venues.aspx
+Disallow: /sspp/departments/politicaleconomy/people/*
+Disallow: /it/owa.aspx
+Disallow: /onlinecourses/
+Disallow: /sspp/policy-institute/
+Disallow: /research/funding-opportunities/impact-acceleration/impact-acceleration.aspx
+Disallow: /sspp/departments/politicaleconomy/people/academic/minos.aspx
+
+# User-agent: Baiduspider
+# Disallow: /
+
+User-agent: FAST-WebCrawler/0.2
+Disallow: /
+
+User-agent: Yanga WorldSearch Bot v1.1/beta
+Disallow: /
+
+User-agent: Slurp
+Crawl-delay: 900
+Disallow: /wrap/pmwiki/
+
+User-agent: Twiceler-0.9
+Disallow: /
+
+# Sitemap: https://www.kcl.ac.uk/people/sitemap.xml
+# User-agent: *
+# Disallow: 

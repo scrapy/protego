@@ -1,0 +1,13 @@
+Sitemap: http://en.chessbase.com/sitemapindex.xml
+Sitemap: http://de.chessbase.com/sitemapindex.xml
+Sitemap: http://es.chessbase.com/sitemapindex.xml
+User-agent: *
+Disallow: /php-admin/
+Disallow: /phpmyadmin/
+Disallow: /user-db/
+Disallow: /ramzenhunzer/
+Disallow: /abelgeizmer/
+Disallow: /nichmalditznung/
+Disallow: /admin/
+Disallow: /admin/post/like2/
+Allow: /

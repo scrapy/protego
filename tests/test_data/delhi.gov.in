@@ -1,0 +1,2457 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0062)http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="gr__delhi_gov_in"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="google-site-verification" content="lR6qGzXXofMbWHZAJ2RGv-99BalW8o8hBdEMEDZwzWI">
+
+<meta name="description" content="Portal of Delhi Government is a single window access to information and services being provided by the various department of Govt. NCT of Delhi.">
+<meta name="keywords" content="Delhi Govt Portal, Delhi.Gov.In, State Govt. Portal, Portal, India,Citizen Charter,Circular, Notification, Gazette, Tenders, Delhi History, Tourism, Bhagidari, Delhi Transport Corporation, Delhi Metro, 12th Five Year Plan">
+<meta name="Keyphrases" content="State Portal of India, Government Information and services, List of Hospitals Delhi, DDA, Delhi Police, Online Services, Indian Government, Single window access to government websites, State Government Schemes, Acts and Rules">
+
+
+<title>Delhi Govt Portal: Home</title>
+
+
+
+
+
+<!--for slide-horizontal-->
+<link rel="stylesheet" title="" href="css/Slide-horizontals-css.css" type="text/css">
+
+<script type="text/javascript" async="" src="js/ga.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+
+<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+<script type="text/javascript">
+
+function mycarousel_initCallback(carousel)
+{
+    // Disable autoscrolling if the user clicks the prev or next button.
+    carousel.buttonNext.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    carousel.buttonPrev.bind('click', function() {
+        carousel.startAuto(0);
+    });
+
+    // Pause autoscrolling if the user moves with the cursor over the clip.
+    carousel.clip.hover(function() {
+        carousel.stopAuto();
+    }, function() {
+        carousel.startAuto();
+    });
+};
+
+jQuery(document).ready(function() {
+    jQuery('#mycarousel').jcarousel({
+        auto: 2,
+        wrap: 'last',
+        initCallback: mycarousel_initCallback
+    });
+});
+
+</script>
+
+<!--for nicescroll-->
+
+
+
+<script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+
+
+
+<script>
+  $(document).ready(function() {
+  
+	var nice = $("html").niceScroll();  // The document page (body)
+	
+	$("#div1").html($("#div1").html()+' '+nice.version);
+    
+    $("#scroll").niceScroll({touchbehavior:true}); // First scrollable DIV
+    
+    // Customizable cursor
+    // $("#boxscroll").niceScroll({touchbehavior:false,cursorcolor:"#00F",cursoropacitymax:0.7,cursorwidth:11,cursorborder:"1px solid #2848BE",cursorborderradius:"8px"}).cursor.css({"background-image":"url(img/mac6scroll.png)"}); // MAC like scrollbar
+
+    $("#scroll2").niceScroll("#contentscroll2",{cursorcolor:"#F00",cursoropacitymax:0.7,boxzoom:true,touchbehavior:true});  // Second scrollable DIV
+    $("#boxframe").niceScroll("#scroll3",{cursorcolor:"#0F0",cursoropacitymax:0.7,boxzoom:true,touchbehavior:true});  // This is an IFrame (iPad compatible)
+	
+    $("#scroll4").niceScroll("#scroll4 .wrapper",{boxzoom:true});  // hw acceleration enabled when using wrapper
+    
+/*    
+$("input[type=range]").bind('mousedown touchstart', function (e) {
+    e.stopPropagation();
+});
+*/
+
+  });
+</script>
+<!--end nicescroll-->
+
+
+
+<!-- Accessibility Option JS -->
+<script type="text/javascript">
+// JavaScript Document By Himanshu Verma Last Updaed on 09/11/2010
+var manual_or_random="manual" //"manual" or "random"
+var randomsetting="3 days" //"eachtime", "sessiononly", or "x days (replace x with desired integer)". Only applicable if mode is random.
+
+//////No need to edit beyond here//////////////
+
+function getCookie(Name) { 
+var re=new RegExp(Name+"=[^;]+", "i"); //construct RE to search for target name/value pair
+if (document.cookie.match(re)) //if cookie found
+return document.cookie.match(re)[0].split("=")[1] //return its value
+return null
+}
+
+function setCookie(name, value, days) {
+var expireDate = new Date()
+//set "expstring" to either future or past date, to set or delete cookie, respectively
+var expstring=(typeof days!="undefined")? expireDate.setDate(expireDate.getDate()+parseInt(days)) : expireDate.setDate(expireDate.getDate()-5)
+document.cookie = name+"="+value+"; expires="+expireDate.toGMTString()+"; path=/";
+}
+
+function deleteCookie(name){
+setCookie(name, "moot")
+}
+
+
+function setStylesheet(title, randomize){ //Main stylesheet switcher function. Second parameter if defined causes a random alternate stylesheet (including none) to be enabled
+var i, cacheobj, altsheets=[""]
+for(i=0; (cacheobj=document.getElementsByTagName("link")[i]); i++) {
+if(cacheobj.getAttribute("rel").toLowerCase()=="alternate stylesheet" && cacheobj.getAttribute("title")) { //if this is an alternate stylesheet with title
+cacheobj.disabled = true
+altsheets.push(cacheobj) //store reference to alt stylesheets inside array
+if(cacheobj.getAttribute("title") == title) //enable alternate stylesheet with title that matches parameter
+cacheobj.disabled = false //enable chosen style sheet
+}
+}
+if (typeof randomize!="undefined"){ //if second paramter is defined, randomly enable an alt style sheet (includes non)
+var randomnumber=Math.floor(Math.random()*altsheets.length)
+altsheets[randomnumber].disabled=false
+}
+return (typeof randomize!="undefined" && altsheets[randomnumber]!="")? altsheets[randomnumber].getAttribute("title") : "" //if in "random" mode, return "title" of randomly enabled alt stylesheet
+}
+
+function chooseStyle(styletitle, days){ //Interface function to switch style sheets plus save "title" attr of selected stylesheet to cookie
+if (document.getElementById){
+setStylesheet(styletitle)
+setCookie("mysheet", styletitle, days)
+}
+}
+
+function indicateSelected(element){ //Optional function that shows which style sheet is currently selected within group of radio buttons or select menu
+if (selectedtitle!=null && (element.type==undefined || element.type=="select-one")){ //if element is a radio button or select menu
+var element=(element.type=="select-one") ? element.options : element
+for (var i=0; i<element.length; i++){
+if (element[i].value==selectedtitle){ //if match found between form element value and cookie value
+if (element[i].tagName=="OPTION") //if this is a select menu
+element[i].selected=true
+else //else if it's a radio button
+element[i].checked=true
+break
+}
+}
+}
+}
+
+if (manual_or_random=="manual"){ //IF MANUAL MODE
+var selectedtitle=getCookie("mysheet")
+if (document.getElementById && selectedtitle!=null) //load user chosen style sheet from cookie if there is one stored
+setStylesheet(selectedtitle)
+}
+else if (manual_or_random=="random"){ //IF AUTO RANDOM MODE
+if (randomsetting=="eachtime")
+setStylesheet("", "random")
+else if (randomsetting=="sessiononly"){ //if "sessiononly" setting
+if (getCookie("mysheet_s")==null) //if "mysheet_s" session cookie is empty
+document.cookie="mysheet_s="+setStylesheet("", "random")+"; path=/" //activate random alt stylesheet while remembering its "title" value
+else
+setStylesheet(getCookie("mysheet_s")) //just activate random alt stylesheet stored in cookie
+}
+else if (randomsetting.search(/^[1-9]+ days/i)!=-1){ //if "x days" setting
+if (getCookie("mysheet_r")==null || parseInt(getCookie("mysheet_r_days"))!=parseInt(randomsetting)){ //if "mysheet_r" cookie is empty or admin has changed number of days to persist in "x days" variable
+setCookie("mysheet_r", setStylesheet("", "random"), parseInt(randomsetting)) //activate random alt stylesheet while remembering its "title" value
+setCookie("mysheet_r_days", randomsetting, parseInt(randomsetting)) //Also remember the number of days to persist per the "x days" variable
+}
+else
+setStylesheet(getCookie("mysheet_r")) //just activate random alt stylesheet stored in cookie
+} 
+}
+</script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/fluidtextresizer.js"></script>
+
+<script type="text/javascript">
+
+var mytextsizer=new fluidtextresizer({
+	controlsdiv: "sizecontroldiv", //id of special div containing your resize controls. Enter "" if not defined
+	targets: ["h1","h2","h3","h4","p","div","a","td","th","span","li","iframe"], //target elements to resize text within: ["selector1", "selector2", etc]
+	levels: 2, //number of levels users can magnify (or shrink) text
+	persist: "session", //enter "session" or "none"
+	animate: 0 //animation duration of text resize. Enter 0 to disable
+})
+
+</script>
+<!-- Accessibility Option JS End -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16389149-1']);
+  _gaq.push(['_setDomainName', '.164.100.72.17']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style>
+.importantupdate {font-family:Verdana, Arial, Helvetica, sans-serif; margin-top:0; text-align:left }
+.importantupdate li{ color:#003366}
+.importantupdate li a{ color:#003366; font-size:12px; font-weight:bold }
+.importantupdate li a:hover{ color:#333333}
+.zw011:hover{text-decoration:underline}
+
+</style>
+<link rel="stylesheet" title="" href="css/new_style.css" type="text/css">
+
+
+<!--   Video Slider  JS and CSS start -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/amazingslider.js"></script>
+<link rel="stylesheet" title="" href="css/amazingslider-1.css" type="text/css">
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+
+    var scripts = document.getElementsByTagName("script");
+
+    var jsFolder = "";
+
+    for (var i= 0; i< scripts.length; i++)
+
+    {
+
+        if( scripts[i].src && scripts[i].src.match(/initslider-1\.js/i))
+
+            jsFolder = scripts[i].src.substr(0, scripts[i].src.lastIndexOf("/") + 1);
+
+    }
+
+    jQuery("#amazingslider-1").amazingslider({
+
+        sliderid:1,
+
+        jsfolder:jsFolder,
+
+        width:300,
+
+        height:180,
+
+        skinsfoldername:"",
+
+        loadimageondemand:false,
+
+        videohidecontrols:false,
+
+        donotresize:false,
+
+        enabletouchswipe:true,
+
+        fullscreen:false,
+
+        autoplayvideo:false,
+
+        addmargin:true,
+
+        randomplay:false,
+
+        isresponsive:false,
+
+        pauseonmouseover:false,
+
+        playvideoonclickthumb:true,
+
+        slideinterval:5000,
+
+        fullwidth:false,
+
+        transitiononfirstslide:false,
+
+        scalemode:"fill",
+
+        loop:0,
+
+        autoplay:false,
+
+        navplayvideoimage:"play-32-32-0.png",
+
+        navpreviewheight:60,
+
+        timerheight:1,
+
+        descriptioncssresponsive:"font-size:12px;",
+
+        shownumbering:false,
+
+        skin:"Light",
+
+        addgooglefonts:true,
+
+        navshowplaypause:true,
+
+        navshowplayvideo:false,
+
+        navshowplaypausestandalonemarginx:8,
+
+        navshowplaypausestandalonemarginy:8,
+
+        navbuttonradius:0,
+
+        navthumbnavigationarrowimageheight:32,
+
+        navpreviewarrowheight:8,
+
+        lightboxshownavigation:false,
+
+        showshadow:false,
+
+        navfeaturedarrowimagewidth:16,
+
+        navpreviewwidth:120,
+
+        googlefonts:"Inder",
+
+        navborderhighlightcolor:"",
+
+        bordercolor:"#ffffff",
+
+        lightboxdescriptionbottomcss:"{color:#333; font-size:12px; font-family:Arial,Helvetica,sans-serif; overflow:hidden; text-align:left; margin:4px 0px 0px; padding: 0px;}",
+
+        lightboxthumbwidth:80,
+
+        navthumbnavigationarrowimagewidth:32,
+
+        navthumbtitlehovercss:"text-decoration:underline;",
+
+        texteffectresponsivesize:600,
+
+        navcolor:"#999999",
+
+        arrowwidth:48,
+
+        texteffecteasing:"easeOutCubic",
+
+        texteffect:"slide",
+
+        lightboxthumbheight:60,
+
+        navspacing:4,
+
+        navarrowimage:"navarrows-28-28-0.png",
+
+        ribbonimage:"ribbon_topleft-0.png",
+
+        navwidth:109,
+
+        navheight:72,
+
+        arrowimage:"/wps/wcm/connect/a927830048d82301a232fb7a2b587979/arrows-48-48-4.png?MOD=AJPERES&lmod=-1963008805&CACHEID=a927830048d82301a232fb7a2b587979",
+
+        timeropacity:0.6,
+
+        arrowhideonmouseleave:1000,
+
+        navthumbnavigationarrowimage:"/wps/wcm/connect/f0743a8048d82326a236fb7a2b587979/carouselarrows-32-32-3.png?MOD=AJPERES&lmod=-1963020120&CACHEID=f0743a8048d82326a236fb7a2b587979",
+
+        navshowplaypausestandalone:false,
+
+        texteffect1:"slide",
+
+        navpreviewbordercolor:"#ffffff",
+
+        texteffect2:"slide",
+
+        customcss:"",
+
+        ribbonposition:"topleft",
+
+        navthumbdescriptioncss:"display:block;position:relative;padding:2px 4px;text-align:left;font:normal 12px Arial,Helvetica,sans-serif;color:#333;",
+
+        lightboxtitlebottomcss:"{color:#333; font-size:14px; font-family:Armata,sans-serif,Arial; overflow:hidden; text-align:left;}",
+
+        arrowstyle:"mouseover",
+
+        navthumbtitleheight:20,
+
+        textpositionmargintop:24,
+
+        buttoncssresponsive:"",
+
+        navswitchonmouseover:false,
+
+     playvideoimage:"/wps/wcm/connect/5ce6dc0048d85e36a46efd7a2b587979/playvideo-64-64-0.png?MOD=AJPERES&lmod=-1963029229&CACHEID=5ce6dc0048d85e36a46efd7a2b587979",
+
+        arrowtop:50,
+
+        textstyle:"static",
+
+        playvideoimageheight:64,
+
+        navfonthighlightcolor:"#666666",
+
+        showbackgroundimage:false,
+
+        navpreviewborder:4,
+
+        navshowplaypausestandaloneheight:48,
+
+        shadowcolor:"#aaaaaa",
+
+        navbuttonshowbgimage:true,
+
+        navbuttonbgimage:"navbuttonbgimage-28-28-0.png",
+
+        textbgcss:"display:block; position:absolute; top:0px; left:0px; width:100%; height:100%; background-color:#333333; opacity:0.6; filter:alpha(opacity=60);",
+
+        textpositiondynamic:"bottomleft",
+
+        navpreviewarrowwidth:16,
+
+        playvideoimagewidth:64,
+
+        buttoncss:"display:block; position:relative; margin-top:8px;",
+
+        navshowpreviewontouch:false,
+
+        bottomshadowimagewidth:110,
+
+        showtimer:true,
+
+        navradius:0,
+
+        navmultirows:false,
+
+        navshowpreview:false,
+
+        navmarginy:16,
+
+        navmarginx:16,
+
+        navfeaturedarrowimage:"featuredarrow-16-8-0.png",
+
+        showribbon:false,
+
+        navstyle:"thumbnails",
+
+        textpositionmarginleft:24,
+
+        descriptioncss:"display:block; position:relative; font:12px \"Lucida Sans Unicode\",\"Lucida Grande\",sans-serif,Arial; color:#fff; margin-top:8px;",
+
+        navplaypauseimage:"navplaypause-48-48-0.png",
+
+        backgroundimagetop:-10,
+
+        timercolor:"#ffffff",
+
+        numberingformat:"%NUM/%TOTAL ",
+
+        navdirection:"horizontal",
+
+        navfontsize:12,
+
+        navhighlightcolor:"#333333",
+
+        texteffectdelay1:1000,
+
+        navimage:"bullet-24-24-5.png",
+
+        texteffectdelay2:1500,
+
+        texteffectduration1:600,
+
+        navshowplaypausestandaloneautohide:true,
+
+        texteffectduration2:600,
+
+        navbuttoncolor:"",
+
+        navshowarrow:false,
+
+        texteffectslidedirection:"left",
+
+        navshowfeaturedarrow:true,
+
+        lightboxbarheight:64,
+
+        titlecss:"display:block; position:relative; font:bold 14px \"Lucida Sans Unicode\",\"Lucida Grande\",sans-serif,Arial; color:#fff;",
+
+        ribbonimagey:0,
+
+        ribbonimagex:0,
+
+        texteffectslidedistance1:120,
+
+        texteffectslidedistance2:120,
+
+        navrowspacing:8,
+
+        navshowplaypausestandaloneposition:"bottomright",
+
+        navshowbuttons:false,
+
+        lightboxthumbtopmargin:12,
+
+        titlecssresponsive:"font-size:12px;",
+
+        navshowplaypausestandalonewidth:48,
+
+        navfeaturedarrowimageheight:8,
+
+        navopacity:0.7,
+
+        textpositionmarginright:24,
+
+        backgroundimagewidth:120,
+
+        textautohide:true,
+
+        navthumbtitlewidth:120,
+
+        navpreviewposition:"top",
+
+        texteffectseparate:false,
+
+        arrowheight:48,
+
+        arrowmargin:0,
+
+        texteffectduration:600,
+
+        bottomshadowimage:"bottomshadow-110-95-4.png",
+
+        border:4,
+
+        lightboxshowdescription:false,
+
+        timerposition:"bottom",
+
+        navfontcolor:"#333333",
+
+        navthumbnavigationstyle:"arrowinside",
+
+        borderradius:0,
+
+        navbuttonhighlightcolor:"",
+
+        textpositionstatic:"bottom",
+
+        texteffecteasing2:"easeOutCubic",
+
+        navthumbstyle:"imageonly",
+
+        texteffecteasing1:"easeOutCubic",
+
+        textcss:"display:block; padding:12px; text-align:left;",
+
+        navbordercolor:"#fff",
+
+        navpreviewarrowimage:"previewarrow-16-8-0.png",
+
+        navthumbtitlecss:"display:block;position:relative;padding:2px 4px;text-align:left;font:bold 14px Arial,Helvetica,sans-serif;color:#333;",
+
+        showbottomshadow:false,
+
+        texteffectslidedistance:30,
+
+        texteffectdelay:500,
+
+        textpositionmarginstatic:0,
+
+        backgroundimage:"",
+
+        navposition:"bottom",
+
+        texteffectslidedirection1:"right",
+
+        navborder:2,
+
+        textformat:"Bottom bar",
+
+        texteffectslidedirection2:"right",
+
+        bottomshadowimagetop:98,
+
+        texteffectresponsive:true,
+
+        shadowsize:5,
+
+        lightboxthumbbottommargin:8,
+
+        textpositionmarginbottom:24,
+
+        lightboxshowtitle:true,
+
+        transition:"",
+
+        scalemode:"fill",
+
+        isfullscreen:false,
+
+        textformat: {
+
+
+
+        }
+
+    });
+
+});
+</script>
+
+<!--   Video Slider  JS and CSS end -->
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-16389149-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-16389149-1');
+</script>
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="1002">
+<tbody><tr>
+  
+<!--<td class="norepeat"  colspan="3" style='background:url(/wps/wcm/connect/1f153100450ec4c191bebfa64082a70b/independence-day.jpg?MOD=AJPERES&lmod=-1016579080&CACHEID=1f153100450ec4c191bebfa64082a70b) no-repeat;'>-->
+
+
+<td class="norepeat" background="images/banner.jpg" colspan="3">
+  <table border="0" width="100%" cellpadding="0">
+  <tbody><tr><td rowspan="4" width="310">
+
+<a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/delhi+home"><img border="0" src="images/logo.gif" alt="Delhi Govt. Logo"></a>
+
+</td><td colspan="6" height="34"> 
+
+</td></tr>
+
+<tr>
+    <td align="center"><img height="65" src="images/img1.jpg" width="111" alt="Red Fort"></td>
+    <td align="center"><img height="65" src="images/img2.jpg" width="111" alt="India Gate"></td> 
+    <td align="center"><img height="65" src="images/img3.jpg" width="111" alt="Old Delhi Secretariat"></td>
+    <td align="center"><img height="65" src="images/img4.jpg" width="111" alt="Delhi Secretariat"></td>
+    <td align="center"><img height="65" src="images/img5.jpg" width="111" alt="Delhi Metro"></td> 
+    <td align="center"><img height="65" src="images/img6.jpg" width="111" alt="DTC"></td>
+</tr>
+  
+  <tr><td colspan="6" height="30" align="right" valign="bottom"><table width="100%" border="0" cellpadding="0">
+  <tbody><tr>
+    <td width="50%" align="right"><span style="color:blue; font-size:14px;font-weight:bold"><!--<marquee direction="left" behavior="scroll" scrollamount="2">Currently running on Beta Version</marquee>--></span></td>
+    <td align="right">
+<form action="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/search+results/Results" target="_blank" id="cse-search-box">
+  <div style="width:300px; margin:0; float:right">
+    <input type="hidden" name="cx" value="005353914135659445069:wt_bv4tf_ja">
+    <input type="hidden" name="cof" value="FORID:9">
+    <input type="hidden" name="ie" value="UTF-8">
+    <input type="text" name="q" size="20" style="height:15px;">
+    <input type="submit" name="sa" value="Search">
+  </div>
+</form></td>
+  </tr>
+</tbody></table>
+</td></tr>
+  <tr><td colspan="5" height="26" class="breadcrumb" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/delhi+home" title="Delhi Home">Home</a></td>
+   <td width="8%" height="26" align="right" valign="top" class="breadcrumb"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt+hindi/home" title="Delhi Home Hindi">हिन्दी</a></td>
+  </tr>
+  </tbody></table></td>
+  </tr>
+  <tr>
+  <td width="176" rowspan="2" valign="top" background="images/7.jpg" class="bg_repeat">
+ 
+
+
+
+
+ <!--  Minister Table  Start -->
+  
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+  	<tbody><tr><td class="minister" align="center" height="25" width="176" valign="middle">Lt. Governor</td></tr>
+	<tr><td align="center" valign="middle" height="100"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/aboutgov/about+lt+gov" title="About Lt. Gov"><img src="images/Shri+Anil+Baijal+Hon&#39;ble+LG.JPG" border="0" alt="Sh. Anil Baijal" width="75" height="95"></a></td>
+	</tr>
+	<tr>
+	  <td class="botlink" align="center" height="25" valign="middle"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/aboutgov/about+lt+gov" title="Sh. Anil Baijal">Sh. Anil Baijal</a></td>
+	</tr>
+</tbody></table>
+
+
+  <!--  Minister Table  End -->
+
+
+
+  <table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td width="176"><img border="0" height="1" src="images/4.jpg" width="176" alt="Line Image"></td>
+    </tr>
+    <tr>
+      <td>
+	  
+	  <a name="mainnav">
+ 
+	  
+	  
+	  
+	  
+	  
+	  </a></td>
+      </tr>
+
+
+
+   <tr>
+      <td width="176"><img border="0" height="1" src="images/4.jpg" width="176" alt="Line Image"></td>
+    </tr>
+  </tbody></table>  
+  
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" height="100">
+  <tbody><tr>
+    <td align="center" valign="middle">
+	
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="150" class="subheading">
+<a href="http://esla.164.100.72.17/" title="e-SLA" target="_blank">
+e-SLA</a></td></tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+<tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="150" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/DoIT_IT/doit_it/home/acts+and+rule/the+delhi+(right+of+citizen+to+time+bound+delivery+of+services)+act%2C+2011" target="_blank" title="e-SLA Notifications">
+e-SLA Notifications</a></td></tr>
+</tbody></table>
+
+
+	
+	<!-- Left Navigator Start -->
+	
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" name="" border="0" height="12" width="14" alt="Bullet Image"></td>
+    <td width="150" class="subheading">
+
+
+
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Citizen+Charter/" title="Citizen Charter">Citizen Charter</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/For+Employees/" title="For Employees">For Employees</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="departments.html" title="Departments">Departments</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Acts+and+Rules" title="Acts and Rules">Acts and Rules</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Application+Form" title="Application Form">Application Form</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Imp+Schemes" title="Imp Schemes">Imp Schemes</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Orders" title="Orders">Orders</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Circulars" title="Circulars">Circulars</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Gazette+Notification" title="Gazette Notification">Gazette Notification</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Tenders" title="Tenders">Tenders</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Right+To+Information+Applications+and+Appeals" title="Right To Information Application/Appeal">Right To Information Application/Appeal</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Commission+of+Inquiry" title="Commission of Inquiry">Commission of Inquiry</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/Important+Updates" title="Important Updates">Important Updates</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/RTI+Manuals+CM+Office" title="RTI Manuals CM Office">RTI Manuals CM Office</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+    </tr>
+    <tr>
+      <td height="20"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="15"></td>
+    <td class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home/open+spaces+for+fire+cracking" title="Open spaces for fire cracking">Open spaces for fire cracking</a></td>
+    </tr>
+    <tr>
+      <td colspan="2"><img src="images/4(1).jpg" border="0" alt="Bullet Image" width="175" height="1"></td>
+    </tr>
+
+
+</tbody></table>
+
+
+
+<!-- Photo Start -->
+	  
+	 <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+         <tr>
+            <td width="16%" height="19">
+
+<img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14">
+
+</td>
+            <td width="84%" class="subheading"><a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/home/publication/delhi+monthly+magazine/delhi+monthly+magazine" title="Publication" target="_blank">Publication</a></td>
+          </tr>
+ <tr>
+            <td colspan="2" width="176">
+<img src="images/4(1).jpg" border="0" alt="Line Image" width="175" height="1"></td>
+          </tr>  
+         <tr>
+            <td width="16%" height="19">
+
+<img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14">
+
+</td>
+     <!--       <td width="84%" class="subheading"><a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/default/photo+gallery" title="Photo Gallery" target="_blank" >Photo Gallery</a></td>
+          </tr>
+
+<tr>
+            <td colspan="2" width="176">
+<img src="/wps/wcm/connect/dbfcfd00426442a88fd09f49442c8380/4.jpg?MOD=AJPERES&amp;lmod=-380808466&amp;CACHEID=dbfcfd00426442a88fd09f49442c8380" border="0" alt="Line Image" width="175" height="1"  /></td>
+          </tr>
+     
+
+         <tr>
+            <td width="16%" height="19">
+
+
+<img src="/DoIT/Common/3a.gif" ALT="Bullet Image" name="" border="0" height="12" width="14">
+
+</td>
+            <td width="84%" class="subheading"><a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/default/video+gallery" title="Video Gallery" target="_blank" >Video Gallery</a></td>
+          </tr>
+   <tr>
+            <td colspan="2" width="176">
+<img src="/wps/wcm/connect/dbfcfd00426442a88fd09f49442c8380/4.jpg?MOD=AJPERES&amp;lmod=-380808466&amp;CACHEID=dbfcfd00426442a88fd09f49442c8380" border="0" alt="Line Image" width="175" height="1"  /></td>
+          </tr> 
+   
+        </tbody>
+      </table>	  
+
+
+	  
+	  
+   <!-- Photo End -->  
+
+	 </tr></tbody></table><table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+
+            <td class="subheading"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/default/e+office" title="E Office"><img src="images/eofficelogo.jpg" border="0" alt="e-Office Logo" width="176" height="35"></a></td>
+          </tr>
+</tbody></table>
+
+
+
+	  
+
+
+<!--Digital Payment-->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td align="center" valign="middle">
+<a href="http://niti.gov.in/content/digital-payments" title="Digital Payments | Pay Digitally" target="_blank&quot;">
+<img src="images/digital+payment.png" border="0" alt="Digital Payments" width="175" height="40" format="url">
+</a>
+</td>
+    </tr>
+
+</tbody></table>
+
+<!--Digital Payment-->
+
+<!--for Digital India Logo-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td align="center" valign="middle">
+<a href="http://digitalindia.gov.in/" title="Digital India Programme | Department of Electronics &amp; Information Technology, Government of India" target="_blank&quot;">
+<img src="images/Digital+India+logo.jpg" border="0" alt="Digital India logo" width="175" height="70" format="url">
+</a>
+</td>
+    </tr>
+</tbody></table>
+
+<!--for Digital India Logo-->
+
+<!--for ECI-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td style="text-align:center" align="center" valign="middle" class="subheading">
+<video width="100%" controls="">
+<source src="http://164.100.72.17/DoIT/DOIT/eci.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
+Voter Awareness Video
+</td>
+    </tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td style="text-align:center" align="center" valign="middle" class="subheading">
+<video width="100%" controls="">
+<source src="http://164.100.72.17/DoIT/DOIT/aware.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
+Voter Awareness Video
+</td>
+    </tr>
+</tbody></table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td style="text-align:center" align="center" valign="middle" class="subheading">
+<video width="100%" controls="">
+<source src="http://164.100.72.17/DoIT/DOIT/msg.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
+Voter Awareness Video
+</td>
+    </tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td style="text-align:center" align="center" valign="middle" class="subheading">
+<video width="100%" controls="">
+<source src="http://164.100.72.17/DoIT/DOIT/4spot.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
+Voter Awareness Video
+</td>
+    </tr>
+</tbody></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>
+<td style="text-align:center" align="center" valign="middle" class="subheading">
+<video width="100%" controls="">
+<source src="http://164.100.72.17/DoIT/DOIT/vid.mp4" type="video/mp4">
+Your browser does not support HTML5 video.
+</video>
+Voter Awareness Video
+</td>
+    </tr>
+</tbody></table>
+
+
+<!--End for ECI-->
+
+  <!-- For start National Conference on e-Governance start Photo  -->  
+
+ <!-- <table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+
+            <td class="subheading"><a href="/wps/wcm/connect/DoIT/delhi+govt/default/e+office" title="E Office" ><img src="/wps/wcm/connect/567f9e0049ce873aaa4fea124fa22605/eofficelogo.jpg?MOD=AJPERES&amp;lmod=-1157075358&amp;CACHEID=567f9e0049ce873aaa4fea124fa22605" border="0" alt="e-Office Logo" width="176" height="35"  /></a></td>
+          </tr>
+</table>
+
+
+
+  -->	
+
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+
+            <td class="subheading"> <a href="https://nceg.gov.in/" title="National Conference on e-Governance" target="_blank"> <img src="images/nceg.JPG" border="0" alt="National Conference on e-Governance" width="176" height="35" format="url"> </a></td>
+          </tr>
+</tbody></table>
+
+
+ 
+    
+
+
+ <!-- For start National Conference on e-Governance Photo End -->  
+
+
+<!--for Digital India Week-->
+<!--<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tr>
+<td align="center" valign="middle">
+<a href="/wps/wcm/connect/243c178048ee7c4d81abb58215dd503f/Celebrates_Digital_India_Week_Banner.jpg?MOD=AJPERES&lmod=1188696241&CACHEID=243c178048ee7c4d81abb58215dd503f" title="Digital India Week" target="_blank" >
+<img src="/wps/wcm/connect/243c178048ee7c4d81abb58215dd503f/Celebrates-Digital-India-Week_Banner.jpg?MOD=AJPERES&amp;lmod=1126380446&amp;CACHEID=243c178048ee7c4d81abb58215dd503f" width="176," height="85," alt="Digital India Week" format="url"/></a>
+</td>
+    </tr>
+</table>-->
+
+
+<!-- Left Links Additional -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">    
+<tbody><tr>      
+    <td width="150" class="subheading" height="50px"></td>
+    </tr>
+     <tr> 
+    <td align="center" valign="middle">
+<a href="http://www.india.gov.in/" title="The National Portal of India" target="_blank"><img src="images/transparent_banner.gif" alt="The National Portal of India" name="" border="0" height="34" width="128"></a>
+
+</td>
+    </tr>
+
+
+</tbody></table>
+
+<!-- Left Links Additional -->
+
+<!--<div align="center"><a href="/wps/wcm/connect/DoIT/delhi+govt/archives/news+archives" > <img src="/wps/wcm/connect/358414004ea17337a50eff3e25b30a7e/News_Archives.png?MOD=AJPERES&amp;lmod=-380720486&amp;CACHEID=358414004ea17337a50eff3e25b30a7e" border="0"  /> </a></div>-->
+
+     <!-- Left Navigator End -->
+
+
+<br>
+	
+	</td>
+  </tr>
+
+
+
+  <tr><td align="center" valign="middle">  </td></tr>
+
+
+
+  </tbody></table>
+  
+  </td>
+  <td width="638" align="left" valign="top">
+<a name="maincontent">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+    <tbody>
+      <tr bgcolor="#e5e2dc">
+        <td valign="top" bgcolor="#ffffff"><table width="628" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td valign="top" width="628"><img height="25" src="images/wel.jpg" width="628" alt="Welcome to the Portal of Government of NCT of Delhi"></td>
+              </tr>
+            </tbody>
+          </table>
+
+
+<!--   Ticker for Press Release    -->
+<marquee border="0" bgcolor="#C4C4FF" style="font-weight: normal" height="23" width="628" direction="left" behavior="scroll" scrollamount="5" onmouseover="this.stop();" onmouseout="this.start();">
+
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/cm+announces%2C+18th+may+2016" target="_blank">CM announces public consultation on Delhi statehood bill</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/power+minister%2C+17th+may+2016" target="_blank">Getting electricity connection becomes simpler in Delhi</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/summer+camp+in+delhi%2C+12th+may+2016" target="_blank">Summer Camps at Delhi Government Schools a mega hit</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/cabinet+approve%2C+05th+may+2016" target="_blank">Delhi Cabinet approves setting up of a Memorial on Hon’ble former President Late Dr. APJ Abdul Kalam</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/4799+candidates+allotted+schools%2C++24th+may+2016" target="_blank">4799 candidates allotted schools in second round of draw of lots for EWS/DG category admissions</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/delhi+water+minister+sh.+kapil+mishra+%2C+24th+may+2016" target="_blank">Delhi Jal Board (DJB) presents comprehensive plan to clean and restore the ecological value of the river Yamuna</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+<!--
+
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/bijli+vivad+samadhan+scheme%2C+29th+february+2016" target="_blank" >DELHI GOVERNMENT PROVIDES RELIEF TO AGRICULTURISTS WITH INCLUSION OF TUBE WELL CONNECTIONS UNDER THE BIJLI BILL VIVAD SAMADHAN SCHEME</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/cabines+decision%2C+24th+february+2016" target="_blank" >Delhi Government to give an appropriate job to Late Rohit Vemula’s brother </a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/govt+felicitates+pwd%2C+19th+february+2016" target="_blank" >Govt felicitates PWD engineers for their work during recent MCD strike</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/deputy+chief+minister+gives+prizes+to+the+winners+of+bill+banvao+inam+pao+scheme%2C+15th+february+2016" target="_blank" >30-AWARDED UNDER BILL BANVAO INAM PAO SCHEME</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/djb+mobile+app+function+press+release%2C+22th++january+2016" target="_blank" >CHIEF MINISTER LAUNCHES ANDROID BASED MOBILE APP “mSeva” OF DJB</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/cabinet+approves+creation+of+delhi+healthcare+corporation%2C+30th+september+2015" title="Cabinet approves creation of Delhi Healthcare Corporation" target="_blank" >Cabinet approves creation of Delhi Healthcare Corporation</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/deputy+cm+initiates+smc+dialogue+for+1100+delhi+schools%2C+19th+september+2015" title="Deputy CM initiates SMC Dialogue for 1100 Delhi schools" target="_blank" >Deputy CM initiates SMC Dialogue for 1100 Delhi schools</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="/wps/wcm/connect/DOIT_Publicity/information+and+publicity/press+release/chief+minister/locations+of+55+fever+clinics+announced+to+function+from+monday+morning%2C19th+september+2015" title="Locations of 55 Fever Clinics opened by Delhi Government" target="_blank" >Locations of 55 Fever Clinics opened by Delhi Government</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+-->
+
+</marquee>
+
+
+            <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="#ffffff" height="12"></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Health</font></td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/health.jpg" width="96" alt="Health"></td>
+                          <td valign="top" width="57%"><!--begin 117099-10907-1-->
+                              <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_Health/health/home/family+welfare/" title="Family Welfare" target="_blank" class="txt112">Family Welfare </a></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_Health/health/home/hospitals/delhi+govt.+hospital" title="List of Hospitals" target="_blank" class="txt112">List of Hospitals </a></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DOIT_WCD/wcd/home" title="Child Care" target="_blank" class="txt112">Child Care</a></td>
+                                  </tr> 
+								  <tr>
+                                    <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_Health/health/home/blood+bank" title="Blood Bank" target="_blank" class="txt112">Blood Bank</a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            <!--end 117099-10907-1-->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="92%" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                 </td>
+                  <td valign="top" width="1" bgcolor="#e5e2dc"></td>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff" height="107"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Education</font></td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/education.jpg" width="96" alt="Education"></td>
+                          <td class="style6" valign="top" width="57%"><!--begin 
+
+117101-10908-1-->
+                              <table width="100%" border="0" cellpadding="0">
+
+
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/education+link/elementary+education" title="Elementary Education" target="_blank" class="zw011">Elementary Education</a> </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left">
+                                    <a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/education+link/universities+and+technical+institutions?useDefaultDesc=0" title="Universities and Technical Institutions" target="_blank" class="zw011">Universities and Technical Institutions</a> </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="9%" align="left"><img src="images/list.gif" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_HE/higher+education/home" title="Higher Education" target="_blank" class="zw011">Higher Education </a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            <!--end 117101-10908-1-->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="92%" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    <!--begin 117102-10908-1-->
+                      <!--end 117102-10908-1-->
+                      <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                </tr>
+              </tbody>
+            </table>
+          <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td height="3"></td>
+                </tr>
+                <tr>
+                  <td background="images/xx02.gif" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="2"></td>
+                </tr>
+              </tbody>
+            </table>
+          <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="#ffffff" height="4"></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Employment/Business</font></td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/employment.jpg" width="96" alt="Employment/Business"></td>
+                          <td class="style6" valign="top" width="57%"><!--begin 
+
+
+117103-10909-1-->
+                              <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="9%" align="left"><img src="images/list.gif" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/doit_dsssb/Delhi+Subordinate+Services+Selection+Board/Home/Notice+of+Exam+and+Circulars" title="Recruitments" target="_blank" class="txt112">Recruitments </a></td>
+                                  </tr>
+                                  <tr>
+                                    <td class="zw011" valign="top" align="left"><img src="images/list.gif" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DOIT_DOE/doe/home" title="Employment Exchange" target="_blank" class="txt112">Employment Exchange </a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/delhi+home/tenders" title="Tenders" target="_blank" class="txt112">Tenders</a></td>
+
+
+
+                                 </tr>
+                                </tbody>
+                            </table>
+                            <!--end 117103-10909-1-->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="92%" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    <!--begin 117104-10909-1-->
+                      <!--end 117104-10909-1-->
+                      <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                  <td valign="top" width="1" bgcolor="#e5e2dc"></td>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff" height="107"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Housing</font></td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/housing.jpg" width="96" alt="Housing"></td>
+                          <td class="style6" valign="top" width="57%"><!--begin 
+
+117105-10910-1-->
+                              <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://dda.org.in/home.htm" title="DDA" target="_blank" class="txt112">DDA</a> </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left"><a href="http://www.mcdpropertytax.in/" title="Property Tax" target="_blank" class="txt112">Property Tax</a></td>
+
+
+                                  </tr>
+                                </tbody>
+                              </table>
+                            <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_RCS/rcs/home" title="Registrar Cooperative Societies" target="_blank" class="txt112">Registrar Cooperative Societies </a></td>
+                                  </tr>
+								  <tr>
+                                    <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left" height="16"><a href="http://delhishelter.nic.in/" title="DUSIB - Rehabilitation of JJ Basties" target="_blank" class="txt112">DUSIB - Rehabilitation of JJ Basties</a></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            <!--end 117105-10910-1-->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="92%" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                          <tr>
+                            <td height="5"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    <!--begin 117106-10910-1-->
+                      <!--end 117106-10910-1-->
+                      <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                </tr>
+              </tbody>
+            </table>
+          <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td height="3"></td>
+                </tr>
+                <tr>
+                  <td background="images/xx02.gif" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="3"></td>
+                </tr>
+              </tbody>
+            </table>
+          <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="#ffffff" height="4"></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Anti Corruption</font></td>
+                        </tr>
+                        <tr>
+                          <td width="43%" align="center"><img src="images/anti_corruption.jpg" border="0" alt="Anti Corruption"></td>
+                          <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="zw011" valign="center" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                  <td class="zw011" valign="top" width="87%" align="left" height="16">
+
+<a href="http://164.100.72.17/wps/wcm/connect/Lib_Vigilance/vigilance/home/anti+corruption+branch" title="Anti Corruption Branch" target="_blank" class="txt112">Anti Corruption Branch</a></td>
+                                </tr>
+                              </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td height="5"></td>
+                                </tr>
+                                <tr>
+                                  <td height="5"></td>
+                                </tr>
+                              </tbody>
+                          </table></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                  <td valign="top" width="1" bgcolor="#e5e2dc"></td>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff" height="80"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Law &amp; Order </font></td>
+                        </tr>
+                        <tr>
+                          <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/law.jpg" width="96" alt="Law &amp; Order"></td>
+                          <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                  <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/law/judiciary" title="Judiciary" target="_blank" class="txt112">Judiciary</a></td>
+
+
+
+
+
+
+                                </tr>
+                                <tr>
+                                  <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                  <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/law/traffic+police" title="Traffic Police" target="_blank" class="txt112">Traffic Police</a></td>
+
+
+
+
+
+
+
+
+
+                                </tr>
+                              </tbody>
+                          </table>
+                              <table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                    <td class="zw011" valign="top" align="left" height="16"><a href="http://www.delhipolice.nic.in/" title="Delhi Police" target="_blank" class="txt112">Delhi Police</a></td>
+
+                                  </tr>
+								   <tr>
+                                    <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td><td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/psara/psara" title="Private Security Agencies Regulation Act(PSARA)" target="_blank" class="txt112">Private Security Agencies Regulation Act(PSARA)</a></td></tr>
+                                </tbody>
+                            </table>
+
+
+<!--<table width="100%" border="0" cellpadding="0">
+                                <tbody>
+                                  <tr>
+                                    <td class="zw011" valign="top" width="10%" 
+
+align="left"><img src="/DoIT/Delhi_Home/list.gif?MOD=AJPERES"/></td>
+                                    <td class="zw011" valign="top" align="left" 
+
+height="16"><a href="/wps/wcm/connect/DoIT/delhi+govt/law/anti+corruption+branch" title="Anti Corruption Branch" target="_blank"  class="txt112">Anti Corruption Branch</a></td>
+                                  </tr>
+                                </tbody>
+                            </table>-->
+</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td height="5"></td>
+                                </tr>
+                                <tr>
+                                  <td height="5"></td>
+                                </tr>
+                              </tbody>
+                          </table></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                </tr>
+              </tbody>
+            </table>
+		   <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td height="3"></td>
+                </tr>
+                <tr>
+                  <td background="images/xx02.gif" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="3"></td>
+                </tr>
+              </tbody>
+            </table>
+          <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" bgcolor="#ffffff" height="4"></td>
+                </tr>
+                <tr>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+
+                      <tbody>
+                        <tr>
+                          <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Senior Citizen Corner </font></td>
+                        </tr>
+                        <tr>
+                          <td width="43%" align="center"><img border="0" height="48" src="images/citizen.jpg" width="96" alt="Senior Citizen Corner"></td>
+                          <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                  <td class="zw011" valign="top" width="87%" align="left" height="16">
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_SocialWelfare/socialwelfare+new/home/our+services/social+security+and+old+age-welfare" title="Old Age Pension" target="_blank" class="txt112">Old Age Homes </a>
+</td>
+                                </tr>
+                                <tr>
+                                  <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                  <td class="zw011" valign="top" align="left" height="16">
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_SocialWelfare/socialwelfare+new/home/our+services/financial+assistance+welfare+scheme+details+and+notifications+etc/online+status+of+old+age+and+handicapped+pension." title="Old Age Assistance Scheme" target="_blank" class="txt112">Old Age Assistance Scheme</a></td>
+                                </tr>
+                                <tr>
+                                  <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                  <td class="zw011" valign="top" align="left" height="16">
+<a href="http://164.100.72.17/wps/wcm/connect/641ea880429df73082d5d6bca2eb2af4/District_wise_Recreation_Centres_+for_+Senior_Citizens+.pdf?MOD=AJPERES&amp;lmod=-366926207&amp;CACHEID=641ea880429df73082d5d6bca2eb2af4" title="Sr. Citizen&#39;s Recreation Centers" target="_blank" class="txt112">Sr. Citizen's Recreation Centers </a></td>
+                                </tr>
+                              </tbody>
+                          </table></td>
+                        </tr>
+                        <tr>
+                          <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                              <tbody>
+                                <tr>
+                                  <td height="5"></td>
+                                </tr>
+                                <tr>
+                                  <td height="5"></td>
+                                </tr>
+                              </tbody>
+                          </table></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                  <td valign="top" width="1" bgcolor="#e5e2dc"></td>
+                  <td valign="top" width="292" align="center" bgcolor="#ffffff" height="80"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Home and Community</font></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/banking.jpg" width="96" alt="Home and Community"></td>
+                        <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                            <tbody>
+                              <tr>
+                                <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                <td class="zw011" valign="top" width="89%" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/doit_ar/Administrative+Reforms/Home/Citizen+Charter/" title="Citizen Charter" target="_blank" class="txt112">Citizen Charter </a></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                            <table width="100%" border="0" cellpadding="0">
+                              <tbody>
+                                <tr>
+                                  <td class="zw011" valign="top" width="10%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                  <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/community/birth+certificate" title="Birth Certificate" target="_blank" class="txt112">Birth Certificate</a> </td>
+                                </tr>
+                                <tr>
+                                  <td class="zw011" valign="top" width="10%" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                  <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/community/marriage+certificate+and+registration" title="Marriage Certificate and Registration" target="_blank" class="txt112">Marriage Certificate and Registration</a> </td>
+                                </tr>
+                              </tbody>
+                          </table></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td height="5"></td>
+                              </tr>
+                              <tr>
+                                <td height="5"></td>
+                              </tr>
+                            </tbody>
+                        </table></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <table width="238" border="0" cellpadding="0" cellspacing="0">
+                        <tbody>
+                        </tbody>
+                    </table></td>
+                </tr>
+              </tbody>
+            </table>
+          <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td colspan="3" width="585" bgcolor="#ffffff" height="4"></td>
+                </tr>
+                <tr>
+                  <td colspan="3" valign="top" align="center" bgcolor="#ffffff" height="6"><table width="628" border="0" cellpadding="0" cellspacing="0">
+                      <tbody>
+                        <tr>
+                          <td height="3"></td>
+                        </tr>
+                        <tr>
+                          <td background="images/xx02.gif" height="1"></td>
+                        </tr>
+                        <tr>
+                          <td height="2"></td>
+                        </tr>
+                      </tbody>
+                  </table></td>
+                </tr>
+              </tbody>
+          </table></td>
+      </tr>
+      <tr bgcolor="#e5e2dc">
+        <td valign="top" bgcolor="#ffffff"><table width="628" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td bgcolor="#ffffff" height="20"><table width="628" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td colspan="3" bgcolor="#ffffff" height="4"></td>
+                      </tr>
+                      <tr>
+                        <td valign="top" width="292" align="center" bgcolor="#ffffff"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Travel &amp; Tourism </font></td>
+                              </tr>
+                              <tr>
+                                <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/travel.jpg" width="96" alt="Travel &amp; Tourism"></td>
+                                <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                        <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/travel/delhi+history" title="Delhi History" target="_blank" class="txt112">Delhi History</a></td>
+                                      </tr>
+
+
+
+
+
+
+                                      <tr>
+                                        <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="List"></td>
+                                        <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/travel/places+to+visit" title="Places to Visit" target="_blank" class="txt112">Places to Visit</a>
+
+ </td>
+
+                                     </tr>
+                                    </tbody>
+                                </table>
+                                    <table width="100%" border="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                          <td class="zw011" valign="top" align="left" height="16"><a href="http://passportindia.gov.in/AppOnlineProject/welcomeLink" title="Visa/ Passport" target="_blank" class="txt112">Visa/ Passport</a></td>
+                                        </tr>
+                                      </tbody>
+                                  </table>
+								  
+								  <table width="100%" border="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                          <td class="zw011" valign="top" align="left" height="16"><a href="http://www.delhitourism.gov.in/delhitourism/accommodation/bed_breakfast.jsp" title="Bed &amp; Breakfast" target="_blank" class="txt112">Bed &amp; Breakfast</a></td>
+
+                                        </tr>
+                                      </tbody>
+                                  </table>
+								  
+								  </td>
+                              </tr>
+                              <tr>
+                                <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                      <tr> </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                    </tbody>
+                                </table></td>
+                              </tr>
+
+                            </tbody>
+                        </table></td>
+                        <td valign="top" width="1" bgcolor="#e5e2dc"></td>
+                        <td valign="top" width="292" align="center" bgcolor="#ffffff" height="80"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+                          <tbody>
+                            <tr>
+                              <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Transport</font></td>
+                            </tr>
+                            <tr>
+                              <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/transport.jpg" width="96" alt="Transport"></td>
+                              <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                                  <tbody>
+                                    <tr>
+                                      <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                      <td class="zw011" valign="top" width="89%" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_Transport/transport/home/vehicle+registration/" title="Vehicle Registration" target="_blank" class="txt112">Vehicle Registration</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                      <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/doit_transport/Transport/Home/Driving+Licence/" title="Driving License" target="_blank" class="txt112">Driving License </a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                      <td class="zw011" valign="top" align="left" height="16"><a href="http://www.delhimetrorail.com/" title="Delhi Metro" target="_blank" class="txt112">Delhi Metro</a></td>
+                                    </tr>
+                                    <tr>
+                                      <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                      <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DOIT_DTC/dtc/home" title="DTC" target="_blank" class="txt112">DTC</a></td>
+                                    </tr>
+                                  </tbody>
+                              </table></td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                                  <tbody>
+                                    <tr>
+                                      <td height="5"></td>
+                                    </tr>
+                                    <tr>
+                                      <td height="5"></td>
+                                    </tr>
+                                  </tbody>
+                              </table></td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                      </tr>
+                    </tbody>
+                </table></td>
+              </tr>
+              <tr>
+                <td bgcolor="#ffffff" height="18"><table width="628" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td height="3"></td>
+                      </tr>
+                      <tr>
+                        <td background="images/xx02.gif" height="1"></td>
+                      </tr>
+                      <tr>
+                        <td height="3"></td>
+                      </tr>
+                    </tbody>
+                </table></td>
+              </tr>
+              <tr>
+                <td valign="top" align="center" height="17"><table width="628" border="0" cellpadding="0" cellspacing="0">
+                    <tbody>
+                      <tr>
+                        <td height="40" align="center" valign="top" bgcolor="#ffffff"><table width="85%" border="0" cellpadding="0" cellspacing="0">
+                            <tbody>
+                              <tr>
+                                <td colspan="2" class="btxt121" align="left" height="22"><img height="9" hspace="4" src="images/svs_arrow.gif" width="17" alt="Arrow"><font color="#053b62">Taxes &amp; Finance</font></td>
+                              </tr>
+                              <tr>
+                                <td valign="top" width="43%" align="center"><img border="0" height="48" src="images/taxes.jpg" width="96" alt="Taxes &amp; Finance"></td>
+                                <td class="style6" valign="top" width="57%"><table width="100%" border="0" cellpadding="0">
+                                    <tbody>
+                                      <tr>
+                                        <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                        <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DoIT_TradeAndTaxes/tradeandtaxes/home" title="VAT" target="_blank" class="txt112">VAT</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="zw011" valign="top" width="10%" align="left"><img src="images/list.gif" alt="List"></td>
+                                        <td class="zw011" valign="top" align="left" height="16"><a href="http://164.100.72.17/wps/wcm/connect/DOIT_EXCISE/excise/home" title="Excise" target="_blank" class="txt112">Excise </a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                    <table width="100%" border="0" cellpadding="0">
+                                      <tbody>
+                                        <tr>
+                                          <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                          <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/taxes/property+tax" title="Property Tax" target="_blank" class="txt112">Property Tax</a></td>
+                                        </tr>
+										<tr>
+                                          <td class="zw011" valign="top" width="9%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="List"></td>
+                                          <td class="zw011" valign="top" align="left"><a href="http://164.100.72.17/wps/wcm/connect/Lib_Finance/finance/home" title="Finance" target="_blank" class="txt112">Finance</a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>									</td>
+                              </tr>
+                              <tr>
+                                <td colspan="2" align="center"><table width="92%" border="0" cellpadding="0" cellspacing="0">
+                                    <tbody>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                      <tr>
+                                        <td height="5"></td>
+                                      </tr>
+                                    </tbody>
+                                </table></td>
+                              </tr>
+                            </tbody>
+                          </table>                            </td>
+						  
+                        <td rowspan="4" width="300" align="center" class="helphead" valign="top">
+<!--<Component id="b911138048cbde7fb44bfd7a2b587979:NC9ET0lUX1B1YmxpY2l0eS9uYXZfdmlkZW9fZ2FsbGVyeV9kb2l0X2hvbWU=" name="DOIT_Publicity/nav_video_gallery_doit_home"/>-->
+
+<table border="1" cellpadding="0" cellspacing="5">
+                                    <tbody>
+                                      <tr><!--<td class="helphead" style="text-align:center; color:#330099">Video Gallery</td> </tr> 
+                                       <tr> <td><div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:300px;margin:0px auto 108px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                
+
+
+<li><img src="/wps/wcm/connect/412779804e233847b185fbc9ac4a9f11/20160903.jpg?MOD=AJPERES&lmod=-380514627" alt="The State Teachers Award 2016.
+" data-description="The State Teachers Award 2016.
+" />
+                <video preload="none" src="https://www.youtube.com/embed/BRFJgvRYfcQ" ></video>
+                </li><li><img src="/wps/wcm/connect/bd2875804e233558b16afbc9ac4a9f11/201609062.jpg?MOD=AJPERES&lmod=-380514627" alt="Dy CM @msisodia delivers the keynote for teachers and principals on Teacher's Day.
+" data-description="Dy CM @msisodia delivers the keynote for teachers and principals on Teacher's Day.
+" />
+                <video preload="none" src="https://www.youtube.com/embed/3WDEWAjxkWM" ></video>
+                </li><li><img src="/wps/wcm/connect/b0285b004e233460b15ffbc9ac4a9f11/201609061.jpg?MOD=AJPERES&lmod=-380514627" alt="Tourism Minister @KapilMishraAAP addresses teachers on Teacher's Day 2016.
+" data-description="Tourism Minister @KapilMishraAAP addresses teachers on Teacher's Day 2016.
+" />
+                <video preload="none" src="https://www.youtube.com/embed/n4GpAr8krvA" ></video>
+                </li><li><img src="/wps/wcm/connect/e625dd804e2332aeb143fbc9ac4a9f11/20160906.jpg?MOD=AJPERES&lmod=-380514627" alt="Education Minister Manish Sisodia's Press Conference - 100% ReadAbility, " data-description="Education Minister Manish Sisodia's Press Conference - 100% ReadAbility, " />
+                <video preload="none" src="https://www.youtube.com/embed/Qe6PCzCKO94" ></video>
+                </li><li><img src="/wps/wcm/connect/296fbe804e16ad50b529ffb938b8359b/201609021.jpg?MOD=AJPERES&lmod=-380514627" alt="Shramik Samvad organised by Delhi Government.
+" data-description="Shramik Samvad organised by Delhi Government.
+" />
+                <video preload="none" src="https://www.youtube.com/embed/HlaK-f_5aWQ" ></video>
+                </li><li><img src="/wps/wcm/connect/4eb8cd004e16ab96b51cffb938b8359b/20160902.jpg?MOD=AJPERES&lmod=-380514627" alt="Delhi CM @ArvindKejriwal Speech addresses Shramik Samvad." data-description="Delhi CM @ArvindKejriwal Speech addresses Shramik Samvad." />
+                <video preload="none" src="https://www.youtube.com/embed/hsrG-qfew_Y" ></video>
+                </li><li><img src="/wps/wcm/connect/0a8622004e10b7999df2dfb938b8359b/201608302.jpg?MOD=AJPERES&lmod=-380514627" alt="Felicitation Ceremony of Olympic Medalists at Rio 2016.
+" data-description="Felicitation Ceremony of Olympic Medalists at Rio 2016.
+" />
+                <video preload="none" src="https://www.youtube.com/embed/QcMd1XqnOC0" ></video>
+                </li><li><img src="/wps/wcm/connect/57f17a804e10b6459dd4dfb938b8359b/201608301.jpg?MOD=AJPERES&lmod=-380514627" alt="Deputy CM Manish Sisodia's Press Conference on Recent Transfers.
+" data-description="Deputy CM Manish Sisodia's Press Conference on Recent Transfers.
+" />
+                <video preload="none" src="https://www.youtube.com/embed/eFAqvJo3Nic" ></video>
+                </li><li><img src="/wps/wcm/connect/0626e4004e10b4cf9dbadfb938b8359b/20160830.jpg?MOD=AJPERES&lmod=-380514627" alt="DJB Board Meeting Press Conference by Water Minister Kapil Mishra " data-description="DJB Board Meeting Press Conference by Water Minister Kapil Mishra " />
+                <video preload="none" src="https://www.youtube.com/embed/HuSqg0k2Xh4" ></video>
+                </li><li><img src="/wps/wcm/connect/b06491004df523af97b2dfa2afcc1364/201608221.jpg?MOD=AJPERES&lmod=-380514627" alt="Independence Day Celebrations at Chhatrasal Stadium August 15, 2016 
+
+" data-description="Independence Day Celebrations at Chhatrasal Stadium August 15, 2016 
+
+" />
+                <video preload="none" src="https://www.youtube.com/embed/C9M5QBT0FDA" ></video>
+                </li></ul>
+
+<ul class="amazingslider-thumbnails" style="display:none;"><li><img src="/wps/wcm/connect/412779804e233847b185fbc9ac4a9f11/20160903.jpg?MOD=AJPERES&lmod=-380514627" alt="The State Teachers Award 2016.
+"  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/bd2875804e233558b16afbc9ac4a9f11/201609062.jpg?MOD=AJPERES&lmod=-380514627" alt="Dy CM @msisodia delivers the keynote for teachers and principals on Teacher's Day.
+"  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/b0285b004e233460b15ffbc9ac4a9f11/201609061.jpg?MOD=AJPERES&lmod=-380514627" alt="Tourism Minister @KapilMishraAAP addresses teachers on Teacher's Day 2016.
+"  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/e625dd804e2332aeb143fbc9ac4a9f11/20160906.jpg?MOD=AJPERES&lmod=-380514627" alt="Education Minister Manish Sisodia's Press Conference - 100% ReadAbility, "  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/296fbe804e16ad50b529ffb938b8359b/201609021.jpg?MOD=AJPERES&lmod=-380514627" alt="Shramik Samvad organised by Delhi Government.
+"  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/4eb8cd004e16ab96b51cffb938b8359b/20160902.jpg?MOD=AJPERES&lmod=-380514627" alt="Delhi CM @ArvindKejriwal Speech addresses Shramik Samvad."  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/0a8622004e10b7999df2dfb938b8359b/201608302.jpg?MOD=AJPERES&lmod=-380514627" alt="Felicitation Ceremony of Olympic Medalists at Rio 2016.
+"  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/57f17a804e10b6459dd4dfb938b8359b/201608301.jpg?MOD=AJPERES&lmod=-380514627" alt="Deputy CM Manish Sisodia's Press Conference on Recent Transfers.
+"  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/0626e4004e10b4cf9dbadfb938b8359b/20160830.jpg?MOD=AJPERES&lmod=-380514627" alt="DJB Board Meeting Press Conference by Water Minister Kapil Mishra "  width="240px" height="144px"/></li><li><img src="/wps/wcm/connect/b06491004df523af97b2dfa2afcc1364/201608221.jpg?MOD=AJPERES&lmod=-380514627" alt="Independence Day Celebrations at Chhatrasal Stadium August 15, 2016 
+
+"  width="240px" height="144px"/></li></ul>
+            
+
+
+<div class="amazingslider-engine"></div>
+
+</div>
+</div></td>-->
+                                      </tr>                                      
+                                    </tbody>
+                                </table>
+
+
+
+
+</td>
+                      </tr>
+                      <tr>
+
+
+                    
+					    <td background="images/xx02.gif" height="1"></td>
+                      </tr>
+<!-- Help Line Starts -->
+<style>
+.helphead{
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #8A1C1C;
+    text-align: centre;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.help1{
+    font-family: "Arial","Helvetica","sans-serif";
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    font-weight:bold;
+}
+</style>					  
+                      <tr>
+                        <td class="helphead" height="40" align="center" valign="middle" bgcolor="#ffffff">Helpline Center</td>
+                      </tr>
+                      <tr>
+                        <td valign="top" width="51%" align="center" height="2"><table width="95%" border="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td class="zw011" valign="top" width="4%" align="left"><img 16?="" align="left" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">1031 anticorruption - 011-27357169</td>
+                            </tr>
+                            <tr>
+                              <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">PWD Helpline - Toll Free No. 1800110093<br>
+                                (e-Mail to&nbsp;<a href="mailto:complaint@pwddelhi.com" target="_blank">complaint@pwddelhi.com</a>)</td>
+                            </tr>
+                            <!--<tr>
+                              <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="/DoIT/Delhi_Home/list.gif?MOD=AJPERES" valign="top" ALT="list"/></td>
+                              <td class="help1" valign="top" align="left">Education Helpline - 011- 26531441</td>
+                            </tr>-->
+                            <tr>
+                              <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">Businessmen/Taxatation Helpline -1800 4250 0025</td>
+                            </tr>
+                            <tr>
+                              <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">Water Helpline - 1916</td>
+                            </tr>
+                            <tr>
+                              <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">Auto/Transport Deptt Helpline - 011-23958836</td>
+                            </tr>
+                            <tr>
+                              <td class="zw011" valign="top" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">DDMA Helpline -1077</td>
+                            </tr>
+                            <tr>
+                              <td class="zw011" valign="middle" align="left"><img 16?="" align="left" class="zw011" src="images/list.gif" valign="top" alt="list"></td>
+                              <td class="help1" valign="top" align="left">Toll free AIDS Helpline no. 1097&nbsp;&nbsp;<img src="images/DSACS+logo.jpg" alt="DSACS logo"></td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                      </tr>
+                </tbody></table></td>
+              </tr>
+              <tr></tr>
+              <tr>
+                <td valign="top" align="center" height="6"></td>
+              </tr>
+            </tbody>
+        </table></td>
+      </tr>
+      <tr bgcolor="#e5e2dc">
+        <td valign="top" bgcolor="#ffffff"><table width="628" border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td bgcolor="#ffffff" height="20">
+
+
+        <table width="628" border="0" cellpadding="0" cellspacing="0">
+              <tbody>
+                <tr>
+                  <td height="3"></td>
+                </tr>
+                <tr>
+                  <td background="images/xx02.gif" height="1"></td>
+                </tr>
+                <tr>
+                  <td height="2"></td>
+                </tr>
+              </tbody>
+            </table>
+
+<!-- Help Line  ends-->
+
+
+
+
+</td>
+              </tr>
+              <tr>
+                <td valign="top" align="center" height="17">
+
+    <!-- For Banner at Bottom-->
+<table width="98%" align="center" border="0" cellpadding="0" cellspacing="1">
+                    <tbody>
+
+
+  <tr><td colspan="4">
+<!-- Important Updates -->
+
+
+<!-- Important Updates Ends -->
+</td></tr>  
+
+
+<!--
+<tr>
+                        <td width="30%" align="center" rowspan="2">
+
+<a href="http://jeevan164.100.72.17/portalweb/login/index.jsp" target="_blank" ><img src="/wps/wcm/connect/ea0c7b004ef42a74b409bf0f51fa40e8/jeevan2.jpg?MOD=AJPERES&amp;lmod=-380718405&amp;CACHEID=ea0c7b004ef42a74b409bf0f51fa40e8" border="0" width="100" height="95"  /></a>
+
+
+</td>
+                        <td width="40%" colspan="2" align="center" >
+
+</td>
+                   
+			<td width="30%"  rowspan="2" align="center"></td>
+
+                      </tr>
+
+<tr>
+  <td colspan="2" align="center"><a href='/wps/wcm/connect/doit_dm/DM/Home' title="" target="_blank"><img src="/wps/wcm/connect/b362da0048145259bce7fcae1ccb7dea/DDMA.png?MOD=AJPERES&amp;lmod=-719501371&amp;CACHEID=b362da0048145259bce7fcae1ccb7dea" border="0" height="30"  style="border:#333333 1px solid" /></a> 
+</td>
+</tr>
+-->
+<tr><td colspan="4" align="center"> 
+
+
+
+
+
+
+<!--
+<a href="https://www.facebook.com/164.100.72.17" title="This link will take you the external page" target="_blank" >
+<img src="/wps/wcm/connect/992593004d959567983cd9b4d2978379/1/facebook.jpg?MOD=AJPERES&amp;lmod=-380514627" border="0"  style="width:100px; height:auto" /></a>
+-->
+</td></tr>
+                    </tbody>
+                </table>
+    <!-- For Banner Ends Here -->
+
+              </td>
+              </tr>
+              <tr>
+                <td valign="top" align="center" height="6">            
+               <table border="0" cellspacing="1" cellpadding="1">
+<tbody>
+  <tr>
+    <td bgcolor="#CEFFCE" bordercolor="#000000">
+<div style="width:630px;border:none; background:#CEFFCE;     margin-top: 10PX;
+    margin-bottom: 10px;">
+<marquee bgcolor="#008040" border="0" style="font-weight: normal;color: #fff;" width="630" height="23">13/05/2019 Wholesale prices at APMC Azadpur (in Rs.) Potato(4.50-11.00), Onion(1.75-13.00), Tomato(4.00-26.00), Brinjal(5.00-20.00), Cabbage(4.00-7.75.00), Cauliflower(12.50-56.00), Carrot(4.00-14.00), Gourd(5.00-12.00),Pumpkin(4.00-10.00), Radish(3.75-12.00), Spinach(5.00-12.00)</marquee>
+
+</div>
+<!--<p align="center"><font color="#FFFFFF"><strong><big><marquee width="630" bgcolor="#008000" border="0" align="middle" style="font-weight: normal; background-color: rgb(0, 128, 0);">03/06/2015 Wholesale prices at APMC Azadpur (in Rs.)   Potato (3.25 –9.25),    Onion (4.50-20.00),Tomato (4.00-14), Brinjal (7.00-18.00), Cauliflower (8.00-40.00), Gourd (1.75-6.00), Radish (2.50-4.00), Pumpkin (3.00-5.00), Cabbage (2.50-5.00), Spinach (3.75-6.50), Carrot (2.50-11.50)</marquee></big></strong></font></p>--></td>
+  </tr>
+</tbody>
+</table>
+
+<!--<a href="http://10.24.216.5/wps/portal/" target="_blank" class="txt">Official Use</a>-->
+             </td>
+              </tr>
+              <tr>
+                <td valign="top" align="center" height="6">            
+<!--   style="font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; font-weight: bold; text-align: left; text-decoration: none; background-color: #F9EE9D;" As per information received from CDAC, UIDAI authentication services on pre-production will remain unavailable till 28th May 2015 10:30 AM. -->
+             </td>
+              </tr>
+            </tbody>
+        </table></td>
+      </tr>
+    </tbody>
+  </table></a></td>
+  <td width="199" valign="top" background="images/bg.jpg" class="bg_repeaty">
+
+
+ <!-- chief minister start-->
+  
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  	<tbody><tr><td class="minister" valign="middle" align="center" height="25">Chief Minister</td></tr>
+	<tr><td valign="middle" align="center" height="100"><a href="http://164.100.72.17/wps/wcm/myconnect/DoIT/delhi+govt/about+cm/about+cm?contentIDR=e47556004d4b6114b18efb4011459463&amp;useDefaultText=0&amp;useDefaultDesc=0" title="About CM" target="_blank"><img src="images/Arvind_Kejriwal.jpg" border="0" alt="Shri Arvind Kejriwal" width="75" height="95"  /></a>
+</td></tr>
+	<tr><td class="botlink" valign="middle" align="center" height="25"><a href="http://164.100.72.17/wps/wcm/myconnect/DoIT/delhi+govt/about+cm/about+cm?contentIDR=e47556004d4b6114b18efb4011459463&amp;useDefaultText=0&amp;useDefaultDesc=0" title="Shri Arvind Kejriwal" target="_blank">Shri Arvind Kejriwal</a></td></tr>
+</tbody></table>
+
+
+  <!-- chief minister end-->
+
+<!-- CMO Starts-->
+
+ <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tbody><tr>
+                  <td colspan="3" class="righthead3" align="left" bgcolor="#030E6B" height="30"><img border="0" height="10" src="images/bullet1.jpg" width="9" alt="Bullet Image"> 
+
+Chief Minister's Office</td></tr>
+          <tr><td colspan="3"> </td></tr>
+ <tr><td colspan="3" bgcolor="#2a3382">       
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td colspan="2"></td>
+    </tr>
+<tr>
+      <td height="20" align="center"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/delhi+home/departments/executives/ministers" title="Cabinet Ministers">Cabinet Ministers</a>
+</td>
+    </tr>
+
+<tr>
+      <td height="20" align="center"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/doit/Delhi+Govt/Delhi+Home#" title="CMO Officials/Advisors">CMO Officials/Advisors</a>
+</td>
+    </tr>
+<tr>
+      <td height="20" align="center"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/DOIT_DDC/ddc/homenew" title="Delhi Dialogue Commission" target="_blank" style="color:#FFFF00;"><strong>Dialogue and Development Commission of Delhi</strong> </a> </td>
+    </tr>
+<tr>
+      <td height="20" align="center"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/delhi+home/departments/executives/mail+your+cm" title="e-Mail to CM" target="_blank" style="color:#FFFF00;"><strong>e-Mail to CM</strong> </a> </td>
+    </tr>
+<tr>
+      <td height="20" align="center"><img src="images/3a.gif" alt="Bullet Image" name="" border="0" height="12" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/Lib_Vigilance/vigilance/home/anti+corruption+branch" title="Anti Corruption Branch" target="_blank" style="color:#FFFF00;"><strong>Anti Corruption Branch</strong></a></td>
+    </tr>    <tr>
+      <td colspan="2"></td>
+    </tr>
+
+  </tbody></table>
+
+
+</td></tr>
+       
+ <tr>
+<td colspan="3"><!-- <div><a href="http://ceo164.100.72.17/OnlineErms/ElectorSearchtest.aspx" target="_blank" ><img src="/wps/wcm/connect/36955080433fad22b9f4fb3315395954/1/CEO.jpg?MOD=AJPERES&amp;lmod=-380514627" border="0" alt="CEO Image"  style="width:100%; height:auto" /></a>      
+</div> -->
+</td></tr>
+<!-- ------ Do not touch above code || Edit from Here ------->
+<tr>
+      <td colspan="3" height="5px"></td>
+    </tr>
+
+<tr class="bg_7">
+      <td height="20" align="center"><img alt="Bullet Image" border="0" height="12" name="" src="images/3a.gif" width="14"></td>
+    <td width="160" class="subheading"><a href="http://164.100.72.17/wps/wcm/connect/a92fea004c7b3849837793b05f83afbf/CM_Samvad.PDF?MOD=AJPERES&amp;lmod=935092571&amp;CACHEID=a92fea004c7b3849837793b05f83afbf" title="Janta Samvad" target="_blank">Hon'ble Chief Minister, Delhi Holds Janta Samvad</a></td>
+</tr>
+
+<tr class="bg_7">
+      <td height="20" align="center"><img alt="Bullet Image" border="0" height="12" name="" src="images/3a.gif" width="14"></td>
+    <td width="160" class="subheading"><a href="http://164.100.72.17/wps/wcm/connect/doit_publicity/Information+and+Publicity/Press+Release/Chief+Minister/" title="Press Releases" target="_blank">Press Releases</a></td>
+</tr>
+
+<tr class="bg_7">
+      <td height="20" align="center"><img alt="Bullet Image" border="0" height="12" name="" src="images/3a.gif" width="14"></td>
+    <td width="160" class="subheading"><a href="http://164.100.72.17/wps/wcm/connect/DoIT/delhi+govt/swachh+bharat+abhiyan/swachh+bharat+abhiyan" title="Swachch Bharat Abhiyan" target="_blank">स्वच्छ भारत अभियान </a></td>
+    </tr>
+
+<tr><td colspan="3">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+            
+	   <tbody><tr class="bg_7">
+      <td height="20" align="center"><img alt="Bullet Image" border="0" height="12" name="" src="images/3a.gif" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/Common/common/guidelines+for+e-procurement/guidelines+for+e-procurement" title="Guidelines for E-Procurement" target="_blank">Guidelines for E-Procurement</a><p></p></td>
+    </tr> 
+
+	   <tr class="bg_7">
+      <td height="20" align="center"><img alt="Bullet Image" border="0" height="12" name="" src="images/3a.gif" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://164.100.72.17/wps/wcm/connect/DoIT_DSSSB/delhi+subordinate+services+selection+board/home/vacancy+advertised/current+vacancies" title="Employment Opportunities" target="_blank">Employment Opportunities</a></td></tr>  
+
+ <tr class="bg_7">
+      <td height="20" align="center"><img alt="Bullet Image" border="0" height="12" name="" src="images/3a.gif" width="14"></td>
+    <td width="160" class="subheading">
+<a href="http://gpra.nic.in/gpra/aas.signin.nic?config=gd" title="Automated System of Allotment Govt. of Delhi (e-Awas)" target="_blank">Automated System of Allotment Govt. of Delhi (e-Awas)</a></td></tr>  
+
+  </tbody></table>
+</td></tr>
+
+
+<tr class="bg_7"><td colspan="3" height="5px" align="center"></td></tr>
+
+
+      </tbody></table>
+
+<!-- CMO Ends-->
+
+<!-- Press Release from Information and Public Department -->
+
+<!-- Press Release ends here -->
+
+
+
+<!-- latest Vacancy start
+
+
+
+ <table border="0" cellpadding="0" cellspacing="0" width="100%" class="bg_4">
+          <tr><td colspan="3" class="righthead3 bg_3" align="left" height="30"><img BORDER="0" HEIGHT="10" src="/DoIT/Delhi_Home/bullet1.jpg?MOD=AJPERES" WIDTH="9"/> 
+
+Latest Vacancy</td></tr>
+          <tr><td colspan="3"> </td></tr>
+ <tr><td colspan="3">       
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                       <tr>
+                          <td height="19" align="center">&nbsp;</td>
+                          <td align="center">&nbsp;</td>
+                          <td class="righttext1">&nbsp;</td>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td width="10" height="24" align="center">&nbsp;</td>
+                          <td width="14" align="center" valign="top"><img src="/wps/wcm/connect/92140f004349d6f9afbcefc57e9c534d/1/rec.jpg?MOD=AJPERES&amp;lmod=-380514627" width="3" height="3"  class="pic1" /></td>
+                         <td width="162" class="righttext1">
+<a href="/wps/wcm/connect/Common/common/latest+vacancy/appointment+of+geospatial+associates-geospatial+assistant" title="" target="_blank" class="link2">Appointment of Geospatial Associates-Geospatial Assistant</a><img src="/wps/wcm/connect/541f030041ef7ad7a0fdbf3d6367bf0e/new%5B1%5D.gif?MOD=AJPERES&amp;lmod=-386984520&amp;CACHEID=541f030041ef7ad7a0fdbf3d6367bf0e" width="30" height="12"  align="absmiddle" />				</td>
+                          <td >&nbsp;</td>
+                        </tr>
+                       <tr>
+                          <td>&nbsp;</td>
+                          <td align="center" valign="top"><br><img src="/wps/wcm/connect/92aca5804349d6f9afbdefc57e9c534d/1/rec.jpg?MOD=AJPERES&amp;lmod=-380514627" width="3" height="3"  class="pic1" /></td>
+                          <td class="righttext1">
+
+
+<br><a href="/wps/wcm/connect/Common/common/latest+vacancy/appointment+of+geospatial+executives." title="" target="_blank" class="link2">Appointment of Geospatial Executives.</a><img src="/wps/wcm/connect/541f030041ef7ad7a0fdbf3d6367bf0e/new%5B1%5D.gif?MOD=AJPERES&amp;lmod=-386984520&amp;CACHEID=541f030041ef7ad7a0fdbf3d6367bf0e" width="30" height="12"  align="absmiddle" /></td>
+                          <td>&nbsp;</td>
+                        </tr>
+                    </table><br>
+ 
+</td></tr> 
+      </table>
+
+
+    latest Vacancy end-->
+   
+   <!-- latest news start-->
+
+ <table border="0" cellpadding="0" cellspacing="0" width="100%" class="bg_4">
+          <tbody><tr><td colspan="2" class="righthead3 bg_3" align="left" height="30"><img border="0" height="10" src="images/bullet1.jpg" width="9" alt="Bullet Image"> 
+
+Latest Update</td></tr>
+          <tr><td colspan="2"> </td></tr>
+ <tr><td colspan="2">       
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+                  <tbody><tr>
+                          <td align="center">&nbsp;</td>
+                          <td class="righttext1">&nbsp;</td>
+                        </tr>
+
+                       <tr>
+                          <td width="20" align="center" height="24">
+<img src="images/rec.jpg" alt="Bullets Image" width="3" height="3" class="pic1"></td>
+                          
+                         <td class="righttext1"><a href="http://164.100.72.17/wps/wcm/connect/Common/common/latest+news/policy_ud" title="" target="_blank" class="link2">Policy on Removal of Unauthorized Advertisements/Hoardings and Enforcement 0f Delhi Prevention oOf Defacement of Property Act, 2007</a><img src="images/new.gif" border="0" width="28" height="11">
+</td></tr><tr>
+                 <td align="center" height="24"><img src="images/rec.jpg" alt="Bullets Image" width="3" height="3" class="pic1"></td>
+                          <td class="righttext1">
+<a href="http://164.100.72.17/wps/wcm/connect/Common/common/latest+news/treepolicy" title="" target="_blank" class="link2">Notice and Draft orders for revision in norms for implementation of Tree transplantation policy for Delhi</a><img src="images/new.gif" border="0" width="28" height="11">
+</td></tr><tr>
+                 <td align="center" height="24"><img src="images/rec.jpg" alt="Bullets Image" width="3" height="3" class="pic1"></td>
+                          <td class="righttext1">
+<a href="http://164.100.72.17/wps/wcm/connect/Common/common/latest+news/budget-19-20" title="" target="_blank" class="link2">Budget of Delhi 2019-20</a><img src="images/new.gif" border="0" width="28" height="11">
+</td></tr><tr>
+                 <td align="center" height="24"><img src="images/rec.jpg" alt="Bullets Image" width="3" height="3" class="pic1"></td>
+                          <td class="righttext1">
+<a href="http://164.100.72.17/wps/wcm/connect/Common/common/latest+news/economic_survey-2018-19" title="" target="_blank" class="link2">Economic Survey of Delhi 2018-19</a><img src="images/new.gif" border="0" width="28" height="11">
+</td></tr><tr>
+                 <td align="center" height="24"><img src="images/rec.jpg" alt="Bullets Image" width="3" height="3" class="pic1"></td>
+                          <td class="righttext1">
+<a href="http://164.100.72.17/wps/wcm/connect/Common/common/latest+news/advertisement+47app+on+contract+basis" title="" target="_blank" class="link2">Advertisement for the post of 47Assistant Public Prosecutors on contract basis</a><img src="images/new.gif" border="0" width="28" height="11">
+</td>
+                        </tr>
+
+<!--<tr><td colspan="2" align="center"><br/><a href="/wps/wcm/connect/DoIT/delhi+govt/archives/news+archives"  style="color:#FF0000; font-size:12px;font-family:verdana;"> News Archives </a></td></tr>-->
+                    </tbody></table><br>
+
+<a href="http://nvsp.in/" title="National Voter&#39;s Service Portal" target="_blank"><img src="images/nvsp3.png" border="0" alt="National Voters Service Portal" width="100%" height="70"></a>
+
+        
+</td></tr> 
+
+      </tbody></table>
+
+   <!-- latest news end-->
+
+   <!-- DMC Desilting Action Plan Start
+     Common/html_desilting_action_plan-->
+<table class="bg_6" width="100%" border="0" cellpadding="0" cellspacing="0">
+ <tbody>
+   <tr>
+      <td colspan="4" class="righthead3 bg_5" align="left" height="30">
+       <img src="images/bullet1(1).jpg" alt="" name="" width="9" border="0" height="10">&nbsp;<a href="http://164.100.72.17/wps/wcm/connect/DoIT_IT/doit_it/desilting+action+plan" title="Desilting Action Plan" target="_blank" style="color:#FFF">Desilting Action Plan</a>
+      </td>
+   </tr>
+  </tbody><tbody>
+ </tbody></table>
+  
+<!-- DMC Desilting Action Plan Stop-->
+
+   <!-- latest development start-->
+
+   <!-- latest development end-->
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr><td colspan="2" align="center" height="5">
+
+</td></tr>
+<tr><td colspan="2" align="center">
+<a href="http://govtprocurement.164.100.72.17/" title="Delhi E-Procurement" target="_blank"><img src="images/Eprocurement.jpg" border="0" alt="Delhi E-Procurement" width="190" height="48"></a>
+</td></tr>
+
+<tr><td colspan="2" align="center" height="5">
+
+</td></tr>
+  <tr><td colspan="2" align="center">
+
+<a href="http://degs.org.in/" title="DeGS" target="_blank"><img src="images/DeGS_logo.jpg" border="0" alt="DeGS" width="190" height="60"></a>
+
+</td>
+    </tr>
+
+<tr><td colspan="2" align="center" height="5">
+
+</td></tr>
+<tr><td colspan="2" align="center">
+<a href="http://esla.164.100.72.17/" title="e-SLA" target="_blank"><img src="images/esla_link_big.gif" border="0" alt="e-SLA" width="190" height="50"></a>
+</td></tr>
+</tbody></table>
+
+
+
+
+
+<!-- local services start -->
+
+        <!-- <table border="0" cellpadding="0" cellspacing="0" width="100%" class="bg_6">
+      
+<tr><td colspan="2" class="righthead3 bg_5" align="left" height="30"><img src="/DoIT/Delhi_Home/bullet1.jpg" alt="" name="" border="0" height="10" width="9"> Local Services </td></tr>
+          <tr><td colspan="2"> </td></tr>
+  
+          <tr><td align="center" valign="top" width="20"><img src="/DoIT/Delhi_Home/rec.jpg" class="pic" height="3" width="3"></td>
+          <td class="righttext1" width="179">
+
+
+<a href="http://it.delhigovt.nic.in/pis/cmsfeedback.aspx" target="_blank"  class="txt">Feedback</a></td>
+          </tr>	 
+
+          <tr><td align="center" valign="top" width="20"><img src="/DoIT/Delhi_Home/rec.jpg" class="pic" height="3" width="3"></td><td class="righttext1"><a href="http://www.155345.in/" target="_blank"  class="txt">Grievances</a></td></tr>
+          <tr><td colspan="2"> </td></tr>
+      </table>
+-->
+
+  
+
+<!-- Local Services Ends -->
+
+		   
+  </td>
+  </tr>
+  
+  
+  <tr>
+  <td height="22" colspan="2" class="botlink1 bg_repeatx" background="images/bg.gif" align="center" valign="middle"> </td>
+  </tr>
+  
+  <!-- bottom part  start -->
+  
+          <tr><td colspan="3" class="botlink" background="images/bot.gif" height="60">
+<br>All Rights Reserved by Government of NCT of Delhi, India.</td></tr>
+  
+
+  <!-- bottom part  end -->
+
+
+</tbody></table>
+<!-- Last Update by Sajid Nawaz May 2016-->
+
+
+
+
+
+</body></html>

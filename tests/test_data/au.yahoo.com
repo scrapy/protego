@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /p/
+Disallow: /r/
+Disallow: /bin/
+Disallow: /includes/
+Disallow: /blank.html
+Disallow: /_td_api
+Disallow: /_tdpp_api
+Disallow: /_remote
+Disallow: /_multiremote
+Disallow: /_tdhl_api
+Disallow: /_td_remote
+Disallow: /_tdpp_remote
+Disallow: /sdarla
+Disallow: /digest

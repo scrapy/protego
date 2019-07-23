@@ -1,0 +1,13 @@
+User-agent: Yandex
+Disallow: /img
+Host: kapitalbank.az
+
+
+User-agent: Googlebot
+Disallow: /img
+
+User-agent: *
+Crawl-delay: 30
+Disallow: /img
+
+Sitemap: https://kapitalbank.az/sitemap.xml

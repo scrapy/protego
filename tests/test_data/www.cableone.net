@@ -1,0 +1,46 @@
+User-agent: *
+
+Disallow: /_layouts/
+Disallow: /_vti_bin/
+Disallow: /_catalogs/
+
+Disallow: /_cts/
+Disallow: /_private/
+Disallow: /Lists/
+Disallow: /m/
+Disallow: /ReusableContent/
+Disallow: /WorkflowTasks/
+Disallow: /SupportConfigStore/ 
+Disallow: /img/
+Disallow: /International%20Rates/
+Disallow: /SiteCollectionDocuments/
+Disallow: /SiteCollectionImages/
+Disallow: /ShoppingCartImages/
+Disallow: /EmailNoticeImages/
+Disallow: /SiteAssets/
+Disallow: /Documents/
+Disallow: /Documents/Forms/
+Disallow: /Pages/Forms/
+Disallow: /Search/
+Disallow: /Style%20Library/
+
+Allow: */img/*.gif
+Allow: */img/*.jpg
+Allow: */img/*.jpeg
+Allow: */img/*.png
+Allow: */img/*.svg
+
+Allow: /_catalogs/masterpage/redesign/common/*.css$
+Allow: /_catalogs/masterpage/redesign/common/*.css?
+Allow: /_catalogs/masterpage/redesign/common/*.js$
+Allow: /_catalogs/masterpage/redesign/common/*.js?
+
+Allow: /Style%20Library/scripts/*.js$
+Allow: /Style%20Library/scripts/*.js?
+Allow: /Style%20Library/scripts/socialPlugin.js
+
+Allow: /SiteCollectionDocuments/Annual_Notice.pdf
+Allow: /SiteCollectionDocuments/EEO_Public_File_Report.pdf
+
+
+Sitemap: http://www.cableone.net/sitemap.xml

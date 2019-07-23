@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /rozee-a/
+Disallow: /rozee-b/
+Disallow: /page/
+Disallow: /ar/
+Disallow: /inc/
+Disallow: /symbol/
+Disallow: /EN/ar/
+Disallow: /EN/rozee-a/
+Disallow: /EN/rozee-b/
+Disallow: /recruiters/
+Disallow: /beta45/
+Disallow: /demo45/
+Disallow: /beta45qa/
+Disallow: /demo45qa/
+Disallow: /hiring/
+
+sitemap: https://www.mihnati.com/EN/sitemap/sitemap_index-m-ar.xml
+sitemap: https://www.mihnati.com/sitemap/sitemap_index-m.xml
+sitemap: https://www.rozee.pk/sitemap/sitemap_index.xml
+sitemap: https://www.rozee.pk/sitemap/sitemap_index-ur.xml

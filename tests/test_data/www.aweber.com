@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /b/
+Disallow: /z/
+Disallow: /permission.htm
+Disallow: /scripts/
+Disallow: /users/
+Disallow: /t/
+Noindex:  /z/c/
+Sitemap: http://www.aweber.com/sitemap.txt

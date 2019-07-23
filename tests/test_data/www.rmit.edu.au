@@ -1,0 +1,10 @@
+Sitemap: https://www.rmit.edu.au/sitemap.xml
+
+User-agent: *
+Disallow: /archived/programs/
+Disallow: /news/newsroom/media-releases-and-expert-comments/2017
+Disallow: /news/newsroom/media-releases-and-expert-comments/2016
+Disallow: /news/newsroom/media-releases-and-expert-comments/2015
+Disallow: /news/newsroom/media-releases-and-expert-comments/2014
+Disallow: /*.feed$
+Disallow: /etc/tags

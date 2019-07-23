@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /feed/*
+Disallow: /*?s=*
+Disallow: /*/feed/*
+Disallow: /*/*?s=*
+Disallow: /*/*.js$
+Disallow: /*/*.inc$
+Disallow: /*/xmlrpc.php
+
+Sitemap: https://guardian.ng/sitemap.xml

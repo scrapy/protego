@@ -1,0 +1,14 @@
+User-agent: Twitterbot
+Disallow: *
+ 
+Allow: /static
+
+User-agent: Mediapartners-Google
+Crawl-delay: 30
+
+User-agent: *
+Crawl-delay: 30
+Disallow: /admin
+Disallow: /cpresources
+Disallow: /media
+Disallow: /feeds

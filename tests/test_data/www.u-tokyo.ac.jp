@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /gakunai/
+# 
+# User-agent: Twitterbot
+# Allow: /images/
+# 
+# Sitemap: https://www.u-tokyo.ac.jp/XXX

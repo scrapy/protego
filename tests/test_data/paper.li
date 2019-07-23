@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /stop-mentions.html
+Disallow: /~/facebook-tab
+Sitemap: https://paper.li/~sitemaps/sitemap_index.xml

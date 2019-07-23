@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+Disallow: /api/
+Disallow: /betahaus/
+Disallow: /desktop-survey-terms/
+Disallow: /reports/
+Disallow: /shopify-partner/
+Disallow: /invitation-missing/
+Disallow: /toggl-button-login/
+Disallow: /toggl-button-feedback/
+Disallow: /master-confirmation/

@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /staff/
+Disallow: /english/staff/
+Disallow: /enrolled/board/
+Disallow: /preview/
+Disallow: /inc/
+User-agent:Syncbot-Web/1.0
+User-agent:Syncbot-Image/1.0
+Allow: /staff/
+Allow: /english/staff/

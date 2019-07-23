@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Errorpage</title>
+    <link href="http://download.gsb.bund.de/BIT/errorpage/images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <style type="text/css">
+	body {
+		font-size: 62.5%;
+		
+	}
+	
+	#wrapperOuter {
+		padding-left: 13.7em;
+		padding-right: 12.26em;
+		padding-bottom: 5em;
+		padding-top: 3em;
+		position: absolute;
+		width: 20%;
+		min-width: 25em;
+	}
+	#wrapperInner {
+		align: center;
+		padding: 3.5em 2.5em 2.5em;
+	}
+ 
+	#wrapperInner .bitimage {
+	background-image: url("http://download.gsb.bund.de/BIT/errorpage/images/bitlogo-schrift.gif");
+	background-repeat: no-repeat;
+	height: 10em;
+	position: right;
+	right: 2.5em;
+	top: 5.2em;
+	}
+	
+	#wrapperInner .mandimage {
+	background-image: url("http://download.gsb.bund.de/BIT/errorpage/images/bunddelogo.jpg");
+	background-repeat: no-repeat;
+	height: 10em;
+	position: right;
+	right: 2.5em;
+	top: 5.2em;
+	}
+	
+	#alert {
+		border:1px solid black;
+		padding-top: 3.5em;
+		padding-bottom: 5.5em;
+		min-height: 30em;
+		height: 100%;
+		width: 92.5em;  /* Breite des Rahmens */
+	}
+	
+	#alert .alertimg {
+		background-image: url("http://download.gsb.bund.de/BIT/errorpage/images/errorImage.png");
+		background-repeat: no-repeat;
+		height: 64px;
+		float: left;
+		margin-top: 2em;
+		margin-left: 5em;
+		padding-left: 20em;
+		padding-top: 4em;
+	}
+	
+	#alert .alerttext {
+		float: left;
+		width: 35em;
+		padding-left: 2em;
+		font-size: 12pt;
+	}
+	</style>
+	</head>
+<body>
+    <div id="wrapperOuter">  
+       <div id="wrapperInner">       
+			<a href="http://www.bit.bund.de" target="_blank" title="Webauftritt der Bundesstelle f&uuml; Informationstechnik"><div class="bitimage"></div></a>				
+			<div id="alert">
+	  	    <div class="alertimg"></div>
+		    <div class="alerttext">
+			      <p>Sehr geehrte/r Besucher/in,<br><br>Ihre Anfrage war unzulässig. Bitte verwenden Sie den Zurück-Button Ihres Browsers, um auf den besuchten Webauftritt zurück zu gelangen. <br><br>Sollten Sie Fragen zu dieser Meldung haben, nutzen Sie bitte die Kontaktmöglichkeiten des besuchten Webauftrittes (Kontaktformular bzw. Impressum) um mit dem Webseiteninhaber Kontakt aufzunehmen. <br><br>
+				  Teilen Sie dazu bitte folgende Informationen mit:</p>
+				  <p><ul>
+					<li>Datum/Uhrzeit der Eingabe</li>
+					<li>URL (Internetadresse aus der Internetadresszeile des benutzten Browsers) der aufgerufenen Webseite oder des Webformulars</li>
+					<li>ggf. Inhalt des von Ihnen gefüllten Formulares</li>
+				  </ul>					
+		   	</div>	
+	  </div>
+	</div>
+</body>
+</html>

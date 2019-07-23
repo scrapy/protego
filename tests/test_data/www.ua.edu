@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /api
+Disallow: /cache
+Disallow: /docs
+Disallow: /inc
+Disallow: /templates
+Disallow: /academics/catalogs/catalog02
+Disallow: /academics/catalogs/catalog04
+Disallow: /academics/catalogs/catalog06
+Disallow: /academics/catalogs/catalog08
+Disallow: /academics/catalogs/catalog10

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /mngr/
+Disallow: /mypage/
+Disallow: /mobile/login.do
+Disallow: /mobile/loginProc.do
+Disallow: /mobile/logOut.do
+Disallow: /mobile/mypage/inqry/
+Disallow: /mobile/mypage/order/setle/
+Sitemap: https://www.gobizkorea.com/sitemap.xml

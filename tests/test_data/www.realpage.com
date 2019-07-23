@@ -1,0 +1,21 @@
+Sitemap: https://www.realpage.com/sitemap.xml
+Sitemap: https://www.realpage.com/analytics-sitemap.xml
+Sitemap: https://www.realpage.com/news-sitemap.xml
+
+User-agent: *
+Disallow: /cgi-bin
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /trackback
+Disallow: /*trackback
+Disallow: /*trackback*
+Disallow: /*/trackback
+Disallow: /*/tel:
+Disallow: /wp-content/themes/realpage/images/pdf/Chrome-Checklist-05172016.pdf
+Disallow: /wp-content/themes/realpage/images/pdf/FireFox_Checklist_03112016.pdf
+Disallow: /wp-content/themes/realpage/images/pdf/OneSite_PC_Checklist_Internet_Explorer_10_0__11_0.pdf
+Disallow: /wp-content/themes/realpage/images/pdf/OneSite-Minimum-Technical-Requirements.pdf
+Disallow: /wp-content/themes/realpage/images/pdf/pc_checklist_ie_90_102912.pdf
+Disallow: /wp-content/themes/realpage/images/pdf/Safari-Checklist-05172016.pdf
+Disallow: /wp-content/themes/realpage/images/pdf/W10IE11-Checklist-05172016.pdf

@@ -1,0 +1,67 @@
+User-agent: Mediapartners-Google 
+Disallow:
+
+User-agent: AdsBot-Google
+Disallow:
+
+User-agent: YandexDirect
+Disallow:
+
+User-agent: *
+Disallow: /*view=
+Disallow: /*pid=
+Disallow: /*value=
+Disallow: /*denomination=
+Disallow: /*&year=
+Disallow: /catalog/*period=*&type=3
+Disallow: /catalog/*func=
+Disallow: /catalog/*page=
+Disallow: /catalog/*&tag=
+Disallow: /catalog/*&col=
+Disallow: /catalog/*&shape=
+Disallow: /catalog/*q=
+Disallow: /catalog/*l=
+Disallow: /catalog/*cid=
+Disallow: /*composition=
+Disallow: /*currency=
+Disallow: /*f=add
+Disallow: /*vid=
+Disallow: /*ucid=
+Disallow: /*usid=
+Disallow: /*uid=
+Disallow: /*order=
+Disallow: /*sort=
+Disallow: /*mode=
+Disallow: /*search=
+Disallow: /*print
+Disallow: /*pdf
+Disallow: /*page=1$
+Disallow: /*type=1$
+Disallow: /*series=1000
+Disallow: /*v=home$
+Disallow: /uid
+Disallow: /catalog_new
+Disallow: /gallery
+Disallow: /messages
+Disallow: /swap-offer
+Disallow: /Restore/?
+Disallow: /swap/?
+Disallow: /swap-log/?
+Disallow: /swap-mgr/?
+Disallow: /wish-list/?
+Disallow: /users/?
+
+#Disallow: /*cid=
+#Crawl-Delay: 1
+
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: VelenPublicWebCrawler (velen.io)
+Disallow: /
+User-agent: VelenPublicWebCrawler
+Disallow: /
+
+User-agent: MSNBot/Bingbot
+Crawl-delay: 5 

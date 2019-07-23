@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /search
+Disallow: /photo-details-carousel
+
+Sitemap: https://www.airliners.net/sitemap/index.xml

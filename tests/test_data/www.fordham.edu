@@ -1,0 +1,9 @@
+User-agent:*
+Disallow: /images
+Disallow: /javascript
+Disallow: /jadu
+Disallow: /blogAdmin
+Disallow: /preview
+Disallow: /site/scripts/google_results.php
+sitemap: https://www.fordham.edu/sitemap.xml
+

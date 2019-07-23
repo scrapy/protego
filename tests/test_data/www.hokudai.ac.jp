@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /bureau/
+Disallow: /jimuk/gakunai/
+Disallow: /home/
+Disallow: /sangaku/
+Disallow: /gakunai/
+Allow: /bureau/safety/
+Allow: /bureau/property/
+
+User-agent: ndl-japan
+Disallow:
+
+User-agent: ia_archiver
+Disallow: /research/

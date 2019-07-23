@@ -1,0 +1,30 @@
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: *
+Allow: /
+
+# Directories
+Disallow: /cache/
+Disallow: /cpanel/
+Disallow: /error/
+Disallow: /includes/
+Disallow: /libs/
+Disallow: /sqlpanel/
+# Files
+Disallow: /_phpinfo.php
+# Paths (no clean URLs)
+Disallow: /cpanel/module.node.php?q=edit
+
+# Block (no clean URLs)
+Disallow: /en/
+Disallow: /ar/
+Disallow: /event/
+Disallow: /taxonomy/
+Disallow: /zh-hans/
+Disallow: /book/
+
+
+
+
+Sitemap: http://www.psu.ac.th/sitemap.xml

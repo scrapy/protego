@@ -1,0 +1,63 @@
+# Robots.txt for http://www.vodafone.co.uk/ 
+
+User-agent: * 
+Disallow: /myvodafone/ 
+Disallow: /maintenance 
+Disallow: /lightbox/coming-soon/ 
+Disallow: /lightbox/coming-soon-2/ 
+Disallow: /lightbox/coming-soon-3/
+Disallow: /discover-vodafone/welcometored/vodafone-wallet/index.htm 
+Disallow: /discover-vodafone/welcometored/vodafone-wallet/ 
+Disallow:/lightbox/
+Disallow: /mainsite/
+Disallow: /en/cart/
+Disallow: /en/Checkout
+Disallow: /secure-checkout
+Allow: /myvodafone/faces/asimswap
+
+User-agent: Twitterbot
+Allow: *
+
+Disallow: https://www.vodafone.co.uk/shop/coming-soon/register/index.htm 
+Disallow: http://www.vodafone.co.uk/shop/coming-soon/thank-you/index.htm 
+Disallow: http://www.vodafone.co.uk/shop/coming-soon/error/index.htm
+
+
+Disallow: http://www.vodafone.co.uk/vodafone-uk/forms/vodafone-connect/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/unavailable/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/thankyou/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/broadband-existing/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/broadband-new/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/superfast-existing/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/superfast-new/index.htm
+Disallow: http://www.vodafone.co.uk/broadband/ultrafast-existing/index.htm 
+Disallow: http://www.vodafone.co.uk/broadband/ultrafast-new/index.htm 
+
+Allow: /myvodafone/faces/oracle/webcenter/portalapp/pagehierarchy/Page1.jspx
+
+Disallow: http://www.vodafone.co.uk/brands/apple/iphone-6s/b/index.htm
+Disallow: http://www.vodafone.co.uk/brands/apple/iphone-6s-plus/b/index.htm
+Disallow: http://www.vodafone.co.uk/brands/apple/iphone-6/b/index.htm
+Disallow: http://www.vodafone.co.uk/brands/apple/iphone-6plus/b/index.htm
+Disallow: http://www.vodafone.co.uk/brands/apple/iphone-5s/b/index.htm
+
+Disallow: http://www.vodafone.co.uk/contact-us/business/corporate/index.htm
+Noarchive: http://www.vodafone.co.uk/contact-us/business/corporate/index.htm
+
+Disallow: http://www.vodafone.co.uk/contact-us-b/business/corporate/
+Noarchive: http://www.vodafone.co.uk/contact-us-b/business/corporate/
+
+User-agent: AdsBot-Google 
+ 
+#Added on 24th July2017
+Disallow: http://www.vodafone.co.uk/en
+Disallow: http://www.vodafone.co.uk/chatbot
+Disallow: http://www.vodafone.co.uk/chatbotapi
+
+#Added on 25th Oct2017
+#Disallow: http://vodafone.co.uk/campaigns/apple-airpods-offer/
+Disallow: https://vodafone.co.uk/campaigns/apple-airpods-offer/
+Noarchive: https://vodafone.co.uk/campaigns/apple-airpods-offer/ 
+
+
+Sitemap:http://www.vodafone.co.uk/vodafone-uk/appsitemap/sitemap.xml

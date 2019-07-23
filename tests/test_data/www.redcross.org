@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /donate/cm/*	# AEM-7774
+Disallow: /content/redcross/*	# AEM-7774
+Disallow: /ns/apology/* # IC: 3481 10/12/17
+Disallow: /take-a-class/hidden # IC: DW beta launch 12/6/17
+Disallow: /tributes/*
+Disallow: /account/*
+Disallow: /search-the-red-cross-site/*
+Disallow: /errors/*
+Disallow: /surveys/*
+Disallow: /accounthelp/*
+Disallow: /invoice-central/*
+Disallow: /lp/*
+Disallow: /LP/*
+Disallow: /on/demandware.store/*  # IC: 4467 9/19/18
+Disallow: /take-a-class/asspsafetytraining   # IC 4624 10/16/18
+Disallow: /take-a-class/participant-materials  # IC 5308 5/31/19
+Disallow: /content/dam/redcross/lp/*  # IC 5313 6/12/19
+Disallow: /content/dam/redcross/training-services/no-index/*  # IC 5413 7/12/19
+
+# IC: SK request 11/26/13
+User-agent: msnbot
+Crawl-delay: 1
+
+Sitemap: https://www.redcross.org/sitemap.xml

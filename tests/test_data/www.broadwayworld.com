@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /getembedcode.cfm
+Disallow: /admin2013/
+Disallow: /grossesshowexcel.cfm
+Disallow: /addtheatreinfo.cfm
+Disallow: /bwidb/nocsd.cfm
+Disallow: /articleplaydivload2017.cfm
+Disallow: /bwdbpro.cfm
+Disallow: /claimtheater.cfm
+Disallow: /people/xml.php
+Disallow: /regionaladdmult.cfm
+Disallow: /submitnewsedit.cfm
+Disallow: /upgraderegionalshow.cfm
+Disallow: /board/CurrentSearch_Detail.php
+Disallow: /emailpage.cfm
+Disallow: /board/emailthread.cfm
+Disallow: /board/subscribethread.php
+Disallow: /plugins/feedback.php
+Sitemap: https://www.broadwayworld.com/sitemaps.xml
+

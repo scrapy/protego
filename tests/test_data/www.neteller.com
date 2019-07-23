@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /fileadmin/_temp_/
+Disallow: /t3lib/
+Disallow: /typo3/
+Disallow: /typo3_src/
+Disallow: /typo3conf/
+Disallow: /clear.gif
+Disallow: /*?uri
+Disallow: /*?l
+Disallow: /*?return_uri
+Disallow: /*?smode
+Disallow: /*?r
+Disallow: /*?redirect
+Disallow: */schedules/
+Host: https://www.neteller.com

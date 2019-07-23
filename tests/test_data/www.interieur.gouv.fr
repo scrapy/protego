@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /var/miomcti/storage/images/
+Allow: /extension/ow_miomcti_designs/design/miomcti_public/images/
+Allow: /extension/mi_dicom/design/mi_public_by_dicom/images/
+Disallow: /var/
+Disallow: /extension/
+Disallow: /ezinfo/
+Disallow: /Minatrec/
+Disallow: /Media/Minatrec/
+Disallow: /user/
+Disallow: /Elections/Les-resultats/Municipales/elecresult__MN2014/(path)/MN2014/074/C1074011L001.html
+Disallow: /Espace-media/
+Crawl-delay: 10

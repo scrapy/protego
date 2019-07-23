@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /emta/
+Disallow: /emta-addgene-public/
+Disallow: /users/login/

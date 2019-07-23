@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="IzNE--54LDQ_lTd-qTA7mnBCR3Wy3kidx0rAXFZQ_iY" />
+  <!-- Google Analytics Content Experiment code -->
+	<script>function utmx_section(){}function utmx(){}(function(){var
+	k='164840882-0',d=document,l=d.location,c=d.cookie;
+	if(l.search.indexOf('utm_expid='+k)>0)return;
+	function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+	indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+	length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+	'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+	'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+	'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+	valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+	'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+	</script><script>utmx('url','A/B');</script>
+  <!-- End of Google Analytics Content Experiment code -->
+
+  <meta charset="utf-8">
+  <meta name="description" content="Compare thousands of routes and airlines to save money!">
+  <title> Cheap Flights | AMADEUS.NET </title>
+  <base href="/">
+  <!-- Google Tag Manager -->
+  <script type='text/javascript'>
+    GTMDataLayerName = "GTMDataLayer";
+    window[GTMDataLayerName] = [];
+
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src =
+        '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', GTMDataLayerName, 'GTM-K47W68');
+
+      </script>
+  <!-- End Google Tag Manager -->
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '455932581615629');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=455932581615629&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='assets/img/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57' />
+  <link href='assets/img/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114' />
+  <link href='assets/img/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72' />
+  <link href='assets/img/apple-touch-icon-144x144.png' rel='apple-touch-icon' sizes='144x144' />
+  <link href='assets/img/apple-touch-icon-60x60.png' rel='apple-touch-icon' sizes='60x60' />
+  <link href='assets/img/apple-touch-icon-120x120.png' rel='apple-touch-icon' sizes='120x120' />
+  <link href='assets/img/apple-touch-icon-76x76.png' rel='apple-touch-icon' sizes='76x76' />
+  <link href='assets/img/apple-touch-icon-152x152.png' rel='apple-touch-icon' sizes='152x152' />
+  <link href='assets/img/favicon-160x160.png' type='image/png' rel='icon' sizes='160x160' />
+  <link href='assets/img/favicon-96x96.png' type='image/png' rel='icon' sizes='96x96' />
+  <link href='assets/img/favicon-16x16.png' type='image/png' rel='icon' sizes='16x16' />
+  <link href='assets/img/favicon-32x32.png' type='image/png' rel='icon' sizes='32x32' />
+  <link href='assets/img/favicon.ico' rel='shortcut icon' />
+  <script src="https://apis.google.com/js/platform.js"></script>
+  <!--include RETRICS library-->
+  <script
+  src="assets/js/jquery-1.12.4.min.js"
+  crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    (function (doc, script) {
+      var js, fjs = doc.getElementsByTagName(script)[0], initRetrics = function () {
+       if (typeof $ === "undefined") { setTimeout(initRetrics, 100); return; } $(document).ready(function () { try { var sess = new RTPSession("r4cBGHdPStYK2DCrXlh3n8XntfYfvYjPRc2xe2ThOSRsySxvJAoW2n65k8OSV44y"); } catch (err) { /* console.error(err); */ } });
+      },
+      add = function (url, id) { if (doc.getElementById(id)) { return; } js = doc.createElement(script); js.src = url; id && (js.id = id); js.onload = js.onreadystatechange = function () { var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return; initRetrics(); }; fjs.parentNode.insertBefore(js, fjs); };
+      add('https://retrics-prod.1a-lab.net/static/build/retrics.min.js', 'retrics-lib');
+    }(document, 'script'));
+  </script>
+  <link rel="stylesheet" href="styles.eb1a704581e3bc27798a.css"></head>
+
+<body>
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.bd9b09a56157569f2c8e.js"></script><script type="text/javascript" src="polyfills.c658a2de8e5d43194bac.js"></script><script type="text/javascript" src="main.1305b598ffa2ccee3356.js"></script><script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=905016401';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+
+</html>

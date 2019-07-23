@@ -1,0 +1,31 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /test-download-urls
+Disallow: /graphic-banners
+Disallow: /coupon-generation-form
+Disallow: /video-edit-report
+Disallow: /shortcode-test
+Disallow: /checkout
+Disallow: /checkout/pay
+Disallow: /checkout/order-received
+Disallow: /my-account/downloads
+Disallow: /my-account/view-order
+Disallow: /jobs/initial-interview-info
+Disallow: /cart
+Disallow: /teaching-files
+Disallow: /list-of-all-tags
+Disallow: /jobs/initial-interview-info-technical
+Disallow: /jobs/accounting
+Disallow: /jobs/general-exam-usability-computer
+Disallow: /jobs/online-exam-general
+Disallow: /jobs/aggility-online-interview
+Disallow: /jobs/financial-form
+Disallow: /jobs/online-exam-programer
+
+User-agent: msnbot
+Crawl-delay: 5
+
+User-agent: bingbot
+Crawl-delay: 5

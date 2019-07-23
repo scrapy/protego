@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /tmp/ 
+Disallow: /Stats/Files/
+Disallow: /Stats/Reports/
+Disallow: /Libraries/shared/
+Disallow: /Libraries/.shared/
+Disallow: /Libraries/cache/
+Disallow: /Libraries/templates_c/
+Disallow: /design/index.php/member/
+Disallow: /design/index.php/students/
+User-Agent: Googlebot
+Sitemap: http://www.uky.edu/CFFLS/welcome/sitemap.xml

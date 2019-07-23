@@ -1,0 +1,11 @@
+User-agent: gsa-crawler
+Disallow:
+
+User-agent: gsa-crawler2
+Disallow:
+
+User-agent: *
+Disallow: /opinions/nonpub/
+Disallow: /documents/jbcl-manual.pdf
+Disallow: /documents/jbcl-faq.pdf
+Disallow: /cms/courtinterpreters/

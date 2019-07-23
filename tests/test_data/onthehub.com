@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /sf/
+Disallow: /sf/*
+Disallow: /wp-content/themes/onthehub/inc/schoolfinder/*
+Disallow: /wp-content/themes/onthehub/inc/sf/*
+Disallow: /wp-content/themes/onthehub/sf/*
+Disallow: /microsoft-office/sf_ng/*
+Disallow: /schoolfinder/
+Disallow: /schoolfinder/*
+Disallow: /oth-schoolfinder/
+Disallow: /oth-schoolfinder/*

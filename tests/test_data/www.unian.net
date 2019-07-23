@@ -1,0 +1,76 @@
+User-agent: *
+Allow: *.jpg
+Allow: *.gif
+Allow: *.svg
+Allow: *.css
+Allow: *.png
+Allow: *.js
+Disallow: /comments/
+Disallow: /build/
+Disallow: /search/
+Disallow: /content/
+Disallow: /profile/
+Disallow: /redirect/
+Disallow: *utm_source=*
+Disallow: *utm_medium=*
+Disallow: *utm_campaign=*
+Disallow: /?url=*
+Disallow: /*_sm_byp
+Disallow: /*CFID=*
+Disallow: /div_location=
+Disallow: /*?refresh
+Disallow: /?quot
+
+User-agent: googlebot
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.png
+Allow: /*.js
+Disallow: /comments/
+Disallow: /search/
+Disallow: /profile/
+Disallow: /pogoda/*?desktop_pogoda=1
+
+User-agent: yandex
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.png
+Allow: /*.js
+Disallow: /comments/
+Disallow: /search/
+Disallow: /profile/
+
+User-agent: googlebot-image
+Allow: *.jpg
+Allow: *.gif
+Allow: *.svg
+Allow: *.png
+
+User-agent: googlebot-video
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.png
+Allow: /*.js
+
+User-agent: yandexvideo
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.png
+Allow: /*.js
+
+Sitemap:  https://www.unian.net/sitemap.xml
+Sitemap:  https://www.unian.net/sitemaps/sitemap.last.xml
+    Sitemap:  https://www.unian.net/sitemaps/online/sitemap.xml
+    Sitemap:  https://www.unian.net/pogoda/sitemap.xml
+
+host: https://www.unian.net
+
+

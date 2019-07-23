@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: /*?doAsUserId
+Disallow: /*&doAsUserId
+Disallow: /*?p_p_id=101
+Disallow: /*&p_p_id=101
+Disallow: /web/web-guidelines
+Disallow: /web/lfr-expo
+Disallow: /web/learning-resources
+Disallow: /combo
+Disallow: /newssearch
+Disallow: /c/

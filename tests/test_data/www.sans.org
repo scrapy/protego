@@ -1,0 +1,37 @@
+User-agent: *
+Disallow: /registration
+Disallow: /admin.php
+Disallow: /adminpage.php
+Disallow: /jsf_detect.php
+Disallow: /jsf_reg_detect.php
+Disallow: /admin
+Disallow: /email
+Disallow: /maps
+Disallow: /flash
+Disallow: /find-training
+Disallow: /feedback/find-training
+Disallow: /press/fellowship
+Disallow: /security-training/archives
+Disallow: /redirector/exhibitors/3250
+Disallow: /bah
+Disallow: /ethicalhackingppclp 
+Disallow: /pentestppclp 
+Disallow: /dfppclp 
+Disallow: /lp
+Disallow: /lp/cyber-security-training
+Disallow: /lp/cyber-security-training/v2
+Disallow: /lp/cyber-security-training/v3
+Disallow: /lp/cyber-security-courses
+Disallow: /lp/cyber-security-classes
+Disallow: /lp/information-security-training
+Disallow: /lp/information-security-training/v2
+Disallow: /lp/information-security-training/v3
+Disallow: /nercppclp
+Disallow: /roadmap
+Disallow: /roadmap/*
+Disallow: /cyber-security-training/north-america/need-assistance/*
+
+Sitemap: https://www.sans.org/sitemap-index.xml
+
+
+

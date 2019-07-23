@@ -1,0 +1,36 @@
+
+User-agent: *
+Disallow: /~nsdwww/mail
+
+User-agent: *
+Disallow: /~namm4
+
+User-agent: *
+Disallow: /Admin
+
+User-agent: *
+Disallow: /logstats
+
+User-agent: *
+Disallow: /regulations/programme/
+
+User-agent: *
+Disallow: /search
+
+User-agent: *
+Disallow: /module-catalogue/reporting/
+
+User-agent: *
+Disallow: /_mm/
+Disallow: /_notes/
+Disallow: /_baks/
+Disallow: /MMWIP/
+Disallow: /iss
+Disallow: /Shibboleth.sso
+
+# Request - 2338123 - Peter Chau
+User-agent: *
+Disallow: /*.mno$
+
+# 01/04/19 for pt/digital 22
+Sitemap: https://www.ncl.ac.uk/sitemap.xml

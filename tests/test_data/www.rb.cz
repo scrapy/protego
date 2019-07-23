@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow:
+Sitemap: https://www.rb.cz/sitemap.xml
+Disallow: /o-nas/kariera/
+Disallow: /attachments/kariera/
+Disallow: /attachments/kariera/pracovni-rad.pdf
+Disallow: /attachments/kariera/prevence-legalizace.pdf
+Disallow: /attachments/kariera/comliance-manual.pdf
+Disallow: /attachments/kariera/hr-zasady-informacni-bezpecnosti.pdf
+Disallow: /attachments/kariera/hr-osobni-dotaznik.xls
+Disallow: /attachments/kariera/hr-vstupni-prohlidka.doc
+Disallow: /promo/test
+Disallow: /promo/rsts
+Disallow: /promo/sporici-ucet-sms
+Disallow: /promo/podnikatelske-dny-sms
+Disallow: /promo/podnikatelske-dny-o2
+Disallow: /promo/podnikatelske-dny-ucet-zdarma
+Disallow: /informacni-servis/aktuality/aktuality-2019/aktuality-201904/26042019-reakce-generalniho-reditele
+Disallow: /attachments/pi/karty/vypoved-smlouvy-kk-klientem.pdf

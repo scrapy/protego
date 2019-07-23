@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /*index.php
+Disallow: /support/administrator/
+Disallow: /support/cache/
+Disallow: /support/cli/
+Disallow: /support/components/
+Disallow: /support/images/
+Disallow: /support/includes/
+Disallow: /support/installation/
+Disallow: /support/language/
+Disallow: /support/libraries/
+Disallow: /support/logs/
+Disallow: /support/media/
+Disallow: /support/modules/
+Disallow: /support/plugins/
+Disallow: /support/templates/
+Disallow: /support/tmp/

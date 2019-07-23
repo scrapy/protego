@@ -1,0 +1,51 @@
+User-agent: 008
+Crawl-delay: 3
+Allow: /portal/
+Allow: /news/
+Allow: /ep-live/
+Disallow: /
+
+# USD 119677 + USD I-88842
+User-agent: *
+Disallow: /calendar/
+Disallow: /debats/
+Disallow: /pv1/
+Disallow: /pv2/
+Disallow: /searchdeb/
+Disallow: /guidemep_info_2009/
+Disallow: /votre-europarl/
+#DDU, REVAMPING : URL is now allowed Disallow: /committees/
+Disallow: /comparl/
+Disallow: /parliament/public/traineeship/secured/
+Disallow: /parliament/public/transltraineeship/secured
+# DDU, pb sur recherche des études sans paramètres
+Disallow: /activities/committees/studies/
+Disallow: /activities/committees/studiesCom/
+#KAD, 08/11/2018 - ne pas indexer les générations de listes de MEP [ERPL-8599]
+Disallow: /meps/*/pdf*
+Disallow: /meps/*/xml*
+#DDU, 15/04/2013 - ne pas indexer les fichiers d'études (pb timeout) [SDISPT-756]
+Disallow: /committees/*/studiesdownload.html
+#DDU, 03/02/2015 - pb registre REGI-1726
+Disallow: /RegistreWeb/search/simple.htm
+#DDU, 04/02/2015 - pb registre REGI-1726
+Disallow: /RegistreWeb/search/typedoc.htm
+Disallow: /RegistreWeb/search/advanced.htm
+# ERPL-4988
+Disallow: /common/mail/
+# ERPL-8599
+Disallow: /meps/*/eptvAjax
+# Discard thinktank PDF generators
+Disallow: /thinktank/*/pdf/search.html
+# R-1534197
+Disallow: /ecard/
+Disallow: /newsgate/
+#100Books RWD
+Disallow: /100books/*/downloadPDF
+#List of VOD - ERPL-7502
+Disallow: /plenary/*/vod.html
+# Discard MEP lists
+Disallow: /delegations/*/*/members/pdf.html
+# traineeships should not be indexed anymore
+Disallow: /pdf/traineeships/
+

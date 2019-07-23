@@ -1,0 +1,15 @@
+User-agent: MauiBot (crawler.feedback+wc@gmail.com)
+Disallow: /
+User-agent: MauiBot (crawler.feedback+dc@gmail.com)
+Disallow: /
+User-agent: MegaIndex.ru
+Disallow: /
+User-agent: Semrushbot-SA
+Disallow: /
+User-agent: HTTrack
+Disallow: /
+User-agent: *
+Crawl-delay: 120
+Disallow: /publications/search-publications/
+Disallow: /Sitefinity/
+Sitemap: https://www.aiaa.org/sitemap/sitemap-index.xml

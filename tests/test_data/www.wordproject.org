@@ -1,0 +1,9 @@
+User-agent: *  
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /news/ 
+Disallow: /fonts/
+Disallow: /se_eng/    
+Disallow: /mission/
+Disallow: /sos/
+Disallow: /sf_readings/

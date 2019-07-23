@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /playlists/
+Disallow: /cart/
+Disallow: /account/
+Disallow: /wishlist/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /api/
+Disallow: /MP3/
+
+Sitemap: https://www.juno.co.uk/export/google_sitemap/www.juno.co.uk_sitemap.xml

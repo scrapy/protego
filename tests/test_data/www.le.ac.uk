@@ -1,0 +1,78 @@
+# GoogleBot apparently not taking notice of these
+# so duplicate under User-Agent: Googlebot
+User-Agent: *
+Disallow: /cgi-bin/CastleV1_2.MarkEngine
+Disallow: /cgi-bin/Permission
+Disallow: /cgi-bin/Permission.MASTER
+Disallow: /cgi-bin/Permission.SLAVE
+Disallow: /cgi-bin/QuotaCheck
+Disallow: /cgi-bin/SetPassword
+Disallow: /cgi-bin/cwisedit
+Disallow: /cgi-bin/cwisedit2
+Disallow: /cgi-bin/cwisedit2.MASTER
+Disallow: /cgi-bin/cwisedit2.SLAVE
+Disallow: /cgi-bin/emailsearch
+Disallow: /cgi-bin/formemail
+Disallow: /cgi-bin/htexternal
+Disallow: /cgi-bin/htinternal
+Disallow: /cgi-bin/mailform
+Disallow: /cgi-bin/mailform2
+Disallow: /cgi-bin/teledir
+Disallow: /cgi-bin/telesearch
+Disallow: /cgi-bin/unavailable
+Disallow: /lol/
+Disallow: /stats/
+Disallow: /cwis/badlinks/
+Disallow: /cwis/brokenlinks/byuser
+Disallow: /cwis/brokenlinks/byarea
+Disallow: /cwiswebcentre
+Disallow: /ebulletin/
+Disallow: /digitalsignage/
+Disallow: /directories/telephone/templates
+Disallow: /directories/email/templates
+Disallow: /webmailtest
+Disallow: /jobs/internal
+Disallow: /richardIII-new
+
+
+User-Agent: Googlebot
+Disallow: /cgi-bin/CastleV1_2.MarkEngine
+Disallow: /cgi-bin/Permission
+Disallow: /cgi-bin/Permission.MASTER
+Disallow: /cgi-bin/Permission.SLAVE
+Disallow: /cgi-bin/QuotaCheck
+Disallow: /cgi-bin/SetPassword
+Disallow: /cgi-bin/cwisedit
+Disallow: /cgi-bin/cwisedit2
+Disallow: /cgi-bin/cwisedit2.MASTER
+Disallow: /cgi-bin/cwisedit2.SLAVE
+Disallow: /cgi-bin/emailsearch
+Disallow: /cgi-bin/formemail
+Disallow: /cgi-bin/htexternal
+Disallow: /cgi-bin/htinternal
+Disallow: /cgi-bin/mailform
+Disallow: /cgi-bin/mailform2
+Disallow: /cgi-bin/teledir
+Disallow: /cgi-bin/telesearch
+Disallow: /cgi-bin/unavailable
+Disallow: /lol/
+Disallow: /stats/
+Disallow: /cwis/badlinks/
+Disallow: /cwis/brokenlinks/byuser
+Disallow: /cwis/brokenlinks/byarea
+Disallow: /cwiswebcentre
+Disallow: /ebulletin/
+Disallow: /digitalsignage/
+Disallow: /directories/telephone/templates
+Disallow: /directories/email/templates
+Disallow: /webmailtest
+Disallow: /jobs/internal
+Disallow: /richardIII-new
+
+
+#User-Agent: htdig_external
+#Disallow: /TALENT
+
+#User-Agent: htdig_internal
+#Disallow: /TALENT
+

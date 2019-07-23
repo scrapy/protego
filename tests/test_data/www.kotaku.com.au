@@ -1,0 +1,49 @@
+# Optimised Robots
+# Updated: 6/11/2017
+
+##################################################
+# Sitemap
+Sitemap: http://www.kotaku.com.au/sitemap.xml
+
+
+##################################################
+# 3rd Party Integrations
+
+##################################################
+	
+
+
+##################################################
+# Global settings
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-login.php
+Disallow: /activate/
+Disallow: /cgi-bin/
+Disallow: /mshots/v1/
+Disallow: /next/
+Disallow: /public.api/
+Disallow: /search/
+Disallow: /*?                           # Don't index anything with a query string
+Disallow: /tags/*/page/                 # Explicitly block pagination on Tag pages
+Disallow: /author/*/page/               # Explicitly block pagination on Author pages
+Disallow: /user/                        # Don't index GMG social pages and personal pages
+
+User-agent: Mediapartners-Google
+Disallow:
+
+
+##################################################
+# Bot-specific handling
+
+User-agent: bingbot
+Crawl-delay: 1
+
+# MSNBot works on a scale of 0 = normal, 1-10 from slow to extremely slow.
+User-agent: msnbot
+Crawl-delay: 1
+
+User-agent: Slurp
+Crawl-delay: 1

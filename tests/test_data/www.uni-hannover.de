@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /typo3conf/system
+Disallow: /*naw_securedl*
+Disallow: /*?type=1513087837*
+Disallow: /*tx_securedownloads*

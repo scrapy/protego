@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /search/
+Disallow: /apidoc/
+Disallow: /api/
+Disallow: /admin/
+Disallow: /*/embed/
+Disallow: /ru/

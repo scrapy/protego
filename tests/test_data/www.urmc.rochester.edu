@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /_mm/
+Disallow: /_notes/
+Disallow: /_baks/
+Disallow: /_sourcefiles/
+Disallow: /css/
+Disallow: /errors/
+Disallow: /homepage/
+Disallow: /images/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /MMWIP/
+Disallow: /profiles/
+Disallow: /search/
+Disallow: /search
+Disallow: /search.aspx
+Disallow: /Templates/
+Disallow: /utilities/
+Disallow: /CMSPages/WebAnalyticsService.asmx
+Disallow: /CMSPages/WebAnalyticsService.asmx/
+
+User-agent: googlebot
+Disallow: *.csi
+
+User-agent: 008
+Disallow: /
+
+Host: www.urmc.rochester.edu
+Sitemap: https://www.urmc.rochester.edu/sitemap-index.xml 

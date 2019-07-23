@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /*?sz=*
+Disallow: /*?q=*
+Disallow: /*?cgid=*
+Disallow: /*?color=*
+Disallow: /*?srule=*
+Disallow: /*?pid=*
+Disallow: /*?dwvar=*
+Disallow: /Login-Show/
+Disallow: /Customer-EditProfile/
+Disallow: /Customer-AddressBookList/
+Disallow: /PaymentInstruments-List/
+Disallow: /Order-Track/
+Disallow: /Wishlist-Show/
+Disallow: /E​mai​lFr​ien​d-S​tar​t/
+Disallow: /Search-*?
+Disallow: /Sites-ToryBurch_CF-Site/
+
+Sitemap: https://www.toryburch.com/sitemap_index.xml

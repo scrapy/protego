@@ -1,0 +1,108 @@
+#     ___           ___           ___           ___                       ___
+#    /  /\         /  /\         /  /\         /  /\                     /  /\
+#   /  /::|       /  /::\       /  /::\       /  /::\                   /  /::\
+#  /  /:/:|      /  /:/\:\     /  /:/\:\     /  /:/\:\  ___     ___    /  /:/\:\
+# /  /:/|:|__   /  /:/  \:\   /  /:/  \:\   /  /:/~/:/ /__/\   /  /\  /  /:/~/::\
+#/__/:/ |:| /\ /__/:/ \__\:\ /__/:/ \__\:\ /__/:/ /:/  \  \:\ /  /:/ /__/:/ /:/\:\
+#\__\/  |:|/:/ \  \:\ /  /:/ \  \:\ /  /:/ \  \:\/:/    \  \:\  /:/  \  \:\/:/__\/
+#    |  |:/:/   \  \:\  /:/   \  \:\  /:/   \  \::/      \  \:\/:/    \  \::/
+#    |  |::/     \  \:\/:/     \  \:\/:/     \  \:\       \  \::/      \  \:\
+#    |  |:/       \  \::/       \  \::/       \  \:\       \__\/        \  \:\
+#    |__|/         \__\/         \__\/         \__\/                     \__\/
+
+User-agent: *
+Disallow: /sort.html*
+Disallow: /*?st=EORST*
+Disallow: /comparison-api/*
+Disallow: /*/details/map/*
+Disallow: */details/print/
+Disallow: */details/photos/
+Disallow: */stations/
+Disallow: */local-info/
+Disallow: /datafeed
+Disallow: /widgets
+Disallow: /graph
+Disallow: /ajax
+Disallow: /dynimgs
+Disallow: /cgi-bin
+Disallow: /violation
+Disallow: /xmlfeed
+Disallow: /myaccount
+Disallow: /ze
+Disallow: /*/contact
+Disallow: /askme/rating/*
+Disallow: /*radius=
+Allow: /*radius=0&pn
+Disallow: /tracking/
+Disallow: /*?rpn=*
+Disallow: /*?qpn=
+Disallow: /downloads
+Disallow: /*5765/ZPG/*
+Disallow: /*9215/ZPG/*
+Disallow: /property/values/compare/*
+# Disallow: /property/location/edit/*
+Disallow: */report-content/*
+Disallow: /find-agents/missing/
+Disallow: /property/incorrect/
+Disallow: /find-agents/error/
+Disallow: /trustedtradesmen
+# Disallow: /property/edit/
+Disallow: /tips
+Disallow: */add/
+Disallow: /friend/
+Disallow: /rockandroll
+Disallow: /iheartlondon
+Disallow: /*.pdf$
+Disallow: /search/
+Disallow: /signin/
+Disallow: /useful-tools/
+Disallow: /myzoopla/
+Disallow: /*/edit/*
+Disallow: /property/estimate/
+Disallow: /property/claim/
+Disallow: /appraisal/
+Disallow: /property-history/
+Disallow: /to-rent/fees/*
+Disallow: /to-rent/offices/*
+Disallow: /?rc-input-council_tax_band=
+Disallow: /for-sale/houses/auction/*
+Disallow: /for-sale/flats/auction/*
+Disallow: /for-sale/retirement/auction/*
+Disallow: /for-sale/bungalows/auction/*
+Disallow: /for-sale/farms-land/auction/*
+Disallow: /invest/?*show_variations=*
+Disallow: /save-on-your-energy-bills/
+Disallow: /moving/services/
+Disallow: /finance/ssi/*
+Disallow: /broadband/*
+Disallow: /home-values/check-postcode.html
+Disallow: /property/track/*
+Disallow: */static/svg/ui*
+
+# Baidu restricted to for sale and new homes
+User-agent: Baiduspider
+Disallow: /to-rent/
+Disallow: /home-values/
+Disallow: /house-prices/
+Disallow: /find-agents/
+Disallow: /market/
+Disallow: /property/
+Disallow: /askme/
+
+# Slurp (Still slurping why?)
+User-agent: Slurp
+Disallow: /
+
+# Mozilla/5.0 (compatible; proximic; +http://www.proximic.com/info/spider.php)
+# blocked as they are making incorrect requests
+User-agent: proximic
+Disallow: /
+
+User-agent: bingbot
+Crawl-delay: 1
+
+# Let Google Ads crawl everything
+User-agent: Mediapartners-Google
+Disallow:
+
+Sitemap: https://www.zoopla.co.uk/xmlsitemap/sitemap/index.xml.gz

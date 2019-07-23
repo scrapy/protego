@@ -1046,7 +1046,7 @@ Sitemap: https://www.etsy.com/dynamic-sitemaps.xml?sitemap=findssitemap
 Sitemap: https://www.etsy.com/listing_sitemaps/en/index.xml.gz
 Sitemap: https://www.etsy.com/seo-experiment/listing-attribute-description/index.xml.gz
 #
-# Bienvenue! Welcome!#   \
+# Oi, kent!#   \
 #
 #    -----
 #   | . . |

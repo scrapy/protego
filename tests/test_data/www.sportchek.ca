@@ -1,0 +1,33 @@
+User-agent: *
+Crawl-delay: 1
+
+Disallow: /shopping-cart.html/
+Disallow: /checkout/shipping.html
+Disallow: /checkout/billing
+Disallow: /checkout/confirmation
+Disallow: /checkout/payment
+Disallow: /checkout/paypal-payment
+Disallow: /checkout/shipping
+Disallow: /my-account
+Disallow: /my-account/wishlist
+Disallow: /movepage
+Disallow: /cart-pin
+Disallow: /ctfs-error
+Disallow: /banners
+Disallow: /search
+Disallow: /modals
+
+
+Allow: /find
+Allow: /sitemap.xml
+Allow: /sitemap01.xml
+Allow: /sitemap02.xml
+Allow: /sitemap03.xml
+Allow: /sitemap04.xml
+Allow: /sitemap05.xml
+Allow: /sitemap06.xml
+Allow: /sitemap07.xml
+Allow: /sitemap08.xml
+Allow: /sitemap09.xml
+
+Sitemap: https://www.sportchek.ca/sitemap.xml

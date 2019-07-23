@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /submit
+Disallow: /session
+Disallow: /login
+Disallow: /api
+Disallow: /search
+Disallow: /submit
+Disallow: /remote-submit
+Disallow: /share
+Disallow: /share.php
+Disallow: /tools
+Disallow: /post

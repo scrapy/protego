@@ -1,0 +1,13 @@
+User-agent: * 
+Disallow: /passageiros/pt/mycp 
+Disallow: /passengers/en/mycp 
+Disallow: /sites/j_spring_security_logout 
+Disallow: /passageiros/en/mycp
+Disallow: /StaticFiles/Kids/resources/swf
+Disallow: /file_source/Kids/resources/swf
+Disallow: /passageiros/pt/paginas/404
+Disallow: /passageiros/en/pages/404
+Disallow: /StaticFiles/*/$
+
+
+Sitemap: https://www.cp.pt/StaticFiles/CP/sitemap.xml

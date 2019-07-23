@@ -3,7 +3,7 @@
 #
 # robots.txt for https://www.sap.com
 #
-# Version 2019-07-03
+# Version 2019-07-22
 #
 
 
@@ -45,6 +45,7 @@ Disallow: */cmp/dg/gdpr-rapp/
 Disallow: /idea-place/test*
 Disallow: */products/globalization/
 Disallow: */product/
+Disallow: */products/bd-s4hana-erp*
 Disallow: */solution/
 Disallow: */products/erp/erp-cloud-exp-proserv.html
 Disallow: */products/s4hana-erp-cloud-exp-proserv.html
@@ -87,6 +88,7 @@ Disallow: */cmp/dg/gdpr-rapp/
 Disallow: /idea-place/test*
 Disallow: */products/globalization/
 Disallow: */product/
+Disallow: */products/bd-s4hana-erp*
 Disallow: */solution/
 Disallow: */products/erp/erp-cloud-exp-proserv.html
 Disallow: */products/s4hana-erp-cloud-exp-proserv.html
@@ -129,6 +131,7 @@ Disallow: */cmp/dg/gdpr-rapp/
 Disallow: /idea-place/test*
 Disallow: */products/globalization/
 Disallow: */product/
+Disallow: */products/bd-s4hana-erp*
 Disallow: */solution/
 Disallow: */products/erp/erp-cloud-exp-proserv.html
 Disallow: */products/s4hana-erp-cloud-exp-proserv.html
@@ -171,6 +174,7 @@ Disallow: */cmp/dg/gdpr-rapp/
 Disallow: /idea-place/test*
 Disallow: */products/globalization/
 Disallow: */product/
+Disallow: */products/bd-s4hana-erp*
 Disallow: */solution/
 Disallow: */products/erp/erp-cloud-exp-proserv.html
 Disallow: */products/s4hana-erp-cloud-exp-proserv.html
@@ -213,6 +217,7 @@ Disallow: */cmp/dg/gdpr-rapp/
 Disallow: /idea-place/test*
 Disallow: */products/globalization/
 Disallow: */product/
+Disallow: */products/bd-s4hana-erp*
 Disallow: */solution/
 Disallow: */products/erp/erp-cloud-exp-proserv.html
 Disallow: */products/s4hana-erp-cloud-exp-proserv.html

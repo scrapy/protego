@@ -1,0 +1,9 @@
+Sitemap: https://www.stereogum.com/sitemap.xml
+Sitemap: https://www.stereogum.com/sitemap_news.xml
+User-agent: *
+Disallow: /wp/wp-admin/
+Disallow: /wp-includes/
+Disallow: /xmlrpc.php
+Disallow: /*?s=
+Disallow: /search/*
+Disallow: /6419/stereogum/*

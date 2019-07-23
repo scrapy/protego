@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /en/legal/promotional-offer-75rebate.html
+Disallow: /pardot_template/*
+Disallow: /en/legal/offer-details/promotional-offer-75rebate/
+Disallow: /support-PetroTrak
+Disallow: /soutien-PetroTrak 
+Disallow: /-/media/Moneris/Files/EN/support/PetroTrak_VX520_RefGuide-EN.pdf
+Disallow: /-/media/Moneris/Files/FR/support/PetroTrak_VX520_RefGuide-FR.pdf
+Disallow: /-/media/Files/2018/PetroTrak_VX520_RefGuide-FR.pdf
+Disallow: /-/media/Files/2018/PetroTrak_VX520_RefGuide-EN.pdf
+Disallow: /en/legal/offer-details/promotional-offer-75rebate/
+Disallow: /fr-ca/juridiques/conditions-utilisation/promotional-offer-75rebate/
+Disallow: /help/*
+Disallow: /en/products-services/mobile-tablet/ipad-pos-solutions/restaurant/restaurant-hardware
+Disallow: /en/products-services/mobile-tablet/ipad-pos-solutions/restaurant/restaurant-installation
+Disallow: /en/products-services/mobile-tablet/ipad-pos-solutions/restaurant/restaurant-pricing
+Disallow: /FormTemplateSrv/FormTemplateService.asmx
+Disallow: /FormTemplateSrv/FormTemplateService.asmx/SubmitLead
+

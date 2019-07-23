@@ -1,0 +1,480 @@
+# robots.txt for support.mozilla.org
+User-Agent: *
+Disallow: /admin/
+
+Disallow: /af/forums
+Disallow: /af/users
+Disallow: /af/user
+
+Disallow: /ar/forums
+Disallow: /ar/users
+Disallow: /ar/user
+
+Disallow: /az/forums
+Disallow: /az/users
+Disallow: /az/user
+
+Disallow: /bg/forums
+Disallow: /bg/users
+Disallow: /bg/user
+
+Disallow: /bm/forums
+Disallow: /bm/users
+Disallow: /bm/user
+
+Disallow: /bn-BD/forums
+Disallow: /bn-BD/users
+Disallow: /bn-BD/user
+
+Disallow: /bn-IN/forums
+Disallow: /bn-IN/users
+Disallow: /bn-IN/user
+
+Disallow: /bs/forums
+Disallow: /bs/users
+Disallow: /bs/user
+
+Disallow: /ca/forums
+Disallow: /ca/users
+Disallow: /ca/user
+
+Disallow: /cs/forums
+Disallow: /cs/users
+Disallow: /cs/user
+
+Disallow: /da/forums
+Disallow: /da/users
+Disallow: /da/user
+
+Disallow: /de/forums
+Disallow: /de/users
+Disallow: /de/user
+
+Disallow: /ee/forums
+Disallow: /ee/users
+Disallow: /ee/user
+
+Disallow: /el/forums
+Disallow: /el/users
+Disallow: /el/user
+
+Disallow: /en-US/forums
+Disallow: /en-US/users
+Disallow: /en-US/user
+
+Disallow: /es/forums
+Disallow: /es/users
+Disallow: /es/user
+
+Disallow: /et/forums
+Disallow: /et/users
+Disallow: /et/user
+
+Disallow: /eu/forums
+Disallow: /eu/users
+Disallow: /eu/user
+
+Disallow: /fa/forums
+Disallow: /fa/users
+Disallow: /fa/user
+
+Disallow: /fi/forums
+Disallow: /fi/users
+Disallow: /fi/user
+
+Disallow: /fr/forums
+Disallow: /fr/users
+Disallow: /fr/user
+
+Disallow: /fy-NL/forums
+Disallow: /fy-NL/users
+Disallow: /fy-NL/user
+
+Disallow: /ga-IE/forums
+Disallow: /ga-IE/users
+Disallow: /ga-IE/user
+
+Disallow: /gl/forums
+Disallow: /gl/users
+Disallow: /gl/user
+
+Disallow: /gn/forums
+Disallow: /gn/users
+Disallow: /gn/user
+
+Disallow: /gu-IN/forums
+Disallow: /gu-IN/users
+Disallow: /gu-IN/user
+
+Disallow: /ha/forums
+Disallow: /ha/users
+Disallow: /ha/user
+
+Disallow: /he/forums
+Disallow: /he/users
+Disallow: /he/user
+
+Disallow: /hi-IN/forums
+Disallow: /hi-IN/users
+Disallow: /hi-IN/user
+
+Disallow: /hr/forums
+Disallow: /hr/users
+Disallow: /hr/user
+
+Disallow: /hu/forums
+Disallow: /hu/users
+Disallow: /hu/user
+
+Disallow: /dsb/forums
+Disallow: /dsb/users
+Disallow: /dsb/user
+
+Disallow: /hsb/forums
+Disallow: /hsb/users
+Disallow: /hsb/user
+
+Disallow: /id/forums
+Disallow: /id/users
+Disallow: /id/user
+
+Disallow: /ig/forums
+Disallow: /ig/users
+Disallow: /ig/user
+
+Disallow: /it/forums
+Disallow: /it/users
+Disallow: /it/user
+
+Disallow: /ja/forums
+Disallow: /ja/users
+Disallow: /ja/user
+
+Disallow: /ka/forums
+Disallow: /ka/users
+Disallow: /ka/user
+
+Disallow: /km/forums
+Disallow: /km/users
+Disallow: /km/user
+
+Disallow: /kn/forums
+Disallow: /kn/users
+Disallow: /kn/user
+
+Disallow: /ko/forums
+Disallow: /ko/users
+Disallow: /ko/user
+
+Disallow: /ln/forums
+Disallow: /ln/users
+Disallow: /ln/user
+
+Disallow: /lt/forums
+Disallow: /lt/users
+Disallow: /lt/user
+
+Disallow: /mg/forums
+Disallow: /mg/users
+Disallow: /mg/user
+
+Disallow: /mk/forums
+Disallow: /mk/users
+Disallow: /mk/user
+
+Disallow: /ml/forums
+Disallow: /ml/users
+Disallow: /ml/user
+
+Disallow: /ms/forums
+Disallow: /ms/users
+Disallow: /ms/user
+
+Disallow: /ne-NP/forums
+Disallow: /ne-NP/users
+Disallow: /ne-NP/user
+
+Disallow: /nl/forums
+Disallow: /nl/users
+Disallow: /nl/user
+
+Disallow: /no/forums
+Disallow: /no/users
+Disallow: /no/user
+
+Disallow: /pl/forums
+Disallow: /pl/users
+Disallow: /pl/user
+
+Disallow: /pt-BR/forums
+Disallow: /pt-BR/users
+Disallow: /pt-BR/user
+
+Disallow: /pt-PT/forums
+Disallow: /pt-PT/users
+Disallow: /pt-PT/user
+
+Disallow: /ro/forums
+Disallow: /ro/users
+Disallow: /ro/user
+
+Disallow: /ru/forums
+Disallow: /ru/users
+Disallow: /ru/user
+
+Disallow: /si/forums
+Disallow: /si/users
+Disallow: /si/user
+
+Disallow: /sk/forums
+Disallow: /sk/users
+Disallow: /sk/user
+
+Disallow: /sl/forums
+Disallow: /sl/users
+Disallow: /sl/user
+
+Disallow: /sq/forums
+Disallow: /sq/users
+Disallow: /sq/user
+
+Disallow: /sr/forums
+Disallow: /sr/users
+Disallow: /sr/user
+
+Disallow: /sw/forums
+Disallow: /sw/users
+Disallow: /sw/user
+
+Disallow: /sv/forums
+Disallow: /sv/users
+Disallow: /sv/user
+
+Disallow: /ta/forums
+Disallow: /ta/users
+Disallow: /ta/user
+
+Disallow: /ta-LK/forums
+Disallow: /ta-LK/users
+Disallow: /ta-LK/user
+
+Disallow: /te/forums
+Disallow: /te/users
+Disallow: /te/user
+
+Disallow: /th/forums
+Disallow: /th/users
+Disallow: /th/user
+
+Disallow: /tn/forums
+Disallow: /tn/users
+Disallow: /tn/user
+
+Disallow: /tr/forums
+Disallow: /tr/users
+Disallow: /tr/user
+
+Disallow: /uk/forums
+Disallow: /uk/users
+Disallow: /uk/user
+
+Disallow: /ur/forums
+Disallow: /ur/users
+Disallow: /ur/user
+
+Disallow: /vi/forums
+Disallow: /vi/users
+Disallow: /vi/user
+
+Disallow: /wo/forums
+Disallow: /wo/users
+Disallow: /wo/user
+
+Disallow: /xh/forums
+Disallow: /xh/users
+Disallow: /xh/user
+
+Disallow: /yo/forums
+Disallow: /yo/users
+Disallow: /yo/user
+
+Disallow: /zh-CN/forums
+Disallow: /zh-CN/users
+Disallow: /zh-CN/user
+
+Disallow: /zh-TW/forums
+Disallow: /zh-TW/users
+Disallow: /zh-TW/user
+
+Disallow: /zu/forums
+Disallow: /zu/users
+Disallow: /zu/user
+
+
+Disallow: /sv-SE/forums
+Disallow: /sv-SE/users
+Disallow: /sv-SE/user
+
+Disallow: /be/forums
+Disallow: /be/users
+Disallow: /be/user
+
+Disallow: /eo/forums
+Disallow: /eo/users
+Disallow: /eo/user
+
+Disallow: /mn/forums
+Disallow: /mn/users
+Disallow: /mn/user
+
+Disallow: /ff/forums
+Disallow: /ff/users
+Disallow: /ff/user
+
+Disallow: /ast/forums
+Disallow: /ast/users
+Disallow: /ast/user
+
+Disallow: /lv/forums
+Disallow: /lv/users
+Disallow: /lv/user
+
+Disallow: /ak/forums
+Disallow: /ak/users
+Disallow: /ak/user
+
+Disallow: /mr/forums
+Disallow: /mr/users
+Disallow: /mr/user
+
+Disallow: /an/forums
+Disallow: /an/users
+Disallow: /an/user
+
+Disallow: /nso/forums
+Disallow: /nso/users
+Disallow: /nso/user
+
+Disallow: /tl/forums
+Disallow: /tl/users
+Disallow: /tl/user
+
+Disallow: /as/forums
+Disallow: /as/users
+Disallow: /as/user
+
+Disallow: /gd/forums
+Disallow: /gd/users
+Disallow: /gd/user
+
+Disallow: /br/forums
+Disallow: /br/users
+Disallow: /br/user
+
+Disallow: /kab/forums
+Disallow: /kab/users
+Disallow: /kab/user
+
+Disallow: /mai/forums
+Disallow: /mai/users
+Disallow: /mai/user
+
+Disallow: /nb-NO/forums
+Disallow: /nb-NO/users
+Disallow: /nb-NO/user
+
+Disallow: /son/forums
+Disallow: /son/users
+Disallow: /son/user
+
+Disallow: /is/forums
+Disallow: /is/users
+Disallow: /is/user
+
+Disallow: /lg/forums
+Disallow: /lg/users
+Disallow: /lg/user
+
+Disallow: /nn-NO/forums
+Disallow: /nn-NO/users
+Disallow: /nn-NO/user
+
+Disallow: /fur/forums
+Disallow: /fur/users
+Disallow: /fur/user
+
+Disallow: /lo/forums
+Disallow: /lo/users
+Disallow: /lo/user
+
+Disallow: /uz/forums
+Disallow: /uz/users
+Disallow: /uz/user
+
+Disallow: /kk/forums
+Disallow: /kk/users
+Disallow: /kk/user
+
+Disallow: /hy-AM/forums
+Disallow: /hy-AM/users
+Disallow: /hy-AM/user
+
+Disallow: /ach/forums
+Disallow: /ach/users
+Disallow: /ach/user
+
+Disallow: /oc/forums
+Disallow: /oc/users
+Disallow: /oc/user
+
+Disallow: /cy/forums
+Disallow: /cy/users
+Disallow: /cy/user
+
+Disallow: /lij/forums
+Disallow: /lij/users
+Disallow: /lij/user
+
+Disallow: /csb/forums
+Disallow: /csb/users
+Disallow: /csb/user
+
+Disallow: /cak/forums
+Disallow: /cak/users
+Disallow: /cak/user
+
+Disallow: /or/forums
+Disallow: /or/users
+Disallow: /or/user
+
+Disallow: /sah/forums
+Disallow: /sah/users
+Disallow: /sah/user
+
+Disallow: /ltg/forums
+Disallow: /ltg/users
+Disallow: /ltg/user
+
+Disallow: /rw/forums
+Disallow: /rw/users
+Disallow: /rw/user
+
+Disallow: /ilo/forums
+Disallow: /ilo/users
+Disallow: /ilo/user
+
+Disallow: /rm/forums
+Disallow: /rm/users
+Disallow: /rm/user
+
+Disallow: /pa-IN/forums
+Disallow: /pa-IN/users
+Disallow: /pa-IN/user
+
+Disallow: /my/forums
+Disallow: /my/users
+Disallow: /my/user
+
+Disallow: /bn/forums
+Disallow: /bn/users
+Disallow: /bn/user

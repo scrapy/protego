@@ -1,0 +1,6 @@
+# robots.txt for http://www.ics.uci.edu/
+# see <http://www.robotstxt.org/> for an explanation.
+
+User-agent: *                   # All other spiders should avoid
+Disallow: /bin/
+Disallow: /~mpufal/          # Ticket #50447 requested by ugrad

@@ -1,0 +1,7 @@
+# This is robots.txt for http://www.tohoku.ac.jp/
+
+User-agent: *
+Disallow: /english/
+Disallow: /japanese/link/limited/
+Disallow: /japanese/unyo/
+Disallow: /logomark/

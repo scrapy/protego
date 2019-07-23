@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /comments/*
+Disallow: /SearchResults
+Disallow: /Comment/NewComment/*
+Disallow: /Comment/*
+Disallow: /comment/*
+Disallow: /Gallery/*
+Disallow: /gallery/*
+Disallow: /Print/*
+Disallow: /print/*
+Disallow: /Account/*
+Disallow: /account/*
+Allow: /

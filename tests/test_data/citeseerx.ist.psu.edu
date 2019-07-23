@@ -1,0 +1,66 @@
+# blocked for extensive crawls without respecting crawl-delay
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: baiduspider
+Disallow: /
+
+User-agent: Baiduspider+
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /myciteseer/
+Disallow: /mcsutils/
+Disallow: /metacart
+Disallow: /correct
+Disallow: /feedback
+Disallow: /dwr/
+Disallow: /js/
+Disallow: /css/
+Disallow: /viewdoc/similar*
+Disallow: /viewdoc/versions*
+Disallow: /viewdoc/showciting*
+
+User-agent: Bingbot
+Disallow: /myciteseer/
+Disallow: /mcsutils/
+Disallow: /metacart
+Disallow: /correct
+Disallow: /feedback
+Disallow: /dwr/
+Disallow: /js/
+Disallow: /css/
+Disallow: /viewdoc/similar*
+Disallow: /viewdoc/versions*
+Disallow: /viewdoc/showciting*
+
+User-agent: *
+Disallow: /myciteseer/
+Disallow: /mcsutils/
+Disallow: /metacart
+Disallow: /correct
+Disallow: /feedback
+Disallow: /dwr/
+Disallow: /js/
+Disallow: /css/
+Disallow: /viewdoc/similar*
+Disallow: /viewdoc/versions*
+Disallow: /viewdoc/showciting*
+Crawl-delay: 10
+
+#added msnbot with more delay - was hitting hard with different ip's
+User-agent: msnbot
+Disallow: /myciteseer/
+Disallow: /mcsutils/
+Disallow: /metacart
+Disallow: /correct
+Disallow: /feedback
+Disallow: /dwr/
+Disallow: /js/
+Disallow: /css/
+Disallow: /viewdoc/similar*
+Disallow: /viewdoc/versions*
+Disallow: /viewdoc/showciting*
+Crawl-delay: 40
+
+Sitemap: http://citeseerx.ist.psu.edu/sitemap_index.xml

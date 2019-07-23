@@ -1,0 +1,138 @@
+# Last Updated: 02/19/19 by MCS, NIC
+
+# ---------------------- Statewide ----------------------
+
+# Note: Site-stored robots.txt are not honored, except on host-header sites / subdomains
+#	All directives for www.oregon.gov are to be stored here
+#	Remove an indexed SERP and/or submit a 'Remove URL' request in Webmaster Tools
+
+# Note: The Allow directives are added for many Google-specific Mobile Tests to fully render the page.
+#	Without these directives, the state sites could get poor grades for mobile-friendliness which
+#	can result is a lower Page Rank and other SEO scores, as well as incorrect analytics in
+#	the Google Analytics product.
+
+User-agent: *
+Disallow: /_Layouts
+Disallow: /_layouts
+Disallow: /*/_Layouts
+Disallow: /*/_layouts
+Disallow: /Style%20Library
+Disallow: /style%20library
+Disallow: /*/Style%20Library
+Disallow: /*/style%20library
+Disallow: /_vti_bin
+Disallow: /_vti_bin
+Disallow: /*/_vti_bin
+Disallow: /Pages/Search.aspx
+Disallow: */Pages/Search.aspx
+Disallow: /*/Pages/Search.aspx
+Disallow: /Pages/404.aspx
+Disallow: */Pages/404.aspx
+Disallow: /*/Pages/404.aspx
+Disallow: /Pages/Search-Results.aspx
+Disallow: */Pages/Search-Results.aspx
+Disallow: /*/Pages/Search-Results.aspx
+Disallow: /agencies
+Disallow: /agency-directory
+Disallow: /courts
+Disallow: /education
+Disallow: /employment
+Disallow: /environment
+Disallow: /family
+Disallow: /forms
+Disallow: /government
+Disallow: /health
+Disallow: /health-and-family
+Disallow: /records
+Disallow: /recreation
+Disallow: /transparency/archive
+Disallow: /DAS/HR/Pages/SCDsurvey.aspx
+Disallow: /DOR/Pages/form/ # Lists of auctions hidden so the pages are the interface for this information, not Search
+Disallow: /ERB/pages/boardorderlist.aspx
+Disallow: /ERB/pages/sprlordersbyissued_2011_15.aspx
+Disallow: /ERB/pages/sprlordersbyissued_2006_2010.aspx
+Disallow: /ERB/pages/sprlordersbyissued_2004_2005.aspx
+Disallow: /ERB/pages/sprlordersbyfiled_2011_15.aspx
+Disallow: /ERB/pages/sprlordersbyfiled_2006_2010.aspx
+Disallow: /ERB/pages/sprlordersbyfiled_2002_2005.aspx
+Disallow: /WCB/dcbs_index.html # Map of all WCB order documents
+Disallow: /wcb/dcbs_index.html # Map of all WCB order documents (case variation)
+Disallow: /WCB/Orders # Content should not be available except through Orders page
+Disallow: /wcb/Orders # Content should not be available except through Orders page (case variation)
+Disallow: /v3replaced # Site should be eventually removed
+Disallow: /odot/projects/pages/project-details.aspx?project=18564 #Temp removal
+Disallow: /ODOT/projects/pages/project-details.aspx?project=18564 #Temp removal
+Allow: /_vti_bin/Lists.asmx
+Allow: */_vti_bin/Lists.asmx
+Allow: /_vti_bin/Lists.asmx
+Allow: /*/_vti_bin/Views.asmx
+Allow: */_vti_bin/Views.asmx
+Allow: /*/_vti_bin/Views.asmx
+Allow: /_vti_bin/OID.SharePoint.StarterTemplate/templatesettings.svc/compiled
+Allow: */_vti_bin/OID.SharePoint.StarterTemplate/templatesettings.svc/compiled
+Allow: /*/_vti_bin/OID.SharePoint.StarterTemplate/templatesettings.svc/compiled
+Allow: /_layouts/1033/core.js?rev=*
+Allow: */_layouts/1033/core.js?rev=*
+Allow: /*/_layouts/1033/core.js?rev=*
+Allow: /_layouts/sp.js?rev=*
+Allow: */_layouts/sp.js?rev=*
+Allow: /*/_layouts/sp.js?rev=*
+Allow: /_layouts/sp.core.js?rev=*
+Allow: */_layouts/sp.core.js?rev=*
+Allow: /*/_layouts/sp.core.js?rev=*
+Allow: /_layouts/ScriptResx.ashx?culture=*
+Allow: */_layouts/ScriptResx.ashx?culture=*
+Allow: /*/_layouts/ScriptResx.ashx?culture=*
+Allow: /_layouts/sp.ui.dialog.js?rev=*
+Allow: */_layouts/sp.ui.dialog.js?rev=*
+Allow: /*/_layouts/sp.ui.dialog.js?rev=*
+Allow: /_layouts/sp.runtime.js?rev=*
+Allow: */_layouts/sp.runtime.js?rev=*
+Allow: /*/_layouts/sp.runtime..js?rev=*
+Allow: /_layouts/blank.js?rev=*
+Allow: */_layouts/blank.js?rev=*
+Allow: /*/_layouts/blank.js?rev=*
+Allow: /_layouts/1033/init.js?rev=*
+Allow: */_layouts/1033/init.js?rev=*
+Allow: /*/_layouts/1033/init.js?rev=*
+Allow: /_layouts/OID.SharePoint.StarterTemplate/scripts/data-tables-web-part.js
+Allow: */_layouts/OID.SharePoint.StarterTemplate/scripts/data-tables-web-part.js
+Allow: /*/_layouts/OID.SharePoint.StarterTemplate/scripts/data-tables-web-part.js
+Allow: /_layouts/OID.SharePoint.StarterTemplate/styles/icon-animations.css
+Allow: */_layouts/OID.SharePoint.StarterTemplate/styles/icon-animations.css
+Allow: /*/_layouts/OID.SharePoint.StarterTemplate/styles/icon-animations.css
+Allow: /_layouts/OID.SharePoint.StarterTemplate/styles/markup-styles.css
+Allow: */_layouts/OID.SharePoint.StarterTemplate/styles/markup-styles.css
+Allow: /*/_layouts/OID.SharePoint.StarterTemplate/styles/markup-styles.css
+Allow: /Style%20Library/css/agency.css
+Allow: */Style%20Library/css/agency.css
+Allow: /*/Style%20Library/css/agency.css
+Allow: /Style Library/css/agency.css
+Allow: */Style Library/css/agency.css
+Allow: /*/Style Library/css/agency.css
+Allow: /Style%20Library/js/agency.js
+Allow: */Style%20Library/js/agency.js
+Allow: /*/Style%20Library/js/agency.js
+Allow: /style%20library/images
+Allow: */style%20library/images
+Allow: /*/style%20library/images
+Allow: /style library/images
+Allow: */style library/images
+Allow: /*/style library/images
+Allow: /style%20library/Images
+Allow: */style%20library/Images
+Allow: /*/style%20library/Images
+Allow: /style library/Images
+Allow: */style library/Images
+Allow: /*/style library/Images
+
+
+# ---------------------- DCBS ----------------------
+
+# Enables DCBS's Google Search Applicance to index paths otherwise blocked (e.g. Orders)
+
+User-agent: dcbs-google
+Allow: /WCB/dcbs_index.html
+Allow: /wcb/dcbs_index.html # (case variation)
+Allow: /WCB/Orders
+Allow: /wcb/Orders # (case variation)

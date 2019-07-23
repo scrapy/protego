@@ -1,0 +1,22 @@
+
+
+user-agent: *
+
+disallow: /bin/*
+disallow: /App_Browsers/*
+disallow: /App_Data/*
+disallow: /App_Plugins/*
+disallow: /public/*
+disallow: /Umbraco/*
+disallow: /Umbraco_Client/*
+disallow: /uSync/*
+disallow: /Views/*
+disallow: /vodData/*
+
+
+Sitemap: http://www.taichung.gov.tw/XMLSitemap?id=9942
+Sitemap: http://www.taichung.gov.tw/XMLSitemap?id=9945
+Sitemap: http://www.taichung.gov.tw/XMLSitemap?id=9948
+Sitemap: http://www.taichung.gov.tw/XMLSitemap?id=9951
+Sitemap: http://www.taichung.gov.tw/XMLSitemap?id=9954
+Sitemap: http://www.taichung.gov.tw/XMLSitemap?id=9957

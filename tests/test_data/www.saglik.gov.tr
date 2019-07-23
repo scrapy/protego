@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sayfa Bulunamadı</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    
+     <link href="../css/main.css" rel="stylesheet">
+    <style type="text/css">
+<!--
+body {
+	margin: 0px;
+}
+h4 {
+	font-size: 24px;
+	color: #333;
+}
+a {
+	color: #000000;
+}
+#header {
+
+	
+	text-align: center;
+	height: 90px;
+	width: auto;
+	display: block;
+	position: relative;
+}
+-->
+</style>
+</head>
+<body>
+    <div id="header" >
+        <h4>
+            Ulaşmak istediğiniz sayfa sunucularımızda bulunamadı!.</h4>
+    </div>
+    <br /><div align="center">
+	&nbsp;&nbsp;<a href="javascript:;" onclick="history.back(-1);">Geri dön</a></div>
+	</div>
+</body>
+</html>

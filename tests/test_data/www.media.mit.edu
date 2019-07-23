@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /flower/
+Disallow: /entities/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /form-raw/
+Disallow: /forms/
+Disallow: /dam/
+Disallow: /api/
+Disallow: /breadcrumb/
+Disallow: /csrf/
+Disallow: /hijack/
+Disallow: /projects/list/

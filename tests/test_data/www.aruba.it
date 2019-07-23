@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /en/report-abuse
+Disallow: /es/denunciar-abusos
+Disallow: /abuse
+Disallow: /messaggio-inviato.aspx
+Disallow: /es/mensaje-enviado.aspx
+Disallow: /en/report-submitted.aspx
+Disallow: /assistenza/
+Disallow: /customercare/

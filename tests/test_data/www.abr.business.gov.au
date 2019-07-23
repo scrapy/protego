@@ -1,0 +1,9 @@
+﻿User-Agent: *
+Disallow: /AbnRefresh.aspx
+Disallow: /Tools/DownloadLookupTool
+Disallow: /Downloads/*.xlsm$
+
+Allow: /
+
+Sitemap: https://abr.business.gov.au/SiteMap
+

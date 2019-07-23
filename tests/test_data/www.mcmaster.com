@@ -1,0 +1,47 @@
+# robots.txt is case-sensitive
+User-agent: *
+Disallow: /orders
+Disallow: /Orders
+Disallow: /activity
+Disallow: /Activity
+Disallow: /order-history
+Disallow: /Order-History
+Disallow: /catalog/*
+Disallow: /Catalog/*
+Disallow: /*/SpecSrch.aspx
+Disallow: /*/InlineOrderingWebPart.aspx
+Disallow: /*/ItmPrsnttnWebPart.aspx
+Disallow: /*/ItmPrsnttnDynamicDat.aspx
+Disallow: /About*
+Disallow: /about*
+Disallow: /_
+Disallow: /?
+Disallow: /-
+Disallow: /%
+Allow: /*.js
+Allow: /*.css
+Allow: /*.tff
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*/HomePageNavWebPartHTTPHandler.aspx
+Allow: /*/homepagenavwebparthttphandler.aspx
+Allow: /*/HomePageWebPartHTTPHandler.aspx
+Allow: /*/homepagewebparthttphandler.aspx
+Allow: /*/IntermediatePageWebPart.aspx
+Allow: /*/ProdPageWebPart/ProdPageWebPart.aspx
+Allow: /*/SrchRsltWebPart.aspx
+Allow: /*/WebSrchEng.aspx
+Allow: /*/ContentWebPart.aspx
+Allow: /*/favicon.ico
+Allow: /sitemap.txt
+Allow: /products/*
+Allow: /Products/*
+Allow: /Products/
+Allow: /products/
+
+# Block all images from Google Images
+User-Agent: Googlebot-Image
+Disallow: /
+Allow: /info/*
+Allow: /init/gfx/favicon/*
+Allow: /*/favicon.ico

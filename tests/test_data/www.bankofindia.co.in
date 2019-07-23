@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="../bxstyle.css">
+	<script src="Scripts/AdminJS/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+<div class="main-box">
+<div class="cat-box">
+<a href="https://bankofindia.co.in"><img src="../logo.jpg" alt="logo"></a>
+</div>
+<div class="cent">We regret the inconvenience. Please try after some time.<br>
+Click here to go to Internet Banking</div>
+
+<div class="cent"><spam class="boiret"><a href="javascript:mypop('/html/popup_retailnew.html','application',600,450)">Retail</a></spam> / <spam class="boior"><a href="javascript:mypop('/html/popup_corporatenew.html','application',600,450)">Corporate</a></spam></div>
+
+<!--<hr class="style1">-->
+<div class="cat-box">
+<img src="../retail.jpg" alt="retail">
+</div>
+
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function () {
+        if (window.location.href.indexOf("english") > -1 || window.location.href.indexOf("hindi") > -1) {
+            var origin = window.location.origin;
+            var url = origin + '/Message.html';
+            window.open(url,'_self');
+        }
+     });
+</script>
+<script>
+        function mypop(url, title, w, h) {
+            if ((title == "") || (title == "undefined")) {
+                title = "mypop";
+            }
+            if ((w == "") || (w == "undefined")) {
+                w = 600;
+            }
+            if ((h == "null") || (h == "undefined")) {
+                h = 400;
+            }
+            // Fixes dual-screen position   Most browsers   Firefox
+            var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+            var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+            width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+            height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+            var param = 'width=' + w + ',height=' + h;
+            var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+            var top = ((height / 2) - (h / 2)) + dualScreenTop;
+            param += ',resizable=no,scrollbars=yes, top=' + top + ', left=' + left;
+            var hWnd = window.open(url, title, param);
+
+            // if (hWnd.focus != null) hWnd.focus();
+            hWnd.focus();
+        }
+</script>

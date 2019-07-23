@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /etc/segmentation
+Disallow: /*jcr:content
+Disallow: /bin
+Disallow: /content/wgu-marketing/en/search.html
+Disallow: /search.html
+Disallow: /content/wgu-marketing/en/tools.html
+Disallow: /content/wgu-marketing/en/tools
+Disallow: /tools.html
+Disallow: /tools
+Disallow: *.print.html
+Disallow: *.frame.html
+Disallow: /content/wgu-shared
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /

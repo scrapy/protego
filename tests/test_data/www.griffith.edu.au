@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+
+# Disallow some matrix defaults
+Disallow: /_designs/
+Disallow: /*?sq_content_src=
+Disallow: /*_recache
+Disallow: /*_edit
+Disallow: /*_admin
+Disallow: /*_login
+Disallow: /*_performance
+Disallow: /*_design
+Disallow: /*_web_services
+
+# Disallow some Griffith defaults
+Disallow: /do-not-publish
+Disallow: /degree-feed-module
+Disallow: /degree-finder-api
+Disallow: /feeds
+Disallow: /links
+Disallow: /home
+Disallow: /programs-and-courses-application
+Disallow: /postgraduate-coursework
+Disallow: /study/brochures
+Disallow: /office-marketing-communications/brochures
+Disallow: /apply/postgraduate-study/alumni
+
+# Disallow Study config and lib
+Disallow: /study/configuration
+Disallow: /study/content-library
+
+# Disallow Degree Finder Development
+Disallow: /study/development/*
+Disallow: /study/development/degrees/*
+Disallow: /study/development/courses/*
+
+# Allow Study config content library rest resource
+allow: /study/configuration/remote/content-library-rest

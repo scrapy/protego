@@ -1,0 +1,60 @@
+Sitemap: https://www.blueletterbible.org/sitemap.xml
+
+User-agent: *
+Allow: /
+
+Disallow: /116025902/BLB_300x250_LowRight1_Study
+Disallow: /116025902/BLB_300x250_LowRight2_Study
+Disallow: /116025902/BLB_300x250_MidRight1_Study
+Disallow: /116025902/BLB_300x250_MidRight2_Study
+
+Disallow: /116025902/BLB_300x250_LowRight1_WordSearch
+Disallow: /116025902/BLB_300x250_LowRight2_WordSearch
+Disallow: /116025902/BLB_300x250_MidRight1_WordSearch
+Disallow: /116025902/BLB_300x250_MidRight2_WordSearch
+
+Disallow: /116025902/BLB_300x250_LowRight1_Lexicon
+Disallow: /116025902/BLB_300x250_LowRight2_Lexicon
+Disallow: /116025902/BLB_300x250_MidRight1_Lexicon
+Disallow: /116025902/BLB_300x250_MidRight2_Lexicon
+
+Disallow: /116025902/BLB_300x250_LowRight1_AudVid
+Disallow: /116025902/BLB_300x250_LowRight2_AudVid
+Disallow: /116025902/BLB_300x250_MidRight1_AudVid
+Disallow: /116025902/BLB_300x250_MidRight2_AudVid
+
+Disallow: /116025902/BLB_300x250_LowRight1_Home
+Disallow: /116025902/BLB_300x250_LowRight2_Home
+Disallow: /116025902/BLB_300x250_MidRight1_Home
+Disallow: /116025902/BLB_300x250_MidRight2_Home
+
+Disallow: /116025902/BLB_300x250_LowRight1_TextComm
+Disallow: /116025902/BLB_300x250_LowRight2_TextComm
+Disallow: /116025902/BLB_300x250_MidRight1_TextComm
+Disallow: /116025902/BLB_300x250_MidRight2_TextComm
+
+Disallow: /about/jobs/
+Disallow: /audio_video/comm_author.cfm
+Disallow: /audio_video/comm_topic.cfm
+Disallow: /CFIDE/
+Disallow: /commentaries/charles_spurgeon/
+Disallow: /commentaries/Chuck_Smith/
+Disallow: /commentaries/comm_author.cfm
+Disallow: /commentaries/comm_view.cfm
+Disallow: /faq/don_stewart/stewart.cfm
+Disallow: /gifs/
+Disallow: /hymns/bio.cfm
+Disallow: /hymns/hymn.cfm
+
+Disallow: /links.cfm
+Disallow: /mission.cfm
+Disallow: /MyBLB.cfm
+Disallow: /myutmost/
+Disallow: /newcorp/
+Disallow: /reader/
+Disallow: /study/kjd/
+Disallow: /study/tsk/
+Disallow: /test/
+Disallow: /tmp_dir/
+Disallow: /tsk_b/
+Disallow: /wm/Mis/

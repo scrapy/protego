@@ -1,0 +1,96 @@
+Sitemap: http://www.cancerresearchuk.org/sitemap.xml
+
+User-Agent: *
+Disallow: /utilities/glossary/
+Disallow: /*PrinterFriendly
+Allow: /utilities/glossary/index.htm
+Allow: /sites/default/files/styles/*
+Disallow: */prod_consump/
+
+
+Disallow: /about-cancer/cancer-chat/user?destination=/
+Disallow: /about-cancer/cancer-chat/user?destination=/about-cancer/cancer-chat/
+Disallow: /about-us/cancer-news/news-search?
+Disallow: /content/
+Disallow: /support-us/
+
+
+Disallow: /cancer-subject/
+Disallow: /cancer-type/
+Disallow: /career-level/
+Disallow: /client/
+
+Disallow: /container-type/
+Disallow: /content-department/
+Disallow: /country/
+Disallow: /event-type/
+Disallow: /gift-calculator-ranges/
+Disallow: /gift-calculator-tags/
+Disallow: /glossary/
+Disallow: /phase-of-trial/
+Disallow: /post-type/
+Disallow: /product/
+Disallow: /region/
+Disallow: /research-area/
+Disallow: /research-type/
+Disallow: /restriction-type/
+Disallow: /standard-content/
+Disallow: /time-commitment/
+Disallow: /treatment-type/
+Disallow: /trial-status/
+Disallow: /trial-type/
+Disallow: /volunteer-role-environment/
+Disallow: /volunteer-role-type/
+Disallow: /includes/
+
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+
+
+Disallow: /file/apple-pay-imagejpg
+Disallow: /aggregator/sources/21
+
+
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+Disallow: /*?field_shop_geocode_latlon=*&items_per_page=*
+Disallow: /*?f%5B0%5D=*
+
+# Twitterbot
+User-Agent: Twitterbot
+Allow: /sites/default/files/*
+Sitemap: http://www.cancerresearchuk.org/sitemap.xml

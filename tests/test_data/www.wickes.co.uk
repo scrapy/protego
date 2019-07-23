@@ -1,0 +1,22 @@
+User-agent:*
+Disallow: /*zoomImages
+Disallow: /store/8480ui-dir/
+Disallow: /store-finder/gotostore?*CSRF*
+#Don't index the review pages
+Disallow: /p/writePowerReview
+Disallow: /p/securedWriteReview
+Disallow: /my-account$
+Disallow: /my-account/
+Disallow: /login$
+Disallow: /login/
+Disallow: /checkout/
+#Prevent doubled up invalid URLs
+Disallow: */p/*/c/*
+Disallow: */c/*/p/*
+Disallow: */c/*/c/*
+Disallow: */p/*/p/*
+#Don't index the cart page
+Disallow: /cart
+#Block all traffic going to dynatrace
+Disallow: */dynaTraceMonitor
+Sitemap: https://www.wickes.co.uk/sitemap.xml

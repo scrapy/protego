@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /au/8/
+Noindex: /au/8/
+Disallow: /uk/8/
+Noindex: /uk/8/
+Disallow: /regus/
+Noindex: /regus/
+Disallow: /blog/tag/
+Disallow: /uk/blog/tag
+Disallow: /blog/category/
+Disallow: /uk/blog/category/
+Disallow: /starter
+Noindex: /starter
+
+
+Sitemap: https://www.8x8.com/sitemap.xml

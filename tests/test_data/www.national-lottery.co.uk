@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /pay-and-play/pingit/view-my-ticket
+Sitemap: https://www.national-lottery.co.uk/sitemap.xml
+Disallow: /results/lotto/draw-history-uc
+Disallow: /results/euromillions/draw-history-uc
+Disallow: /results/thunderball/draw-history-uc
+Disallow: /results/lotto-hotpicks/draw-history-uc
+Disallow: /results/euromillions-hotpicks/draw-history-uc
+Disallow: /results/set-for-life/draw-history-uc
+Disallow: /results/lotto/draw-history/draw-details-uc
+Disallow: /results/euromillions/draw-history/draw-details-uc
+Disallow: /results/thunderball/draw-history/draw-details-uc
+Disallow: /results/lotto-hotpicks/draw-history/draw-details-uc
+Disallow: /results/euromillions-hotpicks/draw-history/draw-details-uc
+Disallow: /results/set-for-life/draw-history/draw-details-uc
+Disallow:/results/lotto/draw-history/prize-breakdown-uc
+Disallow:/results/euromillions/draw-history/prize-breakdown-uc
+Disallow:/results/thunderball/draw-history/prize-breakdown-uc
+Disallow:/results/lotto-hotpicks/draw-history/prize-breakdown-uc
+Disallow:/results/euromillions-hotpicks/draw-history/prize-breakdown-uc
+Disallow:/results/set-for-life/draw-history/prize-breakdown-uc
+Disallow:/games/gamestore/flip-to-win-promo
+Disallow:/games/gamestore/2m-big-spin

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /bank/
+Disallow: /rednews/tag/
+Disallow: /lightbox/
+Sitemap: http://www.westpac.co.nz/sitemap.xml

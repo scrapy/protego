@@ -1,0 +1,14 @@
+User-agent: Swiftbot
+Crawl-delay: 1
+User-agent: bingbot
+Crawl-delay: 5
+User-agent: Baiduspider
+Crawl-delay: 5
+User-agent: Slurp
+Crawl-delay: 5
+User-agent: Yeti
+Crawl-delay: 5
+User-agent: YandexBot
+Crawl-delay: 5
+User-agent: SeznamBot
+Crawl-delay: 5

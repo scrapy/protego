@@ -228,3 +228,4 @@ Disallow: /cai/*
 #requested by FRIPPIAT Jean-Michel (ESTAT-EXT) on 18/07/2019 IM0017839861
 User-agent: *
 Disallow: /eurostat/search
+Disallow: /eurostat/*/search/-/

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /subscription/confirmation
+Disallow: /subscription/unsubscribe
+Disallow: /subscription/unsubscribealready
+Disallow: /ebook/*
+Disallow: /upgrade-ie

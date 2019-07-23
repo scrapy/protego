@@ -1,0 +1,46 @@
+# Robot behavior guidelines for www.cs.washington.edu
+# See http://info.webcrawler.com/mak/projects/robots/exclusion.html
+
+User-agent: *
+Disallow: /info/Review
+Disallow: /archive 
+Disallow: /htbin-post
+Disallow: /logs
+Disallow: /tmp
+Disallow: /usage
+Disallow: /utils
+Disallow: /research/projects/lis
+Disallow: /research/projects/cecil/www/www
+Disallow: /research/jair
+Disallow: /includes
+Disallow: /modules
+Disallow: /themes
+Disallow: /scripts
+Disallow: /sites
+Disallow: /internal_files
+Disallow: /1999
+Disallow: /lab/facilities/hardware/sponsors
+Disallow: /biblio
+Disallow: /people/faculty/shapiro
+Disallow: /node
+Disallow: /taxonomy
+Disallow: /content
+Disallow: /articles
+Disallow: /faqs
+Disallow: /feed
+Disallow: /feed-items
+Disallow: /frontpage-slideshow-images
+Disallow: /grouping-containers
+Disallow: /Shibboleth.sso
+
+User-agent: EmailSiphon
+Disallow: /
+
+User-agent: Extractor Pro
+Disallow: /
+
+User-agent: DLExpert
+Disallow: /
+
+User-agent: WebCopier
+Disallow: /

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: *.js
+Allow: *.css
+Disallow: /*/login/
+Disallow: */?disableThirdPartyJS=false
+Disallow: */?disableThirdPartyJS=true
+Sitemap: https://www.islamicfinder.org/sitemap.xml

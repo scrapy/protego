@@ -1,0 +1,18 @@
+# Define access-restrictions for robots/spiders
+# http://www.robotstxt.org/wc/norobots.html
+
+# By default we allow robots to access all areas of our site 
+# already accessible to anonymous users
+
+# Googlebot-specific syntax extension to exclude forms 
+# that are repeated for each piece of content in the site 
+# the wildcard is only supported by Googlebot
+# http://www.google.com/support/webmasters/bin/answer.py?answer=40367&ctx;=sibling
+User-agent: Googlebot
+Disallow: 
+
+# All other robots must follow strict Robots Exclusion Standard syntax
+# http://en.wikipedia.org/wiki/Robots_exclusion_standard
+User-agent: *
+Disallow:
+

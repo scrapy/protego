@@ -1,0 +1,46 @@
+User-agent: *
+#
+# Permanent Disallows
+Disallow: /_Website_Settings
+Disallow: /browsers/
+Disallow: /calendar/
+Disallow: /construction/mot/
+Disallow: /css/
+Disallow: /files/fluffybunnies/
+Disallow: /fonts/
+Disallow: /h2vx/
+Disallow: /inspire/_css/
+Disallow: /inspire/_fonts/
+Disallow: /inspire/_img/
+Disallow: /inspire/_js/
+Disallow: /inspire/_ssi/
+Disallow: /its/web/feedback.shtml
+Disallow: /js/
+Disallow: /map/burnaby.html
+Disallow: /map/media/
+Disallow: /ml/
+Disallow: /mybcit/
+Disallow: /ppl/
+Disallow: /safetyandsecurity/bcpsep/
+Disallow: /scripts/
+Disallow: /s/
+Disallow: /search/
+Disallow: /skwiz/
+Disallow: /speedtest/
+Disallow: /ssi/
+Disallow: /study/outlines/
+Disallow: /transportation/access/tradestest.shtml
+#
+# CASified content
+Disallow: /files/president/
+Disallow: /president/
+Disallow: /fluffybunnies/
+#
+# Temporary Disallows
+Disallow: /alumni/contest/
+#
+# Disallow these bots
+User-Agent: aiHitBot
+User-Agent: Shopwiki
+Disallow: /
+#

@@ -1,0 +1,24 @@
+# All robots will spider the domain
+User-agent: *
+Disallow: /ajax/
+Disallow: /BasketDisplay.aspx
+Disallow: /friend/
+Disallow: *&referid=*
+Disallow: *&Referid=*
+Disallow: *&REFERID=*
+Disallow: *&ReferID=*
+Disallow: *&referID=*
+Disallow: /?referid=
+Disallow: /?Referid=
+Disallow: /?REFERID=
+Disallow: /?ReferID=
+Disallow: /?referID=
+Disallow: *&ris*
+Disallow: /?ris
+Disallow: /basket/
+Disallow: /fr/mens/
+Disallow: /fr/ladies/
+Disallow: /secure/
+
+# Sitemaps Index
+Sitemap: https://s.wiggle.co.uk/sitemaps/site_map_index.xml

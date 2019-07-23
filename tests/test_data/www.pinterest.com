@@ -95,6 +95,7 @@ Disallow: /pin/*/related-products/*
 Disallow: /pin/*/repin
 Disallow: /pin/*/repins
 Disallow: /pin/*/share
+Disallow: /pin/*/shop-the-look/*
 Disallow: /pin/*/tag
 Disallow: /pin/*/visual-search
 Disallow: /pin/find/
@@ -230,6 +231,7 @@ Disallow: /pin/*/related-products/*
 Disallow: /pin/*/repin
 Disallow: /pin/*/repins
 Disallow: /pin/*/share
+Disallow: /pin/*/shop-the-look/*
 Disallow: /pin/*/tag
 Disallow: /pin/*/visual-search
 Disallow: /pin/find/
@@ -350,6 +352,7 @@ Disallow: /pin/*/related-products/*
 Disallow: /pin/*/repin
 Disallow: /pin/*/repins
 Disallow: /pin/*/share
+Disallow: /pin/*/shop-the-look/*
 Disallow: /pin/*/tag
 Disallow: /pin/*/visual-search
 Disallow: /pin/find/

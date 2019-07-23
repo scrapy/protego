@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /components
+Disallow: /thumb
+Sitemap: https://www.vub.sk/sitemap.xml

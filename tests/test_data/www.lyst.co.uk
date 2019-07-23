@@ -1,0 +1,113 @@
+
+Sitemap: https://www.lyst.co.uk/sitemaps/siteindex.xml
+
+
+User-agent: apptus_tce
+Disallow: /
+
+User-agent: apptus_tce/1.2
+Disallow: /
+
+User-agent: MSRBOT
+Disallow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+
+User-agent: adidxbot
+Allow: /
+
+User-agent: twiceler
+Disallow: /
+
+User-agent: VSynCrawler/1.0
+Disallow: /
+
+User-agent: 008
+Disallow: /
+
+User-agent: *
+Disallow: /alerts/
+Disallow: /track/
+Disallow: /api/users/
+Disallow: /account/
+Disallow: /explore/
+Disallow: /services/
+Disallow: /email-capture/
+Disallow: /*/browse/
+Disallow: /checkout/
+Disallow: /_/clp/
+Disallow: /_/search/
+Disallow: /cart/
+Disallow: /*/followers/
+Disallow: /*/following/
+Disallow: /*/widgets/
+Disallow: /widgets/
+Disallow: /*/*/add-review/
+Disallow: /*/*/exit/
+Disallow: /cdn-cgi/
+Disallow: /user/
+Disallow: /user/*/*/
+Disallow: /actions/
+Disallow: /settings/
+Disallow: /static/compressed/
+Disallow: /static/css/
+Disallow: /static/script/
+Disallow: /static.lystit.com/static/n/web/
+Disallow: /*/static.lystit.com/
+Disallow: /www.googletagmanager.com/
+Disallow: /*/track/xdomgahack/
+Disallow: /*/%3Fsem%3D1%26_country%3D
+Disallow: /*/*/overlay/
+Disallow: /d1witu2ppr056s.cloudfront.net/
+Disallow: /maxcdn.bootstrapcdn.com/
+Disallow: /assets.pinterest.com/
+Disallow: /connect.facebook.net/
+Disallow: /zendesk.lyst.com/
+Disallow: /cdn.pubexchange.com/
+Disallow: /help/promotion-terms/
+Disallow: /promotions/
+Disallow: /*user_token=
+Disallow: /*email=
+Disallow: /new-for-you/
+Disallow: /account/save-for-later/
+Disallow: /usability-testing/
+Disallow: /create-new-lyst/
+Disallow: /create-saved-search/
+Disallow: /offline/
+Disallow: /search/
+Disallow: /*/shop/
+Disallow: /shop/related/
+Disallow: /shop/edit/
+Allow: /shop/events/*/
+Disallow: /tools/lyst_widget/?lyst_slug=*
+Disallow: /*?price_from
+Disallow: /*?price_to
+Disallow: /*?final_price_from
+Disallow: /*?final_price_to
+Disallow: /*?pageViewId=
+Disallow: /*?related
+Disallow: /*?retailer_ids
+Disallow: /*?sa=
+Disallow: /*?discount_from
+Disallow: /*?owner_type
+Disallow: /*?subtype=
+Disallow: /*?s=
+Disallow: /*?follow-overlay=
+Disallow: /*?product-gallery=
+Disallow: /en/
+Disallow: /fr/
+Disallow: /it/
+Disallow: /de/
+Disallow: /es/
+Disallow: /ja/
+Disallow: /ru/
+Disallow: /nl/
+Disallow: *meta_gender=
+Allow: */designer/*?meta_gender=
+Disallow: /search/
+Disallow: /*/shop/
+Disallow: /shop/related/
+Disallow: /shop/edit/
+Allow: /shop/events/*/

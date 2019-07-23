@@ -1,0 +1,14 @@
+User-agent: *
+Crawl-Delay: 5
+Disallow: /admin/
+Disallow: /core/
+Disallow: /modules/
+Disallow: /tasks/
+Disallow: /training/
+Disallow: /requirements/
+Disallow: /config/
+Disallow: /themes/
+Disallow: /plugins/
+Disallow: /directory/
+Disallow: /components/
+Disallow: /*.pdf$

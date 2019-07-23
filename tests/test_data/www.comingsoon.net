@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /wp-content/plugins/pb-ads/ad-page/
+Disallow: /gnads/
+Disallow: /search.php
+Disallow: /*?hop
+
+Sitemap: http://comingsoon.springboardplatform.com/storage/comingsoon.net/sitemaps/1.xml.gz
+Sitemap: https://www.comingsoon.net/sitemap.xml

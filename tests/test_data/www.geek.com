@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /users/
+Disallow: /portable/
+Disallow: /search/
+Disallow: /shop/
+Disallow: /forums/rss/
+Disallow: /forums/profile/
+Disallow: /articles/auto-draft*//
+Disallow: /discus/messages/
+Disallow: /2204/
+Disallow: /4585/
+Disallow: /attachment/
+Disallow: /sponsoredcontent/
+Disallow: /glossary/
+Sitemap: http://www.geek.com/geek-sitemap.xml
+Sitemap: http://www.geek.com/sitemap_index.xml

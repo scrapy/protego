@@ -1,0 +1,13 @@
+
+# Asks bots to index the site less frequently, preventing
+# accidental bot based DDoS.
+# KB Article - https://kb.wisc.edu/webhosting/page.php?id=62214
+User-agent: *
+Crawl-delay: 10
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cgi-bin/
+Disallow: /mx/
+Disallow: /tools/
+Disallow: /debug/
+

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /api/
+Allow: /api/custom-css
+Disallow: /cp/
+Disallow: /forums/search
+Disallow: /login
+Disallow: /search
+Crawl-delay: 10
+
+User-agent: Mediapartners-Google*
+Disallow: 

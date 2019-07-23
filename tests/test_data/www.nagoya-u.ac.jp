@@ -1,0 +1,11 @@
+User-Agent : *
+Disallow : /internal/
+Disallow : /en/internal/
+Disallow : /cn/internal/
+Disallow : /extra/internal/
+Disallow : /extra/nupr/
+Disallow : /extra/audit/internal/
+Disallow : /about-nu/gov/
+Disallow : /about-nu/gov/structure/
+Disallow : /nu-mark/
+Disallow : /2012website/

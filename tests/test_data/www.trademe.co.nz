@@ -1,0 +1,155 @@
+User-agent: *
+
+Disallow: /archive/
+Disallow: /*archive=1
+Disallow: /link.aspx
+Disallow: *listing
+Disallow: *auction
+Disallow: *.htm$
+
+
+Disallow: /a/
+Noindex: /a/
+
+Disallow: /Browse/
+Disallow: /browse/
+Noindex: /browse/
+Noindex: /Browse/
+
+Disallow: /EmailToFriend
+Disallow: /Buy*
+Disallow: /community/
+
+Allow: /community/announcements/
+Allow: /community/siteannouncements
+
+Disallow: /community/announcements/archive*
+Disallow: /Members*
+Disallow: /members*
+Disallow: /MobileApp/
+Disallow: /MyTradeMe*
+Disallow: /mytrademe*
+Disallow: /buy/bid*
+Disallow: /payments*
+Disallow: /Payments*
+Disallow: /Sell*
+Disallow: /api/property/SchoolsForListing.aspx
+
+Disallow: /help/
+Disallow: /Help/
+
+Allow: /Help/ContactUsForm.aspx?help_id=0
+
+Allow: /Browse/SearchResults.aspx?searchString=camping+fridge
+Allow: /Browse/SearchResults.aspx?searchString=jobs+
+Allow: /Browse/SearchResults.aspx?searchString=camping+fridge
+Allow: /Browse/SearchResults.aspx?searchString=tiny+house
+Allow: /Browse/SearchResults.aspx?searchString=kitten+for+sale
+Allow: /Browse/SearchResults.aspx?searchString=electric+scooter
+Allow: /Browse/SearchResults.aspx?searchString=golden+retriever
+Allow: /Browse/SearchResults.aspx?searchString=massage
+Allow: /Browse/SearchResults.aspx?searchString=mustang
+Allow: /Browse/SearchResults.aspx?searchString=bonsai
+Allow: /Browse/SearchResults.aspx?searchString=camper+van
+Allow: /Browse/SearchResults.aspx?searchString=spaniel
+Allow: /Browse/SearchResults.aspx?searchString=ragdoll
+Allow: /Browse/SearchResults.aspx?searchString=GPS+tracking
+Allow: /Browse/SearchResults.aspx?searchString=rx7
+Allow: /Browse/SearchResults.aspx?searchString=yeezy+boost+350
+Allow: /Browse/SearchResults.aspx?searchString=bike+rack+for+car
+Allow: /Browse/SearchResults.aspx?searchString=cheap+furniture
+Allow: /Browse/SearchResults.aspx?searchString=TOYOTA++SUPRA
+Allow: /Browse/SearchResults.aspx?searchString=Silvia
+Allow: /Browse/SearchResults.aspx?searchString=camaro
+Allow: /Browse/SearchResults.aspx?searchString=worm
+Allow: /Browse/SearchResults.aspx?searchString=Chihuahua
+Allow: /Browse/SearchResults.aspx?searchString=huntaway+dogs
+Allow: /Browse/SearchResults.aspx?searchString=Transformer+110v
+Allow: /Browse/SearchResults.aspx?searchString=pool+vacuum
+Allow: /Browse/SearchResults.aspx?searchString=outboard
+Allow: /Browse/SearchResults.aspx?searchString=sand+and+water+table
+Allow: /Browse/SearchResults.aspx?searchString=electric+bikes
+Allow: /Browse/SearchResults.aspx?searchString=vending+machines
+Allow: /Browse/SearchResults.aspx?searchString=meadow+hay
+Allow: /Browse/SearchResults.aspx?searchString=Vinyl+Car+Wrap
+Allow: /Browse/SearchResults.aspx?searchString=hydrogen+peroxide
+Allow: /Browse/SearchResults.aspx?searchString=topsoil
+Allow: /Browse/SearchResults.aspx?searchString=meat+mincer
+Allow: /Browse/SearchResults.aspx?searchString=pasta+maker
+Allow: /Browse/SearchResults.aspx?searchString=Puppies+for+sale
+Allow: /Browse/SearchResults.aspx?searchString=caramilk+chocolate
+Allow: /Browse/SearchResults.aspx?searchString=Bunk+Beds
+Allow: /Browse/SearchResults.aspx?searchString=skyline+gtr
+Allow: /Browse/SearchResults.aspx?searchString=yeezy+boost+350
+Allow: /Browse/SearchResults.aspx?searchString=fidget+cube
+Allow: /Browse/SearchResults.aspx?searchString=ragdoll
+Allow: /Browse/SearchResults.aspx?searchString=kitten+for+sale
+Allow: /Browse/SearchResults.aspx?searchString=pizza+oven
+Allow: /Browse/SearchResults.aspx?searchString=golden+retriever
+Allow: /Browse/SearchResults.aspx?searchString=Tow+Bar
+Allow: /Browse/SearchResults.aspx?searchString=firewood
+Allow: /Browse/SearchResults.aspx?searchString=Puppies+for+sale
+Allow: /Browse/SearchResults.aspx?searchString=r34
+Allow: /Browse/SearchResults.aspx?searchString=GPS+tracking
+Allow: /Browse/SearchResults.aspx?searchString=german+shepherd+puppies
+Allow: /Browse/SearchResults.aspx?searchString=hydrogen+peroxide
+Allow: /Browse/SearchResults.aspx?searchString=swing+set
+Allow: /Browse/SearchResults.aspx?searchString=massage
+Allow: /Browse/SearchResults.aspx?searchString=Tupperware+New
+Allow: /Browse/SearchResults.aspx?searchString=Mig+Welder
+Allow: /Browse/SearchResults.aspx?searchString=shipping+containers+for+sale
+Allow: /Browse/SearchResults.aspx?searchString=borax
+Allow: /Browse/SearchResults.aspx?searchString=Baby+monitor
+Allow: /Browse/SearchResults.aspx?searchString=18650+battery
+Allow: /Browse/SearchResults.aspx?searchString=rx7
+Allow: /Browse/SearchResults.aspx?searchString=tiny+house
+Allow: /Browse/SearchResults.aspx?searchString=sand+pits
+Allow: /Browse/SearchResults.aspx?searchString=Sun+Lounger
+Allow: /Browse/SearchResults.aspx?searchString=metal+detector
+Allow: /Browse/SearchResults.aspx?searchString=bonsai
+Allow: /Browse/SearchResults.aspx?searchString=rx8
+Allow: /Browse/SearchResults.aspx?searchString=Converse+Shoes
+Allow: /Browse/SearchResults.aspx?searchString=trampoline
+Allow: /Browse/SearchResults.aspx?searchString=hatchimals
+Allow: /Browse/SearchResults.aspx?searchString=jojo+bows
+Allow: /Browse/SearchResults.aspx?searchString=nerf
+Allow: /Browse/SearchResults.aspx?searchString=tiny+house
+Allow: /Browse/SearchResults.aspx?searchString=audi+rs4
+Allow: /Browse/SearchResults.aspx?searchString=Garden+Shed
+Allow: /Browse/SearchResults.aspx?searchString=pregnancy+pillow
+Allow: /Browse/SearchResults.aspx?searchString=mustang
+Allow: /Browse/SearchResults.aspx?searchString=Mr+potato+head
+Allow: /Browse/SearchResults.aspx?searchString=weed+eater
+Allow: /Browse/SearchResults.aspx?searchString=Memory+Foam+Mattress+Topper
+Allow: /Browse/SearchResults.aspx?searchString=Nissan+Skyline
+Allow: /Browse/SearchResults.aspx?searchString=Spa+pool
+Allow: /Browse/SearchResults.aspx?searchString=Coffee+Grinder
+Allow: /Browse/SearchResults.aspx?searchString=little+tikes
+Allow: /Browse/SearchResults.aspx?searchString=pop+up+tent
+Allow: /Browse/SearchResults.aspx?searchString=Roller+Skates
+Allow: /Browse/SearchResults.aspx?searchString=cards+against+humanity
+Allow: /Browse/SearchResults.aspx?searchString=rottweiler
+Allow: /Browse/SearchResults.aspx?searchString=Toyota+Surf
+Allow: /Browse/SearchResults.aspx?searchString=Hay
+Allow: /Browse/SearchResults.aspx?searchString=personalised+plates
+Allow: /Browse/SearchResults.aspx?searchString=Ray-Ban+Sunglasses
+Allow: /Browse/SearchResults.aspx?searchString=3g+gps+tracker
+Allow: /Browse/SearchResults.aspx?searchString=Mobility+Scooter
+
+
+User-agent: Mediapartners-Google
+Disallow: /MyTradeMe/
+Disallow: /Buy/
+Disallow: /Sell/
+
+
+User-agent: Genieo
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: EtaoSpider
+Disallow: /
+
+Sitemap: https://www.trademe.co.nz/sitemaps/SiteMapCategory.xml

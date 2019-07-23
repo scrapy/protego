@@ -1,0 +1,49 @@
+# 
+# This file is to prevent the crawling and indexing of certain parts
+# of our site by web crawlers and spiders run by sites like Google. 
+# By telling these "robots" where not to go on the site,
+# we save bandwidth and server resources.
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/wc/robots.html
+User-agent: rightnow_webindexer # RightNow # CUSTOM
+User-agent: *    # applies to all robots
+Disallow: /*cgi-bin*
+Disallow: /*CFIDE*                 
+# feeds
+Disallow: /*feed-items*
+Disallow: /*feed=*
+Disallow: /library/news/feed*
+Disallow: /libraryservices/feeds*
+Disallow: /*feed?*
+Disallow: /*Tooltip-feed-atom*      
+# search results
+Disallow: /library/digital-archive/search*
+Disallow: /Arts/reading/UK/search_basic_results*
+Disallow: /Arts/reading/UK/browse_reader*
+Disallow: /libraryservices/beta/search/*
+Disallow: /outbound/article/*
+# Paths
+Disallow: /author/admin/
+Disallow: /libraryservices/feedback/poll/*
+Disallow: /*hello-world
+# parameters
+Disallow: /*sort=*
+Disallow: /*URL=*
+Disallow: /*url=*
+Disallow: /*MEDIA=*
+Disallow: /*KWCAMPAIGN=*
+Disallow: /*CATCODE=*
+Disallow: /*payments?rid=*
+Disallow: /*replytocom*
+Disallow: /*attachment_id=*
+Disallow: /*ajaxCalendar=*
+Disallow: /*timein=*
+Disallow: /*field_category_value*
+Disallow: /*pid=*
+Disallow: /*tag=*
+# wikis
+Disallow: /wikis/PIRATE/*
+NoIndex: /wikis/PIRATE/*
+Disallow: /wikis/IET-Intranet*
+NoIndex: /wikis/IET-Intranet*

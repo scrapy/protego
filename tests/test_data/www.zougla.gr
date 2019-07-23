@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /blog/
+Disallow: /SendArticle.aspx
+
+Sitemap: https://www.zougla.gr/sitemap/pages/index.xml
+Sitemap: https://www.zougla.gr/sitemap/articles/index.xml

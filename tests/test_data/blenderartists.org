@@ -1,0 +1,128 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+User-agent: *
+Disallow: /auth/
+Noindex: /auth/
+Disallow: /assets/browser-update*.js
+Noindex: /assets/browser-update*.js
+Disallow: /users/
+Noindex: /users/
+Disallow: /u/
+Noindex: /u/
+Disallow: /my/
+Noindex: /my/
+Disallow: /badges/
+Noindex: /badges/
+Disallow: /search
+Noindex: /search
+Disallow: /search/
+Noindex: /search/
+Disallow: /tags
+Noindex: /tags
+Disallow: /tags/
+Noindex: /tags/
+Disallow: /email/
+Noindex: /email/
+Disallow: /session
+Noindex: /session
+Disallow: /session/
+Noindex: /session/
+Disallow: /admin
+Noindex: /admin
+Disallow: /admin/
+Noindex: /admin/
+Disallow: /user-api-key
+Noindex: /user-api-key
+Disallow: /user-api-key/
+Noindex: /user-api-key/
+Disallow: /*?api_key*
+Noindex: /*?api_key*
+Disallow: /*?*api_key*
+Noindex: /*?*api_key*
+Disallow: /groups
+Noindex: /groups
+Disallow: /groups/
+Noindex: /groups/
+Disallow: /t/*/*.rss
+Noindex: /t/*/*.rss
+Disallow: /tags/*.rss
+Noindex: /tags/*.rss
+Disallow: /c/*.rss
+Noindex: /c/*.rss
+
+
+User-agent: mauibot
+Disallow: /
+Noindex: /
+
+
+User-agent: semrushbot
+Disallow: /
+Noindex: /
+
+
+User-agent: ahrefsbot
+Disallow: /
+Noindex: /
+
+
+User-agent: blexbot
+Disallow: /
+Noindex: /
+
+
+User-agent: bingbot
+Crawl-delay: 60
+Disallow: /auth/
+Noindex: /auth/
+Disallow: /assets/browser-update*.js
+Noindex: /assets/browser-update*.js
+Disallow: /users/
+Noindex: /users/
+Disallow: /u/
+Noindex: /u/
+Disallow: /my/
+Noindex: /my/
+Disallow: /badges/
+Noindex: /badges/
+Disallow: /search
+Noindex: /search
+Disallow: /search/
+Noindex: /search/
+Disallow: /tags
+Noindex: /tags
+Disallow: /tags/
+Noindex: /tags/
+Disallow: /email/
+Noindex: /email/
+Disallow: /session
+Noindex: /session
+Disallow: /session/
+Noindex: /session/
+Disallow: /admin
+Noindex: /admin
+Disallow: /admin/
+Noindex: /admin/
+Disallow: /user-api-key
+Noindex: /user-api-key
+Disallow: /user-api-key/
+Noindex: /user-api-key/
+Disallow: /*?api_key*
+Noindex: /*?api_key*
+Disallow: /*?*api_key*
+Noindex: /*?*api_key*
+Disallow: /groups
+Noindex: /groups
+Disallow: /groups/
+Noindex: /groups/
+Disallow: /t/*/*.rss
+Noindex: /t/*/*.rss
+Disallow: /tags/*.rss
+Noindex: /tags/*.rss
+Disallow: /c/*.rss
+Noindex: /c/*.rss
+
+
+
+Sitemap: https://blenderartists.org/sitemap.xml
+

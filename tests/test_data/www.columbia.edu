@@ -1,0 +1,37 @@
+# ignore this line - 1
+# for info on robots.txt syntax see
+# http://www.searchtools.com/robots/robots-txt.html
+
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /acis/whatsnew.html
+Disallow: /httpd/reports/
+Disallow: /itc/ccnmtl/assets/
+
+## New Homepage ##
+# Directories
+Disallow: /content/core/
+Disallow: /content/profiles/
+# Files
+Disallow: /content/README.txt
+Disallow: /content/web.config
+# Paths (clean URLs)
+Disallow: /content/admin/
+Disallow: /content/comment/reply/
+Disallow: /content/filter/tips/
+Disallow: /content/node/add/
+Disallow: /content/search/
+Disallow: /content/user/register/
+Disallow: /content/user/password/
+Disallow: /content/user/login/
+Disallow: /content/user/logout/
+# Paths (no clean URLs)
+Disallow: /content/index.php/admin/
+Disallow: /content/index.php/comment/reply/
+Disallow: /content/index.php/filter/tips/
+Disallow: /content/index.php/node/add/
+Disallow: /content/index.php/search/
+Disallow: /content/index.php/user/password/
+Disallow: /content/index.php/user/register/
+Disallow: /content/index.php/user/login/
+Disallow: /content/index.php/user/logout/

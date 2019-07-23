@@ -1,0 +1,20 @@
+User-agent: Twitterbot
+Disallow: /content/demo/
+
+User-agent: facebot
+Disallow: /content/demo/
+
+User-agent: facebookexternalhit
+Disallow: /content/demo/
+
+User-agent: *
+Disallow: /content/demo/
+Disallow: /content/shared/
+Disallow: /content/www/accessibility-test/
+Disallow: /content/dental/faculty/home.html
+
+User-agent: bingbot
+Disallow: /studentlife/get-involved/search.html
+
+User-agent: *
+Disallow: *CFC__target=*

@@ -1,0 +1,31 @@
+User-agent:     *
+Disallow:       /t3lib/
+Disallow:       /typo3/
+Disallow:       /typo3_src/
+Disallow:       /typo3conf/
+Disallow:       /uploads/
+Disallow:       /INSTALL.txt
+Disallow:       /README.txt
+Disallow:       /RELEASE_NOTES.txt
+
+Disallow: 		/typo3temp/*
+Allow: 			/typo3temp/*.css
+Allow: 			/typo3temp/*.js
+Allow: 			/typo3temp/*.jpg
+Allow: 			/typo3temp/*.gif
+Allow: 			/typo3temp/*.png
+
+Disallow:		/typo3conf/*
+Allow: 			/typo3conf/*.css
+Allow: 			/typo3conf/*.js
+Allow: 			/typo3conf/*.jpg
+Allow: 			/typo3conf/*.gif
+Allow: 			/typo3conf/*.png
+
+sitemap http://www.au.dk/sitemap.xml
+sitemap http://www.au.dk/sitemap_en.xml
+
+
+User-agent: 008
+Disallow: /
+

@@ -1,0 +1,20 @@
+User-agent: *
+
+Disallow: /account
+Disallow: /checkout
+Disallow: /profile
+Disallow: /Address-List
+Disallow: /Cart-AddProduct
+Disallow: /cart
+Disallow: /billing
+Disallow: /shipping
+Disallow: /revieworder
+Disallow: /COSummary-Submit
+Disallow: /Login-Show
+Disallow: /orders
+Disallow: /Wishlist-Add
+Disallow: /wishlist
+Disallow: /showotherwishlist
+Disallow: /wallet
+Disallow: /on/demandware.store/
+Sitemap: https://www.jbl.com/sitemap_index.xml

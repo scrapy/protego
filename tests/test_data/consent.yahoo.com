@@ -9,7 +9,7 @@
     </head>
     
     <body class="no-js no-touch blur-preview-tpl eu-localized  en">
-        <script nonce="GjJ1rrVit7cjyjxzQ/Ss9SF+/F/90RLr">
+        <script nonce="s2puaT24ddSXOqViX1H5nvof0oT3thlb">
             if ('classList' in document.body) {
                 document.body.classList.add('js');
                 document.body.classList.remove('no-js');
@@ -32,7 +32,7 @@
                         To give you a better overall experience, we want to provide relevant ads that are more useful to you. For example, when you search for a film, we use your search information and location to show the most relevant cinemas near you. We also use this information to show you ads for similar films you may like in the future. Like Oath, our partners may also show you ads that they think match your interests.
                     </p>
                     <p>
-                        Learn more about how <a href="/redirect?to=https%3A%2F%2Fmydata.oath.com%2F%23sharingdata" target="_blank">Oath collects and uses data</a> and how our <a href="/collectConsent/partners?sessionId=4_cc-session_067ed58d-722c-4f1b-8743-8030acf9bfcb&lang=en&step=EU_SINGLEPAGE">partners collect and use data</a>.
+                        Learn more about how <a href="/redirect?to=https%3A%2F%2Fmydata.oath.com%2F%23sharingdata" target="_blank">Oath collects and uses data</a> and how our <a href="/collectConsent/partners?sessionId=4_cc-session_28ed9c90-363a-49dc-b5c6-fd1eff0b6179&lang=en&step=EU_SINGLEPAGE">partners collect and use data</a>.
                     </p>
                 </section>
 
@@ -42,18 +42,18 @@
             <form method="post" class="consent-form" action="/consent">
                 <input type="hidden" name="consentCollectionStep" value="EU_SINGLEPAGE">
                 <input type="hidden" name="previousStep" value="">
-                <input type="hidden" name="csrfToken" value="StcJz_27r9ZwfJxmPEI85K_jHziBedO8">
+                <input type="hidden" name="csrfToken" value="jX8li2uCoTPwfZHgtW4sRMHIAbSISv6m">
                 <input type="hidden" name="jurisdiction" value="">
                 <input type="hidden" name="locale" value="en">
-                <input type="hidden" name="doneUrl" value="https://guce.yahoo.com/copyConsent?sessionId&#x3D;4_cc-session_067ed58d-722c-4f1b-8743-8030acf9bfcb&amp;inline&#x3D;false&amp;lang&#x3D;en">
+                <input type="hidden" name="doneUrl" value="https://guce.yahoo.com/copyConsent?sessionId&#x3D;4_cc-session_28ed9c90-363a-49dc-b5c6-fd1eff0b6179&amp;inline&#x3D;false&amp;lang&#x3D;en">
                 <input type="hidden" name="tosId" value="eu">
-                <input type="hidden" name="sessionId" value="4_cc-session_067ed58d-722c-4f1b-8743-8030acf9bfcb">
+                <input type="hidden" name="sessionId" value="4_cc-session_28ed9c90-363a-49dc-b5c6-fd1eff0b6179">
                 <input type="hidden" class="namespace" name="namespace" value="yahoo">
                 <input type="hidden" name="originalDoneUrl" value="https://uk.search.yahoo.com/robots.txt?guccounter&#x3D;1">
                 <input type="hidden" name="inline" value="false">
                 <input type="hidden" name="startStep" value="EU_SINGLEPAGE">
                 <input type="hidden" name="isSDK" value="false">
-                <input type="hidden" name="brandBid" value="2pu8jvtej443v">
+                <input type="hidden" name="brandBid" value="76bagf1ejc7qk">
                 <input type="hidden" name="userType" value="NON_REG">
                 <input type="hidden" name="country" value="IN">
                 <input type="hidden" name="ybarNamespace" value="YAHOO">                <div>
@@ -70,6 +70,6 @@
         </div>
         </div>
 
-        <script src="https://s.yimg.com/oa/build/js/site-2c739c91.js" nonce="GjJ1rrVit7cjyjxzQ/Ss9SF+/F/90RLr"></script>
+        <script src="https://s.yimg.com/oa/build/js/site-2c739c91.js" nonce="s2puaT24ddSXOqViX1H5nvof0oT3thlb"></script>
     </body>
 </html>

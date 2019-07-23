@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /css/
+Disallow: /kbi/
+Disallow: /less/
+Disallow: /outlet/product/
+Disallow: /retail/product/
+Disallow: /scripts/
+Disallow: /svg/
+Disallow: /views/
+Disallow: /xml/

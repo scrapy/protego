@@ -1,0 +1,47 @@
+User-Agent: uon-gsa-crawler
+Allow: /
+Disallow: /__data/profile/
+Disallow: /__data/listing/
+Disallow: /degrees/teach-out
+Disallow: /degrees/teach-out/
+Disallow: /future-students/open-foundation/orientation
+Disallow: /sandbox
+Disallow: /sandbox/
+Disallow: /finnegans-beard
+Disallow: /finnegans-beard/
+
+
+User-Agent: *
+Allow: /
+Disallow: /__data/profile/
+Disallow: /__data/listing/
+Disallow: /degrees/teach-out
+Disallow: /degrees/teach-out/
+Disallow: /future-students/open-foundation/orientation
+Disallow: /sandbox
+Disallow: /sandbox/
+Disallow: /finnegans-beard
+Disallow: /finnegans-beard/
+Disallow: /about-uon/governance-and-leadership/policy-library/
+Disallow: /media/viewer
+SITEMAP: https://www.newcastle.edu.au/designs/uon-2016/sitemaps/sitemaps-index
+
+
+User-agent: Googlebot-News
+Disallow: /
+Disallow: /future-students/
+Disallow: /research-and-innovation/
+Disallow: /industry/
+Disallow: /international/
+Disallow: /community-and-alumni/
+Disallow: /about-uon/
+Disallow: /library/
+Disallow: /current-students/
+Disallow: /current-staff/
+Disallow: /events/
+Disallow: /about-uon/governance-and-leadership/policy-library/
+Allow: /newsroom/highlighted-news/
+Allow: /newsroom/highlighted-news
+Allow: /newsroom/featured-news/
+Allow: /newsroom/featured-news
+SITEMAP: https://www.newcastle.edu.au/newsSitemap

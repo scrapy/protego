@@ -1,0 +1,138 @@
+User-agent: SemrushBot
+Disallow: /
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: BUbiNG
+Disallow: /
+
+User-agent: ltx71 - (http://ltx71.com/)
+User-agent: ltx71
+Disallow: /
+	  
+User-agent: SISTRIX Crawler
+User-agent: SISTRIX
+User-agent: 007ac9
+User-agent: sistrix
+User-agent: *thunderstone*
+User-agent: 008
+User-agent: 4SeoHuntBot
+User-agent: Afilias Web Mining Tool
+User-agent: AfiliasWebMiningTool
+User-agent: aiHitBot
+User-agent: AskPeterBot
+User-agent: bdbrandprotect
+User-agent: BPImageWalker*
+User-agent: BPImageWalker
+User-agent: BLEXBot
+User-agent: CatchBot
+User-agent: COMODO SSL Checker
+User-agent: COMODOSSLChecker
+User-agent: Comodo-Certificates-Spider
+User-agent: Content Crawler
+User-agent: ContentCrawler
+User-agent: curl
+User-agent: DCPbot
+User-agent: discobot
+User-agent: DoCoMo/2.0
+User-agent: dotbot 
+User-Agent: drupact
+User-agent: EC2LinkFinder
+User-agent: EdisterBot
+User-agent: ExB Language Crawler
+User-agent: Ezooms
+User-agent: findlinks
+User-agent: gonzo
+user-agent: GSLFbot
+User-agent: htdig
+User-agent: HuaweiSymantecSpider
+User-agent: iCjobs
+User-agent: Infohelfer
+User-agent: ips-agent 
+User-agent: ipsAgent
+User-agent: it2media-domain-crawler
+User-agent: Java
+User-agent: KaloogaBot
+User-agent: larbin
+User-agent: lb-spider
+User-agent: lex
+User-agent: libwww-perl
+User-agent: linkdex.com
+User-agent: LSSRocketCrawler
+User-agent: magpie-crawler
+User-agent: MajesticSEO
+User-agent: Mail.RU_Bot
+User-agent: MIA
+User-agent: MJ12bot
+User-agent: MLBot
+User-agent: MSIECrawler
+User-agent: MSNBot
+User-agent: netEstate NE Crawler
+User-agent: netEstateNECrawler
+User-agent: Nutch
+User-agent: oBot
+User-agent: OpenindexSpider
+User-agent: OpidooBOT 
+User-agent: PagePeeker
+User-agent: picmole
+User-agent: Pixray-Seeker
+User-agent: psbot
+User-agent: Qualidator*
+User-agent: ReverseGet
+User-agent: schrein
+User-agent: Scooter
+User-agent: SearchmetricsBot
+User-agent: search17
+user-agent: SemrushBot
+User-agent: SeznamBot
+User-agent: SlySearch
+User-Agent: SolomonoBot
+User-Agent: SolomonoLinkChecker
+User-agent: Sosospider
+User-agent: spbot
+User-agent: Spiderlytics
+User-agent: suggybot
+User-agent: SurveyBot
+User-agent: SWEBot
+User-agent: thunderstone
+User-agent: TurnitinBot
+User-agent: TinEye
+User-agent: UnisterBot
+User-agent: Unister
+User-agent: Unister*
+User-agent: Updownerbot
+User-agent: WBSearchBot
+User-agent: Webinator
+User-agent: WebmasterCoffee
+User-agent: WebofantBot
+User-agent: Wget
+User-Agent: wotbox
+User-agent: x28-job-bot
+User-agent: xovi
+User-agent: XoviBot
+User-agent: yacybot
+User-agent: Yeti
+User-agent: Yeti-Mobile
+User-Agent: YoudaoBot
+User-agent: Xenu's Link Sleuth
+User-agent: Xenu's
+Disallow: /
+
+User-agent: bingbot
+Crawl-delay: 120
+
+User-agent: MSNBot
+Crawl-delay: 120
+
+User-agent: *
+Crawl-delay: 10
+
+Allow: /
+
+#User-agent: BacklinkCrawler
+#User-agent: AhrefsBot
+#User-agent: Exabot
+#User-agent: ia_archiver
+#User-agent: SEOkicks
+#User-agent: SEOkicks-Robot
+

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /events/
+Disallow: /models/
+Disallow: /photo_personals/
+Disallow: /profile/
+Disallow: /profiles/
+Disallow: /sex_personals/
+Disallow: /shemale/
+Disallow: /singles/
+Sitemap: https://www.fling.com/sitemap.xml

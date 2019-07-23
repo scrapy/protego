@@ -1,0 +1,9 @@
+User-agent: *
+Sitemap: https://www.ebuyer.com/sitemaps/web-sitemap-index.xml
+Disallow: /search
+Disallow: /lists
+Disallow: /carling
+Disallow: /recommendations-ajax/ALSO_BROWSED
+Disallow: /reviewable/sku
+Disallow: /customer/products/index.html?action=c2hvd19wcm9kdWN0X292ZXJ2aWV3&product_uid=88991&_LOC=UK
+Disallow: /preview

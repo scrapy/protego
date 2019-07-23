@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /Signin/signin
+Disallow: /Signin/Registration2of3
+Disallow: /Signin/UserExists
+Disallow: /Product/SearchNotFound
+Disallow: /Error_404
+Disallow: /Error_500
+Disallow: /ErrorPage
+Disallow: /ErrorPage.htm
+Disallow: /Product/ProductEmail.aspx
+Disallow: /Product/ProductEmail
+Disallow: /Product/Catalog_View
+Disallow: /Corporate/EstimateDelivery
+Disallow: /BL_2002/Flo-Pak-Peanuts
+Disallow: /Product/Detail/S-14921/Peanuts/Biodegradable-Flo-Pakreg-Peanuts-14-cubic-foot-bag
+Disallow: /Product/Detail/S-5318/Peanuts/Anti-Static-Flo-Pak-Peanuts-14-cubic-foot-bag
+Disallow: /Product/Detail/S-3785/Peanuts/UPSable-Heavy-Duty-Flo-Pak-Peanuts-7-cubic-foot-bag
+Disallow: /Product/Detail/S-3784/Peanuts/Heavy-Duty-Flo-Pak-Peanuts-14-cubic-foot-bag
+Disallow: /Product/Detail/S-5341/Peanuts/UPSable-Anti-Static-Flo-Pak-Peanuts-7-cubic-foot-bag
+Disallow: /MyAccount/VerifyInfo
+Disallow: /MyAccount/MyContactsReview
+Disallow: /MyAccount/EmailMarketingPreferencesLanding
+Disallow: /MyAccount/InvoiceDetail
+Sitemap: http://www.uline.com/sitemapindex.xml
+
+User-agent: BLEXBot
+Crawl-delay: 10

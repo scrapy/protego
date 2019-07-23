@@ -1,0 +1,18 @@
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: *
+Disallow: /tmp/
+Disallow: /go/
+Disallow: /error/
+Disallow: /*/print/$
+Disallow: /*/print$
+Disallow: /view/faq/pdf/*.php
+Disallow: /view/tips/pdf/*.php
+Disallow: /view/faq/email/*.php
+Disallow: /view/tips/email/*.php
+Disallow: /first-let-me-just-say-thank-you/
+
+Sitemap: https://www.cyberciti.biz/tips/sitemap_index.xml
+Sitemap: https://www.cyberciti.biz/faq/sitemap_index.xml
+sitemap: https://www.cyberciti.biz/sitemap_index.xml

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /*.js$
+Allow: /*.css$
+
+Sitemap: https://www.mweb.co.za/sitemap_index.xml

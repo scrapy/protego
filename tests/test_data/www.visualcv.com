@@ -1,0 +1,4 @@
+User-agent: *
+Sitemap: https://www.visualcv.com/sitemap.xml
+disallow: */pdf$
+disallow: */pdf/*

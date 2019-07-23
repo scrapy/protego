@@ -1,0 +1,19 @@
+User-Agent: *
+Disallow: /admin/errors/ # skip the errors directory
+Disallow: /admin/intro/history/webstats/ # not reliable
+Disallow: /admin/intro/history/marxists/traffic # not reliable
+Disallow: /admin/new-archives/ # skip news archive directory
+Disallow: /archive/justo/ # mirror
+Disallow: /chinese/update/ # skip chinese news
+Disallow: /espanol/admin/ # skip spanish admin directory
+Disallow: /espanol/justo/ # mirror
+Disallow: /espanol/trotsky/ceip/ # it's not linked to, only goofs up link check
+Disallow: /history/canada/socialisthistory/ # mirror
+Disallow: /korean/trotsky/ # bad links
+Disallow: /cgi-bin/ # scripts
+Disallow: /webstats/ # not reliable
+Crawl-delay: 1
+User-Agent: W3C-checklink
+Disallow:
+#User-Agent: LinkChecker
+#Disallow:

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search/ 
+Disallow: /tmp/
+Disallow: /static/ 
+
+Sitemap: https://www.syracuse.edu/sitemapindex.xml

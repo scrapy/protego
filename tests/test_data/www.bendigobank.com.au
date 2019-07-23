@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /recycle-bin/
+Disallow: /campaigns/expired-card-campaigns-terms-and-conditions/
+Disallow: /500
+Disallow: /404
+Disallow: /personal/credit-cards/personalise-my-card/success/

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /user/*
+Disallow: /search?
+Disallow: /search$
+Noindex: /user/*
+Noindex: /search?
+Noindex: /search$

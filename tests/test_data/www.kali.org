@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /xmlrpc.php
+Disallow: /?s=
+Disallow: /?s=*
+Disallow: /search/
+Allow: /wp-admin/admin-ajax.php

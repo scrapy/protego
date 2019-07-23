@@ -1,0 +1,385 @@
+# robots.txt file for Mozilla Add-ons, addons.mozilla.org
+User-agent: *
+Allow: /
+
+Disallow: /firefox/downloads/
+Disallow: /android/downloads/
+
+Allow: /af/firefox/collections/4757633/
+Disallow: /af/firefox/search/
+Disallow: /af/firefox/collections/
+Disallow: /af/android/search/
+Disallow: /af/android/collections/
+
+Allow: /ar/firefox/collections/4757633/
+Disallow: /ar/firefox/search/
+Disallow: /ar/firefox/collections/
+Disallow: /ar/android/search/
+Disallow: /ar/android/collections/
+
+Allow: /ast/firefox/collections/4757633/
+Disallow: /ast/firefox/search/
+Disallow: /ast/firefox/collections/
+Disallow: /ast/android/search/
+Disallow: /ast/android/collections/
+
+Allow: /az/firefox/collections/4757633/
+Disallow: /az/firefox/search/
+Disallow: /az/firefox/collections/
+Disallow: /az/android/search/
+Disallow: /az/android/collections/
+
+Allow: /bg/firefox/collections/4757633/
+Disallow: /bg/firefox/search/
+Disallow: /bg/firefox/collections/
+Disallow: /bg/android/search/
+Disallow: /bg/android/collections/
+
+Allow: /bn-BD/firefox/collections/4757633/
+Disallow: /bn-BD/firefox/search/
+Disallow: /bn-BD/firefox/collections/
+Disallow: /bn-BD/android/search/
+Disallow: /bn-BD/android/collections/
+
+Allow: /bs/firefox/collections/4757633/
+Disallow: /bs/firefox/search/
+Disallow: /bs/firefox/collections/
+Disallow: /bs/android/search/
+Disallow: /bs/android/collections/
+
+Allow: /ca/firefox/collections/4757633/
+Disallow: /ca/firefox/search/
+Disallow: /ca/firefox/collections/
+Disallow: /ca/android/search/
+Disallow: /ca/android/collections/
+
+Allow: /cak/firefox/collections/4757633/
+Disallow: /cak/firefox/search/
+Disallow: /cak/firefox/collections/
+Disallow: /cak/android/search/
+Disallow: /cak/android/collections/
+
+Allow: /cs/firefox/collections/4757633/
+Disallow: /cs/firefox/search/
+Disallow: /cs/firefox/collections/
+Disallow: /cs/android/search/
+Disallow: /cs/android/collections/
+
+Allow: /da/firefox/collections/4757633/
+Disallow: /da/firefox/search/
+Disallow: /da/firefox/collections/
+Disallow: /da/android/search/
+Disallow: /da/android/collections/
+
+Allow: /de/firefox/collections/4757633/
+Disallow: /de/firefox/search/
+Disallow: /de/firefox/collections/
+Disallow: /de/android/search/
+Disallow: /de/android/collections/
+
+Allow: /dsb/firefox/collections/4757633/
+Disallow: /dsb/firefox/search/
+Disallow: /dsb/firefox/collections/
+Disallow: /dsb/android/search/
+Disallow: /dsb/android/collections/
+
+Allow: /el/firefox/collections/4757633/
+Disallow: /el/firefox/search/
+Disallow: /el/firefox/collections/
+Disallow: /el/android/search/
+Disallow: /el/android/collections/
+
+Allow: /en-CA/firefox/collections/4757633/
+Disallow: /en-CA/firefox/search/
+Disallow: /en-CA/firefox/collections/
+Disallow: /en-CA/android/search/
+Disallow: /en-CA/android/collections/
+
+Allow: /en-GB/firefox/collections/4757633/
+Disallow: /en-GB/firefox/search/
+Disallow: /en-GB/firefox/collections/
+Disallow: /en-GB/android/search/
+Disallow: /en-GB/android/collections/
+
+Allow: /en-US/firefox/collections/4757633/
+Disallow: /en-US/firefox/search/
+Disallow: /en-US/firefox/collections/
+Disallow: /en-US/android/search/
+Disallow: /en-US/android/collections/
+
+Allow: /es/firefox/collections/4757633/
+Disallow: /es/firefox/search/
+Disallow: /es/firefox/collections/
+Disallow: /es/android/search/
+Disallow: /es/android/collections/
+
+Allow: /et/firefox/collections/4757633/
+Disallow: /et/firefox/search/
+Disallow: /et/firefox/collections/
+Disallow: /et/android/search/
+Disallow: /et/android/collections/
+
+Allow: /eu/firefox/collections/4757633/
+Disallow: /eu/firefox/search/
+Disallow: /eu/firefox/collections/
+Disallow: /eu/android/search/
+Disallow: /eu/android/collections/
+
+Allow: /fa/firefox/collections/4757633/
+Disallow: /fa/firefox/search/
+Disallow: /fa/firefox/collections/
+Disallow: /fa/android/search/
+Disallow: /fa/android/collections/
+
+Allow: /fi/firefox/collections/4757633/
+Disallow: /fi/firefox/search/
+Disallow: /fi/firefox/collections/
+Disallow: /fi/android/search/
+Disallow: /fi/android/collections/
+
+Allow: /fr/firefox/collections/4757633/
+Disallow: /fr/firefox/search/
+Disallow: /fr/firefox/collections/
+Disallow: /fr/android/search/
+Disallow: /fr/android/collections/
+
+Allow: /fy-NL/firefox/collections/4757633/
+Disallow: /fy-NL/firefox/search/
+Disallow: /fy-NL/firefox/collections/
+Disallow: /fy-NL/android/search/
+Disallow: /fy-NL/android/collections/
+
+Allow: /ga-IE/firefox/collections/4757633/
+Disallow: /ga-IE/firefox/search/
+Disallow: /ga-IE/firefox/collections/
+Disallow: /ga-IE/android/search/
+Disallow: /ga-IE/android/collections/
+
+Allow: /gu/firefox/collections/4757633/
+Disallow: /gu/firefox/search/
+Disallow: /gu/firefox/collections/
+Disallow: /gu/android/search/
+Disallow: /gu/android/collections/
+
+Allow: /he/firefox/collections/4757633/
+Disallow: /he/firefox/search/
+Disallow: /he/firefox/collections/
+Disallow: /he/android/search/
+Disallow: /he/android/collections/
+
+Allow: /hr/firefox/collections/4757633/
+Disallow: /hr/firefox/search/
+Disallow: /hr/firefox/collections/
+Disallow: /hr/android/search/
+Disallow: /hr/android/collections/
+
+Allow: /hsb/firefox/collections/4757633/
+Disallow: /hsb/firefox/search/
+Disallow: /hsb/firefox/collections/
+Disallow: /hsb/android/search/
+Disallow: /hsb/android/collections/
+
+Allow: /hu/firefox/collections/4757633/
+Disallow: /hu/firefox/search/
+Disallow: /hu/firefox/collections/
+Disallow: /hu/android/search/
+Disallow: /hu/android/collections/
+
+Allow: /id/firefox/collections/4757633/
+Disallow: /id/firefox/search/
+Disallow: /id/firefox/collections/
+Disallow: /id/android/search/
+Disallow: /id/android/collections/
+
+Allow: /it/firefox/collections/4757633/
+Disallow: /it/firefox/search/
+Disallow: /it/firefox/collections/
+Disallow: /it/android/search/
+Disallow: /it/android/collections/
+
+Allow: /ja/firefox/collections/4757633/
+Disallow: /ja/firefox/search/
+Disallow: /ja/firefox/collections/
+Disallow: /ja/android/search/
+Disallow: /ja/android/collections/
+
+Allow: /ka/firefox/collections/4757633/
+Disallow: /ka/firefox/search/
+Disallow: /ka/firefox/collections/
+Disallow: /ka/android/search/
+Disallow: /ka/android/collections/
+
+Allow: /kab/firefox/collections/4757633/
+Disallow: /kab/firefox/search/
+Disallow: /kab/firefox/collections/
+Disallow: /kab/android/search/
+Disallow: /kab/android/collections/
+
+Allow: /ko/firefox/collections/4757633/
+Disallow: /ko/firefox/search/
+Disallow: /ko/firefox/collections/
+Disallow: /ko/android/search/
+Disallow: /ko/android/collections/
+
+Allow: /lt/firefox/collections/4757633/
+Disallow: /lt/firefox/search/
+Disallow: /lt/firefox/collections/
+Disallow: /lt/android/search/
+Disallow: /lt/android/collections/
+
+Allow: /lv/firefox/collections/4757633/
+Disallow: /lv/firefox/search/
+Disallow: /lv/firefox/collections/
+Disallow: /lv/android/search/
+Disallow: /lv/android/collections/
+
+Allow: /mk/firefox/collections/4757633/
+Disallow: /mk/firefox/search/
+Disallow: /mk/firefox/collections/
+Disallow: /mk/android/search/
+Disallow: /mk/android/collections/
+
+Allow: /mn/firefox/collections/4757633/
+Disallow: /mn/firefox/search/
+Disallow: /mn/firefox/collections/
+Disallow: /mn/android/search/
+Disallow: /mn/android/collections/
+
+Allow: /ms/firefox/collections/4757633/
+Disallow: /ms/firefox/search/
+Disallow: /ms/firefox/collections/
+Disallow: /ms/android/search/
+Disallow: /ms/android/collections/
+
+Allow: /mt/firefox/collections/4757633/
+Disallow: /mt/firefox/search/
+Disallow: /mt/firefox/collections/
+Disallow: /mt/android/search/
+Disallow: /mt/android/collections/
+
+Allow: /nb-NO/firefox/collections/4757633/
+Disallow: /nb-NO/firefox/search/
+Disallow: /nb-NO/firefox/collections/
+Disallow: /nb-NO/android/search/
+Disallow: /nb-NO/android/collections/
+
+Allow: /nl/firefox/collections/4757633/
+Disallow: /nl/firefox/search/
+Disallow: /nl/firefox/collections/
+Disallow: /nl/android/search/
+Disallow: /nl/android/collections/
+
+Allow: /nn-NO/firefox/collections/4757633/
+Disallow: /nn-NO/firefox/search/
+Disallow: /nn-NO/firefox/collections/
+Disallow: /nn-NO/android/search/
+Disallow: /nn-NO/android/collections/
+
+Allow: /pa-IN/firefox/collections/4757633/
+Disallow: /pa-IN/firefox/search/
+Disallow: /pa-IN/firefox/collections/
+Disallow: /pa-IN/android/search/
+Disallow: /pa-IN/android/collections/
+
+Allow: /pl/firefox/collections/4757633/
+Disallow: /pl/firefox/search/
+Disallow: /pl/firefox/collections/
+Disallow: /pl/android/search/
+Disallow: /pl/android/collections/
+
+Allow: /pt-BR/firefox/collections/4757633/
+Disallow: /pt-BR/firefox/search/
+Disallow: /pt-BR/firefox/collections/
+Disallow: /pt-BR/android/search/
+Disallow: /pt-BR/android/collections/
+
+Allow: /pt-PT/firefox/collections/4757633/
+Disallow: /pt-PT/firefox/search/
+Disallow: /pt-PT/firefox/collections/
+Disallow: /pt-PT/android/search/
+Disallow: /pt-PT/android/collections/
+
+Allow: /ro/firefox/collections/4757633/
+Disallow: /ro/firefox/search/
+Disallow: /ro/firefox/collections/
+Disallow: /ro/android/search/
+Disallow: /ro/android/collections/
+
+Allow: /ru/firefox/collections/4757633/
+Disallow: /ru/firefox/search/
+Disallow: /ru/firefox/collections/
+Disallow: /ru/android/search/
+Disallow: /ru/android/collections/
+
+Allow: /sk/firefox/collections/4757633/
+Disallow: /sk/firefox/search/
+Disallow: /sk/firefox/collections/
+Disallow: /sk/android/search/
+Disallow: /sk/android/collections/
+
+Allow: /sl/firefox/collections/4757633/
+Disallow: /sl/firefox/search/
+Disallow: /sl/firefox/collections/
+Disallow: /sl/android/search/
+Disallow: /sl/android/collections/
+
+Allow: /sq/firefox/collections/4757633/
+Disallow: /sq/firefox/search/
+Disallow: /sq/firefox/collections/
+Disallow: /sq/android/search/
+Disallow: /sq/android/collections/
+
+Allow: /sv-SE/firefox/collections/4757633/
+Disallow: /sv-SE/firefox/search/
+Disallow: /sv-SE/firefox/collections/
+Disallow: /sv-SE/android/search/
+Disallow: /sv-SE/android/collections/
+
+Allow: /te/firefox/collections/4757633/
+Disallow: /te/firefox/search/
+Disallow: /te/firefox/collections/
+Disallow: /te/android/search/
+Disallow: /te/android/collections/
+
+Allow: /th/firefox/collections/4757633/
+Disallow: /th/firefox/search/
+Disallow: /th/firefox/collections/
+Disallow: /th/android/search/
+Disallow: /th/android/collections/
+
+Allow: /tr/firefox/collections/4757633/
+Disallow: /tr/firefox/search/
+Disallow: /tr/firefox/collections/
+Disallow: /tr/android/search/
+Disallow: /tr/android/collections/
+
+Allow: /uk/firefox/collections/4757633/
+Disallow: /uk/firefox/search/
+Disallow: /uk/firefox/collections/
+Disallow: /uk/android/search/
+Disallow: /uk/android/collections/
+
+Allow: /ur/firefox/collections/4757633/
+Disallow: /ur/firefox/search/
+Disallow: /ur/firefox/collections/
+Disallow: /ur/android/search/
+Disallow: /ur/android/collections/
+
+Allow: /vi/firefox/collections/4757633/
+Disallow: /vi/firefox/search/
+Disallow: /vi/firefox/collections/
+Disallow: /vi/android/search/
+Disallow: /vi/android/collections/
+
+Allow: /zh-CN/firefox/collections/4757633/
+Disallow: /zh-CN/firefox/search/
+Disallow: /zh-CN/firefox/collections/
+Disallow: /zh-CN/android/search/
+Disallow: /zh-CN/android/collections/
+
+Allow: /zh-TW/firefox/collections/4757633/
+Disallow: /zh-TW/firefox/search/
+Disallow: /zh-TW/firefox/collections/
+Disallow: /zh-TW/android/search/
+Disallow: /zh-TW/android/collections/
+

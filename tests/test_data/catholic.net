@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Catholic.net - Catholics on the net</title> 
+<meta http-equiv="content-type" content="text/html; utf-8">
+<meta name="GOOGLEBOT" content="NOODP">
+<meta name="robots" content="all">
+<meta name="robots" content="index,follow">
+<meta name="title" content="Catholic.net - Catholics on the net">
+<meta http-equiv="title" content="Catholic.net - Catholics on the net">
+<meta name="description" content="God, Jesus Christ, Holy Spirit, Catholic Church Teaching, Bible, Catechism, Prayers, Saints, Virgin Mary, Apostles, Pope Francis, Vatican, Catholic News, Life Issues">
+<meta http-equiv="description" content="God, Jesus Christ, Holy Spirit, Catholic Church Teaching, Bible, Catechism, Prayers, Saints, Virgin Mary, Apostles, Pope Francis, Vatican, Catholic News, Life Issues">
+<meta http-equiv="expires" content="0"> 
+<meta http-equiv="last-modified" content="0">
+<meta http-equiv="cache-control" content="no-cache, must-revalidate"> 
+<meta http-equiv="pragma" content="no-cache">
+<meta name="distribution" content="global">
+<meta name="resource-type" content="document">
+<meta name="revisit" content="1 days">
+<meta property="og:title" content="Catholic.net - Catholics on the net">
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.catholic.net/">
+<meta property="og:image" content=" http://www.es.catholic.net/graficos/logo_fp.gif "> 
+<meta property="og:site_name" content="Catholic.net">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/foundation.css?" type="text/css" media="screen">
+<link rel="stylesheet" href="/css/style.css?" type="text/css" media="screen">
+<link rel="stylesheet" href="/css/responsive.css?" type="text/css" media="screen">
+<link rel="stylesheet" href="/css/estructura.css?" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://es.catholic.net/plugins/menu/style.css?">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link rel="stylesheet" href="/css/menu/style.css?">
+<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'https:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/188272630/Big_1', [300, 250], 'div-gpt-ad-1405701633378-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big_2', [300, 250], 'div-gpt-ad-1405701633378-1').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Bottom', [728, 90], 'div-gpt-ad-1405701633378-2').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Medium_1', [300, 100], 'div-gpt-ad-1405701633378-3').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Medium_2', [300, 100], 'div-gpt-ad-1405701633378-4').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Medium_3', [300, 100], 'div-gpt-ad-1405701633378-5').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Medium_4', [300, 100], 'div-gpt-ad-1405701633378-6').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big_adx', [300, 250], 'div-gpt-ad-1406909722744-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big1', [300, 250], 'div-gpt-ad-1407784411161-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big1', [300, 250], 'div-gpt-ad-1408467886096-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/New_Big', [300, 250], 'div-gpt-ad-1409068296599-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big4_adx', [300, 250], 'div-gpt-ad-1409152421087-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big_600_adx', [300, 600], 'div-gpt-ad-1410377450954-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/Big3_adx', [300, 250], 'div-gpt-ad-1407442863179-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/970x90', [970, 90], 'div-gpt-ad-1426099915273-0').addService(googletag.pubads());
+googletag.defineSlot('/188272630/300x250_Esp_Turismo_Religioso', [300, 100], 'div-gpt-ad-1426103773228-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+
+
+</script>
+
+</head>
+
+<body>
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59709174-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	<!-- Header -->
+        <header class="clearfix header eight" style="position:fixed; top:0px; height:122px;z-index:2;">
+<!-- Top Menu -->
+		<span id="top-menu">
+			<ul class="inline-list" style="padding-left:40px;">
+                           <li><a href="http://es.catholic.net" style="background: transparent;" class="Idiomas" target="_blank"> Español&nbsp;&nbsp;&nbsp;&nbsp;<span id="separador">|</span></a></li>
+                           <li><a href="http://www.catholique.org/" target="_blank" style="background: transparent;" class="Idiomas"> Français&nbsp;&nbsp;&nbsp;&nbsp;<span id="separador">|</span></a></li>
+                           <li><a href="http://www.kath.net" style="background: transparent;" target="_blank" class="Idiomas"> Deutsch</a></li>
+                           <li style="color:#d2ddde; text-align: right; width: 72%;">July 22, 2019</li>
+                        </ul>
+		</span>
+	         <div class="twelve container" style="background-color: transparent; padding-top: 5px;">
+    <table width="106%" cellspacing="0" cellpadding="0" border="0"><tr><td><div  style="padding-right:10px;margin-left: 0px; ">
+				<a href="/"><img src="/images/logo_catholic.png" alt="Catholic.net"   /></a>
+		</div></td>
+                <td align="right">
+  <table  cellspacing='5'><tr>
+ <td><a href="https://www.facebook.com/MyCatholic.net/" target="_blank"><img src="/images/ico3.png" alt="" width="32" height="32" /></a></td> 
+ <td><a href="https://twitter.com/catholicnet" target="_blank"><img src="/images/ico2.png" alt="" width="32" height="32" /></a></td>
+ <td ><a href="https://www.instagram.com/catholicnet/" target="_blank"><img src="http://es.catholic.net/images/instagram_ico.png" alt="" width="32" height="32" /></a></td>
+ <td ><a href="https://plus.google.com/u/0/106493879961643073712/posts" target="_blank"><img src="/images/ico1.png" alt="" width="32" height="32" /></a></td>
+
+ <td><a href="/op/contact/"><img src="/images/ico6.png" alt="" width="32" height="32" /></a></td>
+ <td align="left"><a href="/donaciones/" target="_blank"><img src="/images/ico5.png" alt="" width="124" height="30" /></a></td>
+ </tr></table>
+             </td>
+       
+ <td align="center"><div style=""><img src="/images/riial.png" class="rialLogo"></div></td></tr>
+ </table>
+<a class="toggleMenu" href="#"><img src="/imgs/nav-icon.png" style="float: left;;">&nbsp;&nbsp;&nbsp;  Menu</a>
+<ul class='nav'>
+        <li class='MenuPadres' ><a href='/op/aboutus/about-us.html'><span>About us</span></a></li>
+        <li><a href='#'><span>Sections</span></a><ul><li><a href='/op/sections/59/bioethics.html'>Bioethics</a></li><li><a href='/op/sections/50/catechism.html'>Catechism</a></li><li><a href='/op/sections/45/daily-gospel.html'>Daily Gospel</a></li><li><a href='/op/sections/56/recommendations.html'>Recommendations</a></li><li><a href='/op/sections/53/daily-saints.html'>Daily Saints</a></li><li><a href='/op/sections/52/dating-engaged.html'>Dating & Engaged</a></li><li><a href='/op/sections/42/family.html'>Family</a></li><li><a href='/op/sections/57/learn-to-pray.html'>Learn to pray</a></li><li><a href='/op/sections/48/marian-devotion.html'>Marian Devotion</a></li><li><a href='/op/sections/49/papal-encyclicals.html'>Papal Encyclicals</a></li><li><a href='/op/sections/60/pilgrimages-and-religious-tourism.html'>Pilgrimages and religious tourism</a></li><li><a href='/op/sections/51/pope-francis.html'>Pope Francis</a></li><li><a href='/op/sections/54/sacraments.html'>Sacraments</a></li><li><a href='/op/sections/46/prayer-book.html'>Prayer book</a></li><li><a href='/op/sections/62/virtues-and-values.html'>Virtues and Values</a></li><li><a href='/op/sections/58/vatican.html'>Vatican</a></li><li><a href='/op/sections/43/youth.html'>Youth</a></li><li><a href='/op/sections/63/christian-humanism.html'>Christian humanism</a></li><li><a href='/op/sections/64/catechists.html'>Catechists</a></li></ul></li>
+     
+      </ul>
+	</div>
+</header>
+        <section class="container row clearfix" style="top:135px; z-index:2;  padding-top: 110px;  ">
+		<!-- Inner Container -->
+                <section class="inner-container clearfix" style="padding-bottom: 3px;">
+			<section id="content" class="eight column row ">
+                        
+                            
+                               <div class='four column ' style='padding-left:0px;padding-right:5px;'>  
+   <p class='Estilo23'><a href='/op/sections/45/daily-gospel-and-meditation.html' class='DTSeccion'>Gospel Meditated</a></p>
+      <div style='height:32px;'><a href='/op/articles/5200/just-joseph.html' class='DTTitulo'> Just Joseph</a></div><br><br>
+         <img src='http://imagenes.catholic.net/imagenes_db/5266fe_53617.jpg' alt='Just Joseph'  style='width:195px;' /> <div id='DTTexto'>Matthew 1:18-25</div><div style='text-align:right;width:100%'><a href='/rss/evangelio.xml' target='_blank'><img src='/imgs/rssa.png'></a></div>
+           	</div>
+                               <div class='four column ' style='padding-left:5px;padding-right:5px;'>       
+   <p class='Estilo23'><a href='/op/sections/45/daily-gospel-and-meditation.html' class='DTSeccion'>Recommendations</a></p>
+      <div style='height:32px;'><a href='/op/articles/4224/wings-of-a-bird.html' class='DTTitulo'> Wings of a Bird</a></div><br><br>
+         <img src='http://imagenes.catholic.net/imagenes_db/67c30b_59377.jpg' alt='Wings of a Bird'  style='width:195px;' /> <div id='DTTexto'>When I think about how you might see the world, I usually think of a bird’s eye view.</div><div style='text-align:right;width:100%'><a href='/rss/meditacion.xml' target='_blank'><img src='/imgs/rssa.png'></a></div>
+            </div>
+                               <div class='four column ' style='padding-left:10px;padding-right:5px;'>     
+   <p class='Estilo23'><a href='' class='DTSeccion'>Featured</a></p>
+      <div style='height:32px;'><a href='/op/articles/5222/st-joseph-raises-jesus-in-silence.html' class='DTTitulo'> St. Joseph raises Jesus in silence</a></div><br><br>
+         <img src='http://imagenes.catholic.net/imagenes_db/ca852a_cq5dam.thumbnail.cropped.750.422.jpg' alt='St. Joseph raises Jesus in silence'  style='width:195px;' /> <div id='DTTexto'>Pope Francis invited us not to lose the ability to dream and to open ourselves to tomorrow with trust</div><div style='text-align:right;width:100%'><a href='/rss/temacontrovertido.xml' target='_blank'><img src='/imgs/rssa.png'></a></div>
+           	</div>	
+   <section class="column row">	
+       <div style="padding: 5px;"></div>    
+  <div class="four column">
+<div class=' column' style='padding-bottom:15px;'><a href='/op/sections/53/daily-saints.html' class='DTSeccion' style='font-weight: bold;'>Daily Saint</a>
+       <br><br><img src='http://imagenes.catholic.net/imagenes_db/d1ffc4_saint auxentius.jpg' alt='' width='92' class='mainpiccontrol' /><a href='/op/articles/1806/stauxentius.html' class='DTTitulo'>St. Auxentius</a><br />
+        <span id='DTTexto'>Bishop, December 18</span>...<br><a href='/rss/santoral.xml' target='_blank'><img src='/imgs/rssa.png'></a>
+  <ul class='no-bullet'><li id='DTOtros'></li></ul><div style='width:100%; text-align:right;'><a href='/op/santoral/santoral.html' class='VerEncuestas'></a><br></div></div>
+  </div>
+       <div class="eight column" style="padding-bottom: 10px;" >
+  <link type="text/css" rel="stylesheet" href="/css/petanas.css">
+
+<div class="tabs_holder" style="width: 408px;">
+ <ul>
+<li  class="tab_selected"><a href="#your-tab-id-1" class="">Zenit</a></li>
+
+<li ><a href="#your-tab-id-3">Rome Reports</a></li>
+   </ul>
+ <div class="content_holder">   
+       <div id="your-tab-id-1">
+  <span id='bulletZenit'>&bull;</span> <a href='https://zenit.org/articles/in-letter-hand-delivered-to-assad-pope-francis-expresses-profound-concern-for-humanitarian-crisis-in-syria/' class='Noticias' target='_blank'>In Letter Hand-Delivered to Assad, Pope Francis Expresses &#39;Profound Concern&#39; for Humanitarian Crisis in Syria</a><br><span id='bulletZenit'>&bull;</span> <a href='https://zenit.org/articles/philippines-bishop-says-youth-seek-role-models/' class='Noticias' target='_blank'>Philippines: Bishop Says Youth Seek Role Models</a><br><span id='bulletZenit'>&bull;</span> <a href='https://zenit.org/articles/pope-francis-offers-condolences-for-death-of-cardinal-jose-manuel-estepa-llaurens/' class='Noticias' target='_blank'>Pope Francis Offers Condolences for Death of Cardinal Jose Manuel Estepa Llaurens</a><br><span id='bulletZenit'>&bull;</span> <a href='https://zenit.org/articles/holy-father-sends-message-to-secam-participants/' class='Noticias' target='_blank'>Holy Father Sends Message to SECAM Participants</a><br><span id='bulletZenit'>&bull;</span> <a href='https://zenit.org/articles/bishops-of-puerto-rico-join-call-for-governors-resignition/' class='Noticias' target='_blank'>Bishops of Puerto Rico Join Call for Governor&#39;s Resignation</a><br>
+  </div>
+       <div id="your-tab-id-3">
+<div id='destacados' style='width:100%; height:80px; padding-bottom:10px;'><img src='https://www.romereports.com/uploads/images/vlcsnap-2018-03-21-17h03m25s373.jpg' width='100' height='55' align='left' class='noticia'/><span id='DTTexto'><a href='https://www.romereports.com/en/2018/03/21/prefect-of-secretariat-for-communication-resigns-after-controversy-over-letter-from-benedict/' class='FPdestacado' target='_blank'>Prefect of Secretariat for Communication resigns after controversy over letter from Benedict</a></span><br /></div><div id='destacados' style='width:100%; height:80px; padding-bottom:10px;'><img src='https://www.romereports.com/uploads/images/vlcsnap-2018-03-21-13h58m08s623.jpg' width='100' height='55' align='left' class='noticia'/><span id='DTTexto'><a href='https://www.romereports.com/en/2018/03/21/pope-francis-communion-can-be-received-as-preferred-in-the-mouth-or-where-permitted-the-hand/' class='FPdestacado' target='_blank'>Pope Francis: Communion can be received as preferred, in the mouth or where permitted, the hand</a></span><br /></div><div id='destacados' style='width:100%; height:80px; padding-bottom:10px;'><img src='https://www.romereports.com/uploads/images/vlcsnap-2018-03-21-13h40m17s462.jpg' width='100' height='55' align='left' class='noticia'/><span id='DTTexto'><a href='https://www.romereports.com/en/2018/03/21/pope-announces-dublin-travel-plans-for-world-meeting-of-families/' class='FPdestacado' target='_blank'>Pope announces Dublin travel plans for World Meeting of Families</a></span><br /></div><div align='right'><a href='http://catholic.net/op/rome-reports' target='_blank' class='VerEncuestas'>[+] Show more Rome Reports</a></div>
+  </div>
+  <div id="your-tab-id-2">
+
+  </div>    
+ </div>
+
+
+ 
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/js/skinable_tabs.min.js"></script>
+<script type="text/javascript">
+  $('.tabs_holder').skinableTabs({
+    effect: 'simple_fade',
+    skin: 'skin4',
+    position: 'top'
+  });
+</script>
+  </div>
+</section>
+				<!-- Ads +698 -->
+
+                                <section class="row" style="padding-left: 10px;padding-right: 5px;">
+                                    <article class='six column'>
+<div  class='labelConsultorios' >Sections</div>
+<div id='secciones1' ><br><a href='op/secciones/52/dating-engaged.html' class='FPseccion'>Dating & Engaged</a><br />
+<img src='http://imagenes.catholic.net/imagenes_db/3e7702_18797.jpg' style='width:80px;float:left;clear:left;padding-right: 10px;margin-bottom:0.5cm;'><a href='/op/articles/4254/paola-trevino.html' class='FPdestacado'>Faith and Friendship</a></span><br><span class='big' >“Through faith we enter into friendship with the Lord, through charity this friendship is lived and cultivated”.</span>
+
+        <hr class='destacados'>
+        <a href='op/secciones/42/family.html' class='FPseccion'>Family</a><br />
+<img src='http://imagenes.catholic.net/imagenes_db/995a6e_33duda.jpg' style='width:80px;float:left;clear:left;padding-right: 10px;margin-bottom:0.5cm;'><a href='/op/articles/5220/the-power-of-the-fathers-blessing.html' class='FPdestacado'>The Power of the Father’s Blessing</a></span><br><span class='big' >2 Prayers That Dads Should Memorize And Use Daily</span>
+
+        <hr class='destacados'>
+        <a href='op/secciones/57/learn-to-pray.html' class='FPseccion'>Learn to pray</a><br />
+<img src='http://imagenes.catholic.net/imagenes_db/c27070_2.gif' style='width:80px;float:left;clear:left;padding-right: 10px;margin-bottom:0.5cm;'><a href='/op/articles/4248/by-the-way-jesus-speaks-french-an-advent-reflection.html' class='FPdestacado'>By The Way: Jesus Speaks French… An Advent Reflection</a></span><br><span class='big' >So the other day I ran into Jesus; and he was speaking French…</span>
+
+        <hr class='destacados'>
+        <a href='op/secciones/43/youth.html' class='FPseccion'>Youth</a><br />
+<img src='http://imagenes.catholic.net/imagenes_db/educadores_catolicos/fortunata2.jpg' style='width:80px;float:left;clear:left;padding-right: 10px;margin-bottom:0.5cm;'><a href='/op/articles/4255/its-good-for-young-people-to-study-latin.html' class='FPdestacado'>It's good for young people to study Latin.</a></span><br><span class='big' >Pope Francis praised the study of Latin, especially for young people.</span>
+
+        <hr class='destacados'>
+        </div><a href='http://www.es.catholic.net/c2018/anual/redir.php' target='_blank'><img src='/banners/fdranual2018_3.jpg'></a></article>
+<article class='six column'><div  class='labelConsultorios'>Communities</div>
+<div id='secciones2' ><br></div><br><a href='http://www.catholic.net/thepopevideo/' target='_blank'><img src='/thepopevideo/img/imagdecember2018.jpg'></a><br><br><a href='http://catholic.net/op/articles/4404/' target='_blank'><img src='/banners/besttipsb.jpg'></a><br><br><a href='http://catholic.net/op/articles/4400/one-step-closer.html' target='_blank'><img src='/banners/stepcloserb.jpg'></a></article>
+				</section>
+                                 <section class="row" style="padding-left: 2px;padding-right: 2px; ">
+
+				</section>
+                                
+				</section>
+                    <aside id="sidebar" class="four column pull-right" >
+				
+	<div style="padding-bottom: 20px;"><script>
+  (function() {
+    var cx = '012688029306433412059:7ofsx2f5t3u';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search></div>      
+	<div style="padding-bottom: 20px;"><!-- Big_adx -->
+<div id='div-gpt-ad-1406909722744-0' style='width:300px; height:241px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1406909722744-0'); });
+</script>
+</div>
+<div style="text-align: right;padding-right: 5px;position: relative;"><a href="/op/adds/" class="publicidad">Inappropriate ads?</a> <span id="separadorpublicidad">|</span> <a href="/op/advertisement/"><img src="/imgs/publicidad.png"></a></div></div>    
+        <style type="text/css">
+div#tipDiv {
+    font-size:11px; line-height:1.2;
+    color:#000; background-color:#FFFFFF;
+    padding:4px;
+    width:300px;
+}
+</style>
+<script src="http://es.catholic.net/plugins/toolsocial/js/dw_tooltip_c.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+    
+
+dw_Tooltip.defaultProps = {
+    //supportTouch: true, // set false by default
+    hoverable: true
+}
+
+// Problems, errors? See http://www.dyn-web.com/tutorials/obj_lit.php#syntax
+
+dw_Tooltip.content_vars = {
+    L1: '<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMyCatholic.net&tabs&width=340&height=214&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="214" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    L2: '<iframe src="http://es.catholic.net/plugins/toolsocial/twitter1.html" width="340" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>',
+    L3: '<div class="g-follow" data-annotation="bubble" data-height="24" data-href="https://plus.google.com/115583147913997492383" data-rel="publisher"></div>'
+    
+}
+</script>
+<span style="color:#154C7B;font-size: 24px; font-weight: bold;">¡Follow us!</span>
+<a href="#" class="showTip L1"><img src="http://es.catholic.net/images/ico3.png"></a>
+<a href="#" class="showTip L2"><img src="http://es.catholic.net/images/ico2.png"></a>
+<a href="https://www.instagram.com/catholicnet/" target="_blank"><img src="http://es.catholic.net/images/instagram_ico.png"></a>
+<a href="https://plus.google.com/+Catholic_Net"  target="_blank"><img src="http://es.catholic.net/images/ico1.png"></a>
+<br><br>
+
+
+    <div style="padding-bottom: 20px;"><!-- Big_600_adx -->
+<div id='div-gpt-ad-1410377450954-0' style='width:300px; height:595px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1410377450954-0'); });
+</script>
+</div>
+<div style="text-align: right;padding-right: 5px;position: relative;"><a href="/op/advertisement/" class="publicidad">Inappropriate ads? </a> <span id="separadorpublicidad">|</span> <a href="/op/contact/"><img src="/imgs/publicidad.png"></a></div>
+</div>
+	<div style="padding-bottom: 20px;"><a href="http://bible.catholic.net" target="_blank"><img src="/imgs/blibleonline.jpg"></a></div>
+                                        <div style="padding-bottom: 20px;"><!-- Big3_adx-->
+<div id='div-gpt-ad-1407442863179-0' style='width:300px; height:240px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1407442863179-0'); });
+</script>
+</div> 
+<div style="text-align: right;padding-right: 5px;padding-top:0px;"><a href="/op/adds/" class="publicidad">Inappropriate ads? </a> <span id="separadorpublicidad">|</span> <a href="/op/advertisement/"><img src="/imgs/publicidad.png"></a></div></div>
+                                        <div style="padding-bottom: 20px;"><a href="http://catholic.net/op/articles/4687" target="_blank"><img src="/banners/SacretHeart300x250.jpg"></a></div>
+
+			</aside>
+	</section>                
+	</section>
+          <section  style="position: relative;">     <div class="row ads-728x90" style="text-align: right;"><!-- 970x90 -->
+<div id='div-gpt-ad-1426099915273-0' style='width:970px; height:90px;' align="center">
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1426099915273-0'); });
+</script>
+</div>
+<div style="text-align: right;width:825px;padding-bottom: 20px;"><a href="/op/adds/" class="publicidad">Inappropriate ads?</a> <span id="separadorpublicidad">|</span> <a href="/op/advertisement/"><img src="/imgs/publicidad.png"></a></div></div> 
+          </section>
+        <footer >
+                                     <div id="foot" class="row clearfix">
+                                         
+  
+                                         <div style="height:20px;"></div>
+<div class="row clearfix twelve" style="padding-left: 60px;">
+    <div class="two column"><a href="/op/advertisement" style="color: #fff;"><img src="/images/publicidad1.png"></a></div>
+    <div class="two column"><a href="/op/terms-an-conditions" style="color: #fff;"><img src="/images/condiciones.png"></a></div>
+    <div class="two column"><a href="/op/privacy-notice" style="color: #fff;"><img src="/images/seguridad.png"></a></div>
+    <div class="two column"><a href="/donaciones" target="_blank" style="color: #fff;"><img src="/images/donativos.png"></a></div>
+        <div class="two column"> <a href="http://status.catholic.net/" target="_blank" class="FooterLinks"><img src="http://es.catholic.net/img/systemstatus.png"></a></div>   
+
+    <div class="row clearfix twelve" style="text-align: left; padding-left: 70px;text-align: center; width: 100%; bottom: 10px; width: 100%;">
+    <div align="left" id="Copy" style="text-align: left; padding-top: 70px;">&copy;  
+         2018 Catholic.net Inc. Catholics on the Net. All right reserved</div>
+    </div>
+  
+  </div>
+
+				<div id="back-to-top" class="right">
+					<a href="#top">Back to Top</a>
+				</div>
+			</footer>
+                              
+	<script type="text/javascript" src="/js/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.superfish.js"></script>
+	<script type="text/javascript" src="/js/jquery.flexslider.min.js"></script>
+	<script type="text/javascript" src="/js/jquery.fancybox.js"></script>
+	<script type="text/javascript" src="/js/jcarousel.js"></script>
+	<script type="text/javascript" src="/js/jquery.masonry.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="/plugins/menu/script.js"></script>
+       </body>
+</html>

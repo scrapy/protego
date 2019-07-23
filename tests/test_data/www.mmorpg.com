@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /adserver/
+Disallow: /adServer/
+Disallow: /ext/
+Disallow: /centrallogin.cfm
+Disallow: /blocked.cfm
+Disallow: /captchaPage.cfm
+Disallow: /149935395/
+Disallow: /ajax/
+Allow: /
+Sitemap: https://www.mmorpg.com/siteMap.xml

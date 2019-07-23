@@ -1,0 +1,15 @@
+Sitemap: http://www.centos.org/sitemap.xml
+
+User-Agent: *
+Crawl-delay: 1.0
+Disallow: /scripts/
+Disallow: /themes/
+Disallow: /docs/2/
+Disallow: /docs/3/
+Disallow: /docs/4/
+Disallow: /forums/posting.php
+Disallow: /forums/search.php
+Disallow: /forums/app.php
+Disallow: /forums/ucp.php
+Disallow: /forums/memberlist.php
+Disallow: /forums/report.php

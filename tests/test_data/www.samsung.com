@@ -200,6 +200,7 @@ Sitemap:https://www.samsung.com/lt/sitemap.xml
 Sitemap:https://www.samsung.com/my/sitemap.xml
 Sitemap:https://www.samsung.com/mx/sitemap.xml
 Sitemap:https://www.samsung.com/mm/sitemap.xml
+Sitemap:https://www.samsung.com/mk/sitemap.xml
 Sitemap:https://www.samsung.com/nl/sitemap.xml
 Sitemap:https://www.samsung.com/nz/sitemap.xml
 Sitemap:https://www.samsung.com/n_africa/sitemap.xml

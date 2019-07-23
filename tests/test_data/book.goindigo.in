@@ -1,0 +1,2185 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 6]>      <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 lt-ie6"> <![endif]-->
+<!--[if IE 6]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie10 lt-ie9 lt-ie8 ie7"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie10 lt-ie9 ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lt-ie10 ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+
+
+    <meta charset="utf-8">
+    <meta name="accept-language" content="en-GB" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Book flights Online for Domestic &amp; International - IndiGo</title>
+    <meta name="description" content=" - Book flights Online for Domestic &amp; International - IndiGo" />
+    <meta name="keywords" content="Domestic & International Indian airlines, Airline Tickets India, Bangkok - Thailand, Dubai - UAE and Singapore, Airline Reservation, Budget Airlines India, low air fare, lowest air fares, flight bookings India, Airline Booking, Cheap flights abroad, cheap airline tickets, Cheap Airfares, airline tickets India, airline tickets international, domestic Discount travel Airfares" />
+    <meta name="viewport" content="user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, width=device-width, initial-scale=1.0" />
+    
+    
+    <script type="text/javascript" src="/ruxitagentjs_ICA2SVfqru_10169190624124732.js" data-dtconfig="rid=RID_1288936279|rpid=-1317766351|domain=goindigo.in|reportUrl=/rb_6caa75b5-4392-4dc1-a90a-0ac19a6319fc|app=ea7c4b59f27d43eb|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|featureHash=ICA2SVfqru|lastModification=1562749181703|srsr=25000|dtVersion=10169190624124732|tp=500,50,0,1|rdnt=1|uxrgce=1|uxdcw=1500|bp=2|agentUri=/ruxitagentjs_ICA2SVfqru_10169190624124732.js"></script><link rel="apple-touch-icon" sizes="152x152" href="/Content/wnd/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Content/wnd/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Content/wnd/images/favicon-16x16.png">
+
+<link href="/Content/wnd/css/bootstrap.css" rel="stylesheet"/>
+<link href="/Content/wnd/css/bootstrap-select.css" rel="stylesheet"/>
+<link href="/Content/css/validation.css" rel="stylesheet"/>
+        <!--[if IE 6]>
+            
+        <![endif]-->
+        <link href="/Content/wnd/css/jquery-ui.css" rel="stylesheet"/>
+<link href="/Content/wnd/css/font-awesome.css" rel="stylesheet"/>
+
+
+
+        
+        <script src="/Scripts/lib/modernizr.custom.20007.js"></script>
+
+    <script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script src="/Scripts/lib/jquery.validate.min.js"></script>
+<script src="/Scripts/lib/jquery-ui-1.10.3.js"></script>
+<script src="/Scripts/lib/jquery-ui-timepicker-addon.js"></script>
+<script src="/Scripts/lib/json2.min.js"></script>
+<script src="/Scripts/lib/knockout-2.2.1.js"></script>
+<script src="/Scripts/lib/navitaire-1.0.1.js"></script>
+<script src="/Scripts/lib/navitaire-extensions-1.0.js"></script>
+<script src="/Scripts/Common/Resource.js"></script>
+<script src="/Scripts/Common/datetime.polyfills.js"></script>
+<script src="/Scripts/Common/DivHideByID.js"></script>
+<script src="/Scripts/Common/SearchAutoComplete.js"></script>
+<script src="/Scripts/Common/SearchAutoPopulate.js"></script>
+<script src="/Scripts/lib/globalize.js"></script>
+<script src="/Scripts/Common/EventBus.js"></script>
+<script src="/Scripts/lib/jquery.marquee.js"></script>
+<script src="/Scripts/lib/jquery.pause.js"></script>
+<script src="/Scripts/lib/ChangeCultureCode.js"></script>
+<script src="/Scripts/lib/DateExtensions.js"></script>
+<script src="/Scripts/lib/OriginDestSelect.js"></script>
+<script src="/Scripts/lib/FltStatusOriginDestSelect.js"></script>
+<script src="/Scripts/Validation/Validation.js"></script>
+<script src="/Scripts/Common/TogglePanel.js"></script>
+<script src="/Scripts/Common/JourneyMultiSegmentToggle.js"></script>
+<script src="/Scripts/Common/FullPriceBreakdown.js"></script>
+<script src="/Scripts/Common/IeModalFix.js"></script>
+<script src="/Scripts/Common/landing.js"></script>
+<script src="/Scripts/Contact/CountryISDMapper.js"></script>
+<script src="/Scripts/Contact/CountryStateMapper.js"></script>
+<script src="/Scripts/Components/tooltip.js"></script>
+<script src="/Scripts/lib/CubeSlider.js"></script>
+<script src="/Scripts/Flight/MobileRedirect.js"></script>
+<script src="/Scripts/Flight/FlightChangeMessageModal.js"></script>
+<script src="/Scripts/OTPValidation/OTPValidation.js"></script>
+
+                        <script src="/Scripts/lib/bootstrap-select.js"></script>
+
+    <script src="/Scripts/js/wcagPre.js"></script>
+    
+    
+
+    <!-- New Webtrekk Changes: Added By Ritu/Sanjay on "6 May 2015"-->
+    <script type="text/javascript" src="/Scripts/lib/webtrekk_v3.js"></script>
+    <!-- New Webtrekk Changes: Added By Ritu/Sanjay on "12 May 2015"--><!-- New Webtrekk ABTest Changes: Added By Sanjay on "13 May 2015"-->
+    
+
+    <!-- Bootstrap core CSS -->
+    
+    <!-- jquery-ui core CSS -->
+    
+    <!-- font-awesome CSS -->
+    <link href="/Content/wnd/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <!-- Site Theme CSS -->
+    <link href="/Content/wnd/css/common.css" rel="stylesheet" type="text/css">
+    <link href="/Content/wnd/css/master.css" rel="stylesheet" type="text/css">
+    <link href="/Content/wnd/css/responsive.css" rel="stylesheet" type="text/css">
+    <link href="/Content/wnd/css/colorTheme.css" rel="stylesheet" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="/Scripts/wnd/js/html5shiv.min.js"></script>
+        <script src="/Scripts/wnd/js/respond.min.js"></script>
+      <![endif]-->
+
+    <script type="text/javascript">
+
+var domainurl = '/';
+        var currentPage = '/application/error';
+        var memberCheckUrl = '/Member/CheckExistingUser'
+        var recoveryAccountURL = '/Member/RecoverAccount'
+        var recoveryPageURL = '/Member/PasswordRecovery1';
+        var loginErrorURL = '/Application/LoginError';
+        var memberMybooking = '/Member/MyBookings';
+        var bookingviewURL = '/Booking/View';
+    </script>
+
+    
+            <script src="//assets.adobedtm.com/964a2c58f3cc204f8c6865f1ad98110490615c6b/satelliteLib-96c4f9b65ef0c57ef88c1a520f2088aedd8e636c.js"></script>
+
+
+    <script>
+        staticSiteUrl = 'https://www.goindigo.in';
+    </script>
+</head>
+
+<body class="">
+    <script>
+        fbLink = '/Member/FacebookLogin?code=-1';
+    </script>
+    <script src="/Scripts/SocialLogin/SocialLoginJavascript.js"></script>
+
+    <script src="/Scripts/Flight/IndiGoPagewiseScripts/Index.js"></script>
+
+    <div role="dialog" class="modal fade" id="TimeOut">
+        <div class="modal-dialog payment-session-modal" >
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button" id="btnCloseSessiontimeout"></button>
+                    <h4 class="modal-title">Your session is about to expire in <span id="timer"></span></h4>
+                </div>
+                <div class="modal-body">
+                    Click OK to continue your session <input type="hidden" id="hdncount" value="120" />
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <button class="btntimer buttonGlbl" type="button" aria-hidden="true" data-dismiss="modal" onclick="javascript: window.location.href = domainurl">Cancel</button>
+                        <button class="btntimer buttonGlbl" type="button" aria-hidden="true" id="closeTimeOut">OK</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    <div id="ImgLoader" class="imgloaderGif" style="display: none">
+        <img src="/Content/images/loader.gif" />
+    </div>
+
+
+    
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <div class="push containerpage_main">
+    <header class="header" style="z-index:999">
+        <div class="center">
+            <div class="pull-left">
+                    <a autofocus href="https://www.goindigo.in/" title="IndiGo Home" name="IndigoIcon" rel="IndigoIcon" style="display: block">
+                            <img src="/Content/img/indigo-logo.png" alt="indigo">
+
+                    </a>
+            </div>
+
+            <ul class="mobile_contact">
+                    <li class="facebook_hmbtn" style="display: none">
+
+                        <a href="#" onclick="fb_login();">
+                            <i aria-hidden="true" class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="home_btnicon">
+                        <a href="https://www.goindigo.in/" aria-label="home">
+                            <i aria-hidden="true" class="fa fa-home"></i>
+                        </a>
+                    </li>
+                <li class="mobile_contacttext"><span><a target="_blank" href="https://www.goindigo.in/contact-us.html">Contact Us</a></span></li>
+                    <li class="menu-btn">☰<span class="visuallyhidden" role="link">Navigation</span></li>
+
+
+            </ul>
+            
+
+            <nav class="pushy pushy-right" aria-hidden="true">
+                <ul class="nav-pills pull-right">
+                        <li class="home_btnicon">
+                            <a href="https://www.goindigo.in/" aria-label="home">
+                                <i aria-hidden="true" class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="facebook_hmbtn" style="display: none">
+
+                            <a href="#" onclick="fb_login();">
+                                <i aria-hidden="true" class="fa fa-facebook"></i>
+                                &nbsp;Login
+                            </a>
+                        </li>
+                    <li class="call">
+                        
+                        <span>
+                            
+                            <a target="_blank" href='https://www.goindigo.in/contact-us.html'>Contact Us </a>
+                            
+                        </span>
+                    </li>
+                    
+                        <li class="travelInfoholder">
+                            <div>
+                                
+                                <a href='https://www.goindigo.in/information/travel-information.html?linkNav=travel-information_header' target="_top" id="linkTravelInformation">
+                                    Travel Information
+                                </a>
+                                <div class="overlay2" style="display: none;"></div>
+                                
+                                <!-- new popup for Travel Information 16-06-2016-->
+                                <div class="travel_infocontent mega-menu-content">
+                                    <div class="popover-content">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <h4>Baggage</h4>
+                                                <ul class="travel_info">
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/baggage/bag-allowance.html">Bag Allowance</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/baggage/fragile-special-equipments.html">Fragile &amp; Special Equipments</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/baggage/prepaid-bag.html">Prepaid Bag</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/baggage/damaged-baggage.html">Damaged Baggage</a></li>
+                                                </ul>
+                                                <h4>Booking</h4>
+                                                <ul class="travel_info">
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/add-on-services.html">Add On Services</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/alerts.html">Alerts</a></li>
+
+                                                    
+
+                                                    
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/reservations.html">Reservations</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/payments.html">Payments</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/travel-documents.html">Travel Documents</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/fees-and-charges.html">Fees and Charges</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/booking/6e-fares-.html">6E Fares</a></li>
+
+                                                </ul>
+
+                                            </div>
+                                            <div class="col-md-4">
+                                                <h4>Changes &amp; Cancellation</h4>
+                                                <ul class="travel_info">
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/changes-cancellation/ticket-modifications.html">Ticket Modifications</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/changes-cancellation/refunds.html">Refunds</a></li>
+                                                </ul>
+                                                <h4>Check-in &amp; Boarding</h4>
+                                                <ul class="travel_info">
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/check-in-boarding/check-in-options.html">Check-in Options</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/check-in-boarding/on-board.html">On Board</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/check-in-boarding/check-in-requirements.html">Check-in Requirements</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/check-in-boarding/terminal-information.html">Terminal Information</a></li>
+                                                </ul>
+
+                                            </div>
+
+                                            <div class="col-md-4">
+                                                <h4>Miscellaneous</h4>
+                                                <ul class="travel_info">
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/miscellaneous/delays-cancellation.html">Delays/ Cancellation</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/miscellaneous/aircraft-and-routes.html">Aircraft and Routes</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/miscellaneous/contact-us.html">Contact Us</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/miscellaneous/my-account.html">My Account</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/miscellaneous/travel-certificate.html">Travel Certificate</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/miscellaneous/fares-rules.html">Fares Rules</a></li>
+                                                </ul>
+                                                <h4>Special Assistance</h4>
+                                                <ul class="travel_info">
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/special-assistance/expectant-mother.html">Expectant Mother</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/special-assistance/infants.html">Infants</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/special-assistance/medical-passenger.html">Medical Passenger</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/special-assistance/passenger-with-special-needs.html">Passenger with special needs</a></li>
+
+                                                    <li><a target="_blank" href="https://www.goindigo.in/information/travel-information/special-assistance/unaccompanied-minors.html">Unaccompanied Minors</a></li>
+                                                </ul>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--  new popup for Travel Information 16-06-2016 End-->
+
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="https://www.goindigo.in/information/special-disability-assistance.html?linkNav=special-disability-assistance_header" target="_blank">
+
+                                    <i class="fa fa-wheelchair"></i>
+
+                                    Special Assistance
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="https://content.goindigo.in/Information/careerhome" target="_blank">
+                                    Career
+                                </a>
+                            </span>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="https://www.goindigo.in/information/flight-information.html?linkNav=flight-information_header" target="_blank">
+                                    Weather Update
+                                </a>
+                            </span>
+                        </li>
+                        <li class="search-icon">
+
+
+
+<div id="search-form">
+         <input id="indiGoSiteSearch_SearchCriteria" placeholder="Looking for something" class="input search" tabindex="-1" value="" type="text" name="indiGoSiteSearch.SearchCriteria" />
+         <button type="submit" aria-label="search" onclick="DoExternalSearch()"><img src="/Content/wnd/images/search-icon.png" alt="indigo"></button>
+    <input type="submit" value="" class="go" id="submitSearch" style="height:0px;width:0px;visibility:hidden; display:none" aria-hidden="true">  
+        </div>
+
+
+
+
+
+
+<style>
+    .ui-autocomplete {
+        position:absolute !important;
+        list-style:none;
+        padding:0 0 0 0px !important;
+    }
+    .apachesolr_autocomplete.message {
+  font-size:80%;
+  color:#888;
+  padding-right:5px;
+}
+.apachesolr_autocomplete.count {
+  float:right;
+}
+    li.ui-menu-item a {
+        float:left;
+    width: 100%;
+    }
+div.apachesolr_autocomplete.suggestion {
+  display:inline;
+  /*color:#003770;*/
+  padding-left:5px;
+}
+div.ac_results li {
+  list-style:none;
+  background-image: none !important;
+}
+
+/*li.ui-menu-item:hover .suggestion{
+  background-color: #003770 !important;
+}
+
+li.ui-menu-item:hover .suggestion {
+	color: white !important;
+}*/
+
+
+li.ui-menu-item:nth-child(even) {background: #eee;}
+
+</style>
+
+<script type="text/javascript">
+    $('#submitSearch').click(function () {
+        var path = "https://www.goindigo.in/travel-information/en.html?q=" + $('#indiGoSiteSearch_SearchCriteria').val();
+        location.href = path;
+    });
+
+    function DoExternalSearch() {
+        if ($("#search-form").hasClass("active"))
+        {
+            if ($('#indiGoSiteSearch_SearchCriteria').val().length > 0) {
+                var path = "https://www.goindigo.in/travel-information/en.html?q=" + $('#indiGoSiteSearch_SearchCriteria').val();
+                location.href = path;
+            }
+            else {
+                $('#indiGoSiteSearch_SearchCriteria').next().focus();
+            }
+        }
+        else {
+            $('#indiGoSiteSearch_SearchCriteria').focus();
+        }
+    }
+
+////For Auto Complete on Search box. Done on 20150521. Start
+//function isIE(version, comparison) {
+//        var cc = 'IE',
+//            b = document.createElement('B'),
+//            docElem = document.documentElement,
+//            isIE;
+
+//        if (version) {
+//            cc += ' ' + version;
+//            if (comparison) { cc = comparison + ' ' + cc; }
+//        }
+
+//        b.innerHTML = '<!--[if ' + cc + ']><b id="iecctest"></b><![endif]-->';
+//        docElem.appendChild(b);
+//        isIE = !!document.getElementById('iecctest');
+//        docElem.removeChild(b);
+//        return isIE;
+//    }
+//    $(document).ready(function () {
+//        $(function () {
+//$.support.cors = true;
+//            var proto = $.ui.autocomplete.prototype,
+//        initSource = proto._initSource;
+
+//            function filter(array, term) {
+//                var matcher = new RegExp($.ui.autocomplete.escapeRegex(term), "i");
+//                return $.grep(array, function (value) {
+//                    return matcher.test($("<div>").html(value.label || value.value || value).text());
+//                });
+//            }
+
+//            $.extend(proto, {
+//                _initSource: function () {
+//                    if (this.options.html && $.isArray(this.options.source)) {
+//                        this.source = function (request, response) {
+//                            response(filter(this.options.source, request.term));
+//                        };
+//                    } else {
+//                        initSource.call(this);
+//                    }
+//                },
+
+//                _renderItem: function (ul, item) {
+//                    return $("<li></li>")
+//                        .data("item.autocomplete", item)
+//                        .append($("<a></a>")[this.options.html ? "html" : "text"](item.label))
+//                        .appendTo(ul);
+//                }
+//            });
+
+
+      
+            
+
+//            $('#indiGoSiteSearch_SearchCriteria').autocomplete({
+//                html:true,
+//                source: function (request, response) {
+//                    if (isIE(8) || isIE(9)) {
+//                        var url = 'https://content.goindigo.in/corporate/apachesolr_autocomplete?query=' + $("#indiGoSiteSearch_SearchCriteria").val().toLowerCase() + '&limit=50';
+//                        var xdr = new XDomainRequest();
+//                        xdr.open("get", url);
+//                        xdr.onprogress = function () { };
+//                        xdr.ontimeout = function () { };
+//                        xdr.onerror = function () { };
+//                        xdr.onload = function () {
+//                            var jsonObj = $.parseJSON(xdr.responseText);
+//                            response($.map(jsonObj, function (item) {
+//                                return {
+//                                    label: item.display,
+//                                    value: item.key
+//                                };
+//                            }));
+//                        };
+//                        //xdr.send();
+//                        setTimeout(function () { xdr.send(); }, 0);
+//                    }
+//                    else {
+//                        $.ajax({
+//                            url: 'https://content.goindigo.in/corporate/apachesolr_autocomplete?query=' + $("#indiGoSiteSearch_SearchCriteria").val().toLowerCase() + '&limit=50',
+//                            type: 'GET',
+//                            success: function (data) {
+//                                response($.map(data, function (item) {
+//                                    return {
+//                                        label: item.display,
+//                                        value: item.key
+//                                    };
+//                                }));
+//                            },
+//                            error: function (xhr, status, error) {
+//                                //alert(error);
+//                            }
+//                        });
+//                    }
+//                },
+//                minLength: 1,
+//                select: function (event, ui) {
+//                    $("#indiGoSiteSearch_SearchCriteria").val(ui.item.value);
+//                    $('#submitSearch').trigger("click");
+//                    return false;
+//                }
+//            });
+//        });
+//    });
+//    //For Auto Complete on Search box. Done on 20150521. Ends
+</script>
+
+                        </li>
+
+
+
+
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+<script>
+
+    $(document).ready(function () {
+        $('li.menu-btn').on('click', function () {
+            if ($(this).parents('body.pushy-open-right').length > 0) {
+                $('nav.pushy.pushy-right').attr('aria-hidden', 'false');
+            }
+            else {
+                $('nav.pushy.pushy-right').attr('aria-hidden', 'true');
+            }
+        });
+    });
+
+    //$(document).ready(function() {
+    //    $('#linkTravelInformation').hover(function () { $('#travelInformationPopUp').modal('show'); $(this).focus(); }, function () {});
+    //});
+    $(document).ready(function () {
+        if ($(window).width() > 767) {
+            $(".travel_infocontent").fadeOut();
+            var currentMousePos = { x: -1, y: -1 };
+
+            $('#linkTravelInformation').focus(function () {
+                currentMousePos = { x: -1, y: -1 };
+            });
+
+            $(".travel_infopopup").focus(function () {
+                $(this).addClass('active');
+                $(this).find('a').focus(0);
+                //$(".travel_infocontent").show();
+                $(".travel_infocontent").hide();
+                $(".overlay2").show();
+            });
+            $('.nav-pills.pull-right > li:not(.travelInfoholder) a').focus(function () {
+                $(".travel_infocontent").hide();
+                $(".travel_infopopup").removeClass("active");
+                $(".overlay2").hide();
+            });
+            $(".travel_infopopup").hover(function () {
+                $(this).addClass('active');
+                //$(".travel_infocontent").fadeIn();
+                $(".travel_infocontent").hide();
+                //$(".overlay2").fadeIn();
+                $(".overlay2").hide();
+            });
+            $(".overlay2").mousemove(function (event) {
+                if (currentMousePos.x == -1) {
+                    currentMousePos.x = event.pageX;
+                    currentMousePos.y = event.pageY;
+                }
+                else if (currentMousePos.x != event.pageX || currentMousePos.y != event.pageY) {
+                    //$(".travel_infocontent").fadeOut();
+                    $(".travel_infocontent").hide();
+                    $(".travel_infopopup").removeClass("active");
+                    //$(".overlay2").fadeOut();
+                    $(".overlay2").hide();
+                }
+            });
+        }
+
+
+
+    });
+
+</script>
+
+
+
+
+<script type="text/javascript">
+    $('.errorMsgs .closeError').click(function () {
+        $('.errorMsgs').slideUp();
+        $('.homePageWrapper').css('marginTop', '0');
+    });
+    $(document).ready(function () {
+        if ($(".errorMsgs li").length > 0) {
+            $(".errorMsgs").show();
+        }
+    });
+</script>
+
+        <div class="pageHeight">
+            
+            <input name="__RequestVerificationToken" type="hidden" value="xWyPtJNTFpfpf3mvcz4TfmJvTJa2MybwZxYJwin9FSx9wMrYphbvLupLerwN_KxwatUuI48VCyGn6teIVKIyQtGKoCiiXrsA4Sf3p0HDxS41BBQIwpTlOIEuFZe66l7G_HJGOg2" />
+        <div class="itineraryWrapper main">
+        <div class="itiFlightDetails bookingDetails myProfile">
+            <div class="heading splitHeading headGlbl header-title"><h3>Error Message</h3></div>
+            <div class="clearfix"></div>
+            <p>The system had an unexpected error.</p>          
+        </div>
+    </div>
+     
+
+
+
+
+        </div>
+
+    <footer class="footer-fixed">
+        <div class="gototop" id="gototopdiv" tabindex="0">
+            <img alt="indigo" src="/Content/wnd/images/gototop.png">
+        </div>
+            <section class="footer-top">
+                <ul class="center">
+                    <li class="hidden-xs"><a href="#" class="lnkAboutUs">About us</a></li>
+
+                     
+
+                    
+                    <li><a href="https://www.goindigo.in/information/new-flights.html?linkNav=new-flights_footer" class="lnkServices">New Flights</a></li>
+
+                     
+
+
+                    
+
+                    
+
+                    <li>
+                        <a href="https://www.goindigo.in/information/flight-schedule.html" target="_self" name="Careers" rel="Careers">Schedule</a>
+                    </li>
+                    
+                    <li class="ftr_expand footer_link"><a href="#" style="color: #f6e292">Click to Expand</a></li>
+                    <li class="ftr_collapsd footer_link"><a href="#" style="color: #f6e292">Click to Collapse</a></li>
+                    <li class="hidden-xs"><a href="https://www.goindigo.in/content/dam/goindigo/6e-website/pdf/fare-sheet/IndiGo-FareSheet.pdf?linkNav=IndiGo-FareSheet_footer" target="_blank" name="Fare Sheet" rel="Fare Sheet">Fare Sheet</a></li>
+
+                    
+                    <li><a href="https://www.goindigo.in/information.html?linkNav=information_footer" >Information</a> <a href="#" ></a></li>
+                    <li>
+                        <a href="https://www.goindigo.in/information/investor-relations.html?linkNav=investor-relations_footer" target="_blank" name="Investor Relations" rel="Investor Relations"> Investor Relations </a>
+                    </li>
+
+                </ul>
+            </section>
+       
+        <section class="footer-mid" style="display: none;">
+            <div class="center">
+                <div class="col col-1">
+                    <div class="link-list">
+                        <h3>About us</h3>
+                        <ul>
+                                <li><a href="https://www.goindigo.in/about-us.html?linkNav=about-us_footer" target="_self" name="AboutUs" rel="AboutUs">About Us</a></li>
+                                <li><a href="https://www.goindigo.in/press-releases.html?linkNav=press-releases_footer" target="_blank" name="PressReleases" rel="PressReleases">Press Releases</a></li>
+                                <li><a href="https://www.goindigo.in/about-us/board-of-directors.html?linkNav=board-of-directors_footer" target="_blank" name="BoardofDirectors" rel="BoardofDirectors">Board of Directors</a></li>
+                                <li><a href="https://www.goindigo.in/about-us/leadership-team.html?linkNav=leadership-team_footer" target="_self" name="LeadershipTeam" rel="LeadershipTeam">Leadership Team</a></li>
+                                <li><a href="https://www.goindigo.in/information/inter-globe-enterprises.html?linkNav=inter-globe-enterprises_footer" target="_self" name="InterGlobeEnterprises" rel="InterGlobeEnterprises"> InterGlobe Enterprises</a></li>
+                                <li><a href="https://www.goindigo.in/information/conditions-of-carriage.html?linkNav=conditions-of-carriage_footer" target="_self" name="ConditionsofCarriage" rel="ConditionsofCarriage"> Conditions of Carriage</a></li>
+                                <li><a href="https://www.goindigo.in/about-us/awards.html?linkNav=awards_footer" target="_self" name="Awards" rel="Awards"> Awards</a></li>
+                                <li><a href="https://www.goindigo.in/information/faqs.html?linkNav=faqs_footer" target="_self" name="FAQs" rel="FAQs"> FAQs</a></li>
+                                <li><a href="https://www.goindigo.in/clean-the-air.html?linkNav=clean-the-air_footer" target="_self" name="IndiGoFCN" rel="IndiGoFCN">IndiGo FCN</a></li>
+                                <li><a href="https://www.goindigo.in/information/investor-relations.html?linkNav=investor-relations_footer" target="_self" name="IndiGoSI" rel="IndiGoSI">Investor Relations</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-2">
+                    <div class="link-list">
+                        <h3>Services</h3>
+                        <ul>
+                                    <li><a href="https://cargo.goindigo.in/" target="_self" name="IndiGoCarGo" rel="IndiGoCarGo">IndiGo CarGo</a></li>
+                                <li><a href="https://www.goindigo.in/information/special-disability-assistance.html?linkNav=special-disability-assistance_footer" target="_self" name="Special/DisabilityAssistance" rel="Special/DisabilityAssistance">Special/Disability Assistance</a></li>
+                                <li><a href="https://www.goindigo.in/content/dam/goindigo/6e-website/pdf/MedicalPassenger-TravelGuideline.pdf?linkNav=MedicalPassenger-TravelGuideline_footer" target="_blank" name="MedicalAssistance" rel="MedicalAssistance">Medical Assistance</a></li>
+                                <li><a href="https://www.goindigo.in/information/group-booking.html?linkNav=group-booking_footer" target="_self" name="GroupBooking" rel="GroupBooking">Group Booking</a></li>
+                                <li><a href="https://www.goindigo.in/information/disclaimer.html?linkNav=disclaimer_footer" target="_self" name="Disclaimer" rel="Disclaimer">Disclaimer</a></li>
+                                <li><a href="https://www.goindigo.in/information/terms-and-conditions.html?linkNav=terms-and-conditions_footer" target="_self" name="TermsandConditions" rel="TermsandConditions">Terms and Conditions</a></li>
+                                <li><a href="https://www.goindigo.in/information/privacy.html?linkNav=privacy_footer" target="_self" name="Privacy" rel="Privacy">Privacy</a></li>
+                                <li><a href="https://www.goindigo.in/content/dam/goindigo/6e-website/pdf/fare-sheet/IndiGo-FareSheet.pdf?linkNav=IndiGo-FareSheet_footer" target="_blank" name="FareSheet" rel="FareSheet">Fare Sheet</a></li>
+                                    <li><a href="http://www.worldtracer.aero/filedsp/6e.htm" target="_blank" name="TrackYourBag" rel="TrackYourBag">Track Your Bag</a></li>
+                                <li><a href="https://www.goindigo.in/web-checkin.html?linkNav=web-checkin_footer#checkinTab" target="_self" name="WebCheckIn" rel="WebCheckIn">Web Check-In</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-3">
+                    <div class="link-list">
+                        <h3>Talk to us</h3>
+                        <ul>
+                                <li><a href="https://www.goindigo.in/contact-us.html?linkNav=contact-us_footer" target="_self" name="ContactUs" rel="ContactUs">Contact Us</a></li>
+                                <li><a href="https://www.goindigo.in/contact-us/international-reservation-offices.html?linkNav=international-reservation-offices_footer" target="_self" name="InternationalReservationOffices" rel="InternationalReservationOffices">International Reservation Offices</a></li>
+                                <li><a href="https://www.goindigo.in/contact-us/indigo-fulfillment-center.html?linkNav=indigo-fulfillment-center_footer" target="_self" name="IndiGoFulfillment Center" rel="IndiGoFulfillment Center">IndiGo Fulfillment Center</a></li>
+                                <li><a href="https://www.goindigo.in/contact-us/advertise-with-us.html?linkNav=advertise-with-us_footer" target="_self" name="Advertise" rel="Advertise">Advertise</a></li>
+                                <li><a href="https://www.goindigo.in/contact-us/feedback.html?linkNav=feedback_footer" target="_self" name="Feedback" rel="Feedback">Feedback</a></li>
+                                <li><a href="https://www.goindigo.in/sitemap.html?linkNav=sitemap_footer" target="_self" name="SiteMap" rel="SiteMap">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col col-4">
+                    <h3>Reach us</h3>
+                    <ul>
+                        <li><a target="_blank" class="careers" href="https://careers.goindigo.in/Information/careerhome" target="_self" name="Careers" rel="Careers">Careers</a></li>
+                        
+                        <li><a target="_blank" class="facebook" href="https://www.facebook.com/goindigo.in">Like us on facebook</a></li>
+                        <li><a target="_blank" class="follow-us" href="https://twitter.com/IndiGo6E">Follow us @IndiGo6E</a></li>
+                        <li><a target="_blank" class="instagram-us" href="https://www.instagram.com/indigo.6e/">Follow us @IndiGo.6E</a></li>
+                        <li><a target="_blank" class="apple fl" href="https://itunes.apple.com/us/app/goindigo.in/id726070762?ls=1&amp;mt=8">
+    <img alt="indigo" src="/Content/wnd/images/apple.png">
+</a><a target="_blank" class="google-app fr" href="https://play.google.com/store/apps/details?id=in.goindigo.android&amp;hl=en"><img alt="indigo" src="/content/wnd/images/google.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="center">For security purposes we store your IP Address which is 59.162.46.194 in our system. | © Copyright 2006 IndiGo All rights reserved</div>
+        </section>
+    </footer>
+
+<div class="modal fade" id="popup_login" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog login-modal-content">
+        <div class="modal-content">
+            <div class="modal-body">
+
+                <button aria-hidden="true" data-dismiss="modal" class="close visible-xs" type="button"></button>
+
+
+                <div class="modal-social-icons">
+                    <h4 tabindex="-1">
+                        Sign in with your social<br>
+                        account
+                    </h4>
+
+                    <a href='#' onclick="fb_loginSearchPage();" class="btn-block btn-social btn-facebook"><i class="fa fa-facebook modal-icons"></i>login with Facebook</a>
+                </div>
+                <div class="hr-row"><span>or</span></div>
+                <div class="row">
+                    <div class="col-xs-12">
+
+                        <ul class="custom_pop login-group devPop">
+                            <li>
+                                <input name="loginGrou_ppopup" value="" class="css-checkbox" type="radio" id="logViaUserID_ppopup">
+                                <label data-rel="logViaUserID" for="logViaUserID_ppopup" class="css-label">Login with User ID</label>
+                            </li>
+                            <li>
+                                <input name="loginGrou_ppopup" value="" checked="checked" class="css-checkbox" type="radio" id="logViaMobileNumber_ppopup">
+                                <label data-rel="logViaMobileNumber" for="logViaMobileNumber_ppopup" class="css-label">Login with Mobile Number</label>
+                            </li>
+                        </ul>
+
+                        <div class="loginGroupTabs">
+                            <div class="logViaUserID" style="display:none">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <div class="input_field">
+                                            <input class="loginPopup" maxlength="16" type="text" placeholder="User ID" id="memberId">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="input_field">
+                                            <input class="loginPopup" type="password" placeholder="Password" id="memberPassword">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="logViaMobileNumber" >
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <div class="input_field">
+                                            <input style=" width: 100%;" class="Numvalidation loginPopup" maxlength="3" type="text" value="91" id="txtloginMemberCountryCode">
+                                            <input type="hidden" id="hdnMemberUserId" />
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <div class="input_field">
+                                            <input style="width: 100%;" class="Numvalidation loginPopup" maxlength="16" type="text" placeholder="Mobile Number" id="viaMobileNomemberId">
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-12">
+                                        <div class="input_field">
+                                            <input type="password" placeholder="Password" id="viaMobileNomemberPassword" class="loginPopup">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 buttonWrap">
+                        <div class="buttons">
+                            <button id="MemberLoginBtn" class="buttonGlbl login_popbtn " type="button">Login</button>
+                            <button class="buttonGlbl login_popbtn ContinueBookingBtn" type="button">Continue Without Login</button>
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="clearfix"></div>
+            <div id="data" style="display: none;color:red"></div>
+            <div id="ajaxLoader" style="display: none; min-height: 70px">
+                <h3 style="float: left">Please wait...</h3>
+                <img src="/Content/wnd/images/ajax-loader.gif" height="32" width="32" style="width:auto"   />
+            </div>
+                        </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#FlightSearchLoginPop").click(function () {
+            $("#availabilityForm").submit();
+        });
+        $(".ContinueBookingBtn").click(function () {
+            $("#availabilityForm").submit();
+        });
+
+        $('.loginPopup').focus(function () {
+            $(this).removeClass('error').parent().find('.hint').remove();
+        });
+
+        $(document).on('keypress', '.loginPopup', function (e) {
+            if (e.keyCode == 13) {
+                $('#MemberLoginBtn').trigger('click');
+                e.preventDefault();
+                return false;
+            }
+        });
+
+
+        function validatepop() {
+            var value = $("#memberId").val();
+            var regex_cell = /[^[0-9]]*/gi;
+            var new_value = value.replace(regex_cell, '');
+            $("#memberId").val(new_value);
+            return true;
+        }
+        function FlightSearchLoginValidation(memberId, memberPassword) {
+            var flag = true;
+
+            var countryCode = $("#txtloginMemberCountryCode");
+            var trimmedcountryCode = countryCode.val().replace(/\b0+/g, "");
+            if (countryCode.val().length == 0) {
+                $(countryCode).addClass('error').after('<span class="hint "><div class="hint-message"><div class="hint-arrow"></div>Enter country code.</div></span>');
+                flag = false;
+            } else if (trimmedcountryCode.length == 0) {
+                $(countryCode).addClass('error').after('<span class="hint "><div class="hint-message"><div class="hint-arrow"></div>Invalid country code.</div></span>');
+                flag = false;
+            }
+            countryCode.val(countryCode.val().replace(/^0+/, ''));
+            var errorTextUid = '';
+            if ($('#logViaUserID_ppopup').is(':checked')) {
+                errorTextUid = 'User ID is required.';
+            }
+            else {
+                errorTextUid = 'Mobile Number is required.';
+            }
+
+            if (memberId.val() == "" && memberPassword.val() == "") {
+                memberId.addClass('error').after('<span class="hint" id="indiGoAvailability_fareRules_DoesAgreeToTerms_hint"><div class="hint-message"><div class="hint-arrow"></div>' + errorTextUid + '</div></span>');
+                memberPassword.addClass('error').after('<span class="hint" id="indiGoAvailability_fareRules_DoesAgreeToTerms_hint"><div class="hint-message"><div class="hint-arrow"></div>Password is required.</div></span>');
+                flag = false;
+            }
+            else if (memberId.val() == "") {
+                memberId.addClass('error').after('<span class="hint" id="indiGoAvailability_fareRules_DoesAgreeToTerms_hint"><div class="hint-message"><div class="hint-arrow"></div>' + errorTextUid +'</div></span>');
+                flag = false;
+            }
+            else if (memberId.attr('id') == 'viaMobileNomemberId' && !$.isNumeric(memberId.val()))
+            {
+                memberId.addClass('error').after('<span class="hint" id="indiGoAvailability_fareRules_DoesAgreeToTerms_hint"><div class="hint-message"><div class="hint-arrow"></div>Please Enter Valid Mobile Number.</div></span>');
+                flag = false;
+            }
+            else if (memberPassword.val() == "") {
+                memberPassword.addClass('error').after('<span class="hint" id="indiGoAvailability_fareRules_DoesAgreeToTerms_hint"><div class="hint-message"><div class="hint-arrow"></div>Required.</div></span>');
+                flag = false;
+            }
+            memberId.click(function () {
+                if (memberId.next().hasClass("hint")) {
+                    memberId.next().remove();
+                }
+            });
+            memberPassword.click(function () {
+                if (memberPassword.next().hasClass("hint")) {
+                    memberPassword.next().remove();
+                }
+            });
+            return flag;
+        }
+
+        $("#MemberLoginBtn").click(function () {
+
+            var memberId;
+            var memberPassword;
+            if ($('#logViaUserID_ppopup').is(':checked')) {
+                memberId = 'memberId';
+                memberPassword = 'memberPassword';
+                $('#hdnMemberUserId').val($('#memberId').val());
+            } else {
+                memberId = 'viaMobileNomemberId';
+                memberPassword = 'viaMobileNomemberPassword';
+            }
+
+            var memberIdvalue = $('#' + memberId).val();
+            var memberPasswordvalue = $('#' + memberPassword).val();
+
+            if (FlightSearchLoginValidation($('#' + memberId), $('#' + memberPassword))) {
+
+                if (!$('#logViaUserID_ppopup').is(':checked')) {
+                    if (!loginValidation('txtloginMemberCountryCode', memberId, 'hdnMemberUserId','none')) {
+                        return false;
+                    }
+                }
+
+                if (memberIdvalue != "" && memberPasswordvalue != "") {
+                    $("#ajaxLoader").show();
+                    $("#data").hide();
+                    $.ajax({
+                        url: '/Member/LoginAEM',
+                        type: "POST",
+                        data: {
+                            'memberLogin.Username': $('#hdnMemberUserId').val(),
+                            'memberLogin.Password': memberPasswordvalue
+                        },
+                        success: function (data) {
+
+                        if (data.indiGoError.errors.length > 0) {
+                                if ($('#logViaUserID_ppopup').is(':checked')) {
+                                    $('#data').html('The system did not recognize the user login information and/or password that you entered. Please check and try again.<br\> You can try logging in using your Mobile Number or Continue without login.').show();
+                                } else {
+                                    $('#data').html('The system did not recognize the user login information and/or password that you entered. Please check and try again.<br\> You can try logging in using your User ID or Continue without login.').show();
+                                }
+
+                                $("#ajaxLoader").hide();
+                            }
+                            else {
+                                try {
+                                    SetAEMStatusCookie('Member');
+                                }
+                                catch (e) { }
+                                $("#availabilityForm").submit();
+                            }
+                        }
+                    });
+                }
+            }
+        });
+
+        $("#AgentLoginBtn").click(function () {          
+            var agentId = $("#AgentId");
+            var agentPassword = $("#AgentPassword");
+            FlightSearchLoginValidation(agentId, agentPassword);
+            if (agentId.val() != "" && agentPassword.val() != "") {
+                $("#ajaxLoaderAgent").show();
+                $("#dataAgent").hide();;
+                $.post('/Agent/AgentLogin',
+                    {
+                        'agentLogin.Username': agentId.val(),
+                        'agentLogin.Password': agentPassword.val()
+                    },
+                    function (data) {
+                        if (data.indexOf("The system did not recognize the user Log In information") != -1) {
+                            $("#dataAgent").html("The system did not recognize the user Log In information and/or password that you entered. Please check and try again.").show();
+                            $("#ajaxLoaderAgent").hide();
+                        }
+                        else {
+                            $("#availabilityForm").submit();                          
+                        }                                         
+                    });
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
+
+    </div>
+
+
+    <div role="dialog" class="modal fade" id="groupBookingRedirection">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Group Booking</h4>
+                </div>
+                <div class="modal-body">
+                    You will now be redirected to the Group Booking Website. Click 'OK' to continue
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl" id="groupBookingRedirectionBtnOK">OK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div role="dialog" class="modal fade" id="validationSummaryModal">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">More Info Needed</h4>
+                    </div>
+                    <div class="modal-body">
+                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                            <a href="javascript:;"  data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    <div role="dialog" class="modal fade" id="oneWaySearchModal">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        
+                        <h4 class="modal-title">Round Trip Discount</h4>
+                    </div>
+                    <div class="modal-body">
+                        IndiGo offers attractive round trip fares on select sectors, Click on the round-trip tab to avail them. 
+                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                            <a href="javascript:;"  data-dismiss="modal" aria-hidden="true" class="buttonGlbl">OK</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    
+    
+    <div role="dialog" class="modal fade" id="multiCitySearchModal">
+            <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Information</h4>
+                </div>
+                <div class="modal-body">
+                    Multi city booking does not mean connecting flight. Customers must ensure sufficient connecting time between flights. IndiGo will not be responsible for missed connections due to any reason.
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">OK</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div role="dialog" class="modal fade" id="otpResendLimitExpire">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Information</h4>
+                </div>
+                <div class="modal-body">
+                    Resend OTP limit has exceeded.
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a aria-hidden="true" class="buttonGlbl" href="/">Ok</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    
+
+
+<div role="dialog" class="modal fade devModal" id="passengerMaxModalRoundTrip" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Book Flight</h4>
+                    </div>
+                    <div class="modal-body">
+passengerMaxModal                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="infantMaxModalRoundTrip" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Book Flight</h4>
+                    </div>
+                    <div class="modal-body">
+Only one infant per adult is permitted.                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="passengerMaxModalOneWay" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Book Flight</h4>
+                    </div>
+                    <div class="modal-body">
+passengerMaxModal                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="infantMaxModalOneWay" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Book Flight</h4>
+                    </div>
+                    <div class="modal-body">
+Only one infant per adult is permitted.                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+    
+
+
+<div role="dialog" class="modal fade devModal" id="emailItinerarySuccessModal" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Send Email Itinerary</h4>
+                    </div>
+                    <div class="modal-body">
+Email has been sent successfully.                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="emailItineraryFailModal" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Send Email Itinerary</h4>
+                    </div>
+                    <div class="modal-body">
+The Booking Reference could not be found.                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="passengerMaxModalMultiLeg" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Book Flight</h4>
+                    </div>
+                    <div class="modal-body">
+passengerMaxModal                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="infantMaxModalMultiLeg" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Book Flight</h4>
+                    </div>
+                    <div class="modal-body">
+Only one infant per adult is permitted.                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                                            <button class="indigo-submit buttonGlbl clsmdl" data-dismiss="modal" aria-label="Close" aria-hidden="false">Close</button>
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+
+
+<div role="dialog" class="modal fade devModal" id="armedForcesPersonnelModalMultiLeg" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">ArmedForcesPersonnel</h4>
+                    </div>
+                    <div class="modal-body">
+ArmedForcesPersonnelModal                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+        <input type="submit" data-dismiss="modal" value="OK" class="pull-right indigo-submit buttonGlbl clsmdl" />
+
+                            
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+<script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.devModal .modal-header h4').focus(0);
+    });
+</script>
+
+
+
+
+
+
+
+
+
+    
+    <div role="dialog" class="modal fade" id="popupAlert">
+            <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close" type="button"></button>
+                <h4 class="modal-title heading"></h4>
+            </div>
+            <div class="modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <div class="buttons">
+                    <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div role="dialog" class="modal fade" id="StudentFareModal">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close" type="button"></button>
+                <h4 class="modal-title">Student Fare</h4>
+            </div>
+            <div class="modal-body">
+                <p>Applicable for students, above the age of 12 years. A valid student Id card to be presented at check-in counter for verification. Entitled for discount of up to  8%  on base fare &amp; an extra baggage allowance of 10 kgs (over and above the regular 15 kgs allowance).</p>
+                <br />
+                <p>Failure in producing proof will result in charging prevailing fares.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="buttons">
+                    <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">OK</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div role="dialog" class="modal fade" id="SeniorCitizenModal">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close armedForceClose" type="button"></button>
+                <h4 class="modal-title">Senior Citizen</h4>
+            </div>
+            <div class="modal-body">
+
+                <p>  Applicable for senior citizens above the age of 60 years. Entitled for discount of up to  6%  on base fare. Proof of Date of Birth is mandatory and needs to be presented at the time of check-in. </p>
+                <br />
+                <p> Failure in producing proof will result in charging prevailing fares. </p>
+            </div>
+            <div class="modal-footer">
+                <div class="buttons">
+
+                    <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl armedForceClose">OK</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+    <div role="dialog" class="modal fade" id="armedForcesPersonnelModal">
+            <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close armedForceClose" type="button"></button>
+                <h4 class="modal-title">Armed Forces Personnel</h4>
+            </div>
+            <div class="modal-body">
+                <p>Applicable if you are currently serving or retired Armed Forces personnel, Paramilitary Forces personnel, or war widow.</p>
+                
+                <p>For serving or retired Armed Forces and Paramilitary personnel, the offer is also applicable for their spouse and dependent children. Valid photo ID and relevant military (Armed Forces, Paramilitary Forces, Ex-serviceman, Spouse, Dependent, or War widow) ID must be present at check in. Passengers failing to provide ID will be denied boarding. Conditions Apply.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="buttons">
+                    <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl armedForceClose">OK</a>
+                </div>
+            </div>
+        </div>
+
+            </div>
+        </div>
+
+
+
+
+   
+
+
+<div role="dialog" class="modal fade" id="armedForcesPersonnelModalDFNS">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button data-dismiss="modal" class="close" type="button"></button>
+                <h4 class="modal-title">Armed Forces Personnel</h4>
+            </div>
+            <div class="modal-body">
+                <p>Armed Forces Discount is not applicable for bookings where travel is within the next 7 days.</p>
+            </div>
+            <div class="modal-footer">
+                <div class="buttons">
+                    <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                </div>
+                <input type="submit" class="pull-right indigo-submit buttonGlbl clsmdl" value="OK">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+    
+    <div role="dialog" class="modal fade" id="WebCheckinSeatMandatoryMegModel">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Seat Selection is Mandatory</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Since you are doing 'Web Check-in', please choose your complimentary extra legroom, window or aisle seat before proceeding further.</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div role="dialog" class="modal fade" id="IGPMealMandatoryMegModel">
+            <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Meal Selection is Mandatory</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Since you have bought '6E Prime', it is mandatory for you to choose your complimentary vegetarian/non-vegetarian meal before proceeding further. If your flight is within next 24 hours, you will be given a meal from the available choice on board.</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div role="dialog" class="modal fade" id="IGPRMealMandatoryMegModel">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Fast Forward Selection is Mandatory</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Since you have bought '6E Prime', it is mandatory for you to choose your complimentary Fast Forword before proceeding further.</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div role="dialog" class="modal fade" id="flexiMealMandatoryMegModel">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Meal Selection is Mandatory</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Since you have bought flexi upgrade, it is mandatory for you to choose your complimentary vegetarian/non-vegetarian meal before proceeding further. If your flight is within next 24 hours, you will be given a meal from the available choice on board.</p>
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+
+    <div role="dialog" class="modal fade" id="IGPSeatMandatoryMegModel">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Seat Selection is Mandatory</h4>
+                    </div>
+                    <div class="modal-body">
+                                            
+                                           <p>Since you have bought '6E Prime', it is mandatory for you to choose your complimentary extra legroom, window or aisle seat before proceeding further.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div role="dialog" class="modal fade" id="FlexiSeatMandatoryMegModel">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Don’t Miss your Free Seat for Flexible Fare  </h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>Since your booking has one or more flights booked under Flexible Fare, please choose your complimentary extra legroom, window or aisle seat before proceeding further.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    
+
+
+
+    <div role="dialog" class="modal fade" id="EmergencyContactPopup">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Emergency Contact No</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>We request you to provide the phone number of the person to be contacted in case of an emergency.</p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+    <div role="dialog" class="modal fade" id="deleteFavPaxWarningPopup">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Confirmation</h4>
+                    </div>
+                    <div class="modal-body">
+                                            
+                                           <p>Are you sure you want to delete this passenger.</p>
+
+                                        </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                            <a href="javascript:;"  data-dismiss="modal" aria-hidden="true" onclick="javascript: $('#deleteFavPaxWarningPopup').modal('hide');showMyAccountTab();" class="buttonGlbl">Cancel</a></div>
+                        <div class="buttons">
+                            <a href="javascript:;"  data-dismiss="modal" aria-hidden="true" onclick="javascript: UpdateProfile(); $('#deleteFavPaxWarningPopup').modal('hide');" class="buttonGlbl">Ok</a></div>
+                                             
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    
+
+   
+    <script src="/Scripts/lib/Jquery-Custom-3.3.1.min.js"></script>
+<script src="/Scripts/lib/jquery.validate.min.js"></script>
+<script src="/Scripts/lib/jquery-ui-1.10.3.js"></script>
+<script src="/Scripts/lib/jquery-ui-timepicker-addon.js"></script>
+<script src="/Scripts/lib/json2.min.js"></script>
+<script src="/Scripts/lib/knockout-2.2.1.js"></script>
+<script src="/Scripts/lib/navitaire-1.0.1.js"></script>
+<script src="/Scripts/lib/navitaire-extensions-1.0.js"></script>
+<script src="/Scripts/Common/Resource.js"></script>
+<script src="/Scripts/Common/datetime.polyfills.js"></script>
+<script src="/Scripts/Common/DivHideByID.js"></script>
+<script src="/Scripts/Common/SearchAutoComplete.js"></script>
+<script src="/Scripts/Common/SearchAutoPopulate.js"></script>
+<script src="/Scripts/lib/globalize.js"></script>
+<script src="/Scripts/Common/EventBus.js"></script>
+<script src="/Scripts/lib/jquery.marquee.js"></script>
+<script src="/Scripts/lib/jquery.pause.js"></script>
+<script src="/Scripts/lib/ChangeCultureCode.js"></script>
+<script src="/Scripts/lib/DateExtensions.js"></script>
+<script src="/Scripts/lib/OriginDestSelect.js"></script>
+<script src="/Scripts/lib/FltStatusOriginDestSelect.js"></script>
+<script src="/Scripts/Validation/Validation.js"></script>
+<script src="/Scripts/Common/TogglePanel.js"></script>
+<script src="/Scripts/Common/JourneyMultiSegmentToggle.js"></script>
+<script src="/Scripts/Common/FullPriceBreakdown.js"></script>
+<script src="/Scripts/Common/IeModalFix.js"></script>
+<script src="/Scripts/Common/landing.js"></script>
+<script src="/Scripts/Contact/CountryISDMapper.js"></script>
+<script src="/Scripts/Contact/CountryStateMapper.js"></script>
+<script src="/Scripts/Components/tooltip.js"></script>
+<script src="/Scripts/lib/CubeSlider.js"></script>
+<script src="/Scripts/Flight/MobileRedirect.js"></script>
+<script src="/Scripts/Flight/FlightChangeMessageModal.js"></script>
+<script src="/Scripts/OTPValidation/OTPValidation.js"></script>
+
+    
+
+    <script type="text/javascript" src="/Resource/Simple?rs=Mac&rs=Station&rs=Market&rs=CountriesWithProvinceStates&activeOnly=True&culture=en-GB&jsonp=nca.resourceReady"></script>
+
+    
+
+
+    
+
+    <script type="text/javascript">
+
+if (nca.createObject) { nca.createObject("Validation", "Validation", {"forms":{}}); }
+    </script>
+
+   
+
+
+
+    <script type="text/javascript" src="/Scripts/Lib/GlobalizeCultures/globalize.culture.en-GB.js"></script>
+
+    
+
+
+    <script src="/Scripts/js/plugins.js"></script>
+<script src="/Scripts/js/jquery.easy-ticker.min.js"></script>
+<script src="/Scripts/js/main.js"></script>
+<script src="/Scripts/js/CharLineHeight.js"></script>
+<script src="/Scripts/Common/Layout.js"></script>
+<script src="/Scripts/js/vendor/respond.js"></script>
+
+
+     
+
+
+    
+<script src="/Scripts/js/jquery.cookie.js"></script>
+    <script type="text/javascript">
+        var COOKIE_NAME = 'tabclose', SITE_WIDE_PATH = { path: '/' };
+
+        $("form").on("submit", function () {
+            //if (winW <= 1023) {
+            $.removeCookie(COOKIE_NAME, SITE_WIDE_PATH);
+            //}
+        });
+        $("a").on("click", function () {
+            //if (winW <= 1023) {
+            if ($(this).attr("href").indexOf("#") == -1 && $(this).attr("href").indexOf("javascript:;") == -1) {
+                $.removeCookie(COOKIE_NAME, SITE_WIDE_PATH);
+            }
+            //}
+        });
+
+    </script>
+
+
+    <div role="dialog" class="modal fade" id="SessionExpireMobile" >
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Message</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Warning: You already have a live session of this webpage open. Opening another session may hamper with your original session.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="buttons">
+                            <a href="javascript:;"  data-dismiss="modal" aria-hidden="true" id="sessionModelOk" class="buttonGlbl">OK</a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    
+        
+
+
+    <!--For 6E Upgrade Pop Up-->
+
+
+        <div role="dialog" class="modal fade" id="6EUpgradeTOCModal">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button data-dismiss="modal" class="close" type="button"></button>
+                        <h4 class="modal-title">Terms and Conditions</h4>
+                    </div>
+                    <div class="modal-body">
+                                            
+                                           <p>    <div class="fast-forward-terms">
+        <ul style="list-style:disc outside" class="list_margin">
+            
+            <li>6E Upgrade Service (&quot;Service&quot;) is available to all passengers flying domestic segments only at a charge of Rs.2500/- (Rupees Two Thousand Five Hundred Only) inclusive of applicable service tax (&quot;Fee&quot;), per Passenger per Segment. This Fee is non-refundable. For the purpose of these terms and conditions, &quot;Passenger(s)&quot; shall mean and refer to an individual passenger opting for the Service and &quot;Segment&quot; shall mean and refer to single boarding and de-boarding, example Delhi – Mumbai. </li>
+            <li>This Service is offered on a per head basis and in case of multiple passengers on a single PNR, each individual Passenger will be charged this Fee.</li>
+            <li>Under this Service, Passengers can/ are: 
+                
+            <ul style="list-style:circle outside; margin-left:10px;" class="list_margin">
+                <li>Modify their booking multiple number of times or cancel the booking, without paying any additional Change or Cancellation fees, as may be applicable and defined in InterGlobe Aviation Limited’s (&quot;IndiGo&quot;) then current Conditions of Carriage. Difference in fare may apply.</li>
+                <li>Select the seat of their choice without any charge, including all seats (extra legroom seats and select window and aisle seats) that are otherwise available for pre-assignment at a charge, subject to availability.</li>
+                <li>Entitled to a free meal comprising of a food item and beverage from the available choice on board. Please note that this entitlement will be governed by limitations of choice of food and beverage items that apply to certain short duration flights.</li>
+            </ul>
+            </li>
+
+            <li>In case of cancellation of a booking, after deducting the Fee, the residual amount, if any, will be refunded in accordance with the then current Conditions of Carriage.</li>
+            <li>In case of modification, after deducting the Fee and making the payment for the changed booking, if any residual amount is to be refunded, the same shall be done in accordance with the then current Conditions of Carriage. Further, if there is any excess amount to be paid on account of difference in fare or any applicable charges, the same will be borne by the Passenger.</li>
+            <li>Passengers may book this Service, either through the travel agents or through the website, www.goindigo.in (&quot;Website&quot;), at the time of booking, only.</li>
+            <li>Benefits of the Service can be availed only through the travel agents or through the Website. Thus, Passengers must cancel or modify their booking only through the Website or travel agents.</li>
+            <li>In the event a Passenger cancels or modifies the booking through the Call Centre for any reason, automatic refund of the Change or Cancellation fee will not be done and the applicable Change or Cancellation fee will be charged. Passengers, can however, request for a refund of such Change or Cancellation fee by writing to customer.relations@goindigo.in.</li>
+            <li>All other terms and conditions concerning the travel and booking of a Passenger shall be governed by the Conditions of Carriage of IndiGo.</li>
+            <li>This Service and/or its terms and conditions, are subject to change/revocation/alteration at any point without any prior notice.</li>
+            
+        </ul>
+    </div>
+</p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div role="dialog" class="modal fade" id="6EUpgradeInternationalTOCModal">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Terms and Conditions</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>    <div class="fast-forward-terms">
+        <ul style="list-style:disc outside" class="list_margin">
+            
+            <li>6E Upgrade Service (&quot;Service&quot;) is available to all passengers flying international segments only at a charge of Rs.3000/- (Rupees Three Thousand Only) inclusive of applicable service tax (&quot;Fee&quot;), per Passenger per Segment. This Fee is non-refundable. For the purpose of these terms and conditions, &quot;Passenger(s)&quot; shall mean and refer to an individual passenger opting for the Service and &quot;Segment&quot; shall mean and refer to single boarding and de-boarding, example Delhi – Mumbai. </li>
+            <li>This Service is offered on a per head basis and in case of multiple passengers on a single PNR, each individual Passenger will be charged this Fee.</li>
+            <li>
+                Under this Service, Passengers can/ are: 
+
+            <ul style="list-style:circle outside; margin-left:10px;" class="list_margin">
+                <li>Modify their booking multiple number of times or cancel the booking, without paying any additional Change or Cancellation fees, as may be applicable and defined in InterGlobe Aviation Limited’s (&quot;IndiGo&quot;) then current Conditions of Carriage. Difference in fare may apply.</li>
+                <li>Select the seat of their choice without any charge, including all seats (extra legroom seats and select window and aisle seats) that are otherwise available for pre-assignment at a charge, subject to availability.</li>
+                <li>Entitled to a free meal comprising of a food item and beverage from the available choice on board. Please note that this entitlement will be governed by limitations of choice of food and beverage items that apply to certain short duration flights.</li>
+            </ul>
+            </li>
+
+            <li>In case of cancellation of a booking, after deducting the Fee, the residual amount, if any, will be refunded in accordance with the then current Conditions of Carriage.</li>
+            <li>In case of modification, after deducting the Fee and making the payment for the changed booking, if any residual amount is to be refunded, the same shall be done in accordance with the then current Conditions of Carriage. Further, if there is any excess amount to be paid on account of difference in fare or any applicable charges, the same will be borne by the Passenger.</li>
+            <li>Passengers may book this Service, either through the travel agents or through the website, www.goindigo.in (&quot;Website&quot;), at the time of booking, only.</li>
+            <li>Benefits of the Service can be availed only through the travel agents or through the Website. Thus, Passengers must cancel or modify their booking only through the Website or travel agents.</li>
+            <li>In the event a Passenger cancels or modifies the booking through the Call Centre for any reason, automatic refund of the Change or Cancellation fee will not be done and the applicable Change or Cancellation fee will be charged. Passengers, can however, request for a refund of such Change or Cancellation fee by writing to customer.relations@goindigo.in.</li>
+            <li>All other terms and conditions concerning the travel and booking of a Passenger shall be governed by the Conditions of Carriage of IndiGo.</li>
+            <li>This Service and/or its terms and conditions, are subject to change/revocation/alteration at any point without any prior notice.</li>
+            
+        </ul>
+    </div>
+</p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div role="dialog" class="modal fade" id="flexiUpgradeTOCModal">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button data-dismiss="modal" class="close" type="button"></button>
+                    <h4 class="modal-title">Flexible Fare Terms &amp; Conditions</h4>
+                </div>
+                <div class="modal-body">
+
+                    <p>    <div class="fast-forward-terms">
+        <ul style="list-style:disc outside" class="list_margin">
+            <li>Under this Fare, Passengers can/ are:<br/><br/>
+                <ul style="list-style:disc inside">
+                    <li>Modify their booking multiple number of times without paying any additional Change fees, as may be applicable and defined in InterGlobe Aviation Limited’s ("IndiGo") then current Conditions of Carriage. Difference in fare may apply.</li>
+                    <li>Select the seat of their choice without any charge, including all seats (extra legroom seats or window or aisle seats) that are otherwise available for pre-assignment at a charge, subject to availability.</li>
+                </ul>
+            </li>
+        <li>In case of cancellation of a booking, after deducting the Fee, the residual amount, if any, will be refunded in accordance with the then current Conditions of Carriage. </li>
+        <li>In case of modification, after deducting the Fee and making the payment for the changed booking, if any residual amount is to be refunded, the same shall be done in accordance with the then current Conditions of Carriage. Further, if there is any excess amount to be paid on account of difference in fare or any applicable charges, the same will be borne by the Passenger. </li>
+        <li>Passengers may book this fare, either through the travel agents, Online Travel  Agents or through the IndiGo website, www.goindigo.in ("Website").</li>
+        <li>Benefits of the fare can be availed only through the travel agents,  Online Travel  Agents or through the IndiGo website. Thus, Passengers must cancel or modify their booking only through the Website, travel agents or Online Travel Agent. </li>
+        <li>In the event a Passenger cancels or modifies the booking through the Call Centre for any reason, automatic refund of the Change or Cancellation fee will not be done and the applicable Change or Cancellation fee will be charged. Passengers, can however, request for a refund of such Change or Cancellation fee by writing to customer.relations@goindigo.in. </li>
+        <li>All other terms and conditions concerning the travel and booking of a Passenger shall be governed by the Conditions of Carriage of IndiGo. </li>
+        <li>This fare and/or its terms and conditions, are subject to change/revocation/alteration at any point without any prior notice.</li>
+            </ul></div>
+</p>
+
+                </div>
+                <div class="modal-footer">
+                    <div class="buttons">
+                        <a href="javascript:;" data-dismiss="modal" aria-hidden="true" class="buttonGlbl">Close</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    
+
+    
+
+    <!-- core JavaScript and jquery UI -->
+ 
+
+   <script src="/Scripts/wnd/js/modernizr.js"></script>
+<script src="/Scripts/wnd/js/pushy.min.js"></script>
+
+   <script src="/Scripts/wnd/js/bootstrap.js"></script>
+<script src="/Scripts/wnd/js/jquery.bsPhotoGallery.js"></script>
+<script src="/Scripts/wnd/js/owl.carousel.js"></script>
+<script src="/Scripts/wnd/js/jquery.checkable.js"></script>
+<script src="/Scripts/wnd/js/sticky-kit.js"></script>
+<script src="/Scripts/wnd/js/custom.js"></script>
+<script src="/Scripts/js/wcag.js"></script>
+
+    
+
+
+     
+    <script>
+        if (typeof (_satellite) != 'undefined') {
+            _satellite.pageBottom();
+        }
+        </script>
+    
+    <script>
+        //For This week next week changes done on 20160505 starts
+        $(window).load(function () {
+            //For One Way.
+            $("#indiGoOneWaySearch_DepartureDate").val("");
+            //$("#indiGoOneWaySearch_DepartureDate").attr("placeholder", "Tomorrow");
+            $("#indiGoOneWaySearch_DepartureDate").change(function () {
+                $("#indiGoOneWaySearch_DepartureDate").attr("placeholder", "Depart");
+            });
+            $("#indiGoOneWaySearch_DepartureDate").val($("#indiGoOneWaySearch_DepartureDate").attr("data-actual-value"));
+
+            //For Roundtrip.
+            $("#indiGoRoundTripSearch_DepartureDate").val("");
+            //$("#indiGoRoundTripSearch_DepartureDate").attr("placeholder", "Tomorrow");
+            $("#indiGoRoundTripSearch_DepartureDate").change(function () {
+                $("#indiGoRoundTripSearch_ReturnDate").val($("#indiGoRoundTripSearch_DepartureDate").val());
+                $("#indiGoRoundTripSearch_DepartureDate").attr("placeholder", "Depart");
+            });
+
+            $("#indiGoRoundTripSearch_ReturnDate").val("");
+            //$("#indiGoRoundTripSearch_ReturnDate").attr("placeholder", "Following Week");
+            $("#indiGoRoundTripSearch_ReturnDate").change(function () {
+
+                $("#indiGoRoundTripSearch_ReturnDate").attr("placeholder", "Return");
+            });
+            $("#indiGoRoundTripSearch_DepartureDate").val($("#indiGoRoundTripSearch_DepartureDate").attr("data-actual-value"));
+            $("#indiGoRoundTripSearch_ReturnDate").val($("#indiGoRoundTripSearch_ReturnDate").attr("data-actual-value"));
+
+            //For Multicity.
+            $("#indiGoMultiLegSearch_DepartureDateOne").val("");
+            //$("#indiGoMultiLegSearch_DepartureDateOne").attr("placeholder", "Tomorrow");
+            $("#indiGoMultiLegSearch_DepartureDateOne").change(function () {
+                $("#indiGoMultiLegSearch_DepartureDateOne").attr("placeholder", "Depart");
+                $(".bookingFieldsWrapper ").nextAll().each(function () {
+                    if ($(this).find('.calender.date_depart [type="text"]').val() == "") {
+                        $(this).find('.calender.date_depart [type="text"]').val($("#indiGoMultiLegSearch_DepartureDateOne").val());
+                    }
+                });
+            });
+
+            $("#indiGoMultiLegSearch_DepartureDateTwo").val("");
+            //$("#indiGoMultiLegSearch_DepartureDateTwo").attr("placeholder", "Tomorrow");
+            $("#indiGoMultiLegSearch_DepartureDateTwo").change(function () {
+                $("#indiGoMultiLegSearch_DepartureDateTwo").attr("placeholder", "Depart");
+                $(".bookingFieldsWrapper ").nextAll().each(function () {
+                    if ($(this).find('.calender.date_depart [type="text"]').val() == "") {
+                        $(this).find('.calender.date_depart [type="text"]').val($("#indiGoMultiLegSearch_DepartureDateTwo").val());
+                    }
+                });
+            });
+
+            $("#indiGoMultiLegSearch_DepartureDateThree").val("");
+            //$("#indiGoMultiLegSearch_DepartureDateThree").attr("placeholder", "Tomorrow");
+            $("#indiGoMultiLegSearch_DepartureDateThree").change(function () {
+                $("#indiGoMultiLegSearch_DepartureDateThree").attr("placeholder", "Depart");
+                $(".bookingFieldsWrapper ").nextAll().each(function () {
+                    if ($(this).find('.calender.date_depart [type="text"]').val() == "") {
+                        $(this).find('.calender.date_depart [type="text"]').val($("#indiGoMultiLegSearch_DepartureDateThree").val());
+                    }
+                });
+            });
+
+            $("#indiGoMultiLegSearch_DepartureDateFour").val("");
+            //$("#indiGoMultiLegSearch_DepartureDateFour").attr("placeholder", "Tomorrow");
+            $("#indiGoMultiLegSearch_DepartureDateFour").change(function () {
+                $("#indiGoMultiLegSearch_DepartureDateFour").attr("placeholder", "Depart");
+                $(".bookingFieldsWrapper ").nextAll().each(function () {
+                    if ($(this).find('.calender.date_depart [type="text"]').val() == "") {
+                        $(this).find('.calender.date_depart [type="text"]').val($("#indiGoMultiLegSearch_DepartureDateFour").val());
+                    }
+                });
+            });
+
+            $("#indiGoMultiLegSearch_DepartureDateFive").val("");
+            //$("#indiGoMultiLegSearch_DepartureDateFive").attr("placeholder", "Tomorrow");
+            $("#indiGoMultiLegSearch_DepartureDateFive").change(function () {
+                $("#indiGoMultiLegSearch_DepartureDateFive").attr("placeholder", "Depart");
+                $(".bookingFieldsWrapper ").nextAll().each(function () {
+                    if ($(this).find('.calender.date_depart [type="text"]').val() == "") {
+                        $(this).find('.calender.date_depart [type="text"]').val($("#indiGoMultiLegSearch_DepartureDateFive").val());
+                    }
+                });
+            });
+
+            //#### Asit 27 Mar 2017 #######
+            $("#indiGoMultiLegSearch_DepartureDateOne").val($("#indiGoMultiLegSearch_DepartureDateOne").attr("data-actual-value"));
+            $("#indiGoMultiLegSearch_DepartureDateTwo").val($("#indiGoMultiLegSearch_DepartureDateTwo").attr("data-actual-value"));
+            $("#indiGoMultiLegSearch_DepartureDateThree").val($("#indiGoMultiLegSearch_DepartureDateThree").attr("data-actual-value"));
+            $("#indiGoMultiLegSearch_DepartureDateFour").val($("#indiGoMultiLegSearch_DepartureDateFour").attr("data-actual-value"));
+            $("#indiGoMultiLegSearch_DepartureDateFive").val($("#indiGoMultiLegSearch_DepartureDateFive").attr("data-actual-value"));
+            //#### Asit 27 Mar 2017 #######
+
+        });
+        //For This week next week changes done on 20160505 starts
+    </script>
+</body>
+</html>
+
+
+
+
+
+

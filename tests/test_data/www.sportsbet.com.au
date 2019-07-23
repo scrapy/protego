@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: *action=GoRaceQuickPick*
+Disallow: /horse-racing/*singles$
+Disallow: /harness-racing/*singles$
+Disallow: /greyhound-racing/*singles$
+Disallow: /i/cms/
+Disallow: /results/Golf
+Disallow: /results/Cycling
+Disallow: /results/RugbyUnion
+Disallow: /results/AustralianRules
+Disallow: /results/SoccerMatches
+Disallow: /results/Cricket
+Disallow: /results/SoccerFutures
+Disallow: /results/Basketball
+Disallow: /results/Tennis
+Disallow: /results/RugbyLeague
+Disallow: /content/*
+User-Agent: MJ12bot
+Disallow:

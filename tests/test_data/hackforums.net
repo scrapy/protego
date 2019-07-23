@@ -1,0 +1,17 @@
+User-Agent: *
+Disallow: /moderation.php
+Disallow: /report.php
+Disallow: /sendthread.php
+Disallow: /usercp2.php
+Disallow: /newthread.php
+Disallow: /editpost.php
+Disallow: /refer.php
+Disallow: /showteam.php
+Disallow: /archive/index.php/ipcheck.php
+Disallow: /ipcheck.php
+
+User-agent: dotbot 
+Disallow: /
+
+User-agent: Uptimebot
+Disallow: /

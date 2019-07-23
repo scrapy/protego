@@ -1,0 +1,64 @@
+User-agent: *
+Allow: /wp-includes/js
+Allow: /wp-includes/css
+Disallow: /cgi-bin/
+Disallow: /cdn-cgi/
+Disallow: /wp-admin/
+Disallow: /archives/
+Disallow: /wp-includes/
+Disallow: /trackback/
+Disallow: /comments/
+Disallow: /comment-page-
+Disallow: */trackback/
+Disallow: /comments/feed/
+Disallow: /tag/
+Disallow: *?replytocom
+Disallow: *?essb-image-share=yes
+Disallow: *?doing_wp_cron
+Disallow: /*.inc$
+Disallow: /*.php$
+Disallow: /iframes/
+Disallow: /recommends/
+Disallow: /print/
+Disallow: /search/label/
+Disallow: /search/*
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /xmlrpc.php
+Disallow: /wp-content/backup-db/
+Disallow: /wp-content/uploads/gravity_forms/
+Disallow: /wp-content/uploads/Icons/
+Disallow: /wp-content/uploads/wptouch-data/
+Disallow: /wp-content/bps-backup/
+Disallow: /wp-content/lbp-css/
+Disallow: /wp-content/uploads/profiles/
+Disallow: /wp-content/plugins/justified-image-grid/
+Disallow: /wp-content/wp-rocket-config/
+Disallow: /wp-content/uploads/revslider/
+Disallow: /wp-content/uploads/synthesis-db-backups/
+Disallow: /wp-content/uploads/wpseo-redirects/
+Disallow: /wp-content/uploads/mailster/
+Disallow: /wp-content/uploads/mailster_bak/
+Disallow: /wp-content/uploads/js_composer/
+Disallow: /wp-content/uploads/cache/
+Disallow: /wp-content/uploads/backup/
+Disallow: /wp-content/uploads/wp-migrate-db/
+Disallow: /wp-content/uploads/essb_cache/
+Disallow: /wp-content/uploads/essb_cache_static/
+Disallow: /wp-content/uploads/essb_compiled/
+
+Sitemap: https://www.thetrendspotter.net/sitemap_index.xml
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: msnbot 
+Crawl-delay: 10
+
+User-agent: bingbot
+Disallow:
+Crawl-delay: 10
+
+User-agent: SemrushBot 
+Crawl-delay: 3
+

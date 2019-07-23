@@ -1,0 +1,1931 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--><!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]--><!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" class="no-js" lang="en" xml:lang="en"> <!--<![endif]-->
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />	
+  <title>CIA Site Redirect — Central Intelligence Agency</title>
+  
+  <meta name="viewport" content="width=device-width" /><meta name="LastModified" content="Nov 30, 2010" />
+  <link rel="stylesheet" href="/++theme++contextual.agencytheme/css/jobcart.css" />
+  <link rel="stylesheet" href="/++theme++contextual.agencytheme/css/smallscreen.css" />
+  <link rel="stylesheet" href="/++theme++contextual.agencytheme/css/modules.css" />
+  <!--[if lt IE 9]><link href="/++theme++contextual.agencytheme/css/fullscreen.css" rel="stylesheet" type="text/css"><![endif]-->
+  <link href="/++theme++contextual.agencytheme/css/fullscreen.css" rel="stylesheet" type="text/css" media="only screen and (min-width: 993px)" />
+  <script src="/++theme++contextual.agencytheme/js/modernizr.custom.73407.js"></script> 
+  <script type="text/javascript" src="/++theme++contextual.agencytheme/js/jquery-1.8.3.min.js"></script>
+  <script type="text/javascript" src="/++theme++contextual.agencytheme/js/response.min.js"></script>
+  <script type="text/javascript" src="/++theme++contextual.agencytheme/js/rwd.js"></script>
+  <script type="text/javascript" src="/++theme++contextual.agencytheme/js/jquery.main.js"></script>
+  <script type="text/javascript" src="/++theme++contextual.agencytheme/js/simpleCart.js"></script>
+  <script type="text/javascript" src="/++theme++contextual.agencytheme/js/connect.js"></script>
+<!-- css files for popup -->
+<script>var isIElt9 = false;</script>
+<link href="/++theme++contextual.agencytheme/css/bootstrap_customized.css" rel="stylesheet" /><link rel="stylesheet" type="text/css" href="/++theme++contextual.agencytheme/css/expand-collapse-2016.css" media="screen" />
+ <!--[if lt IE 9]>
+    <script async src="/++theme++contextual.agencytheme/js/respond.min.js"></script>
+    <script async src="/++theme++contextual.agencytheme/js/html5shiv.min.js"></script>
+    <script>var isIElt9 = true;</script>
+<![endif]-->
+<!--   jquery code added for popup -->
+ <script async="" src="/++theme++contextual.agencytheme/js/bootstrap_customized.min.js"></script>
+<!-- our public key -->
+ <script async="" src="/js2/pubkey.js"></script>
+<!-- image preloading -->
+ <script>
+  prePic = new Image();
+  prePic.src ="/++theme++contextual.agencytheme/images/separator-2.gif";
+  prePic2 = new Image();
+  prePic2.src="/++theme++contextual.agencytheme/images/arrow-5.gif";
+  prePic3 = new Image();
+  prePic3.src="/++theme++contextual.agencytheme/images/bg-heading-panel.jpg";
+  prePic4 = new Image();
+  prePic4.src="/++theme++contextual.agencytheme/images/heading-banners/CHI12052_Headers_contact.jpg";
+ </script>
+<script type="text/javascript" src="/++theme++contextual.agencytheme/js/expandcollapse.js"></script><script type="text/javascript" src="/++theme++contextual.agencytheme/js/jquery.history.js"></script></head>
+<body class="template-document_view portaltype-agencypage site-CIAgov section-redirects icons-on"><div><noscript>Javascript must be enabled for the correct page display</noscript><div id="wrapper">
+
+
+    <header id="header">
+      <div class="header-holder">
+       	<a class="skip" accesskey="S" href="#main-content">skip to content</a>
+        <span class="bg-globe"></span>
+        <div class="header-panel">
+          <hgroup>
+              <h1 class="logo"><a href="/"><img src="/++theme++contextual.agencytheme/images/logo.png" alt="Central Intelligence Agency"><span>Central Intelligence Agency</span></a></h1>
+              <h2 class="work-text">The Work Of A Nation. The Center of Intelligence.</h2>
+          </hgroup>
+          <div class="search-form">
+            <div class="row">
+              <div class="add-nav">
+                <ul>
+                  <li><a title="Report Information" class="active reportTrigger" href="/contact-cia/report-information.html">Report Information</a></li>
+                  <li style="display:none;"><a title="Iraqi Rewards Program" href="/about-cia/iraqi-rewards-program.html">&#1585;&#1593;&#1585;&#1576;&#1610;&#1593;&#1585;&#1576;&#1610;</a></li>
+                  <li><a title="A single point of contact for all CIA inquiries." class="landingTrigger" href="/contact-cia">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <form id="ciaSearchForm" method="get" action="/search">
+                <fieldset>
+                  <legend class="visuallyhidden">Search CIA.gov</legend>
+                  <label class="visuallyhidden" for="q">Search</label>
+                  <input name="q" type="text" class="text" id="q" maxlength="2047" placeholder="Search CIA.gov...">
+				  <input type="hidden" name="site" value="CIA">
+				  <input type="hidden" name="output" value="xml_no_dtd">
+				  <input type="hidden" name="client" value="CIA">
+				  <input type="hidden" name="myAction" value="/search">
+				  <input type="hidden" name="proxystylesheet" value="CIA">
+				  <input type="hidden" name="submitMethod" value="get">
+                  <input type="submit" value="Search" class="submit">
+                </fieldset>
+              </form>
+            </div>
+            <div class="row">              
+              <ul class="lang-list">
+                <li lang="ar" xml:lang="ar"><a title="Arabic" href="/ar">&#1593;&#1585;&#1576;&#1610;</a></li>
+                <li lang="zh-cn" xml:lang="zh-cn"><a title="Chinese" href="/zh">&#20013;&#25991;</a></li>
+                <li lang="en" xml:lang="en"><a title="English" href="/">English</a></li>
+                <li lang="fr" xml:lang="fr"><a title="French" href="/fr">Fran&#231;ais</a></li>
+                <li lang="ru" xml:lang="ru"><a title="Russian" href="/ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;</a></li>
+                <li lang="es" xml:lang="es"><a title="Spanish" href="/es">Espa&#241;ol</a></li>
+                <li><a title="More Languages" alt="More Languages" class="more" href="/foreign-languages">More<span class="visuallyhidden"> Languages</span></a></li>
+             </ul>
+            </div>
+          </div>   
+        </div>
+        <nav id="nav">
+          <h3 class="visuallyhidden">Navigation</h3>
+          <ul><li class=""><a class="" title="" href="/">
+        
+        <span>Home</span>
+    </a></li>
+
+
+<li class=""><a class="hasChildrens" title="About CIA Description" href="/about-cia">
+        
+        <span>About CIA</span>
+    </a><div class="drop"><ul class="globalSectionsLevel1 show-static">
+            
+
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/todays-cia">
+        
+        <span>Today's CIA</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/leadership">
+        
+        <span>Leadership</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/cia-vision-mission-values">
+        
+        <span>CIA Vision, Mission, Ethos &amp; Challenges</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/headquarters-tour">
+        
+        <span>Headquarters Tour</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/cia-museum">
+        
+        <span>CIA Museum</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/history-of-the-cia">
+        
+        <span>History of the CIA</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Publications Review Board" href="/about-cia/publications-review-board">
+        
+        <span>Publications Review Board</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Accessibility " href="/about-cia/accessibility">
+        
+        <span>Accessibility</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Privacy and Civil Liberties" href="/about-cia/privacy-and-civil-liberties">
+        
+        <span>Privacy and Civil Liberties</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/faqs">
+        
+        <span>FAQs</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Note - link to the No Fear Act parent page, which is housed under EEO" href="/about-cia/no-fear-act">
+        
+        <span>No FEAR Act</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/about-cia/site-policies">
+        
+        <span>Site Policies</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+
+
+        </ul><div class="static"><img src="/images/section-banners/about-menu/image.jpg" class="image-inline" alt="About Menu" title="About Menu">
+<h4><a href="/about-cia/">About CIA</a></h4>
+<p>Discover the CIA <a href="/about-cia/">history, mission, vision and values</a>.</p></div><div class="visualClear"><!-- --></div></div></li>
+
+
+<li class=""><a class="hasChildrens" title="" href="/careers">
+        
+        <span>Careers &amp; Internships</span>
+    </a><div class="drop"><ul class="globalSectionsLevel1 show-static">
+            
+
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/careers/opportunities">
+        
+        <span>Career Opportunities</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="This is the student profile page for candidates looking for jobs/ job listings at the CIA. Student Opportunities - Student Profiles" href="/careers/student-opportunities">
+        
+        <span>Student Opportunities</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="CIA careers - language opportunities
+
+This is the language opportunities landing page for candidates looking for jobs/job listings at the CIA. Language Opportunities - Landing Page
+" href="/careers/language-opportunities">
+        
+        <span>Language Opportunities</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="How to apply to the CIA." href="/careers/application-process">
+        
+        <span>Application Process</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="This is the about CIA section of the Careers Site" href="/careers/life-at-cia">
+        
+        <span>Life at CIA</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Every career at the CIA is a rewarding one. In addition to serving your country with the certainty that your work makes a difference, the CIA offers a comprehensive benefits package to reflect the dedication and contributions of our employees." href="/careers/benefits.html">
+        
+        <span>Benefits</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="This is the diversity information for the Careers Site" href="/careers/diversity">
+        
+        <span>Diversity</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Your prior military service could qualify you to continue to serve your nation at the Central Intelligence Agency. Opportunities for qualified applicants are available in the U.S. and abroad." href="/careers/military-transition">
+        
+        <span>Military Transition</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/careers/games-information">
+        
+        <span>Tools and Challenges</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Frequently Asked Questions/ FAQ for a Career at the CIA in the Careers Section" href="/careers/faq">
+        
+        <span>FAQs</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Repository of CIA videos" href="/careers/video-center">
+        
+        <span>Video Center</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+
+
+        </ul><div class="static"><img src="/images/section-banners/careers-menu/image.jpg" class="image-inline" alt="Careers Menu" title="Careers Menu">
+<h4><a href="/careers/">Careers &amp; Internships</a></h4>
+<p>Your talent. Your diverse skills. Our mission. Learn more about <a href="/careers/">Career Opportunities at CIA</a>.</p></div><div class="visualClear"><!-- --></div></div></li>
+
+
+<li class=""><a class="hasChildrens" title="" href="/offices-of-cia">
+        
+        <span>Offices of CIA</span>
+    </a><div class="drop"><ul class="globalSectionsLevel1 show-static">
+            
+
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/intelligence-analysis">
+        
+        <span>Intelligence &amp; Analysis</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/clandestine-service">
+        
+        <span>Clandestine Service</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/science-technology">
+        
+        <span>Science &amp; Technology</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/mission-support">
+        
+        <span>Support to Mission</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/digital-innovation">
+        
+        <span>Digital Innovation</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/mission-centers">
+        
+        <span>Mission Centers</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/human-resources">
+        
+        <span>Human Resources</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Public Affairs" href="/offices-of-cia/public-affairs">
+        
+        <span>Public Affairs</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/general-counsel">
+        
+        <span>General Counsel</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/offices-of-cia/equal-employment-opportunity">
+        
+        <span>Equal Employment Opportunity</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Office of Congressional Affairs" href="/offices-of-cia/congressional-affairs">
+        
+        <span>Congressional Affairs</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Inspector General" href="/offices-of-cia/inspector-general">
+        
+        <span>Inspector General</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Military Affairs" href="/offices-of-cia/military-affairs">
+        
+        <span>Military Affairs</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+
+
+        </ul><div class="static"><img src="/images/section-banners/offices-menu/image.jpg" class="image-inline" alt="Offices Menu" title="Offices Menu">
+<h4><a href="/offices-of-cia/">Offices of CIA</a></h4>
+<p><a href="/offices-of-cia/">Learn how the CIA is organized</a> into directorates and key offices, responsible for securing our nation.</p></div><div class="visualClear"><!-- --></div></div></li>
+
+
+<li class=""><a class="hasChildrens" title="News &amp; Information Description" href="/news-information">
+        
+        <span>News &amp; Information</span>
+    </a><div class="drop"><ul class="globalSectionsLevel1 show-static">
+            
+
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/news-information/blog">
+        
+        <span>Blog</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/news-information/press-releases-statements">
+        
+        <span>Press Releases &amp; Statements</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/news-information/speeches-testimony">
+        
+        <span>Speeches &amp; Testimony</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/news-information/cia-the-war-on-terrorism">
+        
+        <span>CIA &amp; the War on Terrorism</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="index for featured story" href="/news-information/featured-story-archive">
+        
+        <span>Featured Story Archive</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/news-information/your-news">
+        
+        <span>Your News</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+
+
+        </ul><div class="static"><img src="/images/section-banners/news-menu/image.jpg" class="image-inline" alt="News Menu" title="News Menu">
+<h4><a href="/news-information/">News &amp; Information</a></h4>
+<p>The most up-to-date CIA <a href="/news-information/">news, press releases, information and more</a>.</p></div><div class="visualClear"><!-- --></div></div></li>
+
+
+<li class=""><a class="hasChildrens" title="" href="/library">
+        
+        <span>Library</span>
+    </a><div class="drop right"><ul class="globalSectionsLevel1 show-static">
+            
+
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/library/publications">
+        
+        <span>Publications</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="CSI section" href="/library/center-for-the-study-of-intelligence">
+        
+        <span>Center for the Study of Intelligence</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/library/readingroom">
+        
+        <span>Freedom of Information Act Electronic Reading Room</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/library/kent-center-occasional-papers">
+        
+        <span>Kent Center Occasional Papers</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/library/intelligence-literature">
+        
+        <span>Intelligence Literature</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Reports" href="/library/reports">
+        
+        <span>Reports</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Related Links" href="/library/related-links.html">
+        
+        <span>Related Links</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="Repository of CIA videos" href="/library/video-center">
+        
+        <span>Video Center</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+
+
+        </ul><div class="static"><img src="/images/section-banners/library-menu/image.jpg" class="image-inline" alt="Library Menu" title="Library Menu"><h4><a href="/library/">Library</a></h4>
+<p>Our <a href="/library/">open-source library</a> houses the thousands of documents, periodicals, maps and reports released to the public.</p></div><div class="visualClear"><!-- --></div></div></li>
+
+
+<li class=""><a class="hasChildrens" title="Kids' Page Description" href="/kids-page">
+        
+        <span>Kids' Zone</span>
+    </a><div class="drop right"><ul class="globalSectionsLevel1 show-static">
+            
+
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="K-5th Grade" href="/kids-page/k-5th-grade">
+        
+        <span>K-5th Grade</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/kids-page/6-12th-grade">
+        
+        <span>6-12th Grade</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/kids-page/parents-teachers">
+        
+        <span>Parents &amp; Teachers</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/kids-page/games">
+        
+        <span>Games</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/kids-page/related-links">
+        
+        <span>Related Links</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+<li class="plain ">
+
+    
+
+    <a class="" title="" href="/kids-page/privacy-statement">
+        
+        <span>Privacy Statement</span>
+    </a>
+    
+    
+        
+        
+        
+    
+    
+
+</li>
+
+
+
+
+        </ul><div class="static"><p><img src="/images/section-banners/kids-menu/image.jpg" class="image-inline" alt="Kids Menu" title="Kids Menu"></p>
+<h4><a href="/kids-page/">Kids' Zone</a></h4>
+<p><a href="/kids-page/">Learn more about the Agency</a> and find some top secret things you won't see anywhere else.</p></div><div class="visualClear"><!-- --></div></div></li></ul>
+        </nav>
+      </div>
+    </header>
+    <div class="main-block">
+     	<section id="main">
+           <div class="heading-panel">
+             <h1>redirects</h1>
+           </div>           
+           <div class="main-holder threecol">
+             <div id="sidebar">
+               <nav class="sidebar-nav">
+                 <h2 class="visuallyhidden">Secondary Navigation</h2>
+                 <ul></ul>
+               </nav>
+             </div>
+             <div id="content">
+               
+	    <ul class="breadcrumbs">
+	        <li><a href="/">Home</a></li><li><a href="/redirects">redirects</a></li><li>CIA Site Redirect</li>
+	    </ul>
+	
+               <article class="description-box">
+               	 <a id="main-content" tabindex="-1">&#160;</a>
+                 <div class="text-holder">
+
+            <div id="viewlet-above-content">
+</div>
+
+            
+                <div class="">
+
+                    
+
+                    
+
+    
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+
+                             
+                             
+                                 
+                                 
+            
+
+<!--KW
+                <h1 metal:define-macro="title-field-view"
+                    tal:define="kss_class python:getKssClasses('title',
+                                templateId='kss_generic_macros', macro='title-field-view');"
+                    id="parent-fieldname-title"
+                    tal:attributes="class string:documentFirstHeading$kss_class;">
+                    <span metal:define-slot="inside"
+                          tal:replace="context/Title">title</span>
+                </h1>
+-->
+
+				<h1>CIA Site Redirect</h1>
+				
+				
+
+
+            
+            
+        
+                             
+                             
+
+                             
+                                 
+                                 
+            
+                
+            
+            
+        
+                             
+
+                             
+                             <div id="content-core">
+                                 
+    
+        
+        <div id="parent-fieldname-text-274cca048d8aea46bf7f235339a10d61" class="">
+            
+<h3><strong>CIA.gov has changed its Web address . . .</strong></h3>
+<p>&#160;</p>
+<p align="left" class="style9"><a title="Statement on CIA Website Enhancement" href="/news-information/press-releases-statements/press-release-archive-2006/statement-on-cia-website-enhancement.html">CIA.gov is now 
+encrypted</a>, except for our Electronic Reading Room, to assure visitor 
+confidentiality. As a result, the Web address for pages and documents in our 
+site has changed from http:// to https://. In addition, <a title="index" href="/careers/index.html">CIA Careers</a> has moved to a new location within 
+the Web site</p>
+<p align="left" class="style9">Please use the links or the search form below to find 
+the information you seek.</p>
+<ul class="style9"><li>
+<p><a class="style3" title="index" href="/index.html">CIA.gov home page</a></p>
+</li><li>
+<p><a class="internal-link" title="Contact CIA" href="/contact-cia/index.html">Contact Us</a> (by postal mail, by fax, by phone, 
+or via our <a class="external-link" href="https://www.cia.gov/cgi-bin/comment_form.cgi">e-mail form</a>)</p>
+</li><li>
+<p><a title="index" href="/careers/index.html">CIA Careers </a>(find a job and submit a 
+resume)</p>
+</li><li>
+<p><a class="internal-link" title="The World Factbook" href="/library/publications/resources/the-world-factbook/index.html">The World Factbook</a> (our 
+premier country reference)</p>
+</li><li><a title="index" href="/library/publications/resources/world-leaders-1/index.html">World Leaders</a> (formerly listed as Chiefs of State)</li><li>
+<p><a href="/sitemap">Site Map</a> (links to major sections of the Web site)</p>
+</li></ul>
+<p align="left" class="style10"><br>Thank you for visiting 
+CIA.gov.<br>The CIA Web Team</p>
+<p>&#160;</p>
+<p class="style11"><em>Error Code: 301 - Moved Permanently</em></p>
+
+            
+        </div>
+    
+
+	<div class="documentByLine">
+
+		<br>
+		
+		<div>
+			
+	 </div>
+
+	 <div>
+			 Posted:  May 09, 2007 06:55 AM<br>
+	 </div>
+	
+	 <div>
+			 Last Updated:  Nov 30, 2010 01:54 PM<br>
+	 </div>
+	
+     
+	 
+	 <br>
+	       
+</div>
+
+    
+
+                             </div>
+                             
+
+                            
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            
+        </div>
+               </article>
+             </div>
+               <aside class="content-box-2"></aside>
+           </div>
+         </section> 
+         <footer id="footer">
+           <span class="divider"></span>
+           <a href="#" class="logo-2"><img src="/++theme++contextual.agencytheme/images/logo-2.png" width="61" height="61" alt="Central Intelligence Agency"></a>
+           <div class="footer-holder">
+             <div class="footer-frame">
+               <nav class="footer-nav">
+
+               <div class="info-block">
+                   
+                   <h3><a href="/about-cia">About CIA</a></h3>
+                   <ul>
+                        <li>
+                           <a href="/about-cia/todays-cia">Today's CIA</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/leadership">Leadership</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/cia-vision-mission-values">CIA Vision, Mission, Ethos &amp; Challenges</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/headquarters-tour">Headquarters Tour</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/cia-museum">CIA Museum</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/history-of-the-cia">History of the CIA</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/publications-review-board">Publications Review Board</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/accessibility">Accessibility</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/privacy-and-civil-liberties">Privacy and Civil Liberties</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/faqs">FAQs</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/no-fear-act">No FEAR Act</a>
+                        </li>
+                        <li>
+                           <a href="/about-cia/site-policies">Site Policies</a>
+                        </li>
+                    </ul>
+                   
+               </div>
+
+              <div class="info-block">
+                   
+                   <h3><a href="/careers">Careers &amp; Internships</a></h3>
+                   <ul>
+                        <li>
+                           <a href="/careers/opportunities">Career Opportunities</a>
+                        </li>
+                        <li>
+                           <a href="/careers/student-opportunities">Student Opportunities</a>
+                        </li>
+                        <li>
+                           <a href="/careers/language-opportunities">Language Opportunities</a>
+                        </li>
+                        <li>
+                           <a href="/careers/application-process">Application Process</a>
+                        </li>
+                        <li>
+                           <a href="/careers/life-at-cia">Life at CIA</a>
+                        </li>
+                        <li>
+                           <a href="/careers/benefits.html">Benefits</a>
+                        </li>
+                        <li>
+                           <a href="/careers/diversity">Diversity</a>
+                        </li>
+                        <li>
+                           <a href="/careers/military-transition">Military Transition</a>
+                        </li>
+                        <li>
+                           <a href="/careers/games-information">Tools and Challenges</a>
+                        </li>
+                        <li>
+                           <a href="/careers/faq">FAQs</a>
+                        </li>
+                        <li>
+                           <a href="/careers/video-center">Video Center</a>
+                        </li>
+                    </ul>
+                   
+                   
+                   <h3><a href="/offices-of-cia">Offices of CIA</a></h3>
+                   <ul>
+                        <li>
+                           <a href="/offices-of-cia/intelligence-analysis">Intelligence &amp; Analysis</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/clandestine-service">Clandestine Service</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/science-technology">Science &amp; Technology</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/mission-support">Support to Mission</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/digital-innovation">Digital Innovation</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/mission-centers">Mission Centers</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/human-resources">Human Resources</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/public-affairs">Public Affairs</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/general-counsel">General Counsel</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/equal-employment-opportunity">Equal Employment Opportunity</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/congressional-affairs">Congressional Affairs</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/inspector-general">Inspector General</a>
+                        </li>
+                        <li>
+                           <a href="/offices-of-cia/military-affairs">Military Affairs</a>
+                        </li>
+                    </ul>
+                   
+               </div>
+
+
+             <div class="info-block">
+                   
+                   <h3><a href="/news-information">News &amp; Information</a></h3>
+                   <ul>
+                        <li>
+                           <a href="/news-information/blog">Blog</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/press-releases-statements">Press Releases &amp; Statements</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/speeches-testimony">Speeches &amp; Testimony</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/cia-the-war-on-terrorism">CIA &amp; the War on Terrorism</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/featured-story-archive">Featured Story Archive</a>
+                        </li>
+                        <li>
+                           <a href="/news-information/your-news">Your News</a>
+                        </li>
+                    </ul>
+                   
+                   
+                   <h3><a href="/library">Library</a></h3>
+                   <ul>
+                        <li>
+                           <a href="/library/publications">Publications</a>
+                        </li>
+                        <li>
+                           <a href="/library/center-for-the-study-of-intelligence">Center for the Study of Intelligence</a>
+                        </li>
+                        <li>
+                           <a href="/library/readingroom">Freedom of Information Act Electronic Reading Room</a>
+                        </li>
+                        <li>
+                           <a href="/library/kent-center-occasional-papers">Kent Center Occasional Papers</a>
+                        </li>
+                        <li>
+                           <a href="/library/intelligence-literature">Intelligence Literature</a>
+                        </li>
+                        <li>
+                           <a href="/library/reports">Reports</a>
+                        </li>
+                        <li>
+                           <a href="/library/related-links.html">Related Links</a>
+                        </li>
+                        <li>
+                           <a href="/library/video-center">Video Center</a>
+                        </li>
+                    </ul>
+                   
+               </div>
+
+
+               <div class="info-block add">
+                   
+                   <h3><a href="/kids-page">Kids' Zone</a></h3>
+                   <ul>
+                        <li>
+                           <a href="/kids-page/k-5th-grade">K-5th Grade</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/6-12th-grade">6-12th Grade</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/parents-teachers">Parents &amp; Teachers</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/games">Games</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/related-links">Related Links</a>
+                        </li>
+                        <li>
+                           <a href="/kids-page/privacy-statement">Privacy Statement</a>
+                        </li>
+                    </ul>
+                   
+
+                   
+                   <h3><a href="/contact-cia">Connect with CIA</a></h3>
+                   <ul class="socials-list">
+                     
+                     <li><a class="social-6" href="https://twitter.com/CIA">CIA Twitter</a></li>
+					 <li><a class="social-5" href="https://www.facebook.com/Central.Intelligence.Agency">CIA Facebook</a></li>
+					 <li><a href="http://www.youtube.com/user/ciagov">CIA YouTube</a></li>
+					 <li><a class="social-2" href="http://www.flickr.com/photos/ciagov">CIA Flickr PhotoStream</a></li>
+                     <li><a class="social-3" href="/news-information/your-news">RSS</a></li>
+                     <li><a class="social-4 landingTrigger" href="/contact-cia">Contact Us</a></li>
+                   </ul>
+                   
+                 </div>
+
+
+               </nav>
+               <div id="plugins" class="info-panel">
+                    <h4>* Required plugins</h4>
+                    <ul>
+                        <li data-plugin="swf"><a href="http://get.adobe.com/flashplayer/">Adobe&#174; Flash Player</a></li>
+                        <li data-plugin="pdf"><a href="http://get.adobe.com/reader/">Adobe&#174; Reader&#174;</a></li>
+                        <li data-plugin="doc"><a href="http://www.microsoft.com/en-us/download/details.aspx?id=4">MS Word Viewer</a></li>
+                    </ul>
+                </div>
+             </div>
+           </div>
+         </footer>
+    </div>
+    <div class="footer-panel">
+      <nav class="sub-nav">
+        <h3 class="visuallyhidden">Footer Navigation</h3>
+        <ul>
+          <li><a href="/about-cia/site-policies/#privacy-notice" title="Site Policies">Privacy</a></li>
+          <li><a href="/about-cia/site-policies/#copy" title="Site Policies">Copyright</a></li>
+          <li><a href="/about-cia/site-policies/" title="Site Policies">Site Policies</a></li>
+          <li><a href="http://www.usa.gov/">USA.gov</a></li>
+          <li><a href="https://www.cia.gov/library/readingroom/">FOIA</a></li>
+          <li><a href="http://www.dni.gov/">DNI.gov</a></li>
+          <li><a href="/about-cia/no-fear-act/" title="No FEAR Act">NoFEAR Act</a></li>
+          <li><a href="/offices-of-cia/inspector-general/">Inspector General</a></li>
+          <!--<li><a tal:attributes="href string:$portal_url/mobile/" href="#" >Mobile Site</a></li>-->
+          <li><a class="landingTrigger" href="/contact-cia/">Contact CIA</a></li>
+          <li><a href="/sitemap.html">Site Map</a></li>
+        </ul>
+        <a href="/open/" class="footer-logo"><img src="/++theme++contextual.agencytheme/images/ico-06.png" alt="open gov"></a>
+      </nav>
+ 
+    </div>
+    <div class="skip"><a href="#wrapper">back to top</a></div>
+  </div><!-- Modal for Landing Page--><div aria-hidden="true" aria-labelledby="mainLanding" class="modal fade" id="popupLandingModal" role="dialog" style="z-index:2147483647;overflow:auto" tabindex="-1">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <div class="modal-body">
+      <div class="section-contact-cia main-block-popup">
+      <button aria-hidden="true" aria-label="Close" class="cfclose" data-dismiss="modal" type="button">&#215;</button><br>
+       <section id="mainLanding">
+        <div class="section-contact-cia cf-heading-panel" style="width:93%">
+          <h1>Contact CIA</h1> 
+        </div>
+        <div class="main-holder threecol" style="width:100%">
+         <div>
+          <!-- <ul class="breadcrumbs"><li><a href="/">Home</a></li><li>Contact CIA</li></ul> -->
+          <article class="description-box"><a id="main-content" tabindex="-1">&#160;</a>
+           <div>
+            <div class="">
+             <div>  <!-- <h1>Contact CIA</h1> -->
+              <div>
+               <div class="" id="parent-fieldname-text-55a5766e45f049b42fce0fdbf970b9ae">
+                <p>The Office of Public Affairs (OPA) is the single point of contact for all inquiries about the Central Intelligence Agency (CIA).</p>
+                <p>We read every letter, fax, or e-mail we receive, and we will convey your comments to CIA officials outside OPA as appropriate. However, with limited staff and resources, we simply cannot respond to all who write to us.</p>
+                <hr class="centerline" styple="margin-top:2px;margin-bottom:2px;">
+		<h3>Contact Information</h3>
+                <p><a href="#" class="contactTriggerFromLanding btn-lg btn-primary btn-block center-block" role="button">Submit questions or comments online</a>
+
+                </p><p><b>By postal mail:</b><br> Central Intelligence Agency<br> Office of Public Affairs<br> Washington, D.C. 20505</p>
+                <br>
+                <p>Contact the <a href="/about-cia/privacy-and-civil-liberties/index.html" class="internal-link">Office of Privacy and Civil Liberties</a></p>
+                <p>Contact the <a href="/offices-of-cia/inspector-general/index.html" class="internal-link">Office of Inspector General</a></p>
+                <p>Contact the <a href="/contact-cia/employment-verification-office.html" class="internal-link">Employment Verification Office</a></p>
+
+                <hr class="centerline" styple="margin-top:2px;margin-bottom:2px;">
+		        <p><b>Before contacting us:</b></p>
+                <p>Please check our <a href="/sitemap.html" title="Site Map"><b>site map</b></a>, <b>search</b> feature, or <b>our site navigation on the left </b>
+                    to locate the information you seek. We do not routinely respond to questions for which answers are found within this Web site.<br><br>
+                </p>
+                <p><a href="/careers/index.html" title="Careers"><b>Employment</b></a><b>: </b> We do not routinely answer questions about employment beyond the information on this Web site, and we do not routinely answer inquiries about the status of job applications. Recruiting will contact applicants within 45 days if their qualifications meet our needs. <br>
+                </p>
+                <span style="display:block">
+                  <ul style="padding:0 0 0 40px;width:100;%;list-style:disc outside none">
+                      <li>Because of safety concerns for the prospective applicant, as well as security and
+                           communication issues, the CIA Recruitment Center does not accept resumes, nor can we return
+                           phone calls, e-mails or other forms of communication, from US citizens living outside of the
+                           US. When you return permanently to the US (not on vacation or leave), please visit the <a title="Careers at CIA" href="/careers/opportunities/index.html">CIA Careers page</a>
+                           and apply online for the position of interest.<br> <br></li>
+                       <li>To verify an employee's employment, please contact the <a class="internal-link" href="/contact-cia/employment-verification-office.html">Employment
+                           Verification Office</a>.
+                       </li>
+                   </ul>
+                  </span>
+                </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </article>
+         </div>
+        </div>
+       </section>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div><!-- Modal for Contact Page--><div aria-hidden="true" aria-labelledby="mainContact" class="modal fade" id="popupContactModal" role="dialog" style="z-index:2147483647;overflow:auto" tabindex="-1">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <div class="modal-body">
+      <div class="section-contact-cia main-block-popup">
+        <button aria-hidden="true" aria-label="Close" class="cfclose" data-dismiss="modal" type="button">&#215;</button><br>
+       <div id="mainContact">
+        <div class="section-contact-cia cf-heading-panel" style="width:93%">
+         <h1>Report Information</h1>
+        </div>
+        <div class="main-holder threecol" style="width:100%">
+         <div id="contentContact">
+          <!-- <ul class="breadcrumbs" style="padding: 0 0 0 16px">
+           <li><a href="https://www.cia.gov/">Home</a></li>
+           <li><a class="landingTriggerFromContact" href="#">Contact US</a></li>
+           <li>Contact CIA</li></ul> -->
+          <div class="description-box">
+           <a id="main-content" tabindex="-1">
+           </a>
+           <div class="text-holderPopup" style="width:100%">
+            <div id="viewlet-above-content">
+            </div>
+            <div class="">
+             <div id="contentContact">
+              <h1>
+               <div id="popupBanner" style="margin-left:5%;margin-right:5%;color:#5f1d1d;font-size:0.5em;word-wrap:break-word;">Contact Us Form</div>
+              </h1>
+               <div>
+                 <div class="" id="parent-fieldname-text-b7a1aa432b8946fc8bc268300efe896d">
+                  <div id="popupBodyFull"></div>
+                   <!-- popup form here -->
+                   <div id="popupBody">
+                    <meta content="telephone=no" name="format-detection">
+
+                    <form accept-charset="utf-8" id="cf" name="cf" role="form" class="form-horizontal">
+
+                     <div class="form-group" style="margin-left:6%;width:95%;margin-bottom:7px;">
+                       <label for="message" id="mlabel" type="label">Message:<span style="color:red">*</span></label>
+                       <textarea autocapitalize="off" autocomplete="off" autocorrect="off" class="form-control" cols="70" id="message" name="message" rows="10" style="resize:none;width:90%" required="true" placeholder="Message Text"></textarea>
+                       <div id="messageErr"></div>
+                     </div>
+
+                     <div class="form-group" style="margin-left:6%;width:95%;margin-bottom:7px;">
+                       <label for="email" id="elabel">Email:<span style="color:red">*</span></label>
+                       <input autocapitalize="off" autocomplete="off" autocorrect="off" class="form-control" id="email" maxlength="40" name="email" size="40" type="email" placeholder="user@email.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9-]+)*$" required="" style="width:90%">
+                     </div>
+                     <div class="form-group" style="margin-left:6%;width:95%;margin-bottom:7px;">
+                       <label for="name">Name: </label>
+                       <input autocapitalize="off" autocomplete="off" autocorrect="off" class="form-control" id="name" maxlength="40" name="sender" size="40" type="text" placeholder="Firstname Lastname" style="width:90%">
+                     </div>
+
+                     <div class="form-inline" style="margin-left:6%;margin-bottom:7px;">
+                       <label id="phone_label">Phone Number:</label><br>
+                       <input autocomplete="off" class="form-control" id="phone_cc" aria-labelledby="phone_label" maxlength="5" name="ph_cc" placeholder="Country Code" size="12" type="cc" style="max-width:55%">
+                       <input autocomplete="off" class="form-control" id="phone" aria-labelledby="phone_label" maxlength="20" name="phone_num" placeholder="Number" size="40" type="tel" style="max-width:90%">
+                     </div>
+
+                     <div class="form-inline" style="margin-left:6%;margin-bottom:7px;">
+                       <label id="mobile_label">Mobile/Cell:</label><br>
+                       <input autocomplete="off" class="form-control" id="cellcc" aria-labelledby="mobile_label" maxlength="5" name="mobilecc" placeholder="Country Code" size="12" type="cc" style="max-width:55%">
+                       <input autocomplete="off" class="form-control" id="cellnumber" aria-labelledby="mobile_label" maxlength="20" name="mobilenum" placeholder="Number" size="40" type="tel" style="max-width:90%">
+                    </div>
+
+                    <br>
+
+                     <p align="center">
+                      </p><div style="margin-left:5%" id="refId"></div>
+                     
+
+                      <br>
+                       <span id="submitFormButton">
+                        <input onclick="javascript:confirm_submission();" class="btn-lg btn-block btn-primary center-block" type="button" value="Send">
+                       </span>
+                        <br>
+                         <input name="Reset" class="btn-lg btn-block center-block" type="reset" value="Reset">
+                     <p align="left"><span style="color:red;margin-left:5%">*</span> = required</p>
+                    </form>
+                   </div>
+                </div>
+                </div>
+               </div>
+              </div>
+             </div>
+           </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div><!-- Modal for Report Page--><div aria-hidden="true" aria-labelledby="mainReport" class="modal fade" id="popupReportModal" role="dialog" style="z-index:2147483647;overflow:auto" tabindex="-1">
+  <div class="modal-dialog">
+   <div class="modal-content">
+    <div class="modal-body">
+      <div class="section-contact-cia main-block-popup">
+        <button aria-hidden="true" aria-label="Close" class="cfclose" data-dismiss="modal" type="button">&#215;</button><br>
+       <section id="mainReport">
+        <div class="section-contact-cia cf-heading-panel" style="width:93%">
+         <h1>Report Information</h1>
+        </div>
+        <div class="main-holder threecol" style="width:100%">
+         <div>
+          <!-- <ul class="breadcrumbs"><li><a href="https://www.cia.gov/">Home</a></li><li>
+           <a class="landingTriggerFromReport" href="#">Contact CIA</a></li><li>Report Threats</li>
+          </ul> -->
+          <article class="description-box"><a id="main-content" tabindex="-1">&#160;</a>
+           <div>
+            <div class="">
+             <div>
+              <div>
+				  <div class="" id="parent-fieldname-text-84043b8c4f22633413a10d8a8009e18c">
+					  <p>People from nearly every country share information with CIA, and new individuals contact us
+						  daily. If you have information you think might interest CIA due to our foreign intelligence
+						  collection mission, there are many ways to reach us. </p>
+
+					  <p>If you know of an <b>imminent threat</b> to a location inside the U.S., immediately contact
+						  your local law enforcement or <a href="https://www.fbi.gov/contact-us/field-offices"><b>FBI Field
+							  Office</b></a>. For threats outside the U.S., <a href="#" class="contactTriggerFromReport"><b>contact
+							  CIA</b></a> or go to a U.S. Embassy or Consulate and ask for the information to be passed to a
+						  U.S. official. Please know, CIA does not engage in law enforcement.</p>
+
+					  <p>In addition to the options below, individuals contact CIA in a variety of creative ways. The
+						  best method depends on your personal situation. We will work to protect all information you
+						  provide, including your identity, and our interactions with you will be respectful and
+						  professional. Depending on what you provide, we may offer you compensation.</p>
+
+					  <h3>WHAT TO PROVIDE</h3>
+
+					  <p>If you feel it is safe, consider providing these details with your submission:</p>
+					  <span style="display:block">
+                        <ul style="padding:0 0 0 40px;width:100;%;list-style:disc outside none">
+						  <li> Your full name</li>
+						  <li> Biographic details, such as a photograph of yourself, and a copy of the biographic page
+							  of your passport
+						  </li>
+						  <li> How you got the information you want to share with CIA</li>
+						  <li> How to contact you, including your home address and phone number</li>
+                        </ul>
+	                  </span>
+					  <p>We cannot guarantee a response to every message. We reply first to messages of greater interest
+						  to us and to those with more detail. Our response will occur via a secure method.</p>
+
+					  <h3>WAYS TO SUBMIT</h3>
+
+                                          <p><b>Internet:</b> Send a message <a class="contactTriggerFromReport" href="#"><b>here</b></a>. Or, you can send us a message using the <a class="external-link" href="https://www.torproject.org/">Tor browser</a> at <strong>ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion</strong>. We go to great lengths to keep these channels secure, but any communication via the internet poses some risk. Using the Tor browser, a virtual private network, and/or a device not registered to you can reduce some risk.</p>
+
+					  <p><b>Mail:</b> Inside the U.S., send mail to the following address:</p>
+
+					  <blockquote><p>Central Intelligence Agency<br>
+						  Office of Public Affairs <br>
+						  Washington, D.C. 20505</p></blockquote>
+
+					  <p>You can also mail a letter to a U.S. Embassy or Consulate and request it be forwarded to CIA.
+						  Please note we have no control over the security and reliability of postal mail.</p>
+
+					  <p><b>In-Person:</b> Outside the U.S., go to a U.S. Embassy or Consulate and inform a U.S.
+						  official you have information for CIA.</p>
+
+					  <p><b>Third Party:</b> Have someone you trust travel to a less restrictive environment and deliver
+						  the information via one of the above methods.</p>
+
+
+				  </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </article>
+         </div>
+        </div>
+       </section>
+      </div>
+    </div>
+    <div>
+    </div>
+   </div>
+  </div>
+ </div><script async="" src="/js2/verification.js"></script></div></body>
+</html>

@@ -1,0 +1,1663 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><title>
+	Andhra Bank | Home 
+</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Andhra Bank was founded by the eminent freedom  fighter and a multifaceted genius| Dr. Bhogaraju Pattabhi Sitaramayya.| The Bank was registered on 20th November 1923 and commenced business on 28th November 1923 with a paid up capital of Rs 1.00 lakh and an authorised capital of Rs 10.00 lakhs." /><meta name="keywords" content="andhra bank,andhra bank share,andhra bank near me,andhra bank credit card,andhra bank customer care number,andhra bank ifsc code,andhra bank atm near me,andhra bank recruitment,andhra bank app,andhra bank retail login,andhra bank fd rates,andhra bank login,andhra bank account,andhra bank branches in mumbai,andhra bank ceo,andhra bank careers,andhra bank chairman,andhra bank current account,andhra bank car loan,andhra bank corporate net banking,andhra bank debit card,andhra bank details,andhra bank demat account,andhra bank deposit rates,andhra bank education loan,andhra bank e passbook,andhra bank e gyan,andhra bank e auction,andhra bank e banking,andhra bank established,andhra bank email id,andhra bank empanelment,andhra bank e statement,andhra bank e corner,andhra bank e passbook apk,andhra bank e tenders,andhra bank fd rates 2018,andhra bank fort,andhra bank fd interest rates,andhra bank financial results,andhra bank founder,andhra bank form,andhra bank f d rates,andhra bank f d interest rate,andhra bank gold loan,andhra bank home loan,andhra bank head office,andhra bank home loan interest rate,andhra bank health insurance,andhra bank headquarters,andhra bank head office address,andhra bank housing loan,andhra bank interest rates,andhra bank jobs,andhra bank logo,andhra bank loan interest rates,andhra bank location,andhra bank latest news,andhra bank locker charges,andhra bank loan against property,andhra bank l,andhra bank mclr,andhra bank merger,andhra bank qip,andhra bank quick pay,andhra bank q2 results 2017,
+andhra bank savings account interest rate,andhra bank toll free number,andhra bank tagline,andhra bank tenders,andhra bank timings" /><meta name="robots" content="index, follow" /><meta name="keywords" /><meta name="abstract" /><link href="../css/style-main.css" rel="stylesheet" type="text/css" />
+<!--<link href="../css/popup1.css" rel="stylesheet" type="text/css" />
+--><link rel="stylesheet" href="../css/responsive.css" /><link rel="icon" href="../images/favicon.ico" type="image/icon" />
+<!--[if lt IE 9]>
+<script src="../../assets/js/ie8-responsive-file-warning.js"></script>
+<![endif]-->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<!--[if IE 7]>
+<html class="ie ie7">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<!--<![endif]-->
+<link rel="stylesheet" href="../css/menu/normalize.min.css" /><link rel="stylesheet" href="../css/menu/defaults.min.css" /><link rel="stylesheet" href="../css/menu/nav-core.min.css" /><link rel="stylesheet" href="../css/menu/nav-layout.min.css" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="css/menu/ie8-core.min.css" /><link rel="stylesheet" href="css/menu/ie8-layout.min.css" />
+<script src="js/html5shiv.min.js"></script>
+<![endif]-->
+<script src="../js/rem.min.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script type="text/javascript">
+      (function ($, document, undefined) {
+               
+        $('#pum-123')
+		.on('pumAfterOpen', function () {
+			var $popup = $(this);
+			setTimeout(function () {
+                  		$popup.popmake('close');
+              		}, 10000); // 10 Seconds
+	      	}); 
+        
+      }(jQuery, document))
+</script>
+
+<!--<script type="text/javascript" src="../pop_win/popup.js"></script>-->
+<script type="text/javascript" src="../js/popup.js"></script>
+<style>
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  color: #CC0000;
+}
+
+.box_11 {
+	color: #888888;
+	height: auto;
+	position: fixed;
+	right: 27%;
+/*	width: auto;
+	z-index: 101;
+	padding:0px;
+	margin: 6% -10%;
+	top: -11px;	*/
+	width: 70%;
+	max-width: 600px;
+	z-index: 5001;
+	top: 10%;
+	text-align: center;
+}
+.box_11 img {
+	/*margin:88px;*/
+	border-radius:2px;
+	-moz-border-radius:10px;
+}
+.overlay_11 {
+	background: #000000;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	opacity:0.5;
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%;
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=50);
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.5;
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.5;
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any? */
+	 Opera 9+, IE 9+
+	opacity: 0.5;
+}
+a.boxclose {
+	background: url("../pop_win/cancel.png") no-repeat scroll left top transparent;
+	cursor: pointer;
+	float: left;
+	height: 26px;
+	position: fixed;
+	right:45px;
+/*	width: 26px;
+	top: -8px;
+	left:632px;	*/
+	width: 25%;
+	/*z-index: 5001;*/
+	top: 57px;
+	text-align: center;
+}
+
+</style>
+<style type="text/css">
+.ie img {
+	/* Fix IE problems with images */ /*width: inherit;   Make images fill their parent's space. Solves IE8. */
+	max-width: 100%; /* Add !important if needed. */
+	height: auto; /* Add !important if needed. */
+}
+</style>
+<script language="javascript" type="text/javascript">
+
+    $(function() {
+        $('#zoom_query').keypress(function(e) {
+            var key = e.which;
+            if (key == 13)  // the enter key code
+            {
+                $('input[type = button]').click();
+                return false;
+            }
+        });
+
+    });
+   </script>
+<script type="text/javascript">
+        var iChars = "!@#$%^&*()+=-[]\\\';,./{}|\":<>?";
+
+        function stripCharsInBag(s, bag) {
+            for (var i = 0; i < document.getElementById("zoom_query").value.length; i++) {
+                if (iChars.indexOf(document.getElementById("zoom_query").value.charAt(i)) != -1) {
+                    alert("You have entered special characters");
+                    return false;
+                }
+                else return true;
+            }
+        }
+        function check() {
+            if (document.getElementById("zoom_query").value == "Looking for Something") {
+                alert("Please enter value for search");
+            }
+            else if (document.getElementById("zoom_query").value == "") {
+                alert("Please enter value for search");
+            }
+            else if (stripCharsInBag(document.getElementById("zoom_query").value, iChars) == false) {
+                //alert("You have entered special characters");
+            }
+            else {
+                window.location = "../English/searchPage.aspx?zoom_query=" + document.getElementById('zoom_query').value;
+            }
+
+        }
+        function reddirect() {
+
+        }  
+    </script>
+    
+<style type="text/css">
+#mask {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99998;
+	background-color: #4D4D4D;
+	display: none;
+}
+#boxes .window {
+	position: fixed;
+	left: 130;
+	top: 115;
+	width: 750px;
+	height: 495px;
+	display: none;
+	background-color: #FFFFFF;
+	z-index: 99999;
+	padding: 0px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #333333;
+	-moz-box-shadow: 4px 4px 30px #130507;
+	-webkit-box-shadow: 4px 4px 30px #130507;
+	box-shadow: 4px 4px 30px #130507;
+	-moz-transition: top 800ms;
+	-o-transition: top 800ms;
+	-webkit-transition: top 800ms;
+	transition: top 800ms;
+}
+#dialog {
+	width: 750px;
+	height: 495px;
+	padding: 0px;
+	background-color: #FFFFFF;
+}
+#boxes #dialog {
+	position: fixed;
+	top: 115px;
+	left: 272px;
+	width: 750px;
+	height: 530px;
+	padding: 10px;
+}
+@media (min-width: 980px) and (max-width:1199px) {
+#boxes #dialog {
+ position: fixed;
+ top: 115px;
+ left: 140px;
+ width: 700px;
+ height: 500px;
+ padding: 5px;
+}
+}
+@media (min-width: 768px) and (max-width: 979px) {
+#boxes #dialog {
+ display: block;
+ position: fixed;
+ top: 190px;
+ left: 79px;
+ width: 190px;
+ height: 284px;
+ border-radius: 175px;
+}
+}
+ @media (min-width: 320px) and (max-width: 480px) {
+#boxes #dialog {
+ display: block;
+ position: fixed;
+ top: 120px;
+ left: 20px;
+ width: 316px;
+ height: 243px;
+ padding: 5px;
+}
+}
+ @media (min-width: 481px) and (max-width: 767px) {
+#boxes #dialog {
+ display: block;
+ position: fixed;
+ top: 15px;
+ left: 130px;
+ width: 316px;
+ height: 243px;
+ padding: 5px;
+}
+}
+body,td,th {
+	font-family: Roboto, sans-serif;
+}
+/*.box_11 {
+	color: #888888;
+	height: auto;
+	position: fixed;
+	right: 30%;
+	width: auto;
+	z-index: 101;
+	padding:0px;
+	margin: 6% -10%;
+}
+.box_11 img {
+	border:5px solid #888888;
+	border-radius:10px;
+	-moz-border-radius:10px;
+}
+.overlay_11 {
+	background: #000000;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+	opacity:0.5;
+
+	width: 100%;
+
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+
+	opacity: 0.5;
+}
+a.boxclose {
+	background: url("../pop_win/cancel.png") repeat scroll left top transparent;
+	cursor: pointer;
+	float: right;
+	height: 26px;
+	position: absolute;
+	width: 26px;
+	top: -5x;
+	left:775px;	
+}
+*/</style>
+
+<script type="text/javascript">
+	$(document).ready(function() {	
+	
+			var id = '#dialog';
+		
+			//Get the screen height and width
+			var maskHeight = $(document).height();
+			var maskWidth = $(window).width();
+		
+			//Set heigth and width to mask to fill up the whole screen
+			$('#mask').css({'width':maskWidth,'height':maskHeight});
+			
+			//transition effect		
+			$('#mask').fadeIn(1000);	
+			$('#mask').fadeTo("slow",0.8);	
+		
+			//Get the window height and width
+			var winH = $(window).height();
+			var winW = $(window).width();
+				  
+			//Set the popup window to center
+			/*$(id).css('top',  winH/2-$(id).height()/2 -50);
+			$(id).css('left', winW/2-$(id).width()/2);*/
+			
+			
+			
+			//transition effect
+			$(id).fadeIn(5000);
+		
+		//if close button is clicked
+		$('.window .close').click(function (e) {
+			//Cancel the link behavior
+			e.preventDefault();
+			
+			$('#mask').hide();
+			$('.window').hide();
+		});		
+		
+		//if mask is clicked
+		$('#mask').click(function () {
+			$(this).preventDefault();
+			$(this).hide();
+			$('.window').hide();
+		});		
+		
+	});
+	
+	</script>
+<!-- Facebook Pixel Code -->
+<!--<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1319880684696737');
+fbq('track', "PageView");</script>
+<noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1319880684696737&ev=PageView&noscript=1" alt="facebook"/>
+</noscript>-->
+<!-- End Facebook Pixel Code -->
+<!-- Universal Analytics property code for www.andhrabank.in UA-102443080-1-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102443080-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Hotjar Tracking Code for www.andhrabank.in -->
+<!--<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:561345,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+--><!-- Cragyegg Tracking Code for www.andhrabank.in -->
+<!-- Place this tag in your page right before the closing </head> tag -->
+<!--<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0066/9385.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+-->
+</head>
+<body>
+
+
+<!--<div id="overlay_11" class="overlay_11"></div>
+
+<div id="boxpopup" class="box_11"> 
+<a onClick="closeOffersDialog('boxpopup');" href="#" class="boxclose"></a>
+<div id="content"><img src="../Images/downtime.png" border="0" usemap="" class="img-responsive"/></div>
+  
+</div>-->
+<form method="post" action="./home.aspx" id="andform" autocomplete="off">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="NoQ6iITDy7M0OX8suFuX+8Ygk4FkGM7TTLYGrHn8X19taO4vjAX9Dztit9kEMw1fawmTxKnVOyfripV9L5T13mxDiOQ=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C83E62F7" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+  
+<script type="text/javascript" src="../slide/ChangeFont.js"></script>
+
+<div class="container-fluid header-topSection">
+  <div class="row">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12 header_topLeft">
+      <a href=../Hindi/homeHindi.aspx>हिंदी</a>&nbsp;|&nbsp;<a href=../Telugu/homeTelugu.aspx>తెలుగు</a>&nbsp;&nbsp; &nbsp;&nbsp; 
+
+
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 header_topMiddle">
+      <div id="drop-nav">
+        <ul>
+          <li><a href="Home.aspx">Home</a></li>
+          <li><a href="GenAboutus.aspx">About Us</a>
+            <ul>
+              <li><a href="GenTheBank.aspx">The Bank</a></li>
+              <li><a href="GenVisionMission.aspx">Our Vision & Mission</a></li>
+              <li><a href="GenBordDirector.aspx">Board of Directors</a></li>
+              <li><a href="cvo.aspx">Chief Vigilance Officer</a></li>
+              <li><a href="GeneralManager.aspx">General Managers</a></li>
+              <li><a href="Offices.aspx">Offices & Branches</a></li>
+			  <li><a href="gststatewise.aspx">GST Registration Statewise</a></li>
+              <li><a href="iflic.aspx">IndiaFirst Life Insurance (JV)</a></li>
+              <li><a href="GlobalPresence.aspx">Global Presence</a></li>
+              <li><a href="Websites.aspx">Websites</a></li>
+              <li><a href="TrainingInstitute.aspx">Training Institutes</a></li>
+              <li><a href="Training_others.aspx">Training to other Banks/Organisations</a></li>
+              <!--<li><a href="pio.aspx">Public Information Officers</a></li>-->
+              <li><a href="cs.aspx">Company Secretary</a></li>
+              <li><a href="Webmaster.aspx">Bank's Webmaster</a></li>
+			  
+            </ul>
+          </li>
+          <li><a href="Sitemaps.aspx">Sitemap</a></li>
+          <li><a href="FeedbackForm.aspx">Feedback</a></li>
+          <li><a href="Recruitment.aspx">Recruitment</a></li>
+          <li><a href="FAQs.aspx">FAQs</a></li>
+          <li><a href="Inquiryleadform.aspx">Inquiry</a></li>
+          <li><a href="GenContactus.aspx">Contact Us</a></li>
+          <li><a href="screenreader.aspx" ><img src="../images/screenreader-icon.png" border="0" alt="screenreader" width="20" height="21" title="Screen Reader" class="img-responsive"></a></li>
+          <input type="image" src="../images/textMinus1.gif" class="decrease" value=" - " title="minus" alt="minus"/>
+          <!--<input type="image" src="../images/textNormal.gif" class="resetMe" value=" = " tabindex="2" />-->
+          <input type="image" src="../images/textPlus1.gif" class="increase" value=" + " title="plus" alt="plus"/>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-lg-3-a col-md-3-a col-sm-3 col-xs-12 header_topRight"> <a href="https://www.facebook.com/official.andhrabank" target="_blank" id="facebook" class="fbtop"><img src="../images/facebook.png" alt="Facebook" title="Facebook" class="img-responsive"></a> <a href="https://twitter.com/bank_andhra" target="_blank" id="twitter" class="twtop"><img src="../images/twitter.png" alt="Twitter" title="Twitter" class="img-responsive"></a>
+      <div style="height: auto;margin: -3px 0 0 0;padding:0px 0;float: right;" class="search_panel">
+        <div id="search_box">
+          <div class="wrapper">
+            
+            
+
+<link href="../css/style-main.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="../css/responsive.css">
+<script src="../js/jquery.min.js"></script>
+<script src="../js/Search.js" type="text/javascript"></script>
+<script language="javascript" type="text/javascript">
+
+    $(function() {
+        $('#zoom_query').keypress(function(e) {
+            var key = e.which;
+            if (key == 13)  // the enter key code
+            {
+                $('input[type = button]').click();
+                return false;
+            }
+        });
+
+    });
+   </script>
+
+<script type="text/javascript">
+    var iChars = "!@#$%^&*()+=-[]\\\';,./{}|\":<>?";
+
+    function stripCharsInBag(s, bag) {
+        for (var i = 0; i < document.getElementById("zoom_query").value.length; i++) {
+            if (iChars.indexOf(document.getElementById("zoom_query").value.charAt(i)) != -1) {
+                alert("You have entered special characters");
+                return false;
+            }
+            else return true;
+        }
+    }
+    function check() {
+        if (document.getElementById("zoom_query").value == "Looking for Something") {
+            alert("Please enter value for search");
+        }
+        else if (document.getElementById("zoom_query").value == "") {
+            alert("Please enter value for search");
+        }
+        else if (stripCharsInBag(document.getElementById("zoom_query").value, iChars) == false) {
+            //alert("You have entered special characters");
+        }
+        else {
+            window.location = "../English/SearchPage.aspx?zoom_query=" + document.getElementById('zoom_query').value;
+        }
+
+    }
+    function reddirect() {
+
+    }  
+</script>
+
+
+
+
+            
+                        
+                            
+                     <input type="text" title="Looking for Something" value="Looking for Something" id="zoom_query" name="zoom_query"  onkeydown="if (event.keyCode == 13) document.getElementById('andtop1_AndhraSearch1_btn').click()" 
+                     onfocus="if(this.value == 'Looking for Something') {this.value = '';}"   placeholder="Looking for Something" />
+
+                                  
+                <button id="andtop1_AndhraSearch1_btn" type="button" onclick="javascript: return check(this.form.zoom_query.value)">
+                 <img src="../images/icon-search.jpg" alt="search" title="Search" /></button>
+                    
+            <!-- end of search panel -->
+        
+
+
+          </div>
+        </div>
+      </div>
+      <!-- end of search panel -->
+    </div>
+    <div class="clearfix"> </div>
+  </div>
+  <!-- end of row -->
+</div>
+<!-- end of container-fluid -->
+<div class="container-fluid logo_section">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-4 logo_sectionLeft"> <a href="home.aspx"> <img src="../images/logo-main.jpg" alt="Andhra Bank" title="Andhra Bank" /></a></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 logo_sectionMiddle"> <span onclick="location='#Nav'" class="spanfirst">Skip to navigation</span> | <span class="spansecond" onclick="location='#mainbody'">Skip to main content</span>
+      <h1> Toll Free Number: 1800 425 1515</h1>
+      <p class="spansecond" style="font-size:14px; line-height: 14px; cursor:auto;">Call 040-23122297 for Internet & Mobile Banking/ATM -24x7 Helpdesk or mail to us on <a href="mailto:adchelpdesk@andhrabank.co.in"> adchelpdesk@andhrabank.co.in</a></p>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-4 logo_sectionRight"><a href="https://www.andhrabank.in/english/MudraPMMY.aspx"> <img src="../images/mudralogo.png" alt="Anytimers" /></a><img src="../images/logo-n.png" alt="logo"/></div>
+    <div class="clearfix"> </div>
+  </div>
+  <!-- end of row -->
+</div>
+<!-- end of container-fluid -->
+<div id="Nav">
+  <div class="container-fluid nav_section">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"> <a href="#" class="nav-button">Menu</a>
+        <nav class="nav">
+          <ul>
+            <!--<li><a href="Home.aspx">Home</a></li>-->
+            <li class="nav-submenu"><a href="#">Retail</a>
+              <ul>
+                <li class="nav-submenu"><a href="RetailLoans.aspx">Loan</a>
+                  <ul>
+                    <li class="nav-submenu"><a href="#">Housing Loans</a>
+                      <ul>
+                        <li><a href="ABHousingLoans.aspx">Housing Loans – General</a></li>
+                        <!--<li><a href="AbHousingLoansNpSector.aspx">Housing Loans above Rs.20.00 lacs</a></li>-->
+                        <li><a href="HousingloansNRI.aspx">AB Housing Loans - NRI</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="AbNonagriculturalGoldLoans.aspx">Gold Loan</a></li>
+                    <!--<li><a href="https://customer.andhrabank.in/LTS/FourWLoan.aspx" target="_blank">Car Loan</a></li>-->
+                    <li class="nav-submenu"><a href="#">Vehicle Loan</a>
+                      <ul>
+                        <li class="nav-submenu"><a href="#">General Vehicle Loans</a>
+                          <ul>
+                            <li><a href="GenVehicle2.aspx">Loans for Two Wheelers</a></li>
+                            <li><a href="GenVehicle4.aspx">Loans for Four Wheelers</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-submenu"><a href="#">Vehicle Loans to Women Borrowers</a>
+                          <ul>
+                            <li><a href="WomenVehicle2.aspx">Loans for Two Wheelers</a></li>
+                            <li><a href="WomenVehicle4.aspx">Loans for Four Wheelers</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="EduLoans.aspx">Educational Loans</a></li>
+                    <li><a href="AbNonagriculturalGoldLoans.aspx">Non-Agricultural Gold Loan</a></li>
+                    <li class="nav-submenu"><a href="#">Personal Loans</a>
+                      <ul>
+                        <li><a href="consumerdurables.aspx">Consumer Loans</a></li>
+                        <li><a href="CleanLoans.aspx">Clean Loans</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="ProfessionalLoan.aspx">AB Professional Loan</a></li>
+                    <li><a href="MortageLoans.aspx">
+                      <!--Mortgage Loans-->
+                      Property Term Loan/Overdraft (PTL/POD)</a></li>
+                    <li><a href="ReverseMortageLoans.aspx">Reverse Mortgage Loans</a></li>
+                    <li><a href="AARR.aspx">Loans Against Rent Receivables</a></li>
+                    <li><a href="Policies.aspx">Loans Against NSCs, KVPs, LIC Policies</a></li>
+                    <li><a href="DoctorPlus.aspx">Doctor Plus</a></li>
+                    <li><a href="../download/Displayofinformation_30092016.pdf" target="_blank">Display of Information pertaining to Loans to<br/>
+                      Individual Borrowers under Retail Loans</a></li>
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Accounts & Deposits</a>
+                  <ul>
+                    <li class="nav-submenu"><a href="#">Savings Account</a>
+                      <ul>
+                        <li><a href="ABKiddyBank.aspx">AB Kiddy Bank</a></li>
+                        <li><a href="ABAbhayaPlus.aspx">AB Abhaya Plus</a></li>
+                        <li><a href="ABEasySavings.aspx">AB Easy Savings (No-frills account)</a></li>
+                        <li><a href="AbhayaSBAccount.aspx">AB Abhaya SB A/c</a></li>
+                        <li><a href="AbGoldAccount.aspx">AB Abhaya Gold SB A/c</a></li>
+                        <li><a href="ABJeevanAbhaya.aspx">AB Jeevan Abhaya Scheme</a></li>
+						<li><a href="ABAbhayaJeevanPlus.aspx">AB Abhaya Jeevan Plus Scheme</a></li>
+                        <li><a href="PrivilegeSBDeposit.aspx">AB Super Salary SB Account</a></li>
+                        <li><a href="ab_platinum_sb.aspx">AB Platinum SB AC</a></li>
+                        <li><a href="ab_diamond_sb.aspx">AB Diamond SB AC</a></li>
+                        <!--<li><a href="AbhayaFirstWebinfo.aspx">Abhaya First Wealth Pack</a></li>-->
+                        <li><a href="ABJEEVANABHAYADOUBLEPLUS.aspx">AB Jeevan Abhaya Double Plus</a></li>
+                        <li><a href="ABJEEVANABHAYATRIPLEPLUS.aspx">AB Jeevan Abhaya Triple Plus</a></li>
+                        <li><a href="ABLITTLESTARSANDABTEENS.aspx">AB Little Stars And AB Teens</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-submenu"><a href="#">AB Term Deposits </a>
+                      <ul>
+                      	<li><a href="DhanaVrudhiRetail.aspx">AB Dhana Vrudhi Retail</a></li>
+                      	<li><a href="ABSubhYatra.aspx">AB Subh Yatra RD Scheme</a></li>
+                        <li><a href="abrecurringplus.aspx">AB Recurring Plus</a></li>
+                        <li><a href="freedomflexi.aspx">AB Freedom(Flexi) Deposit Scheme</a></li>
+                        <li><a href="ABMoneyTime.aspx">AB Money Time</a></li>
+                        <li><a href="ABTaxsaver.aspx">AB Tax Saver</a></li>
+                        <li><a href="FixedDeposits.aspx">AB Fixed Deposits</a></li>
+                        <!--<li><a href="#">AB Jeevan Abhaya Scheme</a></li>-->
+                        <li><a href="KalpataruvuDeposits.aspx">AB Kalpataruvu Deposits</a></li>
+                        <li><a href="RecurringDeposits.aspx">AB Recurring Deposits</a></li>
+                        <li><a href="SmartChoice.aspx">AB Smart Choice</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-submenu"><a href="#">AB Current Accounts</a>
+                      <ul>
+                        <li><a href="ab_emerald_current_acc.aspx">AB EMERALD Current Accounts</a></li>
+                        <li><a href="InsuranceLinkedCA.aspx">AB Insurance Linked Current A/c</a></li>
+                        <li><a href="PremiumCA.aspx">AB Premium Current Account</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-submenu"><a href="#">Government Schemes</a>
+                      <ul>
+                        <li><a href="PPFSchemes.aspx">Public Provident Fund(PPF)</a></li>
+                        <li><a href="SCSSSchemes.aspx">Senior Citizen Savings Scheme(Scss)</a></li>
+                        <li><a href="SSASchemes.aspx">Sukanya Samriddhi Account (SSA)</a></li>
+                        <li><a href="KVPSchemes.aspx">Kisan Vikas Patra (KVP)</a></li>
+                      </ul>
+                    </li>
+                    <!--  <li class="nav-submenu"><a href="FinancialInclusion.aspx">Financial Inclusion</a>
+                    <ul>
+                      <li><a href="FinancialInclusion.aspx">PMJDY</a></li>
+                      <li><a href="PMSBY_PMSBY.aspx"> PMJBY/PMSBY/APY</a></li>
+                    </ul>
+                  </li>-->
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="RetailInsurance">Insurance</a>
+                  <ul>
+                  <li><a href="ABHealthplus.aspx">AB Health Plus</a></li>
+                    <li><a href="iflic.aspx">AB Bancassurance Life</a></li>
+                    <li><a href="BancassuranceNL.aspx">AB Bancassurance Non Life</a></li>
+                    <li><a href="ABArogayaadan.aspx"> AB Arogyadaan Scheme</a></li>
+                  </ul>
+                </li>
+                <li><a href="RetailMtFunds.aspx">Mutual Funds</a></li>
+                <li><a href="RetailDmat.aspx">Demat Accounts</a></li>
+                <li><a href="debitcard.aspx">Debit Card</a></li>
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="#">Agriculture</a>
+              <ul>
+                <li class="nav-submenu"><a href="AgriShortTerm.aspx">Short Term Agrl. Credit</a>
+                  <ul>
+                    <li><a href="AgriPrattabhiCards.aspx">Pattabhi Agri Cards</a></li>
+                    <!--<li><a href="AgriKisanVikasCrd.aspx">AB Kisan Vikas Cards</a></li>-->
+                    <li><a href="AgriKisanSampathi.aspx">AB Kisan Sampathi</a></li>
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="AgriKisanRakshak.aspx">Agrl. Term Credit</a>
+                  <ul>
+				    <li><a href="KisanKalpataru.aspx">Kisan Kalpataru</a></li>
+                    <li><a href="AgriKisanRakshak.aspx">AB Kisan Rakshak</a></li>
+                    <li><a href="AgriKisanChakra.aspx">AB Kisan Chakra</a></li>
+                    <li><a href="AgriRuralGodowns.aspx">Rural Godowns</a></li>
+                    <li><a href="AgriPurchaseLand.aspx">Purchase of Land</a></li>
+                    <li><a href="AgriDairyAgents.aspx">Dairy Agents</a></li>
+                    <li><a href="AgriKisanBandhu.aspx">Kisan Bandhu</a></li>
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="AgriWomenEmp.aspx">Women Empowerment</a>
+                  <ul>
+                    <!--<li><a href="AgriMahilaSowbhagya.aspx">AB Mahila Sowbhagya</a></li>-->
+					<li><a href="Pattabhi-Business-Group.aspx">Pattabhi Sitaramayya Self Business Group Scheme</a></li>
+                    <li><a href="AgriSelfHlpGrp.aspx">AB Self Help Groups</a></li>
+                    <li><a href="AgriMahilaJyothi.aspx">AB Mahila Jyothi</a></li>
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="AgriClinics.aspx">Special Schemes</a>
+                  <ul>
+					  <li><a href="kisan-mitra.aspx">Kisan Mitra</a></li>
+                    <li><a href="AgriClinics.aspx">Agri Clinics</a></li>
+                    <!--<li><a href="AgriKisanGreenCrd.aspx">AB Kisan Green Card</a></li>-->
+                    <li><a href="SolarOffGrid.aspx">Solar Off Grid</a></li>
+                    <li><a href="mnrelight.aspx">MNRE Lighting Scheme</a></li>
+                  </ul>
+                </li>
+                <li><a href="AgriRsetis.aspx">RSETIs</a></li>
+                <li><a href="AgriProcedure.aspx">AgriProcedure</a></li>
+              </ul>
+            </li>
+			<li class="nav-submenu"><a href="#">MSME</a>
+              <ul>
+			  <li><a href="../Download/AB-MSME.pdf" target="_blank">Support & Outreach</a>
+			  <li><a href="Udyamimitra.aspx">Udyamimitra Portal</a></li>
+			    <li><a href="Udyamimitra.aspx">Udyamimitra Portal</a></li>
+                <li><a href="MsmeOverview.aspx">Overview</a></li>
+                <li><a href="MsmeCredit.aspx">Credit</a></li>
+                <li><a href="MsmeSchemes.aspx">MSME Schemes</a></li>
+                <li><a href="OTSSchemes.aspx">OTS Schemes</a>
+				 
+                  <!--<ul>
+                      <li><a href="Msmeots_new.aspx">New Msme ots scheme</a></li>
+                      <li><a href="MsmeOts.aspx">MSME OTS Scheme</a></li>
+                      <li><a href="SmallLoan_OTS.aspx">Small Loan OTS Scheme</a></li>
+                    </ul> -->
+                </li>
+                <li class="nav-submenu"><a href="MsmePolicy.aspx">MSME Policy</a>
+                <ul>
+                      <li><a href="../download/FrameworkforrevivalandrehabilitationofMSMEsCircular.pdf" target="_blank">Framework for Revival and Rehabilitation MSMEs</a></li>
+					  <li><a href="../download/CodeOfBCSBI 2015.pdf" target="_blank">BCSBI –Code of Banks commitment to Micro and Small Enterprises</a></li>
+                  </ul> 
+                </li>
+                <li><a href="MsmeCareCenter.aspx">Care Cells</a></li>
+                <!--<li><a href="MudraPMMY.aspx">MUDRA (PMMY)</a></li>
+                <li><a href="Mudra_success_stories.aspx">MUDRA Success Stories</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="#">MUDRA</a>
+              <ul>
+                <li><a href="MudraPMMY.aspx">MUDRA (PMMY)</a></li>
+                <li><a href="Mudra_success_stories.aspx">MUDRA Success Stories</a></li>
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="#">Corporate</a>
+              <ul>
+                <li class="nav-submenu"><a href="#">Working capital Facility</a>
+                  <ul>
+                    <li><a href="CorpCashCredit.aspx">Working capital Finance </a></li>
+                    <li><a href="CorpImpExp.aspx">Export Import finance</a></li>
+                    <li><a href="CorpWCDL.aspx">Working capital Demand Loans </a></li>
+                    <li><a href="CorpForeignCurrency.aspx">Bill Finance</a></li>
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Term Finance</a>
+                  <ul>
+                    <li><a href="CorpProjectFin.aspx">Project Finance And Infrastructure Finance </a></li>
+                    <li><a href="CorpTermLoans.aspx">Term Loan</a></li>
+                    <!--<li><a href="CorpCorporateLoans.aspx">Corporate Loans</a></li>-->
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Other Advances</a>
+                  <ul>
+                    <!--<li><a href="CorpEquipment.aspx">Equipment Finance</a></li>-->
+                    <li><a href="CorpBridge.aspx">Bridge loan</a></li>
+                    <li><a href="CorpAASD.aspx">Advances Against Shares/Deposits</a></li>
+                    <li><a href="CorpAARR.aspx">Advance Against Rent Receivable</a></li>
+                    <li><a href="PODPTL.aspx">Property - Overdraft & Term Loan</a></li>
+                    <!--<li><a href="CorpCredit.aspx">Line Of Credit</a></li>-->
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Non Fund Based Advances</a>
+                  <ul>
+                    <li><a href="CorpBankGurantee.aspx">Bank Guarantee</a></li>
+                    <li><a href="CorpLC.aspx">Letters Of Credit</a></li>
+                    <li><a href="CorpFCL.aspx">Forward Contact Limit</a></li>
+                  </ul>
+                </li>
+                <li><a href="TEVStudy.aspx">Techno Economic Viability Study</a></li>
+                <!--<li><a href="CorpProjectApp.aspx">Project Appraisal</a></li>-->
+                <!--<li><a href="CorpLoanSyndicate.aspx">Syndication of Loans</a></li>-->
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="#">NRI</a>
+              <ul>
+                <li><a href="query-assistance.aspx">Query/Assistance</a></li>
+                <li class="nav-submenu"><a href="NriDeposits.aspx">Deposits</a>
+                  <ul>
+                    <li><a href="nrinrefd.aspx">NREFD</a></li>
+                    <li><a href="nrinrofd.aspx">NROFD</a></li>
+                    <li><a href="nreaccount.aspx">NRE Account</a></li>
+                  </ul>
+                </li>
+                <li><a href="NriRemittances.aspx">Remittances</a></li>
+                <li><a href="NriLoans.aspx">Loans</a></li>
+                <li><a href="NriInvestments.aspx">Investments</a></li>
+                <!--<li><a href="nriABLockBox.aspx">AB Lock Box facility</a></li>-->
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="#">Online Services</a>
+              <ul>
+                <li><a href="https://support.andhrabank.in/ots/" target="_blank">ONLINE NPA OTS</a></li>
+                <!--<li><a href="IMPS.aspx">Immediate Payment Service (IMPS)</a></li>-->
+                <li><a href="https://support.andhrabank.in/AadhaarAuth/">AADHAAR Linking</a></li>
+               <!-- <li><a href="OnlineShoppe.aspx">AB Online Shoppe</a></li>-->
+                <li><a href="https://customer.andhrabank.in/locker/availlocker.aspx">ONLINE LOCKER BOOKING</a></li>
+                <li><a href="debitcard2.aspx">Blocking ATM/Debit cards</a></li>
+                <li><a href="Indiafirst.aspx"> IndiaFirst Life Insurance</a></li>
+                <li class="nav-submenu"><a href="#">Internet Banking </a>
+                  <ul>
+                    <!--<li><a href="https://www.onlineandhrabank.net.in/" target="_blank">Login</a></li>
+                    <li><a href="https://WWW.ONLINEANDHRABANK.NET.IN/BankAwayRetail/sgonHttpHandler.aspx?Action.RetUser.SelfSignUp.Init=Y&AppSignonBankId=011&AppType=retail" target="_blank">Sign up</a></li>-->
+                    <li><a href="OnlineOD.aspx">Online OD against TD</a></li>
+                    <li><a href="Onlinetrading.aspx">Online Trading</a></li>
+                    
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Mobile Apps</a>
+                  <ul>
+                    <li><a href="abtej.aspx">ABTEJ</a></li>
+					<li><a href="selfiebanking.aspx">Selfie Banking</a></li>
+					<li><a href="https://play.google.com/store/apps/details?id=nps.nps&hl=en">NPS by NSDL e-Gov</a></li>
+					<li><a href="ab_e_passbook.aspx">AB ePassbook</a></li>
+					<li><a href="safe_t.aspx">Safe-T</a></li>
+                    <!--<li><a href="Nuup.aspx">*99#</a></li>-->
+                   
+                    <!--<li><a href="javascript:mypop('../Html/SignUp_Register.html','application',460,420)">Sign Up/Register</a></li>-->
+                  </ul>
+                </li>
+				 <li><a href="Religious.aspx">Religious Offerings</a></li>
+                <li><a href="SB_account.aspx">Online savings account opening</a></li>
+                <li class="nav-submenu"><a href="smebanking.aspx">SMS Banking</a>
+                  <ul>
+                    <li><a href="http://www.npci.org.in/impsmerpay7.aspx" target="_blank">Recharge / Postpaid Bill Pay</a></li>
+                    <li><a href="http://www.npci.org.in/impsmerpay9.aspx" target="_blank">Rail Ticket Booking</a></li>
+                    <li><a href="upset.aspx">Upset</a></li>
+                  </ul>
+                </li>
+                <li class="nav-submenu"><a href="#">Tax Payments</a>
+                  <ul>
+                    <li><a href="OnlineTaxPayment.aspx">Online Tax payment</a></li>
+                    <li><a href="TaxPaymentATM.aspx">Direct (Through ATM)</a></li>
+                    <li><a href="Indirecttaxes.aspx">Indirect taxes</a></li>
+                    <li><a href="RetailOltas.aspx">Online Tax Accounting System(OLTAS)</a></li>
+                    <li><a href="RetailAdvTaxPay.aspx">Advance Tax Payments</a></li>
+                    <li><a href="vatcst.aspx">ePayment of VAT/CST</a></li>
+                  </ul>
+                </li>
+                <li><a href="TeleBanking.aspx">Tele Banking</a></li>
+				<li><a href="ABBillpay.aspx">AB Bill Pay</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="RetailCards.aspx">Credit Cards</a>
+              <ul>
+                <!--<li class="nav-submenu"><a href="#">Credit Cards</a>
+                  <ul>
+                    <li><a href="https://www.andhrabank.in/English/creditcards.aspx">Credit Card Features</a></li>
+					<li><a href="../Download/AB_EMI_TC.pdf">Credit Card EMI – T & C</a></li>
+                    <li><a href="https://www.andhrabank.in/English/visaloungeacc.aspx">VISA Lounge Access & Offers </a></li>
+                    <li><a href="https://www.andhrabank.in/English/creditcardsms.aspx">Credit Card SMS Services </a></li>
+                    <li><a href="https://www.andhrabank.in/English/creditcardvirtual.aspx">Virtual Credit Card </a></li>
+					 <li><a target="_blank" href="../Download/Reward-Terms-conditions-Credit-Card-Merchant.pdf">Cash Back Rewards – T & C </a></li>
+                  </ul>
+                </li>-->
+                <!--<li><a href="PL_Credit_Card.aspx">Platinum Credit Card</a></li> -->
+					<li><a href="https://www.andhrabank.in/Download/AB-CCMS-MobileApp-User-Guide.pdf" target="_blank"> Credit Card Mobile App – Available Now in Google Play Store </a></li>
+				<li><a href="https://www.andhrabank.in/Download/Fair-Practice-Code-on-Credit-Cards.pdf" target="_blank">Fair Practices Code for Credit Card Operations</a></li>
+				<li><a href="https://www.andhrabank.in/Download/IMPORTANT-NOTICE-CARD-USAGE-IN-ECOMMERCE-FOR-OVERSEAS-FOREX-TRADING.pdf" target="_blank">Imp Notice – Credit Card Usage for Overseas Forex Trading (E - Commerce)</a></li>
+                <li><a href="https://onlinecreditcards.andhrabank.in/" target="_blank">Credit Card Online Portal - Credit Card Features</a></li>
+				<li><a href="travelcard.aspx">Travel Card</a></li>
+                <li><a href="giftcards.aspx">Gift Card</a></li>
+                <li class="nav-submenu"><a href="#">Click to Pay</a>
+                  <ul>
+                    <li class="nav-submenu"><a href="#">Cards</a>
+                      <ul>
+                        <li><a href="https://www.billdesk.com/pgidsk/pgmerc/adbcard/andhra_card.jsp" target="_blank">Credit Card Payment – Billdesk</a></li>
+                        <!--<li><a href="https://onlineprepaidcards.andhrabank.in/ABcustomer/html/LoginFrame.html" target="_blank">Prepaid card</a></li> -->
+                        <li><a href="https://www.visabillpay.in/andhra/index.htm" target="_blank">Visa Bill Pay</a></li>
+                        <!--<li><a href="https://cardsecurity.enstage.com/ACSWeb/EnrollWeb/AndhraBank/main/index.jsp" target="_blank">Verified by Visa / 3d Secure Code</a></li> -->
+                      </ul>
+                    </li>
+                    <!--<li class="nav-submenu"><a href="#">Utility Bill</a></li>-->
+                      <!--<ul>
+                        <li><a href="ABBillpay.aspx">AB Bill Pay</a></li>
+                        <li><a href="https://cardsecurity.enstage.com/ACSWeb/EnrollWeb/AndhraBank/main/index.jsp" target="_blank">Verified by Visa/Master Card secure code</a></li
+                      </ul>-->
+                    
+                  </ul>
+                </li>
+                <!--<li><a href="https://onlineprepaidcards.andhrabank.in/ABcustomer/html/LoginFrame.html" target="_blank">Prepaid card self care portal</a></li>-->
+				<li><a href="https://onlinecreditcards.andhrabank.in/abprepaid.html" target="_blank">Prepaid Card Online Portal</a></li>
+                <li><a href="javascript:mypop('../html/VISA-RuPay-Debit-Card.html','application',600,400)">Verified by VISA / 3D secure code </a></li>
+				<li><a href="https://www.andhrabank.in/Download/Rupay_Lounge List.pdf"> RUPAY Platinum Lounge Access </a></li>
+			
+                <!--<li><a href="https://cardsecurity.enstage.com/ACSWeb/EnrollWeb/AndhraBank/main/index.jsp">Verified by Visa / 3d Secure Code</a></li>
+                               <li><a href="https://www.billdesk.com/pgidsk/pgmerc/adbcard/andhra_card.jsp">Credit Card Bill payment through Bill Desk</a></li>
+                                <li><a href="https://www.visabillpay.in/andhra/index.htm">Visa Bill Pay</a></li>-->
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="">Payment System</a>
+              <ul>
+                <li><a href="asba.aspx">ASBA</a></li>
+                
+                <li><a href="RetailRtgs.aspx">Real Time Gross Settlements</a></li>
+                <li><a href="RetailNeft.aspx">National Electronic Funds Transfer</a></li>
+                <li><a href="RetailEcs.aspx">Electronic Clearing Services</a></li>
+                <li><a href="RetailWestUniMonyTrans.aspx">Western Union Money Transfer</a></li>
+              </ul>
+            </li>
+            <li class="nav-submenu"><a href="FinancialInclusion.aspx">Financial Inclusion</a>
+              <ul>
+			    <li><a href="../Download/Aadhaar-Enrolment-Centres.pdf" target="_blank"> Aadhaar Enrolment Centres</a></li>
+                <li><a href="FinancialInclusion.aspx">PMJDY</a></li>
+                <li><a href="PMSBY_PMSBY.aspx"> PMJBY/PMSBY/APY</a></li>
+                <li><a href="RuPay_Insurance_Program16_17.aspx">RuPay Insurance Program FY 2016-17</a></li>
+                <li><a href="nps.aspx">National Pension System</a></li>
+				 <li><a href="../Download/AB-BANK-MITRAS.xlsx"> List of Bank Mitras</a></li>
+				
+              </ul>
+            </li>
+            <li>
+              
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="nav-close">Close Menu</a> </div>
+    </div>
+    <!-- end of row -->
+  </div>
+</div>
+<script language="javascript1.2">
+function mypop(url,title,w,h) {
+	if((title == "") || (title == "undefined"))
+	{
+		title = "mypop";
+	}
+	if((w == "") || (w == "undefined"))
+	{
+		w = 600;
+	}
+	if((h == "null") || (h == "undefined"))
+	{
+		h = 400;
+	}
+	var param = 'width=' + w + ',height=' + h ;
+	param += ',resizable=no,scrollbars=yes,top=50,left=400';
+	var hWnd = window.open(url,title,param);
+
+	// if (hWnd.focus != null) hWnd.focus();
+	hWnd.focus();
+}
+</script>
+
+  <label for="zoom_query" style="display:none;">Name</label>
+  <input title="se" value="Looking for Something"  tabindex="1" id="zoom_query1" name="zoom_query" type="text" onkeydown="if (event.keyCode == 13) document.getElementById('btn').click()" 
+                     onfocus="if(this.value == 'Looking for Something') {this.value = '';}" style="display:none;" />
+  <button id="btn" type="button" onclick="javascript: return check(this.form.zoom_query.value)" style="display:none;"> <img src="../images/icon-search.jpg" alt="search" title="Search" /></button>
+  
+  <div id="mainbody">
+    <div class="container-fluid banner-panel">
+      <div class="row">
+      
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<div id="tnp_overlay"><a id="invtrfl_btn_widget" href="https://www.rupay.co.in/rupay-offers" style="display:scroll; position:fixed; top:55%; left:0px; text-decoration:none; background:#A61111; color:#FFFFFF; font-size:15px; font-weight:bold; border-radius:0px 0px 6px 6px; z-index: 10000001; transform: rotate(-90deg); -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); transform-origin: left top 0; -ms-transform-origin: left top 0; -webkit-transform-origin: left top 0; -moz-transform-origin: left top 0; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.08) inset, 0 -2px 0 rgba(255, 255, 255, 0.698) inset, 0 9px 29px rgba(0, 0, 0, 0.1) inset;"> <div style="float:left;"><img src="../images/rupayicon.png" alt="rupay" text-align="center"></div><div style="float:right; padding:8px 10px 4px 2px;">RuPay Offers</div></a></div>
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="6"></li> 
+			<li data-target="#carousel-example-generic" data-slide-to="7"></li> 
+			<li data-target="#carousel-example-generic" data-slide-to="8"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="9"></li> 		
+			
+          </ol>
+          <div class="carousel-inner" role="listbox">
+<!--<div class="item active"><img src="../Images/interactive-banking1.jpg" alt="Andhra Bank" border="0"/></div>	  
+-->		  	<!--<div class="item active"><a href="https://www.onlineandhrabank.net.in/BankAwayRetail/AuthenticationController?__START_TRAN_FLAG__=Y&FORMSGROUP_ID__=AuthenticationFG&__EVENT_ID__=LOAD&FG_BUTTONS__=LOAD&ACTION.LOAD=Y&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=011" target="_blank"><img src="../Images/Invest-Bond.jpg" alt="Andhra Bank" border="0"/></a></div>-->
+<!--			<div class="item"><img src="../Images/interactive-banking3.jpg" alt="Andhra Bank" border="0"/></div>	  
+-->		   <div class="item active"><img src="../Images/chatabhi.jpg" alt="Andhra Bank" border="0"/></div>
+ <div class="item"><img src="../images/Fraud.jpg" alt="Andhra Bank" border="0"/></div>
+			<div class="item"><a href="http://anticorruption.life/en" target="_blank"><img src="../Images/brics.jpg" alt="Andhra Bank" border="0"/></a></div>
+		  <div class="item"><a href="http://anticorruption.life/en"><img src="../Images/Anti.jpg" alt="Andhra Bank" border="0"/></a></div>
+<!--		  <div class="item"><img src="../Images/Digital.jpg" alt="Andhra Bank" border="0"/></div>
+-->		   <div class="item"><img src="../Images/FLW2019-1.jpg" alt="An	dhra Bank" border="0"/></div>
+		  <div class="item"><img src="../Images/FLW2019-2.jpg" alt="Andhra Bank" border="0"/></div>
+		<div class="item"><a href="https://www.andhrabank.in/English/security.aspx" target="_blank"><img src="../images/securitypo.jpg" alt="Andhra Bank" border="0"/></a> </div>
+		  <div class="item"><img src="../images/Tej1.png" alt="Andhra Bank" border="0"/></div>
+		 <!-- <div class="item"><a href="https://www.andhrabank.in/English/Tej.aspx" target="_blank"><img src="../images/Tez.jpg" alt="Andhra Bank" border="0"/></a></div>-->
+<!--		 <div class="item"><a href="https://www.rupay.co.in/rupay-offers" target="_blank"><img src="../images/Andhra_banner.jpg" alt="Andhra Bank" border="0"/></a></div>
+-->		<!-- <div class="item"><img src="../images/Delhi-Duty-Free.jpg" alt="Andhra Bank" border="0"/> </div>-->
+		 <!--<div class="item"><img src="../Images/Domestic.jpg" alt="Andhra Bank" border="0"/></div>-->
+		<!-- <div class="item"><a href="https://www.onlineandhrabank.net.in/BankAwayRetail/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__EVENT_ID__=LOAD&ACTION.LOAD=Y&__CALL_MODE__=52&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=011" target="_blank"><img src="../images/IBF.jpg" alt="Andhra Bank" border="0"/></a></div>-->
+		 <!-- <div class="item"><img src="../images/amazon-offer.jpg" alt="Andhra Bank" border="0"/></div>-->
+		   <div class="item"><a href="https://billpay.onlineandhrabank.net.in/bbps/search" target="_blank"><img src="../images/bharatbillpayutility.jpg" alt="Andhra Bank" border="0"/></a> </div>
+		 
+			<!--<div class="item"><img src="../images/andhra-big-bazar.jpg" alt="Andhra Bank" border="0"/></a> </div>-->
+		  <!--<div class="item "><a href="https://www.bharatbillpay.com/Campaign-Oneplus6/NEW/" target="_blank"><img src="../images/Andhra_bharat_billpay_1366_372.jpg" alt="Andhra Bank" border="0"/></a> </div>-->
+		  
+		  
+		  <div class="item"><a href="https://goo.gl/Z4aYSW" target="_blank"><img src="../images/Creditcard-app.jpg" alt="Andhra Bank" border="0"/></a> </div>
+		  
+<!--		  <div class="item"><a href="https://www.andhrabank.in/English/remit2india.aspx"><img src="../images/remit2india.png" alt="Andhra Bank"/></a></div>
+-->		  
+	   
+	
+	 
+          </div>
+          <!-- Left and right controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+        </div>
+        <!-- end of row -->
+        
+      </div>
+      <!-- end of row -->
+    </div>
+  </div>
+  <!-- end of container-fluid -->
+  
+  
+  
+  
+  
+  
+  
+  <div class="container-fluid body_section">
+    <div class="row">
+		<!--<div id="test" style="overflow-y: hidden;white-space: wrap;">-->
+	 <div class="marquee">“PARTICIPATE IN THE FIGHT AGAINST CORRUPTION - TAKE ONLINE INTEGRITY PLEDGE”&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../UserFiles/File/RBICircular.pdf">RBI advisory message on Beware of fictitious offers/lottery winnings/cheap funds offers &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a></div> 
+		<!--</div>--> 
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 body_menu">
+        <ul>
+          <li><a href="https://customer.andhrabank.in/loan/" class="applyonline" target="_blank">Apply Online</a></li>
+          <li><a href="CustomerCorner.aspx" class="customer">Customer Corner</a></li>
+          <li><a href="Forms.aspx" class="downloadapps">Download Applications Forms </a></li>
+          <li><a href="https://support.andhrabank.in/ots/" class="applyonline" target="_blank">Apply Online for NPA OTS</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 body_menu">
+        <ul>
+          <li><a class="public" href="ForexRate.aspx">Forex Rates</a></li>
+          <li><a class="bankingbranches" href="InterestRate.aspx">Interest Rates</a></li>
+          <li><a href="../Download/Missed_Call.pdf" class="offices" target="_blank">Missed call facility</a></li>
+		 <!-- <li><a href="https://www.psbloansin59minutes.com/signup?ubr4ju=YW5kaHJh" class="offices" target="_blank">MSME Loans in 59 Minutes</a></li>-->
+		  <li><a href="https://www.psbloansin59minutes.com/andhrabank" class="offices" target="_blank">MSME Loans in 59 Minutes</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 body_menu">
+        <ul>
+          <li><a href="security.aspx" class="security">Security alerts & Tips </a></li>
+          <li><a href="ServiceCharges.aspx" class="awards">Service Charges</a></li>
+          <li><a href="Tenders.aspx" class="complaint">Tender/Auctions</a></li>
+		  <li><a href="http://bit.ly/MSMECustSurveyAndhra" class="offices" target="_blank">MSME customer Satisfaction Survey</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 news_section">
+        <h1><a href="latestnews.aspx">Latest News</a></h1>
+        <div style="overflow: hidden;" class="abc" id="news_section_main" onblur="copyspeed=marqueespeed" onfocus="copyspeed=pausespeed" onmouseover="copyspeed=pausespeed;this.style.overflow = 'scroll';" onmouseout="copyspeed=marqueespeed;this.style.overflow = 'hidden';">
+          <!--
+        
+        <div id="news_section_main" onblur="copyspeed=marqueespeed" onfocus="copyspeed=pausespeed" onMouseover="copyspeed=pausespeed" onMouseout="copyspeed=marqueespeed">-->
+<!--          <div id="vmarquee" style="position: absolute; width: 90%;">
+-->            <!--<style type="text/css">
+.marquee {
+	position:relative;
+	overflow:hidden;
+	width:188px;
+	height:150px;
+	margin-top: 10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-decoration: none;
+     }
+</style>-->
+
+
+<!--<script type="text/javascript" language="javascript" src="../js/vert.js"></script>
+--><!-- <div id="m1" class="marquee">-->
+	  <div id="test" style="overflow-y: hidden;white-space: wrap;">
+
+<div>
+<!--<p align="left"><a href="https://customer.andhrabank.in/audit/">LAST DATE FOR APPLYING ONLINE FOR APPOINTMENT OF CONCURRENT AUDITORS IS 17-03-2018.PLEASE VISIT  https://customer.andhrabank.in/audit/</a></p>
+--> <p>-----------------------------------------------------------------------</p>
+<p align="left">This is to inform all the concerned that the Andhra Bank having its Head Office at Dr. Pattabhi Bhavan, 5-9-11 Saifabad, Hyderabad, 500 004 has decided to Surrender its  “Merchant Banking Category- I Registration Code MB/ INM000003507” (Registration renewal due on 15.12.2017) to Securities Exchange Board of India (SEBI).</p>
+ <p>-----------------------------------------------------------------------</p>
+<p align="left">Collection of GST (Goods and Service Tax) is enabled in our Bank through Netbanking and Over The Counter( in all the branches) w.e.f. 01.07.2017</p>
+<!-- <p>-----------------------------------------------------------------------</p>
+
+<p align="left"><a href="../download/Insolvency-Professionals.pdf"> Click here for Empanelment of Insolvency Professionals / Entities </a></p>-->
+ 
+ 
+<!-- <p>-----------------------------------------------------------------------</p>
+
+<p align="left"><a href="../download/PRESS-RELEASE-MARCH-2017.pdf"> Press Release for March 2017 </a></p>-->
+ 
+ <!--<p>-----------------------------------------------------------------------</p>
+ <p align="left"><a href="../download/Analyst-meet-March-2017.pdf"> Financial Performance for March 2017</a></p>-->
+ 
+ <p>-----------------------------------------------------------------------</p>
+<p align="left">
+As per RBI Guidelines, Debit transactions is restricted through all channels if customer is not having PAN or Form 60 in his/her account. In case PAN or Form 60 is not present in your account, we request you to please visit your branch and update the same.
+</p>
+  <p>-----------------------------------------------------------------------</p>
+<!--<p align="left"><a href="../download/ATMs_Calibrated_221116_7PM.PDF"> Click here for list of recalibrated ATMs </a></p>
+ -->
+ 
+
+<p align="left"><a href="../download/CautionTSSB.pdf"> Tips for safe and secure banking</a></p>
+ 
+ <p>-----------------------------------------------------------------------</p>
+ 
+<!--<p align="left"><a href="https://customer.andhrabank.in/locker/availlocker.aspx"> Book locker at your desired Andhra Bank Branch</a></p>
+ 
+ <p>-----------------------------------------------------------------------</p>-->
+ 
+ 
+ 
+
+<!--<p align="left"><a href="http://www.andhrabank.in/download/MCLR.pdf">Marginal Cost of Funds Based Lending Rate (MCLR) effective from 15.10.2016</a></p>
+ 
+ <p>-----------------------------------------------------------------------</p>-->
+ 
+ 
+ <!--<p align="left"><a href="http://www.andhrabank.in/download/AB_Addendum_book_final.pdf">Addendum to the Notice of EGM to be held on 21.03.2016</a></p>
+ 
+ <p>-----------------------------------------------------------------------</p>-->
+
+<!-- <p align="left"><a href="http://www.andhrabank.in/download/Andhra_Bank_EGM_Book_final44.pdf">Extraordinary General Meeting Notice dated 12.02.2016 – Election of Shareholder Director</a></p>
+ 
+ <p>-----------------------------------------------------------------------</p>-->
+<p align="left">
+No need to issue cheques by investors while subscribing to IPO. Just write
+the bank account number and sign in the application form to authorise your
+bank to make payment in case of allotment. No worries for refund as the
+money remains in investor's account
+</p>
+  <p>-----------------------------------------------------------------------</p>
+
+
+<p align="left">ASBA (Applications supported by Blocked Amount) – No need to issue cheques by investors while subscribing to IPO.  Just write the Bank Account Number and sign in the application form to authorize your bank to make payment in case of allotment.  No worries for refund as the money remains in investor’s account.</p>
+  <p>-----------------------------------------------------------------------</p>
+
+
+<p align="left">Applications for sovereign gold bond -2015 are accepted in all our METRO/ URBAN/ SEMI-URBAN and Select Rural Branches.
+Interested customers may approach the nearest Andhra Bank Branch for further information</p>
+<!--  <p>-----------------------------------------------------------------------</p>
+  
+  
+  
+
+
+<p align="left"><a href="http://andhrabank.in/download/HolidayNotice_050915.pdf">NOTICE REGARDING 2ND & 4TH SATURDAYS AS HOLIDAYS AND OTHER SATURDAYS OF THE MONTH AS FULL WORKING DAYS.</a></p>-->
+  <!--<p>-----------------------------------------------------------------------</p>-->
+ <!-- <p align="left"><a href="../download/AGM_Revised.pdf">Click here for Notice of Annual General Meeting and Record Date for Payment of Dividend</a></p>
+ 
+ <p>-----------------------------------------------------------------------</p>-->
+ <!-- <p align="left" style="color:#000000;">Waiver of processing charges on Housing Loans and Vehicle Loans during festive season i.e., from 01.10.2016  to 31.12.2016
+  <!--waiver of processing charges on Housing Loans and Vehicle Loans during festive season i.e., from 14.09.2015 to 31.01.2016</p>--> 
+  
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="../english/customercorner.aspx">The existing customer grievance redressal mechanism would also cover the complaints relating to outsourcing</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <!--<p align="left"><a href="../english/debitcard3.aspx">Spend More. Earn More. Celebrate More with RuPay CardsUse your Visa Debit Card for shopping in POS/Online within 3 months of card issuance & get 5% Cash back.
+    Offer applicable to cards issued after December 2013,T&C Apply</a></p>
+  <p>-----------------------------------------------------------------------</p>
+-->  <p align="left" style="color:#000000;"> AS A PART OF RISK MITIGATION MEASURE, DEBIT CARDS ISSUED AFTER 30-11-2013 ARE ENABLED FOR DOMESTIC TXNS ONLY. FOR FURTHER DETAILS PLEASE CONTACT OUR BRANCH.</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="../english/Religious.aspx">You can now donate to Shri Saibaba Sansthan Trust, Shirdi through IMPS-Mobile Banking</a>.</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">Form 15G/15H has to be submitted afresh at the beginning of each financial year to avail exemption/concession in TDS. Quoting of PAN is mandatory for availing such exemptions/concessions.</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">All our Banks cheques are payable at par henceforth. We request all our   customers to surrender their old cheque books at their account branch and obtain CTS 2010 Standard Cheque books immediately.</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">We request all our customers who have issued postdated cheques for repayment of loan installments for loans availed by them to replace the old PDCs with new CTS 2010 Standard cheques.</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="https://customer.andhrabank.in/care/ccare.aspx">Online Grievance Redressal System with Tracking</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="https://customer.andhrabank.in/">Online Applications for MSME and Retail Loans</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">Online Donations to charitable institutions through net banking</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">Online resetting of Internet Banking Login Password</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">Interbank transfer of Funds through Mobile Banking using IFSC code</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"> <a href="../english/ATMServices.aspx">As per RBI mandate, cash retraction facility is discontinued from our ATMs. Do not forget to collect cash before leaving ATM room.</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left" style="color:#000000;">Any customer of SB/Current Account group could walk in to any branch of the Bank to deposit money in his/her account maintained at any branch and there will be no charges on this for any amount.</p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="http://rbidocs.rbi.org.in/rdocs/content/pdfs/LNA100112C.pdf" target="_blank">Fictitious Offers of Cheap funds from abroad - Awareness Campaign - List of Nodal Agency (Cyber Crime Cell / Economic Offence Wing)</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="http://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=25760" target="_blank"> Complain to Local Police/Cyber Crime Authorities against Fictitious Offers of Money from Abroad</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="../english/PPFschemes.aspx">PPF and SCSS schemes</a></p>
+  <p>-----------------------------------------------------------------------</p>
+  <p align="left"><a href="../english/lottery.aspx">Do Not fall Prey to Fictitious Offers of Funds Transfer</a></p>
+  <p>-----------------------------------------------------------------------</p>
+</div>
+</div>
+<script type="text/javascript">
+(function () {
+    function start_marquee() {
+        function go() {
+            i = i < height ? i + step : 1;
+            m.style.marginTop = -i + 'px';
+        }
+        var i = 0,
+            step = 3,
+            space = '<br>';
+        var m = document.getElementById('test');
+        var t = m.innerHTML; //text
+        m.innerHTML = t + space;
+        m.style.position = 'absolute'; // http://stackoverflow.com/questions/2057682/determine-pixel-length-of-string-in-javascript-jquery/2057789#2057789
+		m.style.transition= 'all 1s esae';
+        var height = (m.clientHeight + 1);
+        m.style.position = '';
+		m.style.transition= 'all 1s esae';
+        m.innerHTML = t + space + t;
+        if (m.addEventListener) {
+            m.addEventListener('mouseenter', function () {
+                step = 0;
+            }, false);
+            m.addEventListener('mouseleave', function () {
+                step = 3;
+            }, false);
+        }
+        var x = setInterval(go, 100);
+    }
+
+    if (window.addEventListener) {
+        window.addEventListener('load', start_marquee, false);
+    } else if (window.attachEvent) { //IE7-8
+        window.attachEvent('onload', start_marquee);
+    }
+})();
+</script>
+<!-- </div>-->
+
+          
+        </div>
+        <!-- end of news_section_main -->
+		</div>
+      <div class="clearfix" align="center"><a href=" https://pledge.cvc.nic.in/" target="_blank"><img src="../Images/clickhere.gif" alt="pledge" /></a></div>
+    </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- end of row -->
+  </div>
+  <!-- end of container-fluid -->
+  
+  
+    <!--<marquee behavior="scroll" direction="left" scrollamount="9" style="color:#FF0000;">
+    Due to up gradation activity, Internet Banking Services will not be available from 8:00PM 09/10/2016 to 6:00AM 10/10/2016. Inconvenience caused is deeply regretted–Andhra Bank.
+    </marquee>--><script type='text/javascript'> (function(){ var s1=document.createElement('script'),s0=document.getElementsByTagName('script')[0];
+s1.async=true;
+s1.src='https://floatbot.ai/portal/custom-bot/andhrabank/index.php?botId=5c470f6feacdbd07ea3ede6d';
+s1.charset='UTF-8'; s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0); })(); </script>
+  
+
+
+
+
+<footer>
+<div class="container-fluid footer_section">
+	<div class="row">
+    	<div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 footer_sectionCol">
+        	<ul>
+            	<li><a href="AnnualReport.aspx">Annual Report</a></li>
+            	<li><a href="awards.aspx">Awards & Rewards</a></li>
+            	<li><a href="#">Call Back</a></li>
+            	<li><a href="Recruitment.aspx">Careers</a></li>
+            	<!--https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx--><li><a href="../Download/Banking_Awareness.pdf" class="public" target="_blank">Caution to Public</a></li>
+
+                
+                
+               
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 footer_sectionCol">
+        	<ul>
+            	<li><a href="customercorner.aspx">Citizen's Charter</a></li>
+            	<li><a href="customerservice.aspx">Complaint / Grievance</a></li>
+            	<li><a href="Regulatory.aspx">Disclosures</a></li>
+            	<li><a href="#">Events</a></li>
+            	<li><a href="Minorities.aspx">Minorities</a></li>
+
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 footer_sectionCol">
+        	<ul>
+        	<li><a href="Policies.aspx">Policies & Guidelines </a></li>
+        	<li><a href="PressReleases.aspx">Press Release</a></li>
+        	<li><a href="#">Privacy Policy</a></li>
+        	<li><a href="http://www.museum.rbi.org.in/" target="_blank">RBI Website</a></li>
+        	<li><a href="RepresentativeOffices.aspx">Representative Offices</a></li>
+
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 footer_sectionCol">
+        	<ul>
+        	<li><a href="RetireesCorner.aspx" >Retirees Corner</a></li>
+        	<li><a href="RTI.aspx">RTI Act</a></li>
+        	<li><a href="https://suit.cibil.com/" target="_blank">Suit Filed Cases Of Wilful Defaulters</a></li>
+        	<!--<li><a href="Branchlocator.aspx">Sunday Banking Branches</a></li>-->
+        	<li><a href="Tools.aspx">Tools</a></li>
+        	<li><a href="Banking-Facilities-for-Persons-with-Special-Needs.aspx">Banking Facilities for Persons with Special Needs</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div><!-- end of row -->
+</div><!-- end of container-fluid -->
+</footer>
+<footer>
+<div class="container-fluid footer_section_2">
+	<div class="row">
+    	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 footer_section_2Left">
+        	<ul>
+            	<li><a href="GenInvestcorner.aspx">Investor Relations</a></li> |
+                <li><a href="Bulletin.aspx">Bulletin</a></li> |
+                <li><a href="Inoprationaluser.aspx">Unclaimed Deposit</a></li> |
+                <li><a href="DoNotCallReg.aspx">DNCR</a></li> |
+                <li><a href="Miscellaneous.aspx">Miscellaneous</a></li> |
+                <li><a href="../Download/Holidays.pdf" target="_blank">Holiday List</a></li> |
+                <li><a href="PhotoGallery.aspx">Photo Gallery</a></li> |
+                <li><a href="webcast.aspx">Webcast</a></li> |
+                <li><a href="Disclaimer.aspx">Disclaimer</a></li> 
+                
+            </ul>
+            
+        </div>
+        
+        
+    </div><!-- end of row -->
+</div><!-- end of container-fluid -->
+</footer>
+
+	<!-- end of container-fluid -->
+<div>
+
+
+
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer_section_3">
+<div align="" class="col-lg-8 col-md-8 col-sm-12 col-xs-12 footer_section_3"><span >
+
+
+
+
+
+        
+        
+        
+        
+        
+        <div style="padding-right:50px;">
+        
+          
+           
+         
+        <strong style="    font-size: 14px;
+">  Visitor Counter : </strong>
+               <span id="Bottom2_HitCounter2_lblcnt" class="counter"><strong>52054006</strong></span>
+              
+           
+</div>
+
+
+<style type="text/css">
+        .counter
+        {
+          font-size:13px; color:#EB3B3B; font-family: Roboto, sans-serif; font-weight:bold;
+        }
+    </style>
+</span>
+ <div align="center" style="margin-top: -22px;
+    text-align: right;">2019, Andhra Bank. All Rights Reserved.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This Website is best viewed at 1024 x 768 <br />
+    
+</div>
+</div>
+<div align="" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer_section_3" style="float:right">
+<a href="http://www.achecker.ca/checker/index.php" target="_blank"> <img alt="wcag" src="../Images/wcag.png" style="float: right;
+    margin-left: 22px;
+    background: #fff;" /></a>&nbsp;&nbsp;&nbsp;
+<a href="https://cardsecurity.enstage.com/ACSWeb/EnrollWeb/AndhraBank/main/index.jsp" target="_blank"> <img alt="VErifiedbyvisa" align="right" src="../images/Market_Track.jpg" style="    margin-top: -5px;" />	 </a><br /><br>
+<a align="right" href="http://www.chicinfotech.com"> <img src="../images/logo-signature.jpg" alt="chiclogo" title="Chic Infotech" style="float:right"></a></div>
+
+
+
+</div>
+</div>
+
+  
+  <!--RBottom1 end-->
+  
+<link href="../css/sidemenu.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="../css/global.css" type="text/css" />
+<link rel="stylesheet" href="../css/hover.css" type="text/css" />
+<style>
+.slide-out-div {
+height:auto !important;
+top:205px  !important; 
+}
+.style1 {color: #FF0000}
+</style>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="sidemenu">
+        <div style="line-height: 1; position: fixed; right: -211px;  top: 250px; height:auto !important;" class="slide-out-div"> <a style="display: block; text-indent: -99999px; outline: medium none; position: absolute; top: -5px; left: -77px;" class="show handle" href="#">Show</a>
+          <div class="sdmenu">
+            <ul>
+             <li class="hide1"> <a style="display: block; text-indent: -99999px; outline: none; position: absolute; top: -5px; left: -102px;" href="#" class="hide handle">Hide</a></li>
+              
+               <div id='cssmenu'>
+                <ul>
+                 <li class='active has-sub' style="background-color:#ffd70a"><a class="net"><span style="color:#000000;"><strong>Internet Banking </strong> </br>
+				 <span style="color:#fe0410">Demo Videos</span>				  
+                  </span></a>
+                    <ul style="top:3px!important;">                      
+                      <li><a href='https://www.andhrabank.in/netbanking/index-retail.html' class="net"><span>Retail Login</span></a> </li>
+					  <!-- <li><a href='https://www.onlineandhrabank.net.in/BankAwayRetail/AuthenticationController?FORMSGROUP_ID__=AuthenticationFG&__START_TRAN_FLAG__=Y&__EVENT_ID__=LOAD&ACTION.LOAD=Y&__CALL_MODE__=52&AuthenticationFG.LOGIN_FLAG=1&BANK_ID=011' class="net"><span>Register for retail Internet Banking</span></a> </li>-->
+                      <li><a href='https://www.andhrabank.in/netbanking/index-corp.html' class="net"><span>Corporate Login</span></a> </li>					 
+					   <li><a href='https://billpay.onlineandhrabank.net.in/bbps/search' target="_blank" class="bbps"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pay Bills Here</span></a> </li>
+                    <li><a href='https://goo.gl/9b1L8Y' target="_blank" class="net"><span>Demo Videos</span></a></li>
+                    </ul>
+                  </li>
+                     <li class='active has-sub'><a href="Tej.aspx" class="mob"><span><EM><strong>TEJ तेज APP</strong></EM></span>
+              
+                 <span style="float:right; font-size:11px; margin-top:5px">More apps</span>
+                  </a>
+                    <ul>
+                     <li><a href='abtej.aspx' class="mob"><span>Andhra Bank TEJ</span></a> </li>
+                      <li><a href='upi.aspx' class="mob"><span>AndhraBank UPI</span></a> </li>
+                    
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+			
+              <li><a href="LocatorsPg.aspx" class="bra" style="color:#ffffff">Locate Us</a></li>
+                </ul>
+              </div>
+           
+              <!--<div id='cssmenu'>
+                <ul>
+               
+                  <li class='active has-sub'><a href="Tej.aspx" class="mob"><span><EM><strong>TEJ तेज APP</strong></EM></span>
+              
+                 <span style="float:right; font-size:11px; margin-top:5px">More apps</span>
+                  </a>
+                    <ul>
+                      <li><a href='selfiebanking.aspx' class="mob"><span>Selfie Banking</span></a> </li>
+                      <li><a href='abtej.aspx' class="mob"><span>Andhra Bank TEJ</span></a> </li>
+                      <li><a href='upi.aspx' class="mob"><span>AndhraBank UPI</span></a> </li>
+                      <li><a href='https://play.google.com/store/apps/details?id=nps.nps&hl=en' class="mob"><span>NPS by NSDL e-Gov</span></a> </li>
+                      <li><a href='ab_e_passbook.aspx' class="mob"><span>AB e-Passbook</span></a> </li>
+                      <li><a href='safe_t.aspx' class="mob"><span>Safe-T</span></a> </li>
+                      <li><a href='chillr.aspx' class="mob"><span>Chillr</span></a> </li>
+                    
+                    </ul>
+                  </li>
+                </ul>
+              </div>-->
+			  
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="../js/jquery-1_004.js"></script>
+<script language="javascript" type="text/javascript" src="../js/sdmenu.js"></script>
+
+   <script type="text/javascript" src="../js/jquery-1_004.js"></script>
+<script language="javascript" type="text/javascript" src="../js/sdmenu.js"></script>
+
+<script src="../js/jquery_002.js"></script>
+<script>
+		 mk = jQuery.noConflict();
+         mk(function(){
+             mk('.slide-out-div').tabSlideOut({
+                 tabHandle: '.handle',                              
+                 pathToTabImage: null,         					    
+                 imageHeight: null,                                 
+                 imageWidth: null,                                  
+                 tabLocation: 'right',                              
+                 speed: 300,                                        
+                 action: 'click',
+                 topPos: '180px',
+                 fixedPosition: true,
+				 onLoadSlideOut: true                              
+             });
+			
+         });
+</script>
+<script language="javascript1.2">
+function mypop(url,title,w,h) {
+	if((title == "") || (title == "undefined"))
+	{
+		title = "mypop";
+	}
+	if((w == "") || (w == "undefined"))
+	{
+		w = 600;
+	}
+	if((h == "null") || (h == "undefined"))
+	{
+		h = 400;
+	}
+	var param = 'width=' + w + ',height=' + h ;
+	param += ',resizable=no,scrollbars=yes,top=0,left=0';
+	var hWnd = window.open(url,title,param);
+
+	// if (hWnd.focus != null) hWnd.focus();
+	hWnd.focus();
+}
+</script>
+  <!--Right slider with live chat end-->
+</form>
+
+<!--<div id="boxes">
+  <div style="display: none;" id="dialog" class="window">
+    <div align="right"><a href="javascript:void()" class="close"><img alt="close" src="../pop_win/close.png" width="16" style="border:none; cursor:pointer;" /></a></div>
+    <div align="center" style="margin:5px 0 5px 0;"><a href="http://www.provogue.com/andhrabank"><img alt="popup" class="img-responsive" title="provogue andhrabank" src="../pop_win/Ladies.png" /></a></div>
+  </div>
+</div>-->
+<script src="../js/ie10-viewport-bug-workaround.js"></script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/responsive.js"></script>
+
+<script src="../js/responsiveslides.min.js"></script>
+<script>
+    $(function() {
+        $("#slider1").responsiveSlides({
+            maxwidth: 1400,
+            speed: 800
+        });
+    });
+</script>
+<script type="text/javascript">
+    var delayb4scroll = 2000
+    var marqueespeed = 1
+    var pauseit = 1
+    var copyspeed = marqueespeed
+    var pausespeed = (pauseit == 0) ? copyspeed : 0
+    var actualheight = ''
+    function scrollmarquee() {
+        if (parseInt(cross_marquee.style.top) > (actualheight * (-1) + 8))
+            cross_marquee.style.top = parseInt(cross_marquee.style.top) - copyspeed + "px"
+        else
+            cross_marquee.style.top = parseInt(marqueeheight) + 8 + "px"
+    }
+    function initializemarquee() {
+        cross_marquee = document.getElementById("vmarquee")
+        cross_marquee.style.top = 0
+        marqueeheight = document.getElementById("news_section_main").offsetHeight
+        actualheight = cross_marquee.offsetHeight
+        if (window.opera || navigator.userAgent.indexOf("Netscape/7") != -1) {
+            cross_marquee.style.height = marqueeheight + "px"
+            cross_marquee.style.overflow = "scroll"
+            return
+        }
+        setTimeout('lefttime=setInterval("scrollmarquee()",30)', delayb4scroll)
+    }
+    if (window.addEventListener)
+        window.addEventListener("load", initializemarquee, false)
+    else if (window.attachEvent)
+        window.attachEvent("onload", initializemarquee)
+   
+</script>
+<!--else if (document.getElementById)
+        window.onload = initializemarquee-->
+<script src="../js/nav.jquery.min.js"></script>
+<script>    $(function() {
+        $('nav').nav();
+    }); 
+    </script>
+<script src="../js/CopyID.js"></script>
+<script type="text/javascript">
+$( document ).ready(function() {
+	
+	
+(function(f){f.fn.marquee=function(x){return this.each(function(){var a=f.extend({},f.fn.marquee.defaults,x),b=f(this),c,h,t,u,k,e=3,y="animation-play-state",n=!1,E=function(a,b,c){for(var e=["webkit","moz","MS","o",""],d=0;d<e.length;d++)e[d]||(b=b.toLowerCase()),a.addEventListener(e[d]+b,c,!1)},F=function(a){var b=[],c;for(c in a)a.hasOwnProperty(c)&&b.push(c+":"+a[c]);b.push();return"{"+b.join(",")+"}"},p={pause:function(){n&&a.allowCss3Support?c.css(y,"paused"):f.fn.pause&&c.pause();b.data("runningStatus",
+"paused");b.trigger("paused")},resume:function(){n&&a.allowCss3Support?c.css(y,"running"):f.fn.resume&&c.resume();b.data("runningStatus","resumed");b.trigger("resumed")},toggle:function(){p["resumed"==b.data("runningStatus")?"pause":"resume"]()},destroy:function(){clearTimeout(b.timer);b.find("*").andSelf().unbind();b.html(b.find(".js-marquee:first").html())}};if("string"===typeof x)f.isFunction(p[x])&&(c||(c=b.find(".js-marquee-wrapper")),!0===b.data("css3AnimationIsSupported")&&(n=!0),p[x]());else{var v;
+f.each(a,function(c,d){v=b.attr("data-"+c);if("undefined"!==typeof v){switch(v){case "true":v=!0;break;case "false":v=!1}a[c]=v}});a.speed&&(a.duration=a.speed*parseInt(b.width(),10));u="up"==a.direction||"down"==a.direction;a.gap=a.duplicated?parseInt(a.gap):0;b.wrapInner('<div class="js-marquee"></div>');var l=b.find(".js-marquee").css({"margin-right":a.gap,"float":"left"});a.duplicated&&l.clone(!0).appendTo(b);b.wrapInner('<div style="width:100000px" class="js-marquee-wrapper"></div>');c=b.find(".js-marquee-wrapper");
+if(u){var m=b.height();c.removeAttr("style");b.height(m);b.find(".js-marquee").css({"float":"none","margin-bottom":a.gap,"margin-right":0});a.duplicated&&b.find(".js-marquee:last").css({"margin-bottom":0});var q=b.find(".js-marquee:first").height()+a.gap;a.startVisible&&!a.duplicated?(a._completeDuration=(parseInt(q,10)+parseInt(m,10))/parseInt(m,10)*a.duration,a.duration*=parseInt(q,10)/parseInt(m,10)):a.duration*=(parseInt(q,10)+parseInt(m,10))/parseInt(m,10)}else k=b.find(".js-marquee:first").width()+
+a.gap,h=b.width(),a.startVisible&&!a.duplicated?(a._completeDuration=(parseInt(k,10)+parseInt(h,10))/parseInt(h,10)*a.duration,a.duration*=parseInt(k,10)/parseInt(h,10)):a.duration*=(parseInt(k,10)+parseInt(h,10))/parseInt(h,10);a.duplicated&&(a.duration/=2);if(a.allowCss3Support){var l=document.body||document.createElement("div"),g="marqueeAnimation-"+Math.floor(1E7*Math.random()),A=["Webkit","Moz","O","ms","Khtml"],B="animation",d="",r="";l.style.animation&&(r="@keyframes "+g+" ",n=!0);if(!1===
+n)for(var z=0;z<A.length;z++)if(void 0!==l.style[A[z]+"AnimationName"]){l="-"+A[z].toLowerCase()+"-";B=l+B;y=l+y;r="@"+l+"keyframes "+g+" ";n=!0;break}n&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s infinite "+a.css3easing,b.data("css3AnimationIsSupported",!0))}var C=function(){c.css("margin-top","up"==a.direction?m+"px":"-"+q+"px")},D=function(){c.css("margin-left","left"==a.direction?h+"px":"-"+k+"px")};a.duplicated?(u?a.startVisible?c.css("margin-top",0):c.css("margin-top","up"==a.direction?
+m+"px":"-"+(2*q-a.gap)+"px"):a.startVisible?c.css("margin-left",0):c.css("margin-left","left"==a.direction?h+"px":"-"+(2*k-a.gap)+"px"),a.startVisible||(e=1)):a.startVisible?e=2:u?C():D();var w=function(){a.duplicated&&(1===e?(a._originalDuration=a.duration,a.duration=u?"up"==a.direction?a.duration+m/(q/a.duration):2*a.duration:"left"==a.direction?a.duration+h/(k/a.duration):2*a.duration,d&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s "+a.css3easing),e++):2===e&&(a.duration=a._originalDuration,
+d&&(g+="0",r=f.trim(r)+"0 ",d=g+" "+a.duration/1E3+"s 0s infinite "+a.css3easing),e++));u?a.duplicated?(2<e&&c.css("margin-top","up"==a.direction?0:"-"+q+"px"),t={"margin-top":"up"==a.direction?"-"+q+"px":0}):a.startVisible?2===e?(d&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s "+a.css3easing),t={"margin-top":"up"==a.direction?"-"+q+"px":m+"px"},e++):3===e&&(a.duration=a._completeDuration,d&&(g+="0",r=f.trim(r)+"0 ",d=g+" "+a.duration/1E3+"s 0s infinite "+a.css3easing),C()):(C(),t={"margin-top":"up"==
+a.direction?"-"+c.height()+"px":m+"px"}):a.duplicated?(2<e&&c.css("margin-left","left"==a.direction?0:"-"+k+"px"),t={"margin-left":"left"==a.direction?"-"+k+"px":0}):a.startVisible?2===e?(d&&(d=g+" "+a.duration/1E3+"s "+a.delayBeforeStart/1E3+"s "+a.css3easing),t={"margin-left":"left"==a.direction?"-"+k+"px":h+"px"},e++):3===e&&(a.duration=a._completeDuration,d&&(g+="0",r=f.trim(r)+"0 ",d=g+" "+a.duration/1E3+"s 0s infinite "+a.css3easing),D()):(D(),t={"margin-left":"left"==a.direction?"-"+k+"px":
+h+"px"});b.trigger("beforeStarting");if(n){c.css(B,d);var l=r+" { 100%  "+F(t)+"}",p=c.find("style");0!==p.length?p.filter(":last").html(l):c.append("<style>"+l+"</style>");E(c[0],"AnimationIteration",function(){b.trigger("finished")});E(c[0],"AnimationEnd",function(){w();b.trigger("finished")})}else c.animate(t,a.duration,a.easing,function(){b.trigger("finished");a.pauseOnCycle?b.timer=setTimeout(w,a.delayBeforeStart):w()});b.data("runningStatus","resumed")};b.bind("pause",p.pause);b.bind("resume",
+p.resume);a.pauseOnHover&&b.bind("mouseenter mouseleave",p.toggle);n&&a.allowCss3Support?w():b.timer=setTimeout(w,a.delayBeforeStart)}})};f.fn.marquee.defaults={allowCss3Support:!0,css3easing:"linear",easing:"linear",delayBeforeStart:1E3,direction:"left",duplicated:!1,duration:5E3,gap:20,pauseOnCycle:!1,pauseOnHover:!1,startVisible:!1}})(jQuery);
+
+    console.log( "ready!" );
+	
+$('.marquee').marquee({
+    //speed in milliseconds of the marquee
+    duration: 20000,
+    //gap in pixels between the tickers
+    gap: 50,
+    //time in milliseconds before the marquee will start animating
+    delayBeforeStart: 0,
+    //'left' or 'right'
+    direction: 'left',
+    //true or false - should the marquee be duplicated to show an effect of continues flow
+    duplicated: false
+});
+});
+</script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+user-agent: *
+Allow: /
+Disallow: /*/*/vuelos#
+Disallow: /*/*/vols#
+Disallow: /*/*/voli#
+Disallow: /*/*/fluge#
+Disallow: /*/*/voos#
+Disallow: /*/*/vluchten#
+Disallow: /*/*/flights#
+Disallow: /*/*/client1#/
+Disallow: /*pdf$

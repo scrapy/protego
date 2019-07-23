@@ -1,0 +1,282 @@
+User-agent: *
+# Aurora rules
+# Don't index directories ending in -excl or containing the word private
+Disallow: /*-excl*
+Disallow: /*private*
+# don't index cgi scripts (or AuroraCGI associated files)
+Disallow: /cgi-bin/*
+Disallow: /*AuroraCGI*
+Disallow: /*cgi/out*
+# Don't index this site used for dev testing
+Disallow: /test/
+
+# Acquia rules
+
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /biographies/
+Disallow: /core/
+Disallow: /profiles/
+#Disallow: /programs/
+Disallow: /personalprofiles/
+Disallow: /siteinformation/
+Disallow: /admission/campus-life/our-campus/
+Disallow: /media/
+Disallow: /files/
+Disallow: /socialwork/display
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+#Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+#Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /*/index.php*
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips/
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password/
+Disallow: /index.php/user/register/
+Disallow: /index.php/user/login/
+Disallow: /index.php/user/logout/
+Disallow: /index.php*
+Disallow: https://case.edu/studentlife/services-info/*
+Disallow: https://case.edu/studentlife/departments-information/*
+
+# Allow dental and nursing here, to test the fix for index.php URLs
+Allow: /dental/index.php*
+Allow: /dental/*/index.php
+Allow: /nursing/index.php*
+Allow: /nursing/*/index.php
+
+# Sitemaps for Drupal sites, this list will grow as more sites launch
+Sitemap: https://case.edu/academic-careers/sitemap.xml
+Sitemap: https://case.edu/academicaffairs/sitemap.xml
+Sitemap: https://case.edu/access-services/sitemap.xml
+Sitemap: https://case.edu/accessibility/sitemap.xml
+Sitemap: https://case.edu/aces/sitemap.xml
+Sitemap: https://case.edu/studentlife/activities/sitemap.xml
+Sitemap: https://case.edu/administration/sitemap.xml
+Sitemap: https://case.edu/admission/sitemap.xml
+Sitemap: https://case.edu/advancementservices/sitemap.xml
+Sitemap: https://case.edu/alumni/sitemap.xml
+Sitemap: https://case.edu/medicine/anatomy/sitemap.xml
+Sitemap: https://case.edu/annualgiving/sitemap.xml
+Sitemap: https://case.edu/apn/sitemap.xml
+Sitemap: https://case.edu/assessment/sitemap.xml
+Sitemap: https://case.edu/auditservices/sitemap.xml
+Sitemap: https://case.edu/autism/sitemap.xml
+Sitemap: https://case.edu/medicine/basch-lab/sitemap.xml
+Sitemap: https://case.edu/socialwork/begun/sitemap.xml
+#Sitemap: https://case.edu/biochemistry/sitemap.xml
+Sitemap: https://case.edu/medicine/bioethics/sitemap.xml
+Sitemap: https://case.edu/bot/sitemap.xml
+Sitemap: https://case.edu/bulletin/sitemap.xml
+Sitemap: https://case.edu/business-continuity/sitemap.xml
+Sitemap: https://case.edu/medicine/caml/sitemap.xml
+Sitemap: https://case.edu/campusplanning/sitemap.xml
+Sitemap: https://case.edu/campusservices/sitemap.xml
+Sitemap: https://case.edu/cancer/sitemap.xml
+Sitemap: https://case.edu/medicine/ccir/sitemap.xml
+Sitemap: https://case.edu/medicine/cddrcc/sitemap.xml
+Sitemap: https://case.edu/centerforwomen/sitemap.xml
+Sitemap: https://case.edu/charitychoice/sitemap.xml
+Sitemap: https://case.edu/chslibrary/sitemap.xml
+Sitemap: https://case.edu/studentlife/civicengagement/sitemap.xml
+Sitemap: https://case.edu/medicine/cme/sitemap.xml
+Sitemap: https://case.edu/commencement/sitemap.xml
+Sitemap: https://case.edu/socialwork/communityinnovation/sitemap.xml
+Sitemap: https://case.edu/compliance/sitemap.xml
+Sitemap: https://case.edu/conduct/sitemap.xml
+Sitemap: https://case.edu/controller/sitemap.xml
+Sitemap: https://case.edu/cps/sitemap.xml
+Sitemap: https://case.edu/medicine/crsp/sitemap.xml
+Sitemap: https://case.edu/medicine/csb/sitemap.xml
+Sitemap: https://case.edu/medicine/ctsc/sitemap.xml
+Sitemap: https://case.edu/customerservice/sitemap.xml
+Sitemap: https://case.edu/medicine/cvri/sitemap.xml
+Sitemap: https://case.edu/datascience/sitemap.xml
+Sitemap: https://case.edu/dental/sitemap.xml
+Sitemap: https://case.edu/deputyprovost/sitemap.xml
+Sitemap: https://case.edu/medicine/dhri/sitemap.xml
+Sitemap: https://case.edu/dining/sitemap.xml
+Sitemap: https://case.edu/distance-care/sitemap.xml
+Sitemap: https://case.edu/diversity/sitemap.xml
+Sitemap: https://case.edu/donorrelations/sitemap.xml
+Sitemap: https://case.edu/drupaltraining/sitemap.xml
+Sitemap: https://case.edu/ech/sitemap.xml
+Sitemap: https://case.edu/ehs/sitemap.xml
+Sitemap: https://case.edu/emeriti/sitemap.xml
+Sitemap: https://case.edu/ems/sitemap.xml
+Sitemap: https://case.edu/enrollmentmanagement/sitemap.xml
+Sitemap: https://case.edu/entrepreneurship/sitemap.xml
+Sitemap: https://case.edu/erpfinancials/sitemap.xml
+Sitemap: https://case.edu/events/sitemap.xml
+Sitemap: https://case.edu/facilities/sitemap.xml
+Sitemap: https://case.edu/medicine/faculty-development-diversity/sitemap.xml
+Sitemap: https://case.edu/faculty-lifecycle/sitemap.xml
+Sitemap: https://case.edu/facultydevelopment/sitemap.xml
+Sitemap: https://case.edu/facultysenate/sitemap.xml
+Sitemap: https://case.edu/wellness/facultystaff/sitemap.xml
+Sitemap: https://case.edu/farm/sitemap.xml
+Sitemap: https://case.edu/finance/sitemap.xml
+Sitemap: https://case.edu/financialaid/sitemap.xml
+Sitemap: https://case.edu/financialplanning/sitemap.xml
+Sitemap: https://case.edu/firstyear/sitemap.xml
+Sitemap: https://case.edu/fisk/sitemap.xml
+Sitemap: https://case.edu/medicine/flex/sitemap.xml
+Sitemap: https://case.edu/studentlife/focus/sitemap.xml
+Sitemap: https://case.edu/fu-lab/sitemap.xml
+Sitemap: https://case.edu/generalcounsel/sitemap.xml
+Sitemap: https://case.edu/medicine/genetics/sitemap.xml
+Sitemap: https://case.edu/medicine/genomics/sitemap.xml
+Sitemap: https://case.edu/gfr/sitemap.xml
+Sitemap: https://case.edu/medicine/globalhealth/sitemap.xml
+Sitemap: https://case.edu/gradstudies/sitemap.xml
+Sitemap: https://case.edu/studentlife/graduate/sitemap.xml
+Sitemap: https://case.edu/studentlife/greek/sitemap.xml
+Sitemap: https://case.edu/studentlife/healthcounseling/sitemap.xml
+Sitemap: https://case.edu/medicine/healthintegration/sitemap.xml
+Sitemap: https://case.edu/housing/sitemap.xml
+Sitemap: https://case.edu/hr/sitemap.xml
+Sitemap: https://case.edu/ideal-n/sitemap.xml
+Sitemap: https://case.edu/inamori/sitemap.xml
+Sitemap: https://case.edu/industry/sitemap.xml
+Sitemap: https://case.edu/international/sitemap.xml
+#Sitemap: https://case.edu/internationalrankings/sitemap.xml
+Sitemap: https://case.edu/investments/sitemap.xml
+Sitemap: https://case.edu/ipe/sitemap.xml
+Sitemap: https://case.edu/ir/sitemap.xml
+Sitemap: https://case.edu/medicine/keri-lab/sitemap.xml
+Sitemap: https://case.edu/library/sitemap.xml
+Sitemap: https://case.edu/launchnet/sitemap.xml
+#Sitemap: https://case.edu/law/sitemap.xml
+#Sitemap: https://case.edu/lgbt/sitemap.xml
+Sitemap: https://case.edu/lifelonglearning/sitemap.xml
+Sitemap: https://case.edu/livestream/sitemap.xml
+Sitemap: https://case.edu/maltzcenter/sitemap.xml
+Sitemap: https://case.edu/medicine/manor-lab/sitemap.xml
+Sitemap: https://case.edu/medicine/mcintyre-lab/sitemap.xml
+Sitemap: https://case.edu/medicine/sitemap.xml
+Sitemap: https://case.edu/mem/sitemap.xml
+Sitemap: https://case.edu/medicine/microbio/sitemap.xml
+#Sitemap: https://case.edu/militaryethics/sitemap.xml
+Sitemap: https://case.edu/medicine/msa-program/sitemap.xml
+Sitemap: https://case.edu/medicine/msc/sitemap.xml
+Sitemap: https://case.edu/studentlife/multicultural/sitemap.xml
+Sitemap: https://case.edu/mwsdb/sitemap.xml
+Sitemap: https://case.edu/medicine/ncrm/sitemap.xml
+Sitemap: https://case.edu/medicine/neurosciences/sitemap.xml
+Sitemap: https://case.edu/medicine/neurosurgery/sitemap.xml
+Sitemap: https://case.edu/socialwork/nimc/sitemap.xml
+Sitemap: https://case.edu/noa-agep/sitemap.xml
+Sitemap: https://case.edu/nordgreenway/sitemap.xml
+Sitemap: https://case.edu/nursing/sitemap.xml
+Sitemap: https://case.edu/medicine/nutrition/sitemap.xml
+Sitemap: https://case.edu/onetoone/sitemap.xml
+Sitemap: https://case.edu/online-learning/sitemap.xml
+Sitemap: https://case.edu/parking/sitemap.xml
+Sitemap: https://case.edu/medicine/pathology/sitemap.xml
+Sitemap: https://case.edu/medicine/pbrn/sitemap.xml
+Sitemap: https://case.edu/pdc/sitemap.xml
+Sitemap: https://case.edu/medicine/pharmacology/sitemap.xml
+Sitemap: https://case.edu/medicine/physician-assistant/sitemap.xml
+Sitemap: https://case.edu/policies/sitemap.xml
+Sitemap: https://case.edu/postdoc/sitemap.xml
+#Sitemap: https://case.edu/postgrad/sitemap.xml
+Sitemap: https://case.edu/socialwork/povertycenter/sitemap.xml
+#Sitemap: https://case.edu/president/sitemap.xml
+Sitemap: https://case.edu/medicine/prime/sitemap.xml
+Sitemap: https://case.edu/printing/sitemap.xml
+Sitemap: https://case.edu/procurement/sitemap.xml
+Sitemap: https://case.edu/provost/sitemap.xml
+Sitemap: https://case.edu/provostscholars/sitemap.xml
+Sitemap: https://case.edu/publicsafety/sitemap.xml
+Sitemap: https://case.edu/medicine/qil/sitemap.xml
+Sitemap: https://case.edu/medicine/radiation-oncology/sitemap.xml
+Sitemap: https://case.edu/medicine/radiology/sitemap.xml
+Sitemap: https://case.edu/realestate/sitemap.xml
+Sitemap: https://case.edu/registrar/sitemap.xml
+Sitemap: https://case.edu/medicine/reproductive-biology/sitemap.xml
+Sitemap: https://case.edu/research/sitemap.xml
+Sitemap: https://case.edu/studentlife/residence/sitemap.xml
+Sitemap: https://case.edu/resource-tech/sitemap.xml
+#Sitemap: https://case.edu/rnacenter/sitemap.xml
+Sitemap: https://case.edu/medicine/robbins-bridge/sitemap.xml
+Sitemap: https://case.edu/sac/sitemap.xml
+Sitemap: https://case.edu/seniorauditprogram/sitemap.xml
+Sitemap: https://case.edu/socialjustice/sitemap.xml
+Sitemap: https://case.edu/socialwork/sitemap.xml
+Sitemap: https://case.edu/source/sitemap.xml
+Sitemap: https://case.edu/srhc/sitemap.xml
+Sitemap: https://case.edu/studentaccounts/sitemap.xml
+Sitemap: https://case.edu/studentlife/sitemap.xml
+Sitemap: https://case.edu/studentsuccess/sitemap.xml
+Sitemap: https://case.edu/summerprograms/sitemap.xml
+Sitemap: https://case.edu/sustainability/sitemap.xml
+Sitemap: https://case.edu/swetland/sitemap.xml
+Sitemap: https://case.edu/medicine/tbru/sitemap.xml
+Sitemap: https://case.edu/thinkbig/sitemap.xml
+Sitemap: https://case.edu/studentlife/thwing/sitemap.xml
+Sitemap: https://case.edu/title-ix/sitemap.xml
+Sitemap: https://case.edu/tobaccofree/sitemap.xml
+Sitemap: https://case.edu/training/sitemap.xml
+Sitemap: https://case.edu/socialwork/traumacenter/sitemap.xml
+Sitemap: https://case.edu/travel/sitemap.xml
+Sitemap: https://case.edu/treasurer/sitemap.xml
+Sitemap: https://case.edu/ucite/sitemap.xml
+Sitemap: https://case.edu/ugstudies/sitemap.xml
+Sitemap: https://case.edu/medicine/uhsurgery/sitemap.xml
+Sitemap: https://case.edu/umc/sitemap.xml
+Sitemap: https://case.edu/universitycenter/sitemap.xml
+Sitemap: https://case.edu/universityprofessor/sitemap.xml
+Sitemap: https://case.edu/medicine/urbanhealth/sitemap.xml
+Sitemap: https://case.edu/utech/sitemap.xml
+Sitemap: https://case.edu/medicine/uhsurgery/vascular/sitemap.xml
+Sitemap: https://case.edu/wcms/sitemap.xml
+Sitemap: https://case.edu/wellness/sitemap.xml
+Sitemap: https://case.edu/medicine/wellness-pathway/sitemap.xml
+Sitemap: https://case.edu/womenintech/sitema: xml

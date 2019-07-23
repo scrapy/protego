@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /config/
+Disallow: /draftforms/
+Disallow: /e-services/
+Disallow: /lib/
+Disallow: /new/
+Disallow: /renew/
+Disallow: /volunteer/
+Disallow: /z-test/
+Disallow: /taxsummit/save-the-date.htm
+Disallow: /e-services/training/preparer/individuals2019-4.htm
+Disallow: /e-services/training/preparer/individuals2019-16.htm
+Sitemap: https://www.tax.ny.gov/sitemap.xml

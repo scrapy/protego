@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /*.json
+Disallow: /*.xml
+Disallow: /*.php
+Disallow: /*.vcf
+Disallow: /*.qr
+Disallow: /accounts/activate/*
+Disallow: /accounts/force-by-email/*
+Disallow: /account/

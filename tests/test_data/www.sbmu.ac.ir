@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /useruploads
+Disallow: /useruploads/*.gif$
+Disallow: /useruploads/*.jpg$
+Disallow: /useruploads/*.png$
+
+Disallow: /SiteDirectory/*

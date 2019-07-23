@@ -1,0 +1,9 @@
+user-agent: *
+disallow: /ajax/
+disallow: /search/
+disallow: /monitor/home-base
+disallow: /search
+disallow: /search?=
+sitemap: https://www.9news.com/sitemap.xml
+sitemap: https://www.9news.com/feeds/googlenews
+sitemap: https://www.9news.com/feeds/googlevideos

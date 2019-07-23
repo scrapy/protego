@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /supernav
+Disallow: /graduate/bio/
+Disallow: /graduate/event/
+Disallow: /graduate/events/
+Disallow: /bachelors-completion/bio/
+Disallow: /bachelors-completion/events/

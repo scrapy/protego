@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /myvocabulary.php
+
+User-agent: msnbot 
+Crawl-delay: 1

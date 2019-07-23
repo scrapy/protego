@@ -1,0 +1,13 @@
+User-Agent: *
+Disallow: /Search/
+Disallow: /_layouts/
+Disallow: /ReusableContent/
+Disallow: /Reports%20List/
+Disallow: /WorkflowTasks/
+Disallow: /SiteCollectionDocuments/
+Disallow: /SiteCollectionImages/
+Disallow: /Documents/Forms/
+Disallow: /Pages/Forms/
+Disallow: /university-catalog-archive/
+
+Sitemap: https://www.depaul.edu/sitemap.xml

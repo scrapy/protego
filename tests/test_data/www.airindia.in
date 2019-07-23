@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sorry for the inconvenience.</title>
+<style type="text/css">
+* {padding:0; margin:0;}
+html, body {min-height:100%; height:100%;}
+body {background:#f8f8f8 url(images/error-bg.gif) left bottom repeat-x; font-family:Tahoma, Geneva, sans-serif; font-size:16px; color:#333;}
+.buttonGo { background:url(Images/f-button.gif)  repeat-x scroll left top transparent; width:183px; height:43px;color:White; display:inline-block; text-indent:-9999px;  float:left;}
+</style>
+
+<script>!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();</script>
+<script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,o,r,O=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);O.src="javascript:void(0)",O.title="",O.role="presentation",(O.frameElement||O).style.cssText="width:0;height:0;border:0;display:none;",r=document.getElementsByTagName("script")[0],r.parentNode.insertBefore(O,r);try{o=O.contentWindow.document}catch(_){i=document.domain,O.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=O.contentWindow.document}o.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"QVSFR-5UXUC-PG6HW-PE845-EJ8W2",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="m5mnu3okj3x3axjweoxa-f-bc53112cb-clientnsv4-s.akamaihd.net",i={"ak.v":20,"ak.cp":"587100","ak.ai":parseInt("412366",10),"ak.ol":"0","ak.cr":3,"ak.ipv":4,"ak.proto":"","ak.rid":"3133f7ab","ak.r":21665,"ak.a2":e,"ak.m":"r","ak.n":"ff","ak.bpcip":"103.88.218.0","ak.cport":50476,"ak.gh":"202.78.239.172","ak.quicv":"","ak.tlsv":"UNKNOWN","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1563829166"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))i["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center" valign="top" style="background:url(Images/top-striep.gif) center top no-repeat; height:60px;">
+        &nbsp;</td>
+  </tr>
+  <tr>
+    <td align="center" valign="top"><table width="968" border="0" cellspacing="0" cellpadding="0" style="margin:0 auto;">
+      <tr>
+        <td height="10" valign="top"><img src="images/box-top.gif" width="968" height="10" alt="" /></td>
+      </tr>
+      <tr>
+        <td style="background:url(Images/box-middle.gif) left top repeat-y;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td height="40" valign="top">&nbsp;</td>
+            <td align="center" valign="top">&nbsp;</td>
+          </tr>
+          <tr>
+            <td width="6%" valign="top">&nbsp;</td>
+            <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="100" align="left" valign="top"><a href="index.htm"><img src="Images/logo.png" height="50" width="192"  alt="Air India" title="Air India" border="0" /></a></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <span style="font-size:22px; color:#cfcfcf; font-weight:bold;">Sorry for the inconvenience.</span></td>
+              </tr>
+              <tr>
+                <td height="15" align="left" valign="top"></td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" style="font-family:Arial, Helvetica, sans-serif; line-height:22px;">It seems that the page you were trying to reach doesn't exist anymore, or maybe it has just moved.</td>
+              </tr>
+              <tr>
+                <td height="20" align="left" valign="top">&nbsp;</td>
+              </tr>
+              <tr>
+                <td align="left" valign="top" height="43"><a href="index.htm"  title="Back to Home">Go to Home</a></td>
+              </tr>
+            </table></td>
+            <td width="38%" align="center" valign="bottom" style="padding-bottom:20px;"><img src="Images/plane-port-a-321-img.jpg"  height="188" width="243" alt="" /></td>
+          </tr>
+          <tr>
+            <td valign="top">&nbsp;</td>
+            <td height="40" valign="top">&nbsp;</td>
+            <td align="center" valign="top">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="10"><img src="Images/box-bottom.gif" width="968" height="10" alt="" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">&nbsp;</td>
+  </tr>
+</table>
+
+
+</body>
+</html>

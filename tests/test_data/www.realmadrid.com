@@ -1,0 +1,14 @@
+User-agent: * 
+Disallow: /StaticFiles/
+Allow: /StaticFiles/RealMadridResponsive/
+Allow: /StaticFiles/Media/
+Allow: /StaticFiles/RealMadridOAS/
+Allow: /StaticFiles/RealMadrid/directo/statics 
+Disallow: /*rendermode
+Disallow: /articulo
+Disallow: /web_realmadrid
+Disallow: /estaticos
+Disallow: /*pagename=RealMadridRadio*
+Disallow: /cs/Satellite/Radio/es/Home.htm
+Disallow: /*site=RealMadridRadio*
+Sitemap: https://www.realmadrid.com/sitemap.xml

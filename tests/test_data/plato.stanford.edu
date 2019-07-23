@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /archives/
+Disallow: /cgi-bin/
+Disallow: /diffs/
+Disallow: /inc/
+Disallow: /referer/
+Disallow: /tmp/
+Disallow: /usage/
+Disallow: /wwwstat/
+Disallow: /search/
+Disallow: /perl/
+
+User-Agent: ia_archiver
+Disallow: /
+
+User-Agent: W3C-checklink
+Disallow:

@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+# Sitemap archive
+Sitemap: https://www.scarymommy.com/sitemap-200.xml
+Sitemap: https://www.scarymommy.com/sitemap-1970.xml
+Sitemap: https://www.scarymommy.com/sitemap-1990.xml
+Sitemap: https://www.scarymommy.com/sitemap-1995.xml
+Sitemap: https://www.scarymommy.com/sitemap-1997.xml
+Sitemap: https://www.scarymommy.com/sitemap-1999.xml
+Sitemap: https://www.scarymommy.com/sitemap-2000.xml
+Sitemap: https://www.scarymommy.com/sitemap-2001.xml
+Sitemap: https://www.scarymommy.com/sitemap-2002.xml
+Sitemap: https://www.scarymommy.com/sitemap-2004.xml
+Sitemap: https://www.scarymommy.com/sitemap-2005.xml
+Sitemap: https://www.scarymommy.com/sitemap-2006.xml
+Sitemap: https://www.scarymommy.com/sitemap-2007.xml
+Sitemap: https://www.scarymommy.com/sitemap-2008.xml
+Sitemap: https://www.scarymommy.com/sitemap-2009.xml
+Sitemap: https://www.scarymommy.com/sitemap-2010.xml
+Sitemap: https://www.scarymommy.com/sitemap-2011.xml
+Sitemap: https://www.scarymommy.com/sitemap-2012.xml
+Sitemap: https://www.scarymommy.com/sitemap-2013.xml
+Sitemap: https://www.scarymommy.com/sitemap-2014.xml
+Sitemap: https://www.scarymommy.com/sitemap-2015.xml
+Sitemap: https://www.scarymommy.com/sitemap-2016.xml
+Sitemap: https://www.scarymommy.com/sitemap-2017.xml
+Sitemap: https://www.scarymommy.com/sitemap-2018.xml
+Sitemap: https://www.scarymommy.com/sitemap-2019.xml
+

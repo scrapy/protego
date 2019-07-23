@@ -1,0 +1,15 @@
+# Puppet: modules/web/files/pages/www.uta.edu/robots.txt
+#
+# $Id: robots.txt 45808 2019-04-22 19:49:18Z hoang $
+#
+User-agent: *
+Disallow: /faculty/
+Disallow: /cgi-bin/
+Disallow: /oit/systems/testzone/
+Disallow: /maverickdiscounts/discounts/
+Disallow: /WebBBS/
+Disallow: /studentaffairs/nso-data/
+Disallow: /testzone/ 
+Disallow: /ucomm/collegetown/coupons/
+Disallow: /webdav/
+Disallow: /webstats/

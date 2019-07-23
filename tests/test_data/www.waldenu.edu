@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /default
+Disallow: /fulfillment
+Disallow: /downloads
+Disallow: /thank-you/
+Disallow: /success
+Disallow: /pages
+Disallow: /default%20settings
+Disallow: /layouts
+Disallow: /sitecore/
+Disallow: /404?*
+Disallow: /(.|\\n){0,256}$
+Disallow: /c/Files/
+Disallow: /?*
+Sitemap: https://www.waldenu.edu/sitemap.xml
+Sitemap: https://www.waldenu.edu/sitemap-video.xml
+Sitemap: https://www.waldenu.edu/facultyprofiles.xml

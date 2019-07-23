@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /gmap.php
+Disallow: /de/unternehmen-vorschlagen/
+Disallow: /ru/predlozhenija-kompanii/
+Disallow: /fr/propositions-entreprise/
+Disallow: /es/propuestas-de-la-empresa/
+Disallow: /pl/propozycje-firm/
+Disallow: /cn/company-proposals/
+Disallow: /security.php
+Disallow: /redirect/
+Disallow: /en/redirect/
+Disallow: /de/redirect/
+Disallow: /ru/redirect/
+Disallow: /fr/redirect/
+Disallow: /es/redirect/
+Disallow: /pl/redirect/
+Disallow: /cn/redirect/
+Disallow: /imone/profitus_old/
+Disallow: /imone/geodomas_300819554/
+Disallow: /paieskos-frazes/UAB+GEODOMAS/
+
+User-agent: Googlebot-Image
+Disallow: /timages/*.gif$

@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /servlet/
+Disallow: /data/
+Disallow: /orgimg/
+Disallow: /extern/
+Disallow: /en/
+Disallow: /routenplaner/via/
+Disallow: /routenplaner/von/
+Disallow: /routenplaner/nach/
+Disallow: /routenplaner/stadtplan/
+Disallow: /meinherold/
+Disallow: /newsletter/
+Disallow: /fileadmin/
+Disallow: /cms/apps/
+Disallow: /*/removeFilter/
+Disallow: /bewertungen/clickCompanyEmoji.json
+Disallow: /bewertungen/melden/
+Disallow: /bewertungen/admin/
+Disallow: /FS/profile/
+
+User-agent: AhrefsBot
+Disallow: /
+
+Sitemap: https://www.herold.at/ypdetails/yp-detailpages-index.xml
+Sitemap: https://www.herold.at/herold-sitemap-index.xml

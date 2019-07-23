@@ -1,0 +1,35 @@
+User-agent: *
+
+Disallow: *.axd
+Disallow: *email
+Disallow: /AmazonCloudPlayer
+Disallow: /AmazonCloudPlayerBeta
+Disallow: /amazonmusic
+Disallow: /amazonmusicemea
+Disallow: /b2b
+Disallow: /contact2/
+Disallow: /email-signup
+Disallow: /handlers/checksigninstatus.ashx
+Disallow: /handlers/shoppingcart.ashx
+Disallow: /hotelradio.fm
+Disallow: /inapp/
+Disallow: /moduleHandler.ashx
+Disallow: /monitoring/
+Disallow: /myaccount
+Disallow: /pdfs/
+Disallow: /pt-br/
+Disallow: /services.ashx
+Disallow: /support/inapp/feedback
+Disallow: /support/stores
+Disallow: /tools/
+Disallow: /widgets/
+Disallow: /GiftCert-Purchase
+Disallow: /GiftCert-Edit
+Noindex: *support/help
+Noindex: *support/productguide
+Noindex: /cart
+Noindex: /faqredirects/
+Noindex: /static/
+Noindex: /support/assist
+
+Sitemap:  https://www.sonos.com/sitemap.xml

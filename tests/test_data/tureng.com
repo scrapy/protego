@@ -1,0 +1,16 @@
+User-agent: *
+Disallow: /*%01*
+Disallow: /*%02*
+Disallow: /*%03*
+Disallow: /*%04*
+Disallow: /*%05*
+Disallow: /*%06*
+Disallow: /*%07*
+Disallow: /*%08*
+Disallow: /*%09*
+Disallow: /*%0A*
+Disallow: /*%0B*
+Disallow: /*%0C*
+Disallow: /*%0D*
+Disallow: /*%0E*
+Disallow: /*%0F*

@@ -1,0 +1,21 @@
+# robots.txt for CT
+User-agent: *
+Crawl-delay: 10
+Disallow: /en/robots
+
+# Search Results
+Disallow: /content/canadian-tire/en/search-results
+Disallow: /content/canadian-tire/fr/search-results
+Disallow: /content/canadian-tire/en/selector-tool-results
+Disallow: /content/canadian-tire/fr/selector-tool-results
+Disallow: /en/search-results
+Disallow: /fr/search-results
+Disallow: /en/selector-tool-results
+Disallow: /fr/selector-tool-results
+
+Disallow: /*jsessionid
+
+
+# Sitemap files
+Sitemap:https://www.canadiantire.ca/sitemap_index.xml
+

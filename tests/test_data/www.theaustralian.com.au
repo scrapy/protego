@@ -1,0 +1,16 @@
+#Agent Specific Disallowed Sections
+
+User-agent: *
+
+Disallow: /*/comments-*
+Disallow: /*SIT*
+Disallow: /*.swf
+Disallow: /printpage/
+Disallow: /archive/
+Disallow: /tablet-t3/
+Disallow: /enewsletters/
+Disallow: /newsnetwork/
+Disallow: /news/*/collection/*
+
+Sitemap: https://www.theaustralian.com.au/sitemap.xml
+Sitemap: https://www.theaustralian.com.au/news-sitemap.xml

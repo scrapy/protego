@@ -1,0 +1,87 @@
+User-agent: * 
+Allow: /
+Disallow: /404-not-found
+Disallow: /404-file-removed
+Disallow: /404
+Disallow: /404-page-archived
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /elc-qualifications/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /level-1-2-awards/configuration
+Disallow: 
+Disallow: /subjects/stem/configuration
+Disallow: 
+Disallow: /about-us/what-we-do/policy/gcse-and-a-level-changes/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /subjects/government-and-politics/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /technical-awards/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /subjects/business/gcse/configuration
+Disallow: 
+Disallow: 
+Disallow: /draft-specifications-for-first-teaching-in-september-2017/configuration
+Disallow: /subjects/classical-civilisation/configuration
+Disallow: /applied-general/configuration
+Disallow: 
+Disallow: /tech-levels/configuration
+Disallow: /contact-us/configuration
+Disallow: /subjects/performing-arts/configuration
+Disallow: 
+Disallow: 
+Disallow: /home/configuration
+Disallow: 
+Disallow: 
+Disallow: /subjects/philosophy/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /about-us/eat-soup-with-a-fork/configuration
+Disallow: 
+Disallow: /subjects/art-and-design/art-and-design-the-aqa-difference/configuration
+Disallow: /exams-administration/configuration
+Disallow: /programmes/unit-award-scheme/configuration
+Disallow: /home/featureboxconfiguration
+Disallow: /subjects/projects/configuration
+Disallow: 
+Disallow: /professional-development/configuration
+Disallow: 
+Disallow: /subjects/archaeology/configuration
+Disallow: /subjects/law/configuration
+Disallow: /subjects/health-and-social-care/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /subjects/media-studies/configuration
+Disallow: /subjects/childrens-learning-and-development/configuration
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: 
+Disallow: /exams-administration/exams-administration-updates/configuration

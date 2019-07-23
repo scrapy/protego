@@ -1,0 +1,99 @@
+User-agent: discoverybot*
+Disallow: /
+User-agent: Atomic_Email_Hunter*
+disallow: /
+User-agent: SiteBot*
+disallow: /
+User-agent: Larbin* 
+disallow: /
+User-agent: Nutch*
+disallow: /
+User-agent: Libwww* 
+disallow: /
+User-agent: AhrefsBot*
+disallow: /
+User-agent: Java/1.7.0_04
+User-agent: Java/1.6.6_26
+User-agent: Java/1.6.6_26
+disallow: /
+User-agent: CFNetwork*
+disallow: /
+User-agent: PaperLiBot
+disallow: /
+User-agent: Xenu Link Sleuth 
+disallow: /
+User-agent: slurp
+Crawl-delay: 60 
+User-agent: *
+Crawl-delay: 1 
+User-agent: *
+Disallow: /courses/course-navigator.cfm
+Disallow: /alumn-files/
+Disallow: /new-and-events-files/
+Disallow: /fan-only-files/
+Disallow: /sabs/
+Disallow: /ehl/
+Disallow: /science_engineering/
+Disallow: /sohs/
+Disallow: /nursing/
+Disallow: /ehl/elearning-files/
+Disallow: /science_engineering/science-21-files/
+Disallow: /student-systems-files/
+Disallow: /commercial-partners-files/
+Disallow: /directory/main-display-search-results.cfm
+Disallow: /directory/main-display-staff-info.cfm
+Disallow: /flindersone/
+Disallow: /achieving2025/
+Disallow: /building/
+Disallow: /courses/
+Disallow: /courses/rules-2010/
+Disallow: /courses/rules-2011/
+Disallow: /courses/rules-2012/
+Disallow: /courses/rules-2013/
+Disallow: /courses/rules-2014/
+Disallow: /courses/rules-2015/
+Disallow: /courses/rules-2016/
+Disallow: /courses/rules-2017/
+Disallow: /courses/rules-2018/
+Disallow: /restricted/
+Disallow: /staffdev/
+Disallow: /flinpress
+Disallow: admin.cfm
+Disallow: /fms/images/surveymonkey/
+Disallow: /CFIDE/
+Disallow: /3cr0f1p/
+Disallow: /search/search.cfm
+Disallow: /staffdev/index.php/calendars/
+Disallow: admin.cfm
+Disallow: /courses/transition/
+Disallow: /staff/newindex.cfm*
+Disallow: /staff/newindex.cfm
+Disallow: /directory/
+Disallow: /migration/
+Disallow: /flinders/migration/
+Disallow: /sabs/migration/
+Disallow: /kokotinna/
+Disallow: /ehlt/
+Disallow: /employment/pdf/
+Disallow: /courses/ugrad/
+Disallow: /calendar/
+Disallow: _fms_recycle
+Disallow: /cms-training/
+Disallow: /flinders/cms-training/
+Disallow: /flinders-static/
+Allow:/apps/no_ide/staffpages/links.cfm
+Disallow: /cgi*
+User-agent: Googlebot
+Allow: /staff/
+Allow: /directory/
+User-agent: *
+Disallow: /app_templates/
+Disallow: /directory/
+Disallow:/international-students/study/international-office/country-and-regional-profiles.cfm
+Disallow:/lang/ch
+Disallow:/lang/ind
+Disallow:/lang/po 
+Disallow:/lang/s
+Disallow:/lang/sp
+Disallow:/lang/th
+Disallow:/lang/vn

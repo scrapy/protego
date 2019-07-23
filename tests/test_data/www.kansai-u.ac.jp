@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /Fc_soc/column_student/
+Disallow: /Fc_soc/column_seminar/
+Disallow: /Fc_soc/sociology/seminar.html
+Disallow: /Fc_soc/psychology/seminar.html
+Disallow: /Fc_soc/media/seminar.html
+Disallow: /Fc_soc/social_system_design/seminar.html
+Disallow: /Fc_soc/summary/placement.html

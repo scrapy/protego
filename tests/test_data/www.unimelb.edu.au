@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /home-new/
+Disallow: /design/
+Disallow: /staffdev/
+Disallow: /__data/assets/word_doc/0011/2070866/Privacy-Impact-Assessment-Template-V8-Oct-2017.docx
+Disallow: /_assets/
+Disallow: /templates/
+Disallow: /template-assets/
+Disallow: /template-assets-custom/
+Disallow: /templates-stuff/
