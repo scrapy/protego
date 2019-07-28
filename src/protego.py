@@ -7,7 +7,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-Rule = namedtuple('Rule', ['field', 'value', 'priority'])
+Rule = namedtuple('Rule', ['field', 'value'])
 RequestRate = namedtuple(
     'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
 
@@ -20,6 +20,55 @@ REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
 HOST_DIRECTIVE = {'host'}
 
 __all__ = ['RequestRate', 'Protego']
+
+
+class _URLPattern(object):
+    def __init__(self, pattern):
+        self._pattern = pattern
+        self.priority = len(pattern)
+        self._contains_asterisk = '*' in self._pattern
+        self._contains_dollar = self._pattern.endswith('$')
+
+        if self._contains_asterisk:
+            self._pattern_before_asterisk = self._pattern[:self._pattern.find('*')]
+        elif self._contains_dollar:
+            self._pattern_before_dollar = self._pattern[:-1]
+
+        self._pattern_compiled = False
+
+    def match(self, url):
+        """Retun True if pattern matches the given URL, otherwise return False."""
+        # check if pattern is already compiled
+        if self._pattern_compiled:
+            return self._pattern.match(url)
+
+        if not self._contains_asterisk:
+            if not self._contains_dollar:
+                # answer directly for patterns without wildcards
+                return url.startswith(self._pattern)
+
+            # pattern only contains $ wildcard.
+            return url.startswith(self._pattern_before_dollar) and len(url) == len(self._pattern_before_dollar)
+
+        if not url.startswith(self._pattern_before_asterisk):
+            return False
+
+        self._pattern = self._prepare_pattern_for_regex(self._pattern)
+        self._pattern = re.compile(self._pattern)
+        self._pattern_compiled = True
+        return self._pattern.match(url)
+
+    def _prepare_pattern_for_regex(self, pattern):
+        """Return equivalent regex pattern for the given URL pattern."""
+        pattern = re.sub(r'\*+', '*', pattern)
+        s = re.split(r'([$*])', pattern)
+        for index, substr in enumerate(s):
+            if substr not in ['*', '$']:
+                s[index] = re.escape(substr)
+            else:
+                s[index] = s[index].replace('*', '.*')
+        pattern = ''.join(s)
+        return pattern
 
 
 class _RuleSet(object):
@@ -67,37 +116,23 @@ class _RuleSet(object):
         return path
 
     def allow(self, pattern):
-        regex_obj = re.compile(self._prepare_pattern(pattern))
-        self._rules.append(Rule(field='allow', value=regex_obj, priority=len(pattern)))
+        pattern = self._quote_path(pattern, safe='/*$')
+        if not pattern:
+            return
+        self._rules.append(Rule(field='allow', value=_URLPattern(pattern)))
 
         # If index.html is allowed, we interpret this as / being allowed too.
         if pattern.endswith('/index.html'):
             self.allow(pattern[:-10] + '$')
 
-        # Sort rules based on length. If two disallow & allow rules have same
-        # length, allow rule is prioritised.
-        self._rules.sort(key=lambda r: (r.priority, r.field == 'allow'), reverse=True)
-
     def disallow(self, pattern):
-        regex_obj = re.compile(self._prepare_pattern(pattern))
-        self._rules.append(Rule(field='disallow', value=regex_obj, priority=len(pattern)))
-
-        # Sort rules based on length. If two disallow & allow rules have same
-        # length, allow rule is prioritised.
-        self._rules.sort(key=lambda r: (r.priority, r.field == 'allow'), reverse=True)
-
-    def _prepare_pattern(self, pattern):
-        """Return True if pattern matches the URL, otherwise return False."""
         pattern = self._quote_path(pattern, safe='/*$')
-        pattern = re.sub(r'\*+', '*', pattern)
-        s = re.split(r'([$*])', pattern)
-        for index, substr in enumerate(s):
-            if substr not in ['*', '$']:
-                s[index] = re.escape(substr)
-            else:
-                s[index] = s[index].replace('*', '.*')
-        pattern = ''.join(s)
-        return pattern
+        if not pattern:
+            return
+        self._rules.append(Rule(field='disallow', value=_URLPattern(pattern)))
+
+    def finalize_rules(self):
+        self._rules.sort(key=lambda r: (r.value.priority, r.field == 'allow'), reverse=True)
 
     def can_fetch(self, url):
         """Return if the url can be fetched."""
@@ -121,8 +156,8 @@ class _RuleSet(object):
             delay = float(delay)
         except ValueError:
             # Value is malformed, do nothing.
-            logger.debug("Malformed rule at line {} : cannot set crawl delay to '{}'."
-                         " Ignoring this rule.".format(self._parser_instance._total_line_seen, delay))
+            logger.debug("Malformed rule at line {} : cannot set crawl delay to '{}'. "
+                         "Ignoring this rule.".format(self._parser_instance._total_line_seen, delay))
             return
 
         self._crawl_delay = delay
@@ -160,8 +195,8 @@ class _RuleSet(object):
                 end_time = time(int(end_time[:2]), int(end_time[-2:]))
         except Exception:
             # Value is malformed, do nothing.
-            logger.debug("Malformed rule at line {} : cannot set request rate using '{}'."
-                         " Ignoring this rule.".format(self._parser_instance._total_line_seen, value))
+            logger.debug("Malformed rule at line {} : cannot set request rate using '{}'. "
+                         "Ignoring this rule.".format(self._parser_instance._total_line_seen, value))
             return
 
         self._req_rate = RequestRate(requests, seconds, start_time, end_time)
@@ -179,7 +214,7 @@ class Protego(object):
         # A list of sitemaps specified in the robots.txt
         self._sitemap_list = []
 
-        # A memoization table mapping user agents (used in queries) to matching rule sets.
+        # A memoization table mapping user agents (used in queries) to matched rule sets.
         self._matched_rule_set = {}
 
         self._total_line_seen = 0
@@ -286,6 +321,9 @@ class Protego(object):
                 self._invalid_directive_seen += 1
 
             previous_rule_field = field
+
+        for user_agent in self._user_agents.values():
+            user_agent.finalize_rules()
 
     def _get_matching_rule_set(self, user_agent):
         """Return the rule set with highest matching score."""
