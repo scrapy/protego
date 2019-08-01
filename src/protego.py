@@ -19,10 +19,14 @@ CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
 REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
 HOST_DIRECTIVE = {'host'}
 
+WILDCARDS = {'*', '$'}
+
 __all__ = ['RequestRate', 'Protego']
 
 
 class _URLPattern(object):
+    """Internal class which represents a URL pattern."""
+
     def __init__(self, pattern):
         self._pattern = pattern
         self.priority = len(pattern)
@@ -48,7 +52,7 @@ class _URLPattern(object):
                 return url.startswith(self._pattern)
 
             # pattern only contains $ wildcard.
-            return url.startswith(self._pattern_before_dollar) and len(url) == len(self._pattern_before_dollar)
+            return url == self._pattern_before_dollar
 
         if not url.startswith(self._pattern_before_asterisk):
             return False
@@ -63,7 +67,7 @@ class _URLPattern(object):
         pattern = re.sub(r'\*+', '*', pattern)
         s = re.split(r'([$*])', pattern)
         for index, substr in enumerate(s):
-            if substr not in ['*', '$']:
+            if substr not in WILDCARDS:
                 s[index] = re.escape(substr)
             else:
                 s[index] = s[index].replace('*', '.*')
