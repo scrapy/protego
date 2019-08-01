@@ -18,6 +18,10 @@ matrix:
       env: TOXENV=py37
       dist: xenial
       sudo: true
+    - python: 2.7
+      env: TOXENV=pypy
+    - python: 2.7
+      env: TOXENV=pypy3
 
 install:
   - pip install -U tox
