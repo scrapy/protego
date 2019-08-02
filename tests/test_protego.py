@@ -363,46 +363,44 @@ class TestProtego(TestCase):
         """
         rp = Protego.parse(content=content)
 
-        def is_allowed(ua, url):
-            return rp.can_fetch(url, ua)
-        self.assertTrue(is_allowed("Rule1TestBot", "/fo.html"))
-        self.assertFalse(is_allowed("Rule1TestBot", "/foo.html"))
-        self.assertFalse(is_allowed("Rule1TestBot", "/food"))
-        self.assertFalse(is_allowed("Rule1TestBot", "/foo/bar.html"))
+        self.assertTrue(rp.can_fetch("/fo.html", "Rule1TestBot"))
+        self.assertFalse(rp.can_fetch("/foo.html", "Rule1TestBot"))
+        self.assertFalse(rp.can_fetch("/food", "Rule1TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/bar.html", "Rule1TestBot"))
 
-        self.assertTrue(is_allowed("Rule2TestBot", "/fo.html"))
-        self.assertFalse(is_allowed("Rule2TestBot", "/foo/bar.html"))
-        self.assertFalse(is_allowed("Rule2TestBot", "/food/bar.html"))
-        self.assertFalse(is_allowed("Rule2TestBot", "/foo/a/b/c/x/y/z/bar.html"))
-        self.assertTrue(is_allowed("Rule2TestBot", "/food/xyz.html"))
+        self.assertTrue(rp.can_fetch("/fo.html", "Rule2TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/bar.html", "Rule2TestBot"))
+        self.assertFalse(rp.can_fetch("/food/bar.html", "Rule2TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/a/b/c/x/y/z/bar.html", "Rule2TestBot"))
+        self.assertTrue(rp.can_fetch("/food/xyz.html", "Rule2TestBot"))
 
-        self.assertFalse(is_allowed("Rule3TestBot", "/foo.htm"))
-        self.assertFalse(is_allowed("Rule3TestBot", "/foo.html"))
-        self.assertTrue(is_allowed("Rule3TestBot", "/foo"))
-        self.assertFalse(is_allowed("Rule3TestBot", "/foom"))
-        self.assertFalse(is_allowed("Rule3TestBot", "/moo"))
-        self.assertFalse(is_allowed("Rule3TestBot", "/foo/bar.html"))
-        self.assertTrue(is_allowed("Rule3TestBot", "/foo/bar.txt"))
+        self.assertFalse(rp.can_fetch("/foo.htm", "Rule3TestBot"))
+        self.assertFalse(rp.can_fetch("/foo.html", "Rule3TestBot"))
+        self.assertTrue(rp.can_fetch("/foo", "Rule3TestBot"))
+        self.assertFalse(rp.can_fetch("/foom", "Rule3TestBot"))
+        self.assertFalse(rp.can_fetch("/moo", "Rule3TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/bar.html", "Rule3TestBot"))
+        self.assertTrue(rp.can_fetch("/foo/bar.txt", "Rule3TestBot"))
 
-        self.assertFalse(is_allowed("Rule4TestBot", "/fo.html"))
-        self.assertFalse(is_allowed("Rule4TestBot", "/foo.html"))
-        self.assertFalse(is_allowed("Rule4TestBot", "/foo"))
-        self.assertTrue(is_allowed("Rule4TestBot", "/foo/bar.html"))
-        self.assertFalse(is_allowed("Rule4TestBot", "/foo/bar.txt"))
+        self.assertFalse(rp.can_fetch("/fo.html", "Rule4TestBot"))
+        self.assertFalse(rp.can_fetch("/foo.html", "Rule4TestBot"))
+        self.assertFalse(rp.can_fetch("/foo", "Rule4TestBot"))
+        self.assertTrue(rp.can_fetch("/foo/bar.html", "Rule4TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/bar.txt", "Rule4TestBot"))
 
-        self.assertFalse(is_allowed("Rule5TestBot", "/foo/bar.html"))
-        self.assertFalse(is_allowed("Rule5TestBot", "/food/rebar.html"))
-        self.assertTrue(is_allowed("Rule5TestBot", "/food/rebarf.html"))
-        self.assertFalse(is_allowed("Rule5TestBot", "/foo/a/b/c/rebar.html"))
-        self.assertFalse(is_allowed("Rule5TestBot", "/foo/a/b/c/bar.html"))
+        self.assertFalse(rp.can_fetch("/foo/bar.html", "Rule5TestBot"))
+        self.assertFalse(rp.can_fetch("/food/rebar.html", "Rule5TestBot"))
+        self.assertTrue(rp.can_fetch("/food/rebarf.html", "Rule5TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/a/b/c/rebar.html", "Rule5TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/a/b/c/bar.html", "Rule5TestBot"))
 
-        self.assertTrue(is_allowed("Rule6TestBot", "/foo"))
-        self.assertFalse(is_allowed("Rule6TestBot", "/foo/"))
-        self.assertFalse(is_allowed("Rule6TestBot", "/foo/bar.html"))
-        self.assertFalse(is_allowed("Rule6TestBot", "/fooey"))
+        self.assertTrue(rp.can_fetch("/foo", "Rule6TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/", "Rule6TestBot"))
+        self.assertFalse(rp.can_fetch("/foo/bar.html", "Rule6TestBot"))
+        self.assertFalse(rp.can_fetch("/fooey", "Rule6TestBot"))
 
-        self.assertTrue(is_allowed("Rule7TestBot", "xyz/foo.js"))
-        self.assertTrue(is_allowed("Rule7TestBot", "/inlife/daily/fashion-20160727/"))
+        self.assertTrue(rp.can_fetch("xyz/foo.js", "Rule7TestBot"))
+        self.assertTrue(rp.can_fetch("/inlife/daily/fashion-20160727/", "Rule7TestBot"))
 
         content = ("User-agent: FooBot\n"
                    "Disallow: /foo/bar/quz\n"
@@ -450,7 +448,7 @@ class TestProtego(TestCase):
         self.assertFalse(rp.can_fetch(
             "https://site.local/some/randome/page.html", u"UnicödeBöt"))
 
-        content = """
+        content = u"""
         # robots.txt for http://www.example.com/
         
         User-Agent: Jävla-Foobot
@@ -462,17 +460,12 @@ class TestProtego(TestCase):
         """
         rp = Protego.parse(content=content)
 
-        def is_allowed(ua, url):
-            return rp.can_fetch(url, ua)
+        self.assertTrue(rp.can_fetch("/foo/bar.html", u"jävla-fanbot"))
+        self.assertFalse(rp.can_fetch("/foo/bar.html", u"jävla-foobot"))
+        self.assertTrue(rp.can_fetch("/", "foobot"))
 
-        user_agent = "jävla-fanbot"
-        self.assertTrue(is_allowed(user_agent, "/foo/bar.html"))
-        self.assertFalse(is_allowed(user_agent.replace("fan", "foo"), "/foo/bar.html"))
-        self.assertTrue(is_allowed("foobot", "/"))
-
-        user_agent = "Mozilla/5.0 (compatible; \u041b\u044c\u0432\u0456\u0432-bot/1.1)"
-        self.assertTrue(is_allowed(user_agent, "/"))
-        self.assertFalse(is_allowed(user_agent, "/totalitarianism/foo.htm"))
+        self.assertTrue(rp.can_fetch("/", u"Mozilla/5.0 (compatible; Львів-bot/1.1)"))
+        self.assertFalse(rp.can_fetch("/totalitarianism/foo.htm", u"Mozilla/5.0 (compatible; Львів-bot/1.1)"))
 
     def test_no_leading_user_agent(self):
         """Record groups without a user-agent should be ignored."""
@@ -755,83 +748,46 @@ class TestProtego(TestCase):
         Disallow: /
         """
         rp = Protego.parse(content=content)
-
-        def is_allowed(ua, url):
-            return rp.can_fetch(url, ua)
-        self.assertFalse(is_allowed("unhipbot", "http://www.example.org/"))
-        self.assertTrue(is_allowed("webcrawler", "http://www.example.org/"))
-        self.assertTrue(is_allowed("excite", "http://www.example.org/"))
-        self.assertFalse(is_allowed("OtherBot", "http://www.example.org/"))
-        self.assertFalse(is_allowed("unhipbot", "http://www.example.org/index.html"))
-        self.assertTrue(is_allowed("webcrawler", "http://www.example.org/index.html"))
-        self.assertTrue(is_allowed("excite", "http://www.example.org/index.html"))
-        self.assertFalse(is_allowed("OtherBot", "http://www.example.org/index.html"))
-        # The original document contains tests for robots.txt. I dropped them. I presume that no
-        # one will fetch robots.txt to see if they're allowed to fetch robots.txt. Sheesh...
-        #   assert(parser.is_allowed("unhipbot", "http://www.example.org/robots.txt") == True)
-        #   assert(parser.is_allowed("webcrawler", "http://www.example.org/robots.txt") == True)
-        #   assert(parser.is_allowed("excite", "http://www.example.org/robots.txt") == True)
-        #   assert(parser.is_allowed("OtherBot", "http://www.example.org/robots.txt") == True)
-        self.assertFalse(is_allowed("unhipbot", "http://www.example.org/server.html"))
-        self.assertTrue(is_allowed("webcrawler", "http://www.example.org/server.html"))
-        self.assertTrue(is_allowed("excite", "http://www.example.org/server.html"))
-        self.assertTrue(is_allowed("OtherBot", "http://www.example.org/server.html"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/services/fast.html"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/services/fast.html"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/services/fast.html"))
-        self.assertTrue(is_allowed("OtherBot",
-                                   "http://www.example.org/services/fast.html"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/services/slow.html"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/services/slow.html"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/services/slow.html"))
-        self.assertTrue(is_allowed("OtherBot",
-                                   "http://www.example.org/services/slow.html"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/orgo.gif"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/orgo.gif"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/orgo.gif"))
-        self.assertFalse(is_allowed("OtherBot",
-                                    "http://www.example.org/orgo.gif"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/org/about.html"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/org/about.html"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/org/about.html"))
-        self.assertTrue(is_allowed("OtherBot",
-                                   "http://www.example.org/org/about.html"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/org/plans.html"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/org/plans.html"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/org/plans.html"))
-        self.assertFalse(is_allowed("OtherBot",
-                                    "http://www.example.org/org/plans.html"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/%7Ejim/jim.html"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/%7Ejim/jim.html"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/%7Ejim/jim.html"))
-        self.assertFalse(is_allowed("OtherBot",
-                                    "http://www.example.org/%7Ejim/jim.html"))
-        self.assertFalse(is_allowed("unhipbot",
-                                    "http://www.example.org/%7Emak/mak.html"))
-        self.assertTrue(is_allowed("webcrawler",
-                                   "http://www.example.org/%7Emak/mak.html"))
-        self.assertTrue(is_allowed("excite",
-                                   "http://www.example.org/%7Emak/mak.html"))
-        self.assertTrue(is_allowed("OtherBot",
-                                   "http://www.example.org/%7Emak/mak.html"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/", "excite"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/index.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/index.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/index.html", "excite"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/index.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/server.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/server.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/server.html", "excite"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/server.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/services/fast.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/services/fast.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/services/fast.html", "excite"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/services/fast.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/services/slow.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/services/slow.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/services/slow.html", "excite"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/services/slow.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/orgo.gif", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/orgo.gif", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/orgo.gif", "excite"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/orgo.gif", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/org/about.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/org/about.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/org/about.html", "excite"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/org/about.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/org/plans.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/org/plans.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/org/plans.html", "excite"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/org/plans.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/%7Ejim/jim.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/%7Ejim/jim.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/%7Ejim/jim.html", "excite"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/%7Ejim/jim.html", "OtherBot"))
+        self.assertFalse(rp.can_fetch("http://www.example.org/%7Emak/mak.html", "unhipbot"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/%7Emak/mak.html", "webcrawler"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/%7Emak/mak.html", "excite"))
+        self.assertTrue(rp.can_fetch("http://www.example.org/%7Emak/mak.html", "OtherBot"))
 
     def test_implicit_allow(self):
         content = """
@@ -844,13 +800,10 @@ class TestProtego(TestCase):
         Disallow:
         """
         rp = Protego.parse(content=content)
-
-        def is_allowed(ua, url):
-            return rp.can_fetch(url, ua)
-        self.assertTrue(is_allowed("foobot", "/"))
-        self.assertTrue(is_allowed("foobot", "/bar.html"))
-        self.assertFalse(is_allowed("SomeOtherBot", "/"))
-        self.assertFalse(is_allowed("SomeOtherBot", "/blahblahblah"))
+        self.assertTrue(rp.can_fetch("/", "foobot"))
+        self.assertTrue(rp.can_fetch("/bar.html", "foobot"))
+        self.assertFalse(rp.can_fetch("/", "SomeOtherBot"))
+        self.assertFalse(rp.can_fetch("/blahblahblah", "SomeOtherBot"))
 
     def test_grouping_unknown_keys(self):
         '''
@@ -1002,6 +955,7 @@ class TestProtego(TestCase):
                    "disallow: /x/\n")
         rp = Protego.parse(content=content)
         self.assertFalse(rp.can_fetch("http://foo.bar/x/y", "FooBot"))
+
         content = ("user-agent: FooBot\n"
                    "disallow: /X/\n")
         rp = Protego.parse(content=content)
