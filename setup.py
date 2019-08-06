@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(name='Protego',
-      version='0.1dev',
+      version='0.1',
       description='Pure-Python robots.txt parser with support for modern conventions',
       long_description=open("README.md").read(),
       long_description_content_type='text/markdown',
@@ -18,7 +18,6 @@ setup(name='Protego',
       include_package_data=True,
       keywords=['robots.txt', 'parser', 'robots', 'rep'],
       classifiers=[
-          'Framework :: Scrapy',
           'Development Status :: 4 - Beta',
           'Intended Audience :: Developers',
           'License :: OSI Approved :: BSD License',

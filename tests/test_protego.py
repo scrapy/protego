@@ -960,3 +960,20 @@ class TestProtego(TestCase):
                    "disallow: /X/\n")
         rp = Protego.parse(content=content)
         self.assertTrue(rp.can_fetch("http://foo.bar/x/y", "FooBot"))
+
+    def test_nonterminal_dollar(self):
+        '''Non terminal dollar sign should be treated as an odinary character.'''
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x$/abc\n"
+                   "disallow: /y/abc$\n"
+                   "disallow: /x*x$/abc\n"
+                   "disallow: /y*y/abc$\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.can_fetch("http://foo.bar/x$/abcdef", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x%24/abcdef", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/y/abcdef", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/y/abc", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/xabcx$/abcdef", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/xabcx%24/abcdef", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/yabcy/abc", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/yabcy/abcdef", "FooBot"))

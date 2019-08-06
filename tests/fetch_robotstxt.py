@@ -1,9 +1,9 @@
-# A tool to simplify fetching robots.txt from a large number of websites.
-#
-# Usage
-# -----
-# >>> python fetch_robotstxt.py -l top-10000-websites.txt -d test_data
-#
+"""A tool to simplify fetching robots.txt from a large number of websites.
+
+Usage
+-----
+>>> python fetch_robotstxt.py -l top-10000-websites.txt -d test_data
+"""
 import os
 import sys
 import argparse

@@ -1,25 +1,27 @@
-import re
-from datetime import time
-from collections import namedtuple
-import six
-from six.moves.urllib.parse import urlparse, urlunparse, ParseResult, quote, unquote
 import logging
+import re
+from collections import namedtuple
+from datetime import time
+
+import six
+from six.moves.urllib.parse import (ParseResult, quote, unquote, urlparse,
+                                    urlunparse)
 
 logger = logging.getLogger(__name__)
 
-Rule = namedtuple('Rule', ['field', 'value'])
+_Rule = namedtuple('Rule', ['field', 'value'])
 RequestRate = namedtuple(
     'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
 
-DISALLOW_DIRECTIVE = {'disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw'}
-ALLOW_DIRECTIVE = {'allow'}
-USER_AGENT_DIRECTIVE = {'user-agent', 'useragent', 'user agent'}
-SITEMAP_DIRECTIVE = {'sitemap', 'sitemaps', 'site-map'}
-CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
-REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
-HOST_DIRECTIVE = {'host'}
+_DISALLOW_DIRECTIVE = {'disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw'}
+_ALLOW_DIRECTIVE = {'allow'}
+_USER_AGENT_DIRECTIVE = {'user-agent', 'useragent', 'user agent'}
+_SITEMAP_DIRECTIVE = {'sitemap', 'sitemaps', 'site-map'}
+_CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
+_REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
+_HOST_DIRECTIVE = {'host'}
 
-WILDCARDS = {'*', '$'}
+_WILDCARDS = {'*', '$'}
 
 __all__ = ['RequestRate', 'Protego']
 
@@ -49,6 +51,7 @@ class _URLPattern(object):
         if not self._contains_asterisk:
             if not self._contains_dollar:
                 # answer directly for patterns without wildcards
+                print(self._pattern, url)
                 return url.startswith(self._pattern)
 
             # pattern only contains $ wildcard.
@@ -65,12 +68,12 @@ class _URLPattern(object):
     def _prepare_pattern_for_regex(self, pattern):
         """Return equivalent regex pattern for the given URL pattern."""
         pattern = re.sub(r'\*+', '*', pattern)
-        s = re.split(r'([$*])', pattern)
+        s = re.split(r'(\*|\$$)', pattern)
         for index, substr in enumerate(s):
-            if substr not in WILDCARDS:
+            if substr not in _WILDCARDS:
                 s[index] = re.escape(substr)
-            else:
-                s[index] = s[index].replace('*', '.*')
+            elif s[index] == '*':
+                s[index] = '.*'
         pattern = ''.join(s)
         return pattern
 
@@ -96,13 +99,6 @@ class _RuleSet(object):
 
     def _quote_path(self, path, safe='/'):
         """Return percent encoded path."""
-        # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
-        # Save the last character otherwise, urlparse will kill it.
-        last_char = ''
-        if path[-1] == '?' or path[-1] == ';':
-            last_char = path[-1]
-            path = path[:-1]
-
         parts = urlparse(path)
 
         # According to 1997RFC, escaped '/' should not be converted back.
@@ -114,26 +110,50 @@ class _RuleSet(object):
         else:
             path = quote(unquote(path), safe=safe)
 
-        path.replace("\n", "%2F")
-        parts = ParseResult('', '', path + last_char, parts.params, parts.query, parts.fragment)
+        path = path.replace("\n", "%2F")
+        parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
 
+    def _quote_pattern(self, pattern):
+        # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
+        # Save the last character otherwise, urlparse will kill it.
+        last_char = ''
+        if pattern[-1] == '?' or pattern[-1] == ';' or pattern[-1] == '$':
+            last_char = pattern[-1]
+            pattern = pattern[:-1]
+
+        parts = urlparse(pattern)
+
+        # According to 1997RFC, escaped '/' should not be converted back.
+        pattern = re.sub("%2[fF]", "\n", parts.path)
+
+        # quote & unquote do not work with unicode strings in Python 2.7
+        if six.PY2:
+            pattern = quote(unquote(pattern.encode('utf-8')), safe='/*')
+        else:
+            pattern = quote(unquote(pattern), safe='/*')
+
+        pattern = pattern.replace("\n", "%2F")
+        parts = ParseResult('', '', pattern + last_char, parts.params, parts.query, parts.fragment)
+        pattern = urlunparse(parts)
+        return pattern
+
     def allow(self, pattern):
-        pattern = self._quote_path(pattern, safe='/*$')
+        pattern = self._quote_pattern(pattern)
         if not pattern:
             return
-        self._rules.append(Rule(field='allow', value=_URLPattern(pattern)))
+        self._rules.append(_Rule(field='allow', value=_URLPattern(pattern)))
 
         # If index.html is allowed, we interpret this as / being allowed too.
         if pattern.endswith('/index.html'):
             self.allow(pattern[:-10] + '$')
 
     def disallow(self, pattern):
-        pattern = self._quote_path(pattern, safe='/*$')
+        pattern = self._quote_pattern(pattern)
         if not pattern:
             return
-        self._rules.append(Rule(field='disallow', value=_URLPattern(pattern)))
+        self._rules.append(_Rule(field='disallow', value=_URLPattern(pattern)))
 
     def finalize_rules(self):
         self._rules.sort(key=lambda r: (r.value.priority, r.field == 'allow'), reverse=True)
@@ -272,14 +292,14 @@ class Protego(object):
                 continue
 
             # Ignore rules without a corresponding user agent.
-            if not current_user_agents and field not in USER_AGENT_DIRECTIVE:
+            if not current_user_agents and field not in _USER_AGENT_DIRECTIVE:
                 logger.debug("Rule at line {} without any user agent to enforce it on.".format(self._total_line_seen))
                 continue
 
             self._total_directive_seen += 1
 
-            if field in USER_AGENT_DIRECTIVE:
-                if previous_rule_field and previous_rule_field not in USER_AGENT_DIRECTIVE:
+            if field in _USER_AGENT_DIRECTIVE:
+                if previous_rule_field and previous_rule_field not in _USER_AGENT_DIRECTIVE:
                     current_user_agents = []
 
                 # Wildcards are not supported in the user agent values.
@@ -299,26 +319,26 @@ class Protego(object):
                     self._user_agents[user_agent] = rule_set
                     current_user_agents.append(rule_set)
 
-            elif field in ALLOW_DIRECTIVE:
+            elif field in _ALLOW_DIRECTIVE:
                 for user_agent in current_user_agents:
                     user_agent.allow(value)
 
-            elif field in DISALLOW_DIRECTIVE:
+            elif field in _DISALLOW_DIRECTIVE:
                 for user_agent in current_user_agents:
                     user_agent.disallow(value)
 
-            elif field in SITEMAP_DIRECTIVE:
+            elif field in _SITEMAP_DIRECTIVE:
                 self._sitemap_list.append(value)
 
-            elif field in CRAWL_DELAY_DIRECTIVE:
+            elif field in _CRAWL_DELAY_DIRECTIVE:
                 for user_agent in current_user_agents:
                     user_agent.crawl_delay = value
 
-            elif field in REQUEST_RATE_DIRECTIVE:
+            elif field in _REQUEST_RATE_DIRECTIVE:
                 for user_agent in current_user_agents:
                     user_agent.request_rate = value
 
-            elif field in HOST_DIRECTIVE:
+            elif field in _HOST_DIRECTIVE:
                 self._host = value
 
             else:
