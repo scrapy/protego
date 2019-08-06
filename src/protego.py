@@ -73,7 +73,7 @@ class _URLPattern(object):
             if substr not in _WILDCARDS:
                 s[index] = re.escape(substr)
             elif s[index] == '*':
-                s[index] = '.*'
+                s[index] = '.*?'
         pattern = ''.join(s)
         return pattern
 
