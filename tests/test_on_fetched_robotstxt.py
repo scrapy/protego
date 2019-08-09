@@ -18,5 +18,5 @@ def test_no_exceptions(path_to_robotstxt):
                 # Downloaded robots.txt is malformed, ignore this
                 return
             Protego.parse(content=content)
-    except:
-        assert False, "Exception raised while parsing {}".format(join(path_to_robotstxt, 'robots.txt'))
+    except Exception as e:
+        assert False, "{}. Exception raised while parsing {}".format(e, join(path_to_robotstxt, 'robots.txt'))

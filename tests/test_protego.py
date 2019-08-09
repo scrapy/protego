@@ -840,9 +840,30 @@ class TestProtego(TestCase):
         robotstxt_incorrect_accepted = """
         user-agent foobot
         disallow /
+        user agent harry potter 
+        disallow /horcrux
+        request rate 1/10s 1820-1940
         """
         rp = Protego.parse(content=robotstxt_incorrect_accepted)
         self.assertFalse(rp.can_fetch('http://foo.bar/x/y', 'FooBot'))
+
+        self.assertFalse(rp.can_fetch('http://foo.bar/horcrux', 'harry potter'))
+        self.assertTrue(rp.can_fetch('http://foo.bar/abc', 'harry potter'))
+        req_rate = rp.request_rate('harry potter')
+        self.assertTrue(req_rate.requests == 1)
+        self.assertTrue(req_rate.seconds == 10)
+        self.assertTrue(req_rate.start_time.hour == 18)
+        self.assertTrue(req_rate.start_time.minute == 20)
+        self.assertTrue(req_rate.end_time.hour == 19)
+        self.assertTrue(req_rate.end_time.minute == 40)
+
+        wildcards_in_user_agent = """
+        user-agent: foo*bot
+        disallow: /myprofile
+        """
+        rp = Protego.parse(content=wildcards_in_user_agent)
+        self.assertFalse(rp.can_fetch('http://foo.bar/myprofile', 'foo*bot'))
+        self.assertFalse(rp.can_fetch('http://foo.bar/myprofile', 'foobot'))
 
     def test_directive_case_insensitivity(self):
         content = """
@@ -977,3 +998,26 @@ class TestProtego(TestCase):
         self.assertFalse(rp.can_fetch("http://foo.bar/xabcx%24/abcdef", "FooBot"))
         self.assertFalse(rp.can_fetch("http://foo.bar/yabcy/abc", "FooBot"))
         self.assertTrue(rp.can_fetch("http://foo.bar/yabcy/abcdef", "FooBot"))
+
+    def test_escaped_special_symbols(self):
+        '''Percent encoded special symbols should be treated as ordinary characters.'''
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x/abc%24\n"
+                   "disallow: /x%2Ax/abc\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/abc$abc", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/abc$", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/x/abc", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x*x/abc", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x*x/abcdef", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://foo.bar/xabcx/abc", "FooBot"))
+
+    def test_special_symbols_dual_behaviour(self):
+        '''Special symbols such as * and $, should also be treated as an ordinary character'''
+        content = ("user-agent: FooBot\n"
+                   "disallow: /x/abc$\n"
+                   "disallow: /x*x/abc\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.can_fetch("http://foo.bar/x*x/abc", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/abc$", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/x/abc%24", "FooBot"))

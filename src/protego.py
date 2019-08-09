@@ -23,7 +23,19 @@ _HOST_DIRECTIVE = {'host'}
 
 _WILDCARDS = {'*', '$'}
 
+_HEX_DIGITS = set('0123456789ABCDEFabcdef')
+
 __all__ = ['RequestRate', 'Protego']
+
+
+def _is_valid_directive_field(field):
+    return any([field in _DISALLOW_DIRECTIVE,
+                field in _ALLOW_DIRECTIVE,
+                field in _USER_AGENT_DIRECTIVE,
+                field in _SITEMAP_DIRECTIVE,
+                field in _CRAWL_DELAY_DIRECTIVE,
+                field in _REQUEST_RATE_DIRECTIVE,
+                field in _HOST_DIRECTIVE])
 
 
 class _URLPattern(object):
@@ -51,7 +63,6 @@ class _URLPattern(object):
         if not self._contains_asterisk:
             if not self._contains_dollar:
                 # answer directly for patterns without wildcards
-                print(self._pattern, url)
                 return url.startswith(self._pattern)
 
             # pattern only contains $ wildcard.
@@ -97,20 +108,59 @@ class _RuleSet(object):
             return len(self.user_agent)
         return 0
 
-    def _quote_path(self, path, safe='/'):
+    def _unquote(self, url, ignore='', errors='replace'):
+        """Replace %xy escapes by their single-character equivalent."""
+        if '%' not in url:
+            return url
+
+        def hex_to_byte(h):
+            """Replaces a %xx escape with equivalent binary sequence."""
+            if six.PY3:
+                return bytes.fromhex(h)
+            return chr(int(h, 16))
+
+        # ignore contains %xy escapes for chracters that are not
+        # meant to be converted back.
+        ignore = {'{:02X}'.format(ord(c)) for c in ignore}
+
+        parts = url.split('%')
+        parts[0] = parts[0].encode('utf-8')
+
+        for i in range(1, len(parts)):
+            if len(parts[i]) >= 2:
+                # %xy is a valid escape only if x and y are hexadecimal digits.
+                if set(parts[i][:2]).issubset(_HEX_DIGITS):
+                    # make sure that all %xy escapes are in uppercase.
+                    hexcode = parts[i][:2].upper()
+                    leftover = parts[i][2:]
+                    if hexcode not in ignore:
+                        parts[i] = hex_to_byte(hexcode) + leftover.encode('utf-8')
+                        continue
+                    else:
+                        parts[i] = hexcode + leftover
+
+            # add back the '%' we removed during splitting.
+            parts[i] = b'%' + parts[i].encode('utf-8')
+
+        return b''.join(parts).decode('utf-8', errors)
+
+    def hexescape(self, char):
+        """Escape char as RFC 2396 specifies"""
+        hex_repr = hex(ord(char))[2:].upper()
+        if len(hex_repr) == 1:
+            hex_repr = "0%s" % hex_repr
+        return "%" + hex_repr
+
+    def _quote_path(self, path):
         """Return percent encoded path."""
         parts = urlparse(path)
-
-        # According to 1997RFC, escaped '/' should not be converted back.
-        path = re.sub("%2[fF]", "\n", parts.path)
-
-        # quote & unquote do not work with unicode strings in Python 2.7
+        path = self._unquote(parts.path, ignore='/%')
+        # quote do not work with unicode strings in Python 2.7
         if six.PY2:
-            path = quote(unquote(path.encode('utf-8')), safe=safe)
+            path = quote(path.encode('utf-8'), safe='/%')
         else:
-            path = quote(unquote(path), safe=safe)
+            path = quote(path, safe='/%')
 
-        path = path.replace("\n", "%2F")
         parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
@@ -124,22 +174,21 @@ class _RuleSet(object):
             pattern = pattern[:-1]
 
         parts = urlparse(pattern)
-
-        # According to 1997RFC, escaped '/' should not be converted back.
-        pattern = re.sub("%2[fF]", "\n", parts.path)
-
-        # quote & unquote do not work with unicode strings in Python 2.7
+        pattern = self._unquote(parts.path, ignore='/*$%')
+        # quote do not work with unicode strings in Python 2.7
         if six.PY2:
-            pattern = quote(unquote(pattern.encode('utf-8')), safe='/*')
+            pattern = quote(pattern.encode('utf-8'), safe='/*%')
         else:
-            pattern = quote(unquote(pattern), safe='/*')
+            pattern = quote(pattern, safe='/*%')
 
-        pattern = pattern.replace("\n", "%2F")
         parts = ParseResult('', '', pattern + last_char, parts.params, parts.query, parts.fragment)
         pattern = urlunparse(parts)
         return pattern
 
     def allow(self, pattern):
+        if '$' in pattern:
+            self.allow(pattern.replace('$', self.hexescape('$')))
+
         pattern = self._quote_pattern(pattern)
         if not pattern:
             return
@@ -150,6 +199,9 @@ class _RuleSet(object):
             self.allow(pattern[:-10] + '$')
 
     def disallow(self, pattern):
+        if '$' in pattern:
+            self.disallow(pattern.replace('$', self.hexescape('$')))
+
         pattern = self._quote_pattern(pattern)
         if not pattern:
             return
@@ -201,9 +253,9 @@ class _RuleSet(object):
                 rate, time_period = parts[0], ''
 
             requests, seconds = rate.split('/')
-            requests = int(requests)
             time_unit = seconds[-1].lower()
-            seconds = int(seconds[:-1])
+            requests, seconds = int(requests), int(seconds[:-1])
+
             if time_unit == 'm':
                 seconds *= 60
             elif time_unit == 'h':
@@ -254,8 +306,9 @@ class Protego(object):
     def _parse_robotstxt(self, content):
         lines = content.splitlines()
 
-        # A list containing all the user agents of the current record group.
-        current_user_agents = []
+        # A list containing rule sets corresponding to user
+        # agents of the current record group.
+        current_rule_sets = []
 
         # Last encountered rule irrespective of whether it was valid or not.
         previous_rule_field = None
@@ -278,10 +331,18 @@ class Protego(object):
                 field, value = line.split(':', 1)
             else:
                 # We will be generous here and give it a second chance.
-                parts = line.rsplit(' ', 1)
-                if not len(parts) == 2:
+                parts = line.split(' ')
+                if len(parts) < 2:
                     continue
-                field, value = parts
+
+                possible_filed = parts[0]
+                for i in range(1, len(parts)):
+                    if _is_valid_directive_field(possible_filed):
+                        field, value = possible_filed, ' '.join(parts[i:])
+                        break
+                    possible_filed += ' ' + parts[i]
+                else:
+                    continue
 
             field = field.strip().lower()
             value = value.strip()
@@ -292,7 +353,7 @@ class Protego(object):
                 continue
 
             # Ignore rules without a corresponding user agent.
-            if not current_user_agents and field not in _USER_AGENT_DIRECTIVE:
+            if not current_rule_sets and field not in _USER_AGENT_DIRECTIVE:
                 logger.debug("Rule at line {} without any user agent to enforce it on.".format(self._total_line_seen))
                 continue
 
@@ -300,43 +361,47 @@ class Protego(object):
 
             if field in _USER_AGENT_DIRECTIVE:
                 if previous_rule_field and previous_rule_field not in _USER_AGENT_DIRECTIVE:
-                    current_user_agents = []
+                    current_rule_sets = []
 
                 # Wildcards are not supported in the user agent values.
                 # We will be generous here and remove all the wildcards.
                 user_agent = value.strip().lower()
+                user_agent_without_asterisk = None
                 if user_agent != '*' and '*' in user_agent:
-                    user_agent = user_agent.replace('*', '')
+                    user_agent_without_asterisk = user_agent.replace('*', '')
 
-                # See if this user agent is encountered before, if so merge these rules into it.
-                rule_set = self._user_agents.get(user_agent, None)
-                if rule_set and rule_set not in current_user_agents:
-                    current_user_agents.append(rule_set)
+                for user_agent in [user_agent, user_agent_without_asterisk]:
+                    if not user_agent:
+                        continue
+                    # See if this user agent is encountered before, if so merge these rules into it.
+                    rule_set = self._user_agents.get(user_agent, None)
+                    if rule_set and rule_set not in current_rule_sets:
+                        current_rule_sets.append(rule_set)
 
-                if not rule_set:
-                    rule_set = _RuleSet(self)
-                    rule_set.user_agent = user_agent
-                    self._user_agents[user_agent] = rule_set
-                    current_user_agents.append(rule_set)
+                    if not rule_set:
+                        rule_set = _RuleSet(self)
+                        rule_set.user_agent = user_agent
+                        self._user_agents[user_agent] = rule_set
+                        current_rule_sets.append(rule_set)
 
             elif field in _ALLOW_DIRECTIVE:
-                for user_agent in current_user_agents:
-                    user_agent.allow(value)
+                for rule_set in current_rule_sets:
+                    rule_set.allow(value)
 
             elif field in _DISALLOW_DIRECTIVE:
-                for user_agent in current_user_agents:
-                    user_agent.disallow(value)
+                for rule_set in current_rule_sets:
+                    rule_set.disallow(value)
 
             elif field in _SITEMAP_DIRECTIVE:
                 self._sitemap_list.append(value)
 
             elif field in _CRAWL_DELAY_DIRECTIVE:
-                for user_agent in current_user_agents:
-                    user_agent.crawl_delay = value
+                for rule_set in current_rule_sets:
+                    rule_set.crawl_delay = value
 
             elif field in _REQUEST_RATE_DIRECTIVE:
-                for user_agent in current_user_agents:
-                    user_agent.request_rate = value
+                for rule_set in current_rule_sets:
+                    rule_set.request_rate = value
 
             elif field in _HOST_DIRECTIVE:
                 self._host = value
