@@ -1,5 +1,6 @@
 from os import listdir
-from os.path import isfile, join, dirname, abspath
+from os.path import abspath, dirname, isfile, join
+
 import pytest
 
 from protego import Protego

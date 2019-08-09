@@ -1,5 +1,6 @@
-from protego import _RuleSet
 from unittest import TestCase
+
+from protego import _RuleSet
 
 rs = _RuleSet(None)
 

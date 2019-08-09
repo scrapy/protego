@@ -4,13 +4,13 @@ Usage
 -----
 >>> python fetch_robotstxt.py -l top-10000-websites.txt -d test_data
 """
+import argparse
 import os
 import sys
-import argparse
-from urllib.parse import urlparse
+from urllib.parse import ParseResult, urlparse, urlunparse
+
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from urllib.parse import ParseResult, urlparse, urlunparse
 
 parser = argparse.ArgumentParser(description='Download robots.txt of given websites.')
 parser.add_argument('-l', '--list', action='append', dest='websites', help='Adds to the list of websites.')
