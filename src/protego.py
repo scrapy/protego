@@ -115,11 +115,11 @@ class _RuleSet(object):
 
         def hex_to_byte(h):
             """Replaces a %xx escape with equivalent binary sequence."""
-            if six.PY3:
-                return bytes.fromhex(h)
-            return chr(int(h, 16))
+            if six.PY2:
+                return chr(int(h, 16))
+            return bytes.fromhex(h)
 
-        # ignore contains %xy escapes for chracters that are not
+        # ignore contains %xy escapes for characters that are not
         # meant to be converted back.
         ignore = {'{:02X}'.format(ord(c)) for c in ignore}
 
