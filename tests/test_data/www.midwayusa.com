@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /cart*
+Disallow: /checkout*
+Disallow: /order/*
+Disallow: /wishList*
+Disallow: /account*
+Disallow: /sendPageToFriend*
+Disallow: /productfeedback*
+Disallow: /charts
+Disallow: /content/legacy
+Disallow: /429.html
+Disallow: /category/*
+Disallow: /find*
+Disallow: /s?userSearchQuery*
+Disallow: /ProductStatuses*
+Disallow: /noresultspage*
+Disallow: /promo/
+Disallow: *-blemished
+Disallow: /holster-finder/*
+Disallow: /help/*
+Disallow: /video-library*
+
+sitemap: https://www.midwayusa.com/sitemap.xml
+sitemap: https://www.midwayusa.com/features/sitemap
+sitemap: https://www.midwayusa.com/sitemap/brands.xml

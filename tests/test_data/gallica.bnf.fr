@@ -1,0 +1,19 @@
+User-agent: *
+# CMS --------------------------------------------
+Disallow: /html/node/*
+# Paramètre d'url --------------------------------
+Disallow: /*?
+Allow: /*?mode=*
+Allow: /*css?*
+Allow: /*js?*
+# Urls complémentaires ---------------------------
+Disallow: /f1.*
+Disallow: /texteBrut
+# paramètres de recherche ------------------------
+Disallow: /services/engine/search/sru?*
+# Collections, Essentiels ------------------------
+Disallow: /node/*
+# Blog -------------------------------------------
+Disallow: /blog/comment/*
+#sitemap
+Sitemap: https://gallica.bnf.fr/sitemap.xml

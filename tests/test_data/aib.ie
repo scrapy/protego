@@ -1,0 +1,19 @@
+Sitemap: https://aib.ie/sitemap.xml
+
+User-agent: *
+
+Allow: /
+
+Disallow: /etc/clientlibs/
+
+Disallow: /etc/designs/
+
+Disallow: /content/dam/aib/personal/images/
+
+Disallow: /servlet/
+
+Disallow: /*_jcr_content/
+
+Disallow: /*jcr:content/
+
+Disallow: /etc.clientlibs/

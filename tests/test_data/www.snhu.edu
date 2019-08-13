@@ -1,0 +1,21 @@
+user-agent: *
+Disallow: /files/pdfs/
+Disallow: /lp/
+Disallow: /tr/
+Disallow: /ge/
+Disallow: /mp/
+Disallow: /graphicdesign/
+Disallow: /emails/
+Disallow: /exampleapp/
+Disallow: /*.pdf$
+Disallow: /videos/
+
+User-agent: Screaming Frog SEO Spider
+Disallow: /
+
+User-Agent: Googlebot
+Allow: .js
+Allow: .css
+
+Sitemap: https://www.snhu.edu/sitemap.xml
+

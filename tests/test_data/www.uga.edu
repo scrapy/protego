@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /_resources/email/
+Disallow: /_resources/includes/
+Disallow: /_heroes/

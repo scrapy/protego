@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /bin/
+Disallow: /App_Data/
+Disallow: /Views/
+Disallow: /TTS/
+Disallow: /Scripts/
+Disallow: /jplayer/
+Disallow: /Content/
+Disallow: /4804446/
+Disallow: /Stories/

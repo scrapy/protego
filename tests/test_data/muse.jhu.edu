@@ -1,0 +1,60 @@
+User-agent: Googlebot
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /subject_browse
+Disallow: /demo/
+Disallow: /search
+Disallow: /search/
+Disallow: /results
+Disallow: /results/
+Disallow: /shibboleth
+Disallow: /shibboleth/
+Disallow: /wayf/
+Disallow: /save_citation
+Disallow: /save_citation/
+Disallow: /view_citations
+Disallow: /view_citations/
+Disallow: 
+
+User-agent: bingbot
+Disallow: /*.gif$
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.png$
+Disallow: /subject_browse
+Disallow: /demo/
+Disallow: /search
+Disallow: /search/
+Disallow: /results
+Disallow: /results/
+Disallow: /shibboleth
+Disallow: /shibboleth/
+Disallow: /wayf/
+Disallow: /save_citation
+Disallow: /save_citation/
+Disallow: /view_citations
+Disallow: /view_citations/
+Disallow: 
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: iVia
+Disallow: 
+
+User-agent: *
+Disallow: /subject_browse
+Disallow: /demo/
+Disallow: /search
+Disallow: /search/
+Disallow: /results
+Disallow: /results/
+Disallow: /shibboleth
+Disallow: /shibboleth/
+Disallow: /wayf/
+Disallow: /save_citation
+Disallow: /save_citation/
+Disallow: /view_citations
+Disallow: /view_citations/

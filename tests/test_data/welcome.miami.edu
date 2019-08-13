@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /_assets/php/
+Disallow: /_assets/apache-error-pages/
+
+Sitemap: http://welcome.miami.edu/sitemap.xml

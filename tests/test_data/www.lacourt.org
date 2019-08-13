@@ -1,0 +1,12 @@
+user-agent : *
+disallow: /unlinked/
+disallow: /*.config$
+disallow: /*bin
+disallow: /*scripts
+disallow: /*source
+disallow: /*xml
+disallow: /*common
+disallow: /*images
+disallow: /*includes
+disallow: /*styles
+disallow: /*error

@@ -1,0 +1,231 @@
+# BRAIDMA (DG Connect) 22/02/2016 [IM0014473437]
+# HTTP ec.europa.eu
+
+User-agent: Baiduspider
+Disallow: /eurostat/tgm/
+Disallow: /europeaid/prag/
+
+
+User-agent: *
+Disallow: /archives/
+Disallow: /cgi-bin/
+Disallow: /clima/ets
+Disallow: /clima/sites/registry/
+Disallow: /commission_2010-2014/katainen/
+Disallow: /creative-europe/404_en.htm
+Disallow: /culture/404_en.htm
+Disallow: /dgs/education_culture/404_en.htm
+Disallow: /eclas/
+Disallow: /education/404_en.htm
+Disallow: /employment_social/anticipedia/xwiki/bin/attach/
+Disallow: /employment_social/anticipedia/xwiki/bin/cancel/
+Disallow: /employment_social/anticipedia/xwiki/bin/commentadd/
+Disallow: /employment_social/anticipedia/xwiki/bin/delattachment/
+Disallow: /employment_social/anticipedia/xwiki/bin/delete/
+Disallow: /employment_social/anticipedia/xwiki/bin/dot/
+Disallow: /employment_social/anticipedia/xwiki/bin/download/
+Disallow: /employment_social/anticipedia/xwiki/bin/downloadrev/
+Disallow: /employment_social/anticipedia/xwiki/bin/edit/
+Disallow: /employment_social/anticipedia/xwiki/bin/export/
+Disallow: /employment_social/anticipedia/xwiki/bin/inline/
+Disallow: /employment_social/anticipedia/xwiki/bin/lifeblog/
+Disallow: /employment_social/anticipedia/xwiki/bin/login/
+Disallow: /employment_social/anticipedia/xwiki/bin/loginerror/
+Disallow: /employment_social/anticipedia/xwiki/bin/logout/
+Disallow: /employment_social/anticipedia/xwiki/bin/objectremove/
+Disallow: /employment_social/anticipedia/xwiki/bin/pdf/
+Disallow: /employment_social/anticipedia/xwiki/bin/preview/
+Disallow: /employment_social/anticipedia/xwiki/bin/propadd/
+Disallow: /employment_social/anticipedia/xwiki/bin/propdelete/
+Disallow: /employment_social/anticipedia/xwiki/bin/propupdate/
+Disallow: /employment_social/anticipedia/xwiki/bin/register/
+Disallow: /employment_social/anticipedia/xwiki/bin/save/
+Disallow: /employment_social/anticipedia/xwiki/bin/skin/
+Disallow: /employment_social/anticipedia/xwiki/bin/status/
+Disallow: /employment_social/anticipedia/xwiki/bin/upload/
+Disallow: /employment_social/anticipedia/xwiki/bin/viewattachrev/
+Disallow: /employment_social/anticipedia/xwiki/bin/viewrev/
+Disallow: /employment_social/anticipedia/xwiki/bin/xmlrpc/
+Disallow: /environment/ets/
+Disallow: /erasmus-plus/404_en.htm
+Disallow: /eurostat/SDMX/diss-web/rest/
+Disallow: /fisheries/fleet/
+Disallow: /languages/404_en.htm
+Disallow: /research/participants/cofund/
+Disallow: /sport/404_en.htm
+Disallow: /taxation_customs/dds2/col/
+Disallow: /taxation_customs/dds2/ebti/
+Disallow: /taxation_customs/dds2/ecics/
+Disallow: /taxation_customs/dds2/taric/
+Disallow: /youth/404_en.htm
+Disallow: /food/archive/
+Disallow: /consumers/archive/
+Disallow: /transparencyregister/public/staticPage/displayStaticPage.do
+Disallow: /transparencyregister/public/consultation/search.do
+Disallow: /transparencyregister/public/consultation/reportControllerPager.do
+Disallow: /europeaid/companion/
+
+Disallow: /transparencyregister/
+Disallow: /transparencyinitiative/
+
+
+
+#Clima, education, eurostat and others
+Disallow: /eurostat/tgm/
+Disallow: /clima/ets
+Disallow: /clima/sites/registry/
+Disallow: /commission_2010-2014/katainen/
+Disallow: /creative-europe/404_en.htm
+Disallow: /culture/404_en.htm
+Disallow: /dgs/education_culture/404_en.htm
+Disallow: /eclas/
+Disallow: /education/404_en.htm
+Disallow: /youth/404_en.htm
+Disallow: /environment/ets/
+Disallow: /erasmus-plus/404_en.htm
+Disallow: /eurostat/SDMX/diss-web/rest/
+Disallow: /fisheries/fleet/
+Disallow: /languages/404_en.htm
+Disallow: /research/participants/cofund/
+Disallow: /sport/404_en.htm
+
+#Employment
+Disallow: /employment_social/anticipedia/xwiki/bin/attach/
+Disallow: /employment_social/anticipedia/xwiki/bin/cancel/
+Disallow: /employment_social/anticipedia/xwiki/bin/commentadd/
+Disallow: /employment_social/anticipedia/xwiki/bin/delattachment/
+Disallow: /employment_social/anticipedia/xwiki/bin/delete/
+Disallow: /employment_social/anticipedia/xwiki/bin/dot/
+Disallow: /employment_social/anticipedia/xwiki/bin/download/
+Disallow: /employment_social/anticipedia/xwiki/bin/downloadrev/
+Disallow: /employment_social/anticipedia/xwiki/bin/edit/
+Disallow: /employment_social/anticipedia/xwiki/bin/export/
+Disallow: /employment_social/anticipedia/xwiki/bin/inline/
+Disallow: /employment_social/anticipedia/xwiki/bin/lifeblog/
+Disallow: /employment_social/anticipedia/xwiki/bin/login/
+Disallow: /employment_social/anticipedia/xwiki/bin/loginerror/
+Disallow: /employment_social/anticipedia/xwiki/bin/logout/
+Disallow: /employment_social/anticipedia/xwiki/bin/objectremove/
+Disallow: /employment_social/anticipedia/xwiki/bin/pdf/
+Disallow: /employment_social/anticipedia/xwiki/bin/preview/
+Disallow: /employment_social/anticipedia/xwiki/bin/propadd/
+Disallow: /employment_social/anticipedia/xwiki/bin/propdelete/
+Disallow: /employment_social/anticipedia/xwiki/bin/propupdate/
+Disallow: /employment_social/anticipedia/xwiki/bin/register/
+Disallow: /employment_social/anticipedia/xwiki/bin/save/
+Disallow: /employment_social/anticipedia/xwiki/bin/skin/
+Disallow: /employment_social/anticipedia/xwiki/bin/status/
+Disallow: /employment_social/anticipedia/xwiki/bin/upload/
+Disallow: /employment_social/anticipedia/xwiki/bin/viewattachrev/
+Disallow: /employment_social/anticipedia/xwiki/bin/viewrev/
+Disallow: /employment_social/anticipedia/xwiki/bin/xmlrpc/
+
+
+#Taxud
+Disallow: /taxation_customs/dds2/col/
+Disallow: /taxation_customs/dds2/ebti/
+Disallow: /taxation_customs/dds2/ecics/
+Disallow: /taxation_customs/dds2/taric/
+Disallow: /food/archive/
+Disallow: /consumers/archive/
+Disallow: /transparencyregister/public/staticPage/displayStaticPage.do
+Disallow: /transparencyregister/public/consultation/search.do
+Disallow: /transparencyregister/public/consultation/reportControllerPager.do
+Disallow: /transparencyregister/
+Disallow: /transparencyinitiative/
+Disallow: /europeaid/companion/
+Disallow: /europeaid/prag/
+
+#Connect
+User-agent: Twitterbot
+Allow: /digital-single-market/en/files
+Allow: /digital-single-market/files
+Allow: /digital-single-market/sites/
+Allow: /digital-single-market/en/sites/
+User-agent: *
+Allow: /digital-single-market/
+Disallow: /digital-single-market/sites/
+Disallow: /digital-single-market/users/
+Disallow: /digital-single-market/events/cf/
+Disallow: /digital-single-market/contact*
+Disallow: /digital-single-market/tags/
+Disallow: /digital-single-market/news-redirect/
+Disallow: /digital-single-market/newsroom/
+Disallow: /digital-single-market/country/
+Disallow: /digital-single-market/taxonomy/
+Disallow: /digital-single-market/search/
+Disallow: /digital-single-market/group-libraries
+Disallow: /digital-single-market/files
+Disallow: /digital-single-market/en/sites/
+Disallow: /digital-single-market/en/users/
+Disallow: /digital-single-market/en/events/cf/
+Disallow: /digital-single-market/en/contact*
+Disallow: /digital-single-market/en/news-redirect/
+Disallow: /digital-single-market/en/newsroom/
+Disallow: /digital-single-market/en/country/
+Disallow: /digital-single-market/en/taxonomy/
+Disallow: /digital-single-market/en/search/
+Disallow: /digital-single-market/en/group-libraries
+Disallow: /digital-single-market/en/files
+Disallow: /newsroom/dae/
+
+
+#former digital agenda
+User-agent: *
+Allow: /digital-agenda/
+Disallow: /digital-agenda/sites/
+Disallow: /digital-agenda/users/
+Disallow: /digital-agenda/events/cf/
+Disallow: /digital-agenda/contact*
+Disallow: /digital-agenda/tags/
+Disallow: /digital-agenda/news-redirect/
+Disallow: /digital-agenda/newsroom/
+Disallow: /digital-agenda/country/
+Disallow: /digital-agenda/taxonomy/
+Disallow: /digital-agenda/search/
+Disallow: /digital-agenda/group-libraries/
+Disallow: /newsroom/dae/
+
+#estat [IM0014642760 - IM0014779417]
+Disallow: /eurostat/*?*p_p_id=estatsearchportlet_WAR_estatsearchportlet
+Disallow: /eurostat/*?*p_p_id=esssearchportlet_WAR_esssearchportlet
+
+#estat [IM0017968245]
+Disallow: /eurostat/*?*p_p_id=NavTreeportletprod_WAR_NavTreeportletprod_INSTANCE_*
+
+#eusurvey IM0015280464
+Disallow: /eusurvey/publication
+Disallow: /eusurvey/files
+Disallow: /eusurvey/webservice
+Disallow: /eusurvey/resources
+
+#health 18/05/2017 [IM0015562498]
+User-agent: *
+Disallow: /health/sites/health/files/tobacco/docs/doi/
+
+#DIGIT 06/09/2018 [IM0016965874]
+Disallow: /pmo/contact/fr/staff/
+Disallow: /pmo/contact/en/staff/
+
+# requested by Edson Ramos (TAXUD) on 03/12/2018 [IM0017249768]
+User-agent: *
+Disallow: /taxation_customs/tax-cfw-interactive-brochure
+Disallow: /taxation_customs/tax-cfw-interactive-brochure_en
+Disallow: /taxation_customs/tax-cfw-interactive-brochure-news
+Disallow: /taxation_customs/tax-cfw-interactive-brochure-news_en
+
+# requested by Edson Ramos (TAXUD) on 06/03/2019 [IM0017321783]
+User-agent: *
+Disallow: /transparency/regexpert/index.cfm?do=groupDetail.groupDetailDoc&id=14885
+Disallow: /transparency/regexpert/index.cfm?do=groupDetail.groupDetailDoc&id=7856
+Disallow: /transparency/regexpert/index.cfm?do=groupDetail.groupDetailDoc&id=14885*
+Disallow: /transparency/regexpert/index.cfm?do=groupDetail.groupDetailDoc&id=7856*
+
+#cai IM0017839861
+User-agent: *
+Disallow: /cai/*
+
+#requested by FRIPPIAT Jean-Michel (ESTAT-EXT) on 18/07/2019 IM0017839861
+User-agent: *
+Disallow: /eurostat/search
+Disallow: /eurostat/*/search/-/

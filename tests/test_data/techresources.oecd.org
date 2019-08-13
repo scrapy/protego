@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta content="Organisation for Economic Co-operation and Development" name="title">
+		<meta content="en" name="language">
+		<meta content="Welcome to the OECD, an international organisation helping governments tackle the economic, social and governance challenges of a globalised economy.." name="description">
+		<meta content="statistics, economy, globalisation, co-operation, cooperation, agency, inter-governmental" name="keywords">
+		
+		<style type="text/css">
+		body {
+			font-size: 12px;
+			color: #222;
+			background: white;
+			font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+		}
+		
+		strong {
+			font-size: 15px;
+			font-weight: bold;	
+		}
+		
+		p {
+			font-size: 15px;
+		}
+		</style>
+	</head>
+	<body>
+		<table cellspacing="0" cellpadding="0" width="100%" border="0" leftmargin="0" topmargin="0">
+			<tbody>
+				<tr>
+					<td width="200">
+						<a href="http://www.oecd.org">
+							<img height="73" src="logooecd_en.png" border="0">
+						</a>
+					</td>
+					<td>
+						Organisation for Economic Co-operation and Development 
+					</td>
+				</tr>
+				<tr>
+				  <td colspan="2">&nbsp; </td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<p>
+			<strong>Temporary service interruption</strong>
+		</p>
+		<p>
+			The OECD Web site is currently unavailable.&nbsp;
+			We apologise for this inconvenience.&nbsp;
+			Please try again later.&nbsp; 
+		</p>
+		
+		<p>*******************</p>
+		
+		<p>
+			<strong>Interruption momentanée du service</strong>
+		</p>
+		<p>
+			Le site Internet de l'OCDE est temporairement indisponible.&nbsp;
+			Veuillez nous excuser pour les désagréments occasionnés.&nbsp;
+			Merci de réessayer ultérieurement.&nbsp;
+		</p>
+	</body>
+</html>

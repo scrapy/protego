@@ -1,0 +1,43 @@
+# https://www.converse.com robots.txt 
+
+User-agent: *
+Disallow: /cart
+Disallow: /*/cart
+Disallow: /shop-cart
+Disallow: /checkout
+Disallow: /*/checkout
+Disallow: /search
+Disallow: /*/search
+Disallow: /*/Resources-Load
+Disallow: /*/SendToFriend-SendDYO
+Disallow: /*/COBilling-ResetPaymentForms
+Disallow: /*/Product-GetBonusProducts
+Disallow: /*/Product-GetAvailability
+Disallow: /*/StoreLocator-Search
+Disallow: /*=Color
+Disallow: /*refinementSize
+Disallow: /*brandSegment
+Disallow: /*srule
+Disallow: /*sz=
+Disallow: /*size
+Disallow: /*=cut
+Disallow: /*sortOrder
+Disallow: /*intpromo
+Disallow: /*search
+Disallow: /*prefn
+Disallow: /*prefv
+Disallow: /*crefn
+Disallow: /*crefv
+Disallow: /*/f/
+Disallow: /*cgid
+Disallow: /*/Favorite-Add
+Disallow: /*/Favorite-Remove
+Disallow: /*leave-a-review
+Disallow: /*/zproductmatrix
+Disallow: /*/zplfgener
+Disallow: /*/zproductdetails
+Disallow: /zproductmatrix
+Disallow: /zplfgener
+Disallow: /zproductdetails
+
+Sitemap: https://www.converse.com/sitemap_index.xml

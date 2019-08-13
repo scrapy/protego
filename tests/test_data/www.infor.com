@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /cpresources
+Disallow: /inforcmslogin
+Disallow: /pattern-library
+Disallow: /search
+Disallow: /*?noRedirect=1
+Disallow: /*?noredirect=1
+Disallow: /shared_resources
+Noindex: /shared_resources
+Sitemap: https://www.infor.com/sitemap.xml

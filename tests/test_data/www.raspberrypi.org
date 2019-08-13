@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /forums/*?f=11
+Disallow: /forums/*?f=101

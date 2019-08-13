@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: */~/*
+Disallow: /forgot2scan*
+Disallow: /Account*
+Disallow: /account*
+Disallow: /MyProfile*
+Disallow: /myprofile*
+Disallow: /MissedTransactions*
+Disallow: /missedtransactions*
+Disallow: /sitecore*
+Disallow: *Incapsula*
+Sitemap: https://www.chick-fil-a.com/CFACOM.xml
+Sitemap: https://www.chick-fil-a.ca/CFACANADA.xml
+Sitemap: https://thechickenwire.chick-fil-a.com/CFACOM_CW.xml

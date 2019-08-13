@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-TW">
+<head id="Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="/images/style/moicss_m.css" rel="stylesheet" type="text/css" />
+    <link href="/images/style/fmoicss_m.css" rel="stylesheet" type="text/css" />
+    <meta name="DC.Title" content="中華民國內政部全球資訊網">
+    <meta name="DC.Creator" content="內政部">
+    <meta name="DC.Subject" content="中華民國內政部全球資訊網">
+    <meta name="DC.Description" content="中華民國內政部全球資訊網">
+    <meta name="DC.Contributor" content="內政部">
+    <meta name="DC.Type" content="文字">
+    <meta name="DC.Format" content="text/html">
+    <meta name="DC.Source" content="內政部">
+    <meta name="DC.Language" content="中文">
+    <meta name="DC.coverage.t.max" content="2016-1-1">
+    <meta name="DC.coverage.t.min" content="2012-1-1">
+    <meta name="DC.Publisher" content="內政部">
+    <meta name="DC.Date" content="2012-1-1 12:00">
+    <meta name="DC.Identifier" content="301000000A">
+    <meta name="DC.Rights" content="內政部">
+    <meta name="Category.Theme" content="110">
+    <meta name="Category.Cake" content="100">
+    <meta name="Category.Service" content="1Z0">
+    <meta name="Keywords" content="中華民國內政部全球資訊網" />
+    <title>找不到檔案或網頁-中華民國內政部全球資訊網 </title>
+</head>
+<body>
+    <form name="form1" method="post" action="IPhome.aspx?type=2014Z" id="form1">
+    <table border="1" cellpadding="0" cellspacing="0" style="padding:auto; margin:auto; border-color:gray; margin-top:200px; width: 500px">
+        <tr>
+            <td style="height: 300px; text-align: center" class="content02">
+                <h1 style="font-size: 120%">您好，找不到檔案或網頁，稍後將為您轉往首頁</h1>
+                <script>
+                    setTimeout(function () { location.href = "index.aspx"; }, 5000);                
+                </script>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

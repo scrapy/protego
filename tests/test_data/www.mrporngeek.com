@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /th/*
+Disallow: /ru/*
+Disallow: /cs/*
+Disallow: /es/*
+Disallow: /fr/*
+Disallow: /it/*
+Disallow: /nl/*
+Disallow: /sv/*
+Disallow: /wp-admin/
+Disallow: /wp-content/themes/i-max/ajax-handler-wp.php
+Allow: /wp-admin/admin-ajax.php

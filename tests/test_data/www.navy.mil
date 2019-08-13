@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /images/
+Disallow: /media/
+Disallow: /management/
+Disallow: /view_single.asp
+Disallow: /list_single.asp
+Disallow: /list_all.asp
+Disallow: /viewgallery.asp
+Disallow: /view_image_list.asp
+Disallow: /view_printads.asp
+Disallow: /view_ggphotos.asp
+Disallow: /viewVideo.asp
+Disallow: /videoGallery.asp
+Disallow: /localPhotoTile.asp
+Disallow: /iotd/
+Crawl-Delay: 5
+

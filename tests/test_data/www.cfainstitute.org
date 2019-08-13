@@ -1,0 +1,16 @@
+User-agent: *
+
+Sitemap: https://www.cfainstitute.org/sitemap-cfai-en.xml
+
+Disallow: /search
+Disallow: /en/search
+Disallow: */api/
+Disallow: */LoginApplication/
+Disallow: */loginapplication/
+Disallow: *participating_universities.aspx?Country=
+Disallow: /account
+Disallow: /about/universities/professors/teaching-materials
+Disallow: /societies/challenge/host/
+Disallow: /cipm/candidate/
+Disallow: /cfa/candidate/
+Disallow: /documents/protected

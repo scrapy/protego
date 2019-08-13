@@ -1,0 +1,177 @@
+User-agent: *
+
+Allow: /
+Noindex: /$
+
+# Sharepoint
+Disallow: /es-*
+Disallow: /en-*
+Disallow: /pt-*
+
+# POS
+Allow: /ar/*
+Allow: /bo/*
+Allow: /br/*
+Allow: /ca/*
+Allow: /cl/*
+Allow: /co/*
+Allow: /cr/*
+Allow: /de/*
+Allow: /do/*
+Allow: /ec/*
+Allow: /es/*
+Allow: /eu/*
+Allow: /gt/*
+Allow: /hn/*
+Allow: /mx/*
+Allow: /ni/*
+Allow: /otr/*
+Allow: /pa/*
+Allow: /pe/*
+Allow: /py/*
+Allow: /sv/*
+Allow: /uk/*
+Allow: /us/*
+Allow: /uy/*
+
+Allow: /*.css*
+
+#Bloquear Archivos Internos CMS
+Disallow: /*editform*
+Disallow: /*newform*
+Disallow: /*_app_bin*
+Disallow: /*App_Browsers*
+Disallow: /*App_Data*
+Disallow: /App_GlobalResources*
+Disallow: /aspnet_client*
+Disallow: /es/Descarga/
+Disallow: /*_controltemplates*
+Disallow: /*_forms*
+Disallow: /*_Forms*
+Disallow: /*_login*
+Disallow: /*_catalogs*
+Disallow: /*_cts*
+Disallow: /*_private*
+Disallow: /*Lists*
+Disallow: /*ReusableContent*
+Disallow: /*WorkflowTasks/
+Disallow: /*SiteCollectionDocuments*
+Disallow: /*SiteCollectionImages*
+Disallow: /*SiteAssets*
+Disallow: /*AnalyticsReports/Forms*
+Disallow: /*Search*
+Disallow: /*Reports%20List*
+Disallow: /*_vti_bin*
+Disallow: /*_vti_pvt*
+Disallow: /*_windows*
+Disallow: /*_wpresources*
+Disallow: /*Documents/Forms*
+Disallow: /*Pages/Forms*
+Disallow: *.swf*
+Disallow: /*Forms*
+
+#Bloquear 404
+Disallow: /*404*
+
+# Sharepoint Base
+Disallow: /es-base*
+Disallow: /en-base*
+Disallow: /pt-base*
+Disallow: /es/base*
+Disallow: /en/base*
+Disallow: /pt/base*
+
+#AEM Base
+Disallow: /base/*
+
+
+
+#Dominos
+Disallow: https://preproduccionwcm.avianca.com/*
+Disallow: https://preproduccionherramientas.avianca.com/*
+Disallow: https://preproduccioncheckin.avianca.com/*
+Disallow: https://preproduccion.avianca.com/*
+Disallow: https://checkin.avianca.com/*
+Disallow: https://compra.avianca.com/*
+Disallow: https://booking.avianca.com/*
+
+
+#Sitemaps POS
+#Sitemap General
+Sitemap: https://www.avianca.com/sitemap.xml
+#Sitemap AR
+Sitemap: https://www.avianca.com/ar/es/sitemap.xml
+Sitemap: https://www.avianca.com/ar/en/sitemap.xml
+#Sitemap BO
+Sitemap: https://www.avianca.com/bo/es/sitemap.xml
+Sitemap: https://www.avianca.com/bo/en/sitemap.xml
+#Sitemap BR
+Sitemap: https://www.avianca.com/br/pt/sitemap.xml
+Sitemap: https://www.avianca.com/br/es/sitemap.xml
+Sitemap: https://www.avianca.com/br/en/sitemap.xml
+#Sitemap CA
+Sitemap: https://www.avianca.com/ca/en/sitemap.xml
+Sitemap: https://www.avianca.com/ca/es/sitemap.xml
+#Sitemap CL
+Sitemap: https://www.avianca.com/cl/es/sitemap.xml
+Sitemap: https://www.avianca.com/cl/en/sitemap.xml
+#Sitemap CO
+Sitemap: https://www.avianca.com/co/es/sitemap.xml
+Sitemap: https://www.avianca.com/co/en/sitemap.xml
+#Sitemap CR
+Sitemap: https://www.avianca.com/cr/es/sitemap.xml
+Sitemap: https://www.avianca.com/cr/en/sitemap.xml
+#Sitemap DE
+Sitemap: https://www.avianca.com/de/de/sitemap.xml
+Sitemap: https://www.avianca.com/de/en/sitemap.xml
+Sitemap: https://www.avianca.com/de/es/sitemap.xml
+#Sitemap DO
+Sitemap: https://www.avianca.com/do/es/sitemap.xml
+Sitemap: https://www.avianca.com/do/en/sitemap.xml
+#Sitemap EC
+Sitemap: https://www.avianca.com/ec/es/sitemap.xml
+Sitemap: https://www.avianca.com/ec/en/sitemap.xml
+#Sitemap ES
+Sitemap: https://www.avianca.com/es/es/sitemap.xml
+Sitemap: https://www.avianca.com/es/en/sitemap.xml
+#Sitemap EU
+Sitemap: https://www.avianca.com/eu/en/sitemap.xml
+Sitemap: https://www.avianca.com/eu/es/sitemap.xml
+Sitemap: https://www.avianca.com/eu/pt/sitemap.xml
+Sitemap: https://www.avianca.com/eu/de/sitemap.xml
+#Sitemap GT
+Sitemap: https://www.avianca.com/gt/es/sitemap.xml
+Sitemap: https://www.avianca.com/gt/en/sitemap.xml
+#Sitemap HN
+Sitemap: https://www.avianca.com/hn/es/sitemap.xml
+Sitemap: https://www.avianca.com/hn/en/sitemap.xml
+#Sitemap MX
+Sitemap: https://www.avianca.com/mx/es/sitemap.xml
+Sitemap: https://www.avianca.com/mx/en/sitemap.xml
+#Sitemap NI
+Sitemap: https://www.avianca.com/ni/es/sitemap.xml
+Sitemap: https://www.avianca.com/ni/en/sitemap.xml
+#Sitemap OTR
+Sitemap: https://www.avianca.com/otr/en/sitemap.xml
+Sitemap: https://www.avianca.com/otr/es/sitemap.xml
+#Sitemap PA
+Sitemap: https://www.avianca.com/pa/es/sitemap.xml
+Sitemap: https://www.avianca.com/pa/en/sitemap.xml
+#Sitemap PE
+Sitemap: https://www.avianca.com/pe/es/sitemap.xml
+Sitemap: https://www.avianca.com/pe/en/sitemap.xml
+#Sitemap PY
+Sitemap: https://www.avianca.com/py/es/sitemap.xml
+Sitemap: https://www.avianca.com/py/en/sitemap.xml
+#Sitemap SV
+Sitemap: https://www.avianca.com/sv/es/sitemap.xml
+Sitemap: https://www.avianca.com/sv/en/sitemap.xml
+#Sitemap UK
+Sitemap: https://www.avianca.com/uk/en/sitemap.xml
+Sitemap: https://www.avianca.com/uk/es/sitemap.xml
+#Sitemap US
+Sitemap: https://www.avianca.com/us/en/sitemap.xml
+Sitemap: https://www.avianca.com/us/es/sitemap.xml
+#Sitemap UY
+Sitemap: https://www.avianca.com/uy/es/sitemap.xml
+Sitemap: https://www.avianca.com/uy/en/sitemap.xml

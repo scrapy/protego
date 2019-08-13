@@ -1,0 +1,23 @@
+User-agent: *
+# Disallow: /
+Disallow: /cgi-bin/
+Disallow: /Local
+Disallow: /local
+Disallow: /solr
+
+#User-agent: BUbiNG
+#Disallow: /
+
+# Disallow access to all files in these directories
+Disallow: /webdesign-projects
+Disallow: /Webadmin
+Disallow: /Astronomy
+Disallow: /Physics/sure/
+Disallow: /library/local/
+Disallow: /Psychology/local
+Disallow: /calendar/1415-2/
+Disallow: /Secretary/Communications/Noticeboard/
+
+# Disallow access to these specific files
+Disallow: /wip_index.php
+

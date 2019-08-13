@@ -1,0 +1,20 @@
+# robots.txt for http://www.gnu.org/
+
+User-agent: *
+Crawl-delay: 2
+Disallow: /private/
+Disallow: /savannah-checkouts/
+Disallow: /server/trans-map.html
+
+# RT #1298215.
+User-agent: *
+Crawl-delay: 4
+Disallow: /server/trans-map.html
+
+# RT #1298215.
+User-agent: *
+Crawl-delay: 4
+Disallow: /server/select-language.html
+
+Sitemap: http://www.gnu.org/sitemap.xml
+

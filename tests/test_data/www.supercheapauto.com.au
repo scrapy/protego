@@ -1,0 +1,35 @@
+User-Agent:*
+Allow: /*demandware.static*
+Allow: /*Analytics-Start*
+Disallow: /*CAWELAID=*
+Disallow: /*cb=*
+Disallow: /*cid=*
+Disallow: /*cm_vc=*
+Disallow: /*gclid=*
+Disallow: /*istBid=*
+Disallow: /*istCompanyId=*
+Disallow: /*istItemId=*
+Disallow: /*maxfilter*
+Disallow: /*mid=*
+Disallow: /*original=*
+Disallow: /*pmax=*
+Disallow: /*pmin=*
+Disallow: /*prefn1=*
+Disallow: /*prefn2=*
+Disallow: /*prefn3=*
+Disallow: /*prefn4=*
+Disallow: /*prefv1=*
+Disallow: /*prefv2=*
+Disallow: /*prefv3=*
+Disallow: /*prefv4=*
+Disallow: /*srule=*
+Disallow: /*start=*
+Disallow: /*sz=*
+Disallow: /*vgid=*
+Disallow: /*Product-Variation*
+Disallow: /*cgid=*
+Disallow: /on/demandware.store/
+Disallow: *?crefn1=*
+Disallow: *?csortb=*
+
+Sitemap: https://www.supercheapauto.com.au/sitemap_index.xml

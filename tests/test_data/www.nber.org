@@ -1,0 +1,45 @@
+Sitemap: http://www.nber.org/sitemap.txt
+
+User-agent: NinjaBot
+Disallow: /papers/
+Disallow: /people/
+Disallow: /vitae.html
+
+User-agent: *
+Crawl-delay: 10
+
+User-agent: *
+Disallow: /contact/
+Disallow: /confer/
+Disallow: /~confer/
+Disallow: /conf_papers/
+Disallow: /c/
+Disallow: /wpsubmit/
+Disallow: /custom
+Disallow: /confsubmit/
+Disallow: /family/
+Disallow: /1050/
+Disallow: /cal/
+Disallow: /cgi-bin/
+Disallow: /nberhistory/historicalarchives/
+Disallow: /xming*
+Disallow: /taxex/
+Disallow: /papers/mail
+Disallow: /tmp/
+Disallow: /server-status/
+Disallow: /mrtg/
+Disallow: /bb/
+Disallow: /img/
+Disallow: /pics
+Disallow: /*.ris$
+Disallow: /*.marc$
+Disallow: /*.bib$
+Disallow: /*palm*$
+Disallow: /taxsim-calc*/
+Disallow: /medicare/
+Disallow: /*.pl/
+Disallow: /arfpub/
+Disallow: /pscp*
+Disallow: /jobs/stateforms/
+Disallow: /hcris/
+

@@ -1,0 +1,19 @@
+# www.ssa.gov robots.txt
+# 08/07/18
+# Eric Brown, Wayne Whitten
+User-Agent: *
+
+Disallow: /admin/
+# Disallow: /agency/shutdown/
+Disallow: /cgi-bin/
+Disallow: /dev/
+Disallow: /hlp/
+Disallow: /info/
+Disallow: /javascript/
+Disallow: /myaccount/help/
+Disallow: /myaccount/materials/pdfs/SSA-7004.pdf
+Disallow: /onlineservices/eservices/
+Disallow: /ssaexpress/
+Disallow: /w3c/
+
+Sitemap: https://www.ssa.gov/sitemap.xml

@@ -1,0 +1,40 @@
+#IEEE.org Robots Exclusion Rules - Updated October 29, 2018 
+
+User-agent: *
+
+Disallow: /searchresults/index.html
+Disallow: /ucm/idcplg
+Disallow: /portal/index.jsp
+Disallow: /portal/site/mainsite/
+Disallow: /publications/services/services-resources.html
+Disallow: /about/awards/award-recipient-form.html
+Disallow: /membership/join/mga-2016-mda.html
+Disallow: /membership/renew/reinstateCS16.html
+Disallow:  /membership/renew/renewBO16.html
+Disallow: /membership/join/hkt-join.html
+Disallow: /membership/join/mga-2016-md2.html
+Disallow: /membership/join-renew.html
+Disallow: /membership/renew/reinstate.html
+Disallow: /membership/join/product-purchasers.html
+Disallow: /membership/join/author.html
+Disallow: /membership/join/more-visibility-2.html
+Disallow: /membership/join/incomplete/index.html
+Disallow: /membership/join/merit-direct/merit.html
+Disallow: /membership/join/ihs-join.html
+Disallow: /membership/join-renew-conferences.html
+Disallow: /membership/join/google-membership.html
+Disallow: /membership/join/fb.htm0l
+Disallow: /membership/join/twitter.html
+Disallow: /membership/join/referral-payment.html
+Disallow: /membership/join/ieeeusa-join-renew.html
+Disallow: /membership/join/merit-direct/merit-intl.html
+Disallow: /membership/join/nom-join.html
+Disallow: /membership/join/join-USA.html
+Disallow: /membership/join/mga-ces-2016.html
+Disallow: /publications/services/services-resources.html
+Disallow: /membership/join/gift-more-visibility.html
+Disallow: /membership/join/member-get-a-member/more-visibility
+Disallow: /membership/join/nom-join/more-visibility.html
+Disallow: /publications/thesaurus-thank-you-page.html
+
+Sitemap:https://www.ieee.org/.sitemap.xml

@@ -1,0 +1,6 @@
+Sitemap: http://www.interserver.net/sitemap.xml
+User-agent: *
+Disallow: /resolve/
+Disallow: /forum/search/
+Disallow: /forum/members/
+Disallow: /cms/

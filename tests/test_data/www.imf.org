@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /external/country/
+Disallow: /external/ks5101/
+Disallow: /external/np/a4pilot/1999/
+Disallow: /external/np/a4pilot/2000/
+Disallow: /external/np/res/mmod/
+Disallow: /external/np/term/
+Disallow: /external/np/tre/tad/
+Disallow: /external/ns/
+Disallow: /external/pa4158/
+Disallow: /forum/

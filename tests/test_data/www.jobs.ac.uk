@@ -1,0 +1,8 @@
+User-agent: *
+
+Disallow: /job/proof/
+Disallow: /enhanced/employer/proof/
+Disallow: /enhanced/linking/proof/
+Disallow: /enhanced/Marketing/targeted-email/proof/
+
+Sitemap: https://www.jobs.ac.uk/sitemap.xml

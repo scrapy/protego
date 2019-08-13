@@ -1,0 +1,20 @@
+User-agent: archive.org_bot
+Disallow:
+
+User-agent: *
+Disallow: /admin/
+Disallow: /apps/ama/
+Disallow: /cbt/
+Disallow: /Medicare/Medicare-Fee-for-Service-Payment/PCPricer/downloads/
+Disallow: /About-CMS/Agency-Information/Emergency/index.html
+Disallow: /openpayments/Pathway-to-Attestation.html
+Disallow: /errors/
+Disallow: /ewebwp/
+Disallow: /pf/printpage.asp
+Disallow: /pf/
+Disallow: /sp/
+Disallow: /shutdown.html
+Disallow:/medicare-coverage-database/details/ncd-details.aspx
+Disallow:/medicare-coverage-database/details/ncd-details.aspx?NCDId
+Sitemap: https://www.cms.gov/sitemap.xml
+

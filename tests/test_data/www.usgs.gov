@@ -1,0 +1,466 @@
+User-agent: *
+Crawl-delay: 10
+
+Disallow: /centers/earthquakesc
+Disallow: /earthquakesc-themes/
+Disallow: /earthquakesc-topics/
+Disallow: /earthquakesc-non-theme-topics/
+Disallow: /centers/ema
+Disallow: /ema-themes/
+Disallow: /ema-topics/
+Disallow: /ema-non-theme-topics/
+#-----GLOBALS-------------
+#Global non-indexing of any item matching paths below. Do not add individual elsewhere.
+Disallow: /media/images/*logo*
+Disallow: /science-centers-and-observatories/
+Disallow: /locations/
+Disallow: /*-themes/
+Disallow: /*-topics/
+Disallow: /*-non-theme-topics/
+Disallow: /cost-centers/
+Disallow: /connect/
+Disallow: /cost-center/
+Disallow: /science-centers/
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+Disallow: /employees
+Disallow: /science-support/communications-and-publishing/about/employees
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+#-----END GLOBALS-------
+
+#SCIENCE EXPLORER
+Disallow: /science/science-explorer/
+Disallow: /science-explorer-results
+
+#PUBS
+Disallow:	/products/publications/
+Disallow:	/centers/pubs
+Disallow:	/pubs-themes/
+Disallow:	/pubs-topics/
+
+#ECOSYSTEMS
+#ENVIRONMENTS PROGRAM
+Disallow: /centers/enviroprog
+Disallow: /program/environments-program
+Disallow: /enviroprog-themes/
+Disallow: /enviroprog-topics/
+#ENERGY AND WILDLIFE PROGRAM
+Disallow: /centers/ewp
+Disallow: /program/energy-wildlife
+Disallow: /ewp-themes/
+Disallow: /ewp-topics/
+#FISHERIES
+Disallow: /centers/fisheries
+Disallow: /program/fisheries-program
+Disallow: /fisheries-themes/
+Disallow: /fisheries-topics/
+#FISH AND WILDLIFE DISEASE
+Disallow: /centers/fwd
+Disallow: /program/fish-wildlife-disease
+Disallow: /fwd-themes/
+Disallow: /fwd-topics/
+#INVASIVE SPECIES PROGRAM
+Disallow: /centers/invasives
+Disallow: /program/invasive-species-program
+Disallow: /invasives_themes/
+Disallow: /invasives_topics/
+#SSSP AKA SAGE GROUSE AND SAGEBRUSH ECOSYSTEM
+Disallow: /centers/sssp
+Disallow: /sage-grouse-sagebrush-steppe
+Disallow: /sssp-themes/
+Disallow: /sssp-topics/
+#STP STATUS AND TRENDS PROGRAM
+Disallow: /centers/wp
+Disallow: /program/status-and-trends-program
+Disallow: /stp-themes/
+Disallow: /stp-topics/
+#WILDLIFE PROGRAM
+Disallow: /centers/wp
+Disallow: /program/wildlife-program
+Disallow: /wp-themes/
+Disallow: /wp-topics/
+
+#------
+#WRET site for classroom
+Disallow: /centers/wret
+Disallow: /wret-themes/
+Disallow: /wret-topics/
+
+#------
+#SPECIAL TOPICS
+#EARTHMRI
+Disallow: /special-topic/earthmri
+Disallow: /earthmri-themes/
+Disallow: /earthmri-topics/
+Disallow: /earthmri-non-theme-topics/
+#DROUGHT
+Disallow: /special-topic/drought
+#FLOODS
+Disallow: /special-topic/floods
+Disallow: /floods-themes/
+Disallow: /floods-topics/
+#BIG SUR
+Disallow: /special-topic/big-sur-landslide
+Disallow: /big-sur-themes/
+#MICROBIOME
+Disallow: /special-topic/microbiome
+Disallow: /microbiome-themes/
+Disallow: /microbiome-topics/
+#MISSISSIPPI
+Disallow: /special-topic/mississippi-river
+Disallow: /mississippi_themes/
+Disallow: /mississippi_topics/
+#------
+
+#MERGED NOT DELETED YET
+#ILIA-WATER
+Disallow: /centers/ilia-water
+Disallow: /ilia-water-themes/
+Disallow: /ilia-water-topics/
+#INKY
+Disallow: /centers/inkywsc
+Disallow: /inkywsc-themes/
+Disallow: /inkywsc-topics/
+#MI-OH
+Disallow: /centers/mi-oh-water
+Disallow: /mi-water-themes/
+Disallow: /mi-water-topics/
+
+
+#---------------------
+#Sites allow ie now live
+#---------------------
+#ASC
+Disallow: /asc-themes/
+Disallow: /asc-topics/
+#ASTRO
+Disallow: /astrogeo-sc-themes/
+Disallow: /astrogeo-sc-topics/
+#AZ-WATER
+Disallow: /az-water-themes/
+Disallow: /az-water-topics/
+#CA-WATER
+Disallow: /ca-water-themes/
+Disallow: /ca-water-topics/
+#CA WATER LS
+Disallow: /ca-water-ls-themes/
+Disallow: /ca-water-ls-topics/
+#CAR-FL-WATER
+Disallow: /car-fl-water-themes/
+Disallow: /car-fl-water-topics/
+#CASC PROGRAM
+Disallow: /casc-themes/
+Disallow: /casc-topics/
+#CASC CENTER
+Disallow: /casc-sc-themes/
+Disallow: /casc-sc-topics/
+Disallow: /casc-sc-non-theme-topics/
+#CBA
+Disallow: /cba-themes/
+Disallow: /cba-topics/
+#CDI
+Disallow: /cdi-themes/
+Disallow: /cdi-topics/
+#CBP CONTAMINANT BIOLOGY PROGRAM
+Disallow: /ncbp-themes/
+Disallow: /ncbp-topics/
+Disallow: /ncbp-non-theme-topics/
+#CERC
+Disallow: /cerc-themes/
+Disallow: /cerc-topics/
+#CERSC
+Disallow: /cersc-themes/
+Disallow: /cersc-topics/
+#CGGSC
+Disallow: /cggsc-themes/
+Disallow: /cggsc-topics/
+#CM-WATER
+Disallow: /cm-water-themes/
+Disallow: /cm-water-topics/
+#CMERSC
+Disallow: /cmersc-themes/
+Disallow: /cmersc-topics/
+#CMGP AKA COASTAL MARINE HAZARDS AND RESOURCES PROGRAM
+Disallow: /cmgp-themes/
+Disallow: /cmgp-topics/
+#CO-WATER
+Disallow: /co-water-themes/
+Disallow: /co-water-topics/
+#DAKOTA
+Disallow: /dakota-water-themes/
+Disallow: /dakota-water-topics/
+#DML
+Disallow: /dml-themes/
+Disallow: /dml-topics/
+Disallow:	/dml-capability-themes/
+Disallow:	/dml-capabilities-topics/
+#EERSC
+Disallow: /eersc-themes/
+Disallow: /eersc-topics/
+#EGGL
+Disallow: /eggl-themes/
+Disallow: /eggl-topics/
+#EHMA
+Disallow: /ehma-themes/
+Disallow: /ehma-topics/
+#EHP EARTHQUAKE HAZARDS PROGRAM
+Disallow: /ehp-themes/
+Disallow: /ehp-topics/
+#EMERSC
+Disallow: /emersc-themes/
+Disallow: /emersc-topics/
+#EMP ENERGY AND MINERALS PROGRAM
+Disallow: /emp-themes/
+Disallow: /emp-topics/
+#ENERGY & MINERALS MA
+Disallow: /emma-themes/
+Disallow: /emma-topics/
+#EROS
+Disallow: /eros-themes/
+Disallow: /eros-topics/
+#ERP ENERGY RESOURCES PROGRAM
+Disallow: /erp-themes/
+Disallow: /erp-topics/
+#FIRE
+Disallow: /fire-themes/
+Disallow: /fire-topics/
+#FBGC
+Disallow: /fbgc-themes/
+Disallow: /fbgc-topics/
+#FORT
+Disallow: /fort-topics/
+Disallow: /fort-themes/
+#FRESC
+Disallow: /fresc-themes/
+Disallow: /fresc-topics/
+#GAP GAP ANALYSIS PROJECT
+Disallow: /gap-themes/
+Disallow: /gap-topics/
+#GAPP
+Disallow: /centers/gapp
+Disallow: /gapp-themes/
+Disallow: /gapp-topics/
+#GECSC
+Disallow: /gecsc-themes/
+Disallow: /gecsc-topics/
+#GEOHAZARDS
+Disallow: /geohazards-themes/
+Disallow: /geohazards-topics/
+#GEOMAGNETISM
+Disallow: /geomagnetism-themes/
+Disallow: /geomagnetism-topics/
+#GLR
+Disallow: /glr-themes/
+Disallow: /glr-topics/
+#GLSC
+Disallow: /glsc-themes/
+Disallow: /glsc-topics/
+#GMEG
+Disallow: /gmeg-themes/
+Disallow: /gmeg-topics/
+#GOM
+Disallow: /gom-themes/
+Disallow: /gom-topics/
+#GWSIP GROUNDWATER AND STREAMFLOW INFORMATION PROGRAM
+Disallow: /gwsip-themes/
+Disallow: /gwsip-topics/
+#HURRICANE FLORENCE
+Disallow: /hurrflorence-themes/
+Disallow: /hurrflorence-topics/
+#HURRICANE MICHAEL
+Disallow: /hurrmichael-themes/
+Disallow: /hurrmichael-topics/
+#ID-WATER
+Disallow: /id-water-themes/
+Disallow: /id-water-topics/
+#INNOVATION CENTER
+Disallow: /innovation-themes/
+Disallow: /innovation-topics/
+#LEETOWN
+Disallow: /lsc-themes/
+Disallow: /lsc-topics/
+#LHP LANDSLIDE HAZARDS PROGRAM
+Disallow: /lhp-themes/
+Disallow: /lhp-topics/
+#LRMA LAND RESOURCES MA
+Disallow: /lrma-themes/
+Disallow: /lrma-topics/
+#LSP LAND CHANGE SCIENCE PROGRAM
+Disallow: /lcsp-themes/
+Disallow: /lcsp-topics/
+#MENDENHALL
+Disallow: /mendenhall-themes/
+Disallow: /mendenhall-topics/
+#MRL
+Disallow: /mrl-themes/
+Disallow: /mrl-topics/
+#MRP MINERAL RESOURCES PROGRAM
+Disallow: /mrp-themes/
+Disallow: /mrp-topics/
+#NCGMP NATIONAL COOPERATIVE GEOLOGIC MAPPING PROGRAM
+Disallow: /ncgmp-themes/
+Disallow: /ncgmp-topics/
+#NE-WATER
+Disallow: /ne-water-themes/
+Disallow: /ne-water-topics/
+#NEHP 
+Disallow: /nehp-themes/
+Disallow: /nehp-topics/
+#NGGDPP NATIONAL GEOGRAPHIC AND GEOSPATIAL DATA PRESERVATION PROGRAM
+Disallow: /nggdpp-themes/
+Disallow: /nggdpp-topics/
+#NHMA
+Disallow:	/nhma-themes/
+Disallow:	/nhma-topics/
+#NJ-WATER
+Disallow:	/nj-water-themes/
+Disallow:	/nj-water-topics/
+#NPWRC
+Disallow: /npwrc-themes/
+Disallow: /npwrc-topics/
+#NWHC
+Disallow:	/nwhc-themes/
+Disallow:	/nwhc-topics/
+#NV-WATER
+Disallow:	/nv-water-themes/
+Disallow:	/nv-water-topics/
+#NWQL
+Disallow:	/nwql-themes/
+Disallow:	/nwql-topics/
+Disallow:	/nwql-capability-themes/
+Disallow:	/nwql-capabilities-topics/
+#NWQP NATIONAL WATER QUALITY PROGRAM
+Disallow: /nwqp-themes/
+Disallow: /nwqp-topics/
+#PA-WATER
+Disallow:	/pa-water-themes/
+Disallow:	/pa-water-topics/
+#PCMSC
+Disallow:	/pcmsc-themes/
+Disallow:	/pcmsc-topics/
+#PIWSC
+Disallow:	/piwsc-themes/
+Disallow:	/piwsc-topics/
+#POWELL CENTER
+Disallow: /powell-ctr-themes/
+Disallow: /powell-ctr-topics/
+#MD-DE-DC
+Disallow: /md-de-dc-water-themes/
+Disallow: /md-de-dc-water-topics/
+#OR-WATER
+Disallow:	/or-water-themes/
+Disallow:	/or-water-topics/
+#ORGANIC MATTER RESEARCH LAB OMRL
+Disallow: /omrl-themes/
+Disallow: /omrl-topics/
+Disallow:	/omrl-capability-themes/
+Disallow:	/omrl-capabilities-topics/
+#PWRC
+Disallow:	/pwrc-themes/
+Disallow:	/pwrc-topics/
+#RBPGL
+Disallow: /rbpgl-themes/
+Disallow: /rbpgl-topics/
+#RSIL
+Disallow: /rsil-themes/
+Disallow: /rsil-topics/
+#RSP REMOTE SENSING PHENOLOGY
+Disallow: /phenology-themes/
+Disallow: /phenology-topics/
+#SAFRR
+Disallow: /safrr-themes/
+Disallow: /safrr-topics/
+#SDC
+Disallow: /sdc-themes/
+Disallow: /sdc-topics/
+#SPCMSC
+Disallow: /spcmsc-themes/
+Disallow: /spcmsc-topics/
+#SPECLAB
+Disallow: /spec-lab-themes/
+Disallow: /spec-lab-topics/
+Disallow: /spec-lab-capability-themes/
+Disallow:	/spec-lab-capabilities-topics/
+#TX-WATER
+Disallow: /tx-water-themes/
+Disallow: /tx-water-topics/
+#TOXIC SUBSTANCES HYDROLOGY PROGRAM
+Disallow: /tshp-themes/
+Disallow: /tshp-topics/
+Disallow: /tshp-non-theme-topics/
+#UMID-WATER
+Disallow: /umid-water-themes/
+Disallow: /umid-water-topics/
+#UT-WATER
+Disallow: /ut-water-themes/
+Disallow: /ut-water-topics/
+#VA-WV
+Disallow: /va-wv-water-themes/
+Disallow: /va-wv-water-topics/
+#WA-WATER
+Disallow: /wa-water-themes/
+Disallow: /wa-water-topics/
+#WAUSP WATER AVAILABILITY AND USE SCIENCE PROGRAM
+Disallow: /wausp-themes/
+Disallow: /wausp-topics/
+#WATER SCIENCE SCHOOL
+Disallow: /water-school-themes/
+Disallow: /water-school-topics/
+#WERC
+Disallow: /werc-themes/
+Disallow: /werc-topics/
+#WFRC
+Disallow: /wfrc-themes/
+Disallow: /wfrc-topics/
+#WGSC
+Disallow: /wgsc-themes/
+Disallow: /wgsc-topics/
+#WHCMSC
+Disallow: /whcmsc-themes/
+Disallow: /whcmsc-topics/
+#WMA
+Disallow: /wma-themes/
+Disallow: /wma-topics/
+#WRRP AKA WRRI
+Disallow: /wrri-themes/
+Disallow: /wrri-topics/
+#WY-MT-WATER
+Disallow: /wy-mt-water-themes/
+Disallow: /wy-mt-water-topics/

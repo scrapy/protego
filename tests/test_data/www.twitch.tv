@@ -1,0 +1,15 @@
+User-Agent: *
+Allow: /
+Allow: /directory
+Allow: /directory/all
+Allow: /directory/*
+Allow: /videos/week
+Allow: /.well-known/assetlinks.json
+Disallow: /user/*
+Disallow: /admin/*
+Disallow: /login$
+Disallow: /signup$
+Disallow: /message/*
+
+Sitemap: https://www.twitch.tv/sitemap_index.xml.gz
+Sitemap: https://www.twitch.tv/sitemap_naver_index.xml.gz

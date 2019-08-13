@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /_dev/
+Disallow: /_training/
+Disallow: /_testingtemplates/
+Disallow: /_oneofftesting/
+Disallow: /_outesting/
+Disallow: /_resources/_htmls
+Disallow: /_resources/backups
+Disallow: /_resources/gadgets
+Disallow: /_resources/ou
+Disallow: /_resources/scripts
+Disallow: /_resources/snippets
+Disallow: /_resources/tuenduserguide.pdf
+Disallow: /_resources/xmldata
+Disallow: /_resources/xsl
+Disallow: /_resources/xsl-1
+Disallow: /campaign/
+
+

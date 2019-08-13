@@ -1,0 +1,35 @@
+Sitemap: http://bgp.he.net/sitemap.dns1
+Sitemap: http://bgp.he.net/sitemap.as1
+Sitemap: http://bgp.he.net/sitemap.as2
+Sitemap: http://bgp.he.net/sitemap.net1
+Sitemap: http://bgp.he.net/sitemap.net2
+Sitemap: http://bgp.he.net/sitemap.net3
+Sitemap: http://bgp.he.net/sitemap.net4
+Sitemap: http://bgp.he.net/sitemap.net5
+Sitemap: http://bgp.he.net/sitemap.net6
+Sitemap: http://bgp.he.net/sitemap.net7
+Sitemap: http://bgp.he.net/sitemap.net8
+Sitemap: http://bgp.he.net/sitemap.asset1
+Sitemap: http://bgp.he.net/sitemap.routeset1
+
+User-agent: *
+Allow: /
+Disallow: /rbl/
+Disallow: /webthumbs/
+Disallow: /r/
+
+User-agent: Applebot
+Disallow: /
+
+
+User-agent: bingbot
+Crawl-delay: 1
+Disallow: /rbl/
+Disallow: /webthumbs/
+Disallow: /r/
+
+User-agent: msnbot
+Crawl-delay: 1
+Disallow: /rbl/
+Disallow: /webthumbs/
+Disallow: /r/

@@ -1,0 +1,44 @@
+User-agent: *
+# Cap is html
+Disallow: /staging/
+Disallow: /cgi-bin/
+Disallow: /RT/
+Disallow: /TG/
+Disallow: /QS/
+Disallow: /wgl/
+Disallow: /P/
+Disallow: /ymix/
+Disallow: /OS/
+Disallow: /cs/
+Disallow: /en=
+Disallow: /p/s=
+Disallow: /bt=
+Disallow: /sid=
+Disallow: /io=
+Disallow: /ii=
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /email/manage
+Disallow: /email/unsubscribe
+# Rover is a bad dog <http://www.roverbot.com>
+User-agent: Roverbot
+Disallow: /
+
+# Block Indix.com
+User-agent: spotbot
+Disallow: /
+
+# Block TheFind.com
+User-agent: FatBot
+Disallow: /
+
+# Block CommonCrawl
+User-agent: CCBot
+Disallow: /
+
+# Block Halebot (biggeye.tacitknowledge.com)
+User-agent: Halebot
+Disallow: /
+
+# Googlebot doesn't work well with Facebook Comments
+Disallow: /plugins/feedback.php

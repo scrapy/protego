@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /search/
+Disallow: /healthcare/terms-and-conditions/
+Disallow: /print-capture-and-pdf-solutions/terms-and-conditions/
+Disallow: /dragon/terms-and-conditions/
+Disallow: /mobile/terms-and-conditions/
+Disallow: /system-pages/
+Disallow: /purchasing/
+Disallow: /collateral/corporate/po/
+Disallow: /terms-and-conditions/
+Disallow: /content/dam/nuance/en_us/terms-and-conditions/
+Sitemap: https://www.nuance.com/sitemap.xml

@@ -1,0 +1,36 @@
+User-agent: *
+Disallow: /login
+Disallow: /base/logout
+Disallow: /account
+Disallow: /subscribe_success
+Disallow: /download
+Disallow: /checkout
+Disallow: /account_purchase_history.mhtml
+Disallow: /contests
+Disallow: /portfolio
+Disallow: /editor/template
+Disallow: /editor/design
+Disallow: /editor/search
+Disallow: /video/cart
+Disallow: /video/checkout
+Disallow: /music/cart
+Disallow: /music/user
+Disallow: /music/orders
+Disallow: /web/checkout
+Disallow: /sstk/api/footage/wasabi/*
+Disallow: /studioapi/wasabi/*
+Disallow: /sstk/api/*
+Disallow: /studioapi/*
+Disallow: /feed.mhtml
+Disallow: /nuance-chat.html
+
+# Sitemaps.
+
+Sitemap: https://cdn.shutterstock.com/sitemaps/video/sitemap/sitemap-video-index.xml
+Sitemap: https://cdn.shutterstock.com/sitemaps/video/sitemap/sitemap-search-index.xml
+Sitemap: https://cdn.shutterstock.com/sitemaps/image/sitemap/sitemap-search-index.xml
+Sitemap: https://cdn.shutterstock.com/sitemaps/image/sitemap/stock-image-sitemap-index.xml.gz
+Sitemap: https://cdn.shutterstock.com/sitemaps/image/sitemap/stock-image-sitemap-index-2.xml.gz
+Sitemap: https://cdn.shutterstock.com/sitemaps/editorial/sitemap-editorial-index.xml
+Sitemap: https://cdn.shutterstock.com/sitemaps/editorial/sitemap-editorial-bfa-removal-index.xml
+Sitemap: https://www.shutterstock.com/blog/sitemap.xml

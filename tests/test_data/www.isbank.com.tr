@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /_layouts/
+Disallow: /_vti_bin/
+Disallow: /_catalogs/
+Disallow: /temp/
+Disallow: /Internet/
+Disallow: /TicariInternet/
+Disallow: /programs/
+Disallow: /tr/arama/
+Disallow: /en/search/
+Disallow: /hidden
+
+
+# sitemaps
+Sitemap: https://www.isbank.com.tr/sitemap.xml

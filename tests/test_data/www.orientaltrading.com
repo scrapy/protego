@@ -1,0 +1,9 @@
+User-agent: *
+Noindex: /*+*+*+*
+Disallow: /web/shoppingcart
+Noindex: /web/shoppingcart
+Noindex: /web/search/
+Noindex: /web/tellAFriend/
+Noindex: /web/wishlist/
+Noindex: /web/browse/processProductsCatalog
+sitemap: https://www.orientaltrading.com/static_sitemap_index.xml

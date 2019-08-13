@@ -1,0 +1,11 @@
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: *
+Allow: /
+Sitemap: /sitemap.xml
+Disallow: /search/
+Disallow: /traffic/status*?
+Disallow: /journeyplanner
+Disallow: /travel-information/email-updates/travel-alerts-emails
+Disallow: /modes/driving/te-contact-us-make-complaint-failure-*

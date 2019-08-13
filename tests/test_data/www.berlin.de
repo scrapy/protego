@@ -1,0 +1,73 @@
+# TERMS AND CONDITIONS
+#
+# When you use our websites, you agree to be bound by these terms and conditions.
+# If you do not agree to be bound by these terms, you may not use this site.
+# These terms may be changed by changing them on this site. The current version of
+# these terms will apply whenever you use this site.
+#
+# Any automated program to retrieve information from our public websites is only
+# allowed subject to the following restrictions:
+#
+# * It must clearly and uniquely identify itself in the HTTP User-Agent header.
+#   https://webmasters.stackexchange.com/questions/6205/what-user-agent-should-i-set
+#
+# * It must either only access our home page  and/or the RSS feed on that page; or
+#   it must be fully compliant with the Robots Exclusion Protocol.
+#   https://en.wikipedia.org/wiki/Robots_exclusion_standard
+#
+# * At ours discretion any automated program (or particular network suspected of
+#   operating an automated program) may be blocked at any time.
+#
+# Any use or attempted use of an automated program to access pages that are
+# disallowed by ours robots.txt file, or that fails to identify itself as an
+# automated program, is strictly unauthorised and shall be a misuse of our system
+# and this site. If you are unsure whether a given use would be allowed, please
+# contact us at webmaster@berlinonline.net.
+#
+# We may, at any time and without notice, choose to block your access to its
+# websites, without liability to you or any third party. This is entirely at ours
+# discretion in order to protect its intellectual property and to protect its
+# systems from misuse. If you are not operating an automated program and receive a
+# message that your access is blocked, you may contact us at webmaster@berlinonline.net
+# and we may unblock you at its discretion.
+
+User-Agent: ia_archiver
+Disallow:
+
+User-Agent: zoomRank
+Disallow: /
+
+User-Agent: Googlebot-News
+Disallow: /
+Allow: /aktuelles/
+Allow: /*/nachrichten/
+Allow: /*/news/
+Allow: /*/neueroeffnung/
+Allow: /*/neueroeffnungen-und-nachrichten/
+
+User-Agent: *
+Disallow: /*/(S(*))
+#Disallow: /ba-treptow-koepenick/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-tempelhof-schoeneberg/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-steglitz-zehlendorf/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-spandau/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-reinickendorf/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-pankow/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-neukoelln/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-mitte/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-marzahn-hellersdorf/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-lichtenberg/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-friedrichshain-kreuzberg/politik-und-verwaltung/bezirksverordnetenversammlung/online
+#Disallow: /ba-charlottenburg-wilmersdorf/politik/bezirksverordnetenversammlung/online
+
+Sitemap: https://www.berlin.de/sitemap-index.xml
+Sitemap: https://www.berlin.de/special/jobs-und-ausbildung/stellenangebote/index.php/de/sitemap.xml
+Sitemap: https://www.berlin.de/aktuelles/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/ausstellungen/nachrichten/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/clubs-und-party/nachrichten/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/kultur-und-tickets/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/restaurants/neueroeffnungen-und-nachrichten/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/special/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/tickets/.sitemap-news-1.xml
+Sitemap: https://www.berlin.de/wirtschaft/nachrichten/.sitemap-news-1.xml
+

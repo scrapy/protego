@@ -1,0 +1,78 @@
+# robots.txt for https://www.michigan.gov
+# SOM - WEX IBM Watson Explorer: VSE/1.0 (thompsonj@michigan.gov)
+User-agent: VSE
+Allow: /emichigan
+Disallow: /rss/
+Disallow: /podcast/
+Crawl-delay: 5
+
+# Yahoo!
+User-agent: Slurp 
+Disallow: /emichigan/
+Disallow: /minewswire/
+Disallow: /rss/
+Disallow: /podcast/
+Crawl-delay: 5
+
+# MSN
+User-agent: msnbot
+Disallow: /emichigan/
+Disallow: /minewswire/
+Disallow: /rss/
+Disallow: /podcast/
+Crawl-delay: 1
+
+# BingBot
+User-agent: bingbot
+Disallow: /emichigan/
+Disallow: /minewswire/
+Disallow: /rss/
+Disallow: /podcast/
+Crawl-delay: 1
+
+# 80legs Crawler
+User-agent: 008
+Disallow: /
+
+# Yandex
+User-agent: Yandex
+disallow: /
+
+# discoveryengine.com
+User-agent: discobot
+Disallow: / 
+
+# Ahrefs.com
+user-agent: AhrefsBot
+disallow: / 
+
+# kalooga.com
+User-agent: kalooga 
+Disallow: /
+
+# blekko.com
+User-agent: Blekkobot
+Disallow: / 
+
+# changedetection.com
+User-agent: ChangeDetection
+Disallow: /
+
+# paper.li
+User-agent: PaperLiBot
+Disallow: /
+
+# Google
+User-agent: Googlebot
+Disallow: /emichigan/
+Disallow: /minewswire/
+Disallow: /rss/
+Disallow: /podcast/
+Crawl-delay: 5
+
+User-agent: *
+Disallow: /emichigan/
+Disallow: /minewswire/
+Disallow: /rss/
+Disallow: /podcast/
+Crawl-delay: 5

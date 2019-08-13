@@ -1,0 +1,12 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Sitemap: https://www.kinokuniya.co.jp/sitemap.xml
+Disallow: /common/
+Disallow: /member/
+Disallow: /order/
+Disallow: /cart/
+Disallow: /canpaign/
+Disallow: /disp/CKnSfAgeConfirm.jsp
+Disallow: /kinonavi/

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /honoredfaculty/directory/index.html
+Disallow: /honoredfaculty/directory/directory.html
+Disallow: /_files/

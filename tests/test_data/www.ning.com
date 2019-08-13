@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /blog/wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-includes/
+Allow: /wp-includes/js/
+Allow: /wp-includes/images/
+Disallow: /trackback/
+Disallow: /wp-login.php
+Disallow: /wp-register.php
+Disallow: /*?s=*
+Disallow: /xn/authenticate*
+Disallow: /forgot-your-password/
+Disallow: /*/forgot-your-password/
+Disallow: /help/cgi-bin*
+Disallow: /profiles/blogs/
+Disallow: /oauth/
+Disallow: /*ning-oauth*
+Disallow: /*/search/*
+Disallow: /search/networks*
+Allow: /*/*/search/
+
+Host: https://www.ning.com/
+Sitemap: https://www.ning.com/sitemap_index.xml

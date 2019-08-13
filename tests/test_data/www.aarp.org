@@ -1,0 +1,25 @@
+#                         _____    _____
+#      /\         /\     |  __ \  |  __ \
+#     /  \       /  \    | |__) | | |__) |
+#    / /\ \     / /\ \   |  _  /  |  ___/
+#   / ____ \   / ____ \  | | \ \  | |
+#  /_/    \_\ /_/    \_\ |_|  \_\ |_|
+#
+# Robots.txt file created by https://www.aarp.org/
+# For domain: https://www.aarp.org/
+# Created 09-12-2017 Raymond Deschenes - Updated 5-2-19 Wrapper, .4 and LTO
+# All robots will spider the domain
+
+User-agent: *
+Disallow: /.4/
+Disallow: /benefits-discounts/all/lto/
+Disallow: /content/dam/aarp/benefits_discounts/membership_services/*/*.pdf
+Disallow: /content/specialized-membership/staying-sharp/
+Disallow: /everywhere/
+Disallow: /everywhere-configuration/
+Disallow: /playground-for-testing-stuff/
+Disallow: /qa/
+Disallow: /training-aarpe/
+Disallow: /vendor/
+
+Sitemap: https://www.aarp.org/sitemap.xml

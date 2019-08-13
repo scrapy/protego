@@ -1,0 +1,85 @@
+# Tells Scanning Robots Where They Are And Are Not Welcome
+#
+# User-agent:   can also specify by name; "*" is for everyone
+# Disallow:     disallow if this matches first part of requested path
+#
+# For now disallow all we can modify this as needed to allow certain crawlers.
+#
+Sitemap: http://www.jpl.nasa.gov/sitemap/xml/sitemap.xml
+User-agent: *
+Disallow: /93
+Disallow: /97
+Disallow: /airs
+Disallow: /ambassador
+Disallow: /attachments
+Disallow: /basics
+Disallow: /cal
+Disallow: /calendar
+Disallow: /cassini
+Disallow: /cchen
+Disallow: /cf_test
+Disallow: /cfdocs
+Disallow: /CFIDE
+Disallow: /cgi-bin
+Disallow: /code
+Disallow: /coldfusion
+Disallow: /comet
+Disallow: /csmad
+Disallow: /dailyplanet
+Disallow: /ds1news
+Disallow: /earth_test
+Disallow: /ethics
+Disallow: /europaorbiter
+Disallow: /facts
+Disallow: /forum
+Disallow: /fweb
+Disallow: /fweb2
+Disallow: /fweb_logs
+Disallow: /galileo
+Disallow: /genesis
+Disallow: /genesismission
+Disallow: /gif
+Disallow: /grace
+Disallow: /iae
+Disallow: /ice_fire
+Disallow: /internal
+Disallow: /jason
+Disallow: /jpl-internal-only
+Disallow: /jupiterflyby
+Disallow: /kids
+Disallow: /lidar
+Disallow: /lost+found
+Disallow: /magellan
+Disallow: /newsclips
+Disallow: /neo
+Disallow: /openhouse
+Disallow: /outgoing
+Disallow: /pictures
+Disallow: /planpro
+Disallow: /projects
+Disallow: /pscischool
+Disallow: /pso
+Disallow: /pso_old
+Disallow: /radar
+Disallow: /radioastronomy
+Disallow: /rm.old.cassini
+Disallow: /sait
+Disallow: /saturn
+Disallow: /scijinks
+Disallow: /sespd
+Disallow: /sircxsar
+Disallow: /s19
+Disallow: /snc
+Disallow: /spaceplace
+Disallow: /spacepwr
+Disallow: /srtm
+Disallow: /stardust
+Disallow: /stylesheets
+Disallow: /tbd
+Disallow: /teachers
+Disallow: /temp
+Disallow: /tours
+Disallow: /vyger
+Disallow: /vyger.old
+Disallow: /webalizer
+Disallow: /about_archive

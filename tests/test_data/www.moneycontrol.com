@@ -1,0 +1,20 @@
+User-Agent: *
+Disallow: /intuit/promo/
+Disallow: /network18/index.html
+Disallow: /budget2013/live-union-budget.html
+Disallow: /1039154/
+Disallow: /tech_charts/
+Disallow: /livefeed_pdf/
+Disallow: /profile/
+Disallow: /pdffiles/
+Disallow: /news_html_files/
+Disallow: /markets/market-stats/the-great-sensex-challenge/
+Disallow: /markets/market-stats/the-great-sensex-challenge/winners/
+
+Sitemap: https://www.moneycontrol.com/mccode/sitemap/news_sitemap.xml
+Sitemap: https://mmb.moneycontrol.com/sitemap/stock_topic_sitemap.xml
+Sitemap: https://mmb.moneycontrol.com/sitemap/market_view_topic_sitemap.xml
+Sitemap: https://mmb.moneycontrol.com/sitemap/personal_finance_topic_sitemap.xml
+Sitemap: https://mmb.moneycontrol.com/sitemap/latest_thread_sitemap.xml
+Sitemap: https://www.moneycontrol.com/news/videos-sitemap-2018-index.xml
+Sitemap: https://www.moneycontrol.com/news/images-sitemap-2018-index.xml

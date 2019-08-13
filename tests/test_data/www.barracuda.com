@@ -1,0 +1,9 @@
+Sitemap: https://www.barracuda.com/sitemap_xml.xml
+User-agent: *
+Disallow: /css/
+Disallow: /assets/
+Disallow: /js/
+User-agent: Googlebot
+Disallow: /assets/
+User-agent: Zing-BottaBot
+Disallow: /

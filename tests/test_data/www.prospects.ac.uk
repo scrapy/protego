@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:/redirect/
+Disallow:/apply?id=*
+
+Noindex:/partials/
+
+Sitemap: https://www.prospects.ac.uk/sitemap/indexSiteMap.xml

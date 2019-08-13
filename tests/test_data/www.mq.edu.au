@@ -1,0 +1,117 @@
+User-agent: funnelback
+Allow: /
+Disallow: /uat-landing/*
+Disallow: /pubstatic/*
+Disallow: /thisweek/*/feed/
+Disallow: /thisweek/feed/
+Disallow: /macquariematters/*/feed/
+Disallow: /newsroom/*/feed/
+Disallow: /newsroom/feed/
+Disallow: /research-impact/feed/
+Disallow: /research-impact/*/feed/
+Disallow: /mq_templates/*
+
+# Limit Bingbot
+User-agent: bingbot
+Disallow: /search
+Disallow: /pubstatic/*
+Disallow: /mq_templates/*
+Disallow: /study/new-ia*
+Disallow: /*?sq_content_src=
+Disallow: /*_recache
+Disallow: /*_edit
+Disallow: /*_admin
+Disallow: /*_login
+Disallow: /*_performance
+Disallow: /*_design
+Disallow: /*_web_services
+Disallow: /*_guide
+Disallow: /*_integration
+Disallow: /uat-landing/*
+Disallow: /squiz-sandbox/*
+Crawl-delay: 2
+
+User-agent: *
+Allow: /
+Disallow: /pubstatic/*
+Disallow: /mq_templates/*
+Disallow: /study/new-ia*
+
+# Allow CSS and JS
+# Allow: /_design/css/*
+# Allow: /_design/js/*
+
+# Disallow some matrix defaults
+Disallow: /*?sq_content_src=
+Disallow: /*_recache
+Disallow: /*_edit
+Disallow: /*_admin
+Disallow: /*_login
+Disallow: /*_performance
+Disallow: /*_design
+Disallow: /*_web_services
+Disallow: /*_guide
+Disallow: /*_integration
+
+# Disallow UAT and sandbox pages
+Disallow: /uat-landing/*
+Disallow: /squiz-sandbox/*
+
+# Disallow search page
+Disallow: /search
+
+# sitemap
+Sitemap: http://www.mq.edu.au/sitemap.xml
+
+# Keep deliberately duplicated pages out of the Google index
+User-agent: Googlebot
+Disallow: /search
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/macquarie-university-accommodation
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/macquarie-university-accommodation
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation
+Noindex: /study/international-students/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation
+Noindex: /study/other-study-options/english-language-courses/students/macquarie-university-accommodation
+Noindex: /study/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation
+Noindex: /study/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/macquarie-university-accommodation/how-to-apply
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/how-to-apply
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/macquarie-university-accommodation/how-to-apply
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/how-to-apply
+Noindex: /study/international-students/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/how-to-apply
+Noindex: /study/other-study-options/english-language-courses/students/macquarie-university-accommodation/how-to-apply
+Noindex: /study/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/how-to-apply
+Noindex: /study/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/how-to-apply
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/international-students/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/other-study-options/english-language-courses/students/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/macquarie-university-accommodation-options
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/international-students/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/other-study-options/english-language-courses/students/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/airport-pickup-request
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/macquarie-university-accommodation/feedback
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/feedback
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/macquarie-university-accommodation/feedback
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/feedback
+Noindex: /study/international-students/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/feedback
+Noindex: /study/other-study-options/english-language-courses/students/macquarie-university-accommodation/feedback
+Noindex: /study/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/feedback
+Noindex: /study/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/feedback
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/macquarie-university-accommodation/contact-us
+Noindex: /study/find-a-course/english-language-courses/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/contact-us
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/macquarie-university-accommodation/contact-us
+Noindex: /study/find-a-course/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/contact-us
+Noindex: /study/international-students/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/contact-us
+Noindex: /study/other-study-options/english-language-courses/students/macquarie-university-accommodation/contact-us
+Noindex: /study/other-study-options/english-language-courses/students/studying-in-sydney-australia/macquarie-university-accommodation/contact-us
+Noindex: /study/why-study-here/studying-in-sydney-australia/macquarie-university-accommodation/contact-us
+

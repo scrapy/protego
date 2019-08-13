@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /community/
+Sitemap: https://bethesda.net/sitemap.xml

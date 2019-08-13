@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gb2312">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>北京交通大学</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <style type="text/css">
+    .bglogo{background-color:#005bac;}
+    .bglogo img {margin-top: 20px;margin-bottom:10px;margin-left: 10px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bglogo">
+                <a href="http://www.bjtu.edu.cn" target="_blank" title="北京交通大学"><img src="http://www.bjtu.edu.cn/images/logo.png"></a><br><br>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+              <div class="table-responsive">
+                  <table class="table table-bordered">
+                      <thead><tr><th class="warning"><strong><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>&nbsp;&nbsp;没有找到文件或目录</strong></th></tr></thead>
+                      <tbody><tr><td><div>没有找到您要访问的文件或目录。如有疑问请与技术支持部门联系。<br>错误代码为：404</div></td></tr></tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+  <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

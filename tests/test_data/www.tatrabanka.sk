@@ -1,0 +1,7 @@
+
+User-agent: *
+Disallow: /components
+Disallow: /thumb
+Disallow: /cgi-bin/web/
+Disallow: /cgi-bin/invest/
+Sitemap: http://www.tatrabanka.sk/sitemap.xml

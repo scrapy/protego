@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+    <html lang="en"><head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Canara Bank Internet Banking</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+        <![endif]-->
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/CBhomestyle.css" rel="stylesheet" media="screen">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+    </head>
+<body style="background: #fff;">
+<!--<marquee style="position: text-align: center; left: 320px; top: 65px; font-size: 16px; color: red; font-weight: bold; font-family: tahoma; width: 100%;"><b>
+“Due to the Planned Maintenance activity, Internet Banking Services will not be available from 11:00 PM -12:00 AM on 14th June 2018 (today). Inconvenience is regretted”</b></marquee>-->
+<!--<div id="boxes">
+  <div style="top: 199.5px; left: 551.5px; display: none;" id="dialog" class="window"><a href="#" class="close agree" id="promoclose" style="display: block;">X</a>
+    <div id="lorem">
+      <p><a href="https://pledge.cvc.nic.in/" target="_blank"><img src="images/Untitled.jpg" width="800" height="450"></a></p>
+    </div>    
+  </div>
+  <div style="width: 1478px; font-size: 32pt; color:white; height: 602px; display: none; opacity: 0.8;" id="mask"></div>
+</div>-->
+    <div class="container-fluid">
+     <div id="content" tabindex="-1">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                    </button>
+         <!-- left column -->
+            <div class="col-md-3 col-sm-4 left-menu">
+                <div class="text-center"><a href="http://www.canarabank.com" target="_blank"><img src="images/CB_in/CBicons_03.png" border="0" /></a></div>
+
+                <!-- navbar left -->
+
+
+                <nav class="navbar-collapse collapse sidebar-navbar-collapse nav-side-menu" id="myNavbar">
+                       <div class="menu-list">
+                        <ul id="menu-content" class="menu-content nav navbar-nav">
+                            <li data-toggle="collapse" data-target="#online" class="collapsed"><a href="#"><img src="images/CB_in/CBicons_33.png">Online Services</a>
+
+                            <ul class="sub-menu collapse" id="online">
+                            	<li><a href="https://canarabankdigi.in/instadiya/" target="_blank">Online SB A/c Opening </a></li>
+								<li><a href="https://epayment.canarabank.in/Sukanya_Online/Firstpage.aspx" target="_blank">Sukanya Samriddhi Online Payment </a></li>
+                                <li><a href="https://canarabankcsis.in/CANARADIGISIGN/" target="_blank">Register Nomination?</a></li>
+								<li><a href="https://www.billdesk.com/pgidsk/pgmerc/instpy/CNBIndex.jsp" target="_blank">Online Bill payments</a></li>
+                                <li><a href="https://canarabank.com/english/bank-services/corporate-banking/canara-etax/" target="_blank">Online Tax payments</a></li>
+                                <li><a href="https://canepaycustoms.canarabank.in/PPFEpayment/de/PPFHome.aspx" target="_blank">Online PPF account opening</a></li>
+                                <li><a href="https://canepaycustoms.canarabank.in/APYOnline/sssApyImb.aspx" target="_blank">APY Online account opening</a></li>
+                            </ul>
+                            </li>
+
+
+                            <li data-toggle="collapse" data-target="#products" class="collapsed"><a href="#"><img src="images/CB_in/CBicons_31.png">Products/ Mobile app Info</a>
+
+                             <ul class="sub-menu collapse" id="products">
+                                <li><a href="https://www.canarabank.com/english/digital-products/empower/" target="_blank">eMpower – Canara UPI</a></li>
+                                <li><a href="https://www.canarabank.com/english/digital-products/canmobile/" target="_blank">CanMobile – Mobile Banking</a></li>
+                                <li><a href="https://www.canarabank.com/english/digital-products/canara-swipe/" target="_blank">CanaraSwipe – Missed call/SMS</a></li>
+                                <li><a href="https://www.canarabank.com/english/digital-products/canara-e-infobook/" target="_blank">Canara e Info Book</a></li>
+                                <!--<li><a href="https://www.canarabank.com/english/digital-products/canmwallet/" target="_blank">Canara m Wallet</a></li>-->
+                                <li><a href="http://www.canmoney.in/" target="_blank"> Can Money</a></li>
+                                </ul>
+                            </li>
+
+                            <li data-toggle="collapse" data-target="#serive" class="collapsed"><a href="#"><img src="images/CB_in/CBicons_27.png">Grievance Redressal  / Service request</a>
+
+                             <ul class="sub-menu collapse" id="serive">
+                                <li><a href="https://canarabank.net.in/cpgrs/login.aspx" target="_blank">Online Retail Banking</a></li>
+                                <li><a href="https://canarabank.net.in/cpgrs/login.aspx" target="_blank">Online Corporate Banking</a></li>
+                                <li><a href="https://canarabank.net.in/cpgrs/login.aspx" target="_blank"> Online Mobile Banking</a></li>
+                                <li><a href="docs/PKI_Consolidated_Guidelines_Customer.docx" target="_blank">Digital Signature(PKI)</a></li>
+                                <li><a href="https://www.canarabank.in/English/Scripts/tutorial/FAQs.html" target="_blank">Can Digital</a></li>
+                            </ul>
+                            </li>
+
+
+
+                            <li data-toggle="collapse" data-target="#security" class="collapsed"><a href="#"><img src="images/CB_in/CBicons_35.png">Security / Safety</a>
+
+                            <ul class="sub-menu collapse" id="security">
+                                <li><a href="https://www.canarabank.in/English/Downloads/anti-phising.pdf" target="_blank">Anti Phising</a></li>
+                                <li><a href="https://www.canarabank.in/English/Downloads/ABOUT EMAIL FRAUDS.pdf" target="_blank">About Email frauds</a></li>
+                                <li><a href="https://www.canarabank.in/English/Downloads/FRAUD REPORTING.pdf" target="_blank">Report a fraud</a></li>
+                            </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+<div style="text-align:center; margin-top:20px;">
+  <p><a href="https://bbps.canarabank.in/AgentService/invokeBillFetchPage" target="_blank"><img src="images/BBPSLOGO.png" width="200" height="53" border="0"></a></p>  
+</div>
+<div style="text-align:center; margin-top:20px;">
+  <p><a href="https://bit.ly/2Q3WYxK" target="_blank"><img src="images/oneplus.png" width="230" height="13" border="0"></a></p>  
+</div>
+<div style="text-align:center; margin-top:20px;">
+  <p><a href="https://pledge.cvc.nic.in/" target="_blank"><img src="images/VIGILANCE-AWARENESS.jpg" width="230" height="39" border="0"></a></p>  
+</div>
+       </div>
+         <!-- right main content column -->
+         
+            <div class="col-md-9 col-sm-8 right-content">
+            <div class="leftpanel-btn">
+			<span class="span-show"><i class="fa fa-angle-left"></i> Show</span>
+            <span class="span-hide" style="display:none;"><i class="fa fa-angle-right"></i> Hide</span>
+
+            
+        </div>
+        
+          <div class="right-fix-section drawer-menu">
+        <div class="right-section">
+            <ul>
+               <!-- <li><a href="https://bbps.canarabank.in/AgentService/invokeBillFetchPage" target="_blank" title="BBPS"><strong>
+                    <img src="/media/6139/edited-bbps-logo2.png"></strong><span>BBPS</span></a></li>
+			<li><a href="https://netbanking.canarabank.in/entry/ENULogin.jsp?" target="_blank" title="NetBanking"><strong>
+                    <img src="/media/1259/netbanking.png"></strong><span>NetBanking</span></a></li>
+			<li><a href="tel: 1800 425 0018" target="_blank" title="Phone"><strong>
+                    <img src="/media/1253/phone.png"></strong><span>Phone</span></a></li>
+			<li><a href="http://121.241.72.183:8080/WebAPI812/SimpleSamples812/index.htm" target="_blank" title="Chat"><strong>
+                    <img src="/media/1255/chat.png"></strong><span>Chat</span></a></li>
+			<li><a href="https://canarabank.com/english/quick-access/interest-rates/" target="_blank" title="Interest Rate"><strong>
+                    <img src="/media/2970/percent-icon.png"></strong><span>Interest Rate</span></a></li>
+			<li><a href="https://canarabank.com/english/sitemap/" target="_blank" title="Sitemap"><strong>
+                    <img src="/media/4055/sitemap-icon.png"></strong><span>Sitemap</span></a></li>
+			<li><a href="https://canarabank.com/english/quick-access/emi-calculator/" target="_blank" title="Calculator"><strong>
+                    <img src="/media/3228/calc-icon.png"></strong><span>Calculator</span></a></li>
+			<li><a href="https://canarabank.net.in/cangeomp/" target="_blank" title="Locator"><strong>
+                    <img src="/media/1265/location.png"></strong><span>Locator</span></a></li> -->
+			<li><a href="https://twitter.com/canarabanktweet" target="_blank" title="Twitter"><strong>
+                    <img src="images/twitter.png"></strong><span>Twitter</span></a></li>
+			<li><a href="https://m.facebook.com/canarabankglobal" target="_blank" title="Facebook"><strong>
+                    <img src="images/facebook-edited.png"></strong><span>Facebook</span></a></li>
+			<li><a href="https://www.instagram.com/canarabankinsta" target="_blank" title="Instagram"><strong>
+                    <img src="images/instagram-edited.png"></strong><span>Instagram</span></a></li>
+			<li><a href="https://www.youtube.com/canarabankofficial" target="_blank" title="YouTube"><strong>
+                    <img src="images/yt-logo.png"></strong><span>YouTube</span></a></li>
+                
+            </ul>
+        </div>
+    </div>
+			<script type="text/javascript">
+	$('.leftpanel-btn').click(function(e){
+		e.preventDefault();
+		drawerAnimate();
+	})
+	drawerAnimate();
+	function drawerAnimate() {
+	    if($('.drawer-menu').hasClass("in")) { 
+	    	console.log('show');      
+	        $('.drawer-menu').animate({'right': '-5%'}, 400);
+	        $('.drawer-menu').removeClass('in');
+	        $('.leftpanel-btn').find('.span-show').css({
+				'display': 'block',
+			});	
+			$('.leftpanel-btn').find('.span-hide').css({
+				'display': 'none',
+			});					      
+	    }
+	    else {
+	    	console.log('hide');
+	        $('.drawer-menu').animate({'right': '0'}, 400);
+	        $('.drawer-menu').addClass('in');  
+	        $('.leftpanel-btn').find('.span-show').css({
+				'display': 'none',
+			});	
+			$('.leftpanel-btn').find('.span-hide').css({
+				'display': 'block',
+			});	 
+	    }
+	}
+</script>
+                    <div class="top-header"><span><img src="images/CB_in/CBicons_06.png" />1800 - 425 - 0018</span>
+                        <span style=" font-size:1.5em;"><strong><a href="https://canarabank.net.in/cpgrs/login.aspx">Customer Support</a></strong></span>
+                    <div style="float:right;"><form action="https://netbanking.canarabank.in/entry/ENULogin.jsp#" target="_blank" style="float:left; margin-right:2pt"><button type="submit" class="btn btn-default btn-white">Login to NetBanking</button></form>
+                    <form action="https://netbanking.canarabank.in/entry/tnc.html" target="_blank"  style="float:left;  margin-right:2pt"><button type="submit" class="btn btn-default">New Registration</button></form>
+                    <form action="https://netbanking.canarabank.in/entry/UnlockUserId.html" target="_blank"  style="float:left;  margin-right:2pt"><button type="submit" class="btn btn-default">Unlock / Activate UserID</button></form></div></div>
+                    <marquee behavior="scroll" direction="left" style="position:absolute; top: 78px; background-color: rgba(0, 0, 0, 0.41); color: #fdc30d; z-index:999; "><span style="font-weight: bold; color:aqua;">Customer Alert: -</span> Canara Bank’s official customer care number is 1800 425 0018. It has come to notice that the number 06206419089 is being falsely reported as customer care number of multiple Banks and various other entities such as Google Pay and IRCTC, on Internet Search. Kindly refrain from calling/answering this number as this may result in cyber fraud/make your account vulnerable to frauds. Refer only to official website of canara bank – www.canarabank.com for any authentic information. </marquee>
+                <div id="myCarousel" class="mainbanner carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    <li data-target="#myCarousel" data-slide-to="6"></li>
+                    <li data-target="#myCarousel" data-slide-to="7"></li>
+                     <li data-target="#myCarousel" data-slide-to="8"></li>
+                     <li data-target="#myCarousel" data-slide-to="9"></li>
+                     <li data-target="#myCarousel" data-slide-to="10"></li>
+                     <li data-target="#myCarousel" data-slide-to="11"></li>
+                </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+					
+					<div class="item active">
+                           <a href="#" target="_blank"> <img src="images/CB_in/DBEAN-29.png" alt="banner"></a>
+							</div>
+
+                        <div class="item">
+                           <a href="https://canarabankcsis.in/easyfee/" target="_blank"> <img src="images/CB_in/landscape-1212x614.png" alt="banner"></a>
+							</div>
+                            <div class="item">
+                            <img src="images/CB_in/CBHM0.jpg" alt="banner">
+                        </div>
+						<div class="item">
+                            <img src="images/CB_in/canara-bank-diya.png" alt="banner">
+                        </div> 
+							<div class="item">
+                            <a href="http://www.psbloansin59minutes.com/canarabank" target="_blank"><img src="images/CB_in/contactless-msme-final.jpg" alt="banner"></a>
+                        </div>
+                         <div class="item">
+                           <a href="https://canarabank.com/english/announcements/sale-notice/" target="_blank"> <img src="images/CB_in/e-auction-banner.jpg" alt="banner"></a>
+                        </div>
+                        <div class="item">
+                            <img src="images/CB_in/advertisement-01.jpg" alt="banner">
+                        </div>
+                        <div class="item">
+                            <img src="images/CB_in/advertisement-02.jpg" alt="banner1">
+                        </div>
+                        <!--<div class="item">
+                            <a href="http://www.canarabank.com/english/digital-products/digital-products-promotion/" target="_blank"><img src="images/CB_in/banner-deposit-ad_1200x650.png" alt="banner2"></a>
+                        </div>-->
+
+                        <div class="item">
+                            <img src="images/CB_in/1-1_internet.jpg" alt="banner3">
+                        </div>
+                        <div class="item">
+                           <a href="https://canarabank.com/english/bank-services/personal-banking/loan-products/canara-vehicle/" target="_blank"><img src="images/CB_in/3-3_vehicle.jpg" alt="banner4"></a>
+                        </div>
+                      <div class="item">
+                            <img src="images/CB_in/ban4-updated.jpg" alt="banner5">
+                        </div>
+                        <div class="item">
+                            <a href="https://canarabank.com/english/bank-services/personal-banking/loan-products/housing-loan/" target="_blank"><img src="images/CB_in/5-5_housing.jpg" alt="banner6"></a>
+                        </div>                      
+						
+                    </div>
+                </div>
+				<div>
+			<!---	<marquee style="position: absolute; text-align: center; left: 320px; top: 65px; font-size: 16px; color: red; font-weight: bold; font-family: tahoma; width: 50%;" width="40%"><b>
+“Due to the maintenance activity, Internet Banking services may be unavailable from 11.00 PM, 05.08.2017 to 02.00 AM, 06.08.2017. Inconvenience is regretted”</b></marquee> --->
+				</div>
+                <div class="ctgry-icon">
+                    <div class="col-md-12">
+                        <div class="col-md-3 col-xs-6">
+                            <a href="https://netbanking.canarabank.in/entry/tnc.html"><img src="images/CB_in/ft_icon_03.jpg"  alt="Online NetBanking User Creation" />
+                                <span>Online NetBanking User Creation</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href="https://www.canarabank.in/English/Scripts/dwnldcsr.htm"><img src="images/CB_in/ft_icon_05.png"  alt="Download CanDigital" />
+                                <span>Download CanDigital</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                           <a href="https://netbanking.canarabank.in/entry/FAQ123.htm"><img src="images/CB_in/ft_icon_07.png"  alt="FAQ'S" />
+                                <span>FAQ'S</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                           <a href="https://canarabank.net.in/cangeomp/"><img src="images/geolocate.png" width="84" height="83" border="0">
+                                <span>Locator</span>
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <a href="https://www.canarabank.in/English/Scripts/IMBTutorial/home.html"><img src="images/CB_in/ft_icon_09.png"  alt="View DEMOS" />
+                                <span>View DEMOS</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+    </div>
+</div>
+<div style="clear:both;"></div>
+
+<div id="strip2" style="background-color:#999;"><!--<marquee width="100%" onmouseout="this.scrollAmount=2" onmouseover="this.scrollAmount=0" scrollamount="6" align="middle">
+																				<span style="FONT-WEIGHT: bold; COLOR: #013044; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none" class="text5">																					<font size="2" color="#FF0000"> MDR charges for debit cards waived upto transaction value of Rs.2000/- for two years – upto 31.12.2018 for POS/QR Code/BHIM UPI/ BHIM Aadhar POS transactions.   </font></span>
+</marquee>--></div>
+
+<!-- footer -->
+ <footer class="container-fluid footer">
+    <div class="container" id="content" tabindex="-1">
+    <p class="text-center"><strong>Phishing Alert</strong><br />
+    Canara Bank never sends email for getting customer information. Please report immediately to nearest branch if you receive any e-mail purported to be originated by Canara Bank to gather your UserID or Password or any other personal information. Our Bank does not ask for the details of your account/PIN/password. Therefore any one pretending to be asking you for information from the bank / technical team may be fraudulent entities, so please beware. You should know how to operate net transactions and if you are not familiar you may refrain from doing so. You may seek bank's guidance in this regard. Bank is not responsible for online transactions going wrong. We shall also not be responsible for wrong transactions and wanton disclosure of details by you. Viewing option and transactions option on the net are different. You may exercise your option diligently.</p>
+
+    <div class="col-md-5 col-sm-5">Copyright 2015. Canara Bank. All rights reserved <!--- DO NOT EDIT - GlobalSign SSL Site Seal Code - DO NOT EDIT ---><table width=125 border=0 cellspacing=0 cellpadding=0 title="CLICK TO VERIFY: This site uses a GlobalSign SSL Certificate to secure your personal information." ><tr><td><span id="ss_img_wrapper_gmogs_image_125-50_en_dblue"><a href="https://www.globalsign.com/" target=_blank title="GlobalSign Site Seal" rel="nofollow"><img alt="SSL" border=0 id="ss_img" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_125-50_en.gif"></a></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_125-50_en_dblue.js"></script></td></tr></table><!--- DO NOT EDIT - GlobalSign SSL Site -->
+</div>
+    <div class="col-md-2 col-sm-2 text-center" style="color:#666;padding: 0;line-height: 0;margin: 0;">
+        <a href="https://get.adobe.com/flashplayer/" target="_blank"><img src="images/CB_in/CBicons_56.png" /></a>
+        <a href="http://www.microsoft.com/en-us/download" target="_blank"><img src="images/CB_in/CBicons_58.png" /></a>
+        <a href="https://get.adobe.com/reader/" target="_blank"><img src="images/CB_in/CBicons_60.png" /></a>
+        <a href="http://ftp.netscape.com/pub/netscape8/english/8.0.4/windows/win32/nsb-install-8-0-4.exe" target="_blank"><img src="images/CB_in/CBicons_62.png" /></a>
+      <p class="text-center" style="color:#666;padding: 0;line-height: 0;margin: 10px 0;border: 0;"><strong>Useful Downloads</strong></p>
+    </div>
+    <!-- <div class="col-md-2 col-sm-2 text-center" style="color:#666;padding: 0;line-height: 0;margin: 0;">
+        <a href="https://instagram.com/canarabankinsta/" target="_blank"><img src="images/CB_in/i.png" /></a>
+        <a href="https://facebook.com/canarabankglobal" target="_blank"><img src="images/CB_in/f.png" /></a>
+        <a href="https://twitter.com/canarabanktweet/" target="_blank"><img src="images/CB_in/t.png" /></a>
+        <a href="https://www.youtube.com/channel/UCDDwYBs7MvNWyWLBPMoi8-w" target="_blank"><img src="images/CB_in/y.png" /></a>
+      
+    </div> -->
+    <div class="col-md-5 col-sm-5"><span class="pull-right"><a href="https://canarabank.in/English/Scripts/Disclaimer.aspx">Disclaimer</a>  |  <a href="https://canarabank.in/English/Scripts/TermsOfUse.aspx">Terms of Use</a>  |  <a href="https://canarabank.in/English/Scripts/CustEdu.aspx">Customer Education</a></span></div>
+    </div>
+	<div style="margin: 0 auto 0; text-align: center;">
+	Best viewed with Internet Explorer Ver 9.0 and above  or latest versions of Google Chrome, Mozilla Firefox, Safari with a resolution  of 1024*768.</div>
+ </footer>
+
+    </body>
+  </html>

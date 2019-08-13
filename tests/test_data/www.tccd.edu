@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /search/
+Disallow: /_resources/
+Disallow: /_archives/
+Disallow: /_backup/
+Disallow: /App_Code/
+Disallow: /bin/
+Disallow: /tools/

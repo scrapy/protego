@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /p/
+Disallow: /r/
+Disallow: /bin/
+Disallow: /includes/
+Disallow: /blank.html
+Disallow: /_td_api
+Disallow: /_tdpp_api
+Disallow: /_remote
+Disallow: /_multiremote
+Disallow: /_tdhl_api
+Disallow: /digest
+Disallow: /fpjs
+Disallow: /myjs
+
+Sitemap: https://www.yahoo.com/gma/sitemaps/gma-sitemap_index_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/entertainment/sitemaps/entertainment-sitemap_index_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/entertainment/sitemaps/entertainment-sitemap_googlenews_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/lifestyle/sitemaps/lifestyles-sitemap_index_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/lifestyle/sitemaps/lifestyle-sitemap_googlenews_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/news/weather/sitemap.xml
+Sitemap: https://www.yahoo.com/news/sitemaps/news-sitemap_index_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/news/sitemaps/news-sitemap_googlenews_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/news/topics/sitemaps/topics-sitemap_navigation_US_en-US.xml.gz
+Sitemap: https://www.yahoo.com/now/sitemaps/now-sitemap_index_US_en-US.xml.gz

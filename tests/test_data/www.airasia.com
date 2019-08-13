@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /*/*/testdfp/
+Disallow: /*/*/test/
+Disallow: /_GARBAGE/
+Disallow: /travel3sixty/
+Disallow: /skylights/
+Disallow: /site/
+Disallow: /sto/
+Disallow: /nl/
+Disallow: /api/
+Disallow: /geoip/
+Disallow: /test/
+Disallow: /site/
+Disallow: index.php
+Disallow: /booking/select/

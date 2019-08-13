@@ -1,0 +1,13 @@
+User-Agent: *
+Allow: /account/login
+Allow: /account/register
+Disallow: /account/
+Disallow: /ajax/
+
+Allow: /api$
+Disallow: /api/
+
+Allow: /market/tradeview$
+Disallow: /market/
+
+Sitemap: https://www.bitstamp.net/sitemap.xml

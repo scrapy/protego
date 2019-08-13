@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /_resources/documentation/
+Disallow: /_resources/fonts/
+Disallow: /_resources/ou/
+Disallow: /_resources/php/
+Disallow: /_resources/sandbox/
+Disallow: /_resources/xsl
+Disallow: /_development/
+Disallow: /_training/
+Disallow: /business-administrative-services/purchasing-contract-services/docs/
+Disallow: /hr/jobs/
+Disallow: /police-and-college-safety/emergency-information/evacuation-plans/
+Disallow: /*.inc
+Disallow: /business-administrative-services/its/lancerpoint-feedback.php

@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /cmsadmin/
+Disallow: /marketing/
+Disallow: /test/
+Disallow: /workarea/
+Disallow: /content/seneca/
+Disallow: /registrar/nsearch/
+Disallow: /www-becauseitmatters/
+Disallow: /quarterly/
+
+Sitemap: http://www.senecacollege.ca/sitemap.xml
+Sitemap: http://www.senecacollege.ca/sitemap-aem.xml
+Sitemap: http://www.senecacollege.ca/sitemap-www.xml
+Sitemap: http://www.senecacollege.ca/sitemap-policies.xml
+Sitemap: http://www.senecacollege.ca/ce/sitemap.xml

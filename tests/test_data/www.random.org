@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /jobs/
+Disallow: /trails/
+Disallow: /draws/show-entrants/
+Disallow: /draws/download/
+Disallow: /preview/
+Disallow: /error/

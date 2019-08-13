@@ -1,0 +1,42 @@
+
+
+
+
+User-agent: *
+
+Disallow: *.pdf
+Disallow: /downloads/
+Disallow: /appContent/
+Disallow: /onlineContent/
+Disallow: /cheque-accounts/gold-cheque-account-pillar.html
+Disallow: /funeral-cover/funeral-plan.html
+Disallow: /funeral-cover/easy-funeral-plan.html
+Disallow: /promotions/fnbFuneralPlan/index.html
+Disallow: /funeral-cover/index.html
+Disallow: /calculators/other/lifeCover.html
+Disallow: /funeral/index.html
+Disallow: /commercial-banking/finance/vehicle-finance/vehicle-finance.html
+Disallow: /business-banking/insurance/business-cover.html
+Disallow: /promotions/commercialinvest.html
+Disallow: /security-centre/webroot-secureanywhere.html
+Disallow: /commercial-banking/merchant-services/about.html
+Disallow: /commercial-banking/merchant-services/compliance-fraud-risk.html
+Disallow: /commercial-banking/merchant-services/contactus.html
+Disallow: /commercial-banking/merchant-services/index.html
+Disallow: /commercial-banking/merchant-services/merchant-library.html
+Disallow: /commercial-banking/merchant-services/merchant-services.html
+Disallow: /commercial-banking/merchant-services/notice-board.html
+Disallow: /commercial-banking/merchant-services/products.html
+Disallow: /commercial-banking/merchant-services/solutions.html
+Disallow: /commercial-banking/merchant-services/speedpoint-services.html
+Disallow: /commercial-banking/merchant-services/value-adds.html
+Disallow: /business-banking/BusinessAlternativeEnergySolutions/index.html
+Disallow: /leadforms/BusinessAlternativeEnergySolutions.html
+
+Disallow: /downloads/mvno/FNBConnectPricingGuide_2015-2016_Online.pdf
+Disallow: /downloads/BusinessAlternativeEnergySolutions/FNB_AlternativeEnergy_T&C.pdf
+Disallow: /downloads/businessBanking/AlternativeEnergy/FNB_Business_AlternativeEnergy_TeslaPowerwall_FAQ_PDF_7431_Final_20170223.pdf
+
+
+
+# robots.txt for www.fnb.co.za

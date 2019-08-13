@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: */print.html
+Disallow: */parameter/font0
+Disallow: */parameter/font1
+Disallow: */parameter/font2
+Disallow: */parameter/font3
+Disallow: */parameter/font4
+Disallow: */parameter/font5
+Disallow: */parameter/font6
+Disallow: */servicemenue/index_a_z
+Disallow: */servicemenue/seite_empfehlen
+Disallow: /iv_d_team_vertragsmanagement/menue/einkauf
+Disallow: /weiterbildung
+Disallow: /testbereich
+Disallow: /allgemeine_seiten

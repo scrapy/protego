@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /ai2
+Disallow: /setup

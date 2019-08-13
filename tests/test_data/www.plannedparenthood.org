@@ -1,0 +1,8 @@
+User-agent: *
+Sitemap: https://www.plannedparenthood.org/sitemap.xml
+
+Disallow: /en/*
+Disallow: /jsi18n/*
+Disallow: /search/?q*
+Disallow: /_*
+Disallow: /es/_*

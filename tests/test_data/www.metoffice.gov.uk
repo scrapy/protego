@@ -1,0 +1,42 @@
+User-agent: Swiftbot
+Disallow: 
+Disallow: /blog/facet/Authors/
+Disallow: /blog/facet/Categories/
+Disallow: /blog/facet/Tags/
+Disallow: /blog/facet/Date/
+Disallow: /about-us/press-office/news/corporate/facet/Topic/
+Disallow: /about-us/press-office/news/corporate/facet/Year/
+Disallow: /about-us/press-office/news/weather-and-climate/facet/Topic/
+Disallow: /about-us/press-office/news/weather-and-climate/facet/Year/
+
+User-agent: *
+Disallow: /alive/
+Disallow: /brand/
+Disallow: /conference/
+Disallow: /images/
+Disallow: /lib/
+Disallow: /public/data/
+Disallow: /public/weather/lib/
+Disallow: /eurocontrol/
+Disallow: /magister/
+Disallow: /premium/
+Disallow: /weather/africa/lam/
+Disallow: /alive/
+Disallow: /images/
+Disallow: /lib/
+Disallow: /staff/
+Disallow: /weather/test/
+Disallow: /blog/facet/Authors/
+Disallow: /blog/facet/Categories/
+Disallow: /blog/facet/Tags/
+Disallow: /blog/facet/Date/
+Disallow: /about-us/press-office/news/corporate/facet/Topic/
+Disallow: /about-us/press-office/news/corporate/facet/Year/
+Disallow: /about-us/press-office/news/weather-and-climate/facet/Topic/
+Disallow: /about-us/press-office/news/weather-and-climate/facet/Year/
+
+Sitemap: https://www.metoffice.gov.uk/sitemap.xml
+Sitemap: https://www.metoffice.gov.uk/sitemap-domestic-forecast.xml
+Sitemap: https://www.metoffice.gov.uk/sitemap-international-forecast.xml
+Sitemap: https://www.metoffice.gov.uk/sitemap-international-hub.xml
+Sitemap: https://www.metoffice.gov.uk/sitemap-regional-hub.xml

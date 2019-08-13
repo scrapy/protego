@@ -1,0 +1,13 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+User-Agent: *
+Sitemap: https://invoicehome.com/sitemap.xml
+Disallow: /invoices*/
+Disallow: /items*/
+Disallow: /tax_rates*/
+Disallow: /auth*/
+Disallow: /unsubscribe*/
+Disallow: /pay*/
+Disallow: /reset_password*/
+Disallow: /reset*/
+Disallow: /emails*/ 
+Disallow: /about_me*/

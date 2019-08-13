@@ -1,0 +1,26 @@
+# robots.txt for http://valenciacollege.edu/
+
+User-agent: *
+Disallow: /_resources/cacert.pem
+Disallow: /_resources/includes
+Disallow: /_resources/ldp
+Disallow: /_resources/ou
+Disallow: /_resources/php
+Disallow: /_resources/snippets
+Disallow: /_resources/xml
+Disallow: /_resources/xsl
+Disallow: /_staging/
+Disallow: /about/division-plans/
+Disallow: /about/mobile/apps/
+Disallow: /blog/
+Disallow: /documents/
+Disallow: /employees/procurement/documents/
+Disallow: /faculty/forms/
+Disallow: /includes/
+Disallow: /secure/
+Disallow: /secure/nursing/
+Disallow: /students/catalog/archives/
+
+
+
+

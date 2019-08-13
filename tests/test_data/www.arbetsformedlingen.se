@@ -1,0 +1,153 @@
+User-agent: *
+Disallow: /imagedescription.action2
+Disallow: /checkoutimages.action2
+Disallow: /mybookmarks/addbookmark.action2
+Disallow: /mybookmarks/removebookmark.action2
+Disallow: /poll/checkvote.action2
+Disallow: /*.html.printable
+Disallow: /*?contactPage=
+Disallow: /*?contactUserId=
+Disallow: /*?sv.state=
+Disallow: /*?profiling=
+Disallow: /*.pdf?properties=
+Disallow: /*&addToCart=true
+Disallow: /*?state=createComment
+#Custom additions
+#
+#
+#Platsbanken
+Disallow: /4.237ec53d11d47b612d78000166.html
+#
+#
+#Sok via annonsid
+Disallow: /For-arbetssokande/Lediga-jobb/Platsbanken-annonsid.html
+Disallow: /4.1799db4911df80d2fa9800024.html
+#
+#
+#Sok via arbetsort
+Disallow: /For-arbetssokande/Lediga-jobb/Platsbanken-arbetsort.html
+Disallow: /4.5c31f22411dd2c5931280001439.html
+#
+#
+#Sok med fritext
+Disallow: /For-arbetssokande/Lediga-jobb/Platsbanken-fritext.html
+Disallow: /4.38a41afd11d99fbdb65800016.html
+#
+#
+#Sok efter utlandsannonsers
+Disallow: /For-arbetssokande/Lediga-jobb/Platsbanken-utlandsannonser.html
+Disallow: /4.ac8ae161269996840f80001922.html
+#
+#
+#Sok yrkesvis
+Disallow: /For-arbetssokande/Lediga-jobb/Platsbanken-yrkesvis.html
+Disallow: /4.5c31f22411dd2c5931280001432.html
+#
+#
+#Platsbankenmobilt
+Disallow: /For-arbetssokande/Lediga-jobb/platsbankenmobilt.html
+Disallow: /4.100fcc1a122d1357f4d80004262.html
+Disallow: /platsbankenmobilt
+#
+#
+#Min profil
+Disallow: /4.2486bee211db8bac41c8000400.html
+#
+#
+#Bildbanken
+Disallow: /4.78280711d502730c18000109.html
+#
+#
+
+##Kultur och nojesbanken [Finns inte där längre]
+##Disallow: /4.554e6fd11d6248daa68000213.html
+##Disallow: /For-arbetssokande/Cv-och-ansokan/Kultur-Media/Kultur--och-nojesbanken.html?url=1500001468*
+
+#
+#
+
+##Jobbsokarguide [Finns inte där längre]
+##Disallow: /4.554e6fd11d6248daa68000219.html
+##Disallow: /For-arbetssokande/Cv-och-ansokan/Jobbsokarguide.html?url=524081141*
+
+#
+#
+
+#Yrken A-0
+Disallow: /4.78280711d502730c1800067.html
+##Disallow: /For-arbetssokande/Yrke-och-framtid/Yrken-A-O.html?url=1119789672*
+Allow: /For-arbetssokande/Yrke-och-framtid/Yrken-A-O.html?url=1119789672*
+
+#
+#
+#Yrkeskompassen
+Disallow: /4.78280711d502730c1800073.html
+Disallow: /For-arbetssokande/Yrke-och-framtid/Yrkeskompassen.html?url=1119789672*
+Allow: /sitevision/proxy/For-arbetssokande/Yrke-och-framtid/Yrkeskompassen.html*.pdf$
+#
+#
+#Att valja yrke 
+Disallow: /4.78280711d502730c1800079.html
+Disallow: /For-arbetssokande/Yrke-och-framtid/Tester-och-guider/Att-valja-yrke.html?url=524081141*
+#
+#
+#Intressetest
+Disallow: /4.3116c0b511d32877120800071.html
+Disallow: /For-arbetssokande/Yrke-och-framtid/Tester-och-guider/Intressetest.html?url=1119789672*
+#
+#
+
+##Vagar vidare [Finns inte längre]
+##Disallow: /4.78280711d502730c180000.html
+##Disallow: /For-arbetssokande/Yrke-och-framtid/Tester-och-guider/Vagar-vidare/Din-arbetssituation.html?url=524081141*
+
+#
+#
+#En inskrivning
+Disallow: /4.5c31f22411dd2c5931280001905.html
+Disallow: /For-arbetssokande/Min-sida/Skriv-in-dig.html?url=1500001468*
+#
+#
+#Komplettera dina meriter
+Disallow: /4.2486bee211db8bac41c8000430.html
+#
+#
+#Din handlingsplan
+Disallow: /4.78280711d502730c1800097.html
+#
+#
+#Annonsera direkt
+Disallow: /4.2486bee211db8bac41c8000755.html
+Disallow: /For-arbetsgivare/Min-sida.html?url=524081141*
+#
+#
+#Direktoverforda annonser
+Disallow: /4.306228a513d6386d3d854dc.html
+Disallow: /For-arbetsgivare/Annonsera/Direktoverforda-annonser.html?url=1500001468*
+#
+#
+#Annonser utan konto
+Disallow: /4.2486bee211db8bac41c8000767.html
+Disallow: /For-arbetsgivare/Annonsera/Annonsera-utan-konto.html?url=-123388378*
+#
+#
+#Foretagslogotyp
+Disallow: /4.2486bee211db8bac41c8000761.html
+Disallow: /For-arbetsgivare/Annonsera/Foretagslogotyp.html?url=-923725417*
+#
+#
+#Min sida AS
+Disallow: /4.99eefb311d2e902d42800063.html
+Disallow: /For-arbetssokande/Min-sida.html?*
+#
+#
+#Min sida AG 
+Disallow: /4.26786f57121162783978000278.html
+Disallow: /For-arbetsgivare/Min-sida/12.26786f57121162783978000294.html?url=524081141*
+#
+#
+Disallow: /*-123388378
+#
+#
+Allow: /sitevision/proxy/ledigajobb/svid12_1799db4911df80d2fa9800029/-123388378/_scripts
+Disallow: /sitevision/proxy

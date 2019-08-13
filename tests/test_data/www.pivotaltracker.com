@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /projects/
+Disallow: /services/
+Disallow: /profile/
+Disallow: /notifications/
+Disallow: /accounts/
+Disallow: /admin/
+Disallow: /time_shifts/
+Disallow: /auth/
+Disallow: /scim/
+Disallow: /*.erb
+Disallow: /story/
+Disallow: /epic/
+Disallow: /n/

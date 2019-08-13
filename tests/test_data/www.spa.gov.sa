@@ -1,0 +1,2744 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  >
+<head >
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Content-Type"	content="text/html; charset=utf-8">
+    <title> وكالة الأنباء السعودية</title>
+	<meta name="application-name" content="SaudiPressAgency" />
+	<meta name="msapplication-starturl" content="https://www.spa.gov.sa" />
+	<meta name="msapplication-tooltip" content="SaudiPressAgency, official  news source" />
+	<meta name="description" content="وكالة الانباء السعودية " />
+	<meta name="keywords" content="واس,خادم الحرمين,الشريفين,اخبار السعودية, الاخبار الرسمية , الأوامر الملكية , أمر ملكي,ولي العهد" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script   src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script  src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+<!--		
+<link rel="stylesheet" href="/include/css/pretty-photo.css" />
+<link rel="stylesheet" href="/include/css/font-awesome.min.css" />
+<link rel="stylesheet" href="/include/css/galleria.classic.css" />
+<link rel="stylesheet" href="/include/css/jquery.ad-gallery.css" />
+<link rel="stylesheet" href="/include/css/owl.carousel.css" />
+<link rel="stylesheet" href="/include/css/owl.theme.css" />
+<link rel="stylesheet" href="/include/css/jquery.mmenu.all.css" />
+<link rel="stylesheet" href="/include/css/owl.theme.css" />
+<link rel="stylesheet" href="/include/css/turbo.css" />
+<link rel="stylesheet" href="/include/css/bootstrap-select.min.css" />
+<link rel="stylesheet" href="/include/css/bootstrap.min.css" />
+-->
+<link rel="stylesheet" href="/include/css/allcss-cash-2-.css" />
+<link rel="stylesheet" href="/include/css/responsive2.css"></link>
+
+<link rel="stylesheet" href="include/css/occas_style.css"  />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6584848-2', 'spa.gov.sa');
+  ga('send', 'pageview');
+
+</script>
+
+<script >document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+<link rel="sitemap" type="application/html" title="Sitemap" href="/sitemap.php?lang=ar">
+
+</head>
+<body>
+
+		<script  src="include/js/jquery-3.3.1.min.js"></script>
+ 
+        <!-- bootstrap js -->
+		<script  src="include/js/bootstrap.min.js"></script>
+        <!-- main slider -->
+        <!-- news ticker -->
+		<script   src="include/js/jquery.flexslider-min.js"></script>
+		<script   src="include/js/jquery-ui.min"></script>
+        <!-- clock plugin -->
+		<script   src="include/js/jquery.jclock.js"></script>
+        <!-- sticky header -->
+		<script   src="include/js/jquery.easing.min.js"></script>
+		
+
+
+        <!-- mmenu -->
+		<script   src="include/js/jquery.mmenu.min.all.js"></script>
+        <!-- mmenu -->
+		<script    src="include/js/owl.carousel.min.js"></script>
+
+        <!-- main slider 2 -->
+		<script   src="include/js/jquery.ad-gallery.js"></script>
+		
+
+        <!-- superfish -->
+		<!-- script   src="include/js/superfish.js"></script -->
+        <!-- prettyPhoto -->
+		<script src="include/js/jquery.prettyPhoto.min.js" type="text/javascript" charset="utf-8"></script>
+        <!-- jcarousel -->
+		<script   src="include/js/jquery.jcarousel.min.js"></script>
+        <!-- elastislide -->
+		<script   src="include/js/jquery.elastislide.js"></script>
+		<script src="include/js/jquery.cookie.js"></script>
+		<script>
+			$(function() {
+				$("#add_accessibility").click(function() {
+					$.cookie("use_accessibility", 1, { path: '/' });
+					$("html").addClass("accessibility");
+					$("#add_accessibility").hide();
+					$("#remove_accessibility").show();
+					
+				});
+				$("#remove_accessibility").click(function() {
+					$.cookie("use_accessibility", "", { path: '/' });
+					$("html").removeClass("accessibility");
+					$("#add_accessibility").show();
+					$("#remove_accessibility").hide();
+					
+				});
+				if ($.cookie("use_accessibility") == 1) {
+					$("html").addClass("accessibility");
+					$("#add_accessibility").hide();
+					$("#remove_accessibility").show();
+				}
+				else{
+					$("html").removeClass("accessibility");
+					$("#add_accessibility").show();
+					$("#remove_accessibility").hide();
+				}
+			});
+		
+			try {
+				if ($.cookie("use_accessibility") == 1) {
+					$("html").addClass("accessibility");
+				}
+				else{
+					$("html").removeClass("accessibility");
+				}
+			}
+			catch(err) {
+
+			}
+
+		</script>
+		<!-- script   src="include/js/jquery-ui-tabs-rotate.js"></script -->
+		<style>
+		.accessibility{    
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+
+		.fr-dib{width:100% !important; height:auto!important;}
+		.dropdown-menu{z-index: 999999999;}
+		@media only screen and (min-width: 1350px){
+			.right_sidebar#main .main_content {
+			   width: 872px;
+			}
+		}
+		</style>
+
+
+    <!-- page loader --
+    <div class="page-loader">
+        <div class="logo">
+            <img src="include/images/white_color_logo.jpg" alt="logo-mobile" />
+            <div id="loadingProgressG">
+                <div id="loadingProgressG_1" class="loadingProgressG">
+                </div>
+            </div>
+        </div>
+    </div>
+    -- End of  page loader -->
+    <a href="#menu2" class="mm-fixed-top mm-slideout " id="hamburger"><span></span>
+    </a>
+
+        <!--[if lt IE 8]>
+                <div class="sc_infobox sc_infobox_style_error">
+                    It looks like you're using an old version of Internet Explorer. For the best web site experience, please <a href="http://windows.microsoft.com/en-us/internet-explorer/ie-10-worldwide-languages">update your browser</a> or learn how to <a href="http://browsehappy.com">browse happy</a>!
+                </div>
+        <![endif]-->
+
+
+
+        <nav id="menu2" class="mm-menu mm-horizontal mm-slide mm-zoom-panels mm-offcanvas">
+		
+		<ul class="mm-list mm-panel mm-opened mm-current" id="mm-0">
+                <li><a id="aMainPage_1" style="cursor: pointer;" href="/?lang=ar"  >الرئيسية</a>
+                </li>
+                <li><a class="mm-subopen"  href="#ulSectionMobile"  ></a><a id="aNews_1" href="#ulSectionMobile">الأخبار</a>
+                    
+                </li>
+                <li><a id="aRoyalOrders_1" style="cursor: pointer;"  href="/listnews.php?lang=ar&royal=1" >الأوامر الملكية</a>
+                </li>
+                <li><a id="aCabinet_Decisions_1" style="cursor: pointer;"  href="/listnews.php?lang=ar&cabinet=1">جلسات مجلس الوزراء</a>
+                </li>
+				<li><a id="aCabinet_Decisions_1" style="cursor: pointer;"  href="/ocassion.php?lang=ar&galleryid=186">رؤية المملكة 2030</a>
+                </li>
+				
+                <li class="cat-news"><a class="mm-subopen" href="/reports.php?lang=ar"></a><a id="aReportsPolls_1" href="/reports.php?lang=ar">التقارير والاستطلاعات</a>
+                    
+                </li>
+                <li><a id="aPhotoExhibition_1" style="cursor: pointer;" href="/gallery.php?lang=ar&pg=1">معرض الصور</a>
+                </li>
+                <li><a id="aVideos_1" style="cursor: pointer;" href="/vediogallery.php?lang=ar">معرض الفيديو</a>
+                </li>
+				<li class="cat-news arabiconly"><a id="poll_1" href="/poll.php?lang=ar">رأيك يهمنا</a></li>
+                <li class="cat-news"><a id="aContactUs_1" href="/contactus.php?lang=ar">اتصل بنا</a></li>
+        </ul>
+		
+		<ul id="ulSectionMobile" class="mm-list mm-panel mm-highest">
+			<li class="mm-subtitle"><a class="mm-subclose" href="#mm-0">الأخبار</a></li>
+
+			<li><a href='listnews.php?lang=ar&cat=3'>عام</a></li><li><a href='listnews.php?lang=ar&cat=4'>سياسي</a></li><li><a href='listnews.php?lang=ar&cat=5'>اقتصادي</a></li><li><a href='listnews.php?lang=ar&cat=6'>اجتماعي</a></li><li><a href='listnews.php?lang=ar&cat=7'>رياضي</a></li><li><a href='listnews.php?lang=ar&cat=8'>ثقافي</a></li><li><a href='listnews.php?lang=ar&cat=93442'>اقوال الصحف</a></li>			
+			
+			
+			
+		</ul>
+					
+	
+            
+        </nav>
+
+
+        <div class="form_search mobile-search">
+            <div class="searchform" id="searchform2">
+				<form action="search.php" method="get">
+				<input type="hidden" value="ar" name="lang">
+                <input class="field" id="search2" type="search" placeholder="بحث" value="" name="search" />
+                <label for="search2"><i class="fa fa-search" id="fa-search2"></i></label>
+                <!-- <input clasxs="submit" id="sxubmit" type="submit" value="Search"> -->
+				<input type="hidden" name="as_sfid" value="AAAAAAW2QWwRa6wWfMlA2p890REGpMYmqf5-zqRglZNSLcw8PNjB6xLXV4gVpq8kjXbLKKQzEKgpACPjLEZj6xVYrfTvx8GStyoPm5Gm2NFsjfkdGRsXG2DnkclSkONyla4cc2E=" /><input type="hidden" name="as_fid" value="0f47ede40cffee3f067733fbe126971ab54c8672" /></form>
+            </div>
+            <ul class="mobile-lang list-inline">
+                <li id="liArabicLanguagem"><a href="/home.php?lang=ar" style="cursor: pointer"><i class="icon-user"></i>ع</a>
+                </li>
+                <li id="liEnglishLanguagem"><a href="/home.php?lang=en" style="cursor: pointer"><i class="icon-cog"></i>En</a>
+                </li>
+                <li id="liFrenchLanguagem"><a href="/home.php?lang=fr" style="cursor: pointer"><i class="icon-cog"></i>Fr</a>
+                </li>
+                <li id="liFarsiLanguagem"><a  href="/home.php?lang=fa" style="cursor: pointer"><i class="icon-cog"></i>Farsi</a>
+                </li>
+                <li id="liFarsiLanguagem"><a  href="/home.php?lang=ru" style="cursor: pointer"><i class="icon-cog"></i>Русский</a>
+                </li>
+                <li id="liFarsiLanguagem"><a  href="/home.php?lang=ch" style="cursor: pointer"><i class="icon-cog"></i>中文</a>
+                </li>
+
+                <li id="Indonesian" style="display:none"><a  href="/home.php?lang=id" style="cursor: pointer"><i class="icon-cog"></i>Indonesian</a>
+				<li id="Japanese" style="display:none"><a  href="/home.php?lang=ja" style="cursor: pointer"><i class="icon-cog"></i>Japanese</a>
+                </li>	
+				
+            </ul>
+        </div>
+
+        <!-- form search -->
+
+        <!-- Full page container -->
+        <div id="page">
+
+            <!-- Now bar -->
+            <div class="news-now ">
+                <div class="emergency animated fadeInDown">
+                    <span class="new-head animated slideInLeft">عاجل <i class="fa fa-bullhorn fa-flip-horizontal"></i></span>
+                    <p class="animated slideInRight">---</p>
+                </div>
+            </div>
+            <!-- The menu -->
+
+
+            <!-- header begin -->
+
+            <header class="site-header" id="header" role="banner">
+                <div>
+                    <!-- top header -->
+                    <section class="section2">
+                        <div class="inner">
+                            <div class="section-wrap clearboth">
+                                <!-- clock -->
+                                <div class="top-left">
+                                    <div class="simpleclock" id="jclock1">
+                                    </div>
+                                </div>
+
+                                <!-- social icons -->
+                                <div class="block_social_top hidden-xs">
+                                    <ul>
+                                        <li>
+                                            <a title="Twitter" class="tw" href="https://twitter.com/spagov/" target="_blank">
+                                                <img src="include/images/social/twitter.png" width="24" height="24" alt="" />
+                                            </a>
+                                        </li>
+																				
+										
+                                        <li class="arabiconly showinfarsy">
+                                            <a title="Facebook" class="fb" href="https://www.facebook.com/spa.gov" target="_blank">
+                                                <img src="include/images/social/facebook.png" width="24" height="24" alt="" />
+                                            </a>
+                                        </li>
+                                        <li class="arabiconly">
+                                            <a title="Instagram" class="gplus" href="https://instagram.com/spanews/" target="_blank">
+                                                <img src="include/images/social/instagram.png" width="24" height="24" alt="" />
+                                            </a>
+                                        </li>
+                                        <li style='display:none'>
+                                            <a title="Google+" class="gplus" href="https://plus.google.com/share?url=http://www.spa.gov.sa/" target="_blank">
+                                                <img src="include/images/social/googleplus.png" width="24" height="24" alt="" />
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a title="RSS" href="rss.php" target="_blank" class="rss">
+                                                <img src="include/images/social/rss.png" width="24" height="24" alt="" />
+                                            </a>
+                                        </li>
+                                        <li  style='' class="arabiconly ">
+                                            <a title="Youtube" href="https://www.youtube.com/channel/UClXSeR8UCA7c_Ys6lFqxX7Q?app=desktop" class="rss" target="_blank">
+                                                <img src="include/images/social/youtube.png" width="24" height="24" alt="" />
+                                            </a>
+                                        </li>
+																				  
+                  
+                                    </ul>
+                                </div>
+                                <!-- select-languge -->
+                                <div class="select-languge">
+
+
+                                    <ul>
+                                        <li id="liArabicLanguage"><a href="/home.php?lang=ar" style="cursor: pointer"><i class="icon-user"></i>عربي</a>
+                                        </li>
+                                        <li id="liEnglishLanguage"><a href="/home.php?lang=en"  style="cursor: pointer"><i class="icon-cog"></i>English</a>
+                                        </li>
+                                        <li id="liFrenchLanguage"><a  href="/home.php?lang=fr"  style="cursor: pointer"><i class="icon-cog"></i>Francais</a>
+                                        </li>
+                                        <li id="liFarsiLanguage"><a  href="/home.php?lang=fa" style="cursor: pointer"><i class="icon-cog"></i>فارسي</a>
+										<li id="liRushianLanguage"><a  href="/home.php?lang=ru" style="cursor: pointer"><i class="icon-cog"></i>Русский</a>
+										<li id="liChinessLanguage"><a  href="/home.php?lang=ch" style="cursor: pointer"><i class="icon-cog"></i>中文</a>
+										<li id="liIndonesianLanguage" style="display:none"><a  href="/home.php?lang=id" style="cursor: pointer"><i class="icon-cog"></i>Indonesian</a></li>
+										<li id="liJapaneseLanguage" style="display:none"><a  href="/home.php?lang=ja" style="cursor: pointer"><i class="icon-cog"></i>Japanese</a></li>
+										
+                                        </li>
+                                    </ul>
+                                </div>
+								
+								<div class="top-left">
+                                    <div class="simpleclock" id="jclock1">
+									الثلاثاء 1440/11/20 هـ الموافق  2019/07/23  م واس 									</div>
+                                </div>
+								
+								<div style="color: #76daf9;display: inline-flex;cursor:pointer;margin-right: 10px; float: right;" title="تصفح الموقع بالابيض والأسود">
+									<i class="fa fa-eye fa-2x" id="add_accessibility"  ></i>
+									<i class="fa fa-eye-slash  fa-2x" id="remove_accessibility" style="display: none;"></i>
+								</div>
+
+                            </div>
+
+
+                        </div>
+                    </section>
+                    <!-- logo area -->
+                    <section class="section3">
+                        <div class="section-wrap clearboth">
+                            <!-- logo -->
+                            <div class="name-and-slogan">
+                                <h1 class="site-title">
+                                    <a title="Saudi Press Agency" href="home.php?lang=ar" rel="home">
+                                        <img src="include/images/logo.png" alt="Saudi Press Agency" /></a>
+                                </h1>
+                                
+                            </div>
+
+                            <!-- form search -->
+                            <div class="form_search hidden-xs">
+                                <div class="searchform" id="searchform">
+                                    <a id="aSearch" style="cursor: pointer;" data-toggle="dropdown" ><span class="fa fa-search fa-flip-horizontal"></span></a>
+                                    <input class="field" id="searchInput" type="text" placeholder="بحث" value="" />
+                                    <!--<input class="submit" id="submit" type="submit" value="Search">-->
+
+                                </div>
+
+					<div class=" btn-group" style="min-width: 85px;max-width: 111px;margin-top: -3px;    margin-left: 20px; padding: 0;display:block">
+                        <button type="button" id="searchtoggle" class="esbo3 btn btn-primiry btn-sm dropdown-toggle2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-radius: 0px 0px 5px 5px !important;">
+                            <i class="fa fa-search PictureProgress" aria-hidden="true"></i> <span> بحث</span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item upload-button" href="#" id="searchnews"><i class="fa fa-search PictureProgress" aria-hidden="true"></i> <span>بحث في الأخبار </span> </a></li>
+                            <li><a class="dropdown-item" href="#" id="searchimages"><i class="fa fa-search PictureProgress" aria-hidden="true"></i> <span>بحث في الصور </span> </a></li>
+                        </ul>
+                    </div>
+								
+                            </div>
+
+
+                        </div>
+                    </section>
+                    <!-- menu --><div id="newshome"></div>
+                    <div id="header-navigation" class="bounceInDown animated unsticky" style="z-index: 99999999;">
+
+                        <div class="container">
+                            <nav id="menu" class="navbar " dir="rtl" role="navigation" style="margin: 0">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                                    <ul class="nav clearfix">
+                                        <li class="home" >
+                                            <a href="/?lang=ar" id="aGoHome" >
+                                                الرئيسية                                            </a>
+                                        </li>
+                                        <li class="cat-news"><a href="#newshome">الأخبار</a>
+                                            <!-- start:submenu-sports -->
+                                            <div class="subnav-container">
+                                                <ul class="subnav-menu" id="ulNewsMenu">
+                                                    <li class="current" ><a href="/newsheadlines.php?lang=ar"  >البث العام</a>
+														                                                        <div class="subnav-posts pass-subnav-posts ">
+                                                            <article>
+                                                                <div class="pass-mobasher" id="divBroadCasting_1">
+																
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949660'><span class='time'>00:10</span><span> سمو أمير منطقة الحدود الشمالية يستقبل المواطنين في</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949659'><span class='time'>00:00</span><span> سفير المملكة لدى السودان يودع الفوج الأول من الحجاج</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949654'><span class='time'>23:38</span><span> إصابة 3 أشخاص في انفجار سيارة مفخخة عند مدخل قاعدة</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949640'><span class='time'>23:04</span><span> محافظ الوجه يتوج فريق سيتي تبوك ببطولة البحر الأحمر</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949639'><span class='time'>22:59</span><span> الدفاع المدني بمنطقة مكة المكرمة يسيطر على حريق في</span></a></div>
+																		                                                                </div>
+                                                            </article>
+                                                            <article>
+                                                                <div class="pass-mobasher" id="divBroadCasting_2">
+																
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949638'><span class='time'>22:55</span><span> تعليم الدوادمي ينفذ الأسبوع الثالث من برامج التطوير</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949633'><span class='time'>22:37</span><span> مؤشرات الأسهم الأوروبية تغلق على تباين</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949632'><span class='time'>22:36</span><span> سمو أمير الجوف يلتقي المواطنين بمحافظة القريات </span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949629'><span class='time'>22:14</span><span> مؤسسة مطوفي حجاج تركيا وأوروبا وأمريكا وأستراليا</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949628'><span class='time'>22:06</span><span> وزارة المالية تعلن عن إقفال طرح شهر يوليو 2019 من برنامج</span></a></div>
+																		                                                                </div>
+                                                            </article>
+                                                            <article>
+                                                                <div class="pass-mobasher" id="divBroadCasting_3">
+																
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949624'><span class='time'>21:51</span><span> نائب أدلَاء المدينة يتفقد مكاتب الخدمة الميدانية</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949623'><span class='time'>21:50</span><span> رئيس ديوان المراقبة العامة يشارك في اجتماع الأمم</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949621'><span class='time'>21:45</span><span> مصرع أكثر من 30 حوثيًا بكمين للجيش اليمني في صرواح</span></a></div>
+																		
+																		<div><a href='/viewfullstory.php?lang=ar&newsid=1949620'><span class='time'>21:41</span><span> الرئيس الأمريكي يعرض وساطةً بين الهند وباكستان</span></a></div>
+																																		
+                                                                </div>
+																<a class="bas-more" href="/newsheadlines.php?lang=ar">المزيد</a>
+                                                            </article>
+                                                        </div>
+                                                    </li>
+													
+													
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=3'  >عام</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949632'>
+																			<img data-src='/galupload/thumb/000-242783601563827757481.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949632'> سمو أمير الجوف يلتقي المواطنين بمحافظة القريات </a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949623'>
+																			<img data-src='/galupload/thumb/000-195157691563821802002.jpeg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949623'> رئيس ديوان المراقبة العامة يشارك في اجتماع الأمم</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949616'>
+																			<img data-src='/galupload/thumb/000-6414328641563820533650.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949616'> أمر ملكي : تعيين فضيلة الشيخ الدكتور عبدالسلام بن</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+															
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=4'  >سياسي</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949489'>
+																			<img data-src='/galupload/thumb/000-6787936651563816298595.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949489'> ولي عهد أبوظبي يبحث مع رئيس مجلس الدولة الصيني تطوير</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949464'>
+																			<img data-src='/galupload/thumb/000-1262243581563816417764.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949464'> ولي عهد أبو ظبي والرئيس الصيني يشهدان مراسم تبادل</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949442'>
+																			<img data-src='/galupload/thumb/000-6695055941563798832441.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949442'> أمين منظمة التعاون الإسلامي يتسلّم أوراق اعتماد مندوب</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+															
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=5'  >اقتصادي</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949523'>
+																			<img data-src='/galupload/thumb/000-193355201563809598123.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949523'> وزير الاتصالات : شراكتنا مع "كاوست" تستهدف تعزيز الاقتصاد</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949450'>
+																			<img data-src='/galupload/thumb/000-5714872271563799026460.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949450'> "البيئة" ارتفاع تراخيص المشاريع الزراعية 47.7% خلال</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949449'>
+																			<img data-src='/galupload/thumb/000-6143616931563803247876.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949449'> رؤى المدينة تدشن ورشة عمل " المخطط العام والتصميم</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+															
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=6'  >اجتماعي</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949548'>
+																			<img data-src='/galupload/thumb/000-258835411563812793266.JPG' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949548'> سمو نائب أمير حائل يلتقي رواد ورائدات الأعمال الممولين</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949516'>
+																			<img data-src='/galupload/thumb/000-2767654011563809452723.jpeg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949516'> المشرف العام على مركز الملك سلمان للإغاثة يلتقي الملحق</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949448'>
+																			<img data-src='/galupload/thumb/000-799721561563803469222.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949448'> جمعية هدية الحاج والمعتمر  تنظم دورة "مسعف قلب"</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+															
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=7'  >رياضي</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949411'>
+																			<img data-src='/galupload/thumb/000-1348633251563799162667.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949411'> أخضر السلة ينتظم في معسكره برومانيا استعداداً للتصفيات</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949404'>
+																			<img data-src='/galupload/thumb/000-5777178171563799062909.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949404'> ميدالية برونزية لمربط عذبة في بطولة كأس آران لجمال</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949376'>
+																			<img data-src='/galupload/thumb/000-942198331563794664910.JPG' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949376'> المنتخب السعودي لقوى الإعاقة يختتم مشاركته في ملتقى</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+															
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=8'  >ثقافي</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949451'>
+																			<img data-src='/galupload/thumb/000-4455045741563799014206.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949451'> ختام برنامج الأولمبياد الصيفي لطلاب ينبع الصناعية</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949191'>
+																			<img data-src='/galupload/thumb/000-197524521563732912176.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949191'>11 فنانًا وفنانة بتبوك يعالجون التشوه البصري في شوارع</a></h3>
+																			</article>
+																		
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949190'>
+																			<img data-src='/galupload/thumb/000-9961413701563739503099.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1949190'> الملكية الفكرية توضّح الفرق بين الفكرة المجرّدة وبين</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+															
+																<li  class='cat-news'><a href='/listnews.php?lang=ar&cat=93442'  >اقوال الصحف</a>
+																<div class='subnav-posts'>
+																			<article class='cat-news-article'>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1894060'>
+																			<img data-src='/galupload/thumb/201903/000-5698868971551499384387.jpg' width='190' height='140' class='imgSrc menuimages'>
+																			</a><h3>
+																			<a href='/viewfullstory.php?lang=ar&newsid=1894060'> حالة الطقس المتوقعة اليوم السبت</a></h3>
+																			</article>
+																		
+																</div>
+																</li>
+															
+																												
+                                                   
+
+                                                </ul>
+                                            </div>
+                                            <!-- end:submenu-sports -->
+
+											
+                                        </li>
+                                        <li class="cat-news"><a href="/listnews.php?lang=ar&royal=1">الأوامر الملكية</a>
+                                        </li>
+
+                                        </li>
+                                        <li class="cat-news"><a href="/listnews.php?lang=ar&cabinet=1">جلسات مجلس الوزراء</a>
+                                        </li>											
+										
+                                        </li>
+                                        <li class="cat-news"><a href="/reports.php?lang=ar">التقارير والاستطلاعات</a>
+                                        </li>
+										
+                                        </li>
+                                        <li class="cat-news"><a href="/gallery.php?lang=ar&pg=1">معرض الصور</a>
+                                        </li>	
+
+                                        </li>
+                                        <li class="cat-news"><a href="/vediogallery.php?lang=ar">معرض الفيديو</a>
+                                        </li>
+										
+                                        </li>
+										<li class="cat-news"><a href="#" id='WeeklySearch'>بحث أسبوعي</a>
+                                        </li>
+										<li class="cat-news arabiconly"><a id="poll_12" href="/poll.php?lang=ar">رأيك يهمنا</a></li>
+                                        <li class="cat-news"><a href="/contactus.php?lang=ar">اتصل بنا</a>
+                                        </li>										
+
+                                        <li>
+                                            <div class="hideme hide hidden">
+                                                <input id="txtSearchSc" class="field" type="text" placeholder="بحث" value="" />
+                                                <a id="btnSearchSc" class="fa fa-search"></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <!-- /.navbar-collapse -->
+                            </nav>
+                        </div>
+                        <!-- /#site-navigation -->
+                    </div>
+                   
+                    <section class="news-ticker">
+                        <div class="drag-icon abs-icons">
+                            <i class="fa fa-cog" data-toggle="modal" data-target="#marquee" id="iSMarqLatestNews"></i>
+                        </div>
+                        <!-- Recent News slider -->
+                        <span class="last-news">آخر الأخبار</span>
+                        <div class="header_news_ticker" id="flexslider-news">
+                            <ul class="news slides" id="ulNewsTickers">
+														<li><a href="viewfullstory.php?lang=ar&newsid=1949660">عام / سمو أمير منطقة الحدود الشمالية يستقبل المواطنين في جلسته المسائية</a></li>
+														<li><a href="viewfullstory.php?lang=ar&newsid=1949659">حج / سفير المملكة لدى السودان يودع الفوج الأول من الحجاج السودانيين المتجهين إلى الأراضى المقدسة جوًا</a></li>
+														<li><a href="viewfullstory.php?lang=ar&newsid=1949654">عام / إصابة 3 أشخاص في انفجار سيارة مفخخة عند مدخل قاعدة فرنسية في مالي</a></li>
+														<li><a href="viewfullstory.php?lang=ar&newsid=1949640">رياضي / محافظ الوجه يتوج فريق سيتي تبوك ببطولة البحر الأحمر الأولى</a></li>
+														<li><a href="viewfullstory.php?lang=ar&newsid=1949639">عام / الدفاع المدني بمنطقة مكة المكرمة يسيطر على حريق في منزل بحي المروة بمحافظة جدة</a></li>
+							                            </ul>
+                        </div>
+                        <!-- /Recent News slider -->
+                    </section>
+					
+ <div class="WeekDays" style="display: none;margin-bottom:10px;">
+                        <ul class="ulWeekDays"   style="vertical-align: sub;">
+						<a   href='newsheadlines.php?lang=ar&start_time=2019-07-22' class='badge default' >الاثنين </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a   href='newsheadlines.php?lang=ar&start_time=2019-07-21' class='badge default' >الأحد </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a   href='newsheadlines.php?lang=ar&start_time=2019-07-20' class='badge default' >السبت </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a   href='newsheadlines.php?lang=ar&start_time=2019-07-19' class='badge default' >الجمعة </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a   href='newsheadlines.php?lang=ar&start_time=2019-07-18' class='badge default' >الخميس </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a   href='newsheadlines.php?lang=ar&start_time=2019-07-17' class='badge default' >الأربعاء </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                        </ul>
+                    </div>					
+					
+					
+                </div>
+            </header>
+            <!-- / header  -->
+<style>.englishonly{display:none !important}</style><!-- this is a test ---> 
+
+
+
+
+					<!-- Latest compiled and minified CSS -->
+<!-- link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" -->
+<script async  src="include/js/jquery-ui-tabs-rotate.js"></script>
+
+
+    <style>
+	@media only screen and (max-width: 980px) and (min-width: 300px){
+.rightAdd {
+    display: block!important;
+    width: 100%;
+	    padding: 10px;
+}
+}
+@media only screen and (max-width: 640px) and (min-width: 360px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+#secondary.right_sidebar img {width: 100% !important;}		
+	
+}
+@media only screen and (max-width: 480px) and (min-width: 320px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+@media only screen and (max-device-width: 640px) and (min-device-width: 360px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+@media only screen and (max-width: 640px) and (min-width: 360px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+@media only screen and (max-width: 480px) and (min-width: 320px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+@media only screen and (max-device-width: 640px) and (min-device-width: 360px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+@media only screen and (max-device-width: 480px) and (min-device-width: 320px){
+	#secondary.right_sidebar {
+		display: block !important;}
+		.main_sidebar { width: 100%;}
+		.occasin_wraper ,#asideBottomSection , .KingCv  ,#asideLatestNews{display: none !important;}
+	#secondary.right_sidebar img {width: 100% !important;}		
+}
+tant;}
+        .sticky .portal-spa {
+            font-size: 19px;
+            position: absolute;
+            top: 43px;
+        }
+
+        .aCategoryLinkSelected {
+            background-color: coral;
+        }
+
+        #divMainVideo div {
+            background-size: 100%;
+        }
+
+        .liV div {
+            background-size: 100%;
+        }
+		
+		#featured ul.ui-tabs-nav li.ui-tabs-selected a, 
+		#featured ul.ui-tabs-nav li.ui-tabs-active a {
+			background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;
+		}
+		.hidden-lg.mobile-slog {
+		   color: #fff;
+			font-size: 18px;
+			line-height: 21px;
+			margin-bottom: 0;
+			margin-left: 0;
+			margin-right: 0;
+			padding: 4px 43px;
+			width: 100%;
+		}
+		
+		.txtbanner{
+			text-align: center;
+			font-size: 20px;
+			padding: 10px;
+			line-height: 1.5;
+			background: green;
+		}
+
+		.txtbanner a{
+			color:#ffffff;
+			font-weight: 800;
+		}
+		
+		
+		@media only screen and (min-width: 700px)  {
+			.ui-tabs-nav{padding-top: 0px !important;}
+ 
+		}
+		
+		@media only screen and (max-width: 640px) and (min-width: 360px){
+			.ui-tabs-nav{padding-top: 0px;}
+			.ui-tabs-nav{padding-right:70px !important;}
+		}
+		
+		 .captionKing{
+			position: unset !important;
+			padding-top: 2px;
+			background: unset;
+		 }
+		.captionKing a{ background: rgb(61, 170, 184) none repeat scroll 0 0 !important;
+		    margin-top: 5px;
+    padding: 2px;}
+    </style>
+
+ 
+
+
+    <div class="right_sidebar container" id="main">
+        <aside class="inner">
+            <div class="general_content">
+                <div class="main_content">
+                    <div class="content-area" id="primary">
+                        <div class="site-content" id="content" role="main">
+                            <!--===== King Slider ======-->
+                            <div class="slider-wrapper" id="divRoyalSlider">
+                                <div id="featured">
+                                    <ul class="ui-tabs-nav" >
+                                        <li class="ui-tabs-nav-item" id="nav-fragment-1">
+                                            <a href="#fragment-1">
+                                                <img id="imgKingThumb"  src="/include/images/king-salman.jpg"  class="b-lazy" />
+                                            </a>
+                                            <label class="captionKing">
+											<a href="listnews.php?lang=ar&sticky=1"  title='أخبار خادم الحرمين'
+											style='color:#ffffff !important;background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;'>أخبار خادم الحرمين</a>
+											
+											</label>
+											
+											                                            <label class="captionKing">
+											<a href="king-cv.ar.php"  title='سيرة خادم الحرمين الشريفين'
+											style='color:#ffffff !important;background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;'>سيرة خادم الحرمين </a>
+											
+											</label>
+																						                                            <label class="captionKing arabiconly">
+											<a href="rounds.php?tourtype=1"  title='جولات خادم الحرمين'
+											style='color:#ffffff !important;background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;'>جولات خادم الحرمين</a>
+											
+											</label>
+											
+
+                                        </li>
+                                        <li class="ui-tabs-nav-item" id="nav-fragment-2" style="margin-top: 10px; margin-bottom: 3px;">
+                                            <a href="#fragment-2">
+                                                <img id="imgWaliThumb"  src="image-resizer/h115-w96-c115x96/galupload/ads/princemohbenslaman.jpg"  class="b-lazy" />
+                                            </a>
+                                            <label class="captionKing">
+											<a href="listnews.php?lang=ar&sticky=2" title='أخبار ولي العهد'
+											style='color:#ffffff  !important;background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;'>
+											أخبار ولي العهد											</a>
+											</label>
+											                                            <label class="captionKing arabiconly">
+											<a href="rounds.php?tourtype=3" title='جولات ولي العهد'
+											style='color:#ffffff  !important;background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;'>
+											جولات ولي العهد
+											</a>
+											</label>
+
+
+                                        </li>
+                                        <!-- li class="ui-tabs-nav-item" id="nav-fragment-3" style="display:none">
+                                            <a href="#fragment-3">
+                                                <img id="imgWaliWaliThumb" src="/include/images/prince-mohamed-ben-salman.jpg" class="b-lazy" />
+                                            </a>
+                                            <label class="captionKing"><span id="aWaliWaliNews" style="cursor: pointer;">
+											<a href="listnews.php?lang=ar&sticky=3" title='أخبار ولي ولي العهد' 
+											style='color:#ffffff  !important;background: rgba(11, 142, 171, 0.4) none repeat scroll 0 0;'>
+											أخبار ولي ولي العهد											</a>
+											</span></label>
+                                        </li -->
+                                    </ul>
+                                    <!-- First Content -->
+                                    <div id="fragment-1" class="ui-tabs-panel" style="">
+
+                                        <img id="imgKingImg" src="/image-resizer/w490/galupload/normal/000-5338932711563315778527.jpg" class="b-lazy" />
+                                        <div class="info" style="width: 100%">
+                                            <h2><a id="aKingNewsTitle" href="viewfullstory.php?lang=ar&newsid=1947367&lang=ar">  خادم الحرمين الشريفين يغادر إلى نيوم لقضاء بعض الوقت للراحة والاستجمام</a></h2>
+                                            <p id="pKingNewsBrief"></p>
+                                        </div>
+                                    </div>
+                                    <!-- Second Content -->
+                                    <div id="fragment-2" class="ui-tabs-panel ui-tabs-hide" style="">
+
+                                        <img alt="imgWaliImg" src="/image-resizer/w490/galupload/normal/000-876079651562057634253.jpg"  id="imgWaliImg" />
+                                        <div class="info" style="width: 100%">
+                                            <h2><a id="aWaliNewsTitle" href="viewfullstory.php?lang=ar&newsid=1940493&lang=ar">  إمبراطور اليابان يستقبل سمو ولي العهد</a></h2>
+                                            <p id="pWaliNewsBrief"></p>
+                                        </div>
+                                    </div>
+                                    <!-- Third Content -->
+                                    <!-- div id="fragment-3" class="ui-tabs-panel ui-tabs-hide" style="">
+
+                                        <img alt="imgWaliWaliImg" src="/image-resizer/w490/galupload/normal/"  id="imgWaliWaliImg" class="b-lazy" />
+                                        <div class="info" style="width: 100%">
+                                            <h2><a id="aWaliWaliNewsTitle" href="viewfullstory.php?lang=ar&newsid=&lang=ar"></a></h2>
+                                            <p id="pWaliWaliNewsBrief"></p>
+                                        </div>
+                                    </div -->
+                                </div>
+                            </div>
+                            <!--===== King Slider End======-->
+                            <div class="clear"></div>
+							
+				<aside class="widget widget_news_combine leftSide hidden-md  hidden-lg  " >
+
+                    <div class="widget_body">
+                        <div class="block_news_tabs" id="tabs">
+                            <div class="tab_content" id="divLatestNews">
+															<div class="block_home_news_post"><div class="info"><div class="date">00:10</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949660#1949660"> سمو أمير منطقة الحدود الشمالية يستقبل المواطنين في جلسته المسائية</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">00:00</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949659#1949659"> سفير المملكة لدى السودان يودع الفوج الأول من الحجاج السودانيين المتجهين إلى الأراضى المقدسة جوًا</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">23:38</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949654#1949654"> إصابة 3 أشخاص في انفجار سيارة مفخخة عند مدخل قاعدة فرنسية في مالي</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">23:04</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949640#1949640"> محافظ الوجه يتوج فريق سيتي تبوك ببطولة البحر الأحمر الأولى</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">22:59</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949639#1949639"> الدفاع المدني بمنطقة مكة المكرمة يسيطر على حريق في منزل بحي المروة بمحافظة جدة</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">22:55</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949638#1949638"> تعليم الدوادمي ينفذ الأسبوع الثالث من برامج التطوير المهني التعليمي الصيفية</a></p>
+								</div>
+														
+                            </div>
+                            <!-- tab content goes here -->
+                        </div>
+                    </div>
+                </aside>
+				
+ <div class="clear"></div>
+							
+							<div class="row" style="margin-left: 0px;margin-right:0px">
+							
+                            <div class="block_home_slider style1 rightSide col-xs-12 col-md-8 slider-wrapper" id="divGTop10PicNews">
+                                <!--slider1-->
+                                <!--slider Start-->
+                                <div id="container">
+                                    <div class="drag-icon abs-icons">
+                                        <i class="fa fa-eye img_hide"></i>
+                                        <i class="fa fa-arrows"></i>
+                                        <i class="fa fa-cog" data-toggle="modal" data-target="#tenslidermodal" id="iImgSliderSetting"></i>
+                                    </div>
+                                    <div id="gallery" class="ad-gallery">
+                                        <div class="ad-image-wrapper" id="divTop10WImgWraper">
+                                        </div>
+                                        <div class="ad-nav">
+                                            <div class="ad-thumbs">
+                                                <ul class="ad-thumb-list" id="ulThumbs_divTop10ImgNews" style="width:610px!important" rel="ss">
+
+													
+														<li><a href='/image-resizer/h250/galupload/normal/000-242783601563827757481.jpg' class='aHref ad-thumb0'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949632#1949632' style='color:#ffffff;'> سمو أمير الجوف يلتقي المواطنين بمحافظة القريات </a> -- عام --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949632#1949632' 
+														RealTitle = ' سمو أمير الجوف يلتقي المواطنين بمحافظة القريات '
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-242783601563827757481.jpg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-195157691563821802002.jpeg' class='aHref ad-thumb1'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949623#1949623' style='color:#ffffff;'> رئيس ديوان المراقبة العامة يشارك في اجتماع الأمم المتحدة للرّقابة على تنفيذ أهداف التنمية المستدامة في نيويورك</a> -- عام --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949623#1949623' 
+														RealTitle = ' رئيس ديوان المراقبة العامة يشارك في اجتماع الأمم المتحدة للرّقابة على تنفيذ أهداف التنمية المستدامة في نيويورك'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-195157691563821802002.jpeg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-6414328641563820533650.jpg' class='aHref ad-thumb2'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949616#1949616' style='color:#ffffff;'> أمر ملكي : تعيين فضيلة الشيخ الدكتور عبدالسلام بن عبدالله بن محمد السليمان عضواً في هيئة كبار العلماء</a> -- عام --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949616#1949616' 
+														RealTitle = ' أمر ملكي : تعيين فضيلة الشيخ الدكتور عبدالسلام بن عبدالله بن محمد السليمان عضواً في هيئة كبار العلماء'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-6414328641563820533650.jpg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-2357904901563820329966.JPG' class='aHref ad-thumb3'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949615#1949615' style='color:#ffffff;'> مدير الأمن العام يتفقد استعدادات أفرع الأمن العام بالمدينة المنورة لموسم حج هذا العام 1440 هـ</a> -- حج --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949615#1949615' 
+														RealTitle = ' مدير الأمن العام يتفقد استعدادات أفرع الأمن العام بالمدينة المنورة لموسم حج هذا العام 1440 هـ'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-2357904901563820329966.JPG' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-7063047371563819624861.jpg' class='aHref ad-thumb4'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949603#1949603' style='color:#ffffff;'> الأمانة العامة للهيئة العليا للأمن الصناعي تنفذ افتراضية بمحطات تحلية المياه بالشعيبة    // للصحف فقط //</a> -- عام --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949603#1949603' 
+														RealTitle = ' الأمانة العامة للهيئة العليا للأمن الصناعي تنفذ افتراضية بمحطات تحلية المياه بالشعيبة    // للصحف فقط //'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-7063047371563819624861.jpg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-822759061563821239901.jpg' class='aHref ad-thumb5'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949583#1949583' style='color:#ffffff;'> ممثلو وسائل الإعلام التونسية يثنون على تنفيذ مبادرة طريق مكة في تونس</a> -- حج --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949583#1949583' 
+														RealTitle = ' ممثلو وسائل الإعلام التونسية يثنون على تنفيذ مبادرة طريق مكة في تونس'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-822759061563821239901.jpg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-2469189131563817490410.jpg' class='aHref ad-thumb6'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949565#1949565' style='color:#ffffff;'> أمطار على منطقة الباحة</a> -- عام --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949565#1949565' 
+														RealTitle = ' أمطار على منطقة الباحة'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-2469189131563817490410.jpg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-258835411563812793266.JPG' class='aHref ad-thumb7'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949548#1949548' style='color:#ffffff;'> سمو نائب أمير حائل يلتقي رواد ورائدات الأعمال الممولين من بنك التنمية الاجتماعية</a> -- اجتماعي --listnews.php?lang=ar&cat=6" hreflink = 'viewfullstory.php?lang=ar&newsid=1949548#1949548' 
+														RealTitle = ' سمو نائب أمير حائل يلتقي رواد ورائدات الأعمال الممولين من بنك التنمية الاجتماعية'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-258835411563812793266.JPG' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-3233123731563809632811.jpeg' class='aHref ad-thumb8'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949545#1949545' style='color:#ffffff;'> أمانة منطقة الرياض تصدر تصاريح الذبح المؤقتة للمطابخ إلكترونيًا</a> -- عام --listnews.php?lang=ar&cat=3" hreflink = 'viewfullstory.php?lang=ar&newsid=1949545#1949545' 
+														RealTitle = ' أمانة منطقة الرياض تصدر تصاريح الذبح المؤقتة للمطابخ إلكترونيًا'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-3233123731563809632811.jpeg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>
+														<li><a href='/image-resizer/h250/galupload/normal/000-193355201563809598123.jpg' class='aHref ad-thumb9'>
+														<img title="<a href='viewfullstory.php?lang=ar&newsid=1949523#1949523' style='color:#ffffff;'> وزير الاتصالات : شراكتنا مع كاوست تستهدف تعزيز الاقتصاد الرقمي وتطوير التقنيات الناشئة</a> -- اقتصادي --listnews.php?lang=ar&cat=5" hreflink = 'viewfullstory.php?lang=ar&newsid=1949523#1949523' 
+														RealTitle = ' وزير الاتصالات : شراكتنا مع كاوست تستهدف تعزيز الاقتصاد الرقمي وتطوير التقنيات الناشئة'
+														src='/image-resizer/w58-h35-c58x35/galupload/thumb/000-193355201563809598123.jpg' width=58 height=35 class='thumimage imgSrc' style='width: 58px; height: 35px; opacity: 0.7;'></a></li>													
+				
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Slider End -->
+                            </div>
+							
+							
+							<div class="rightAdd col-xs-4 col-md-4">
+							<div class="container-fluid  " style="background-color:#06572a ;">
+
+							<a href="ocassion.php?lang=ar&galleryid=248" title="الحج 1440هـ">
+							
+							<img class="center-block" src="/galupload/ads/hajj-1440-2.png"
+							height="355" width="206" style="border: 1px solid #cecece;" alt="الحج 1440هـ" >
+								
+							</a>
+							</div>
+											
+							</div>
+				
+							</div>
+							
+							
+							
+                            <!-- Recent News -->
+                            <!-- Recent News -->
+                            <div class="clear"></div>
+							
+												
+                            <div class="block_home_post">
+							
+							<div class="row" style="margin-left: 0px;margin-right:0px">	
+                                <div   id="divTop10NonPicNews" class=" news_section_add rightSide col-xs-12 col-md-8" style="padding-left: 0;padding-right: 0;padding-top: 10px;">
+                                    <div class="drag-icon abs-icons">
+                                        <i class="fa fa-eye img_hide"></i>
+                                        <i class="fa fa-arrows"></i>
+                                        <i class="fa fa-cog" id="iSNoImgNewsSetting" data-toggle="modal" data-target="#withoutimage"></i>
+                                    </div>
+                                    <div class="news_main" style="display: none">
+                                        <div class="news1">
+                                            <h4><a href="newspage.aspx" id="aNewsWOutPicTitle1"></a></h4>
+                                            <p id="pNewsWOutPicBrief1"></p>
+                                            <div class="k_date_t" id="divNewsWOutPicDate1"></div>
+                                        </div>
+                                        <div class="news2">
+                                            <h4><a id="aNewsWOutPicTitle2" href="newspage.aspx"></a></h4>
+                                            <p id="pNewsWOutPicBrief2"></p>
+                                            <div id="divNewsWOutPicDate2" class="kg_date"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+
+                                    <div class="news_main" style="display: none">
+                                        <div class="news1">
+                                            <h4><a href="newspage.aspx" id="aNewsWOutPicTitle3"></a></h4>
+                                            <p id="pNewsWOutPicBrief3"></p>
+                                            <div class="kg_date" id="divNewsWOutPicDate3"></div>
+                                        </div>
+                                        <div class="news2">
+                                            <h4><a href="newspage.aspx" id="aNewsWOutPicTitle4"></a></h4>
+                                            <p id="pNewsWOutPicBrief4"></p>
+                                            <div id="divNewsWOutPicDate4" class="k_date_t"></div>
+                                        </div>
+                                    </div>
+                                    <div class="clear"></div>
+								
+								
+                                    <div   class="news4 ">
+                                        <ul id="ul6NewsWOutPic">
+										<li><a href='viewfullstory.php?lang=ar&newsid=1949639#1949639'>  الدفاع المدني بمنطقة مكة المكرمة يسيطر على حريق في منزل بحي المروة بمحافظة جدة</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949638#1949638'>  تعليم الدوادمي ينفذ الأسبوع الثالث من برامج التطوير المهني التعليمي الصيفية</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949633#1949633'>  مؤشرات الأسهم الأوروبية تغلق على تباين</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949632#1949632'>  سمو أمير الجوف يلتقي المواطنين بمحافظة القريات </a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949629#1949629'>  مؤسسة مطوفي حجاج تركيا وأوروبا وأمريكا وأستراليا تطلق جائزة تجويد الخدمات لمكاتبها الميدانية</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949628#1949628'>  وزارة المالية تعلن عن إقفال طرح شهر يوليو 2019 من برنامج صكوك المملكة المحلية بالريال السعودي</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949624#1949624'>  نائب أدلَاء المدينة يتفقد مكاتب الخدمة الميدانية</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949623#1949623'>  رئيس ديوان المراقبة العامة يشارك في اجتماع الأمم المتحدة للرّقابة على تنفيذ أهداف التنمية المستدامة في نيويورك</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949621#1949621'>  مصرع أكثر من 30 حوثيًا بكمين للجيش اليمني في صرواح</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949620#1949620'>  الرئيس الأمريكي يعرض وساطةً بين الهند وباكستان</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949619#1949619'>  مجلس الوزراء الكويتي يعرب عن إدانته استمرار اعتداءات مليشيات الحوثي على المملكة</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949618#1949618'>  اتحاد الملاكمة يعقد اجتماعه الثاني بجدة</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949617#1949617'>  مدفعية الجيش اليمني تستهدف تجمعًا للمليشيا الحوثية الإرهابية في محافظة صعـدة</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949616#1949616'>  أمر ملكي : تعيين فضيلة الشيخ الدكتور عبدالسلام بن عبدالله بن محمد السليمان عضواً في هيئة كبار العلماء</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949615#1949615'>  مدير الأمن العام يتفقد استعدادات أفرع الأمن العام بالمدينة المنورة لموسم حج هذا العام 1440 هـ</a></li><li><a href='viewfullstory.php?lang=ar&newsid=1949614#1949614'>  وزير الخارجية البريطاني يعدّ احتجاز إيران للسفينة قرصنة دولة</a></li>                                        </ul>
+                                    </div>
+									
+
+                                    <div class="clear"></div>
+                                    <div class="view-all_tabs2">
+                                        <a id="aGetMoreWOutImg" href="newsheadlines.php?lang=ar" class="progress-button">المزيد</a>
+                                    </div>
+									
+									
+                                </div>
+								
+									<div class="rightAdd col-xs-4 col-md-4" >
+										<div class="container-fluid">
+										
+											<a href="ocassion.php?lang=ar&galleryid=232">
+																							<img class="center-block lazy"   height="450" src="image-resizer/h450-w206/galupload/ads/national-day-88.jpeg">
+											</a>
+										</div>
+									</div>
+							
+								</div>
+								
+                               <div class="rightSide" style="margin-top: 10px;" id="divCategorizedNews">
+	<div class="drag-icon abbs-icons-post ">
+		<i class="fa fa-eye img_hide"></i>
+		<i class="fa fa-arrows"></i>
+		<i id="iSectionNewsSetting" class="fa fa-cog" data-target="#SectionSetting" data-toggle="modal"></i>
+	</div>
+	<div class="tabs_bordr">
+		<ul class="content_tabs" data-persist="true">
+			<li><a id="aLocalNews_1" href="#localnews" class='bluetext'>أخبار محلية</a>
+			</li>
+		</ul>
+	</div>
+	<div class="tabcontents_area">
+		<div id="localnews">
+			<div id="localnew_main">
+				<div id="divPicNews">
+					<div class="localnews_left" id="divLocalImgLeft">
+						<div class="economic_nws" id="divSection_1" draggable="true">
+							<div class="drag-icon">
+								<i class="fa fa-arrows iMove" style="display: inline-block;"></i>
+							</div>
+							<h2><a href="listnews.php?lang=ar&cat=4">السياسية</a></h2>
+														<div class="image-wrape">
+								<img src="/image-resizer/h114/galupload/normal/000-6787936651563816298595.jpg" class="imgSrc" style="background-color: gray;">
+							</div>
+							<p><a href="viewstory.php?lang=ar&newsid=1949489"> ولي عهد أبوظبي يبحث مع رئيس مجلس الدولة الصيني تطوير علاقات التعاون بين البلدين</a></p>
+							
+							<ul>
+								<li><a href="viewstory.php?lang=ar&newsid=1949621"> مصرع أكثر من 30 حوثيًا بكمين للجيش اليمني في صرواح</a></li>
+								<li><a href="viewstory.php?lang=ar&newsid=1949620"> الرئيس الأمريكي يعرض وساطةً بين الهند وباكستان</a></li>
+							</ul>
+						</div>
+						<div class="economic_nws" id="divSection_3" draggable="true">
+							<div class="drag-icon">
+								<i class="fa fa-arrows iMove" style="display: inline-block;"></i>
+							</div>
+							<h2><a href="listnews.php?lang=ar&cat=7">الرياضية</a></h2>
+														
+							<div class="image-wrape">
+								<img src="/image-resizer/h114/galupload/normal/000-1348633251563799162667.jpg" class="imgSrc" style="background-color: gray;">
+							</div>
+							<p><a href="viewstory.php?lang=ar&newsid=1949411"> أخضر السلة ينتظم في معسكره برومانيا استعداداً للتصفيات الآسيوية</a></p>
+							<ul>
+								<li><a href="viewstory.php?lang=ar&newsid=1949640"> محافظ الوجه يتوج فريق سيتي تبوك ببطولة البحر الأحمر الأولى</a></li>
+								<li><a href="viewstory.php?lang=ar&newsid=1949618"> اتحاد الملاكمة يعقد اجتماعه الثاني بجدة</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="localnews_right" id="divLocalImgRight">
+						<div class="economic_nws" id="divSection_0" draggable="true">
+							<div class="drag-icon">
+								<i class="fa fa-arrows iMove" style="display: inline-block;"></i>
+							</div>
+							<h2><a href="listnews.php?lang=ar&cat=3">عام</a></h2>
+															
+							<div class="image-wrape">
+								<img src="/image-resizer/h114/galupload/normal/000-242783601563827757481.jpg" class="imgSrc" style="background-color: gray;">
+							</div>
+							<p><a href="viewstory.php?lang=ar&newsid=1949632"> سمو أمير الجوف يلتقي المواطنين بمحافظة القريات </a></p>
+							<ul>
+								<li><a href="viewstory.php?lang=ar&newsid=1949660"> سمو أمير منطقة الحدود الشمالية يستقبل المواطنين في جلسته المسائية</a></li>
+								<li><a href="viewstory.php?lang=ar&newsid=1949659"> سفير المملكة لدى السودان يودع الفوج الأول من الحجاج السودانيين المتجهين إلى الأراضى المقدسة جوًا</a></li>
+							</ul>
+						</div>
+						<div class="economic_nws" id="divSection_2" draggable="true">
+							<div class="drag-icon">
+								<i class="fa fa-arrows iMove" style="display: inline-block;"></i>
+							</div>
+							<h2><a href="listnews.php?lang=ar&cat=5">الاقتصادية</a></h2>
+															
+							<div class="image-wrape">
+								<img src="/image-resizer/h114/galupload/normal/000-193355201563809598123.jpg" class="imgSrc" style="background-color: gray;">
+							</div>
+							<p><a href="viewstory.php?lang=ar&newsid=1949523"> وزير الاتصالات : شراكتنا مع "كاوست" تستهدف تعزيز الاقتصاد الرقمي وتطوير التقنيات الناشئة</a></p>
+							<ul>
+								<li><a href="viewstory.php?lang=ar&newsid=1949633"> مؤشرات الأسهم الأوروبية تغلق على تباين</a></li>
+								<li><a href="viewstory.php?lang=ar&newsid=1949628"> وزارة المالية تعلن عن إقفال طرح شهر يوليو 2019 من برنامج صكوك المملكة المحلية بالريال السعودي</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="clear"></div>
+				<div id="divNews">
+					<div class="left_localnew_dwn" id="divLocalWoutImgLeft">
+						<div class="health" id="divSection_5" draggable="true">
+							<div class="drag-icon">
+								<i class="fa fa-arrows iMove" style="display: inline-block;"></i>
+							</div>
+							<h2 class="blue_bdr"><a href="listnews.php?lang=ar&cat=8">الثقافية</a></h2>
+								
+							<p><a href="viewstory.php?lang=ar&newsid=1949592"> دروات تدريبية تأهيلية بملتقى المدينة الشبابية في جدة‎</a></p>
+							<p><a href="viewstory.php?lang=ar&newsid=1949584"> "حوار مع تفكيري" محاضرة بدعوي جدة غداً</a></p>
+							<p><a href="viewstory.php?lang=ar&newsid=1949570"> ممارس القيادة ".. دورة بتعليم نجران</a></p>
+						</div>
+					</div>
+					<div class="right_localnew_dwn" id="divLocalWoutImgRight">
+						<div class="health" id="divSection_4" draggable="true">
+							<div class="drag-icon">
+								<i class="fa fa-arrows iMove" style="display: inline-block;"></i>
+							</div>
+							<h2 class="blue_bdr"><a href="listnews.php?lang=ar&cat=6">الاجتماعية</a></h2>
+								
+							<p><a href="viewstory.php?lang=ar&newsid=1949613"> جامعة الطائف: الشراكة مع مديرية السجون تؤكد التزامنا بنقل المعرفة لخدمة المجتمع‎</a></p>
+							<p><a href="viewstory.php?lang=ar&newsid=1949548"> سمو نائب أمير حائل يلتقي رواد ورائدات الأعمال الممولين من بنك التنمية الاجتماعية</a></p>
+							<p><a href="viewstory.php?lang=ar&newsid=1949547"> 600 دارس ودارسة  في قطاع البيضاء بمكة المكرمة يستفيدون من برامج الحملة الاجتماعية لمحو الأمية</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="view-all_tabs">
+					<a id="aMoreSections_1" href="#">المزيد من الأقسام</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+								
+                            </div>
+							
+							
+
+
+				
+                        </div>
+                        <!-- /#content -->
+                    </div>
+                    <!-- /#primary -->
+                </div>
+            </div>
+            <!--/.main_content-->
+            <!-- .main_sidebar -->
+
+            <div class="main_sidebar right_sidebar" id="secondary" role="complementary">
+                <aside class="widget KingCv  leftSide hide hidden">
+                    <img src="include/images/ser_4.png" style ="width: 80px!important;" />
+                    <a href="king-cv.ar.php" id="aKingBiography_1" href="">سيرة خادم الحرمين الشريفين</a>
+                </aside>
+                <aside class="widget widget_news_combine leftSide" id="asideLatestNews">
+                    <div class="widget_header">
+                        <div class="widget_subtitle">
+                            <a id="aMore_2" class="lnk_all_news" href="/newsheadlines.php?lang=ar">المزيد</a>
+                        </div>
+                        <div class="drag-icon">
+                            <i class="fa fa-eye img_hide"></i>
+                            <i class="fa fa-arrows iMove"></i>
+                            <i class="fa fa-cog" data-toggle="modal" data-target="#lastnews" id="iLatestNewsSetting"></i>
+                        </div>
+                        <h3 id="h3LatestNews_1" class="widget_title">آخر الأخبار</h3>
+                    </div>
+                    <div class="widget_body">
+                        <div class="block_news_tabs" id="tabs">
+                            <div class="tab_content" id="divLatestNews">
+															<div class="block_home_news_post"><div class="info"><div class="date">00:10</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949660#1949660"> سمو أمير منطقة الحدود الشمالية يستقبل المواطنين في جلسته المسائية</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">00:00</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949659#1949659"> سفير المملكة لدى السودان يودع الفوج الأول من الحجاج السودانيين المتجهين إلى الأراضى المقدسة جوًا</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">23:38</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949654#1949654"> إصابة 3 أشخاص في انفجار سيارة مفخخة عند مدخل قاعدة فرنسية في مالي</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">23:04</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949640#1949640"> محافظ الوجه يتوج فريق سيتي تبوك ببطولة البحر الأحمر الأولى</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">22:59</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949639#1949639"> الدفاع المدني بمنطقة مكة المكرمة يسيطر على حريق في منزل بحي المروة بمحافظة جدة</a></p>
+								</div>
+															<div class="block_home_news_post"><div class="info"><div class="date">22:55</div>
+								</div><p class="title"><a href="viewfullstory.php?lang=ar&newsid=1949638#1949638"> تعليم الدوادمي ينفذ الأسبوع الثالث من برامج التطوير المهني التعليمي الصيفية</a></p>
+								</div>
+														
+                            </div>
+                            <!-- tab content goes here -->
+                        </div>
+                    </div>
+                </aside>
+				
+
+				<aside id="asideBottomSection" class="widget  leftSide arabiconly hide hidden" style="margin-bottom: 5px;">
+					<div style="position: relative; padding-top: 10px;" align="center">
+						<ul class="list-inline" id="ulBottomSection" style="width: 200px;">
+							<li><a href="rounds.php?tourtype=1">
+								<img src="include/images/ser_4.png"><span>جولات خادم الحرمين</span></a><p>(صور)</p>
+							</li>
+
+							<li><a href="rounds.php?tourtype=3">
+								<img src="/galupload/ads/ser_2.png"><span>جولات ولي العهد</span></a><p>(صور)</p>
+							</li>
+						</ul>
+					</div>
+				</aside>
+				
+
+		
+ 
+<link href="include/css/weather.css"   rel="stylesheet"  />
+<style>
+.imageweather{
+height: auto !important;
+width: auto !important;
+position: relative !important;
+float:left;
+}
+.weatheritem{padding:10px !important;
+height:120px !important;
+max-height:120px;
+min-height:120px;
+
+ }
+ 
+.carousel .carousel-control { visibility: hidden; }
+.carousel:hover .carousel-control { visibility: visible; } 
+.cursorlink{
+	color: #013550;
+    /*background: #6bd1ff59;*/
+    width: 100%;
+    height: 100%;
+    display: inline-block
+	
+}
+.weathercity{
+	color:#b7370e;
+}
+
+
+.weatheritem2{padding:10px !important;
+height:180px !important;
+max-height:180px;
+min-height:180px;
+
+ }
+ 
+ 
+.weatheritem3{padding:10px !important;
+height:180px !important;
+max-height:180px;
+min-height:180px;
+
+ } 
+ 
+ 
+ .weatheritem4{padding:10px !important;
+height:180px !important;
+max-height:180px;
+min-height:180px;
+
+ }
+ 
+ #WeatherAlert #WeatherCarousel .carousel-inner .item{
+	 background-color:unset !important;
+ }
+ #WeatherAlert #WeatherCarousel .carousel-inner .item h4{
+	 margin-bottom: 1px !important;
+ }
+ 
+ #WeatherAlert #WeatherCarousel .carousel-inner .item .WeatherText {
+    line-height: 20px !important;
+	
+ }
+
+ .WeatherIcon {
+    position: absolute;
+    top: 5px !important;
+    left: 5px !important;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+
+</style>		
+				
+<aside class="widget  leftSide hide" >		
+<div id="myCarouselweather" class="carousel slide" data-ride="carousel" style="    direction: rtl;font-size: 1.3em;
+    font-weight: 800;
+    color: #efefef;
+    background-color: #479451;
+    background-image: url(/images/if_PartlyD-A_598753.svg);
+    background-size: cover;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarouselweather" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarouselweather" data-slide-to="1"></li>
+    <li data-target="#myCarouselweather" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" id="weatherspawidget">
+
+  </div>
+  
+  
+ 
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarouselweather" data-slide="prev"  style="background-image:unset !important;">
+    <span class="glyphicon glyphicon-chevron-left" style="color:#8febfb;"></span>
+    
+  </a>
+  <a class="right carousel-control" href="#myCarouselweather" data-slide="next"  style="background-image:unset !important;">
+    <span class="glyphicon glyphicon-chevron-right" style="color:#8febfb;"></span>
+    
+  </a>
+</div>
+</aside>	
+
+
+<aside class="widget  leftSide hide " >		
+<div id="myCarouselweather2" class="carousel slide" data-ride="carousel" style="    direction: rtl;font-size: 1.3em;
+    font-weight: 800;
+    color: #efefef;
+	height: 180px;
+    background-color: #479451;
+    background-image: url(/images/if_PartlyD-A_598753.svg);
+    background-size: cover;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarouselweather2" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarouselweather2" data-slide-to="1"></li>
+    <li data-target="#myCarouselweather2" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" id="weatherspawidget2">
+
+  </div>
+  
+  
+ 
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarouselweather2" data-slide="prev"  style="background-image:unset !important;">
+    <span class="glyphicon glyphicon-chevron-left" style="color:#8febfb;"></span>
+    
+  </a>
+  <a class="right carousel-control" href="#myCarouselweather2" data-slide="next"  style="background-image:unset !important;">
+    <span class="glyphicon glyphicon-chevron-right" style="color:#8febfb;"></span>
+    
+  </a>
+</div>
+</aside>	
+
+
+
+
+
+
+
+<aside class="widget  leftSide hide " >		
+<div id="myCarouselweather3" class="carousel slide" data-ride="carousel" style="    direction: rtl;font-size: 1.3em;
+    font-weight: 800;
+    color: #efefef;
+	height: 180px;
+    background-color:  #28739b;
+    background-image: url(/images/ksa-map-4.png);
+    
+	    background-size: contain;
+    background-repeat: round;">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarouselweather3" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarouselweather3" data-slide-to="1"></li>
+    <li data-target="#myCarouselweather3" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" id="weatherspawidget3">
+
+  </div>
+  
+  
+ 
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarouselweather3" data-slide="prev"  style="background-image:unset !important;">
+    <span class="glyphicon glyphicon-chevron-left" style="color:#8febfb;"></span>
+    
+  </a>
+  <a class="right carousel-control" href="#myCarouselweather3" data-slide="next"  style="background-image:unset !important;">
+    <span class="glyphicon glyphicon-chevron-right" style="color:#8febfb;"></span>
+    
+  </a>
+</div>
+</aside>	
+
+
+
+
+	<!-- aside class="widget  leftSide hide hidden "  >
+
+		<div class="spanishOcassion hidden-md hidden-lg">
+			<a href="ocassion.php?lang=ar&galleryid=232">
+			<img src="galupload/ads/national-day-88-mobile.jpeg" 
+			alt='national day 88'   style="max-width:100%" >
+			</a>
+						
+		</div>
+	</aside -->
+	
+
+<aside class="widget  leftSide hide " >		
+<div  style=" 
+	text-align:center;
+	direction: rtl;
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #369dd2;
+    height: 50px;
+    background-color: #369dd2;
+    background-image: url(/images/if_PartlyD-A_598753.svg);
+    background-size: initial;
+    background-position-y: -10px;
+	    line-height: 50px;
+	">
+	<a href="https://www.pme.gov.sa/Ar/Weather/LocalWeatherInfo/Pages/Todayweather.aspx" target="_blank" style="background: #ffffffab;color:#004b73;display:inline-block;width:100%;height:100%">
+	  درجات الحرارة 
+	</a>
+</div>
+</aside>
+
+
+
+	<aside class="widget  leftSide  arabiconly hide hidden"  >
+
+		<div class="spanishOcassion hidden-md hidden-lg">
+			<a href="ocassion.php?lang=ar&galleryid=235">
+			<img src="/image-resizer/h300-w300/galupload/ads/gnadria-1440.mobile.png" 
+			alt='hajj  1439'  >
+			</a>
+
+		</div>
+	</aside>
+
+
+
+			<aside class="widget  leftSide  arabiconlyx" id="asideSpainOc">
+					<div class="spanishOcassion" align="center">
+					<a href="ocassion.php?lang=ar&galleryid=186" title="رؤية المملكة 2030">
+																														
+					
+					<img id="imgCurrentOcPic" height="150" class="imgSrc" src="/galupload/ads/vision-2016.png" alt="رؤية المملكة 2016 ">
+					</a>
+					</div>
+				</aside>
+
+	<aside class="widget  leftSide  arabiconly  "  >
+
+		<div class=" arabiconly ">
+			<a href="ocassion.php?lang=ar&galleryid=247" title="مبادرة طريق مكة">
+			<img src="/image-resizer/w300/galupload/ads/makkah-road.png" 
+			alt='مبادرة طريق مكة'  >
+			</a>
+
+		</div>
+	</aside>
+	
+	<aside class="widget  leftSide  arabiconly  "  >
+
+		<div class=" arabiconly ">
+			<a href="ocassion.php?lang=ar&galleryid=246" title="قمة مجموعة العشرين 2019">
+			<img src="/image-resizer/w300/galupload/ads/g20-2019.png" 
+			alt='القمة الإسلامية'  >
+			</a>
+
+		</div>
+	</aside>
+	
+	<aside class="widget  leftSide  arabiconly  "  >
+
+		<div class=" arabiconly ">
+			<a href="ocassion.php?lang=ar&galleryid=244" title="السعودية في الصيف">
+			<img src="/image-resizer/w300/galupload/ads/summer-2019.png" 
+			alt='القمة الإسلامية'  >
+			</a>
+
+		</div>
+	</aside>
+	
+
+        <aside id="WeatherAlert" class="widget arabicOnly clear arabiconly">
+            <div class="widget_header">
+                <div class="widget_subtitle">
+                    <a href="https://www.pme.gov.sa/Ar/alert/Pages/default.aspx" class="lnk_all_posts" id="aMore_3" target="_blank">المزيد</a>
+                </div>
+                <div class="drag-icon">
+                    <i class="fa fa-eye img_hide"></i>
+                    <i class="fa fa-arrows"></i>
+                </div>
+                <h3 class="widget_title">
+                    <a href="https://www.pme.gov.sa/Ar/alert/Pages/default.aspx" target="_blank">
+                        النظام الألي للانذار المبكر
+                    </a>
+                </h3>
+            </div>
+            <div class="widget_body">
+
+                <div id="WeatherCarousel" class="carousel slide" data-ride="carousel" style="    background-color: #6bf2ff41">
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <h4 class="contryName"> منطقة مكة المكرمة</h4>
+                            <div class="WeatherIcon">
+                                <img class="alertIcon" src="/images/weather/yellow.png" />
+                            </div>
+                            <div class="WeatherText">
+                                نشاط في الرياح السطحية تصل سرعتها إلى 40كم/س مما يؤدي إلى إثارة الأتربة والغبار تحد من مدى الرؤية الأفقية قد تصل إلى أقل من 2كم خاصة خلال النهار
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h4 class="contryName">منطقة مكة المكرمة</h4>
+                            <div class="WeatherIcon">
+                                <img class="alertIcon" src="/images/weather/yellow.png" />
+                            </div>
+                            <div class="WeatherText">
+                                نشاط في الرياح السطحية تصل سرعتها إلى 40كم/س مما يؤدي إلى إثارة الأتربة والغبار تحد من مدى الرؤية الأفقية قد تصل إلى أقل من 2كم خاصة خلال النهار
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h4 class="contryName">منطقة مكة المكرمة</h4>
+                            <div class="WeatherIcon">
+                                <img class="alertIcon" src="/images/weather/yellow.png" />
+                            </div>
+                            <div class="WeatherText">
+                                نشاط في الرياح السطحية تصل سرعتها إلى 40كم/س مما يؤدي إلى إثارة الأتربة والغبار تحد من مدى الرؤية الأفقية قد تصل إلى أقل من 2كم خاصة خلال النهار
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#WeatherCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#WeatherCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div id="Weathersid">
+                    <a href="https://www.pme.gov.sa/Ar/Weather/LocalWeatherInfo/Pages/FiveDays.aspx" target="_blank">
+                        درجات الحرارة
+                    </a>
+                </div>
+                <div id="hintAlert" class="col-md-12">
+                    <table>
+                        <tr>
+                            <td><img src="/images/weather/warning-map-type-4.png" /></td>
+                            <td>تنوية</td>
+                            <td><img src="/images/weather/yellow.png" /></td>
+                            <td>تنبية</td>
+                            <td><img src="/images/weather/warning-map-type-2.png" /></td>
+                            <td>تنبية متقدم</td>
+                            <td><img src="/images/weather/warning-map-type-1.png" /></td>
+                            <td>أحذر</td>
+                        </tr>
+
+                    </table>
+
+                </div>
+            </div>
+
+        </aside>
+
+
+
+ <script>
+ 
+ 
+ $(document).ready(function () {
+
+    GetWeather();
+});
+function GetWeather() {
+    $("#WeatherCarousel .carousel-inner").empty();
+
+    $.ajax({
+        url: "notifications.php",
+        type: "GET",
+        format: "json",
+        dataType: "json",
+        success: function (data) {
+            response = jQuery.parseJSON(JSON.stringify(data));
+            //console.log(response);
+            var activclass = 'active';
+            $.each(response, function (key, value) {
+				if(value.alertTypeCode == null){
+					continue;
+				}
+                var htmlitem = '<div class="item ' + activclass + ' weatheritem clearfix">'
+                    + '<a href="weathermap.php" class="cursorlink">'
+                    + '<h4 class="contryName" >' + value.regionAR + '</h4 >'
+                    + '<div class="WeatherIcon"><img class="alertIcon" src="https://www.pme.gov.sa' + value.alertTypeCode + '" /></div>'          
+                    +'<div class="WeatherText" onclick="window.location.href=\'weathermap.php\';">' + value.descriptionAr + '</div>'                            
+                    + '</a></div>';
+                activclass = '';
+
+                $("#WeatherCarousel .carousel-inner").append(htmlitem);
+
+            });
+            if (response.length == 1) {
+                $("#WeatherCarousel .carousel-control").hide();         
+            }
+            else {
+                $("#WeatherCarousel .carousel-control").show();   
+            }
+        }
+    });
+}
+
+ 
+ 
+ 
+  $(function() {
+		$.ajax({
+					url: "notifications.php",
+					type: "GET",
+					format: "json",
+					dataType: "json",
+					success: function(data) {
+						response =  jQuery.parseJSON(JSON.stringify(data));
+						//console.log(response);
+						var activclass ='active' ;
+						$.each(response, function(key,value){
+							 
+							var htmlitem = '<div class="item ' + activclass + ' weatheritem clearfix">'
+							+ '<a href="weathermap.php" class="cursorlink">'
+							+ '<img src="https://www.pme.gov.sa'+ value.alertTypeCode + '" class="imageweather"  >'
+							+ '<span class="weathercity">' + value.regionAR + '</span>' + ':' + value.descriptionAr + '</a>'
+							+ '</div>';
+							activclass = '';
+							
+							$("#weatherspawidget").append(htmlitem);
+							$("#weatherspawidget2").append(htmlitem.replace('weatheritem','weatheritem2'));
+							
+							$("#weatherspawidget3").append(htmlitem.replace('weatheritem','weatheritem3'));
+							
+							$("#weatherspawidget4").append(htmlitem.replace('weatheritem','weatheritem4'));
+							
+							
+						});
+						
+						
+						
+					}
+				});
+});
+
+  </script>
+
+			
+				
+
+
+				
+				<aside class="widget  leftSide  arabiconly hide" id="asideSpainOc">
+					<div class="spanishOcassion">
+					<a href="ocassion.php?lang=ar&galleryid=195" class="arabiconly">
+					<img id="imgCurrentOcPic" class="imgSrc" src="/galupload/ads/national-day-86-2.png"  style="width:300px"  title="g20-2016 " style="border: 1px solid #cecece;">
+					</a>
+					</div>
+				</aside>				
+				
+
+				
+
+				<aside class="widget  leftSide  arabiconly hide" id="asideSpainOc">
+					<div class="spanishOcassion">
+					<a href="ocassion.php?lang=ar&galleryid=194" class="arabiconly">
+					<img id="imgCurrentOcPic" class="imgSrc" src="/galupload/ads/united-nation-visit-71.png"  style="width:300px"  title="g20-2016 ">
+					</a>
+					</div>
+				</aside>
+
+				<aside class="widget  leftSide  arabiconly hide" id="asideSpainOc">
+					<div class="spanishOcassion">
+					<a href="ocassion.php?lang=ar&galleryid=187" class="arabiconly">
+					<img id="imgCurrentOcPic" class="imgSrc" src="/galupload/ads/hajj1437.png" title="hajj 1437 ">
+					</a>
+					</div>
+				</aside>								
+				
+				
+
+					
+				
+
+
+
+<style>
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999999999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+
+<!--
+<img id="myImg" src="/galupload/ads/gulf-summit.png" alt="" style="width:100%">
+
+ The Modal ..
+<div id="myModal" class="modal  text-center">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <button type="button" id="closeImage" class="btn btn-default" data-dismiss="myModal">&times; Close</button>
+  <div id="caption"></div>
+
+  
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+$("#closeImage").click(function(){
+	modal.style.display = "none";	
+});
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+</script>
+
+ -->
+
+			
+			
+			
+						
+			<aside class="widget  leftSide   arabiconly txtbanner"  style="display:none">
+			<a href="search.php?lang=ar&search=وطن بلا مخالف&nocolor=1">
+			وطن بلا مخالف
+			<br>
+			باقي 
+			-726			يوم
+			</a>
+			</aside>
+
+				
+				
+				
+	
+				
+				<!-- side class="widget  leftSide   " id="asideSpainOc">
+					<div class="spanishOcassion">
+					<a href="http://www.boeing-me.com/ar/" class="" target="_blank">
+					<img id="imgCurrentOcPic" class="imgSrc" src="/galupload/ads/boing-300x160.jpg" style="width:300px" title="boing ">
+					</a>
+					</div>
+				</aside -->
+				
+				<aside class="widget  leftSide hidden hide " id="asideSpainOc" style="display:none">
+					<div class="spanishOcassion">
+					<a href="gcc-apps.php" class="" target="_blank">
+					<img id="imgCurrentOcPic"  usemap="#rade_img_map_1478671652895" class="imgSrc" src="/galupload/ads/genral-apps.jpg" style="width:300px" title="boing ">
+					</a>
+					</div>
+					<map id="rade_img_map_1478671652895" name="rade_img_map_1478671652895">
+					<area shape="RECT" coords="280,183,304,201" href="https://play.google.com/store/apps/details?id=com.app.gcc&amp;hl=en" target="_blank">
+					<area shape="RECT" coords="254,184,277,202" href="https://itunes.apple.com/us/app/gcc-news/id1138707655?mt=8" target="_blank"></map>					
+					
+				</aside>
+				
+
+							
+							
+				
+				
+				
+				
+				
+				<aside class="widget  leftSide hide" id="aSideE3lan" style="background: #E9E9E9; border: none; box-shadow: none">
+					<div class="drag-icon">
+						<i class="fa fa-eye img_hide"></i>
+						<i class="fa fa-arrows iMove"></i>
+						<i class="fa fa-cog"></i>
+					</div>
+					<div class="divid">
+						<div id="divE3lan" class="divContainer">
+						<div class="divAddContainer_300 hide"><a class="aAddContainer" href="http://www.boeing-me.com/ar/" target="_blank">
+						<img src="/galupload/ads/boing-ads-6.29.2016.jpg"></a></div>
+						<div class="divAddContainer_150 hide">
+						<a class="aAddContainer" href="https://www.kafalah.gov.sa/Pages/default.aspx" target="_blank">
+						<img src="/galupload/ads/20160127151814.jpg"></a></div>
+						
+						<div class="divAddContainer_150 hide">
+						<a class="aAddContainer" href="http://www.afed.com.sa/pages/default.aspx" target="_blank">
+						<img src="/galupload/ads/defence-adds.jpg"></a></div>
+						
+						<div class="divAddContainer_150 ">
+						<a href="TermsSubscription.php"><img src="include/images/150Add.jpg"></a></div>
+												<div class="divAddContainer_150 ">
+						<a href="TermsSubscription.php"><img src="include/images/150Add.jpg"></a></div>
+						
+						</div>
+					</div>
+				</aside>
+		
+				
+
+		<aside id="aSideVideoGal" class="widget widget_recent_video">
+            <div class="widget_header">
+                <div class="widget_subtitle">
+                    <a id="aMore_3" class="lnk_all_posts" href="/vediogallery.php?lang=ar">المزيد                    </a>
+                </div>
+                <div class="drag-icon">
+                    <i class="fa fa-eye img_hide"></i>
+                    <i class="fa fa-arrows"></i>
+                </div>
+                <h3 class="widget_title"><a id="avideoLibrary_11" href="/vediogallery.php?lang=ar">معرض الفيديو</a></h3>
+            </div>
+            <div class="widget_body">
+					<a   href="/vediogallery.php?lang=ar">
+					<img id="latestyoutube" width="278" height="160" style="width:278px;height:160px;">
+					<div id="latestyoutubetitle" style="text-align:center;font-weight:bold;color:#188498"></div>
+					</a>
+            </div>
+        </aside>				
+
+		         <aside class="widget widget_recent_video leftSide" id="asidePhotoGal">
+            <div class="widget_header">
+                <div class="widget_subtitle">
+                    <a id="aMore_4" class="lnk_all_posts" href="/gallery.php?pg=1&lang=ar">المزيد</a>
+                </div>
+                <div class="drag-icon">
+                    <i class="fa fa-eye img_hide"></i>
+                    <i class="fa fa-arrows iMove"></i>
+                    <i class="fa fa-cog"></i>
+                </div>
+                <h3 id="h3PhotoExhibition_2" class="widget_title"><a href="/gallery.php?pg=1&lang=ar">معرض الصور</a></h3>
+            </div>
+            <div class="widget_body text-center" >
+					<a   href="/gallery.php?pg=1&lang=ar">
+					<img src="/image-resizer/w278/galupload/normal/000-242783601563827757481.jpg"  style="height: 160px;width:auto;max-width:278px" >
+					<div id="latestyoutubetitle" style="text-align:center;font-weight:bold;color:#188498">سمو أمير الجوف يلتقي المواطنين بمحافظة القريات (واس) ١٩-١١-١٤٤٠ هـ</div>
+					</a> 
+            </div>
+        </aside>
+
+            
+
+<aside class="widget widget_recent_video occasin_wraper leftSide arabiconly" id="asideOcasion2">
+            <div class="drag-icon">
+                <i class="fa fa-eye img_hide"></i>
+                <i class="fa fa-arrows iMove"></i>
+                <i class="fa fa-cog"></i>
+            </div>
+            <div class="widget_header">
+                <div class="widget_subtitle">
+                    <a id="aMore_5" class="lnk_all_posts" href="/galleries.php?lang=ar">المزيد</a>
+                </div>
+                <h3 class="widget_title"><a id="aOccasions_1" href="/galleries.php?lang=ar">مؤتمرات ومناسبات</a></h3>
+            </div>
+            <div class="widget_body">
+
+								
+				<ul class="row" id="ulOccasions">
+				           
+					<li class="col-md-6">
+						<div class="owl-carousel owl-theme" id="oc0" >
+	
+									
+										<div class="item">
+											<img src="/galupload/thumb/201807/000-9155807091531678040805.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=224';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201807/000-355128461531678041414.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=224';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201807/000-2646324581531678043511.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=224';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201807/000-5272863871531678045531.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=224';"
+											width='120' height='100'>
+										</div>
+									
+									
+
+						</div>
+						<span class="divOccasionTitle" style="cursor: pointer;">
+						<a href="/ocassion.php?lang=ar&galleryid=224">
+						مشاركة المنتخب السعودي كأس العالم روسيا - 2018						</a>
+						</span>
+					</li>
+				           
+					<li class="col-md-6">
+						<div class="owl-carousel owl-theme" id="oc1" >
+	
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-3395057801523894184868.jpg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=223';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-5181215011523894191349.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=223';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-7302548341523894201602.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=223';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-1448363571523894221819.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=223';"
+											width='120' height='100'>
+										</div>
+									
+									
+
+						</div>
+						<span class="divOccasionTitle" style="cursor: pointer;">
+						<a href="/ocassion.php?lang=ar&galleryid=223">
+						مجلس جامعة الدول العربية على مستوى القمة						</a>
+						</span>
+					</li>
+				           
+					<li class="col-md-6">
+						<div class="owl-carousel owl-theme" id="oc2" >
+	
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-6658274131523158402682.jpg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=221';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-1452121891523156087553.jpg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=221';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-345886401523150571512.jpg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=221';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201804/000-7119571371523079924099.jpg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=221';"
+											width='120' height='100'>
+										</div>
+									
+									
+
+						</div>
+						<span class="divOccasionTitle" style="cursor: pointer;">
+						<a href="/ocassion.php?lang=ar&galleryid=221">
+						الشراكة السعودية الأمريكية 						</a>
+						</span>
+					</li>
+				           
+					<li class="col-md-6">
+						<div class="owl-carousel owl-theme" id="oc3" >
+	
+									
+										<div class="item">
+											<img src="/galupload/thumb/201803/000-4673167101519858675258.jpeg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=220';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201803/000-886114121519858679328.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=220';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201803/000-5051224371519858683811.JPG" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=220';"
+											width='120' height='100'>
+										</div>
+									
+									
+										<div class="item">
+											<img src="/galupload/thumb/201803/000-3192868191519858686907.jpg" 
+											onclick="window.location='/ocassion.php?lang=ar&galleryid=220';"
+											width='120' height='100'>
+										</div>
+									
+									
+
+						</div>
+						<span class="divOccasionTitle" style="cursor: pointer;">
+						<a href="/ocassion.php?lang=ar&galleryid=220">
+						المهرجان الوطني للتراث والثقافة 						</a>
+						</span>
+					</li>
+					
+				</ul>
+
+            </div>
+        </aside>
+		
+
+
+		
+		
+		
+		
+		
+            </div>
+        </aside>
+    </div>
+    <!-- /#main -->
+
+
+
+ 
+
+
+
+
+
+<style>
+@media (min-width: 768px){
+	.modal-dialog {
+		width: 840px !important;
+	}
+	.witheriframe{
+		width:800px;height:300px;
+	}
+}
+
+@media (max-width: 768px){
+	.modal-dialog {
+		width: 100% !important;
+	}
+	.witheriframe{
+		width:100%;height:600px;
+	}
+}
+
+
+#WPT {
+	z-index:1000000000 !important;
+}
+</style>
+
+        <div class="modal fade" id="WPT" style="z-index: 1000000;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+						<iframe scrolling="no" id="prayer-times-and-trmpratures"  class="witheriframe"  border=0 style="overflow:hidden; border:0px ; margin:0px" ></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+		
+
+
+
+
+            <!-- PopUp -->
+            <!-- go Top-->
+            <a id="toTop" href="#"><span></span></a>
+        </div>
+
+
+
+        <script>
+		
+		function ifImgLoad(thisimg, imgPath, OrgImg) {
+			if (imgExists(imgPath) == 404) {
+				thisimg.attr("src", 'https://www.spa.gov.sa' + OrgImg);
+			}
+
+			//var pathImg = imgExists(imgPath);
+			//thisimg.attr("src", pathImg);
+		}
+		
+		function imgExists(imgPath) {
+			var http = jQuery.ajax({
+				type: "HEAD",
+				url: imgPath,
+				async: false
+			});
+
+			//if (http.status == 404) {
+			//    return thisimg.attr("src", 'https://www.spa.gov.sa' + imgPath);
+			//}
+			//else {
+			//    return imgPath;
+			//}
+			return http.status;
+		}
+
+		function showPrayerTimes(){
+			$("#prayer-times-and-trmpratures").attr("src","prayer-times-and-trmpratures.php");
+		}
+		
+		function showXchange(){
+			$("#prayer-times-and-trmpratures").attr("src","prayer-times-and-trmpratures.php?xchange=1");
+		}
+		
+		
+			var menuimagesloaded = false;
+			// top news gallery start 
+			$(document).ready(function () {
+				jQuery('#flexslider-news').flexslider({
+					animation: "slide",
+					pausePlay: true,
+					slideshow: true,
+					slideshowSpeed: 3000,
+					controlNav: true,
+				});
+				
+				$(".thumimage").click(function( event ) {
+					event.preventDefault();
+					window.location.href =  $( this ).attr('hreflink');
+					return false;
+				});
+				
+				setTimeout(function(){ 
+					$(".thumimage").each(function( index ) {
+						$( this ).attr('title',$( this ).attr('RealTitle'));
+					});
+				}, 3000);
+				
+				/*$('#header-navigation').stickyNavbar({
+					startAt: 0,
+					easing: "linear",
+					animateCSS: true,
+					cssAnimation: "bounceInDown",
+					jqueryAnim: "slideDown",
+					mobileWidth: 480,
+					zindex: 9999
+				});*/
+				
+				$('.subnav-menu li').hover(function () {
+					$(this).parent().find('li').removeClass('current');
+					$(this).addClass('current');
+					LoadMenuImages();
+				});
+					
+            });
+			
+		function LoadMenuImages(){
+			if(menuimagesloaded){return;}
+			$(".menuimages").each(function () {
+				$(this).attr('src',$(this).attr('data-src'));
+			});
+			menuimagesloaded = true;
+		}
+			
+
+		$(document).ready(function () {
+			$("#WeeklySearch").click(function () {
+				$(".WeekDays").slideToggle("slow");
+			});
+			
+			/*$("img").error(function () {
+				$.get('copy_from_cdn.php?image=' + $(this).attr("src"));
+				if(($(this).attr("src")).indexOf('spa.gov.sa') > 0 ){return;}
+				$(this).unbind("error").attr("src", 'http://cdn.spa.gov.sa/' + $(this).attr("src"));
+			});*/
+
+			$("#page").on('error', 'img', function () { 
+				if(($(this).attr("src")).indexOf('spa.gov.sa') > 0 ){return;}
+				$(this).unbind("error").attr("src", 'http://cdn.spa.gov.sa/' + $(this).attr("src"));
+			});
+			
+			$("#aSearch").click(function (e) { 
+				//window.location.href='search.php?lang=ar&search=' + $("#searchInput").val();
+				e.stopPropagation();
+				$("#searchtoggle").click();
+			});
+			
+			$("#search2").keypress(function (event) { 
+				if ( event.which == 13 ) {
+					//window.location.href='search.php?lang=ar&search=' + $("#searchInput").val();
+					e.stopPropagation();
+					$("#searchtoggle").click();
+				}
+			});
+			
+			
+			$("#searchInput").click(function () { 
+				$(this).select();				
+			});
+
+			$("#searchnews").click(function (e) { 
+				window.location.href='search.php?lang=ar&search=' + $("#searchInput").val();
+			});
+			$("#searchimages").click(function (e) { 
+				window.location.href='gallery.php?lang=ar&search=' + $("#searchInput").val();
+			});
+			$( "#searchInput" ).keypress(function( event ) {
+				if ( event.which == 13 ) {
+					event.preventDefault();
+					$("#aSearch").click();
+				}
+			});
+ 
+			$("#menu2").mmenu({
+                "classes": "mm-slide mm-zoom-panels"
+            });
+
+
+			
+			var lastScrollTop = 0;
+			$(document).scroll(function () {
+				var y = $(this).scrollTop();
+				if (y > 60) {
+					$('.hideme').fadeIn();
+				} else {
+					$('.hideme').fadeOut();
+				}
+			});
+			$(window).scroll(function (event) {
+				var st = $(this).scrollTop();
+				if (st > lastScrollTop) {
+					$('#header-navigation').css("position", "fixed");
+				} else {
+					if (st == 0) {
+						$('#header-navigation').css("position", "relative");
+					}
+				}
+				lastScrollTop = st;
+				if (jQuery(this).scrollTop() >= 110) {
+					jQuery('#toTop').show();
+				} else {
+					jQuery('#toTop').hide();
+				}
+			});
+			$('#toTop').click(function (e) {
+				jQuery('body,html').animate({
+					scrollTop: 0
+				}, 800);
+				e.preventDefault();
+			});
+			
+			
+		});
+			
+		$(document).scroll(function () {
+            var y = $(this).scrollTop();
+            if (y > 60) {
+                $('.hideme').fadeIn();
+            } else {
+                $('.hideme').fadeOut();
+            }
+
+        });
+
+		// top news gallery end 
+		
+        jQuery(window).scroll(function () {
+            if (jQuery(this).scrollTop() >= 110) {
+                jQuery('#toTop').show();
+            } else {
+                jQuery('#toTop').hide();
+            }
+        });
+        if (jQuery('.single article .post_thumb img').attr('width') <= 500) {
+            jQuery('.single article .pic').parent().addClass('img-floated');
+        }
+
+        jQuery('#toTop').click(function (e) {
+
+            jQuery('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            e.preventDefault();
+        });
+		
+
+
+
+		
+		
+        </script>
+		
+<footer class="site-footer" id="footer" role="contentinfo">
+                <div class="drag-icon abs-icons">
+                    <i class="fa fa-cog" data-toggle="modal" data-target="#footersetting"></i>
+                </div>
+                <section class="ft_section_1">
+                    <div class="footer-wrapper">
+                        <div id="divFooterLinksCategories">
+                            <div class="footer_logo">
+                                <a href="#spa" class="WasLogo">
+                                    <img src="include/images/logo-footer.png">
+                                </a> 
+								<div class="footer-new" style="display:none">
+                                    <ul class="list-inline">
+										<li><a class="btn btn-sm btn-info" id="aChairmanAgency_1" href="ChairmanAgency.ar.php">كلمة رئيس مجلس الإدارة</a></li>
+                                        <!-- li><a class="btn btn-sm btn-info" data-toggle="modal" id="aChairmanAgency_1" href="#soon">كلمة رئيس مجلس الإدارة</a></li -->
+                                        <li class='hide'><a   href="aboutwas.ar.php" class="btn btn-sm btn-info"></a></li>
+                                    </ul>
+                                </div>
+								<a href="http://www.info.gov.sa/"  style="display:none">
+                                    <img src="include/images/wizaraLogo.png" class="wizaralogo">
+                                </a>
+								
+                            </div>
+                        <div class="divContainerCategoryLink"><div class="footer_text bio_ftr">
+						<h3 class="h3CategoryName">خدمات الوكالة</h3><ul class="ulCategoryLinks">
+						<li class="liCategoryLink"><a class="aCategoryLink" href="TermsOfSubscriptionAndAd.php">الاشتراكات والمنتجات</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="tenders.php">مناقصات</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="email-form.php">للتواصل</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="AboutKingdom.ar.php">عن المملكة</a></li>
+						
+						</ul></div></div><div class="divContainerCategoryLink"><div class="footer_text bio_ftr">
+						<h3 class="h3CategoryName">خدمات عامة</h3><ul class="ulCategoryLinks">
+						<li class="liCategoryLink"><a class="aCategoryLink" href="links.php#links35">جهات  حكومية</a></li>
+						<li class="liCategoryLink  hide hidden "><a class="aCategoryLink" href="#WPT" onclick="showXchange();return false;" data-toggle="modal"  >الأسهم والعملات</a></li>
+						<li class="liCategoryLink hide hidden"><a class="aCategoryLink" href="#WPT" 
+						onclick="showPrayerTimes();return false;"
+						data-toggle="modal" >الطقس ومواقت الصلاة</a></li>
+
+						<li class="liCategoryLink"><a class="aCategoryLink" href="poll.php">رأيك يهمنا</a></li>
+						<li class="liCategoryLink hidden-md hidden-lg"><a class="aCategoryLink" href="galleries.php?lang=ar">مؤتمرات ومناسبات</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" 
+						href="/galupload/ads/employee_rules.pdf" target="_blank">مدونة قواعد السلوك الوظيفي</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" 
+						href="https://goo.gl/maps/WVCA4MmU2f82" target="_blank">موقع وكالة الأنباء السعودية  علي الخريطة</a></li>
+						</ul>
+						</div>
+						</div>
+
+						<div class="divContainerCategoryLink"><div class="footer_text bio_ftr">
+						<h3 class="h3CategoryName">خدمات الجوال</h3><ul class="ulCategoryLinks">
+						<li class="liCategoryLink"><a class="aCategoryLink" href="gawal.ar.php">خدمة رسائل واس</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="https://itunes.apple.com/sa/app/واس-spa/id1030299223?platform=iphone&preserveScrollPosition=true#platform/iphone" target="_blank">تطبيق آى فون</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="https://play.google.com/store/apps/details?id=com.arcom.was&hl=en" target="_blank">تطبيق آندرويد</a></li>
+						<li class="liCategoryLink" style="display:none"><a class="aCategoryLink" href="gcc-apps.php" >التطبيق الموحد لوكالات <br> انباء   مجلس التعاون الخليجي</a></li>
+						</ul></div>
+						
+						</div>
+						<div class="divContainerCategoryLink  hidden-md hidden-lg">
+						<div class="footer_text bio_ftr">
+						<h3 class="h3CategoryName">الشؤون الملكية</h3>
+						<ul class="ulCategoryLinks">
+						<li class="liCategoryLink"><a class="aCategoryLink" href="king-cv.ar.php?lang=ar">سيرة خادم الحرمين</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="rounds.php?tourtype=1">جولات خادم الحرمين</a></li>
+						<li class="liCategoryLink"><a class="aCategoryLink" href="rounds.php?tourtype=3">جولات ولي العهد</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+                    </div>
+                </section>
+                <section class="ft_section_2">
+                    <div class="footer-wrapper" align="center">
+
+                        <div class="copyright" style="float:none;">
+                            <div class="footer_text">جميع الحقوق محفوظة لوكالة الأنباء السعودية ص.ب 7186 الرياض 11171  -<a href="/sitemap.php?lang=ar" style="text-decoration:none;color:rgb(92, 92, 92);" onclick="return false;"> 10-101</a></div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+			
+			
+		
+</body>
+</html>			
+	<script type="text/javascript" src="include/js/responsiveslides.min.js"></script>
+  <script type="text/javascript">
+  $(function() {
+	var opt = {
+		slideshow: {
+			enable: true,
+			speed:20000,
+			cycle: false, 
+		}
+	}
+    var galleries = $('.ad-gallery').adGallery(opt);
+    
+    $('#switch-effect').change(
+      function() {
+        galleries[0].settings.effect = $(this).val();
+        return false;
+      }
+    );
+    $('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+    $('#toggle-description').click(
+      function() {
+        if(!galleries[0].settings.description_wrapper) {
+          galleries[0].settings.description_wrapper = $('#descriptions');
+        } else {
+          galleries[0].settings.description_wrapper = false;
+        }
+        return false;
+      }
+    );
+  });
+</script>
+
+
+	<script>
+	$( document ).ready(function() {
+		$("#ulOccasionSlider").responsiveSlides({
+			auto: true,
+			pager: false,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+				$('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+				$('.events').append("<li>after event fired.</li>");
+			}
+		});
+		
+		$(".owl-carousel").owlCarousel({
+
+                navigation: false, // Show next and prev buttons
+                slideSpeed: 300,
+                paginationSpeed: 400,
+                singleItem: true,
+                autoPlay: true,
+
+		});
+			
+		/*
+		$("#featured").tabs({ fx: { opacity: "toggle" } }).tabs("rotate", 5000, true);
+		$("#featured").hover(
+			function () {
+				$("#featured").tabs("rotate", 0, true);
+			},
+			function () {
+				$("#featured").tabs("rotate", 5000, true);
+			}
+		);		
+			*/
+			
+		//setTimeout(function(){$.get('cashpages.php?lang=ar');},5000); 
+		loadlatestvideo();
+		
+		
+		
+		
+	});
+	
+	
+		
+	$(function () {
+     $("#featured").tabs({
+         show: {
+             effect: "fadeIn",
+             duration: 500,
+             delay: 500
+         },
+         hide: {
+             effect: "fadeOut",
+             duration: 500,
+             delay: 500
+         }
+     }).tabs("rotate", 5000, true);
+	
+	$("#featured").hover(
+			function () {
+				$("#featured").tabs("rotate", 0, true);
+			},
+			function () {
+				$("#featured").tabs("rotate", 5000, true);
+			}
+		);	
+	});		
+
+	function loadlatestvideo(){
+		var channel_id = 'UClXSeR8UCA7c_Ys6lFqxX7Q';
+		var api_key = 'AIzaSyAeqhaNC3RoSrBzFD5URckYb-TTo2fnZns';
+		var json_url="https://www.googleapis.com/youtube/v3/search?key=" + api_key + "&channelId="+ channel_id + "&part=snippet,id&order=date&maxResults=1";
+		$.getJSON( json_url, function() {
+			console.log( "success" );
+		})
+		.done(function(data) {
+			$("#latestyoutubetitle").html(data.items[0].snippet.title);
+			$("#latestyoutube").attr('src',(data.items[0].snippet.thumbnails.high.url));
+			//alert(data.items[0].id.videoId);
+			
+			//$.each( data, function( key, val ) {
+				//alert( "<li id='" + key + "'>" + val + "</li>" );
+				//alert(data.items[0].snippet.title)
+			//});
+			//console.log( "second success" );
+		})
+		.fail(function() {
+			//console.log( "error" );
+		})
+		.always(function() {
+			//console.log( "complete" );
+		});
+
+	}
+
+	
+	</script>
+	

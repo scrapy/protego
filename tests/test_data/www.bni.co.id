@@ -1,0 +1,205 @@
+# Begin robots.txt file
+#/-----------------------------------------------\
+#| In single portal/domain situations, uncomment the sitmap line and enter domain name
+#\-----------------------------------------------/
+#Sitemap: http://www.DomainNamehere.com/sitemap.aspx
+
+
+User-agent: *
+Disallow: /admin/
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_GlobalResources/
+Disallow: /bin/
+Disallow: /Components/
+Disallow: /Config/
+Disallow: /contest/
+Disallow: /controls/
+Disallow: /DesktopModules/
+Disallow: /Documentation/
+Disallow: /HttpModules/
+Disallow: /images/
+Disallow: /Install/
+Disallow: /js/
+Disallow: /Portals/
+Disallow: /Providers/
+Disallow: /Resources/ContentRotator/
+Disallow: /Resources/ControlPanel/
+Disallow: /Resources/Dashboard/
+Disallow: /Resources/FeedBrowser/
+Disallow: /Resources/OpenForceAd/
+Disallow: /Resources/Search/
+Disallow: /Resources/Shared/
+Disallow: /Resources/SkinWidgets/
+Disallow: /Resources/TabStrip/
+Disallow: /Resources/Widgets/
+Disallow: /Activity-Feed/userId/	# Do not index user profiles
+Disallow: /login/
+Disallow: /login
+Disallow: /login?returnurl=%2fid-id%2f
+Disallow: /login*
+Crawl-delay: 10
+Request-rate: 1/5         # maximum rate is one page every 5 seconds
+Visit-time: 1400-2200     # only visit between 14:00 and 22:00 UTC (GMT)
+
+
+User-agent: msnbot
+Disallow: /admin/
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_GlobalResources/
+Disallow: /bin/
+Disallow: /Components/
+Disallow: /Config/
+Disallow: /contest/
+Disallow: /controls/
+Disallow: /DesktopModules/
+Disallow: /Documentation/
+Disallow: /HttpModules/
+Disallow: /images/
+Disallow: /Install/
+Disallow: /js/
+Disallow: /Portals/
+Disallow: /Providers/
+Disallow: /Resources/ContentRotator/
+Disallow: /Resources/ControlPanel/
+Disallow: /Resources/Dashboard/
+Disallow: /Resources/FeedBrowser/
+Disallow: /Resources/OpenForceAd/
+Disallow: /Resources/Search/
+Disallow: /Resources/Shared/
+Disallow: /Resources/SkinWidgets/
+Disallow: /Resources/TabStrip/
+Disallow: /Resources/Widgets/
+Disallow: /Activity-Feed/userId/	# Do not index user profiles
+Disallow: /login/
+Disallow: /login
+Disallow: /login?returnurl=%2fid-id%2f
+Crawl-delay: 10
+Request-rate: 1/5         # maximum rate is one page every 5 seconds
+Visit-time: 1400-2200     # only visit between 14:00 and 22:00 UTC (GMT)
+
+
+User-agent: Slurp
+Disallow: /*/ctl/		# Slurp permits *
+Disallow: /admin/
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_GlobalResources/
+Disallow: /bin/
+Disallow: /Components/
+Disallow: /Config/
+Disallow: /contest/
+Disallow: /controls/
+Disallow: /DesktopModules/
+Disallow: /Documentation/
+Disallow: /HttpModules/
+Disallow: /images/
+Disallow: /Install/
+Disallow: /js/
+Disallow: /Portals/
+Disallow: /Providers/
+Disallow: /Resources/ContentRotator/
+Disallow: /Resources/ControlPanel/
+Disallow: /Resources/Dashboard/
+Disallow: /Resources/FeedBrowser/
+Disallow: /Resources/OpenForceAd/
+Disallow: /Resources/Search/
+Disallow: /Resources/Shared/
+Disallow: /Resources/SkinWidgets/
+Disallow: /Resources/TabStrip/
+Disallow: /Resources/Widgets/
+Disallow: /Activity-Feed/userId/	# Do not index user profiles
+Disallow: /login/
+Disallow: /login
+Disallow: /login*
+Crawl-delay: 10
+Request-rate: 1/5         # maximum rate is one page every 5 seconds
+Visit-time: 1400-2200     # only visit between 14:00 and 22:00 UTC (GMT)
+
+
+User-agent: Googlebot
+Disallow: /*/ctl/		# Googlebot permits *
+Disallow: /admin/
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_GlobalResources/
+Disallow: /bin/
+Disallow: /Components/
+Disallow: /Config/
+Disallow: /contest/
+Disallow: /controls/
+Disallow: /Documentation/
+Disallow: /HttpModules/
+Disallow: /Install/
+Disallow: /Providers/
+Disallow: /Activity-Feed/userId/	# Do not index user profiles
+Disallow: /login/
+Disallow: /login
+Disallow: /login*
+Crawl-delay: 10
+Request-rate: 1/5         # maximum rate is one page every 5 seconds
+Visit-time: 1400-2200     # only visit between 14:00 and 22:00 UTC (GMT)
+
+
+User-agent: Yahoo Pipes 1.0
+Disallow: /admin/
+Disallow: /App_Browsers/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /App_GlobalResources/
+Disallow: /bin/
+Disallow: /Components/
+Disallow: /Config/
+Disallow: /contest/
+Disallow: /controls/
+Disallow: /DesktopModules/
+Disallow: /Documentation/
+Disallow: /HttpModules/
+Disallow: /images/
+Disallow: /Install/
+Disallow: /js/
+Disallow: /Portals/
+Disallow: /Providers/
+Disallow: /Resources/ContentRotator/
+Disallow: /Resources/ControlPanel/
+Disallow: /Resources/Dashboard/
+Disallow: /Resources/FeedBrowser/
+Disallow: /Resources/OpenForceAd/
+Disallow: /Resources/Search/
+Disallow: /Resources/Shared/
+Disallow: /Resources/SkinWidgets/
+Disallow: /Resources/TabStrip/
+Disallow: /Resources/Widgets/
+Disallow: /Activity-Feed/userId/	# Do not index user profiles
+Disallow: /login/
+Disallow: /login
+Disallow: /login?returnurl=%2fid-id%2f
+Crawl-delay: 10
+Request-rate: 1/5         # maximum rate is one page every 5 seconds
+Visit-time: 1400-2200     # only visit between 14:00 and 22:00 UTC (GMT)
+
+
+User-agent: MS Search 4.0 Robot 
+Disallow: / 
+User-agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 4.0 Robot)
+Disallow: /
+
+
+User-agent: MS Search 5.0 Robot 
+Disallow: / 
+User-agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 5.0 Robot)
+Disallow: /
+
+
+User-agent: MS Search 6.0 Robot 
+Disallow: / 
+User-agent: Mozilla/4.0 (compatible; MSIE 4.01; Windows NT; MS Search 6.0 Robot)
+Disallow: /
+
+
+# End of robots.txt file

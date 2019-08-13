@@ -1,0 +1,14 @@
+User-Agent: AhrefsBot 
+Crawl-Delay: 5
+
+User-agent: Yandex
+Crawl-Delay: 5
+
+User-agent: dotbot
+Crawl-Delay: 5
+
+User-agent: SeznamBot
+Crawl-Delay: 5
+
+User-agent: SemrushBot
+Crawl-Delay: 5

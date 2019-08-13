@@ -1,0 +1,157 @@
+# robots.txt for EUROPA httpd-80 production server
+#
+# last update on 20/06/2019
+#
+User-agent: *			# match any robot name
+Disallow: /cgi-bin/		# don't allow robots into cgi-bin
+Disallow: /eur-lex/		# don't index old Eurlex - 13/09/2006 Request from OPOCE (Mr O. Grossmann)
+Disallow: /archives/	# don't index the archives
+#
+# COMM EUROPA MANAGEMENT - IM0012723685 - 03/04/2014
+#
+Disallow: /youth/dissemination/		
+Disallow: /youth/archive/
+Disallow: /youth/includes/
+Disallow: /youth/misc/
+Disallow: /youth/modules/
+Disallow: /youth/profiles/
+Disallow: /youth/themes/
+Disallow: /youth/cron.php
+Disallow: /youth/install.php
+Disallow: /youth/LICENSE.txt
+Disallow: /youth/xmlrpc.php
+Disallow: /youth/admin/
+Disallow: /youth/comment/reply/
+Disallow: /youth/filter/tips/
+Disallow: /youth/node/add/
+Disallow: /youth/search/
+Disallow: /youth/user/register/
+Disallow: /youth/user/password/
+Disallow: /youth/user/login/
+Disallow: /youth/user/logout/
+Disallow: /youreurope/citizens/debug/
+Disallow: /youreurope/citizens/results-survey/
+Disallow: /youreurope/citizens/survey/
+Disallow: /youreurope/citizens/search/
+Disallow: /youreurope/citizens/cookies/
+Disallow: /youreurope/citizens/help/
+Disallow: /youreurope/citizens/privacy/
+#
+# COMM EUROPA MANAGEMENT - IM0017899419 - 20/06/2019
+#
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /capacity4dev/includes/
+Disallow: /capacity4dev/misc/
+Disallow: /capacity4dev/modules/
+Disallow: /capacity4dev/profiles/
+Disallow: /capacity4dev/scripts/
+Disallow: /capacity4dev/themes/
+# Files
+Disallow: /capacity4dev/CHANGELOG.txt
+Disallow: /capacity4dev/cron.php
+Disallow: /capacity4dev/INSTALL.mysql.txt
+Disallow: /capacity4dev/INSTALL.pgsql.txt
+Disallow: /capacity4dev/INSTALL.sqlite.txt
+Disallow: /capacity4dev/install.php
+Disallow: /capacity4dev/INSTALL.txt
+Disallow: /capacity4dev/LICENSE.txt
+Disallow: /capacity4dev/MAINTAINERS.txt
+Disallow: /capacity4dev/update.php
+Disallow: /capacity4dev/UPGRADE.txt
+Disallow: /capacity4dev/xmlrpc.php
+# Paths (clean URLs)
+Disallow: /capacity4dev/admin/
+Disallow: /capacity4dev/comment/reply/
+Disallow: /capacity4dev/filter/tips/
+Disallow: /capacity4dev/node/add/
+Disallow: /capacity4dev/search/
+Disallow: /capacity4dev/user/register/
+Disallow: /capacity4dev/user/password/
+Disallow: /capacity4dev/user/login/
+Disallow: /capacity4dev/user/logout/
+Disallow: /capacity4dev/results-reporting-eud-or-hq-unit
+Disallow: /capacity4dev/eu-rfi
+Disallow: /capacity4dev/results_reporting_2013-14
+Disallow: /capacity4dev/results_reporting_2014-15
+# Paths (no clean URLs)
+Disallow: /capacity4dev/?q=admin/
+Disallow: /capacity4dev/?q=comment/reply/
+Disallow: /capacity4dev/?q=filter/tips/
+Disallow: /capacity4dev/?q=node/add/
+Disallow: /capacity4dev/?q=search/
+Disallow: /capacity4dev/?q=user/password/
+Disallow: /capacity4dev/?q=user/register/
+Disallow: /capacity4dev/?q=user/login/
+Disallow: /capacity4dev/?q=user/logout/
+
+#SUBDIRECTORY ALIASED
+
+# Directories
+Disallow: /capacity4dev/*/includes/
+Disallow: /capacity4dev/*/misc/
+Disallow: /capacity4dev/*/modules/
+Disallow: /capacity4dev/*/profiles/
+Disallow: /capacity4dev/*/scripts/
+Disallow: /capacity4dev/*/themes/
+# Files
+Disallow: /capacity4dev/*/CHANGELOG.txt
+Disallow: /capacity4dev/*/cron.php
+Disallow: /capacity4dev/*/INSTALL.mysql.txt
+Disallow: /capacity4dev/*/INSTALL.pgsql.txt
+Disallow: /capacity4dev/*/INSTALL.sqlite.txt
+Disallow: /capacity4dev/*/install.php
+Disallow: /capacity4dev/*/INSTALL.txt
+Disallow: /capacity4dev/*/LICENSE.txt
+Disallow: /capacity4dev/*/MAINTAINERS.txt
+Disallow: /capacity4dev/*/update.php
+Disallow: /capacity4dev/*/UPGRADE.txt
+Disallow: /capacity4dev/*/xmlrpc.php
+# Paths (clean URLs)
+Disallow: /capacity4dev/*/admin/
+Disallow: /capacity4dev/*/comment/reply/
+Disallow: /capacity4dev/*/filter/tips/
+Disallow: /capacity4dev/*/node/add/
+Disallow: /capacity4dev/*/search/
+Disallow: /capacity4dev/*/user/register/
+Disallow: /capacity4dev/*/user/password/
+Disallow: /capacity4dev/*/user/login/
+Disallow: /capacity4dev/*/user/logout/
+# Paths (no clean URLs)
+Disallow: /capacity4dev/*/?q=admin/
+Disallow: /capacity4dev/*/?q=comment/reply/
+Disallow: /capacity4dev/*/?q=filter/tips/
+Disallow: /capacity4dev/*/?q=node/add/
+Disallow: /capacity4dev/*/?q=search/
+Disallow: /capacity4dev/*/?q=user/password/
+Disallow: /capacity4dev/*/?q=user/register/
+Disallow: /capacity4dev/*/?q=user/login/
+Disallow: /capacity4dev/*/?q=user/logout/
+
+# Custom rules
+Disallow: /capacity4dev/flag/
+Disallow: /capacity4dev/?q=flag/
+Disallow: /capacity4dev/*/flag/
+Disallow: /capacity4dev/capacity4dev/flag/
+Disallow: /capacity4dev/*/?q=flag/
+Disallow: /capacity4dev/*/searchgroup/
+Disallow: /capacity4dev/events/
+Disallow: /capacity4dev/*/events/
+Disallow: /capacity4dev/*/blogs/
+Disallow: /capacity4dev/*/news/
+Disallow: /capacity4dev/*/discussions/
+Disallow: /capacity4dev/*/media/
+Disallow: /capacity4dev/*/documents/
+Disallow: /capacity4dev/*/library/
+Disallow: /capacity4dev/*/calendar/
+Disallow: /capacity4dev/*/members/
+
+# Protect user profile data.
+Disallow: /capacity4dev/people/
+Disallow: /capacity4dev/user/
+Disallow: /capacity4dev/users/
+Disallow: /capacity4dev/members
+Disallow: /capacity4dev/*/people/
+Disallow: /capacity4dev/*/user/
+Disallow: /capacity4dev/*/users/

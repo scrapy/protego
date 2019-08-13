@@ -1,0 +1,18 @@
+Sitemap: https://www.birminghammail.co.uk/map_news.xml
+Sitemap: https://www.birminghammail.co.uk/sitemaps/sitemap_index.xml
+User-agent: *
+Disallow: /search/
+Disallow: /comm-part-test/
+Disallow: /*service=ajax
+Disallow: /*.ece
+Disallow: /5293/
+Crawl-delay: 10.0
+
+User-agent: semetrical
+Disallow /
+
+User-agent: AhrefsBot 
+Disallow: /
+
+User-agent: grapeshot
+Crawl-delay: 0

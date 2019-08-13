@@ -1,0 +1,34 @@
+User-agent: *
+# System Disallow Urls:
+Disallow: /search/
+Disallow: /_layouts/
+Disallow: /_login/
+Disallow: /pages/login.aspx
+Disallow: /Documents/SponsorOfferFetchFile.js
+# User defined configurations:
+Disallow: /LearningAndCareer/learning/Pages/cm-lrt.aspx
+Disallow: /LearningAndCareer/learning/Documents/Change%20Management%20Toolkit/
+Disallow: /LearningAndCareer/learning/Pages/SHRM-Educational-Programs.aspx
+Disallow: /Communities/communities/chapters/Pages/2016-Bronze-Excel-Awards.aspx
+Disallow: /Communities/communities/chapters/Pages/2016-Silver-Excel-Awards.aspx
+Disallow: /Communities/communities/chapters/Pages/2016-Gold-Excel-Awards.aspx
+Disallow: /Communities/communities/chapters/Pages/2016-Platinum-Excel-Awards.aspx
+Disallow: /mlp/Pages/SHRMCert2017.aspx
+Disallow: /LearningAndCareer/learning/Pages/Mastering-Your-HR-Generalist-Role.aspx
+Disallow: /LearningAndCareer/Career/Pages/TheWrongReasonToEnterHR.aspx
+Disallow: /resourcesandtools/legal-and-compliance/state-and-local-updates/pages/idaho-garcia-vs-state-dept.aspx
+Disallow: /about-shrm/press-room/press-releases/pages/ceonamed.aspx
+Disallow: /LearningAndCareer/learning/seminars-materials/Pages/lii.aspx
+Disallow: /hr-today/news/hr-magazine/1116/pages/what-veterans-want.aspx
+Disallow: /LearningAndCareer/learning/seminars-materials/Pages/ta.aspx
+Disallow: /LearningAndCareer/learning/seminars-materials/Pages/ld.aspx
+Disallow: /LearningAndCareer/learning/seminars-materials/Pages/wh.aspx
+Disallow: /hosted/annualkiosk/index_new.aspx
+Disallow: /LearningAndCareer/learning/onsite-training/Documents/SHRM_CP-SCP_Slides.pdf
+Disallow: /learningandcareer/learning/seminars-materials/pages/ld.aspx
+Disallow: /learningandcareer/learning/pages/aa-lrt.aspx
+Disallow: /LearningAndCareer/learning/Documents/SHRM%20HR%20Metrics_AA.pdf
+Disallow: /hr-today/public-policy/hr-public-policy-issues/Pages/Immigration-Issue-Tracker.aspx
+Disallow: /searchfeed
+Disallow: *?*mkt_tok=
+Disallow: /pages/feeds.aspx

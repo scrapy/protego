@@ -1,0 +1,20 @@
+User-agent: *
+
+Disallow: /*/comments-*
+Disallow: /*/print/
+Disallow: /*SIT*
+Disallow: /*.swf
+Disallow: /printpage/
+Disallow: /double-rainbow/
+Disallow: /*-simplify/*
+Disallow: /it-test-only/
+Disallow: /enewsletters/
+
+Sitemap: https://www.news.com.au/sitemap.xml
+Sitemap: https://www.news.com.au/news-sitemap.xml
+
+#Agent Specific Disallowed Sections
+
+User-agent: NewsNow
+
+Disallow: /

@@ -1,0 +1,17 @@
+# robots.txt for https://warwick.ac.uk/ 
+
+# Don't index the training pages to try and stop people who want to study architecture from applying here because Warwick doesn't offer an Architecture course
+# Explanation: https://twitter.com/matmannion/status/1146342325980975104
+Disallow: /training/ 
+
+# Disallow indexing of the CMS application itself as no useful content exists there for externals, with exclusions below
+Disallow: /sitebuilder2/ 
+
+# let google get ical feeds 
+Allow: /sitebuilder2/api/sitebuilder.ics
+Allow: /sitebuilder2/api/gadgets/
+Allow: /sitebuilder2/api/rss/
+Allow: /sitebuilder2/api/sitemap/
+Allow: /sitebuilder2/api/videoSitemap.xml
+
+Sitemap: https://warwick.ac.uk/sitebuilder2/api/sitemap/index.xml

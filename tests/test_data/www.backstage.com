@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /9012560/
+Disallow: /accounts/zuora/
+Disallow: /accounts/
+Allow: /accounts/subscribe/$
+Disallow: /subscribe/*?offer=*
+Disallow: /subscribe/*&offer=*
+Disallow: /*?beta=1*
+Disallow: /*?*&beta=1*
+Disallow: /monologues/count/*
+Disallow: /esi/*
+Disallow: /admin/*
+Disallow: /search/
+Disallow: /forums/working-actor/beware-scam-884/

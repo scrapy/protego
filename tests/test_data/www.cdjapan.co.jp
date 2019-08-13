@@ -1,0 +1,29 @@
+User-agent: Googlebot
+Disallow: /z/
+Disallow: /member/
+Disallow: /dc_pics/
+Disallow: /i/member/
+Disallow: /cgi-bin/
+Disallow: /fcgi-bin/
+Disallow: /_internal/
+Disallow: /product/*/write_review
+Disallow: /(
+
+User-agent: bingbot
+Crawl-Delay: 10
+
+User-agent: msnbot
+Crawl-Delay: 10
+
+User-agent: *
+Disallow: /z/
+Disallow: /member/
+Disallow: /dc_pics/
+Disallow: /i/member/
+Disallow: /pictures/
+Disallow: /i/pictures/
+Disallow: /cgi-bin/
+Disallow: /fcgi-bin/
+Disallow: /_internal/
+Disallow: /product/*/write_review
+Disallow: /(

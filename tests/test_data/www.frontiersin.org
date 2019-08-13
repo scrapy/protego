@@ -1,0 +1,13 @@
+﻿User-agent: *
+Disallow: /images/
+Disallow: /Images/
+Disallow: /production/
+Disallow: /Production/
+Disallow: /review/
+Disallow: /Review/
+Disallow: /mail/
+Disallow: /Mail/
+Disallow: /admin/
+Disallow: /Admin/
+Disallow: /journals/testfieldhumanities/
+Sitemap: https://www.frontiersin.org/sitemap.xml

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: 
+Disallow: /gsearch.html
+
+User-agent: MJ12bot
+Disallow: /
+
+Sitemap: https://file.org/gsitemap.xml
+

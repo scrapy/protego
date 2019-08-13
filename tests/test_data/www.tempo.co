@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /ajax/
+Sitemap: http://www.tempo.co/sitemap.xml

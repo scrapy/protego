@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /internalapi/
+Disallow: /projects/embed/
+Disallow: /cloudmonitor/
+Disallow: /varserver/
+Disallow: /tags/
+Disallow: /site-api/
+Disallow: /api/
+Disallow: /scratchr2/static/
+Disallow: /scratch_1.4/
+
+User-agent: Baiduspider
+Disallow: /studios/

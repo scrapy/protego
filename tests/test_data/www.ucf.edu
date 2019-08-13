@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /*wp-admin/
+Disallow: /*wp-includes/
+Disallow: /admissions/eduadmadmin/
+Disallow: /online-v2/
+Disallow: /leadership/president/inauguration/
+
+User-agent: *
+Disallow: /uspsstaff/

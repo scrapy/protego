@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /meetings/open-meeting-details
+Disallow: /onlineservices_admin/*

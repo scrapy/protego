@@ -1,0 +1,12 @@
+User-agent: rogerbot
+
+Crawl-delay: 10
+
+User-agent: *
+
+Disallow: /preview/
+Disallow: /mobile/
+Disallow: /search/
+Disallow: /radio/player/
+
+Sitemap: https://www.lbc.co.uk/sitemap.xml

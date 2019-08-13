@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.taiwannews.com.tw/en/sitemap.xml
+Sitemap: https://www.taiwannews.com.tw/ch/sitemap.xml

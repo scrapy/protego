@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /www-statistics/
+Disallow: /img/
+Disallow: /computing/web/webdev/web-security/
+Disallow: /calendar
+Disallow: /calendar-export
+Disallow: /cgi-bin/
+Disallow: /computing/test
+Disallow: /computing/isc/home/virtual-worlds/movie/
+Disallow: /almanac/volumes/*/*/*/issueContents.html

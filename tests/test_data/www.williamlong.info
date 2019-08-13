@@ -1,0 +1,18 @@
+#
+# robots.txt for williamlong
+# Version 4.0.0
+#
+
+User-agent: *
+
+Disallow: /zb_system/
+Disallow: /google/zb_system/
+Disallow: /weibo/zb_system/
+Disallow: /info/zb_system/
+Disallow: /anni/zb_system/
+Disallow: /apps/zb_system/
+Disallow: /story/zb_system/
+Disallow: /werther/zb_system/
+
+
+Sitemap: https://www.williamlong.info/sitemap.xml

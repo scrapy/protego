@@ -1,0 +1,62 @@
+Sitemap: https://www.which.co.uk/sitemap.xml
+Sitemap: https://www.which.co.uk/money/sitemap/sitemap_index.xml
+Sitemap: https://www.which.co.uk/reviews/sitemaps/rad-sitemap-index.xml
+Sitemap: https://www.which.co.uk/later-life-care/sitemap/sitemap_index.xml
+Sitemap: https://www.which.co.uk/consumer-rights/sitemap.xml.gz
+Sitemap: https://www.which.co.uk/news/sitemap.xml
+Sitemap: https://www.which.co.uk/birth-choice/sitemap.xml
+Sitemap: https://www.which.co.uk/homepage-sitemap.xml
+ 
+User-agent: *
+
+#
+# disallow indexing of content archive
+#
+
+Disallow: /baby-and-child/archive/
+Disallow: /energy/archive/
+Disallow: /home-and-garden/archive/
+Disallow: /money/archive/
+Disallow: /technology/archive/
+
+#
+# disallow indexing of search results
+#
+
+Disallow: /birth-choice/search/
+Disallow: /consumer-rights/search/
+Disallow: /later-life-care/search/
+
+#
+# disallow indexing of utility pages
+#
+
+Disallow: /about-which/contact-us/send-us-a-message/thank-you/
+Disallow: /account/
+Disallow: /beta/
+Disallow: /cgi-bin/
+Disallow: /competitions/best-buy/entry-thank-you/
+Disallow: /components/
+Disallow: /documents/
+Disallow: /login/
+Disallow: /loginhelp/
+Disallow: /loginidentification/
+Disallow: /magazine/computing/thank-you/
+Disallow: /media/popup/
+Disallow: /new/
+Disallow: /signup-light/
+Disallow: /spp/
+Disallow: /static/email-pdfs/
+Disallow: /static/html/pdfs/
+Disallow: /thank-you/
+Disallow: /try-which/bbg/faqs/
+Disallow: /try-which/bbg/terms-conditions/
+Disallow: /try-which/price-predictor/
+Disallow: /try-which/wills/
+Disallow: /user/ 
+
+#
+# disallow indexing for test scopes
+#
+
+Disallow: /30585109/

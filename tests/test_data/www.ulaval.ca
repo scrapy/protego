@@ -1,0 +1,5 @@
+User-agent: * 
+Disallow: /calendrier.html
+Disallow: /no_cache/calendrier.html
+Disallow: /no_cache
+Disallow: /no_cache.html

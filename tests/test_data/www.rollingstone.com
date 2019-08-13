@@ -1,0 +1,21 @@
+Sitemap: https://www.rollingstone.com/sitemap.xml
+Sitemap: https://www.rollingstone.com/news-sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://www.rollingstone.com/news-sitemap.xml
+Sitemap: https://www.rollingstone.com/sitemap_index.xml
+
+User-agent: Swiftbot
+ Crawl-delay: 5
+User-agent: *
+Disallow: /?s=
+Disallow: /*/?s=
+Disallow: /search/
+Disallow: /search?
+Disallow: *?v02
+Disallow: *?replytocom
+User-agent: *
+Disallow: /*preview=true
+Disallow: /*theme_preview=true
+Disallow: /music/music-lists/25-artists-with-unexpected-ties-to-tennessee-719736/ 

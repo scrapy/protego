@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /search
+Disallow: /tmp
+Disallow: /MySmSh
+Disallow: /user
+Disallow: /taxi
+Disallow: /iphone
+Disallow: /redirect
+Disallow: /dating/*
+Disallow: /admin
+Disallow: /admin2
+Disallow: /api

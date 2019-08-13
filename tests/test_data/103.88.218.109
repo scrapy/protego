@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<style type="text/css">
+a, a:visited, a:active {color:#fff; font-size:24px;}
+a:hover {color:#000; font-size:24px;}
+body {background-color:#5A9CCA; color:#fff}
+p {font-family:verdana,arial,helvetica,sans; font-size:32px; text-align:center}
+</style>
+
+<title>Please wait, the login page is opening...</title>
+</head>
+<body>
+<p>
+Please wait, the login page is opening in 2 seconds...<br /><br />
+<a href="http://10.254.254.78/0/up/">If it does not open automatically, please click here.</a>
+<script type="text/javascript">setTimeout("window.location='http://10.254.254.78/0/up/';",500);</script>
+</p>
+</body>
+</html>

@@ -1,0 +1,5 @@
+# v 1.1
+# www.bankofscotland.co.uk
+User-agent: *
+Disallow:
+Sitemap: https://www.bankofscotland.co.uk/sitemap.xml

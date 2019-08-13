@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /applications/
+Disallow: /search/
+Disallow: /campaign/
+Disallow: /common/
+Disallow: /corp/
+Disallow: /creditcard/
+Disallow: /db/
+Disallow: /DLL/
+Disallow: /dropdown/
+Disallow: /images/
+Disallow: /mailer/
+Disallow: /newsletter/
+Disallow: /webforms/
+Disallow: /personal/home
+Disallow: /htdocs/nri_banking/
+Disallow: /branch-atm-locator/storemessageboard/
+Disallow: /storelocator/5280/
+Disallow: /branch-atm-locator/storelocator/5280/
+Disallow: /branch-atm-locator/storepages/
+Disallow: /storepages/
+
+Sitemap: https://www.hdfcbank.com/sitemap.xml

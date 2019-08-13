@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Allow: /.well-known/
+
+Sitemap: https://www.iproperty.com.my/sitemap_index.xml
+Sitemap: https://www.iproperty.com.my/news/sitemap_index.xml
+Sitemap: https://www.iproperty.com.my/international/sitemap-index.xml

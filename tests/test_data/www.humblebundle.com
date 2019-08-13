@@ -1,0 +1,15 @@
+User-Agent: *
+Disallow: /?key
+Disallow: /?gift
+Disallow: /?s=thanks
+Disallow: /emailhelper
+Disallow: /delete-key
+Disallow: /download-lister
+Disallow: /store/product/
+Disallow: /user/associate
+Disallow: /user/signup-complete
+Disallow: /widget/v2/
+Disallow: /return-paypal
+Disallow: /return-billing-agreement-paypal
+Disallow: /return/
+Disallow: /receipt

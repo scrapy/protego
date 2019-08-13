@@ -1,0 +1,17 @@
+User-agent: *
+Sitemap: https://www.homebase.co.uk/sitemapssl.xml
+Sitemap: https://www.homebase.co.uk/ideas-advicessl.xml
+Sitemap: https://www.homebase.co.uk/categoriesssl.xml
+Sitemap: https://www.homebase.co.uk/generalcontentssl.xml
+Sitemap: https://www.homebase.co.uk/storesssl.xml
+Sitemap: https://www.homebase.co.uk/servicesssl.xml
+Sitemap: https://www.homebase.co.uk/brandsssl.xml
+Sitemap: https://www.homebase.co.uk/productpromotionsssl.xml
+
+Disallow: /checkout
+Disallow: /search
+Disallow: /basket$
+Disallow: /basket?*
+
+
+Noindex: /search 

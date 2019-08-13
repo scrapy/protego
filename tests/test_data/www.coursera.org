@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /api/utilities/v1/imageproxy
+Disallow: /maestro/api/
+Disallow: /api/
+Disallow: /maestro/
+Disallow: /ui/
+Disallow: /signature/voucher/
+Disallow: /account/email_verify/
+Disallow: /acclaimbadge/
+Disallow: /voucher/
+Sitemap: https://www.coursera.org/sitemap.xml

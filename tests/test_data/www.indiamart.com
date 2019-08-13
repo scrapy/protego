@@ -1,0 +1,32 @@
+User-agent: *
+Disallow: /stats/  # stats directory
+Disallow: /cgi/
+Disallow: /temp/
+Disallow: /company1/
+Disallow: /mdc/
+Disallow: /company/A/
+Disallow: /company/B/
+Disallow: /company/C/
+Disallow: /company/D/
+Disallow: /company/E/
+Disallow: /company/N/
+Disallow: /company/VFCP/
+Disallow: /company/EFCP/
+Disallow: /company/O/
+Disallow: /company/G0/
+Disallow: /company/G2/
+Disallow: /company/purl/
+Disallow: /company/view-catalog.html
+Disallow: /easybuy/cmp/
+Disallow: /enquiry.html
+Disallow: /prod-fcp/cgi/model/
+Disallow: /company/bl_overlay.pl
+Disallow: /TDWIM/
+Disallow: /CWSIM/
+Disallow: /eyeblaster/  # Disallow eyeblaster to avoid indexing of eyeblaster page
+User-agent: Mediapartners-Google
+Allow: /cgi/
+Allow: /
+User-agent: Adsbot-Google
+Allow: /cgi/
+Allow: /

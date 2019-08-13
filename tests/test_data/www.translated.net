@@ -1,0 +1,17 @@
+User-agent: *
+Disallow:/offer*/
+Disallow:/admin/
+Disallow:/download*/
+Disallow:/google-keyword-classifier/
+Disallow:/photo/
+Disallow:/top/top*.php?*
+Disallow:/bns/
+Disallow:/int/
+Allow:/int/photo/*
+Disallow:/tms/
+Disallow: /*/inc/
+Disallow: /top/top_help.php
+Disallow: /top/sm_charts.php
+Disallow: /*/*.log
+
+Sitemap: https://www.translated.net/sitemap/sitemap.xml

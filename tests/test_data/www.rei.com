@@ -1,0 +1,76 @@
+# Robots.txt file for REI.com
+# If you are passionate about the outdoors and technology, then please visit https://rei.jobs!
+
+# Sitemaps
+Sitemap: https://www.rei.com/sitemap.xml
+
+# Disallow
+User-agent: *
+Disallow: *?sf*
+Disallow: */popups/*
+Disallow: */popUps/*
+Disallow: *rx=true*
+Disallow: *stop_mobi*
+Disallow: /AddItemToCart*
+Disallow: /AddSessionToCart*
+Disallow: /adventures/*departure=*
+Disallow: /adventures/*r=*
+Disallow: /adventures/search/keyword*
+Disallow: /b/*q%3D=*
+Disallow: /b/*q=*
+Disallow: /b/*r=*
+Disallow: /backOrderController*
+Disallow: /blog/*?sf*
+Disallow: /blog/*s=*
+Disallow: /blog/staff-login*
+Disallow: /c/*q=*
+Disallow: /c/*q%3D=*
+Disallow: /c/*r=*
+Disallow: /campgrounds/camp/*/campsites*
+Disallow: /campgrounds/*r=*
+Disallow: /CheckCart/*
+Disallow: /checkout/*
+Disallow: /content/dam/*
+Disallow: /content/rei/*
+Disallow: /EditPublicProfile*
+Disallow: /event-cart*
+Disallow: /event-reg*
+Disallow: /events/*previousLocation*
+Disallow: /events/search*
+Disallow: /f/*q=*
+Disallow: /f/*q%3D=*
+Disallow: /get-outside*
+Disallow: /giftregistrya*
+Disallow: /GiftRegistryEditProducts*
+Disallow: /Logoff*
+Disallow: /OrderTracking*
+Disallow: /PrepareGiftCertificate*
+Disallow: /RegistrationView*
+Disallow: /rei-garage/b/*r=*
+Disallow: /rei-garage/c/*r=*
+Disallow: /rei-garage/s/*r=*
+Disallow: /rei-garage/search*
+Disallow: /REIOrderItemUpdate*
+Disallow: /rest/cart*
+Disallow: /rest/client-context*
+Disallow: /rest/log*
+Disallow: /rest/user/guest*
+Disallow: /s/mega-prodeal
+Disallow: /search*
+Disallow: /ShoppingCart*
+Disallow: /s/*q=*
+Disallow: /s/*q%3D=*
+Disallow: /s/*r=*
+Disallow: /test*
+
+# Allow
+Allow: /content/dam/*.gif
+Allow: /content/dam/*.jpg
+Allow: /content/dam/*.png
+Allow: /content/rei/*.gif
+Allow: /content/rei/*.jpg
+Allow: /content/rei/*.png
+Allow: /search-ui/*
+
+User-agent: deepcrawl
+Disallow: /

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /versions/*
+Sitemap: https://www.tensorflow.org/sitemap.xml

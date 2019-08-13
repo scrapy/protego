@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /home/
+Disallow: /instantbet/
+Disallow: /dl/
+Disallow: /deeplinks/
+Disallow: /home/default.asp
+Disallow: /home/mainpage.asp
+Disallow: /home/FlashGen4/WebConsoleApp.asp
+Disallow: /home/FlashGen4/InPlayConsoleApp.asp
+Disallow: /home/defaulthmr.asp
+Disallow: /home/RouterPost.asp
+Disallow: /home/iplr.asp

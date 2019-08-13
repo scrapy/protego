@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /commonlogin/
+Disallow: /marketieradmin/
+Disallow: /commerceadmin/
+Disallow: /analyzeradmin/
+Disallow: /webservice/
+Disallow: /product-type/
+Disallow: /view_cart/
+Disallow: /checkout/
+Disallow: /my_account/
+Disallow: /payment/
+Disallow: /order/
+Disallow: /marketiercampaign/
+Disallow: dw/monthly/2013/buyers guide/welcome-to-the-2013-buyers-guide-
+Disallow: dw/monthly/2011/archived-do-not-use/best-practices-for-patient-collections
+Disallow: dw/monthly/2011/archived-do-not-use/training-front-desk-staff
+Disallow: dw/monthly/2011/archived-do-not-use/setting-up-a-compliance-process
+Disallow: dw/monthly/2011/archived-do-not-use/dress-codes-ensuring-that-your-employees-reflect-your-practice

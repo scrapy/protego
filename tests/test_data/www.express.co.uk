@@ -1,0 +1,40 @@
+#170119-DXD-4699
+
+User-agent: *
+Disallow: /myexpress/
+Disallow: /printer/		# We'll keep the print version for our newspaper
+Disallow: /users/		#
+Disallow: /sponsored/		# Advertorials
+Disallow: /trackings/		# Adserving
+Disallow: /34722903/		# Adserving
+Disallow: /search?*order=   		
+Disallow: /search?*date=		
+Disallow: /search?*section=		
+Disallow: /videos/get_video_by_uid/
+Disallow: /videos/viewmeta/
+Sitemap: https://www.express.co.uk/sitemap.xml
+			
+User-agent: grapeshot
+Disallow: 
+
+User-agent: Googlebot-News
+Disallow: /myexpress/
+Disallow: /printer/		# We'll keep the print version for our newspaper
+Disallow: /users/		#
+Disallow: /fun/			#
+Disallow: /sponsored/		# Advertorials
+Disallow: /trackings/		# Adserving
+Disallow: /34722903/		# Adserving
+Disallow: /sponsoredfeatures
+Disallow: /search?*order=   		
+Disallow: /search?*date=		
+Disallow: /search?*section=		
+Disallow: /videos/get_video_by_uid/
+Disallow: /videos/viewmeta/
+Sitemap: https://www.express.co.uk/googlenews.xml
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: Nutch
+Disallow: /

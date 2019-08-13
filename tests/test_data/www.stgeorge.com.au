@@ -1,0 +1,18 @@
+# /robots.txt file for http://www.stgeorge.com.au/
+User-agent: *
+Disallow: /goldservice
+Disallow: /gold
+Disallow: /personal/bank-accounts/transaction-accounts/complete-freedom-a
+Disallow: /personal/bank-accounts/transaction-accounts/complete-freedom-b
+Disallow: /personal/bank-accounts/transaction-accounts/complete-freedom-c
+Disallow: /personal/bank-accounts/savings-accounts/maxi-saver-a
+Disallow: /personal/bank-accounts/savings-accounts/maxi-saver-b
+Disallow: /personal/bank-accounts/savings-accounts/maxi-saver-c
+Disallow: /ocg/*
+Disallow: /ocg-westpac/*
+Disallow: /content/sbg/stg/en/_services/serialiser/*
+Disallow: /_services/serialiser/*
+Disallow: /locateus-ios*
+Disallow: /locateus-android*
+Disallow: /content/dam/stg/downloads/styleguides/
+Sitemap: https://www.stgeorge.com.au/sitemap.xml

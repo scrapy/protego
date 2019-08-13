@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /comments/feed/
+Disallow: /trackback/
+Disallow: /xmlrpc.php
+
+
+User-agent: *
+Allow: /wp-admin/admin-ajax.php
+
+
+Sitemap: https://nvshq.org/sitemap_index.xml

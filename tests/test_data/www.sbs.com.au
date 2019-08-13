@@ -1,0 +1,17 @@
+User-agent: *
+Noindex: /ondemand/video/single/
+Disallow: /yourlanguage/api/
+Disallow: /inlineschedule/
+Noindex: /ondemand/play/v/
+Noindex: /ondemand/playlist/
+Noindex: /ondemand/subscribe/
+Noindex: /ondemandcms/
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Yandex
+Crawl-delay: 4
+
+User-agent: YandexBot
+Crawl-delay: 4

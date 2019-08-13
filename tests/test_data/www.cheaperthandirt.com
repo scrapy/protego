@@ -1,0 +1,19 @@
+Disallow: /util/ 
+Disallow: /account 
+Disallow: /source/
+Disallow: /*/QuickViewEnhancement.do
+Disallow: /*/AdditionalViews.do
+Disallow: /*/ViewLarger.do
+Disallow: /*/catalogQuickShop.do
+Disallow: /*/unsubscribe.do
+Disallow: /*/rti.do
+Disallow: *quick-view*
+Disallow: /password-reset
+Disallow: /search*
+Disallow: /wishlist*
+Disallow: /cart*
+Disallow: /account*
+Disallow: /tell-a-friend*
+Disallow: *Product-Variation*
+
+Sitemap: https://www.cheaperthandirt.com/sitemap_index.xml

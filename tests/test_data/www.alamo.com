@@ -1,0 +1,19 @@
+User-agent: *
+
+Disallow: /content/
+Allow: */content/*.jpg
+Allow: */content/*.png
+Allow: */content/*.js
+Allow: */content/*.gif
+Allow: */content/*.json
+Allow: */content/*.vtt
+Allow: */content/*/_jcr_content/* 
+Allow: */content/*.ico
+Disallow: /*modals/
+Disallow: /*car-rental/insider/
+Disallow: /*whscheck*
+Noindex: /*whscheck*
+Sitemap: https://www.alamo.com/en_US/car-rental/xsitemap-main-en.xml
+Sitemap: https://www.alamo.com/en_US/xsitemap-scenic-route.xml
+Sitemap: https://www.alamo.com/es_ES/car-rental/xsitemap-main-es.xml
+Sitemap: https://www.alamo.com/pt_BR/car-rental/xsitemap-main-pt.xml

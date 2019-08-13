@@ -1,0 +1,82 @@
+#
+# robots.txt
+#
+
+User-agent: *
+Crawl-delay: 10
+
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+Disallow: /funnelback/
+Disallow: /search/
+Disallow: /minister/
+
+# Temporary
+Disallow: /sites/default/files/2017/10/a2565-1711en.pdf
+
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+Disallow: /sites/default/files/budget-2016-17-0*
+
+# Paths (clean URLs)
+Disallow: /sst
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+
+# Service Finder
+Disallow:  /customer/service-finder?
+Disallow:  /customer/service-finder/mygov
+
+# Old info
+Disallow: /jca/
+Disallow: /resources/
+Disallow: /generic/
+Disallow: /home/
+Disallow: /modules/
+Disallow: /minister/
+Disallow: /ANATFP04/
+Disallow: /access/
+Disallow: /agencies/
+Disallow: /contact/
+Disallow: /feedback/
+Disallow: /legal/
+Disallow: /rss/
+Disallow: /spw/eReference/
+Disallow: /C/
+Disallow: /corporate/publications-and-resources/annual-report/dhs/
+Disallow: /corporate/publications-and-resources/annual-report/centrelink/
+Disallow: /corporate/publications-and-resources/annual-report/medicare/

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin.php
+Disallow: /themes/
+Disallow: /masthead/

@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /examples/  # outdated location. Current examples are in /gallery/.

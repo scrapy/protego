@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: *?z=
+Disallow: *?q=
+Disallow: *?movieId=
+Disallow: /menu/
+Disallow: /menu
+Disallow: /menu?*
+Disallow: /print-content*
+Disallow: /widgets/rss_redirect.php?*
+Disallow: /index.php?*
+Disallow: /test$
+Disallow: /test1$
+Disallow: /test2$
+Disallow: /motoring/test$
+Disallow: /sport/test$
+Disallow: /news/test$
+Sitemap: https://www.iol.co.za/sitemap.xml

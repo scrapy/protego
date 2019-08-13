@@ -1,0 +1,34 @@
+User-agent: gsa-crawler
+Disallow: /akamai/
+Disallow: /auxiliary_access/
+Disallow: /bop/
+Disallow: /browser/
+Disallow: /cgi/
+Disallow: /comp/
+Disallow: /econ/
+Disallow: /error/
+Disallow: /images/
+Disallow: /search/
+Disallow: /tempcc/
+Disallow: /util/
+Allow: /search/exit
+
+User-agent: *
+Disallow: /akamai/
+Disallow: /auxiliary_access/
+Disallow: /bop/
+Disallow: /browser/
+Disallow: /cgi/
+Disallow: /comp/
+Disallow: /econ/
+Disallow: /error/
+Disallow: /images/
+Disallow: /investment_center/templates/
+Disallow: /search/
+Disallow: /tempcc/
+Disallow: /util/
+Disallow: /web_server_util/
+Disallow: /wizard/
+Disallow: /xmlhome/
+
+Sitemap: https://www.wellsfargo.com/seo-sitemap/wellsfargositemap_index.xml

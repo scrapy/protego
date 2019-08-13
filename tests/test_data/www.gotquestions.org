@@ -1,0 +1,3 @@
+#robots.txt for gotquestions.org
+
+Sitemap: https://www.gotquestions.org/sitemapindex.xml

@@ -1,0 +1,51 @@
+User-agent: crawler
+Disallow: /
+
+User-agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)
+Disallow: /
+
+User-agent: MSIECrawler
+Disallow: /
+
+User-agent: Microsoft.URL.Control
+Disallow: /
+
+User-agent: fast
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: NPBot
+Disallow: /
+
+User-agent: WebReaper
+Disallow: /
+
+User-agent: bot
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/
+
+User-agent: bingbot
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/
+Crawl-delay: 1
+
+User-agent: msnbot
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/
+Crawl-delay: 1
+
+User-agent: msnbot-media
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/
+Crawl-delay: 1
+
+User-agent: *
+Disallow: /typo3/
+Disallow: /typo3temp/
+Disallow: /typo3conf/

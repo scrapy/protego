@@ -1,0 +1,29 @@
+# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file
+#
+User-Agent: *
+Disallow: /orders/timeline/*
+Disallow: /s/
+Disallow: */pinned_flashes/*
+Disallow: /gigs/*/share/
+Disallow: /gigs/*/share?*
+Disallow: /specials/*
+Disallow: /packages/*
+Disallow: /categories/silly
+Disallow: /categories/fifa
+Disallow: /categories/Halloween
+Disallow: /categories/Postcards
+Disallow: /purchases
+Disallow: /user_sessions
+Disallow: /users/
+Disallow: /counter/*?
+Disallow: /counter/
+Disallow: /counter
+Disallow: /referral_invited
+Disallow: /search_results/gigs/*
+Disallow: /v4/*
+Disallow: /pro/*
+Allow: /pro/about
+Sitemap: https://www.fiverr.com/sitemap_gigs.xml.gz
+Sitemap: https://www.fiverr.com/sitemap_users.xml.gz
+Sitemap: https://www.fiverr.com/sitemap_categories.xml.gz
+Sitemap: https://www.fiverr.com/sitemap_tags.xml.gz

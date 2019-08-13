@@ -1,0 +1,60 @@
+﻿User-agent: *
+Disallow: /dev/
+Disallow: /layouts/
+Disallow: /sitecore/
+Disallow: /sitecore_files/
+Disallow: /sitecore modules/
+Disallow: /sublayouts/
+Disallow: /temp/
+Disallow: /upload/
+Disallow: /xsl/
+Disallow: /~/media/health/files/secured/
+
+User-agent: bingbot   
+Crawl-delay: 10 
+
+User-agent: Baiduspider   
+Crawl-delay: 10  
+
+User-agent: Mediapartners-Google   
+Crawl-delay: 10  
+
+User-agent: www.proximic.com/info/spider.php   
+Crawl-delay: 10  
+
+User-agent: ia_archiver ( crawler@alexa.com)   
+Crawl-delay: 10  
+
+User-agent: GrapeShotCrawler  
+Crawl-delay: 10   
+
+User-agent: msnbot  
+Crawl-delay: 10   
+
+User-agent: YandexBot  
+Crawl-delay: 10   
+
+User-agent: Yahoo! Slurp  
+Crawl-delay: 30   
+
+User-agent: Slurp  
+Crawl-delay: 30  
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: / 
+
+User-agent: AhrefsBot  
+Disallow: /   
+
+User-agent: MauiBot  
+Disallow: / 
+
+User-agent: rogerbot 
+Crawl-delay: 15 
+Disallow: /healthyliving/recipes/ 
+
+User-agent: Swiftbot 
+Crawl-delay: 10

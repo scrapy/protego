@@ -1,0 +1,15 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+Sitemap: https://www.letour.fr/sitemap.xml
+
+User-agent: *
+Disallow: /admin
+Disallow: /sonatadmin
+Disallow: /api
+Disallow: /graphql
+Disallow: /login
+Disallow: /*/ajax
+Disallow: /*/block
+Disallow: /*/login
+Disallow: /*/sitemap

@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: http://guanajuato.gob.mx/mapa-del-sitio.php
+
+User-Agent: Googlebot
+Disallow: /agenda-gobernador.php
+Disallow: /ga-particular.php

@@ -1,0 +1,27 @@
+
+User-agent: *
+Disallow: /about/initiatives/maintenance_hf/library/?q=*
+Disallow: /about/office_org/headquarters_offices/agc/practice_areas/adjudication/agc70/Casefiles/CaseSearch
+Disallow: /about/office_org/headquarters_offices/agc/practice_areas/regulations/Interpretations/?*
+Disallow: /about/office_org/headquarters_offices/avs/offices/aam/ame/guide/search/
+Disallow: /air_traffic/flight_info/aeronav/procedures/application/?event=airport.results
+Disallow: /air_traffic/flight_info/aeronav/procedures/application/?event=main.showAccountHeader
+Disallow: /air_traffic/flight_info/aeronav/procedures/application/?event=procedure.results
+Disallow: /airports/airport_development/omp/search/
+Disallow: /airports/resources/advisory_circulars/index.cfm/go/document.list
+Disallow: /airports_airtraffic/
+Disallow: /c/
+Disallow: /contact_faa/
+Disallow: /data_research/research/med_humanfacs/oamtechreports/?q=*
+Disallow: /demos/
+Disallow: /documentLibrary/media/form/cancelled/
+Disallow: /exit/
+Disallow: /forms/index.cfm/go/document.list
+Disallow: /login/
+Disallow: /logout/
+Disallow: /search/
+Disallow: /test/
+
+User-agent: imo-google-robot-intelink
+User-agent: Wotbox
+Disallow: /air_traffic/flight_info/aeronav/procedures/application/

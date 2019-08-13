@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /.
+Allow: /
+Disallow: /ugm
+Disallow: /new
+Disallow: /administrator
+Disallow: /search/
+Sitemap: https://ugm.ac.id/siteindex-id.xml
+Sitemap: https://ugm.ac.id/en/siteindex-en.xml

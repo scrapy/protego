@@ -1,0 +1,584 @@
+	
+
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8" lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9" lang="en" dir="ltr"><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#"><!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.india.gov.in/sites/upload_files/npi/files/favicon_0.ico" type="image/vnd.microsoft.icon" />
+<title>National Portal of India</title>
+<meta name="keywords" content="India, India Portal, National Portal of India, Government Information, Government Services, National Informatics Centre, NIC, nic,  e-Government, e-Governance in India, MeitY" />
+<meta name="description" content="National Portal of India is a Mission Mode Project under the National E-Governance Plan, designed and developed by National Informatics Centre (NIC), Ministry of Electronics & Information Technology, Government of India. It has been developed with an objective to enable a single window access to information and services being provided by the various Indian Government entities." />
+
+<meta name="title" content="National Portal of India" />
+<meta name="lang" content="en" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+@import url("https://www.india.gov.in/modules/system/system.base.css?pskfz5");
+@import url("https://www.india.gov.in/modules/system/system.menus.css?pskfz5");
+@import url("https://www.india.gov.in/modules/system/system.messages.css?pskfz5");
+</style>
+<style>
+@import url("https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/themes/base/minified/jquery.ui.core.min.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/themes/base/minified/jquery.ui.theme.min.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/themes/base/minified/jquery.ui.button.min.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/themes/base/minified/jquery.ui.resizable.min.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/themes/base/minified/jquery.ui.dialog.min.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/views_slideshow/views_slideshow.css?pskfz5");
+</style>
+<style>
+@import url("https://www.india.gov.in/sites/all/modules/contributed/calendar/css/calendar_multiday.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/date/date_api/date.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/date/date_popup/themes/datepicker.1.7.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/date/date_repeat_field/date_repeat_field.css?pskfz5");
+@import url("https://www.india.gov.in/modules/field/theme/field.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/logintoboggan/logintoboggan.css?pskfz5");
+@import url("https://www.india.gov.in/modules/node/node.css?pskfz5");
+@import url("https://www.india.gov.in/modules/search/search.css?pskfz5");
+@import url("https://www.india.gov.in/modules/user/user.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/views/css/views.css?pskfz5");
+</style>
+<style>
+@import url("https://www.india.gov.in/sites/all/modules/contributed/ctools/css/ctools.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/event_calendar/event_popup/css/event_popup.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/panels/css/panels.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/panels/plugins/layouts/threecol_25_50_25/threecol_25_50_25.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/quicktabs/css/quicktabs.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/panels/plugins/layouts/onecol/onecol.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/modules/contributed/flexslider/assets/css/flexslider_img.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/libraries/flexslider/flexslider.css?pskfz5");
+</style>
+<style media="screen">
+@import url("https://www.india.gov.in/sites/all/themes/adaptivetheme/at_core/css/at.layout.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/css/global.custom.responsive.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/css/global.base.css?pskfz5");
+@import url("https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/css/global.styles.css?pskfz5");
+</style>
+<style media="print">
+@import url("https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/css/print.css?pskfz5");
+</style>
+<style media="screen">
+@import url("https://www.india.gov.in/sites/upload_files/npi/files/adaptivetheme/npi_adaptive_files/npi_adaptive.default.layout.css?pskfz5");
+</style>
+<link href="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/css/override.css" rel="alternate stylesheet" type="text/css" media="screen" title="change" />
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/jquery/1.8/jquery.min.js?v=1.8.3"></script>
+<script src="https://www.india.gov.in/misc/jquery-extend-3.4.0.js?v=1.8.3"></script>
+<script src="https://www.india.gov.in/misc/jquery.once.js?v=1.2"></script>
+<script src="https://www.india.gov.in/misc/drupal.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.core.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.widget.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.button.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.mouse.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.draggable.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.position.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.resizable.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/ui/minified/jquery.ui.dialog.min.js?v=1.10.2"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/ui/external/jquery.cookie.js?v=67fb34f6a866c40d0570"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/replace/jquery.form/3/jquery.form.min.js?v=3.51.0"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/views_slideshow/js/views_slideshow.js?v=1.0"></script>
+<script src="https://www.india.gov.in/misc/ajax.js?v=7.67"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/jquery_update/js/jquery_update.js?v=0.0.1"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/admin_menu/admin_devel/admin_devel.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/customs/hb_documents/hb_documents.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/customs/hb_forms/hb_forms.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/customs/hb_schemes/hb_schemes.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/customs/webform_email_reply/script.js?pskfz5"></script>
+<script src="https://www.india.gov.in/misc/progress.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/event_calendar/event_popup/js/event_popup.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/event_calendar/event_popup/js/event_popup_validate.js?pskfz5"></script>
+<script>jQuery(document).ready(function($) { 
+    $.expr[':'].regex = function(elem, index, match) {
+            var matchParams = match[3].split(','),
+            validLabels = /^(data|css):/,
+            attr = {
+                method: matchParams[0].match(validLabels) ? 
+                matchParams[0].split(':')[0] : 'attr',
+                property: matchParams.shift().replace(validLabels,'')
+            },
+            regexFlags = 'ig',
+            regex = new RegExp(matchParams.join('').replace(/^\s+|\s+$/g,''), regexFlags);
+            return regex.test(jQuery(elem)[attr.method](attr.property));
+        }
+    });</script>
+<script>var base_url ="https://www.india.gov.in"; var themePath = ""; var modulePath = "";</script>
+<script src="https://www.india.gov.in/sites/all/modules/customs/npi_security/script.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/views/js/base.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/quicktabs/js/quicktabs.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/views/js/ajax_view.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/libraries/flexslider/jquery.flexslider-min.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/modules/contributed/flexslider_views_slideshow/js/flexslider_views_slideshow.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/scripts/jquery.min.js?pskfz5"></script>
+<script src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/scripts/custom.js?pskfz5"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"npi_adaptive","theme_token":"IyCWXy8bZmgQ-bojnl2bEfqikW5ZwI_w-7aFS5-ca_s","jquery_version":"1.8","js":{"sites\/all\/modules\/contributed\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contributed\/jquery_update\/replace\/jquery.form\/3\/jquery.form.min.js":1,"sites\/all\/modules\/contributed\/views_slideshow\/js\/views_slideshow.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contributed\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contributed\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/customs\/hb_documents\/hb_documents.js":1,"sites\/all\/modules\/customs\/hb_forms\/hb_forms.js":1,"sites\/all\/modules\/customs\/hb_schemes\/hb_schemes.js":1,"sites\/all\/modules\/customs\/webform_email_reply\/script.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contributed\/event_calendar\/event_popup\/js\/event_popup.js":1,"sites\/all\/modules\/contributed\/event_calendar\/event_popup\/js\/event_popup_validate.js":1,"0":1,"1":1,"sites\/all\/modules\/customs\/npi_security\/script.js":1,"sites\/all\/modules\/contributed\/views\/js\/base.js":1,"sites\/all\/modules\/contributed\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/modules\/contributed\/views\/js\/ajax_view.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/contributed\/flexslider_views_slideshow\/js\/flexslider_views_slideshow.js":1,"sites\/all\/themes\/adaptivetheme\/npi_adaptive\/scripts\/jquery.min.js":1,"sites\/all\/themes\/adaptivetheme\/npi_adaptive\/scripts\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/contributed\/views_slideshow\/views_slideshow.css":1,"sites\/all\/modules\/contributed\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contributed\/date\/date_api\/date.css":1,"sites\/all\/modules\/contributed\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contributed\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contributed\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contributed\/views\/css\/views.css":1,"sites\/all\/modules\/contributed\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contributed\/event_calendar\/event_popup\/css\/event_popup.css":1,"sites\/all\/modules\/contributed\/panels\/css\/panels.css":1,"sites\/all\/modules\/contributed\/panels\/plugins\/layouts\/threecol_25_50_25\/threecol_25_50_25.css":1,"sites\/all\/modules\/contributed\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/modules\/contributed\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/contributed\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/themes\/adaptivetheme\/at_core\/css\/at.layout.css":1,"sites\/all\/themes\/adaptivetheme\/npi_adaptive\/css\/global.custom.responsive.css":1,"sites\/all\/themes\/adaptivetheme\/npi_adaptive\/css\/global.base.css":1,"sites\/all\/themes\/adaptivetheme\/npi_adaptive\/css\/global.styles.css":1,"sites\/all\/themes\/adaptivetheme\/npi_adaptive\/css\/print.css":1,"public:\/\/adaptivetheme\/npi_adaptive_files\/npi_adaptive.default.layout.css":1}},"encrypt_submissions":{"baseUrl":"https:\/\/www.india.gov.in"},"event_popup":{"classes":"","defaults":"width:300;height:auto;position:[center,60]","selector":"content","content_type":"event_calendar","op":false},"better_exposed_filters":{"views":{"news_feeds":{"displays":{"block":{"filters":[]}}},"metadata":{"displays":{"block_1":{"filters":[]}}},"featured":{"displays":{"block":{"filters":[]}}},"spotlight":{"displays":{"block":{"filters":[]}}},"most_search":{"displays":{"block":{"filters":[]}}},"home_main_slider":{"displays":{"block":{"filters":[]}}}}},"ajax":{"quicktabs-tab-_none_-0":{"progress":{"message":"","type":"throbber"},"event":"click","url":"\/quicktabs\/ajax\/_none_\/0\/view\/news_feeds\/block\/1\/home\/"},"quicktabs-tab-_none_-1":{"progress":{"message":"","type":"throbber"},"event":"click","url":"\/quicktabs\/ajax\/_none_\/1\/view\/metadata\/block_7\/2\/home\/"}},"urlIsAjaxTrusted":{"\/quicktabs\/ajax\/_none_\/0\/view\/news_feeds\/block\/1\/home\/":true,"\/quicktabs\/ajax\/_none_\/1\/view\/metadata\/block_7\/2\/home\/":true,"\/views\/ajax":true,"\/search\/node":true,"\/advance-search\/results":true},"quicktabs":{"qt__none_":{"name":"_none_","tabs":[{"vid":"news_feeds","display":"block","args":"","view_path":"home","view_dom_id":1,"ajax_args":"","actual_args":[]},{"vid":"metadata","display":"block_7","args":"","view_path":"home","view_dom_id":2,"ajax_args":"","actual_args":[]}],"ajaxPageState":{"jquery_version":"1.8"}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:a100f1fb753147f246cf4b2e3c232c58":{"view_name":"metadata","view_display_id":"block_1","view_args":"166659","view_path":"home","view_base_path":"admin\/metadata-online","view_dom_id":"a100f1fb753147f246cf4b2e3c232c58","pager_element":0},"views_dom_id:560629a0465680680931c7065246c81e":{"view_name":"metadata","view_display_id":"block_1","view_args":"166856","view_path":"home","view_base_path":"admin\/metadata-online","view_dom_id":"560629a0465680680931c7065246c81e","pager_element":0},"views_dom_id:c04ad534a902b48f35dca942cc6cd47d":{"view_name":"spotlight","view_display_id":"block","view_args":"","view_path":"home","view_base_path":"spotlight","view_dom_id":"c04ad534a902b48f35dca942cc6cd47d","pager_element":0}}},"viewsSlideshow":{"home_main_slider-block":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","flexsliderViewsSlideshow","viewsSlideshowCycle"],"play":["viewsSlideshowControls","flexsliderViewsSlideshow","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"flexslider_views_slideshow":{"#flexslider_views_slideshow_main_home_main_slider-block":{"num_divs":6,"id_prefix":"#flexslider_views_slideshow_main_","vss_id":"home_main_slider-block","namespace":"flex-","selector":".slides \u003E li","easing":"linear","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":false,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":0,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"slide","slideshow":true,"slideshowSpeed":7000,"directionNav":true,"controlNav":true,"prevText":"","nextText":"","pausePlay":true,"pauseText":"","playText":"","randomize":true,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"adaptivetheme":{"npi_adaptive":{"layout_settings":{"bigscreen":"three-col-grail","tablet_landscape":"three-col-grail","tablet_portrait":"one-col-vert","smalltouch_landscape":"one-col-vert","smalltouch_portrait":"one-col-stack"},"media_query_settings":{"bigscreen":"only screen and (min-width:1025px)","tablet_landscape":"only screen and (min-width:769px) and (max-width:1024px)","tablet_portrait":"only screen and (min-width:581px) and (max-width:768px)","smalltouch_landscape":"only screen and (min-width:321px) and (max-width:580px)","smalltouch_portrait":"only screen and (max-width:320px)"}}}});</script>
+<!--[if lt IE 9]>
+<script src="https://www.india.gov.in/sites/all/themes/adaptivetheme/at_core/scripts/html5.js?pskfz5"></script>
+<![endif]-->
+
+<script type="text/javascript">  
+	if(_getCookie("fontSize") != null){
+		fontSize = _getCookie("fontSize");
+	}else{
+		fontSize = 100;
+	}
+	var base_url ="https://www.india.gov.in";
+	</script> 
+
+ 
+</head>
+<body class="html front not-logged-in no-sidebars page-home home i18n-en site-name-hidden atr-7.x-3.x atv-7.x-3.2 page-panels">
+  <div id="skip-link" class="nocontent">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <!-- !Leaderboard Region -->
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<header id="header" class="clearfix" role="banner">
+	<section class="top_head">
+		<div class="wrapper">
+			<div class="region region-header"><div class="region-inner clearfix"><div id="block-block-4" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content">       
+<div class="tophead_left">
+<span class="social_icons">
+<a href="https://www.facebook.com/NationalPortalIndia" target="_blank" title="Visit Our Facebook Page (External Website that opens in a new window)"><span class="fa fa-facebook-square"></span></a>
+<a href="https://twitter.com/indiagovin" target="_blank" title="Visit Our Twitter Page (External Website that opens in a new window)"><span class="fa fa-twitter-square"></span></a>
+</span>
+</div>
+<div class="tophead_right">
+<a href="https://www.india.gov.in/user/login" class="loginlinks">Sign In</a>
+<a href="https://www.india.gov.in/user/register" class="loginlinks">Register</a>
+			
+<span class="sizechanger">
+<a id="text_resize_decrease" class="changer" href="javascript:;" onclick="set_font_size('decrease')" title="Decrease font size" role="link">-A</a>
+<a id="text_resize_reset" class="changer" onclick="set_font_size('')" href="javascript:;" title="Reset font size" role="link">A</a>
+<a id="text_resize_increase" class="changer" onclick="set_font_size('increase')" href="javascript:;" title="Increase font size" role="link">+A</a>
+</span>
+<span class="colorchanger">
+<a href="javascript:void(0);" onclick="chooseStyle('none', 60);" role="link">A</a>
+<a href="javascript:void(0);" class="blackbg"  onclick="chooseStyle('change', 60);" role="link">A</a>
+</span>
+<a target="_blank" href="https://www.india.gov.in/hi/" class="alink" title="हिन्दी site open in new window">हिन्दी</a>   
+</div></div>
+  </div></div></div></div>		</div>
+	</section>
+	<section class="header_middle">
+		<div class="wrapper">
+        			  <div id="logo">
+				 <a href="https://www.india.gov.in/"><img alt="Home" src="https://www.india.gov.in/sites/upload_files/npi/files/logo_1.png" typeof="foaf:Image" class="site-logo"></a>
+			  </div>
+			              <a class="mobileNav" href="javascript:;"><span></span><span></span><span></span></a>
+			<div id="menu-bar" class="nav clearfix"><div id="block-panels-mini-main-menu" class="block block-panels-mini no-title menu-wrapper menu-bar-wrapper clearfix" >  
+  
+  <div class="one-column at-panel panel-display clearfix" id="mini-panel-main_menu">
+  <div class="region region-one-main">
+    <div class="region-inner clearfix">
+      <div class="panel-pane pane-custom pane-8 no-title block">
+  <div class="block-inner clearfix">
+    
+            
+    
+    <div class="block-content">
+          <nav>
+<ul id="nav">
+  <li class="topics   "><a href="/topics" class="topicsLink"><img src="/sites/all/themes/adaptivetheme/npi_adaptive/images/nav1.png" alt="nav1"><span>Topics</span></a>
+    <ul>
+      <li class="  "><span class="fa fa-pagelines"></span><a href="/topics/agriculture">Agriculture</a></li>
+      <li><span class="fa fa-paint-brush"></span><a href="/topics/art-culture">Art &amp; Culture</a></li>
+      <li><span class="fa fa-pencil-square-o"></span><a href="/topics/commerce">Commerce</a></li>
+      <li><span class="fa fa-laptop"></span><a href="/topics/communication">Communications</a></li>
+      <li class=" "><span class="fa fa-space-shuttle"></span><a href="/topics/defence">Defence</a></li>
+      <li><span class="fa fa-graduation-cap"></span><a href="/topics/education">Education</a></li>
+      <li><span class="fa fa-tree"></span><a href="/topics/environment-forest">Environment &amp; Forest</a></li>
+      <li class=" "><span class="fa fa-bar-chart"></span><a href="/topics/finance-taxes">Finance &amp; Taxes</a></li>
+      <li><span class="fa fa-cutlery"></span><a href="/topics/food-public-distribution">Food &amp; Public Distribution</a></li>
+      <li class=" "><span class="fa fa-globe"></span><a href="/topics/foreign-affairs">Foreign Affairs</a></li>
+      <li class=" "><span class="fa fa-university"></span><a href="/topics/governance-administration">Governance &amp; Administration</a></li>
+      <li><span class="fa fa-plus"></span><a href="/topics/health-family-welfare">Health &amp; Family Welfare</a></li>
+      <li><span class="fa fa-cogs"></span><a href="/topics/home-affairs-enforcement">Home Affairs &amp; Enforcement</a></li>
+      <li><span class="fa fa-home"></span><a href="/topics/housing">Housing</a></li>
+      <li class=" "><span class="fa fa-building"></span><a href="/topics/industries">Industries</a></li>
+      <li class="  "><span class="fa fa-building-o"></span><a href="/topics/infrastructure">Infrastructure</a></li>
+      <li class=" "><span class="fa fa-video-camera"></span><a href="/topics/information-broadcasting">Information &amp; Broadcasting</a></li>
+      <li><span class="fa fa-male"></span><a href="/topics/labour-employment">Labour &amp; Employment</a></li>
+      <li><span class="fa fa-gavel"></span><a href="/topics/law-justice">Law &amp; Justice</a></li>
+      <li class=" "><span class="fa fa-plug"></span><a href="/topics/power-energy">Power &amp; Energy</a></li>
+      <li><span class="fa fa-bicycle"></span><a href="/topics/rural">Rural</a></li>
+      <li><span class="fa fa-wifi"></span><a href="/topics/science-technology">Science &amp; Technology</a></li>
+      <li><span class="fa fa-wheelchair"></span><a href="/topics/social-development">Social Development</a></li>
+      <li><span class="fa fa-bus"></span><a href="/topics/transport">Transport</a></li>
+      <li><span class="fa fa-plane"></span><a href="/topics/travel-tourism">Travel &amp; Tourism</a></li>
+      <li><span class="fa fa-futbol-o"></span><a href="/topics/youth-sports">Youth &amp; Sports</a></li>
+    </ul>
+  </li>
+  <li class="how"><a href="http://services.india.gov.in/"  target="_BLANK" title="External Website that opens in a new window" class="howDiID"><img src="/sites/all/themes/adaptivetheme/npi_adaptive/images/nav2.png" alt="nav2"><span>Services</span></a>
+  </li>
+  <li class="government"><a href="/my-government" class="myGovt"><img src="/sites/all/themes/adaptivetheme/npi_adaptive/images/nav3.png" alt="nav3"><span>My Government</span></a>
+    <ul>
+      <li><span class="fa fa-pencil-square"></span><a href="/my-government/constitution-india">Constitution of India</a></li>
+      <li><span class="fa fa-floppy-o"></span><a href="/my-government/government-directory">Government Directory</a></li>
+      <li><span class="fa fa-university"></span><a href="/my-government/indian-parliament">Indian Parliament</a></li>
+      <li><span class="fa fa-book"></span><a href="/my-government/publications">Publications</a></li>
+      <li><span class="fa fa-users"></span><a href="/my-government/whos-who">Who's Who</a></li>
+      <li><span class="fa fa-gavel"></span><a href="http://indiacode.nic.in/"   target="_BLANK" title="External Website that opens in a new window">Acts</a></li>
+      <li><span class="fa fa-file-excel-o"></span><a href="/my-government/schemes">Schemes</a></li>
+      <li><span class="fa fa-file-word-o"></span><a href="/my-government/documents">Documents</a></li>
+      <li><span class="fa fa-file-o"></span><a href="/my-government/forms">Forms</a></li>
+      <!--<li><span class="fa fa-microphone"></span><a href="/my-government/people-speak">PeopleSpeak</a></li>-->
+    </ul>
+  </li>
+  <li class="people"><a href="/people-groups" class="peopleGroups"><img src="/sites/all/themes/adaptivetheme/npi_adaptive/images/nav4.png" alt="nav4"><span>People Groups</span></a>
+    <ul>
+      <li><span class="fa fa-users"></span><a href="/people-groups/community">Community</a></li>
+      <li><span class="fa fa-refresh"></span><a href="/people-groups/life-cycle">Life Cycle</a></li>
+    </ul>
+  </li>
+  <li class="egov"><a href="/india-glance" class="indGlance"><img src="/sites/all/themes/adaptivetheme/npi_adaptive/images/nav5.png" alt="nav5"><span>Know India</span></a> 
+  <ul>
+      <li class="  "><span class="fa fa-paypal"></span><a href="/india-glance/profile" role="link">Profile</a></li>
+      <li class=" "><span class="fa fa-clock-o"></span><a target="_blank" href="http://knowindia.gov.in/culture-and-heritage/ancient-history.php" role="link">History</a></li>
+      <li class=" "><span class="fa fa-globe"></span><a href="/india-glance/states-india" role="link">States of India</a></li>
+      <li class=" "><span class="fa fa-trophy"></span><a target="_blank" href="http://knowindia.gov.in/my-india-my-pride/" role="link">My India My Pride</a></li>
+      <li class=" "><span class="fa fa-inr"></span><a href="/india-glance/national-symbols" role="link">National Symbols</a></li>
+      <li class=" "><span class="fa fa-music"></span><a href="/india-glance/culture-heritage" role="link">Culture &amp; Heritage</a></li>
+	  <li class=" "><span class="fa fa-dist"></span><a href="/india-glance/districts-india" role="link">Districts of India</a></li>
+      <li class=" "><span class="fa fa-female"></span><a href="/india-glance/people-and-lifestyle" role="link">People and Lifestyle</a></li>
+      <li class=" "><span class="fa fa-binoculars"></span><a href="/india-glance/places-visit" role="link">Places to Visit</a></li>
+      <li class=" "><span class="fa fa-map-marker"></span><a href="/india-glance/natural-wonders" role="link">Natural Wonders</a></li>
+      <li class="   "><span class="fa fa-building-o"></span><a href="/india-glance/where-stay" role="link">Where to stay</a></li>
+      <li class="   "><span class="fa fa-car"></span><a href="/topics/travel-tourism/modes-travel" role="link">Modes of Travel</a></li>
+      <li class="  "><span class="fa fa-paper-plane"></span><a href="/india-glance/travel-advisory" role="link">Travel Advisory</a></li>
+      <li class=" "><span class="fa fa-user"></span><a href="/india-glance/travel-agents" role="link">Travel Agents</a></li>
+    </ul>   
+  </li>  
+</ul>
+</nav>
+    </div>
+
+    
+    
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
+  </div></div>		</div>
+	</section>
+    <section class="header_botton">
+		<div class="wrapper">
+			<div class="search_section">
+				<div class="searchform">
+					<div class="searchrow"> 
+                    	<div class="search_form">
+							<div class="region region-goi-search"><div class="region-inner clearfix"><div id="block-block-16" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><style type="text/css">
+#searchForm label { display: none;}
+</style>
+
+<form action="https://www.india.gov.in/gsearch" id="searchForm"  autocomplete="off">
+   <label for="search_key">Search</label>
+      <input type="text" value="" maxlength="128" name="s" id="search_key" size="15" placeholder="Search - Keyword, Phrase" class="form-text searchText ui-autocomplete-input"   autocomplete="off" />                
+<input type="submit" name="op" value="Search" id="edit-submit1" class="form-submit" />
+<div id="auto_suggesion"></div>
+    </form>
+</div>
+  </div></div></div></div>                        </div>
+						 <a href="javascript:void(0)" id="advsearchbtn">Advanced Search</a>
+						<div id="light" class="white_box" style="width: 380px;">	
+							<div class="search-form">
+								<form action="/advance-search/results" method="get" id="views-exposed-form-advance-metadata-search-page-1" accept-charset="UTF-8"><div><div class="views-exposed-form">
+  <div class="views-exposed-widgets clearfix">
+          <div id="edit-title-wrapper" class="views-exposed-widget views-widget-filter-title">
+                  <label for="edit-title">
+            Title          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-textfield form-item-title">
+ <input placeholder="Search Keyword" type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text" />
+</div>
+        </div>
+              </div>
+          <div id="edit-term-node-tid-depth-wrapper" class="views-exposed-widget views-widget-filter-term_node_tid_depth">
+                  <label for="edit-term-node-tid-depth">
+            Section          </label>
+                        <div class="views-widget">
+          <div class="form-item form-type-select form-item-term-node-tid-depth">
+ <select id="edit-term-node-tid-depth" name="term_node_tid_depth" class="form-select"><option value="All" selected="selected">- Any -</option><option value="166659">Topics</option><option value="166665">-Agriculture</option><option value="166691">--Agricultural Licence</option><option value="166692">--Agricultural Machinery</option><option value="166693">--Agricultural Produces</option><option value="166694">--Research &amp; Extension</option><option value="166695">--Storage</option><option value="166696">--Marketing &amp; Prices</option><option value="166697">--Animal Husbandry</option><option value="166698">--Certification &amp; Gradation</option><option value="166699">--Crops</option><option value="166700">--Dairy</option><option value="166701">--Fertilizers &amp; Pesticides</option><option value="166702">--Fisheries</option><option value="166703">--Floriculture</option><option value="166704">--Horticulture</option><option value="166705">--Irrigation</option><option value="166706">--Loans &amp; Credit</option><option value="166707">--Organic Farming</option><option value="166708">--Plant Protection</option><option value="166709">--Seeds</option><option value="166710">--Sericulture</option><option value="166711">--Soil and Water Conservation</option><option value="166712">--Weather</option><option value="166666">-Art &amp; Culture</option><option value="166713">--Archaeology</option><option value="166714">--Dance</option><option value="166715">--Fairs &amp; Festivals</option><option value="166716">--Handicrafts</option><option value="166717">--Heritage</option><option value="166718">--Literature</option><option value="166719">--Monuments</option><option value="166720">--Music</option><option value="166721">--Painting</option><option value="166722">--Theatre</option><option value="166667">-Commerce</option><option value="166723">--Export</option><option value="166724">--Import</option><option value="166725">--SEZs</option><option value="166726">--Trade Promotion</option><option value="166668">-Communication</option><option value="166727">--Information and Technology</option><option value="166728">--Post</option><option value="166729">--Telecom</option><option value="166669">-Defence</option><option value="166730">--Air Force</option><option value="166731">--Army</option><option value="166732">--Navy</option><option value="166733">--Paramilitary Forces</option><option value="166670">-Education</option><option value="166734">--Elementary Education</option><option value="166735">--Secondary &amp; Higher Secondary Education</option><option value="166736">--Higher Education</option><option value="166737">--Adult Education</option><option value="166671">-Environment &amp; Forest</option><option value="166738">--Environment</option><option value="166739">--Forest</option><option value="166740">--Natural Resources</option><option value="166741">--Wildlife</option><option value="166672">-Finance &amp; Taxes</option><option value="166742">--Insurance</option><option value="166743">--Pension</option><option value="166744">--Banking</option><option value="166745">--Economy</option><option value="166746">--Trade</option><option value="166747">--Taxes</option><option value="166673">-Food &amp; Public Distribution</option><option value="166748">--Commodities</option><option value="166749">--Consumer Affairs</option><option value="166750">--Consumer Cooperatives</option><option value="166751">--Public Distribution</option><option value="166674">-Foreign Affairs</option><option value="166752">--Embassy &amp; Consulates</option><option value="166753">--India &amp; World</option><option value="166754">--India and Its Neighbours</option><option value="166755">--NRIs</option><option value="166756">--Passport &amp; Visa</option><option value="166675">-Governance &amp; Administration</option><option value="166757">--Constitution</option><option value="166758">--Parliament</option><option value="166759">--State Legislature</option><option value="166760">--Union/State Government</option><option value="166761">--District Administration</option><option value="166762">--Local Administration</option><option value="166763">--RTI &amp; Grievances</option><option value="166676">-Health &amp; Family Welfare</option><option value="166764">--Family Welfare</option><option value="166765">--Health</option><option value="166677">-Housing</option><option value="166769">--EWS Housing</option><option value="166770">--Rural Housing</option><option value="166771">--Urban Housing</option><option value="166678">-Home Affairs &amp; Enforcement</option><option value="166766">--Enforcement Organizations</option><option value="166767">--Internal Security</option><option value="166768">--Police</option><option value="166679">-Industries</option><option value="166772">--Micro, Small &amp; Medium Enterprises</option><option value="166773">--Mining</option><option value="166774">--Chemicals and Petrochemicals</option><option value="166775">--Corporate Governance</option><option value="166776">--Cottage</option><option value="166777">--Defence Products</option><option value="166778">--Fertilizers</option><option value="166779">--Food Processing</option><option value="166780">--Heavy Industries</option><option value="166781">--Manufacturing</option><option value="166782">--Oil and Natural Gas</option><option value="166783">--Pharmaceuticals</option><option value="166784">--Retail</option><option value="166785">--Textiles</option><option value="166786">--Tourism</option><option value="166680">-Infrastructure</option><option value="166790">--Power</option><option value="166791">--Bridges</option><option value="166792">--Dams</option><option value="166793">--Roads</option><option value="166794">--Urban</option><option value="166681">-Information &amp; Broadcasting</option><option value="166787">--Broadcasting</option><option value="166788">--Film</option><option value="166789">--Print Media</option><option value="166682">-Labour &amp; Employment</option><option value="166803">--Employment</option><option value="166804">--Organized Sector Workers</option><option value="166805">--Unorganized Sector Workers</option><option value="166683">-Law &amp; Justice</option><option value="166795">--Judiciary</option><option value="166796">--Alternative Dispute Redressal (ADR)</option><option value="166797">--Enactment of Laws</option><option value="166798">--Institutions</option><option value="166799">--Law Commission of India</option><option value="166800">--Legal Aid</option><option value="166801">--Legal Profession</option><option value="166802">--Personal Law</option><option value="166684">-Power &amp; Energy</option><option value="166806">--Coal</option><option value="166807">--Conservation of Energy</option><option value="166808">--Petroleum &amp; Natural Gas</option><option value="166809">--Power</option><option value="166810">--Renewable Energy</option><option value="166685">-Rural</option><option value="166811">--Rural Employment</option><option value="166812">--Development</option><option value="166813">--Panchayati Raj</option><option value="166686">-Science &amp; Technology</option><option value="166814">--Scientific Education</option><option value="166815">--Research &amp; Development</option><option value="166687">-Social Development</option><option value="166816">--Other Backward Classes</option><option value="166817">--Scheduled Castes</option><option value="166818">--Children</option><option value="166819">--Disabled</option><option value="166820">--Minority Community</option><option value="166821">--Senior Citizen</option><option value="166822">--Tribal</option><option value="166823">--Women</option><option value="166688">-Transport</option><option value="166828">--Aviation</option><option value="166829">--Metro</option><option value="166830">--Railways</option><option value="166831">--Surface Transport</option><option value="166832">--Water Ways</option><option value="166689">-Travel &amp; Tourism</option><option value="166824">--Places</option><option value="166825">--Accommodation</option><option value="166826">--Modes of Travel</option><option value="166827">--Approved Agents</option><option value="166690">-Youth &amp; Sports</option><option value="166833">--Sports Infrastructure</option><option value="166834">--Games</option><option value="166835">--Youth Affairs</option><option value="166661">My Government</option><option value="166848">-Constitution of India</option><option value="166859">--Search in Constitution of India</option><option value="166849">-Government Directory</option><option value="166890">--Union Government</option><option value="166891">--States &amp; UTs</option><option value="166892">--Codes</option><option value="166893">--Judiciary</option><option value="166853">-Acts</option><option value="166854">-Schemes</option><option value="166855">-Documents</option><option value="166875">--Annual Report</option><option value="166876">--Budget</option><option value="166877">--Census Report</option><option value="166878">--Citizens Charter</option><option value="166879">--E-Books</option><option value="166880">--Gazetteer Notification</option><option value="166881">--Guidelines</option><option value="166882">--Others</option><option value="166883">--Plan Document</option><option value="166884">--Policy</option><option value="166885">--Reports</option><option value="166856">-Forms</option><option value="166886">--Downloadable</option><option value="166887">--Fillable</option><option value="166662">People Groups</option><option value="166894">-Community</option><option value="166899">--Businesspersons</option><option value="166900">--Indians Travelling Abroad</option><option value="166901">--Minority Community</option><option value="166902">--Rural Indian</option><option value="166903">--Scheduled Tribes/Schedule Caste</option><option value="166904">--Self-Employed</option><option value="166905">--Social Workers</option><option value="166906">--Sportsperson</option><option value="166907">--Student</option><option value="166908">--Tourists</option><option value="166909">--Women</option><option value="166910">--Defence &amp; Paramilitary Personnel</option><option value="166911">--Differently Abled</option><option value="166912">--Entrepreneur</option><option value="166913">--Environmentalists</option><option value="166914">--Government Employee</option><option value="166915">--Importers and Exporters</option><option value="166916">--Job Seekers</option><option value="166917">--Non-Resident Indians</option><option value="166895">-Life Cycle</option><option value="166896">--Kids</option><option value="166897">--Senior Citizens</option><option value="166898">--Youth</option><option value="166664">India at a Glance</option><option value="166927">-Profile</option><option value="166928">-History</option><option value="166929">-States of India</option><option value="166930">-My India My Pride</option><option value="166931">-National Symbols</option><option value="166932">-Culture &amp; Heritage</option><option value="166933">-People and Lifestyle</option><option value="166934">-Places to Visit</option><option value="166935">-Natural Wonders</option><option value="166936">-Where to stay</option><option value="166937">-Modes of Travel</option><option value="166938">-Travel Advisory</option><option value="166939">-Travel Agents</option></select>
+</div>
+        </div>
+              </div>
+              <div class="views-exposed-widget views-widget-sort-by">
+        <div class="form-item form-type-select form-item-sort-by">
+  <label for="edit-sort-by">Sort by </label>
+ <select id="edit-sort-by" name="sort_by" class="form-select"><option value="created" selected="selected">Recent</option><option value="changed">Most Updated</option></select>
+</div>
+      </div>
+      <div class="views-exposed-widget views-widget-sort-order">
+        <div class="form-item form-type-select form-item-sort-order">
+  <label for="edit-sort-order">Order </label>
+ <select id="edit-sort-order" name="sort_order" class="form-select"><option value="ASC">Asc</option><option value="DESC" selected="selected">Desc</option></select>
+</div>
+      </div>
+                <div class="views-exposed-widget views-submit-button">
+      <input type="submit" id="edit-submit-advance-metadata-search" value="Search" class="form-submit" />    </div>
+      </div>
+</div>
+</div></form>	                          	
+							</div>
+							<!--add-adres-footer-->
+	
+						</div>
+                        
+					</div> 	
+				</div>
+
+			</div>
+			<div class="heraderbtm_col2">
+				<div class="region region-leaderboard"><div class="region-inner clearfix"><section id="block-views-most-search-block" class="block block-views" ><div class="block-inner clearfix">  
+      <h2 class="block-title">Most Searched</h2>
+  
+  <div class="block-content content"><div class="view view-most-search view-id-most_search view-display-id-block view-dom-id-beeda5a62f71054595cf9065e3a102f8">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+          <a href="/gsearch?s=Birth%20Certificate">Birth Certificate</a>  </li>
+          <li class="views-row views-row-2 views-row-even">  
+          <a href="/gsearch?s=Driving%20Licence">Driving Licence</a>  </li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+          <a href="/gsearch?s=Pan%20card">Pan card</a>  </li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></section></div></div>			</div>
+		 <!-- !Header Region -->
+		</div>
+	</section> 
+</header>
+
+	<section class="sliderportion">
+		<div class="">
+			<article class="homeslider">
+				<div class="region region-highlighted"><div class="region-inner clearfix"><div id="block-views-home-main-slider-block" class="block block-views no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="view view-home-main-slider view-id-home_main_slider view-display-id-block jquery-slider-wrapper jquery-slider-option-navigation-selector-control-timer view-dom-id-cb0c24aa11e472e819406a2c04b34354">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="flexslider_views_slideshow_main_home_main_slider-block" class="flexslider_views_slideshow_main views_slideshow_main"><div class="flex-nav-container">
+  <div class="flexslider">
+    <ul id="flexslider_views_slideshow_home_main_slider-block" class="flexslider-views-slideshow-main-frame slides">
+        <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-1 views-row-odd">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><img src="https://cbpssubscriber.mygov.in/assets/uploads/flYHd7E7b2W2XRtP" id="_9dlO5d9OlWeVIZCG" onclick="javascript:window.open('https://cbpssubscriber.mygov.in/aff/9dlO5d9OlWeVIZCG')" style="cursor:pointer" onload="javascript:(function(){if(typeof _done == 'undefined' || !_done){this.setAttribute('src', this.getAttribute('src')+'?'+Math.floor((Math.random() * 100) + 1)); _done=true;}}).call(this)" ></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><a href="https://www.indiabudget.gov.in/ " target="_BLANK"><img title="" alt="" src="https://www.india.gov.in/sites/upload_files/npi/files/budget19-20.jpg"></a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><a href="https://www.india.gov.in/spotlight/pradhanmantri-shram-yogi-maan-dhan-pm-sym-pension-scheme-unorganised-workers " target="_BLANK"><img title="" alt="" src="https://www.india.gov.in/sites/upload_files/npi/files/pm-say_home.jpg"></a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><a href="https://www.incometaxindia.gov.in/Pages/deadline.aspx " target="_BLANK"><img title="" alt="" src="https://www.india.gov.in/sites/upload_files/npi/files/income-tax-npi_0.jpg"></a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><a href="http://edantseva.gov.in/ " target="_BLANK"><img title="" alt="" src="https://www.india.gov.in/sites/upload_files/npi/files/e-dant-seva.jpg"></a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-6 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-php">        <span class="field-content"><a href="http://meitystartuphub.in/ " target="_BLANK"><img title="" alt="" src="https://www.india.gov.in/sites/upload_files/npi/files/meity_startup.jpg"></a></span>  </div>  </li>
+    </ul>
+  </div>
+</div></div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>
+  </div></div></div></div>			</article>
+		</div>
+	</section>
+    <div id="main" class="columns clearfix">
+      <main id="content-column" class="content-column" role="main">
+        <div class="content-inner">
+
+          <!-- !Breadcrumbs -->
+			
+			<!-- !Messages and Help -->
+						
+			<!-- !Secondary Content Region -->
+			
+          <div id="main-content">
+
+            
+            <!-- !Main Content Header -->
+            			
+			
+            <!-- !Main Content -->
+                          <div id="content" class="region">
+                <div id="block-system-main" class="block block-system no-title" >          <div class="one-column at-panel panel-display clearfix" id="home">   <div class="region region-one-main">     <div class="region-inner clearfix">       <div class="panel-pane pane-panels-mini pane-home-main-content wrapper no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="panel-display panel-3col clearfix" id="mini-panel-home_main_content">   <div class="panel-panel panel-col-first">     <div class="inside"><div class="panel-pane pane-custom pane-1 home_heading no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <h2>News Highlights</h2>    </div>                  </div>  </div>  <div class="panel-separator"></div><div class="panel-pane pane-block pane-quicktabs-none no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div  id="quicktabs-_none_" class="quicktabs-wrapper quicktabs-style-nostyle"><div class="item-list item-list-q"><ul class="quicktabs-tabs quicktabs-style-nostyle"><li class="active even first"><a href="/home?qt-_none_=0#qt-_none_" id="quicktabs-tab-_none_-0" class="active">News</a></li><li class="odd last"><a href="/home?qt-_none_=1#qt-_none_" id="quicktabs-tab-_none_-1" class="active">Additions to the Portal</a></li></ul></div><div id="quicktabs-container-_none_" class="quicktabs_main quicktabs-style-nostyle"><div  id="quicktabs-tabpage-_none_-0" class="quicktabs-tabpage"><div class="view view-news-feeds view-id-news_feeds view-display-id-block view-dom-id-bd78bcebe67789bfeb382456b3e7a287">                      <div class="view-content">       <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192037 " target="_BLANK" title="External site that opens in a new window">Prakash Javadekar presents Report Card of First Fifty Days of...</a>   </li>           <li class="views-row views-row-2 views-row-even">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192035 " target="_BLANK" title="External site that opens in a new window">Raksha Mantri  Assures Regular Interaction with Armed Forces...</a>   </li>           <li class="views-row views-row-3 views-row-odd">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192034 " target="_BLANK" title="External site that opens in a new window">Help improve health services in villages, Vice President urges...</a>   </li>           <li class="views-row views-row-4 views-row-even">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192033 " target="_BLANK" title="External site that opens in a new window">Proposed Visit of NCST Team To Umbha Village of Sonbhadra (UP)...</a>   </li>           <li class="views-row views-row-5 views-row-odd">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192032 " target="_BLANK" title="External site that opens in a new window">11th DefExpo to be organised from 5th to 8th February 2020 in...</a>   </li>           <li class="views-row views-row-6 views-row-even">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192031 " target="_BLANK" title="External site that opens in a new window">ECI Flagship IT Program - Electronically Transmitted Postal...</a>   </li>           <li class="views-row views-row-7 views-row-odd views-row-last">             <a href="http://pib.nic.in/newsite/PrintRelease.aspx?relid=192030 " target="_BLANK" title="External site that opens in a new window">Raksha Mantri Inaugurates Ujh and Basantar Bridges in J&amp;K</a>   </li>       </ul></div>    </div>                   <div class="view-footer">       <div class="more-link"><a title="More news" href="/news_lists?a862089267">more news..</a></div>    </div>       </div></div></div></div>    </div>                  </div>  </div>  </div>   </div>    <div class="panel-panel panel-col">     <div class="inside"><div class="panel-pane pane-custom pane-2 home_heading no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <h2>Most Requested Information & Forms</h2>    </div>                  </div>  </div>  <div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-most-view-for-home mostpopular_block accordian no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="panel-display panel-1col clearfix" id="mini-panel-most_view_for_home">   <div class="panel-panel panel-col">     <div><section class="panel-pane pane-views pane-metadata block">    <div class="block-inner clearfix">                      <h2 class="pane-title block-title">Information</h2>                      <div class="block-content">        <div class="view view-metadata view-id-metadata view-display-id-block_1 accordion-container view-dom-id-a100f1fb753147f246cf4b2e3c232c58">                      <div class="view-content">       <div class="accordion_body collapsing-section">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">     <div>        <span><a href="/ugc-special-cells-scs-and-sts-universities-and-institutions">UGC special cells for SCs and STs in universities and...</a></span>  </div></li>           <li class="views-row views-row-2 views-row-even">     <div>        <span><a href="/official-website-punjab-state-commission-women">Information on Punjab State Commission for Women</a></span>  </div></li>           <li class="views-row views-row-3 views-row-odd">     <div>        <span><a href="/govind-ballabh-pant-institute-himalayan-environment-and-development">Govind Ballabh Pant Institute of Himalayan Environment and...</a></span>  </div></li>           <li class="views-row views-row-4 views-row-even">     <div>        <span><a href="/official-website-institute-design-electrical-measuring-instruments">Website of Institute for Design of Electrical Measuring...</a></span>  </div></li>           <li class="views-row views-row-5 views-row-odd">     <div>        <span><a href="/official-website-regional-meteorological-centre-delhi">Website of Regional Meteorological Centre of Delhi</a></span>  </div></li>           <li class="views-row views-row-6 views-row-even">     <div>        <span><a href="/punjab-scheduled-castes-land-development-and-finance-corporation">Punjab Scheduled Castes Land Development and Finance...</a></span>  </div></li>           <li class="views-row views-row-7 views-row-odd views-row-last">     <div>        <span><a href="/health-and-family-welfare-department-himachal-pradesh">Health and Family Welfare Department of Himachal Pradesh</a></span>  </div></li>       </ul></div>    </div>                   </div>    </div>                  </div>  </section>  <div class="panel-separator"></div><section class="panel-pane pane-views pane-metadata block">    <div class="block-inner clearfix">                      <h2 class="pane-title block-title">Forms</h2>                      <div class="block-content">        <div class="view view-metadata view-id-metadata view-display-id-block_1 accordion-container view-dom-id-560629a0465680680931c7065246c81e">                      <div class="view-content">       <div class="accordion_body collapsing-section">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">     <div>        <span><a href="/forms-avail-welfare-schemes-scheduled-castes">Forms to avail welfare schemes for Scheduled Castes</a></span>  </div></li>           <li class="views-row views-row-2 views-row-even">     <div>        <span><a href="/download-forms-ministry-corporate-affairs">Download forms by Ministry of Corporate Affairs</a></span>  </div></li>           <li class="views-row views-row-3 views-row-odd">     <div>        <span><a href="/download-forms-schemes-care-older-persons">Download forms of schemes for care of older persons</a></span>  </div></li>           <li class="views-row views-row-4 views-row-even">     <div>        <span><a href="/application-forms-apply-differently-abled-schemes">Application forms to apply for differently abled schemes</a></span>  </div></li>           <li class="views-row views-row-5 views-row-odd">     <div>        <span><a href="/application-form-handicrafts-training">Application form for Handicrafts Training</a></span>  </div></li>           <li class="views-row views-row-6 views-row-even">     <div>        <span><a href="/application-form-licence-drive-motor-vehicle-andhra-pradesh-0">Application form for licence to drive motor vehicle in...</a></span>  </div></li>           <li class="views-row views-row-7 views-row-odd views-row-last">     <div>        <span><a href="/form-objecting-inclusion-or-deletion-name-hp-electoral-roll">Form for objecting inclusion or deletion of name in HP...</a></span>  </div></li>       </ul></div>    </div>                   </div>    </div>                  </div>  </section>  </div>   </div> </div>     </div>                  </div>  </div>  </div>   </div>    <div class="panel-panel panel-col-last">     <div class="inside"><div class="panel-pane pane-custom pane-3 home_heading no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <h2>Activities & Initiatives</h2>    </div>                  </div>  </div>  <div class="panel-separator"></div><div class="panel-pane pane-views pane-featured no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="view view-featured view-id-featured view-display-id-block view-dom-id-355a6b83544f47a0bef5fa7e33b39498">                      <div class="view-content">         <div class="views-row views-row-1 views-row-odd views-row-first initiatives-block">          <div class="views-field views-field-field-image">        <div class="field-content"><a href="https://play.google.com/store/apps/details?id=in.gov.ecourts.eCourtsServices" target="_BLANK" title="External site that opens in a new window"><img typeof="foaf:Image" class="image-style-none" src="https://www.india.gov.in/sites/upload_files/npi/files/e-court.jpg" width="199" height="87" alt="eCourts Services" title="eCourts Services" /></a></div>  </div>     <div>        <p>provides information related to Cases filed in the Subordinate courts &amp; most of the High Courts in the country</p>  </div>  </div>   <div class="views-row views-row-2 views-row-even views-row-last initiatives-block">          <div class="views-field views-field-field-image">        <div class="field-content"><a href="http://epathshala.nic.in/download-app/" target="_BLANK" title="External site that opens in a new window"><img typeof="foaf:Image" class="image-style-none" src="https://www.india.gov.in/sites/upload_files/npi/files/e-paathshala.jpg" width="199" height="87" alt="epathshala" title="epathshala" /></a></div>  </div>     <div>        <p>developed for showcasing &amp; disseminating all educational e-resources including textbooks, audio, video, periodicals</p>  </div>  </div>     </div>                   </div>    </div>                  </div>  </div>  </div>   </div> </div>     </div>                  </div>  </div>  <div class="panel-separator"></div><div class="panel-pane pane-panels-mini pane-home-spotlight-section bottom-blue-row no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="three-3x33 at-panel panel-display clearfix" id="mini-panel-home_spotlight_section">     <div class="region region-three-33-first">     <div class="region-inner clearfix">       <div class="panel-pane pane-custom pane-4 bottom-sms no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="bottom-sms clearfix">  <div class="sms-heading"><h3>Be involved</h3><span class="title-sub">collaborate, share and influence government policy</span></div>  <div class="icon-holder clearfix">  	<div class="sms-content data-do"><a href="https://mygov.in/node/279137" target="_BLANK" role="link" title="External site that opens in a new window"><span>Logo and Tagline Contest for Jal Jeevan Mission</span></a></div>  	<div class="sms-content data-discuss"><a href="https://mygov.in/node/279177" target="_BLANK" role="link" title="External site that opens in a new window"><span>Draft Guidelines on Adoption of NSQF Aligned Qualifications by Various Awarding  ..</span></a></div>  	<div class="sms-content data-poll"><a href="https://mygov.in/node/278261" target="_BLANK" role="link" title="External site that opens in a new window"><span>Measles and Rubella Vaccine Poll</span></a></div>  	<div class="sms-content data-talk"><a href="https://mygov.in/node/279051" target="_BLANK" role="link" title="External site that opens in a new window"><span>Mann Ki Baat - Prime Minister’s Radio Programme on June 30, 2019</span></a></div>  </div> <span class="subscribe-now"><a href="mygov/events" role="link">View Details</a></span>  </div>    </div>                  </div>  </div>      </div>   </div>   <div class="region region-three-33-second">     <div class="region-inner clearfix">       <div class="panel-pane pane-views pane-spotlight no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="view view-spotlight view-id-spotlight view-display-id-block bottom-sms view-dom-id-c04ad534a902b48f35dca942cc6cd47d">             <div class="view-header">       <div class="sms-heading"> <h3>Spotlight</h3> </div>     </div>                <div class="view-content">       <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">     <div class="views-field views-field-nid">        <span class="field-content"><a href="/spotlight/pradhanmantri-shram-yogi-maan-dhan-pm-sym-pension-scheme-unorganised-workers"><span>PradhanMantri Shram Yogi Maan-dhan (PM-SYM) - A pension scheme for unorganised workers</span></a></span>  </div></li>           <li class="views-row views-row-2 views-row-even views-row-last">     <div class="views-field views-field-nid">        <span class="field-content"><a href="/spotlight/union-council-ministers-2019"><span>Union Council of Ministers 2019</span></a></span>  </div></li>       </ul></div>    </div>                   <div class="view-footer">       <span class="subscribe-now"><a href="/spotlight" title="Click here to see all Spotlight">View all</a></span>    </div>       </div>    </div>                  </div>  </div>  <div class="panel-separator"></div><div class="panel-pane pane-custom pane-5 no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="view view-spotlight view-id-spotlight view-display-id-block bottom-sms margn-top"> 	<div class="view-header"> 	  <div class="sms-heading"> 		<h3>Transparency</h3> 	  </div> 	</div> 	<div class="view-content"> 	  <div class="views-row views-row-1 views-row-odd views-row-first sms-content"> 		<div class="views-field views-field-title"> <span class="field-content"> 		<a href="http://rti.gov.in/" target="_BLANK" title="External site that opens in a new window">Right to Information</a> | <a href="https://data.gov.in/" target="_BLANK" title="External site that opens in a new window">Open Data</a> | <a href="http://pgportal.gov.in/cpgoffice/" target="_BLANK" title="External site that opens in a new window">Public Grievance</a> 		</span></div> 	  </div> 	</div> </div>    </div>                  </div>  </div>      </div>   </div>   <div class="region region-three-33-third">     <div class="region-inner clearfix">       <div class="panel-pane pane-custom pane-6 no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <div class="bottom-sms contact-block">     <div class="sms-heading">       <h3><a class="feedback" href="/feedback">Give feedback</a></h3>       <h3><a class="contactus" href="/contact-us">Contact us</a></h3>       <h3><span class="sharepage" >Share this page</span></h3>       <div class="home-social-share">         <div class="facebook-share"><a title="The in%2Fhome file Open in new window" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Findia.gov.in%2Fhome" target="_BLANK">Facebook</a></div> 		         <div class="google-share"><a title="The in file Open in new window" href="https://plus.google.com/share?url=https%3A%2F%2Findia.gov.in" target="_BLANK">Google+</a></div> 		         <div class="twitter-share"><a  title="The in%26text%3DPlease+check+this+link file Open in new window" href="http://twitter.com/share?url=https%3A%2F%2Findia.gov.in%26text%3DPlease+check+this+link" target="_BLANK">Twitter</a></div>       </div>     </div> </div>    </div>                  </div>  </div>      </div>   </div>   </div>     </div>                  </div>  </div>  <div class="panel-separator"></div><div class="panel-pane pane-custom pane-7 wrapper no-title block">    <div class="block-inner clearfix">                                <div class="block-content">        <script type="text/javascript"> 	 	$(document).ready(function(){		 		var n_time;		 		refreshCalendar(); 		setInterval( refreshCalendar, 900000); 		function refreshCalendar(){ 			var d = new Date(); 			n_time = d.getTime(); 					 			$(".calendar a").attr("href", $(".calendar a").attr("href")+"?a="+n_time); 		} 	}); </script>    <div class="homebtm_quicklinks"><ul> <li><a href="http://www.goidirectory.gov.in/index.php" target="_BLANK" title="External site that opens in a new window"  role="link"><img alt="quicklink5" src="/sites/all/themes/adaptivetheme/npi_adaptive/images/quicklinks5.png"><div class="quilcklinks_outer"><h2>GOI Web Directory</h2><p>A one-point source to access all Indian Government Websites at all levels and from all sectors. </p></div></a></li>   <li><a title="External site that opens in a new window" target="_BLANK" href="https://apps.mgov.gov.in/index.jsp" role="link"><img alt="quicklink2" src="/sites/all/themes/adaptivetheme/npi_adaptive/images/quicklinks2.png"><div class="quilcklinks_outer"><h2>Mobile App Directory</h2><p>Mobile Seva Appstore: National Mobile Governance Initiative by Dept. of Electronics & IT</p></div></a></li>  <li  class="calendar"><a href="/calendar"  role="link"><img alt="quicklink3" src="/sites/all/themes/adaptivetheme/npi_adaptive/images/quicklinks3.png"><div class="quilcklinks_outer"><h2>Calendar</h2><p>View holidays as per the circular issued by the Ministry of Personnel, Public Grievances and Pensions.</p></div></a></li>  <li><a href="https://egreetings.gov.in/" target="_BLANK"  role="link" title="External site that opens in a new window"><img alt="quicklink4" src="/sites/all/themes/adaptivetheme/npi_adaptive/images/quicklinks4.png"><div class="quilcklinks_outer"><h2>E Cards</h2><p>Contemporary and eco-friendly method of sharing greetings on National Holidays and festivals.</p></div></a></li>  <li><a href="http://webcast.gov.in/"  role="link" title="External site that opens in a new window" target="_BLANK"><img alt="quicklink1" src="/sites/all/themes/adaptivetheme/npi_adaptive/images/webcast-icon.png"><div class="quilcklinks_outer"><h2>Webcast Services</h2><p>View live and on demand Webcast of important Goverment events, activities and Live TV Channels</p></div></a></li>  </ul></div>     </div>                  </div>  </div>      </div>   </div> </div>     </div>              </div>
+            
+            <!-- !Feed Icons -->
+            
+            
+          </div><!-- /end #main-content -->
+
+          <!-- !Content Aside Region-->
+          
+        </div><!-- /end .content-inner -->
+      </main><!-- /end #content-column -->
+
+      <!-- !Sidebar Regions -->
+            
+    </div><!-- /end #columns -->
+
+    <!-- !Tertiary Content Region -->
+    
+<!-- !Footer -->
+  <footer id="footer" class="clearfix" role="contentinfo">
+						
+	<section id="footertop">
+		<div class="wrapper">
+          <a class="mobilebtmNav" href="javascript:;"><div id="menutext">Menu</div><div class="spanoutetr"><span></span><span></span><span></span></div></a>
+			<div class="region region-footer"><div class="region-inner clearfix"><div id="block-block-6" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content">
+<ul>
+<li><a title="NPI Overview " href="/about-portal" role="link">About us</a></li>
+<li><a title="Write to NPI" href="/contact-us" role="link">Contact us</a></li>
+<li><a title="Suggestion for NPI" href="/feedback" role="link">Feedback</a></li>
+<li><a title="Using NPI" href="/help" role="link">Help</a></li>
+<li><a href="/link-us" role="link">Link to Us</a></li>
+<li><a title="Monthly Newsletter" href="/newsletters" role="link">Newsletter</a></li>
+<li><a title="Recommend NPI" href="/tell-friend" role="link">Tell a Friend</a></li>
+<li><a title="Policies &amp; Disclaimer" href="/website-policy" role="link">Website Policy</a></li>
+<li><a href="/accessibility-statement" role="link">Accessibility Statement</a></li>
+<li><a href="/sitemap" role="link">Sitemap</a></li>
+</ul>
+
+
+</div>
+  </div></div></div></div>		</div>
+	</section>
+		<section id="fotter-bottom">
+	<div class="wrapper">
+		<div class="region region-content-aside"><div class="region-inner clearfix"><div id="block-block-7" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="footer_col3">
+	<a href="https://archive.india.gov.in/" target="_BLANK" title="Archive (External Website that opens in a new window)"><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/img-ftr-archive.png" alt="indiaportal"></a>
+				<!--<a href="https://www.india.gov.in/sites/upload_files/npi/files/IndiaPortal.apk" title="Download Mobile App" ><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/img-ftr-mobile-center.png" alt="webinfo"></a>-->
+				<a  title="Data Portal India (External site that opens in a new window)" target="_blank" href="http://data.gov.in"><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/img-ftr-open-data-portal.png" alt="dataportal"></a>
+				<a  title="Press Information Bureau Government of India (External site that opens in a new window)" target="_blank" href="http://pib.nic.in"><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/pib.png" alt="dataportal"></a>
+	</div>
+			<div class="footerLinks">
+			 
+
+<ul>
+  <li class="first"><a href="/topics" role="link"><span>Information Related To</span></a>
+    <ul>
+      <li><a href="/topics/agriculture" role="link">Agriculture</a></li>
+      <li><a href="/topics/art-culture" role="link">Art &amp; Culture</a></li>
+      <li><a href="/topics/commerce" role="link">Commerce</a></li>
+      <li><a href="/topics/communication" role="link">Communication</a></li>
+      <li><a href="/topics/defence" role="link">Defence</a></li>
+      <li><a href="/topics/education" role="link">Education</a></li>
+      <li><a href="/topics/environment-forest" role="link">Environment &amp; Forest</a></li>
+      <li><a href="/topics/finance-taxes" role="link">Finance &amp; Taxes</a></li>
+      <li><a href="/topics/food-public-distribution" role="link">Food &amp; Public Distribution</a></li>
+      <li><a href="/topics/foreign-affairs" role="link">Foreign Affairs</a></li>
+      <li><a href="/topics/governance-administration" role="link">Governance &amp; Administration</a></li>
+      <li><a href="/topics/health-family-welfare" role="link">Health &amp; Family Welfare</a></li>
+      <li><a href="/topics/housing" role="link">Housing</a></li>
+      <li><a href="/topics/home-affairs-enforcement" role="link">Home Affairs &amp; Enforcement</a></li>
+      <li><a href="/topics/industries" role="link">Industries</a></li>
+      <li><a href="/topics/infrastructure" role="link">Infrastructure</a></li>
+      <li><a href="/topics/information-broadcasting" role="link">Information &amp; Broadcasting</a></li>
+      <li><a href="/topics/labour-employment" role="link">Labour &amp; Employment</a></li>
+      <li><a href="/topics/law-justice" role="link">Law &amp; Justice</a></li>
+      <li><a href="/topics/power-energy" role="link">Power &amp; Energy</a></li>
+      <li><a href="/topics/rural" role="link">Rural</a></li>
+      <li><a href="/topics/science-technology" role="link">Science &amp; Technology</a></li>
+      <li><a href="/topics/social-development" role="link">Social Development</a></li>
+      <li><a href="/topics/transport" role="link">Transport</a></li>
+      <li><a href="/topics/travel-tourism" role="link">Travel &amp; Tourism</a></li>
+      <li><a href="/topics/youth-sports" role="link">Youth &amp; Sports</a></li>
+    </ul>
+  </li>
+  <li><a href="/my-government" role="link"><span>About the Government</span></a>
+    <ul>
+      <li><a href="/my-government/constitution-india" role="link">Constitution of India</a></li>
+      <li><a href="/my-government/government-directory" role="link">Government Web Directory</a></li>
+      <li><a href="/my-government/indian-parliament" role="link">Indian Parliament</a></li>
+      <li><a href="/my-government/publications" role="link">Publications</a></li>
+      <li><a href="/my-government/whos-who" role="link">Who's Who</a></li>
+      <li><a href="/my-government/whos-who/president" role="link">President of India</a></li>
+      <li><a href="/my-government/whos-who/vice-president" role="link">Vice-President of India</a></li>
+      <li><a href="/my-government/whos-who/prime-minister" role="link">Prime Minister of India</a></li>
+      <li><a href="/my-government/whos-who/council-ministers" role="link">Cabinet Ministers</a></li>
+      <li><a href="/my-government/whos-who/chiefs-armed-forces" role="link">Chiefs of Armed Forces</a></li>
+      <li><a href="/my-government/whos-who/members-parliament" role="link">Members of Parliament</a></li>
+    </ul>
+  </li>
+ 
+</ul>
+
+
+
+
+			</div>
+
+
+
+			</div>
+  </div></div><div id="block-block-9" class="block block-block no-title" ><div class="block-inner clearfix">  
+  
+  <div class="block-content content"><div class="lastupdated">
+<a class="nic_logo" href="http://www.nic.in/" target="_blank"><img src="https://www.india.gov.in/sites/all/themes/adaptivetheme/npi_adaptive/images/nic.png" alt="nic"/></a>
+<p>This is the National Portal of India, developed with an objective to enable a single window access to information and services being provided by the various Indian Government entities. This Portal is a <a href="http://meity.gov.in/content/mission-mode-projects" target="_blank" title="External site that opens in a new window" >Mission Mode Project</a> under the <a href="http://meity.gov.in/divisions/national-e-governance-plan" target="_blank" title="External site that opens in a new window" >National E-Governance Plan</a>, designed and developed by <a href="http://www.nic.in" target="_blank" title="External site that opens in a new window" >National Informatics Centre (NIC)</a>, <a href="http://www.meity.gov.in/" target="_blank" title="External site that opens in a new window" >Ministry of Electronics & Information Technology</a>, Government of India.</p>
+<div class="last-review"> Last reviewed and updated on  22 Jul, 2019<span style="color:#131313;"> 
+
+ NPI 1
+
+</span></div>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42583533-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</div>
+  </div></div></div></div>		</div>
+	</section>
+	
+  </footer>
+
+
+   
+
+  </body>
+</html>

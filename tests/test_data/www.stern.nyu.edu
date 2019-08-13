@@ -1,0 +1,110 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Crawl-delay: 10
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+# Stern specific
+Disallow: /portal-partners/faculty-guide/
+Disallow: /aboutstern/
+Disallow: /aboutstern/aboutstern.cfm
+Disallow: /admissions/admittedstudents/
+Disallow: /admissions/cgibin/
+Disallow: /events/
+Disallow: /events/ceo.cfm
+Disallow: /executive/
+Disallow: /graduation/
+Disallow: /news/
+Disallow: /newsroom/schoolnewsarchive.cfm?doc_id=102014
+Disallow: /registrar/descriptions/
+Disallow: /registrar/popup.cfm
+Disallow: /sternlinks/
+Disallow: /cons/idcplg
+Disallow: /cons/portal/htm
+Disallow: /portal-partners/alumni-new/
+Disallow: /portal-partners/recruiters/current-students/careerbeam/index.htm
+Disallow: /brand-guidelines
+Disallow: /brand-guidelines/
+Disallow: /admissions/forums/
+Disallow: /admissions/_forums/
+Disallow: /academic/
+Disallow: /include/printview
+Disallow: /gbi/
+Disallow: /test/
+Disallow: /it/
+Disallow: /uc/currentstudents/
+Disallow: /students/current/jobs/
+Disallow: /initiatives/
+Disallow: /studentactivities/clubs/
+Disallow: /uc/ssgb/
+Disallow: /bursar/
+Disallow: /emplibrary/
+Disallow: /*.cfm$
+Disallow: /*?empower_nav
+Disallow: /portal-partners/alumni-new/
+Disallow: /registrar/schedules/
+Disallow: /programs-admissions/global-degrees/accepted-students/tuition-financial-aid/*
+Disallow: /admitted-students/
+Disallow: /ASW/
+Disallow: /sites/default/files/assets/documents/
+Disallow: /programs-admissions/online-pilot*
+Disallow: /experience-stern/news-events/press-conference-romer-2016?from=timeline&isappinstalled=0
+Disallow: /experience-stern/news-events/nobel-release-baumol
+Disallow: /experience-stern/news-events/press-conference-baumol-2016
+Disallow: /programs-admissions/executive-education/breakthrough-strategic-thinking/*
+Disallow: /programs-admissions/executive-education/global-political-risk/*
+Disallow: /programs-admissions/executive-education/great-leadership/*
+Disallow: /programs-admissions/executive-education/disruptive-leadership/*
+Disallow: /programs-admissions/executive-education/leadership-training-high-potentials/*
+Disallow: /programs-admissions/masters-programs/online-ms-quantitative-management/downloads/*

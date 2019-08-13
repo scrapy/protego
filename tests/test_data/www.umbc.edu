@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /blogs # these are very old and should not be searchable in general

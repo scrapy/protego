@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: */404$
+Sitemap: https://www.foxsports.com.au/news-sitemap.xml
+Sitemap: https://www.foxsports.com.au/sitemap.xml
+Sitemap: https://www.foxsports.com.au/video-sitemap.xml

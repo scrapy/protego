@@ -1,0 +1,33 @@
+User-Agent: *
+
+#Disallow all query strings
+Disallow: /*/?elqTracklid=*
+
+Disallow: /*/?month=*
+
+Disallow: /*/content/*
+
+Disallow: /*/?track=*
+
+Disallow: /*/?searchid=*
+
+Disallow: /*/?state=*
+
+Disallow: /*/?category=*
+
+Disallow: /*/?id=*
+
+Disallow: /*/?resellerid=*
+
+Disallow: /*/?type=*
+
+Disallow: /*/?gclid-*
+
+Disallow: /*/authorize_net_redesign/*
+
+Disallow: /*/support/CNP/helpfiles/Miscellaneous/*
+
+#Disallow all feed schema available for each blog post
+Disallow: /*.feed
+
+Sitemap: https://www.authorize.net/sitemap.xml

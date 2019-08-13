@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /eng/docs/wiki:
+Disallow: /pad/winscp.xml
+Disallow: /tracker/buglist.cgi
+Disallow: /paypal.php
+Disallow: /donation.php
+Disallow: /channel.php
+Disallow: /download/files/
+Sitemap: https://winscp.net/sitemap.php
+
+User-agent: 008
+Disallow: /
+
+User-agent: CRAZYWEBCRAWLER
+Disallow: /

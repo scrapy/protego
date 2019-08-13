@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /PRODS/znd*
+Disallow: /PRODS/0*
+Disallow: /ADIN/
+Disallow: /topics/
+Disallow: /GETSTART.HTM
+Disallow: /IRNEWS/index-indx.html
+Disallow: /IRNEWS/index-arch.html
+Disallow: /manual-update/
+Sitemap: https://www.imaging-resource.com/sitemap_index.xml

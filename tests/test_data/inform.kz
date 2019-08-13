@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: */archive/?*
+Disallow: */archive?*
+Disallow: */search?*
+Disallow: *8080/admin*
+Disallow: *?*
+Disallow: *c142$
+Disallow: *c141$
+Disallow: *c143$
+Disallow: *c251$
+Allow: *.css
+Allow: *.js
+Sitemap: https://www.inform.kz/sitemap.xml

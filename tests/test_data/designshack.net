@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /preview/*
+Disallow: /out/
+Crawl-delay: 10

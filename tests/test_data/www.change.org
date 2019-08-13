@@ -1,0 +1,7 @@
+# Change.org robots.txt
+Sitemap: https://www.change.org/sitemap.xml
+User-agent: *
+Disallow: /unsubscribe
+Disallow: /account_settings
+Disallow: /u/
+Disallow: /login_or_join

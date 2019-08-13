@@ -1,0 +1,30 @@
+User-agent: *
+Crawl-delay: 10
+
+Allow: /assets/_combinedfiles/*.css
+Allow: /assets/_combinedfiles/*.js
+Allow /*.jpg
+Allow /*.JPG
+Allow /*.jpeg
+Allow /*.JPEG
+Allow /*.png
+Allow /*.PNG
+Allow /*.gif
+Allow /*.GIF
+Allow /*.svg
+Allow /*.SVG
+Disallow: /assets
+Disallow: /search-google
+Disallow: /search-google/?Search=*
+Disallow: /search-google/?Search=*&start=*
+Disallow: /search-google/?Search=*&action_doSearch=Go
+Disallow: /search-google/?Search=*&action_doSearch=Go&start=*
+Disallow: /search
+Disallow: /search/getSearchResults/?Search=*
+Disallow: /search/getSearchResults/?Search=*&action_getSearchResults=Go
+Disallow: /search/getSearchResults/?Search=*&action_getSearchResults=Go&start=*
+Disallow: *Search=
+Disallow: *?Search=
+Disallow: /Security
+
+Sitemap: https://www.nsw.gov.au/sitemap.xml

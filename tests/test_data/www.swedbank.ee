@@ -1,0 +1,12 @@
+Sitemap: https://www.swedbank.ee/sitemap.xml
+User-Agent: *
+Disallow: /banklink
+Disallow: /kirjad
+Disallow: /static
+
+User-agent: Googlebot
+Allow: *.css
+Allow: *.js
+Disallow: /banklink
+Disallow: /kirjad
+Disallow: /static

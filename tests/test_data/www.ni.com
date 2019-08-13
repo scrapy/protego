@@ -1,0 +1,52 @@
+# www.ni.com
+
+User-agent: *
+Disallow: /*/shop/continue 
+Disallow: /global-gateway/
+Disallow: /pdf/manuals/unindexed/
+Disallow: /documentation/*china-rohs/
+Disallow: /documentation/*product-cert/
+Disallow: /white-paper/*pdf
+Disallow: /tutorial/*pdf
+Disallow: /product-documentation/*pdf
+Disallow: /*jsessionid
+Disallow: /*.vi$
+Disallow: /*.llb$
+Disallow: /*.prj$
+Disallow: /*.uir$
+Disallow: /*.exe$
+Disallow: /ind-app/app/showTut/
+Disallow: /ind-app/app/showWv/
+Disallow: /nifn/
+Disallow: /devzone/
+Disallow: /popup/
+Disallow: /swf/
+Disallow: /nisearch/
+Disallow: /np-nav/
+Disallow: /np/
+Disallow: /rss/*.xml$
+Disallow: /tacs/
+Disallow: /documentation/en/labview-mydaq
+Disallow: /documentation/en/veristand-ui
+Disallow: /documentation/en/tech-preview
+Disallow: /documentation/en/ni-measure
+Disallow: /download/labview-development-system-2013/3980/en/
+Disallow: /download/labview-development-system-2013/4045/en/
+Disallow: /pdf/products/
+Disallow: /pdf/newsletters/
+Disallow: /pdf/nati/
+Disallow: /pdf/misc/
+Disallow: /pdf/legal/
+Disallow: /pdf/environment/
+Disallow: /pdf/labview/
+Disallow: /pdf/labview101/
+Disallow: /*/support/downloads/drivers/download.traditional-ni-daq--legacy-.html
+
+Disallow: /content/ni
+
+Crawl-delay: 5
+
+Sitemap: http://nifeeds.ni.com/f/sitemap-new-www.xml
+Sitemap: http://www.ni.com/sitemap.xml
+Sitemap: http://www.ni.com/contact.sitemap.xml
+Sitemap: http://www.ni.com/documentation/sitemap.xml

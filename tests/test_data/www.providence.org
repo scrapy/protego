@@ -1,0 +1,76 @@
+User-agent: gsa-crawler
+Disallow: /sitecore
+Disallow: /sitecore modules
+Disallow: /sitecore_files
+Disallow: /temp
+Disallow: /upload
+Disallow: /xsl
+Disallow: /global
+
+User-agent: *
+Disallow: /sitecore
+Disallow: /sitecore modules
+Disallow: /sitecore_files
+Disallow: /temp
+Disallow: /upload
+Disallow: /xsl
+Disallow: /global
+
+Sitemap: https://www.providence.org/sitemap.xml
+
+User-agent: Linguee Bot
+Disallow: /doctors
+
+User-agent: SEMrushBot
+Disallow: /doctors
+
+User-agent: SEMrushBot-SA
+Disallow: /doctors
+
+User-agent: AhrefsBot 
+Disallow: /doctors
+
+User-agent: Yandex
+Disallow: /doctors
+
+User-agent: Eyeotabot/1.0
+Disallow: /doctors
+
+User-agent: DocSpotBot
+Disallow: /doctors
+
+User-agent: PiplBot
+Disallow: /doctors
+
+User-agent: BomboraBot
+Disallow: /doctors
+
+User-agent: MJ12Bot
+Disallow: /doctors
+
+User-agent: FemtosearchBot
+Disallow: /doctors
+
+User-agent: istellabot/t.1.13
+Disallow: /doctors
+
+User-agent: Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)
+Disallow: /doctors
+
+User-agent: Barkrowler
+Disallow: /doctors
+
+User-agent: CCBot
+Disallow: /doctors
+
+User-agent: ltx71 - (http://ltx71.com/)
+Disallow: /doctors
+
+User-agent: SuperPagesUrlVerifyBot/1.0
+Disallow: /doctors
+
+User-agent: Mozilla/5.0 (compatible; Dow Jones Searchbot)
+Disallow: /doctors
+
+User-agent: dotbot
+Disallow: /doctors

@@ -1,0 +1,19 @@
+User-Agent: Googlebot-News
+
+Allow: /index.php
+Allow: /hot-news
+Allow: /contact-us
+Allow: /about-us
+Allow: /news_archive.php
+Allow: /author-biography
+Disallow: /sports-news
+Disallow: /entertainment-news
+Disallow: /technology-news
+Disallow: /ada_rewamp
+Disallow: /admin
+Disallow: /backups
+Disallow: /services
+Disallow: /sinhala
+Disallow: /services_ada_eng
+Disallow: /config
+Disallow: /biztest

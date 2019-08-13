@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /custom-quotes/*
+
+Sitemap: https://www.andertons.co.uk/sitemap_10151.xml
+Sitemap: https://jobs.andertons.co.uk/sitemap_index.xml
+Sitemap: https://blog.andertons.co.uk/sitemap_index.xml

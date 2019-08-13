@@ -1,0 +1,12 @@
+User-Agent: * 
+Disallow: /jp/return50
+Disallow: /en/return50
+Disallow: /jp/doshamesh2
+Disallow: /en/doshamesh2
+Disallow: /jp/tatsumaki2
+Disallow: /en/tatsumaki2
+Disallow: /jp/quake2
+Disallow: /en/quake2
+Disallow: /en/distant_tsunami2
+Disallow: /jp/radame
+Disallow: /en/radame

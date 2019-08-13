@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Sitemap: https://thewest.com.au/sitemap.xml
+Sitemap: https://thewest.com.au/news-sitemap.xml

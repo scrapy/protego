@@ -1,0 +1,93 @@
+User-agent: *
+Request-rate: 1/10
+Crawl-delay: 10
+Visit-time: 0400-0845
+
+User-agent: *
+Disallow: /uk/cart
+Disallow: /uk/checkout
+Disallow: /uk/my-account
+Disallow: /uk/search?*
+
+User-agent: *
+Disallow: /us/cart
+Disallow: /us/checkout
+Disallow: /us/my-account
+Disallow: /us/search?*
+
+User-agent: *
+Disallow: /au/cart
+Disallow: /au/checkout
+Disallow: /au/my-account
+Disallow: /au/search?*
+
+User-agent: *
+Disallow: /be/cart
+Disallow: /be/checkout
+Disallow: /be/my-account
+Disallow: /be/search?*
+
+User-agent: *
+Disallow: /ca/cart
+Disallow: /ca/checkout
+Disallow: /ca/my-account
+Disallow: /ca/search?*
+
+User-agent: *
+Disallow: /de/cart
+Disallow: /de/checkout
+Disallow: /de/my-account
+Disallow: /de/search?*
+
+User-agent: *
+Disallow: /es/cart
+Disallow: /es/checkout
+Disallow: /es/my-account
+Disallow: /es/search?*
+
+User-agent: *
+Disallow: /fr/cart
+Disallow: /fr/checkout
+Disallow: /fr/my-account
+Disallow: /fr/search?*
+
+User-agent: *
+Disallow: /ie/cart
+Disallow: /ie/checkout
+Disallow: /ie/my-account
+Disallow: /ie/search?*
+
+User-agent: *
+Disallow: /nl/cart
+Disallow: /nl/checkout
+Disallow: /nl/my-account
+Disallow: /nl/search?*
+
+User-agent: *
+Disallow: /row/cart
+Disallow: /row/checkout
+Disallow: /row/my-account
+Disallow: /row/search?*
+
+User-agent: *
+Disallow: /seu/
+
+User-agent: *
+Disallow: /oeu/
+
+User-agent: *
+Disallow: /neu/
+
+User-agent: CazoodleBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: dotbot/1.0
+Disallow: /
+
+User-agent: Gigabot
+Disallow: /
+
+Sitemap: https://www.tedbaker.com/sitemap.xml

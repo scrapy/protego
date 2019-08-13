@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /403error.html
+Disallow: /404error.html
+Disallow: /injuryreporting/ita/help-request-form/index.html
+Sitemap: https://www.osha.gov/sitemap-index.xml
+
+User-agent: usasearch
+Disallow: /sites/default/files/laws-regs/federalregister/
+Sitemap: https://www.osha.gov/sitemap-index.xml
+Crawl-delay: 3

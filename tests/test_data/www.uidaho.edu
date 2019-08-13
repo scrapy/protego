@@ -1,0 +1,271 @@
+﻿<!-- uidahodev\404.html
+From the customer, UCM.  Used by Web.config for 404 response.  -CMA 181029.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head id="Head1">
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="HandheldFriendly" content="True" />
+	<meta name="MobileOptimized" content="320" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="msapplication-TileColor" content="#191919">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6556396/7825192/css/fonts.css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="https://www.uidaho.edu/apple-touch-icon.png?v=2" />
+	<link rel="icon" type="image/png" sizes="32x32" href="https://www.uidaho.edu/favicon-32x32.png?v=2" />
+	<link rel="icon" type="image/png" sizes="16x16" href="https://www.uidaho.edu/favicon-16x16.png?v=2" />
+	<link rel="mask-icon" href="https://www.uidaho.edu/safari-pinned-tab.svg?v=2" color="#191919" />
+	<link rel="shortcut icon" href="https://www.uidaho.edu/favicon.ico?v=2" />
+	<link rel="manifest" href="https://www.uidaho.edu/manifest.json?v=180808" />
+ 	<!-- RobotsTag() -->
+	<meta name="robots" content="noindex, nofollow" /> 	
+	<meta name="author" content="" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="GaCategory" content="404" />
+	<meta property="og:title" content="" />
+	<meta property="og:url" content="https://sitecore.uidaho.edu/scott-explore/error-pages/404" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="https://sitecore.uidaho.edu/" />
+	<link rel="stylesheet" type="text/css" href="/assets/styles-181004.css">
+ 
+	<title>404 - University of Idaho</title>
+  
+
+	<script src="https://sitecore.uidaho.edu/bundles/head?v=SO079hoysuNvlDHfX9T44EQ-q3xDdq3IXtlTiBisPGA1"></script>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NRPFL7');</script>
+<!-- End Google Tag Manager -->
+  
+
+	<style type="text/css">
+.ui-page {
+	background: #191919;
+}
+
+.ui-page:before {
+    content:' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('/assets/i-pattern-white.svg');
+    background-repeat: repeat;
+    background-size: 70px;
+}
+.ui-page .ui-page-title {
+	display: none;
+}
+.obj-basic-column {
+    margin:0;
+}
+.custom-content {
+	width: 100%;
+    padding:5% 7%;
+}
+
+.help-banner {
+	margin-bottom: 1em;
+}
+
+.help-btn-container p,
+.help-banner p {
+	color: #fff;
+}
+
+.help-banner p {
+	text-align: right;
+	font-weight: 700;
+	width: 70%;
+	float: right;
+	margin:-11% 3% 0;
+}
+
+.help-btn-container {
+    margin-top:1em;
+}
+
+.help-btn-container a {
+	display: block;
+	margin: 0 0 45%;
+}
+.help-btn-container a:hover {
+	-webkit-box-shadow: 0 3px 0 0 #f1b300;
+    box-shadow: 0 3px 0 0 #f1b300;
+	text-decoration: none;
+}
+
+.help-btn-container p {
+    text-align:center;
+	margin-top: .2em;
+}
+
+.help-btn-container svg {
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+.help-btn-az svg {
+	width: 85%;
+}
+.help-btn-search svg {
+	width: 58%;
+}
+
+
+@media screen and (min-width: 480px) {
+	
+
+}
+
+
+@media screen and (min-width: 768px) {
+	.ui-page:before {
+		background-size: 100px;
+	}
+	
+	.custom-content {
+        padding:6% 0 5%;
+    }
+	.help-banner p {
+		font-size: 1.2em;
+		width: 60%;
+	}
+	.help-btn-container {
+		margin-top:40%;
+	}
+	.help-btn-az svg {
+		width: 70%;
+	}
+	.help-btn-search svg {
+		width: 60;
+	}
+	
+}
+
+@media screen and (min-width: 992px) {
+	
+	
+
+}
+
+@media screen and (min-width: 1200px) {
+	.custom-content {
+        padding:5% 5% 7%;
+    }
+	.help-banner p {
+		font-size: 1.5em;
+	}
+
+}
+
+
+@media screen and (min-width: 1450px) {
+
+
+}
+</style>
+		
+	</head>
+
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NRPFL7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div class="ui-obj-animation-wrapper">
+			
+
+<header class="ui-obj-header">
+    <nav class="ghf-cta">
+        <ul>
+			<li></li>
+			<li></li>
+			<li></li>
+        </ul>
+    </nav>
+
+	<!-- Masthead() -->
+	<div class="ghf-masthead">
+		<a href="/" class="ghf-logo-link">
+			<img class="ghf-logo" src="/assets/u-of-i-logo-2018.svg" alt="University of Idaho" />
+			<img class="ghf-logo-mobile" src="/assets/i-banner-gold-2018.svg" alt="University of Idaho - I Banner" />
+		</a>
+	</div>
+</header>
+			
+			
+<div id="content">				
+	<div class="ui-universal-home-page ui-page">
+		<div class="ui-page-title">
+			<div class="ui-contain">
+				<h2>404</h2>
+			</div>
+		</div>
+
+		<div class="obj-basic-column">
+			<div class="ui-page-wrapper-inner">
+				<div id="ui-404" class="custom-content">
+					<div class="row">
+						<div class="col-xs-12 col-sm-9 help-banner">
+							<img class="joe-banner" class="img-responsive" alt="Whoops! It's a 404" src="/assets/joe-vandal-404.svg" />
+							<p>The page or item you requested doesn't exist at this location.</p>
+						</div>
+						<div class="col-xs-12 col-sm-2 col-sm-offset-1">
+							<div class="row help-btn-container">
+								<div class="col-xs-4 col-sm-12">
+									<a class="help-btn-az" href="https://www.uidaho.edu/azindex">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 163.63 111.72"><title>a-z</title><path d="M159.54,0,38.53.05h-3l-.9,2.84-33,103.5L0,111.72H43.64l.85-3L48,96.64H64.26l3.48,12.13.85,3h94.33v-41H132.84l30-43,.74-1.05V0Zm0,25.44L125,74.83h33.83v32.81H71.66L67.33,92.56H44.89l-4.33,15.08h-35l33-103.51,121,0ZM36.77,102.6,41.1,87.52h30l4.33,15.08h78.35V79.86H115.35l39.16-56V9.12h-71V31h37.34L91.93,72.46l-5.7-18.08h-18V40.31H81.79l4.44,14.07h14V40.31H81.79L72,9.17H42.22L12.47,102.6ZM56,36h.28L66,69.78H46.27Z" style="fill:#f1b300"/></svg>
+										<p>A-Z Index</p>
+									</a>
+								</div>
+								<div class="col-xs-4 col-sm-12">
+									<a class="help-btn-directory" href="https://directory.uidaho.edu">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 115.51 112"><title>directory</title><path d="M106.36,9.16H9.16v93.68h97.2ZM41.07,87H25.55V73.85H41.07Zm0-24.44H25.55V49.4H41.07Zm0-24.45H25.55V25H41.07ZM90,87H46.5V73.85H90ZM90,62.6H46.5V49.4H90Zm0-24.45H46.5V25H90ZM111.41,0H0V112H115.51V0Zm0,107.9H4.1V4.1H111.41Z" style="fill:#f1b300"/></svg>
+										<p>Directory</p>
+									</a>
+								</div>
+								<div class="col-xs-4 col-sm-12">
+									<a class="help-btn-search" href="https://www.uidaho.edu/search">
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111.02 111.67"><title>search</title><path d="M68.72,0A42.28,42.28,0,0,0,30.55,60.49L2.66,88.39,0,91,2.66,93.7,18,109l2.65,2.66L23.28,109,51.41,80.88A42.29,42.29,0,1,0,68.72,0Zm0,80.83a38.4,38.4,0,0,1-18.07-4.5l-30,30L5.31,91,35.15,61.2a38.53,38.53,0,1,1,72.11-18.91A38.58,38.58,0,0,1,68.72,80.83Zm0-72.44A33.9,33.9,0,0,0,41.05,61.86L11.87,91l8.75,8.76L49.93,70.5A33.9,33.9,0,1,0,68.72,8.39Zm0,52.78A18.88,18.88,0,1,1,87.6,42.29,18.87,18.87,0,0,1,68.72,61.17Z" style="fill:#f1b300"/></svg>
+										<p>Search</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="ui-obj-footer">
+    <div class="ghf-global-footer-inner">
+        <address>
+            875 Perimeter Drive | Moscow, ID 83844<br />
+p. 208-885-6111 | <a href="mailto:info@uidaho.edu">info@uidaho.edu</a><br />
+        </address>
+        <p class="ghf-copyright">
+            &#169; 2018 University of Idaho All Rights Reserved.
+        </p>
+    </div>
+</footer>
+		
+</div>
+    
+</body>
+</html>

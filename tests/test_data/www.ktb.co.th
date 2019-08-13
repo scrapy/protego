@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ลูกค้าบุคคล กรุงไทยเข้าใจคุณ | ธนาคารกรุงไทย</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="google-site-verification" content="XCpphP7YNqoo_elpztByeYUGAOAuVHY_IV3VugDZ5W4" />
+    
+
+    <meta name="title" content="ลูกค้าบุคคล กรุงไทยเข้าใจคุณ | ธนาคารกรุงไทย" />
+    <meta name="description" content="ธนาคารกรุงไทย บริการทางการเงินที่ตอบทุกโจทย์ความต้องการ พร้อมสนับสนุนทุกช่วงชีวิตในแบบที่คุณเป็น เช่น เงินฝาก บัตร สินเชื่อ ประกัน ธุรกรรมการเงิน E-Banking" />
+    <meta name="keywords" content="KTB,  กรุงไทย, ธนาคาร, การเงิน, ลงทุน, ประวัติธนาคารกรุงไทย, ประวัติ KTB, ความเป็นมาของธนาคารกรุงไทย" />
+    <meta name="thumbnail" content="https://www.ktb.co.th/download/media/custom/picture/default_normal_KTB.jpg" />        
+    <meta property="og:title" content="ลูกค้าบุคคล กรุงไทยเข้าใจคุณ | ธนาคารกรุงไทย" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="ธนาคารกรุงไทย บริการทางการเงินที่ตอบทุกโจทย์ความต้องการ พร้อมสนับสนุนทุกช่วงชีวิตในแบบที่คุณเป็น เช่น เงินฝาก บัตร สินเชื่อ ประกัน ธุรกรรมการเงิน E-Banking" />
+    <meta property="og:image" content="https://www.ktb.co.th/download/media/custom/picture/default_normal_KTB.jpg" />
+    <meta property="og:url" content="https://www.ktb.co.th/th/personal" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@KTB_Care" />
+    <meta name="twitter:title" content="ลูกค้าบุคคล กรุงไทยเข้าใจคุณ | ธนาคารกรุงไทย" />
+    <meta name="twitter:description" content="ธนาคารกรุงไทย บริการทางการเงินที่ตอบทุกโจทย์ความต้องการ พร้อมสนับสนุนทุกช่วงชีวิตในแบบที่คุณเป็น เช่น เงินฝาก บัตร สินเชื่อ ประกัน ธุรกรรมการเงิน E-Banking" />
+    <meta name="twitter:image" content="https://www.ktb.co.th/download/media/custom/picture/default_normal_KTB.jpg" />
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+    
+
+
+<link href="/dist/vendors/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="/Content/jquery-ui.min.css" rel="stylesheet">
+<link href="/dist/vendors/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="/dist/vendors/slick/slick-theme.css" rel="stylesheet">
+<link href="/dist/vendors/slick/slick.css" rel="stylesheet">
+<link href="/dist/vendors/swiper/css/swiper.css" rel="stylesheet">
+<link href="/dist/vendors/lity/lity.css" rel="stylesheet">
+<link href="/Content/ktb-custom.css" rel="stylesheet">
+<link href="/dist/resources/css/style_font.css" rel="stylesheet">
+<link href="/dist/resources/css/style_new_font_KrungthaiFast.css" rel="stylesheet">
+<link href="/dist/resources/css/KTB_Overwrite_fontsize.css" rel="stylesheet">
+<link href="/Content/ktb-next.css?update=2562082307" rel="stylesheet">
+
+
+    
+    <link rel="stylesheet" type="text/css" href="/dist/resources/css/personal.css">
+
+
+        <link href="/Download/Media/custom/CSS/special.css?update=2562082307" rel="stylesheet">
+
+
+        <link rel="alternate" href="https://www.ktb.co.th/th/personal" hreflang="th" />
+        <link rel="alternate" href="https://www.ktb.co.th/en/personal" hreflang="en" />
+
+    <!-- Google Tag Manager -->
+    <script>
+    (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KNQ8GPQ');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body onload="getmaxheight();resizeSlickItem('.slickblock3');">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KNQ8GPQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="header">
+        
+
+
+
+
+
+<div id="ktb-header" class="mainmenu">
+    <!--googleoff: index-->
+    <div class="menu-desktop">
+
+        <div class="firstmenu">
+            <div class="wrapper">
+                <div class="firstmenu-l">
+
+                    <ul>
+                            <li>
+                                <a href="/th/personal" class="hfirstlink set1"    title="ลูกค้าบุคคล">ลูกค้าบุคคล</a>
+                            </li>
+                            <li>
+                                <a href="/th/content/sme" class="hfirstlink set2"    title="ลูกค้า SME">ลูกค้า SME</a>
+                            </li>
+                            <li>
+                                <a href="/th/corporate" class="hfirstlink set3"    title="ลูกค้าองค์กรขนาดใหญ่">ลูกค้าองค์กรขนาดใหญ่</a>
+                            </li>
+                    </ul>
+                </div>
+                <div class="firstmenu-r">
+                    <ul>
+
+                            <li>
+                                
+                                <a href="/th/financialpartner" class="hfirstlink set4    "    title="คู่คิดการเงิน">คู่คิดการเงิน</a>
+                            </li>
+                            <li>
+                                
+                                <a href="/th/investor-relations" class="hfirstlink set5    "    title="นักลงทุนสัมพันธ์">นักลงทุนสัมพันธ์</a>
+                            </li>
+                            <li>
+                                
+                                <a href="/th/about-ktb" class="hfirstlink set6    "    title="เกี่ยวกับธนาคาร">เกี่ยวกับธนาคาร</a>
+                            </li>
+                            <li>
+                                
+                                <a href="/th/content/contact-us" class="hfirstlink set7    "    title="ติดต่อเรา">ติดต่อเรา</a>
+                            </li>
+                        
+<li class="divlang">
+    <a href="javascript:opendivlang();" class="hfirstlanguagelink divclicklang" style="border-right:none"   title="ไทย">
+        <span><img src="/dist/resources/images/share/thai-flag.png" alt="Thai flags" /></span>ไทย <i class="fa fa-angle-down" aria-hidden="true"></i>
+    </a>
+    <ul class="choiceoptions">
+        <li class="menu_lang-en">
+                <a href="/en/personal" class="hfirstlanguagelink set8 "   title="EN">
+                    <span>
+
+                        <img src="/dist/resources/images/share/eng-flag.png" alt="Eng flags" />
+                    </span>EN
+                </a>
+        </li>
+    </ul>
+</li>
+
+                        <li>
+                            <a href="#" class="hfirstlink last" >
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="secondmenu">
+            <div class="wrapper">
+                <div class="secondmenu-l clearfix">
+                    <ul class="headerlv1 logo">
+                        <li>
+                            <a href="/th/personal" class="logomainlink"   title="บมจ. ธนาคารกรุงไทย">
+                                <img src="/ImgUpload/media/ktb-logo.png" class="w100p" style="max-width: 201px;" alt="บมจ. ธนาคารกรุงไทย" />
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class='headerlv1 set1  showmenu'><li><a href = 'javascript: void(0);'class='hsecondlink set1'onmouseover='openheaderlv2("set1");'    title='เงินฝาก'>เงินฝาก</a><div class='headerlv2 set1'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/personal/deposit/78' class='headerlv3-link'    title='เงินฝากกระแสรายวัน'>เงินฝากกระแสรายวัน </a></li><li class=''><a href = '/th/personal/deposit/1' class='headerlv3-link'    title='เงินฝากออมทรัพย์'>เงินฝากออมทรัพย์ </a></li><li class=''><a href = '/th/personal/deposit/345' class='headerlv3-link'    title='เงินฝาก Krungthai NEXT Savings'>เงินฝาก Krungthai NEXT Savings </a></li><li class=''><a href = '/th/personal/deposit/119' class='headerlv3-link'    title='เงินฝากออมทรัพย์พิเศษสำหรับผู้เยาว์'>เงินฝากออมทรัพย์พิเศษสำหรับผู้เยาว์ </a></li><li class=''><a href = '/th/personal/deposit/343' class='headerlv3-link'    title='บัญชีเงินฝากพื้นฐาน (Basic Banking Account)'>บัญชีเงินฝากพื้นฐาน (Basic Banking Account) </a></li><li class=''><a href = '/th/personal/deposit/2' class='headerlv3-link'    title='เงินฝากประจำ'>เงินฝากประจำ </a></li><li class=''><a href = '/th/personal/deposit/6' class='headerlv3-link'    title='เงินฝากประจำตามใจ'>เงินฝากประจำตามใจ </a></li><li class=''><a href = '/th/personal/deposit/5' class='headerlv3-link'    title='เงินฝาก KTB ZERO TAX MAX'>เงินฝาก KTB ZERO TAX MAX </a></li><li class=''><a href = '/th/personal/deposit/8' class='headerlv3-link'    title='เงินฝากเงินตราต่างประเทศ'>เงินฝากเงินตราต่างประเทศ </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/240'    title='เงินฝากประจำพิเศษ 22 เดือน หรือ 8 เดือน'><img src = '/ImgUpload/promotion/PromotionThumb_240665x398-pixel.jpg' class='w100p' alt='เงินฝากประจำพิเศษ 22 เดือน หรือ 8 เดือน' /></a></div><span class='txdesc'>เงินฝากประจำพิเศษ 22 เดือน หรือ 8 เดือน</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set2'onmouseover='openheaderlv2("set2");'    title='บัตร'>บัตร</a><div class='headerlv2 set2'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/personal/cards/debit-card' class='headerlv3-link'    title='บัตรเดบิต'>บัตรเดบิต </a></li><li class=''><a href = '/th/content/personal/cards/krungthai-travel-card' class='headerlv3-link'    title='Krungthai Travel Card'>Krungthai Travel Card </a></li><li class=''><a href = '/th/content/personal/cards/krungthai-travel-card-unionpay' class='headerlv3-link'    title='Krungthai Travel Card UnionPay'>Krungthai Travel Card UnionPay </a></li><li class=''><a href = '/th/personal/cards/cash-card-top-up-card' class='headerlv3-link'    title='บัตรเติมเงิน และบัตรเงินสด'>บัตรเติมเงิน และบัตรเงินสด </a></li><li class=''><a href = '/th/content/personal/cards/credits' class='headerlv3-link'    title='บัตรเครดิต'>บัตรเครดิต </a></li></ul></div><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>บริการ</span></li><li><a href = '/th/personal/detail/14'  class='headerlv3-link'    title='Krungthai Verified by Visa'>Krungthai Verified by Visa</a></li></ul></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/232'    title='เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง'><img src = '/ImgUpload/promotion/PromotionThumb_232cigna_665.jpg' class='w100p' alt='เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง' /></a></div><span class='txdesc'>เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set3'onmouseover='openheaderlv2("set3");'    title='สินเชื่อ'>สินเชื่อ</a><div class='headerlv2 set3'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/personal/loan/personal-loan/' class='headerlv3-link'    title='สินเชื่อบุคคล'>สินเชื่อบุคคล </a></li><li class=''><a href = '/th/personal/loan/housing-loan/' class='headerlv3-link'    title='สินเชื่อบ้าน'>สินเชื่อบ้าน </a></li><li class=''><a href = '/th/personal/loan/personal-loan/313' class='headerlv3-link'    title='กองทุนเงินให้กู้ยืมเพื่อการศึกษา (กยศ.)'>กองทุนเงินให้กู้ยืมเพื่อการศึกษา (กยศ.) </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/236'    title='สินเชื่อกรุงไทยเพื่อสนับสนุนการเพิ่มประสิทธิภาพการผลิตด้วยหุ่นยนต์และระบบอัตโนมัติ (Robotics and Automation)'><img src = '/ImgUpload/promotion/PromotionThumb_236665x398.jpg' class='w100p' alt='สินเชื่อกรุงไทยเพื่อสนับสนุนการเพิ่มประสิทธิภาพการผลิตด้วยหุ่นยนต์และระบบอัตโนมัติ (Robotics and Automation)' /></a></div><span class='txdesc'>สินเชื่อกรุงไทยเพื่อสนับสนุนการเพิ่มประสิทธิภาพการผลิตด้วยหุ่นยนต์และระบบอัตโนมัติ (Robotics and Automation)</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set4'onmouseover='openheaderlv2("set4");'    title='ประกัน'>ประกัน</a><div class='headerlv2 set4'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/personal/insurance/life-insurance' class='headerlv3-link'    title='ประกันชีวิต'>ประกันชีวิต </a></li><li class=''><a href = '/th/personal/insurance/non-life-insurance' class='headerlv3-link'    title='ประกันวินาศภัย'>ประกันวินาศภัย </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/232'    title='เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง'><img src = '/ImgUpload/promotion/PromotionThumb_232cigna_665.jpg' class='w100p' alt='เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง' /></a></div><span class='txdesc'>เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set5'onmouseover='openheaderlv2("set5");'    title='ลงทุน'>ลงทุน</a><div class='headerlv2 set5'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/content/personal/investment/kt-zmico' class='headerlv3-link'    title='บริษัท หลักทรัพย์ เคที ซีมิโก้ จำกัด'>บริษัท หลักทรัพย์ เคที ซีมิโก้ จำกัด </a></li><li class=''><a href = '/th/content/personal/investment/ktam' class='headerlv3-link'    title='บริษัท หลักทรัพย์จัดการกองทุนกรุงไทย จำกัด (มหาชน)'>บริษัท หลักทรัพย์จัดการกองทุนกรุงไทย จำกัด (มหาชน) </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/218'    title='ลงทุนมั่นใจ ธนาคารกรุงไทย จำกัด (มหาชน)'><img src = '/ImgUpload/promotion/PromotionThumb_218665x398promo.jpg' class='w100p' alt='ลงทุนมั่นใจ ธนาคารกรุงไทย จำกัด (มหาชน)' /></a></div><span class='txdesc'>ลงทุนมั่นใจ ธนาคารกรุงไทย จำกัด (มหาชน)</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set6'onmouseover='openheaderlv2("set6");'    title='ธุรกรรมการเงิน'>ธุรกรรมการเงิน</a><div class='headerlv2 set6'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/personal/cash-management/ktb-promptpay' class='headerlv3-link'    title='กรุงไทย พร้อมเพย์'>กรุงไทย พร้อมเพย์ </a></li><li class=''><a href = '/th/personal/cash-management/payment-transfer' class='headerlv3-link'    title='โอนเงิน'>โอนเงิน </a></li><li class=''><a href = '/th/personal/cash-management/payment-and-top-up' class='headerlv3-link'    title='รับชำระเงินและเติมเงิน'>รับชำระเงินและเติมเงิน </a></li><li class=''><a href = '/th/personal/cash-management/ktb-chagne-bond' class='headerlv3-link'    title='แลกเปลี่ยนเงินและตราสารต่างประเทศ'>แลกเปลี่ยนเงินและตราสารต่างประเทศ </a></li><li class=''><a href = '/th/personal/cash-management/ktb-overseas-education' class='headerlv3-link'    title='แนะแนวทางการเงินเพื่อการศึกษาต่อต่างประเทศ'>แนะแนวทางการเงินเพื่อการศึกษาต่อต่างประเทศ </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/214'    title='M-PASS ผ่านง่าย ใช้สะดวก'><img src = '/ImgUpload/promotion/PromotionThumb_214M-PASS-665x398-New.jpg' class='w100p' alt='M-PASS ผ่านง่าย ใช้สะดวก' /></a></div><span class='txdesc'>M-PASS ผ่านง่าย ใช้สะดวก</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set7'onmouseover='openheaderlv2("set7");'    title='E-Banking'>E-Banking</a><div class='headerlv2 set7'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/personal/detail/340' class='headerlv3-link'    title='Krungthai NEXT'>Krungthai NEXT </a></li><li class=''><a href = '/th/personal/detail/351' class='headerlv3-link'    title='Krungthai Connext'>Krungthai Connext </a></li><li class=''><a href = '/th/personal/detail/201' class='headerlv3-link'    title='เป๋าตัง'>เป๋าตัง </a></li><li class=''><a href = '/th/personal/detail/107' class='headerlv3-link'    title='เป๋าตุง กรุงไทย'>เป๋าตุง กรุงไทย </a></li><li class=''><a href = '/th/personal/detail/105' class='headerlv3-link'    title='กรุงไทย เทเลแบงก์กิ้ง'>กรุงไทย เทเลแบงก์กิ้ง </a></li><li class=''><a href = '/th/personal/detail/80' class='headerlv3-link'    title='บริการ Krungthai VTM'>บริการ Krungthai VTM </a></li><li class=''><a href = '/th/personal/detail/76' class='headerlv3-link'    title='บริการแจ้งเตือนอัตโนมัติผ่านโทรศัพท์มือถือ (Krungthai SMS Alert)'>บริการแจ้งเตือนอัตโนมัติผ่านโทรศัพท์มือถือ (Krungthai SMS Alert) </a></li><li class=''><a href = '/th/personal/detail/74' class='headerlv3-link'    title='ซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล'>ซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล </a></li><li class=''><a href = '/th/personal/detail/333' class='headerlv3-link'    title='บริการจองซื้อหลักทรัพย์ออนไลน์ (ผ่านระบบ Money Connect by Krungthai)'>บริการจองซื้อหลักทรัพย์ออนไลน์ (ผ่านระบบ Money Connect by Krungthai) </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/242'    title='ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย'><img src = '/ImgUpload/promotion/PromotionThumb_242pay_lottery_through_Krungthai_ATM_665.jpg' class='w100p' alt='ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย' /></a></div><span class='txdesc'>ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย</span></div></div></div></div></div></div></li><li><a href = '/th/content/personal/precious'  class='hsecondlink preciouslink'   title='เอกสิทธิ์ลูกค้า PRECIOUS'onmouseover = 'callbackfrominterval();'>เอกสิทธิ์ลูกค้า PRECIOUS</a></li></ul><ul class='headerlv1 set2 hidemenu'><li><a href = '/th/content/sme' target='_blank' class='hsecondlink '   title='หน้าหลัก'onmouseover = 'callbackfrominterval();'>หน้าหลัก</a></li></ul><ul class='headerlv1 set3 hidemenu'><li><a href = 'javascript: void(0);'class='hsecondlink set1'onmouseover='openheaderlv2("set1");'    title='บริการจัดการทางการเงิน'>บริการจัดการทางการเงิน</a><div class='headerlv2 set1'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/corporate/cash-management/collection-service' class='headerlv3-link'    title='บริการเรียกเก็บเงิน'>บริการเรียกเก็บเงิน </a></li><li class=''><a href = '/th/corporate/cash-management/liquidity-management' class='headerlv3-link'    title='บริการสภาพคล่อง'>บริการสภาพคล่อง </a></li><li class=''><a href = '/th/corporate/cash-management/transfer-and-payment-services' class='headerlv3-link'    title='บริการโอนเงินและจ่ายเงิน'>บริการโอนเงินและจ่ายเงิน </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set2'onmouseover='openheaderlv2("set2");'    title='บริการทางการเงิน  ต่างประเทศ'>บริการทางการเงิน <br> ต่างประเทศ</a><div class='headerlv2 set2'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/corporate/international-financial-services/export-business-services/' class='headerlv3-link'    title='การค้าระหว่างประเทศ'>การค้าระหว่างประเทศ </a></li><li class=''><a href = '/th/corporate/international-financial-services/importer-services' class='headerlv3-link'    title='การค้าในประเทศ'>การค้าในประเทศ </a></li><li class=''><a href = '/th/corporate/international-financial-services/electronic-international-trade/' class='headerlv3-link'    title='บริการการค้าต่างประเทศทางอิเล็กทรอนิกส์'>บริการการค้าต่างประเทศทางอิเล็กทรอนิกส์ </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/236'    title='สินเชื่อกรุงไทยเพื่อสนับสนุนการเพิ่มประสิทธิภาพการผลิตด้วยหุ่นยนต์และระบบอัตโนมัติ (Robotics and Automation)'><img src = '/ImgUpload/promotion/PromotionThumb_236665x398.jpg' class='w100p' alt='สินเชื่อกรุงไทยเพื่อสนับสนุนการเพิ่มประสิทธิภาพการผลิตด้วยหุ่นยนต์และระบบอัตโนมัติ (Robotics and Automation)' /></a></div><span class='txdesc'>สินเชื่อกรุงไทยเพื่อสนับสนุนการเพิ่มประสิทธิภาพการผลิตด้วยหุ่นยนต์และระบบอัตโนมัติ (Robotics and Automation)</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set3'onmouseover='openheaderlv2("set3");'    title='สินเชื่อธุรกิจ'>สินเชื่อธุรกิจ</a><div class='headerlv2 set3'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/corporate/ktb-business-loan/163' class='headerlv3-link'    title='สินเชื่อโครงการพิเศษ'>สินเชื่อโครงการพิเศษ </a></li><li class=''><a href = '/th/corporate/ktb-business-loan/159' class='headerlv3-link'    title='สินเชื่อระยะยาว'>สินเชื่อระยะยาว </a></li><li class=''><a href = '/th/corporate/ktb-business-loan/160' class='headerlv3-link'    title='สินเชื่อหมุนเวียน'>สินเชื่อหมุนเวียน </a></li><li class=''><a href = '/th/corporate/ktb-business-loan/161' class='headerlv3-link'    title='สินเชื่อเพื่อการส่งออกและนำเข้า'>สินเชื่อเพื่อการส่งออกและนำเข้า </a></li><li class=''><a href = '/th/corporate/ktb-business-loan/162' class='headerlv3-link'    title='การค้ำประกัน'>การค้ำประกัน </a></li><li class=''><a href = '/th/corporate/ktb-business-loan/164' class='headerlv3-link'    title='สินเชื่อกรุงไทย Supply Chain'>สินเชื่อกรุงไทย Supply Chain </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/201'    title='สินเชื่อกรุงไทยสำหรับธุรกิจเกษตรแปรรูป'><img src = '/ImgUpload/promotion/PromotionThumb_201sme_orange_665.jpg' class='w100p' alt='สินเชื่อกรุงไทยสำหรับธุรกิจเกษตรแปรรูป' /></a></div><span class='txdesc'>สินเชื่อกรุงไทยสำหรับธุรกิจเกษตรแปรรูป</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set4'onmouseover='openheaderlv2("set4");'    title='ธุรกรรมการเงิน'>ธุรกรรมการเงิน</a><div class='headerlv2 set4'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/corporate/financial-transaction/deposit' class='headerlv3-link'    title='เงินฝาก'>เงินฝาก </a></li><li class=''><a href = '/th/corporate/financial-transaction/card' class='headerlv3-link'    title='บัตร'>บัตร </a></li><li class=''><a href = '/th/corporate/financial-transaction/insurance/' class='headerlv3-link'    title='ประกันภัย'>ประกันภัย </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/214'    title='M-PASS ผ่านง่าย ใช้สะดวก'><img src = '/ImgUpload/promotion/PromotionThumb_214M-PASS-665x398-New.jpg' class='w100p' alt='M-PASS ผ่านง่าย ใช้สะดวก' /></a></div><span class='txdesc'>M-PASS ผ่านง่าย ใช้สะดวก</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set5'onmouseover='openheaderlv2("set5");'    title='E-Banking'>E-Banking</a><div class='headerlv2 set5'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/corporate/detail/81' class='headerlv3-link'    title='Krungthai Corporate Online'>Krungthai Corporate Online </a></li><li class=''><a href = '/th/corporate/detail/356' class='headerlv3-link'    title='Krungthai SmartFX'>Krungthai SmartFX </a></li><li class=''><a href = '/th/corporate/detail/199' class='headerlv3-link'    title='กรุงไทย เทเลแบงก์กิ้ง'>กรุงไทย เทเลแบงก์กิ้ง </a></li><li class=''><a href = '/th/corporate/detail/200' class='headerlv3-link'    title='เป๋าตุง กรุงไทย'>เป๋าตุง กรุงไทย </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '/th/krungthai-update/promotion-detail/242'    title='ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย'><img src = '/ImgUpload/promotion/PromotionThumb_242pay_lottery_through_Krungthai_ATM_665.jpg' class='w100p' alt='ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย' /></a></div><span class='txdesc'>ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set6'onmouseover='openheaderlv2("set6");'    title='บริหารความเสี่ยงและวาณิชธนกิจ'>บริหารความเสี่ยง<br/>และวาณิชธนกิจ</a><div class='headerlv2 set6'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li><span class='headerlv3-h'>ผลิตภัณฑ์</span></li><li class=''><a href = '/th/corporate/fx-derivatives-and-investment-banking/fx-derivatives' class='headerlv3-link'    title='FX & Derivatives'>FX & Derivatives </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'></div></div></div></div></div></div></li></ul><ul class='headerlv1 set4 hidemenu'><li><a href = '/th/financial-partner/learn-financial'  class='hsecondlink '   title='เรียนรู้การเงิน'onmouseover = 'callbackfrominterval();'>เรียนรู้การเงิน</a></li><li><a href = '/th/content/financial-partner/security-tips-for-digital-life'  class='hsecondlink '   title='ใช้บริการปลอดภัยในยุคดิจิตอล'onmouseover = 'callbackfrominterval();'>ใช้บริการปลอดภัยในยุคดิจิตอล</a></li><li><a href = 'javascript: void(0);'class='hsecondlink set1'onmouseover='openheaderlv2("set1");'    title='รอบรู้เศรษฐกิจ'>รอบรู้เศรษฐกิจ</a><div class='headerlv2 set1'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/financial-partner/economy-resources/business-digest' class='headerlv3-link'    title='สารวิจัยธุรกิจ'>สารวิจัยธุรกิจ </a></li><li class=''><a href = '/th/financial-partner/economy-resources/economic-report' class='headerlv3-link'    title='ภาวะเศรษฐกิจ'>ภาวะเศรษฐกิจ </a></li><li class=''><a href = '/th/financial-partner/economy-resources/economic-banking' class='headerlv3-link'    title='ภาวะการเงินทางธนาคาร'>ภาวะการเงินทางธนาคาร </a></li><li class=''><a href = '/th/financial-partner/economy-resources/economic-statistics' class='headerlv3-link'    title='สถิติที่น่าสนใจ'>สถิติที่น่าสนใจ </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '#'    title='ทำความรู้จัก วิสาหกิจขนาดกลางและขนาดย่อม'><img src = '/dist/resources/images/share/header8.jpg' class='w100p' alt='ทำความรู้จัก วิสาหกิจขนาดกลางและขนาดย่อม' /></a></div><span class='txdesc'>ทำความรู้จัก วิสาหกิจขนาดกลางและขนาดย่อม</span></div></div></div></div></div></div></li></ul><ul class='headerlv1 set5 hidemenu'><li><a href = '/th/investor-relations/shareholders-information/message-from-the-chairman-and-the-president'class='hsecondlink set1'onmouseover='openheaderlv2("set1");'    title='ข้อมูลผู้ถือหุ้น'>ข้อมูลผู้ถือหุ้น</a><div class='headerlv2 set1'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/investor-relations/shareholders-information/message-from-the-chairman-and-the-president' class='headerlv3-link'    title='สารจากประธานกรรมการ และกรรมการผู้จัดการใหญ่'>สารจากประธานกรรมการ และกรรมการผู้จัดการใหญ่ </a></li><li class=''><a href = '/th/investor-relations/shareholders-information/shareholders-list' class='headerlv3-link'    title='โครงสร้างผู้ถือหุ้น'>โครงสร้างผู้ถือหุ้น </a></li><li class=''><a href = '/th/investor-relations/shareholders-information/dividend-information' class='headerlv3-link'    title='ข้อมูลการจ่ายเงินปันผลหุ้น'>ข้อมูลการจ่ายเงินปันผลหุ้น </a></li><li class=''><a href = '/th/investor-relations/shareholders-information/report-on-the-annual-general-shareholders-meeting' class='headerlv3-link'    title='รายงานการประชุมผู้ถือหุ้น'>รายงานการประชุมผู้ถือหุ้น </a></li><li class=''><a href = '/th/investor-relations/shareholders-information/set-filing' class='headerlv3-link'    title='ข่าวแจ้งตลาดหลักทรัพย์'>ข่าวแจ้งตลาดหลักทรัพย์ </a></li><li class=''><a href = '/th/investor-relations/shareholders-information/invitation-letter-to-shareholders-meeting' class='headerlv3-link'    title='หนังสือเชิญประชุมผู้ถือหุ้น'>หนังสือเชิญประชุมผู้ถือหุ้น </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set2'onmouseover='openheaderlv2("set2");'    title='ข้อมูลทางการเงิน'>ข้อมูลทางการเงิน</a><div class='headerlv2 set2'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/investor-relations/financial-information/financial-highlight' class='headerlv3-link'    title='จุดเด่นผลประกอบการ'>จุดเด่นผลประกอบการ </a></li><li class=''><a href = '/th/investor-relations/financial-information/annual-report' class='headerlv3-link'    title='รายงานทางการเงิน'>รายงานทางการเงิน </a></li><li class=''><a href = '/th/investor-relations/financial-information/presentation' class='headerlv3-link'    title='ข้อมูลนำเสนอ และ Fact Sheet'>ข้อมูลนำเสนอ และ Fact Sheet </a></li><li class=''><a href = '/th/investor-relations/financial-information/pillar-iii-disclosures' class='headerlv3-link'    title='การเปิดเผยข้อมูลตามเกณฑ์ Basel'>การเปิดเผยข้อมูลตามเกณฑ์ Basel </a></li><li class=''><a href = '/th/investor-relations/financial-information/lcr-disclosures' class='headerlv3-link'    title='การเปิดเผยข้อมูลตามเกณฑ์ LCR'>การเปิดเผยข้อมูลตามเกณฑ์ LCR </a></li><li class=''><a href = '/th/investor-relations/financial-information/events-calendar' class='headerlv3-link'    title='ปฏิทินทางการเงิน'>ปฏิทินทางการเงิน </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set3'onmouseover='openheaderlv2("set3");'    title='ข้อมูลทั่วไป'>ข้อมูลทั่วไป</a><div class='headerlv2 set3'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/investor-relations/general-information/credit-ratings' class='headerlv3-link'    title='การจัดอันดับความน่าเชื่อถือ'>การจัดอันดับความน่าเชื่อถือ </a></li><li class=''><a href = '/th/investor-relations/general-information/analyst-coverage' class='headerlv3-link'    title='รายชื่อนักวิเคราะห์กลุ่มธนาคาร'>รายชื่อนักวิเคราะห์กลุ่มธนาคาร </a></li><li class=''><a href = '/th/investor-relations/faqir' class='headerlv3-link'    title='คำถามที่พบบ่อย'>คำถามที่พบบ่อย </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'></div></div></div></div></div></div></li></ul><ul class='headerlv1 set6 hidemenu'><li><a href = '/th/about-ktb'class='hsecondlink set1'onmouseover='openheaderlv2("set1");'    title='เกี่ยวกับธนาคาร'>เกี่ยวกับธนาคาร</a><div class='headerlv2 set1'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/about-ktb' class='headerlv3-link'    title='หน้าหลัก'>หน้าหลัก </a></li><li class=''><a href = '/th/about-ktb/history' class='headerlv3-link'    title='ประวัติความเป็นมา'>ประวัติความเป็นมา </a></li><li class='CIdentity'><a href = '/th/about-ktb/corporate-identify' class='headerlv3-link'    title='สัญลักษณ์'>สัญลักษณ์ </a></li><li class=''><a href = '/th/about-ktb/organization-chart' class='headerlv3-link'    title='โครงสร้างองค์กร'>โครงสร้างองค์กร </a></li><li class=''><a href = '/th/about-ktb/board-and-senior/board-of-directors' class='headerlv3-link'    title='คณะกรรมการและผู้บริหารระดับสูง'>คณะกรรมการและผู้บริหารระดับสูง </a></li><li class=''><a href = '/th/about-ktb/corporate-governance/corporate-governance-report' class='headerlv3-link'    title='การกำกับดูแลกิจการ'>การกำกับดูแลกิจการ </a></li><ul class='headerlv4'><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-report' class='headerlv4-link'    title='บรรษัทภิบาล' >บรรษัทภิบาล</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-business-ethics' class='headerlv4-link'    title='จรรยาบรรณ' >จรรยาบรรณ</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-charter-of-board' class='headerlv4-link'    title='กฏบัตรของคณะกรรมการ' >กฏบัตรของคณะกรรมการ</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-aml-cft' class='headerlv4-link'    title='AML/CFT' >AML/CFT</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-audit-committee' class='headerlv4-link'    title='รายงานของคณะกรรมการตรวจสอบ' >รายงานของคณะกรรมการตรวจสอบ</a></li><li><a href = '/th/content/about-ktb/corporate-governance/fatca' class='headerlv4-link'    title='กฏเกณฑ์ FATCA' >กฏเกณฑ์ FATCA</a></li></ul></ul></div><div class='col-sm-4'><ul class='headerlv3'><li><a href = '/th/about-ktb/registered-documents'  class='headerlv3-link'    title='เอกสารจดทะเบียนธนาคาร'>เอกสารจดทะเบียนธนาคาร</a></li><li><a href = '/th/about-ktb/risk-overview'  class='headerlv3-link'    title='การบริหารความเสี่ยงองค์กร'>การบริหารความเสี่ยงองค์กร</a></li><ul class='headerlv4'><li><a href = '/th/about-ktb/risk-overview' class='headerlv4-link'    title='เกี่ยวกับความเสี่ยงองค์กร'>เกี่ยวกับความเสี่ยงองค์กร </a></li><li><a href = '/th/about-ktb/risk-overview/risk-management-policies' class='headerlv4-link'    title='แนวทางการบริหารความเสี่ยง'>แนวทางการบริหารความเสี่ยง </a></li><li><a href = '/th/about-ktb/risk-overview/risk-management-organization-structure' class='headerlv4-link'    title='โครงสร้างการบริหารความเสี่ยง'>โครงสร้างการบริหารความเสี่ยง </a></li></ul><li><a href = '/th/about-ktb/awards-achievements'  class='headerlv3-link'    title='รางวัลและความสำเร็จ'>รางวัลและความสำเร็จ</a></li><li><a href = '/th/about-ktb/important-policy-direction'  class='headerlv3-link'    title='ทิศทางการดำเนินงาน วิสัยทัศน์และพันธกิจ'>ทิศทางการดำเนินงาน วิสัยทัศน์และพันธกิจ</a></li><li><a href = '/th/content/about-ktb/strategic-plans-and-key-operations'  class='headerlv3-link'    title='แผนยุทธศาสตร์ และการดำเนินงาน'>แผนยุทธศาสตร์ และการดำเนินงาน</a></li><li><a href = '/th/about-ktb/group-shareholding'  class='headerlv3-link'    title='โครงสร้างการถือหุ้น'>โครงสร้างการถือหุ้น</a></li></ul></div><div class='col-sm-4'><div><a href = '#'    title='รางวัลและความสำเร็จ'><img src = '/dist/resources/images/share/header13.jpg' class='w100p' alt='รางวัลและความสำเร็จ' /></a></div><span class='txdesc'>รางวัลและความสำเร็จ</span></div></div></div></div></div></div></li><li><a href = '/th/about-ktb/sustainability'class='hsecondlink set2'onmouseover='openheaderlv2("set2");'    title='ความยั่งยืน'>ความยั่งยืน</a><div class='headerlv2 set2'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/about-ktb/sustainability' class='headerlv3-link'    title='หน้าหลัก'>หน้าหลัก </a></li><li class=''><a href = '/th/about-ktb/sustainable-integration/sustainable-strategy' class='headerlv3-link'    title='การดำเนินการเพื่อความยั่งยืน'>การดำเนินการเพื่อความยั่งยืน </a></li><ul class='headerlv4'><li><a href = '/th/about-ktb/sustainable-integration/sustainable-strategy' class='headerlv4-link'    title='กลยุทธ์สู่ความยั่งยืน' >กลยุทธ์สู่ความยั่งยืน</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-compliance' class='headerlv4-link'    title='การกำกับดูแล' >การกำกับดูแล</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-transparency' class='headerlv4-link'    title='ความโปร่งใส' >ความโปร่งใส</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-stakeholders-engagement' class='headerlv4-link'    title='การมีส่วนร่วม' >การมีส่วนร่วม</a></li></ul></ul></div><div class='col-sm-4'><ul class='headerlv3'><li><a href = '/th/about-ktb/sustainability/economic'  class='headerlv3-link'    title='มิติเศรษฐกิจ'>มิติเศรษฐกิจ</a></li><li><a href = '/th/about-ktb/sustainability/social'  class='headerlv3-link'    title='มิติสังคม'>มิติสังคม</a></li><li><a href = '/th/about-ktb/sustainability/environment'  class='headerlv3-link'    title='มิติสิ่งแวดล้อม'>มิติสิ่งแวดล้อม</a></li><li><a href = '/th/about-ktb/sustainability/csr-project'  class='headerlv3-link'    title='โครงการ CSR'>โครงการ CSR</a></li><li><a href = '/th/about-ktb/sustainability/csr-news'  class='headerlv3-link'    title='ข่าว CSR'>ข่าว CSR</a></li><li><a href = '/th/about-ktb/sustainability/sustainability-reports'  class='headerlv3-link'    title='รายงานความยั่งยืน'>รายงานความยั่งยืน</a></li></ul></div><div class='col-sm-4'><div><a href = '#'    title='สัมผัสเรื่องราวดีๆ ผ่านเทคโนโลยี AR CODE'><img src = '/dist/resources/images/share/header14.jpg' class='w100p' alt='สัมผัสเรื่องราวดีๆ ผ่านเทคโนโลยี AR CODE' /></a></div><span class='txdesc'>สัมผัสเรื่องราวดีๆ ผ่านเทคโนโลยี AR CODE</span></div></div></div></div></div></div></li><li><a href = 'javascript: void(0);'class='hsecondlink set3'onmouseover='openheaderlv2("set3");'    title='สมัครงานและทุน'>สมัครงานและทุน</a><div class='headerlv2 set3'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/about-ktb/career-and-scholarships/career' class='headerlv3-link'    title='ร่วมงานไปกับกรุงไทย'>ร่วมงานไปกับกรุงไทย </a></li><li class=''><a href = '/th/about-ktb/career-and-scholarships/scholarships' class='headerlv3-link'    title='ทุนการศึกษา'>ทุนการศึกษา </a></li></ul></div><div class='col-sm-4'></div><div class='col-sm-4'><div><a href = '#'    title='ดูทุนการศึกษาล่าสุดจากกรุงไทย'><img src = '/dist/resources/images/share/header15.jpg' class='w100p' alt='ดูทุนการศึกษาล่าสุดจากกรุงไทย' /></a></div><span class='txdesc'>ดูทุนการศึกษาล่าสุดจากกรุงไทย</span></div></div></div></div></div></div></li></ul><ul class='headerlv1 set7 hidemenu'><li><a href = '/th/contact-us/ktb-location'  class='hsecondlink '   title='จุดให้บริการ'onmouseover = 'callbackfrominterval();'>จุดให้บริการ</a></li><li><a href = '/th/contact-us/foreign-branch'  class='hsecondlink '   title='สาขาต่างประเทศ'onmouseover = 'callbackfrominterval();'>สาขาต่างประเทศ</a></li><li><a href = '/th/content/contact-us'  class='hsecondlink '   title='ติดต่อเรา'onmouseover = 'callbackfrominterval();'>ติดต่อเรา</a></li><li><a href = 'https://www.cb.ktb.co.th/complaint/customer/default.aspx'  class='hsecondlink '   title='แนะนำและติชม'onmouseover = 'callbackfrominterval();'>แนะนำและติชม</a></li><li><a href = 'javascript: void(0);'class='hsecondlink set1'onmouseover='openheaderlv2("set1");'    title='อื่นๆ'>อื่นๆ</a><div class='headerlv2 set1'><div class='wrapper'><div class='offsetleft'><div class='container-fluid'><div class='row'><div class='col-sm-4'><ul class='headerlv3'><li class=''><a href = '/th/rates' class='headerlv3-link'    title='อัตราและค่าธรรมเนียม'>อัตราและค่าธรรมเนียม </a></li><ul class='headerlv4'><li><a href = '/th/rates/viewdetail/28' class='headerlv4-link'    title='อัตราดอกเบี้ยเงินฝากสกุลเงินบาท' >อัตราดอกเบี้ยเงินฝากสกุลเงินบาท</a></li><li><a href = '/th/rates/viewdetail/29' class='headerlv4-link'    title='อัตราดอกเบี้ยเงินฝาก Krungthai netbank' >อัตราดอกเบี้ยเงินฝาก Krungthai netbank</a></li><li><a href = '/th/rates/viewdetail/3' class='headerlv4-link'    title='อัตราดอกเบี้ยเงินฝากสกุลเงินต่างประเทศ' >อัตราดอกเบี้ยเงินฝากสกุลเงินต่างประเทศ</a></li><li><a href = '/th/rates/viewdetail/30' class='headerlv4-link'    title='อัตราดอกเบี้ยตั๋วแลกเงิน' >อัตราดอกเบี้ยตั๋วแลกเงิน</a></li><li><a href = '/th/rates/viewdetail/4' class='headerlv4-link'    title='อัตราดอกเบี้ยเงินกู้' >อัตราดอกเบี้ยเงินกู้</a></li><li><a href = '/th/rates/viewdetail/27' class='headerlv4-link'    title='อัตราค่าธรรมเนียม' >อัตราค่าธรรมเนียม</a></li><li><a href = '/th/rates/viewdetail/57' class='headerlv4-link'    title='ค่าบริการอื่นที่ธนาคารเรียกเก็บได้ในการประกอบธุรกิจบัตรฟลีทการ์ด (Fleet Card)' >ค่าบริการอื่นที่ธนาคารเรียกเก็บได้ในการประกอบธุรกิจบัตรฟลีทการ์ด (Fleet Card)</a></li><li><a href = '#' class='headerlv4-link'    title='อัตราดอกเบี้ยอ้างอิงระยะสั้นตลาดกรุงเทพ (BIBOR)' onclick=window.open('https://www.bot.or.th/app/FinMarkets/Bibor/bibor_th.aspx','linkout','scrollbars=1,resizable=yes,width=800,height=600');>อัตราดอกเบี้ยอ้างอิงระยะสั้นตลาดกรุงเทพ (BIBOR)</a></li><li><a href = '/th/rates/viewdetail/24' class='headerlv4-link'    title='อัตราค่าธรรมเนียมสินเชื่อส่วนบุคคล' >อัตราค่าธรรมเนียมสินเชื่อส่วนบุคคล</a></li><li><a href = '#' class='headerlv4-link'    title='Spot Cross Currency Exchange Rate' onclick=window.open('https://www.exch.ktb.co.th/ExRateKTB/ExSpotRate.do','linkout','scrollbars=1,resizable=yes,width=800,height=600');>Spot Cross Currency Exchange Rate</a></li><li><a href = '#' class='headerlv4-link'    title='THB forward exchange' onclick=window.open('https://www.exch.ktb.co.th/ExRateKTB/ExForwardRate.do','linkout','scrollbars=1,resizable=yes,width=800,height=600');>THB forward exchange</a></li><li><a href = '#' class='headerlv4-link'    title='US Prime and FED Fund' onclick=window.open('https://www.exch.ktb.co.th/ExRateKTB/ExPrimeRate.do','linkout','scrollbars=1,resizable=yes,width=800,height=600');>US Prime and FED Fund</a></li><li><a href = '/th/rates/viewdetail/26' class='headerlv4-link'    title='อัตราดอกเบี้ยให้สินเชื่อเช่าซื้อ' >อัตราดอกเบี้ยให้สินเชื่อเช่าซื้อ</a></li></ul></ul></div><div class='col-sm-4'><ul class='headerlv3'><li><a href = '/th/contact-us/others/personal/faq'  class='headerlv3-link'    title='คำถามที่พบบ่อย'>คำถามที่พบบ่อย</a></li><ul class='headerlv4'><li><a href = '/th/contact-us/others/personal/faq' class='headerlv4-link'    title='เกี่ยวกับผลิตภัณฑ์'>เกี่ยวกับผลิตภัณฑ์ </a></li><li><a href = '/th/contact-us/others/personal/faq/faqebanking' class='headerlv4-link'    title='เกี่ยวกับธุรกรรมการเงินและ E-Banking'>เกี่ยวกับธุรกรรมการเงินและ E-Banking </a></li><li><a href = '/th/contact-us/others/personal/faq/transectioncode' class='headerlv4-link'    title='เกี่ยวกับ Transaction Code'>เกี่ยวกับ Transaction Code </a></li></ul><li><a href = '/th/contact-us/others/personal/downloads'  class='headerlv3-link'    title='ดาวน์โหลด'>ดาวน์โหลด</a></li><ul class='headerlv4'><li><a href = '/th/contact-us/others/personal/downloads' class='headerlv4-link'    title='เอกสารสำหรับผลิตภัณฑ์'>เอกสารสำหรับผลิตภัณฑ์ </a></li><li><a href = '/th/contact-us/others/personal/downloads/ebanking' class='headerlv4-link'    title='เอกสารสำหรับธุรกรรมการเงินและ E-Banking'>เอกสารสำหรับธุรกรรมการเงินและ E-Banking </a></li><li><a href = '/th/contact-us/others/personal/downloads/general-file' class='headerlv4-link'    title='เอกสารทั่วไป'>เอกสารทั่วไป </a></li></ul><li><a href = '/th/content/contact-us/disclaimer'  class='headerlv3-link'    title='เงื่อนไขการใช้งานเว็บไซต์'>เงื่อนไขการใช้งานเว็บไซต์</a></li><li><a href = 'http://www.oic.go.th/infocenter5/560/' target = '_blank' class='headerlv3-link'    title='ศูนย์ข้อมูลข่าวสาร'>ศูนย์ข้อมูลข่าวสาร</a></li><li><a href = 'http://www.oic.go.th/ginfo/' target = '_blank' class='headerlv3-link'    title='ฐานข้อมูลหน่วยงานภาครัฐ (GINFO)'>ฐานข้อมูลหน่วยงานภาครัฐ (GINFO)</a></li><li><a href = '/th/content/contact-us/properties-for-sale'  class='headerlv3-link'    title='ทรัพย์สินพร้อมขาย'>ทรัพย์สินพร้อมขาย</a></li><li><a href = 'https://eprocurement.ktb.co.th' target = '_blank' class='headerlv3-link'    title='จัดซื้อจัดจ้าง'>จัดซื้อจัดจ้าง</a></li><li><a href = '/th/content/contact-us/recommended-website'  class='headerlv3-link'    title='แนะนำเว็บไซต์'>แนะนำเว็บไซต์</a></li></ul></div><div class='col-sm-4'><div><a href = '/th/contact-us/others/personal/faq'    title='คำถามที่พบบ่อย'><img src = '/dist/resources/images/share/header16.jpg' class='w100p' alt='คำถามที่พบบ่อย' /></a></div><span class='txdesc'>คำถามที่พบบ่อย</span></div></div></div></div></div></div></li></ul>
+
+
+                </div>
+                <div class="secondmenu-r">
+                    <div class="divbtn">
+
+                        <a href="https://www.newcb.ktb.co.th" class="brdbuttonnormal blue" style="display:none;" id="menunetbank" title="Krungthai Corporate Online" target="_blank">
+                            Krungthai Corporate Online     <span>
+                                <img src="/dist/resources/images/share/key-icon.png" alt="Internet Banking" />&nbsp;
+                            </span>
+                        </a>
+
+                        <div id="appNetBank">
+                            <a href="https://www.ktbnetbank.com/consumer/" class="brdbuttonnormal blue" id="menucopperen" title="Krungthai netbank" traget="_blank">
+                                Krungthai netbank
+                                <span>
+                                    <img src="/dist/resources/images/share/key-icon.png" alt="Krungthai netbank" />&nbsp;
+                                </span>
+                            </a>
+                        </div>
+
+                        <div id="appKrungThai">
+                                <a href="#" onclick="showktbapp();" class="brdbuttonnormal blue" id="menucopper" title="Krungthai NEXT">
+                                    Krungthai NEXT
+                                    <span>
+                                        <img src="/dist/resources/images/share/next-icon.png" alt="Krungthai NEXT" />&nbsp;
+                                    </span>
+                                </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+    </div>
+        <div class="menu-mobile">
+            <div class="firstmenumb">
+                <div class="left">
+                    <div id="menu-mobile-button">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="left">
+                    <a href="/th/personal" class="logomainlink" title="บมจ. ธนาคารกรุงไทย">
+                        <img src="/ImgUpload/media/ktb-logo.png" alt="บมจ. ธนาคารกรุงไทย" />
+                    </a>
+                </div>
+                <div class="right divbtnright">
+                    <div class="divbtn">
+
+                        <a href="https://www.newcb.ktb.co.th" class="brdbuttonnormal blue" style="display:none;" id="menunetbanken" title="Krungthai Corporate Online" target="_blank">
+                            Krungthai Corporate Online     <span>
+                                <img src="/dist/resources/images/share/key-icon.png" alt="Internet Banking" />&nbsp;
+                            </span>
+                        </a>
+
+                        <div id="appNetBank">
+                            <a href="https://www.ktbnetbank.com/consumer/" class="brdbuttonnormal blue" id="menucopperen" title="Krungthai netbank" traget="_blank">
+                                Krungthai netbank
+                                <span>
+                                    <img src="/dist/resources/images/share/key-icon.png" alt="Krungthai netbank" />&nbsp;
+                                </span>
+                            </a>
+                        </div>
+                        <div id="appKrungThai">
+                                <a href="#" onclick=" showktbapp();" class="brdbuttonnormal blue" id="menucopperen" title="Krungthai NEXT">
+                                    Krungthai NEXT
+                                    <span>
+                                        <img src="/dist/resources/images/share/next-icon.png" alt="Krungthai NEXT" />&nbsp;
+                                    </span>
+                                </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="secondmenumb">
+                <div class="lvsidemenu">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <a href="/th/contact-us/ktb-location" class="mblinkmap"    title="จุดให้บริการ">จุดให้บริการ</a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="/th/search/" class="mblinksearch"    title="ค้นหาข้อมูล">ค้นหาข้อมูล</a>
+                            </div>
+                            <div class="col-xs-4">
+                                <a href="/th/content/contact-us" class="mblinkcontact"    title="ติดต่อเรา">ติดต่อเรา</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="thirdmenumb">
+                <div class="lvmainmenu">
+
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset1');"    title="ลูกค้าบุคคล">ลูกค้าบุคคล</a>
+                        </div>
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset2');"    title="ลูกค้า SME">ลูกค้า SME</a>
+                        </div>
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset3');"    title="ลูกค้าองค์กรขนาดใหญ่">ลูกค้าองค์กรขนาดใหญ่</a>
+                        </div>
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset4');"    title="คู่คิดการเงิน">คู่คิดการเงิน</a>
+                        </div>
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset5');"    title="นักลงทุนสัมพันธ์">นักลงทุนสัมพันธ์</a>
+                        </div>
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset6');"    title="เกี่ยวกับธนาคาร">เกี่ยวกับธนาคาร</a>
+                        </div>
+                        <div class="divlvmain">
+                            <a href="javascript:openmobilesubmenu('mbset7');"    title="ติดต่อเรา">ติดต่อเรา</a>
+                        </div>
+                    <div class="divlanguagemb">
+    <a href="#" class="hfirstlanguagelink" title="ไทย"><span><img src="/dist/resources/images/share/thai-flag.png" alt="Thai flags" /></span>ไทย <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+</div>
+<div class="divlanguagechoice">
+        <a class="menu_lang-en hfirstlanguagelink  left" href="/en/personal"   title="EN"><span><img src="/dist/resources/images/share/eng-flag.png" alt="Eng flags" /></span>EN</a>
+</div>
+                    
+                </div>
+            </div>
+            <div class="fourthmenumb">
+
+
+
+                <div class="lvsubmainmenu">
+                    
+                    <div class='divlvsubmain mbset1'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='ลูกค้าบุคคล'>ลูกค้าบุคคล</a><ul class='lv1'><li><a href='/th/personal' class='lv1mblink'   title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = "javascript: openmobilelv2menu('mbsubset1'); "class='lv1mblink mbsubset1link'   title='เงินฝาก'>เงินฝาก</a><ul class='lv2 mbsubset1'><li><a href = '/th/personal/deposit/78' ' class='lv2mblink'    title='เงินฝากกระแสรายวัน'>เงินฝากกระแสรายวัน</a></li><li><a href = '/th/personal/deposit/1' ' class='lv2mblink'    title='เงินฝากออมทรัพย์'>เงินฝากออมทรัพย์</a></li><li><a href = '/th/personal/deposit/345' ' class='lv2mblink'    title='เงินฝาก Krungthai NEXT Savings'>เงินฝาก Krungthai NEXT Savings</a></li><li><a href = '/th/personal/deposit/119' ' class='lv2mblink'    title='เงินฝากออมทรัพย์พิเศษสำหรับผู้เยาว์'>เงินฝากออมทรัพย์พิเศษสำหรับผู้เยาว์</a></li><li><a href = '/th/personal/deposit/343' ' class='lv2mblink'    title='บัญชีเงินฝากพื้นฐาน (Basic Banking Account)'>บัญชีเงินฝากพื้นฐาน (Basic Banking Account)</a></li><li><a href = '/th/personal/deposit/2' ' class='lv2mblink'    title='เงินฝากประจำ'>เงินฝากประจำ</a></li><li><a href = '/th/personal/deposit/6' ' class='lv2mblink'    title='เงินฝากประจำตามใจ'>เงินฝากประจำตามใจ</a></li><li><a href = '/th/personal/deposit/5' ' class='lv2mblink'    title='เงินฝาก KTB ZERO TAX MAX'>เงินฝาก KTB ZERO TAX MAX</a></li><li><a href = '/th/personal/deposit/8' ' class='lv2mblink'    title='เงินฝากเงินตราต่างประเทศ'>เงินฝากเงินตราต่างประเทศ</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset2'); "class='lv1mblink mbsubset2link'   title='บัตร'>บัตร</a><ul class='lv2 mbsubset2'><li><a href = '/th/personal/cards/debit-card' ' class='lv2mblink'    title='บัตรเดบิต'>บัตรเดบิต</a></li><li><a href = '/th/content/personal/cards/krungthai-travel-card' ' class='lv2mblink'    title='Krungthai Travel Card'>Krungthai Travel Card</a></li><li><a href = '/th/content/personal/cards/krungthai-travel-card-unionpay' ' class='lv2mblink'    title='Krungthai Travel Card UnionPay'>Krungthai Travel Card UnionPay</a></li><li><a href = '/th/personal/cards/cash-card-top-up-card' ' class='lv2mblink'    title='บัตรเติมเงิน และบัตรเงินสด'>บัตรเติมเงิน และบัตรเงินสด</a></li><li><a href = '/th/content/personal/cards/credits' ' class='lv2mblink'    title='บัตรเครดิต'>บัตรเครดิต</a></li><li><a href = '/th/personal/detail/14' ' class='lv2mblink'    title='Krungthai Verified by Visa'>Krungthai Verified by Visa</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset3'); "class='lv1mblink mbsubset3link'   title='สินเชื่อ'>สินเชื่อ</a><ul class='lv2 mbsubset3'><li><a href = '/th/personal/loan/personal-loan/' ' class='lv2mblink'    title='สินเชื่อบุคคล'>สินเชื่อบุคคล</a></li><li><a href = '/th/personal/loan/housing-loan/' ' class='lv2mblink'    title='สินเชื่อบ้าน'>สินเชื่อบ้าน</a></li><li><a href = '/th/personal/loan/personal-loan/313' ' class='lv2mblink'    title='กองทุนเงินให้กู้ยืมเพื่อการศึกษา (กยศ.)'>กองทุนเงินให้กู้ยืมเพื่อการศึกษา (กยศ.)</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset4'); "class='lv1mblink mbsubset4link'   title='ประกัน'>ประกัน</a><ul class='lv2 mbsubset4'><li><a href = '/th/personal/insurance/life-insurance' ' class='lv2mblink'    title='ประกันชีวิต'>ประกันชีวิต</a></li><li><a href = '/th/personal/insurance/non-life-insurance' ' class='lv2mblink'    title='ประกันวินาศภัย'>ประกันวินาศภัย</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset5'); "class='lv1mblink mbsubset5link'   title='ลงทุน'>ลงทุน</a><ul class='lv2 mbsubset5'><li><a href = '/th/content/personal/investment/kt-zmico' ' class='lv2mblink'    title='บริษัท หลักทรัพย์ เคที ซีมิโก้ จำกัด'>บริษัท หลักทรัพย์ เคที ซีมิโก้ จำกัด</a></li><li><a href = '/th/content/personal/investment/ktam' ' class='lv2mblink'    title='บริษัท หลักทรัพย์จัดการกองทุนกรุงไทย จำกัด (มหาชน)'>บริษัท หลักทรัพย์จัดการกองทุนกรุงไทย จำกัด (มหาชน)</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset6'); "class='lv1mblink mbsubset6link'   title='ธุรกรรมการเงิน'>ธุรกรรมการเงิน</a><ul class='lv2 mbsubset6'><li><a href = '/th/personal/cash-management/ktb-promptpay' ' class='lv2mblink'    title='กรุงไทย พร้อมเพย์'>กรุงไทย พร้อมเพย์</a></li><li><a href = '/th/personal/cash-management/payment-transfer' ' class='lv2mblink'    title='โอนเงิน'>โอนเงิน</a></li><li><a href = '/th/personal/cash-management/payment-and-top-up' ' class='lv2mblink'    title='รับชำระเงินและเติมเงิน'>รับชำระเงินและเติมเงิน</a></li><li><a href = '/th/personal/cash-management/ktb-chagne-bond' ' class='lv2mblink'    title='แลกเปลี่ยนเงินและตราสารต่างประเทศ'>แลกเปลี่ยนเงินและตราสารต่างประเทศ</a></li><li><a href = '/th/personal/cash-management/ktb-overseas-education' ' class='lv2mblink'    title='แนะแนวทางการเงินเพื่อการศึกษาต่อต่างประเทศ'>แนะแนวทางการเงินเพื่อการศึกษาต่อต่างประเทศ</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset7'); "class='lv1mblink mbsubset7link'   title='E-Banking'>E-Banking</a><ul class='lv2 mbsubset7'><li><a href = '/th/personal/detail/340' ' class='lv2mblink'    title='Krungthai NEXT'>Krungthai NEXT</a></li><li><a href = '/th/personal/detail/351' ' class='lv2mblink'    title='Krungthai Connext'>Krungthai Connext</a></li><li><a href = '/th/personal/detail/201' ' class='lv2mblink'    title='เป๋าตัง'>เป๋าตัง</a></li><li><a href = '/th/personal/detail/107' ' class='lv2mblink'    title='เป๋าตุง กรุงไทย'>เป๋าตุง กรุงไทย</a></li><li><a href = '/th/personal/detail/105' ' class='lv2mblink'    title='กรุงไทย เทเลแบงก์กิ้ง'>กรุงไทย เทเลแบงก์กิ้ง</a></li><li><a href = '/th/personal/detail/80' ' class='lv2mblink'    title='บริการ Krungthai VTM'>บริการ Krungthai VTM</a></li><li><a href = '/th/personal/detail/76' ' class='lv2mblink'    title='บริการแจ้งเตือนอัตโนมัติผ่านโทรศัพท์มือถือ (Krungthai SMS Alert)'>บริการแจ้งเตือนอัตโนมัติผ่านโทรศัพท์มือถือ (Krungthai SMS Alert)</a></li><li><a href = '/th/personal/detail/74' ' class='lv2mblink'    title='ซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล'>ซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล</a></li><li><a href = '/th/personal/detail/333' ' class='lv2mblink'    title='บริการจองซื้อหลักทรัพย์ออนไลน์ (ผ่านระบบ Money Connect by Krungthai)'>บริการจองซื้อหลักทรัพย์ออนไลน์ (ผ่านระบบ Money Connect by Krungthai)</a></li></ul></li><li><a href = '/th/content/personal/precious' class='lv1mblink'    title='เอกสิทธิ์ลูกค้า PRECIOUS'>เอกสิทธิ์ลูกค้า PRECIOUS</a></li></ul></div><div class='divlvsubmain mbset2'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='ลูกค้า SME'>ลูกค้า SME</a><ul class='lv1'><li><a href = '/th/content/sme' target='_blank'class='lv1mblink'    title='หน้าหลัก'>หน้าหลัก</a></li></ul></div><div class='divlvsubmain mbset3'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='ลูกค้าองค์กรขนาดใหญ่'>ลูกค้าองค์กรขนาดใหญ่</a><ul class='lv1'><li><a href='/th/corporate' class='lv1mblink'   title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = "javascript: openmobilelv2menu('mbsubset1'); "class='lv1mblink mbsubset1link'   title='บริการจัดการทางการเงิน'>บริการจัดการทางการเงิน</a><ul class='lv2 mbsubset1'><li><a href = '/th/corporate/cash-management/collection-service' ' class='lv2mblink'    title='บริการเรียกเก็บเงิน'>บริการเรียกเก็บเงิน</a></li><li><a href = '/th/corporate/cash-management/liquidity-management' ' class='lv2mblink'    title='บริการสภาพคล่อง'>บริการสภาพคล่อง</a></li><li><a href = '/th/corporate/cash-management/transfer-and-payment-services' ' class='lv2mblink'    title='บริการโอนเงินและจ่ายเงิน'>บริการโอนเงินและจ่ายเงิน</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset2'); "class='lv1mblink mbsubset2link'   title='บริการทางการเงิน  ต่างประเทศ'>บริการทางการเงิน <br> ต่างประเทศ</a><ul class='lv2 mbsubset2'><li><a href = '/th/corporate/international-financial-services/export-business-services/' ' class='lv2mblink'    title='การค้าระหว่างประเทศ'>การค้าระหว่างประเทศ</a></li><li><a href = '/th/corporate/international-financial-services/importer-services' ' class='lv2mblink'    title='การค้าในประเทศ'>การค้าในประเทศ</a></li><li><a href = '/th/corporate/international-financial-services/electronic-international-trade/' ' class='lv2mblink'    title='บริการการค้าต่างประเทศทางอิเล็กทรอนิกส์'>บริการการค้าต่างประเทศทางอิเล็กทรอนิกส์</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset3'); "class='lv1mblink mbsubset3link'   title='สินเชื่อธุรกิจ'>สินเชื่อธุรกิจ</a><ul class='lv2 mbsubset3'><li><a href = '/th/corporate/ktb-business-loan/163' ' class='lv2mblink'    title='สินเชื่อโครงการพิเศษ'>สินเชื่อโครงการพิเศษ</a></li><li><a href = '/th/corporate/ktb-business-loan/159' ' class='lv2mblink'    title='สินเชื่อระยะยาว'>สินเชื่อระยะยาว</a></li><li><a href = '/th/corporate/ktb-business-loan/160' ' class='lv2mblink'    title='สินเชื่อหมุนเวียน'>สินเชื่อหมุนเวียน</a></li><li><a href = '/th/corporate/ktb-business-loan/161' ' class='lv2mblink'    title='สินเชื่อเพื่อการส่งออกและนำเข้า'>สินเชื่อเพื่อการส่งออกและนำเข้า</a></li><li><a href = '/th/corporate/ktb-business-loan/162' ' class='lv2mblink'    title='การค้ำประกัน'>การค้ำประกัน</a></li><li><a href = '/th/corporate/ktb-business-loan/164' ' class='lv2mblink'    title='สินเชื่อกรุงไทย Supply Chain'>สินเชื่อกรุงไทย Supply Chain</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset4'); "class='lv1mblink mbsubset4link'   title='ธุรกรรมการเงิน'>ธุรกรรมการเงิน</a><ul class='lv2 mbsubset4'><li><a href = '/th/corporate/financial-transaction/deposit' ' class='lv2mblink'    title='เงินฝาก'>เงินฝาก</a></li><li><a href = '/th/corporate/financial-transaction/card' ' class='lv2mblink'    title='บัตร'>บัตร</a></li><li><a href = '/th/corporate/financial-transaction/insurance/' ' class='lv2mblink'    title='ประกันภัย'>ประกันภัย</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset5'); "class='lv1mblink mbsubset5link'   title='E-Banking'>E-Banking</a><ul class='lv2 mbsubset5'><li><a href = '/th/corporate/detail/81' ' class='lv2mblink'    title='Krungthai Corporate Online'>Krungthai Corporate Online</a></li><li><a href = '/th/corporate/detail/356' ' class='lv2mblink'    title='Krungthai SmartFX'>Krungthai SmartFX</a></li><li><a href = '/th/corporate/detail/199' ' class='lv2mblink'    title='กรุงไทย เทเลแบงก์กิ้ง'>กรุงไทย เทเลแบงก์กิ้ง</a></li><li><a href = '/th/corporate/detail/200' ' class='lv2mblink'    title='เป๋าตุง กรุงไทย'>เป๋าตุง กรุงไทย</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset6'); "class='lv1mblink mbsubset6link'   title='บริหารความเสี่ยงและวาณิชธนกิจ'>บริหารความเสี่ยง<br/>และวาณิชธนกิจ</a><ul class='lv2 mbsubset6'><li><a href = '/th/corporate/fx-derivatives-and-investment-banking/fx-derivatives' ' class='lv2mblink'    title='FX & Derivatives'>FX & Derivatives</a></li></ul></li></ul></div><div class='divlvsubmain mbset4'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='คู่คิดการเงิน'>คู่คิดการเงิน</a><ul class='lv1'><li><a href='/th/financialpartner' class='lv1mblink'   title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = '/th/financial-partner/learn-financial' class='lv1mblink'    title='เรียนรู้การเงิน'>เรียนรู้การเงิน</a></li><li><a href = '/th/content/financial-partner/security-tips-for-digital-life' class='lv1mblink'    title='ใช้บริการปลอดภัยในยุคดิจิตอล'>ใช้บริการปลอดภัยในยุคดิจิตอล</a></li><li><a href = "javascript: openmobilelv2menu('mbsubset1'); "class='lv1mblink mbsubset1link'   title='รอบรู้เศรษฐกิจ'>รอบรู้เศรษฐกิจ</a><ul class='lv2 mbsubset1'><li><a href = '/th/financial-partner/economy-resources/business-digest' ' class='lv2mblink'    title='สารวิจัยธุรกิจ'>สารวิจัยธุรกิจ</a></li><li><a href = '/th/financial-partner/economy-resources/economic-report' ' class='lv2mblink'    title='ภาวะเศรษฐกิจ'>ภาวะเศรษฐกิจ</a></li><li><a href = '/th/financial-partner/economy-resources/economic-banking' ' class='lv2mblink'    title='ภาวะการเงินทางธนาคาร'>ภาวะการเงินทางธนาคาร</a></li><li><a href = '/th/financial-partner/economy-resources/economic-statistics' ' class='lv2mblink'    title='สถิติที่น่าสนใจ'>สถิติที่น่าสนใจ</a></li></ul></li></ul></div><div class='divlvsubmain mbset5'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='นักลงทุนสัมพันธ์'>นักลงทุนสัมพันธ์</a><ul class='lv1'><li><a href='/th/investor-relations' class='lv1mblink'   title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = "javascript: openmobilelv2menu('mbsubset1'); "class='lv1mblink mbsubset1link'   title='ข้อมูลผู้ถือหุ้น'>ข้อมูลผู้ถือหุ้น</a><ul class='lv2 mbsubset1'><li><a href = '/th/investor-relations/shareholders-information/message-from-the-chairman-and-the-president' ' class='lv2mblink'    title='สารจากประธานกรรมการ และกรรมการผู้จัดการใหญ่'>สารจากประธานกรรมการ และกรรมการผู้จัดการใหญ่</a></li><li><a href = '/th/investor-relations/shareholders-information/shareholders-list' ' class='lv2mblink'    title='โครงสร้างผู้ถือหุ้น'>โครงสร้างผู้ถือหุ้น</a></li><li><a href = '/th/investor-relations/shareholders-information/dividend-information' ' class='lv2mblink'    title='ข้อมูลการจ่ายเงินปันผลหุ้น'>ข้อมูลการจ่ายเงินปันผลหุ้น</a></li><li><a href = '/th/investor-relations/shareholders-information/report-on-the-annual-general-shareholders-meeting' ' class='lv2mblink'    title='รายงานการประชุมผู้ถือหุ้น'>รายงานการประชุมผู้ถือหุ้น</a></li><li><a href = '/th/investor-relations/shareholders-information/set-filing' ' class='lv2mblink'    title='ข่าวแจ้งตลาดหลักทรัพย์'>ข่าวแจ้งตลาดหลักทรัพย์</a></li><li><a href = '/th/investor-relations/shareholders-information/invitation-letter-to-shareholders-meeting' ' class='lv2mblink'    title='หนังสือเชิญประชุมผู้ถือหุ้น'>หนังสือเชิญประชุมผู้ถือหุ้น</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset2'); "class='lv1mblink mbsubset2link'   title='ข้อมูลทางการเงิน'>ข้อมูลทางการเงิน</a><ul class='lv2 mbsubset2'><li><a href = '/th/investor-relations/financial-information/financial-highlight' ' class='lv2mblink'    title='จุดเด่นผลประกอบการ'>จุดเด่นผลประกอบการ</a></li><li><a href = '/th/investor-relations/financial-information/annual-report' ' class='lv2mblink'    title='รายงานทางการเงิน'>รายงานทางการเงิน</a></li><li><a href = '/th/investor-relations/financial-information/presentation' ' class='lv2mblink'    title='ข้อมูลนำเสนอ และ Fact Sheet'>ข้อมูลนำเสนอ และ Fact Sheet</a></li><li><a href = '/th/investor-relations/financial-information/pillar-iii-disclosures' ' class='lv2mblink'    title='การเปิดเผยข้อมูลตามเกณฑ์ Basel'>การเปิดเผยข้อมูลตามเกณฑ์ Basel</a></li><li><a href = '/th/investor-relations/financial-information/lcr-disclosures' ' class='lv2mblink'    title='การเปิดเผยข้อมูลตามเกณฑ์ LCR'>การเปิดเผยข้อมูลตามเกณฑ์ LCR</a></li><li><a href = '/th/investor-relations/financial-information/events-calendar' ' class='lv2mblink'    title='ปฏิทินทางการเงิน'>ปฏิทินทางการเงิน</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset3'); "class='lv1mblink mbsubset3link'   title='ข้อมูลทั่วไป'>ข้อมูลทั่วไป</a><ul class='lv2 mbsubset3'><li><a href = '/th/investor-relations/general-information/credit-ratings' ' class='lv2mblink'    title='การจัดอันดับความน่าเชื่อถือ'>การจัดอันดับความน่าเชื่อถือ</a></li><li><a href = '/th/investor-relations/general-information/analyst-coverage' ' class='lv2mblink'    title='รายชื่อนักวิเคราะห์กลุ่มธนาคาร'>รายชื่อนักวิเคราะห์กลุ่มธนาคาร</a></li><li><a href = '/th/investor-relations/faqir' ' class='lv2mblink'    title='คำถามที่พบบ่อย'>คำถามที่พบบ่อย</a></li></ul></li></ul></div><div class='divlvsubmain mbset6'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='เกี่ยวกับธนาคาร'>เกี่ยวกับธนาคาร</a><ul class='lv1'><li><a href='/th/about-ktb' class='lv1mblink'   title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = "javascript: openmobilelv2menu('mbsubset1'); "class='lv1mblink mbsubset1link'   title='เกี่ยวกับธนาคาร'>เกี่ยวกับธนาคาร</a><ul class='lv2 mbsubset1'><li><a href = '/th/about-ktb' ' class='lv2mblink'    title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = '/th/about-ktb/history' ' class='lv2mblink'    title='ประวัติความเป็นมา'>ประวัติความเป็นมา</a></li><li><a href = '/th/about-ktb/corporate-identify' ' class='lv2mblink'    title='สัญลักษณ์'>สัญลักษณ์</a></li><li><a href = '/th/about-ktb/organization-chart' ' class='lv2mblink'    title='โครงสร้างองค์กร'>โครงสร้างองค์กร</a></li><li><a href = '/th/about-ktb/board-and-senior/board-of-directors' ' class='lv2mblink'    title='คณะกรรมการและผู้บริหารระดับสูง'>คณะกรรมการและผู้บริหารระดับสูง</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-report' ' class='lv2mblink'    title='การกำกับดูแลกิจการ'>การกำกับดูแลกิจการ</a><ul class='lv3'><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-report' class='lv3mblink'    title='บรรษัทภิบาล' >บรรษัทภิบาล</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-business-ethics' class='lv3mblink'    title='จรรยาบรรณ' >จรรยาบรรณ</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-charter-of-board' class='lv3mblink'    title='กฏบัตรของคณะกรรมการ' >กฏบัตรของคณะกรรมการ</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-aml-cft' class='lv3mblink'    title='AML/CFT' >AML/CFT</a></li><li><a href = '/th/about-ktb/corporate-governance/corporate-governance-audit-committee' class='lv3mblink'    title='รายงานของคณะกรรมการตรวจสอบ' >รายงานของคณะกรรมการตรวจสอบ</a></li><li><a href = '/th/content/about-ktb/corporate-governance/fatca' class='lv3mblink'    title='กฏเกณฑ์ FATCA' >กฏเกณฑ์ FATCA</a></li></ul></li><li><a href = '/th/about-ktb/registered-documents' ' class='lv2mblink'    title='เอกสารจดทะเบียนธนาคาร'>เอกสารจดทะเบียนธนาคาร</a></li><li><a href = '/th/about-ktb/risk-overview' ' class='lv2mblink'    title='การบริหารความเสี่ยงองค์กร'>การบริหารความเสี่ยงองค์กร</a><ul class='lv3'><li><a href = '/th/about-ktb/risk-overview' class='lv3mblink'   title='เกี่ยวกับความเสี่ยงองค์กร' >เกี่ยวกับความเสี่ยงองค์กร</a></li><li><a href = '/th/about-ktb/risk-overview/risk-management-policies' class='lv3mblink'   title='แนวทางการบริหารความเสี่ยง' >แนวทางการบริหารความเสี่ยง</a></li><li><a href = '/th/about-ktb/risk-overview/risk-management-organization-structure' class='lv3mblink'   title='โครงสร้างการบริหารความเสี่ยง' >โครงสร้างการบริหารความเสี่ยง</a></li></ul></li><li><a href = '/th/about-ktb/awards-achievements' ' class='lv2mblink'    title='รางวัลและความสำเร็จ'>รางวัลและความสำเร็จ</a></li><li><a href = '/th/about-ktb/important-policy-direction' ' class='lv2mblink'    title='ทิศทางการดำเนินงาน วิสัยทัศน์และพันธกิจ'>ทิศทางการดำเนินงาน วิสัยทัศน์และพันธกิจ</a></li><li><a href = '/th/content/about-ktb/strategic-plans-and-key-operations' ' class='lv2mblink'    title='แผนยุทธศาสตร์ และการดำเนินงาน'>แผนยุทธศาสตร์ และการดำเนินงาน</a></li><li><a href = '/th/about-ktb/group-shareholding' ' class='lv2mblink'    title='โครงสร้างการถือหุ้น'>โครงสร้างการถือหุ้น</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset2'); "class='lv1mblink mbsubset2link'   title='ความยั่งยืน'>ความยั่งยืน</a><ul class='lv2 mbsubset2'><li><a href = '/th/about-ktb/sustainability' ' class='lv2mblink'    title='หน้าหลัก'>หน้าหลัก</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-strategy' ' class='lv2mblink'    title='การดำเนินการเพื่อความยั่งยืน'>การดำเนินการเพื่อความยั่งยืน</a><ul class='lv3'><li><a href = '/th/about-ktb/sustainable-integration/sustainable-strategy' class='lv3mblink'    title='กลยุทธ์สู่ความยั่งยืน' >กลยุทธ์สู่ความยั่งยืน</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-compliance' class='lv3mblink'    title='การกำกับดูแล' >การกำกับดูแล</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-transparency' class='lv3mblink'    title='ความโปร่งใส' >ความโปร่งใส</a></li><li><a href = '/th/about-ktb/sustainable-integration/sustainable-stakeholders-engagement' class='lv3mblink'    title='การมีส่วนร่วม' >การมีส่วนร่วม</a></li></ul></li><li><a href = '/th/about-ktb/sustainability/economic' ' class='lv2mblink'    title='มิติเศรษฐกิจ'>มิติเศรษฐกิจ</a></li><li><a href = '/th/about-ktb/sustainability/social' ' class='lv2mblink'    title='มิติสังคม'>มิติสังคม</a></li><li><a href = '/th/about-ktb/sustainability/environment' ' class='lv2mblink'    title='มิติสิ่งแวดล้อม'>มิติสิ่งแวดล้อม</a></li><li><a href = '/th/about-ktb/sustainability/csr-project' ' class='lv2mblink'    title='โครงการ CSR'>โครงการ CSR</a></li><li><a href = '/th/about-ktb/sustainability/csr-news' ' class='lv2mblink'    title='ข่าว CSR'>ข่าว CSR</a></li><li><a href = '/th/about-ktb/sustainability/sustainability-reports' ' class='lv2mblink'    title='รายงานความยั่งยืน'>รายงานความยั่งยืน</a></li></ul></li><li><a href = "javascript: openmobilelv2menu('mbsubset3'); "class='lv1mblink mbsubset3link'   title='สมัครงานและทุน'>สมัครงานและทุน</a><ul class='lv2 mbsubset3'><li><a href = '/th/about-ktb/career-and-scholarships/career' ' class='lv2mblink'    title='ร่วมงานไปกับกรุงไทย'>ร่วมงานไปกับกรุงไทย</a></li><li><a href = '/th/about-ktb/career-and-scholarships/scholarships' ' class='lv2mblink'    title='ทุนการศึกษา'>ทุนการศึกษา</a></li></ul></li></ul></div><div class='divlvsubmain mbset7'><a href = 'javascript:backmobilesubmenu();' class='linkbacksubmenu'   title='ติดต่อเรา'>ติดต่อเรา</a><ul class='lv1'><li><a href = '/th/contact-us/ktb-location' class='lv1mblink'    title='จุดให้บริการ'>จุดให้บริการ</a></li><li><a href = '/th/contact-us/foreign-branch' class='lv1mblink'    title='สาขาต่างประเทศ'>สาขาต่างประเทศ</a></li><li><a href = '/th/content/contact-us' class='lv1mblink'    title='ติดต่อเรา'>ติดต่อเรา</a></li><li><a href = 'https://www.cb.ktb.co.th/complaint/customer/default.aspx' class='lv1mblink'    title='แนะนำและติชม'>แนะนำและติชม</a></li><li><a href = "javascript: openmobilelv2menu('mbsubset1'); "class='lv1mblink mbsubset1link'   title='อื่นๆ'>อื่นๆ</a><ul class='lv2 mbsubset1'><li><a href = '/th/rates' ' class='lv2mblink'    title='อัตราและค่าธรรมเนียม'>อัตราและค่าธรรมเนียม</a><ul class='lv3'><li><a href = '/th/rates/viewdetail/28' class='lv3mblink'    title='อัตราดอกเบี้ยเงินฝากสกุลเงินบาท' >อัตราดอกเบี้ยเงินฝากสกุลเงินบาท</a></li><li><a href = '/th/rates/viewdetail/29' class='lv3mblink'    title='อัตราดอกเบี้ยเงินฝาก Krungthai netbank' >อัตราดอกเบี้ยเงินฝาก Krungthai netbank</a></li><li><a href = '/th/rates/viewdetail/3' class='lv3mblink'    title='อัตราดอกเบี้ยเงินฝากสกุลเงินต่างประเทศ' >อัตราดอกเบี้ยเงินฝากสกุลเงินต่างประเทศ</a></li><li><a href = '/th/rates/viewdetail/30' class='lv3mblink'    title='อัตราดอกเบี้ยตั๋วแลกเงิน' >อัตราดอกเบี้ยตั๋วแลกเงิน</a></li><li><a href = '/th/rates/viewdetail/4' class='lv3mblink'    title='อัตราดอกเบี้ยเงินกู้' >อัตราดอกเบี้ยเงินกู้</a></li><li><a href = '/th/rates/viewdetail/27' class='lv3mblink'    title='อัตราค่าธรรมเนียม' >อัตราค่าธรรมเนียม</a></li><li><a href = '/th/rates/viewdetail/57' class='lv3mblink'    title='ค่าบริการอื่นที่ธนาคารเรียกเก็บได้ในการประกอบธุรกิจบัตรฟลีทการ์ด (Fleet Card)' >ค่าบริการอื่นที่ธนาคารเรียกเก็บได้ในการประกอบธุรกิจบัตรฟลีทการ์ด (Fleet Card)</a></li><li><a href = '#' class='lv3mblink'    title='อัตราดอกเบี้ยอ้างอิงระยะสั้นตลาดกรุงเทพ (BIBOR)' onclick=window.open('https://www.bot.or.th/app/FinMarkets/Bibor/bibor_th.aspx','linkout','scrollbars=1,resizable=yes,width=800,height=600');>อัตราดอกเบี้ยอ้างอิงระยะสั้นตลาดกรุงเทพ (BIBOR)</a></li><li><a href = '/th/rates/viewdetail/24' class='lv3mblink'    title='อัตราค่าธรรมเนียมสินเชื่อส่วนบุคคล' >อัตราค่าธรรมเนียมสินเชื่อส่วนบุคคล</a></li><li><a href = '#' class='lv3mblink'    title='Spot Cross Currency Exchange Rate' onclick=window.open('https://www.exch.ktb.co.th/ExRateKTB/ExSpotRate.do','linkout','scrollbars=1,resizable=yes,width=800,height=600');>Spot Cross Currency Exchange Rate</a></li><li><a href = '#' class='lv3mblink'    title='THB forward exchange' onclick=window.open('https://www.exch.ktb.co.th/ExRateKTB/ExForwardRate.do','linkout','scrollbars=1,resizable=yes,width=800,height=600');>THB forward exchange</a></li><li><a href = '#' class='lv3mblink'    title='US Prime and FED Fund' onclick=window.open('https://www.exch.ktb.co.th/ExRateKTB/ExPrimeRate.do','linkout','scrollbars=1,resizable=yes,width=800,height=600');>US Prime and FED Fund</a></li><li><a href = '/th/rates/viewdetail/26' class='lv3mblink'    title='อัตราดอกเบี้ยให้สินเชื่อเช่าซื้อ' >อัตราดอกเบี้ยให้สินเชื่อเช่าซื้อ</a></li></ul></li><li><a href = '/th/contact-us/others/personal/faq' ' class='lv2mblink'    title='คำถามที่พบบ่อย'>คำถามที่พบบ่อย</a><ul class='lv3'><li><a href = '/th/contact-us/others/personal/faq' class='lv3mblink'   title='เกี่ยวกับผลิตภัณฑ์' >เกี่ยวกับผลิตภัณฑ์</a></li><li><a href = '/th/contact-us/others/personal/faq/faqebanking' class='lv3mblink'   title='เกี่ยวกับธุรกรรมการเงินและ E-Banking' >เกี่ยวกับธุรกรรมการเงินและ E-Banking</a></li><li><a href = '/th/contact-us/others/personal/faq/transectioncode' class='lv3mblink'   title='เกี่ยวกับ Transaction Code' >เกี่ยวกับ Transaction Code</a></li></ul></li><li><a href = '/th/contact-us/others/personal/downloads' ' class='lv2mblink'    title='ดาวน์โหลด'>ดาวน์โหลด</a><ul class='lv3'><li><a href = '/th/contact-us/others/personal/downloads' class='lv3mblink'   title='เอกสารสำหรับผลิตภัณฑ์' >เอกสารสำหรับผลิตภัณฑ์</a></li><li><a href = '/th/contact-us/others/personal/downloads/ebanking' class='lv3mblink'   title='เอกสารสำหรับธุรกรรมการเงินและ E-Banking' >เอกสารสำหรับธุรกรรมการเงินและ E-Banking</a></li><li><a href = '/th/contact-us/others/personal/downloads/general-file' class='lv3mblink'   title='เอกสารทั่วไป' >เอกสารทั่วไป</a></li></ul></li><li><a href = '/th/content/contact-us/disclaimer' ' class='lv2mblink'    title='เงื่อนไขการใช้งานเว็บไซต์'>เงื่อนไขการใช้งานเว็บไซต์</a></li><li><a href = 'http://www.oic.go.th/infocenter5/560/' target = '_blank'' class='lv2mblink'    title='ศูนย์ข้อมูลข่าวสาร'>ศูนย์ข้อมูลข่าวสาร</a></li><li><a href = 'http://www.oic.go.th/ginfo/' target = '_blank'' class='lv2mblink'    title='ฐานข้อมูลหน่วยงานภาครัฐ (GINFO)'>ฐานข้อมูลหน่วยงานภาครัฐ (GINFO)</a></li><li><a href = '/th/content/contact-us/properties-for-sale' ' class='lv2mblink'    title='ทรัพย์สินพร้อมขาย'>ทรัพย์สินพร้อมขาย</a></li><li><a href = 'https://eprocurement.ktb.co.th' target = '_blank'' class='lv2mblink'    title='จัดซื้อจัดจ้าง'>จัดซื้อจัดจ้าง</a></li><li><a href = '/th/content/contact-us/recommended-website' ' class='lv2mblink'    title='แนะนำเว็บไซต์'>แนะนำเว็บไซต์</a></li></ul></li></ul></div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+
+
+
+    <div id="ktbapp-myModal" class="ktbapp-modal" style="z-index: 999;">
+
+        <!-- Modal content -->
+
+        <div class="ktbapp-backg"></div>
+        <div class="ktbapp-modal-content">
+            <div class="ktbapp-boxbody">
+                <span id="ktbapp-myClose" class="ktbapp-close">×</span>
+                <div style="text-align: center;font-weight: bold;">
+
+                    <div class="ktbapp-boxhead">
+                        ดาวน์โหลด Krungthai NEXT</div>
+                    </div>
+                    <div>
+                        <img name="bt-ktbapp" id="bt-ktbapp" src="/dist/resources/images/share/qrapp.png" alt="qrApp">
+                    </div>
+                    <div style="padding-bottom: 15PX;"> รองรับทั้ง iOS และ Andriod<br><div class="clicknetbank">หรือคลิกเข้าสู่ระบบ <a href="https://www.ktbnetbank.com/consumer/" target="_blank">Internet Banking</a></div> </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--googleon: index-->
+</div>
+
+        
+    </div>
+    <div id="sidemenu">
+<div class="sidemenu hidden-xs hidden-sm">
+    <!--googleoff: index--> 
+    <div class="icon-menu">
+        <div class="sidemenu-btn ktb-netbank">
+            <a href="https://www.ktbnetbank.com/consumer/" id="slideNetbankbt" target="_blank">
+                <img src="/dist/resources/images/share/lock-icn.png" alt="netbank" />
+            </a>
+            <a href="#" onclick="showktbapp();" id="slideKrungthaiAppbt"  >
+                <img src="/dist/resources/images/share/next_icn.png" alt="Krungthai NEXT" />
+            </a>
+        </div>
+        <div class="sidemenu-btn ktb-corporate">
+            <a href="https://www.newcb.ktb.co.th/" target="_blank">
+                <img src="/dist/resources/images/share/lock-icn.png" alt="krungthai-corporate-online">
+            </a>
+        </div>
+        <div class="sidemenu-btn ktb-service">
+            <a href="/th/contact-us/ktb-location">
+                <img src="/dist/resources/images/share/pinpoint-icn.png"    alt="service" />
+            </a>
+        </div>
+        <div class="sidemenu-btn ktb-findinfo">
+            <a href="#" id="search-myIcon">
+                <img src="/dist/resources/images/share/magnifier-icn.png" alt="findinfo" />
+            </a>
+        </div>
+        <div class="sidemenu-btn ktb-contact">
+            <a href="/th/content/contact-us">
+                <img src="/dist/resources/images/share/speech-icn.png"    alt="contact" />
+            </a>
+        </div>
+    </div>
+    <div class="tabs-menu">
+        <a href="https://www.ktbnetbank.com/consumer/" id="slideNetbankApp" target="_blank" class="sidemenu-tab ktb-netbank-tab" title="Krungthai netbank">Krungthai netbank</a>
+        <a href="#" onclick="showktbapp();" id="slideKrungthaiApp" class="sidemenu-tab ktb-netbank-tab" title="Krungthai NEXT">Krungthai NEXT</a>
+       <a href="https://www.newcb.ktb.co.th/" target="_blank" class="sidemenu-tab ktb-corporate-tab" title="Krungthai Corporate Online">Krungthai Corporate Online</a>
+        <a href="/th/contact-us/ktb-location" class="sidemenu-tab ktb-service-tab"    title="จุดให้บริการ">จุดให้บริการ</a>
+        <a href="#" id="search-myBtn" name="search-myBtn" class="sidemenu-tab ktb-findinfo" title="ค้นหาข้อมูล">ค้นหาข้อมูล</a>
+        <a href="/th/content/contact-us" class="sidemenu-tab ktb-contact-tab"   title="ติดต่อเรา">ติดต่อเรา</a>
+    </div>
+
+    <div id="search-myModal" class="search-modal">
+
+        <!-- Modal content -->
+        <div class="search-modal-content">
+            <span id="search-myClose" class="search-close">&times;</span>
+            <div>
+                <span>
+                    <input type="text" id="input-search" name="input-search" class="form-control search-input" placeholder="ค้นหา" onfocus="if (this.value == 'ค้นหา') this.value = '';"  onblur="if (this.value == '') this.value = 'ค้นหา';" data-default-search="ค้นหา" data-searchon="/th/search/" data-GSASuggestion="/th/search/gsasuggestion" style="line-height:150%" />
+                    <img name="bt-search" onclick="callsearch();" src="/dist/resources/images/share/magnifier-icn.png" alt="findinfo" />
+                </span>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        window.onload = function () {
+            var modal = $('#search-myModal');
+            var btn = $('#search-myBtn');
+            var span = $('#search-myClose');
+
+
+
+            $("#search-myBtn").click(function () {
+                $('#search-myModal').css("display", "block");
+            });
+           
+            $("#search-myIcon").click(function () {
+                $('#search-myModal').css("display", "block");
+            });
+
+
+            $('#search-myClose').click(function () {
+                $('#search-myModal').css("display", "none");
+            });
+
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+            $("input#input-search").autocomplete({
+                source: "/th/search/gsasuggestion",
+                minLength: 1,
+                select: function (event, ui) {
+                    //this.value = ui.item.value;
+                    var searchUrl = $(this).attr('data-searchon');
+                    window.location = searchUrl + "?q=" + rpxs(ui.item.value);
+                }
+            }).css('z-index', 999);
+
+
+            $("input#input-search").keypress(function (event) {
+
+                var keycode;
+                keycode = $(this).val();
+                if (keycode != '') {
+                    var patt = new RegExp("^[a-zA-z0-9ก-๙ ]+$");
+                    var res = patt.test(keycode);
+                    if (!res) {
+                        $(this).val(keycode.substr(0, keycode.length - 1));
+                        event.preventDefault();
+                    }
+                }
+            });
+            $("input#input-search").bind('copy paste', function (e) {
+                e.preventDefault();
+            });
+
+            $("input#input-search").keydown(function (event) {
+
+                
+                if (event.keyCode == 13) {
+                    var defaultValue = $(this).attr('data-default-search');
+                    if ($(this).val().length == 0 || $(this).val() == defaultValue) {
+                        event.preventDefault();
+                        return false;
+                    }
+                    else {
+                        //window.location = "/search/" + $(this).val();
+                        var searchUrl = $(this).attr('data-searchon');
+                        window.location = searchUrl + "?q=" + rpxs( $(this).val());
+                    }
+                }
+                else
+                {
+                    return true; 
+                }
+            });
+        }
+        function callsearch() {
+
+            var searchUrl = $("#input-search").attr('data-searchon');            
+            window.location = searchUrl + "?q=" + rpxs($("#input-search").val()); 
+        }
+    </script>
+    <!--googleon: index-->
+</div>
+
+</div>
+
+    
+
+<div id="content" class="personal-indx">
+    <h1 class="site-keyword">กรุงไทย พร้อมเพย์ ง่าย สบายใจ</h1>
+    <div class="block1">
+        <div class="wrapper">
+<div class="container-fluid">
+    <div class="col-xs-12">
+        <div class="slickblock1">
+                <div class="item">
+                    <div class="picblock1 hidden-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageFullSize_351krungthai_connext_july_teaser.jpg" alt="Krungthai Connext" width="100%">
+                    </div>
+                    <div class="picblock1 visible-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageMobile_351krungthai_connext_m-july.jpg" alt="Krungthai Connext" width="100%">
+                    </div>
+                    <div class="textblock1">
+                        <div>
+                            <div class="teaser-headline-light padhdblock1">
+                                Krungthai Connext
+                            </div>
+                        </div>
+                        <div class="content-desc">บริการแจ้งเตือนความเคลื่อนไหวบัญชี<br>ฟรี ผ่านแอพพลิเคชั่นไลน์</div>
+                        <div class="btnblock1">
+                            <a href="/th/personal/detail/351" class="brdbuttonlong blue"    title="อ่านรายละเอียด Krungthai Connext">
+                                <span>อ่านรายละเอียด</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="picblock1 hidden-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageFullSize_340Krungthai_next_teaser_24_1.jpg" alt="Krungthai NEXT" width="100%">
+                    </div>
+                    <div class="picblock1 visible-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageMobile_340KrungthaiNEXT_mobile.jpg" alt="Krungthai NEXT" width="100%">
+                    </div>
+                    <div class="textblock1">
+                        <div>
+                            <div class="teaser-headline-light padhdblock1">
+                                Krungthai NEXT
+                            </div>
+                        </div>
+                        <div class="content-desc">ชีวิตครบ แอปเดียวอยู่</div>
+                        <div class="btnblock1">
+                            <a href="/th/personal/detail/340" class="brdbuttonlong blue"    title="อ่านรายละเอียด Krungthai NEXT">
+                                <span>อ่านรายละเอียด</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="picblock1 hidden-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageFullSize_317travel_card_teaser_111201.jpg" alt="Krungthai Travel Card" width="100%">
+                    </div>
+                    <div class="picblock1 visible-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageMobile_317travel_card_mobile_1112018.jpg" alt="Krungthai Travel Card" width="100%">
+                    </div>
+                    <div class="textblock1">
+                        <div>
+                            <div class="teaser-headline-light padhdblock1">
+                                Krungthai Travel Card
+                            </div>
+                        </div>
+                        <div class="content-desc">บัตรแรก บัตรเดียว ที่สุดสำหรับนักเดินทาง</div>
+                        <div class="btnblock1">
+                            <a href="/th/content/personal/cards/credits/317" class="brdbuttonlong blue"    title="อ่านรายละเอียด Krungthai Travel Card">
+                                <span>อ่านรายละเอียด</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="picblock1 hidden-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageFullSize_201paotang-teaser-final.jpg" alt="เป๋าตัง" width="100%">
+                    </div>
+                    <div class="picblock1 visible-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageMobile_201paotang-m.jpg" alt="เป๋าตัง" width="100%">
+                    </div>
+                    <div class="textblock1">
+                        <div>
+                            <div class="teaser-headline-light padhdblock1">
+                                เป๋าตัง
+                            </div>
+                        </div>
+                        <div class="content-desc">เป๋าตังรูปแบบใหม่ ให้คุณเช็กยอด และจ่าย กยศ. ผ่านแอปได้แล้ววันนี้</div>
+                        <div class="btnblock1">
+                            <a href="/th/personal/detail/201" class="brdbuttonlong blue"    title="อ่านรายละเอียด เป๋าตัง">
+                                <span>อ่านรายละเอียด</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="picblock1 hidden-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageFullSize_22tanawat_teaser.jpg" alt="สินเชื่อกรุงไทยธนวัฏ" width="100%">
+                    </div>
+                    <div class="picblock1 visible-xs text-center">
+                        <img src="/ImgUpload/product/ProductImageMobile_22ProductImageMobile_15thanawat-teaser-m.jpg" alt="สินเชื่อกรุงไทยธนวัฏ" width="100%">
+                    </div>
+                    <div class="textblock1">
+                        <div>
+                            <div class="teaser-headline-light padhdblock1">
+                                สินเชื่อกรุงไทยธนวัฏ
+                            </div>
+                        </div>
+                        <div class="content-desc">มีเงินเดือนผ่านบัญชีกรุงไทย ก็ขอสินเชื่อเงินสดพร้อมใช้ได้ สูงสุด 15 เท่าของเงินเดือน คิดดอกเบี้ยตามจริงที่ใช้</div>
+                        <div class="btnblock1">
+                            <a href="/th/personal/loan/personal-loan//22" class="brdbuttonlong blue"    title="อ่านรายละเอียด สินเชื่อกรุงไทยธนวัฏ">
+                                <span>อ่านรายละเอียด</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <div class="block2">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="pstnctblock2">
+                        <div class="row">
+                            <div class="cloudy hidden-xs"></div>
+                            <div class="textblock2 col-md-5 col-sm-5">
+                                <div class="decor-headline head">
+                                    HOW CAN WE<br>HELP YOU?
+                                </div>
+                                <div class="section-title padhdblock2">วันนี้ให้กรุงไทยช่วยอะไรคุณดีคะ?</div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <div class="text-center">
+                                    <div class="slickblock2">
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/content/contact-us/online-services"  title="บริการออนไลน์" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_49online_service.png) center center no-repeat; background-size: cover;">บริการออนไลน์</a>
+
+
+            </div>
+            <div class="content-desc">บริการออนไลน์</div>
+        </div>
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/rates"  title="ดูอัตราและค่าธรรมเนียม" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_46money-lg-btn.png) center center no-repeat; background-size: cover;">ดูอัตราและค่าธรรมเนียม</a>
+
+
+            </div>
+            <div class="content-desc">ดูอัตราและค่าธรรมเนียม</div>
+        </div>
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/personal/cards/debit-card"  title="บัตรเดบิต กรุงไทย" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_42credit-lg-btn.png) center center no-repeat; background-size: cover;">บัตรเดบิต กรุงไทย</a>
+
+
+            </div>
+            <div class="content-desc">บัตรเดบิต กรุงไทย</div>
+        </div>
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/contact-us/others/personal/faq/transectioncode"  title="Transaction Code" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_55transaction_code.png) center center no-repeat; background-size: cover;">Transaction Code</a>
+
+
+            </div>
+            <div class="content-desc">Transaction Code</div>
+        </div>
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/personal/loan/personal-loan/"  title="สินเชื่อบุคคล" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_48personal_loan.png) center center no-repeat; background-size: cover;">สินเชื่อบุคคล</a>
+
+
+            </div>
+            <div class="content-desc">สินเชื่อบุคคล</div>
+        </div>
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/personal/loan/housing-loan/"  title="ต้องการซื้อบ้าน" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_41house-lg-btn.png) center center no-repeat; background-size: cover;">ต้องการซื้อบ้าน</a>
+
+
+            </div>
+            <div class="content-desc">ต้องการซื้อบ้าน</div>
+        </div>
+        <div class="item">
+            <div class="lightgray">
+                        <a href="/th/personal/cash-management/payment-and-top-up"  title="ชำระเงิน" style="background: url(/ImgUpload/quicklink/QuickLinkImageOver_11cash-lg-btn.png) center center no-repeat; background-size: cover;">ชำระเงิน</a>
+
+
+            </div>
+            <div class="content-desc">ชำระเงิน</div>
+        </div>
+
+
+                                    </div>
+                                    <div class="custom-nav">
+                                        <a class="prev-slide">
+                                            <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="next-slide">
+                                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block3">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="hdtextblock3">
+                            <div class="headline-w">
+                                FEATURED<br>FOR YOU
+                            </div>
+                            <div class="section-title-white padtitleblock3">เรื่องเด่นสำหรับคุณ</div>
+                        </div>
+<div class="text-center slickwrapper">
+    <div class="slickblock3 slider" data-resp-mobile-size="767" data-max-width-per="50" data-radio="0.8">
+        <div class="item" data-width-per="30">
+
+            <div class="picframe3">
+                <div class="piccell3">
+                    <div class="imagetag">
+                        <a href="/th/krungthai-update/promotion-detail/240"      title="จะฝากสั้น หรือฝากยาว ก็รับดอกเบี้ยโดนใจทั้งคู่">
+                            <img src="/ImgUpload/promotion/PromotionThumb_240665x398-pixel.jpg" class="w100p" alt="จะฝากสั้น หรือฝากยาว ก็รับดอกเบี้ยโดนใจทั้งคู่">
+                        </a>
+                        <a href="/th/krungthai-update/promotion-detail/240"    title="จะฝากสั้น หรือฝากยาว ก็รับดอกเบี้ยโดนใจทั้งคู่">
+                            <div class="tag-block">
+                                <div class="tag-info">
+                                    <div class="content-desc text-left">เงินฝากประจำพิเศษ 22 เดือน หรือ 8 เดือน</div>
+                                    <div class="content-thum-desc text-left">จะฝากสั้น หรือฝากยาว ก็รับดอกเบี้ยโดนใจทั้งคู่</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="item" data-width-per="50">
+
+            <div class="picframe3">
+                <div class="piccell3">
+                    <div class="imagetag">
+                        <a href="/th/krungthai-update/promotion-detail/232"      title="เอกสิทธิ์สำหรับผู้ถือบัตรเดบิตกรุงไทย วีซ่า">
+                            <img src="/ImgUpload/promotion/PromotionThumb_232cigna_665.jpg" class="w100p" alt="เอกสิทธิ์สำหรับผู้ถือบัตรเดบิตกรุงไทย วีซ่า">
+                        </a>
+                        <a href="/th/krungthai-update/promotion-detail/232"    title="เอกสิทธิ์สำหรับผู้ถือบัตรเดบิตกรุงไทย วีซ่า">
+                            <div class="tag-block">
+                                <div class="tag-info">
+                                    <div class="content-desc text-left">เที่ยวสบาย หายห่วง รับฟรี ประกันภัยการเดินทาง</div>
+                                    <div class="content-thum-desc text-left">เอกสิทธิ์สำหรับผู้ถือบัตรเดบิตกรุงไทย วีซ่า</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="item" data-width-per="30">
+
+            <div class="picframe3">
+                <div class="piccell3">
+                    <div class="imagetag">
+                        <a href="/th/krungthai-update/promotion-detail/242"      title="ตั้งแต่ 11 กรกฎาคม 2562 เป็นต้นไป">
+                            <img src="/ImgUpload/promotion/PromotionThumb_242pay_lottery_through_Krungthai_ATM_665.jpg" class="w100p" alt="ตั้งแต่ 11 กรกฎาคม 2562 เป็นต้นไป">
+                        </a>
+                        <a href="/th/krungthai-update/promotion-detail/242"    title="ตั้งแต่ 11 กรกฎาคม 2562 เป็นต้นไป">
+                            <div class="tag-block">
+                                <div class="tag-info">
+                                    <div class="content-desc text-left">ชำระค่าซื้อ-จองล่วงหน้าสลากกินแบ่งรัฐบาล (โควตา) ผ่าน ATM กรุงไทย</div>
+                                    <div class="content-thum-desc text-left">ตั้งแต่ 11 กรกฎาคม 2562 เป็นต้นไป</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="item" data-width-per="50">
+
+            <div class="picframe3">
+                <div class="piccell3">
+                    <div class="imagetag">
+                        <a href="/th/krungthai-update/promotion-detail/241"      title="เลือกแลกรับบัตรกำนัลได้ตามใจคุณ">
+                            <img src="/ImgUpload/promotion/PromotionThumb_241visa_665.jpg" class="w100p" alt="เลือกแลกรับบัตรกำนัลได้ตามใจคุณ">
+                        </a>
+                        <a href="/th/krungthai-update/promotion-detail/241"    title="เลือกแลกรับบัตรกำนัลได้ตามใจคุณ">
+                            <div class="tag-block">
+                                <div class="tag-info">
+                                    <div class="content-desc text-left">กิน ช้อป เที่ยว สุดคุ้ม กับบัตรเดบิตกรุงไทย วีซ่า</div>
+                                    <div class="content-thum-desc text-left">เลือกแลกรับบัตรกำนัลได้ตามใจคุณ</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="item" data-width-per="30">
+
+            <div class="picframe3">
+                <div class="piccell3">
+                    <div class="imagetag">
+                        <a href="/th/krungthai-update/promotion-detail/238"      title="เสนอขายแก่ผู้ลงทุนทั่วไป และ/หรือ ผู้ลงทุนสถาบัน">
+                            <img src="/ImgUpload/promotion/PromotionThumb_238New665x398.jpg" class="w100p" alt="เสนอขายแก่ผู้ลงทุนทั่วไป และ/หรือ ผู้ลงทุนสถาบัน">
+                        </a>
+                        <a href="/th/krungthai-update/promotion-detail/238"    title="เสนอขายแก่ผู้ลงทุนทั่วไป และ/หรือ ผู้ลงทุนสถาบัน">
+                            <div class="tag-block">
+                                <div class="tag-info">
+                                    <div class="content-desc text-left">หุ้นกู้ไม่มีประกันของบริษัท แสนสิริ จำกัด (มหาชน) ครั้งที่ 3/2562</div>
+                                    <div class="content-thum-desc text-left">เสนอขายแก่ผู้ลงทุนทั่วไป และ/หรือ ผู้ลงทุนสถาบัน</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="item" data-width-per="50">
+
+            <div class="picframe3">
+                <div class="piccell3">
+                    <div class="imagetag">
+                        <a href="/th/krungthai-update/promotion-detail/243"      title="ฟรี ค่าส่ง 30 บาท เมื่อช้อปครบ 500 บาทที่ Shopee">
+                            <img src="/ImgUpload/promotion/PromotionThumb_243shopping_VISA_debit_665.jpg" class="w100p" alt="ฟรี ค่าส่ง 30 บาท เมื่อช้อปครบ 500 บาทที่ Shopee">
+                        </a>
+                        <a href="/th/krungthai-update/promotion-detail/243"    title="ฟรี ค่าส่ง 30 บาท เมื่อช้อปครบ 500 บาทที่ Shopee">
+                            <div class="tag-block">
+                                <div class="tag-info">
+                                    <div class="content-desc text-left">ช้อปสนุก บัตรเดบิตกรุงไทย วีซ่า</div>
+                                    <div class="content-thum-desc text-left">ฟรี ค่าส่ง 30 บาท เมื่อช้อปครบ 500 บาทที่ Shopee</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div class="btnblock3 text-center">
+        <a href="/th/krungthai-update/promotion" class="brdbuttonlong white"     title="ดูทั้งหมด">
+            <span>ดูทั้งหมด</span>
+        </a>
+    </div>
+</div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="block4">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="titleblock14">
+                            <div class="cloudy2 hidden-xs"></div>
+                            <div class="hdtitleblock14 decor-headline">
+                                EXCHANGE<br>RATES
+                            </div>
+                            <div class="subtitleblock14 section-title">อัตราแลกเปลี่ยน</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+<div class="row">
+    <div class="col-md-9 col-sm-12 col-xs-12 text-center bgtitleblock4">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4 tbtitleblock4 content-desc">สกุลเงิน</div>
+            <div class="col-md-4 col-sm-4 col-xs-4 tbtitleblock4 content-desc">ราคารับซื้อ</div>
+            <div class="col-md-4 col-sm-4 col-xs-4 tbtitleblock4 content-desc">ราคาขาย</div>
+        </div>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">
+                    <img src="/dist/resources/images/personal/usd.jpg" alt="USD">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">USD</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">30.43</div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">31.05</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">
+                    <img src="/dist/resources/images/personal/gbp.jpg" alt="GBP">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">GBP</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">37.69</div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">39.12</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">
+                    <img src="/dist/resources/images/personal/eur.jpg" alt="EUR">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">EUR</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">34.01</div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">35.03</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">
+                    <img src="/dist/resources/images/personal/jpy.jpg" alt="JPY">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">JPY</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">0.2807</div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">0.2914</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">
+                    <img src="/dist/resources/images/personal/hkd.jpg" alt="HKD">
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 attrtbblock4 content-desc">HKD</div>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">3.85</div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-4 text-center">
+            <div class="attrtbblock4 content-desc">4.02</div>
+        </div>
+    </div>
+<div class="row">
+    <div class="col-md-5 col-sm-7 col-xs-6 text-left">
+        <div class="remarktbblock4 content-remarks gray">อัพเดทล่าสุด 22/07/2562 16:07</div>
+    </div>
+    <div class="col-md-4 col-sm-5 col-xs-6 text-right">
+        <div class="remarktbblock4 txtreadall4">
+            
+            <a href="https://www.exch.ktb.co.th/exchangerate" target="_blank" id="excounterrates" class="brandarrowlink" title="ดูทั้งหมด"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i> ดูทั้งหมด</a>
+ </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-9 col-sm-12 col-xs-12">
+        <div class="beautyline2"></div>
+    </div>
+</div>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="titleblock24">
+                            <div class="hdtitleblock24 decor-headline">
+                                KRUNGTHAI<br>UPDATES
+                            </div>
+                            <div class="subtitleblock24 section-title">อัพเดทเรื่องล่าสุดจากเรา</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+<div class="slideblock4 col-md-12">
+    <div class="text-center">
+        <div class="slickblock4">
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/396" title="กรุงไทยโชว์กำไรไตรมาส 2 โต 6% ครึ่งปีแรกกำไรสุทธิ 15,471 ล้านบาท">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_396ceo.jpg" class="w100p" alt="กรุงไทยโชว์กำไรไตรมาส 2 โต 6% ครึ่งปีแรกกำไรสุทธิ 15,471 ล้านบาท">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/396"     title="กรุงไทยโชว์กำไรไตรมาส 2 โต 6% ครึ่งปีแรกกำไรสุทธิ 15,471 ล้านบาท">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 19 ก.ค. 2562</div>
+                                <div class="content-thum-desc">กรุงไทยโชว์กำไรไตรมาส 2 โต 6% ครึ่งปีแรกกำไรสุทธิ 15,471 ล้านบาท</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/395" title="กรุงไทยโชว์นวัตกรรมในงาน Bangkok Fintech Fair 2019">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_395news_inno_roadshow.jpg" class="w100p" alt="กรุงไทยโชว์นวัตกรรมในงาน Bangkok Fintech Fair 2019">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/395"     title="กรุงไทยโชว์นวัตกรรมในงาน Bangkok Fintech Fair 2019">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 18 ก.ค. 2562</div>
+                                <div class="content-thum-desc">กรุงไทยโชว์นวัตกรรมในงาน Bangkok Fintech Fair 2019</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/394" title="กรุงไทยนำ Fintech เชื่อมโยง 5 Ecosystems ยกระดับการให้บริการ">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_394NewsUpdateThumb.jpg" class="w100p" alt="กรุงไทยนำ Fintech เชื่อมโยง 5 Ecosystems ยกระดับการให้บริการ">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/394"     title="กรุงไทยนำ Fintech เชื่อมโยง 5 Ecosystems ยกระดับการให้บริการ">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 18 ก.ค. 2562</div>
+                                <div class="content-thum-desc">กรุงไทยนำ Fintech เชื่อมโยง 5 Ecosystems ยกระดับการให้บริการ</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/quick-announcement-detail" title="ธนาคารปิดจุดบริการ/สาขาชั่วคราว ขออภัยในความไม่สะดวก">
+                            <img src="/Download/media/custom/PICTURE/BranchEmer/emer_card.jpg" class="w100p" alt="ธนาคารปิดจุดบริการ/สาขาชั่วคราว ขออภัยในความไม่สะดวก">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/quick-announcement-detail"     title="ธนาคารปิดจุดบริการ/สาขาชั่วคราว ขออภัยในความไม่สะดวก">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ประกาศ - 17 ก.ค. 2562</div>
+                                <div class="content-thum-desc">ธนาคารปิดจุดบริการ/สาขาชั่วคราว ขออภัยในความไม่สะดวก</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/393" title="กรุงไทยเปิดตัว Krungthai Connext  บริการแจ้งเตือนเงินเข้า-ออกบัญชีผ่านไลน์ โดยไม่มีค่าธรรมเนียม">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_393News_Connext.jpg" class="w100p" alt="กรุงไทยเปิดตัว Krungthai Connext  บริการแจ้งเตือนเงินเข้า-ออกบัญชีผ่านไลน์ โดยไม่มีค่าธรรมเนียม">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/393"     title="กรุงไทยเปิดตัว Krungthai Connext  บริการแจ้งเตือนเงินเข้า-ออกบัญชีผ่านไลน์ โดยไม่มีค่าธรรมเนียม">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 17 ก.ค. 2562</div>
+                                <div class="content-thum-desc">กรุงไทยเปิดตัว Krungthai Connext  บริการแจ้งเตือนเงินเข้า-ออกบัญชีผ่านไลน์ โดยไม่มีค่าธรรมเนียม</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/392" title="กรุงไทย NEXT บุกอุบลราชธานี ตลอด 6 วัน 6 คืน ส่งเวียร์-ศุกลวัฒน์ ร่วมงานประเพณีแห่เทียนพรรษา">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_392News_next_ubol_0.jpg" class="w100p" alt="กรุงไทย NEXT บุกอุบลราชธานี ตลอด 6 วัน 6 คืน ส่งเวียร์-ศุกลวัฒน์ ร่วมงานประเพณีแห่เทียนพรรษา">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/392"     title="กรุงไทย NEXT บุกอุบลราชธานี ตลอด 6 วัน 6 คืน ส่งเวียร์-ศุกลวัฒน์ ร่วมงานประเพณีแห่เทียนพรรษา">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 17 ก.ค. 2562</div>
+                                <div class="content-thum-desc">กรุงไทย NEXT บุกอุบลราชธานี ตลอด 6 วัน 6 คืน ส่งเวียร์-ศุกลวัฒน์ ร่วมงานประเพณีแห่เทียนพรรษา</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/announcement-detail/391" title="กรุงไทยขอแจ้งเปลี่ยนอีเมลของบริการ Talk to net officer">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_391bank-krungthai.jpg" class="w100p" alt="กรุงไทยขอแจ้งเปลี่ยนอีเมลของบริการ Talk to net officer">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/announcement-detail/391"     title="กรุงไทยขอแจ้งเปลี่ยนอีเมลของบริการ Talk to net officer">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ประกาศ - 15 ก.ค. 2562</div>
+                                <div class="content-thum-desc">กรุงไทยขอแจ้งเปลี่ยนอีเมลของบริการ Talk to net officer</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/390" title="ข่าวประชาสัมพันธ์ กรุงไทยร่วมบันทึกเทปถวายพระพร">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_390News_Bless_King.jpg" class="w100p" alt="ข่าวประชาสัมพันธ์ กรุงไทยร่วมบันทึกเทปถวายพระพร">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/390"     title="ข่าวประชาสัมพันธ์ กรุงไทยร่วมบันทึกเทปถวายพระพร">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 9 ก.ค. 2562</div>
+                                <div class="content-thum-desc">ข่าวประชาสัมพันธ์ กรุงไทยร่วมบันทึกเทปถวายพระพร</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="ctblock4">
+                <div class="imgtag">
+                    <div class="picblock4">
+                        <a href="/th/krungthai-update/news-detail/389" title="จัดกิจกรรมให้ลูกค้า ชมภาพยนตร์ฟอร์มยักษ์">
+                            <img src="/ImgUpload/news/NewsUpdateThumb_389Nextclusive_spider_0.jpg" class="w100p" alt="จัดกิจกรรมให้ลูกค้า ชมภาพยนตร์ฟอร์มยักษ์">
+                        </a>
+                    </div>
+                    <a href="/th/krungthai-update/news-detail/389"     title="จัดกิจกรรมให้ลูกค้า ชมภาพยนตร์ฟอร์มยักษ์">
+                        <div class="tag-block">
+                            <div class="tag-info content-desc text-left">
+                                <div class="content-desc">ข่าวสาร - 8 ก.ค. 2562</div>
+                                <div class="content-thum-desc">จัดกิจกรรมให้ลูกค้า ชมภาพยนตร์ฟอร์มยักษ์</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <div class="btnblock4 text-center" style="padding-bottom: 20px;">
+            <a href="/th/krungthai-update" class="brdbuttonlong white"      title="ดูทั้งหมด">
+                <span>ดูทั้งหมด</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="block5">
+        <div class="wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="textblock2 col-md-12">
+                        <div class="text-center hdtitleblock5">
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+    <div id="footer">
+ <div id="ktb-footer">
+     <!--googleoff: index-->
+    <div class="wrapper">
+        <div class="container-fluid footerset1">
+            <div class="row">
+                <div class="col-md-5 clearfix paneltop">
+                    <div class="together-logo">
+                        <a href="#" title="KRUNGTHAI LIVE SMART">
+                            <img src="/dist/resources/images/share/krungthai_live_smart.png" class="w100p" alt="KRUNGTHAI LIVE SMART">
+                        </a>
+                    </div>
+                    <div class="ktbtel">
+                        <div class="icontel">
+                            <a href="tel:021111111" title="Call Center">
+                                <img src="/dist/resources/images/share/mobile-footer-icon.png" class="w100p" alt="Call Center">
+                            </a>
+                        </div>
+                        <div class="txt">
+                            <a href="tel:021111111" title="Call Center">
+                                <span class="line1">Call Center</span>
+                                <span class="line2">02 111 1111</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="frameform" style="border-right:none">
+                        <div class="txtshare">พบกับเราได้ที่</div>
+                        <div class="sharebtn">
+                            <ul class="followsocial">
+                                <li>
+                                    <a href="https://www.facebook.com/krungthaibank/" class="fblink" title="Facebook" target="_blank">Facebook</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.ktb.co.th/th/content/line-official" class="lnlink" title="Line" target="_blank">Line</a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Krungthai_Care" class="twlink" title="Twitter" target="_blank">Twitter</a>               
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/krungthai_care/" class="iglink" title="Instagram" target="_blank">Instagram</a>
+                                </li>  
+                                <li>
+                                    <a href="http://www.youtube.com/ktbcare" class="ytlink" title="Youtube" target="_blank">Youtube</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 clearfix">
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footerset2">
+            <div class="row">
+<div class="row">
+	<div class="col-md-3">
+		<ul class="footerlv1">
+			<li>
+				<a href="javascript:openfooter(0);" title="ความยั่งยืน"><strong>ความยั่งยืน </strong><i aria-hidden="true" class="fa fa-plus"></i></a>
+				<ul class="footerlv2">
+					<li>
+						<a href="/th/about-ktb/sustainable-integration/sustainable-strategy" title="การดำเนินการเพื่อความยั่งยืน">การดำเนินการเพื่อความยั่งยืน</a></li>
+					<li>
+						<a href="/th/about-ktb/sustainability/economic" title="มิติเศรษฐกิจ">มิติเศรษฐกิจ</a></li>
+					<li>
+						<a href="/th/about-ktb/sustainability/social" title="มิติสังคม">มิติสังคม</a></li>
+					<li>
+						<a href="/th/about-ktb/sustainability/environment" title="มิติสิ่งแวดล้อม">มิติสิ่งแวดล้อม</a></li>
+					<li>
+						<a href="/th/about-ktb/sustainability/csr-project" title="โครงการ CSR">โครงการ CSR</a></li>
+					<li>
+						<a href="/th/about-ktb/sustainability/csr-news" title="ข่าว CSR">ข่าว CSR</a></li>
+					<li>
+						<a href="/th/about-ktb/sustainability/sustainability-reports" title="รายงานความยั่งยืน">รายงานความยั่งยืน</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul class="footerlv1">
+			<li>
+				<a href="javascript:openfooter(1);" title="สมัครงานและทุน"><strong>สมัครงานและทุน</strong><i aria-hidden="true" class="fa fa-plus"></i></a>
+				<ul class="footerlv2">
+					<li>
+						<a href="/th/about-ktb/career-and-scholarships/career">ร่วมงานกับกรุงไทย</a></li>
+					<li>
+						<a href="/th/about-ktb/career-and-scholarships/scholarships">ทุนการศึกษา</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="footerlv1">
+			<li>
+				<a href="javascript:openfooter(2);" title="Krungthai Update"><strong>Krungthai Update</strong><i aria-hidden="true" class="fa fa-plus"></i></a>
+				<ul class="footerlv2">
+					<li>
+						<a href="/th/krungthai-update/news?type=news" title="ข่าวสาร">ข่าวสาร</a></li>
+					<li>
+						<a href="/th/krungthai-update/news?type=annoucement" title="ประกาศ">ประกาศ</a></li>
+					<li>
+						<a href="/th/krungthai-update/promotion" title="เรื่องเด่น">เรื่องเด่น</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul class="footerlv1">
+			<li>
+				<a href="javascript:openfooter(3);" title="อื่นๆ"><strong>อื่นๆ</strong><i aria-hidden="true" class="fa fa-plus"></i></a>
+				<ul class="footerlv2">
+					<li>
+						<a href="/th/rates" title="อัตราและค่าธรรมเนียม">อัตราและค่าธรรมเนียม</a></li>
+					<li>
+						<a href="/th/content/contact-us/properties-for-sale" title="ทรัพย์สินพร้อมขาย">ทรัพย์สินพร้อมขาย</a></li>
+					<li>
+						<a href="/th/contact-us/others/personal/faq" title="คำถามที่พบบ่อย">คำถามที่พบบ่อย</a></li>
+					<li>
+						<a href="/th/contact-us/others/personal/downloads" title="ดาวน์โหลด">ดาวน์โหลด</a></li>
+					<li>
+						<a href="/th/krungthai-update/announcement-detail/18" title="ดาวน์โหลด">ระยะเวลาการให้บริการ (SLA)</a></li>
+					<li>
+						<a href="/th/content/contact-us/recommended-website">แนะนำเว็บไซต์</a></li>
+					<li>
+						<a href="/th/content/contact-us/disclaimer">เงื่อนไขการใช้งานเว็บไซต์</a></li>
+					<!-- <li><a href="#" title="จัดซื้อจัดจ้าง">จัดซื้อจัดจ้าง</a></li> -->
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul class="footerlv1">
+			<li>
+				<a href="javascript:openfooter(4);" title="ติดต่อเรา"><strong>ติดต่อเรา</strong><i aria-hidden="true" class="fa fa-plus"></i></a>
+				<ul class="footerlv2">
+					<li>
+						<a href="/th/contact-us/ktb-location" title="จุดให้บริการ Krungthai">จุดให้บริการ Krungthai</a></li>
+					<li>
+						<a href="/th/contact-us/foreign-branch" title="สาขาต่างประเทศ">สาขาต่างประเทศ</a></li>
+					<li>
+						<a href="/th/content/contact-us" title="ติดต่อเรา">ติดต่อเรา</a></li>
+					<li>
+						<a href="https://www.cb.ktb.co.th/complaint/customer/default.aspx" target="_blank" title="แนะนำติชม">แนะนำติชม</a></li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="footerlv1">
+			<li>
+				<a href="javascript:openfooter(5);" title="เปิดเผยข้อมูล"><strong>เปิดเผยข้อมูล</strong><i aria-hidden="true" class="fa fa-plus"></i></a>
+				<ul class="footerlv2">
+					<li>
+						<a href="https://www.ktb.co.th/th/content/about-ktb/ita" target="_blank">การประเมินคุณธรรมและความโปร่งใสฯ (ITA)</a></li>
+					<li>
+						<a href="https://eprocurement.ktb.co.th/procureweb/content.htm" target="_blank">ประกาศจัดหาพัสดุ / ราคากลาง</a></li>
+					<li>
+						<a href="https://eprocurement.ktb.co.th/supregis/login.aspx" target="_blank">ระบบงานทะเบียนผู้ค้า</a></li>
+					<li>
+						<a href="http://www.oic.go.th/infocenter5/560/" target="_blank">ศูนย์ข้อมูลข่าวสาร</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+<p>
+</p>
+            </div>
+        </div>
+        <div class="container-fluid footerset3">
+            <div class="l1 text-center">เว็บไซต์นี้แสดงผลได้ดีบนเบราว์เซอร์ Chrome Firefox Safari และ Internet Explorer เวอร์ชั่น 11 ขึ้นไป</div>
+            <div class="l1 text-center">สงวนสิทธิ์ พ.ศ. 2561 บมจ. ธนาคารกรุงไทย <span class="sp1">|</span> <span class="sp2"><br /></span> SWIFT CODE : krththbk</div>
+            
+        </div>
+        <div class="container-fluid footerset4" id="cookie_consent_popup" style="display:none;">
+            <div class="row">
+                <div class="col-md-12 text-right" title="Close"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 consent_message">นโยบายการเก็บข้อมูลคุกกี้ของผู้ใช้ (Cookie Policy) เพื่อประโยชน์ในการพัฒนาให้เว็บไซต์รองรับการใช้งานของท่านได้ดียิ่งขึ้น ทางเราจะมีการเก็บข้อมูลการใช้งานบนเว็บไซต์ (Cookie)  โดยการเข้าชมเว็บไซต์นี้ ถือว่าท่านตกลงยอมรับในนโยบายความเป็นส่วนตัวนี้ <a href="/th/content/contact-us/disclaimer">อ่านรายละเอียด</a></div>
+                <div class="col-md-2 "><button class="brdbuttonlong blue" id="consent_ok"><span>ตกลง</span></button></div>
+            </div>
+        </div>
+
+    </div>
+     <!--googleon: index-->
+</div>    
+    </div>
+
+    
+
+<script type="text/javascript" src="/dist/vendors/jquery/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/dist/vendors/jquery/jquery-migrate-1.4.1.min.js"></script>
+<script type="text/javascript" src="/dist/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/dist/vendors/html5/respond.min.js"></script>
+<script type="text/javascript" src="/dist/vendors/html5/html5shiv.js"></script>
+<script type="text/javascript" src="/dist/vendors/slick/slick.min.js"></script>
+<script type="text/javascript" src="/dist/vendors/lity/lity.js"></script>
+<script type="text/javascript" src="/dist/resources/js/script.js"></script>
+<script type="text/javascript" src="/Scripts/ktb-custom.js"></script>
+<script type="text/javascript" src="/Scripts/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/Scripts/ktb-next.js?update=2562082307"></script>
+
+    <script>
+        $(function () {
+            initglobal();
+            bindmobilemenu();
+            loop();
+            loop2();
+            getLang();
+        });
+
+        /*----------------------animate cloud-------------------------------*/
+
+        function loop() {
+            $('.block2 .cloudy').animate({ 'bottom': 25 }, {
+                duration: 1500,
+                complete: function () {
+                    $('.block2 .cloudy').animate({ 'bottom': 0 }, {
+                        duration: 1500,
+                        complete: loop
+                    });
+                }
+            });
+        }
+        function loop2() {
+            $('.block4 .cloudy2').animate({ 'bottom': 0 }, {
+                duration: 1500,
+                complete: function () {
+                    $('.block4 .cloudy2').animate({ 'bottom': 25 }, {
+                        duration: 1500,
+                        complete: loop2
+                    });
+                }
+            });
+        }
+
+        function getLang() {
+
+            var pathUrl = window.location.href;
+            var findLang = pathUrl.search("/en/");
+
+            if (findLang > 0) { //EN
+
+                // ***** _FooterBranchContract.cshtml *****
+                $("#divFindFooterEN").show();
+                $("#divFindFooterTH").hide();
+                // ****************************************
+            }
+            else { //TH
+
+                // ***** _FooterBranchContract.cshtml *****
+                $("#divFindFooterEN").hide();
+                $("#divFindFooterTH").show();
+                // ****************************************
+
+            }
+        }
+
+    </script>
+    
+    <script type="text/javascript">
+        openheaderlv1('set1');
+ </script>
+
+
+    
+        <script type="text/javascript" src="/Download/Media/custom/JS/special.js?update=23072562040807"></script>
+
+
+
+
+</body>
+
+</html>

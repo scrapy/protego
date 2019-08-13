@@ -1,0 +1,47 @@
+Sitemap: https://www.nejm.org/sitemap_index_mms-site__19691231160000_19710422124908__1563782404257.xml
+User-agent: Sosospider
+Disallow: /
+
+User-agent: *
+Disallow: /action
+Disallow: /help
+Disallow: /search
+Disallow: /feedback
+Disallow: /rss
+Disallow: /action/clickThrough
+Disallow: /action/showLogin
+Disallow: /page/account-confirmation-thanks
+Disallow: /media
+Disallow: /servlet/linkout
+Disallow: /author/
+Allow: /action/showJournal
+Allow: /action/showPublications
+Allow: /action/showXml
+Allow: /media-center/
+Allow: /series
+Allow: /isbn
+Allow: /doi/book
+
+User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
+User-agent: Googlebot
+Disallow: /action
+Disallow: /help
+Disallow: /search
+Disallow: /feedback
+Disallow: /rss
+Disallow: /action/clickThrough
+Disallow: /action/showLogin
+Disallow: /page/account-confirmation-thanks
+Disallow: /media
+Disallow: /servlet/linkout
+Disallow: /author
+Allow: /action/showJournal
+Allow: /action/showPublications
+Allow: /action/showXml
+Allow: /media-center/
+Allow: /series
+Allow: /isbn
+Allow: /doi/book
+Allow: /action/sso
+

@@ -1,0 +1,9 @@
+Sitemap: https://doaj.org/sitemap.xml
+
+User-agent: *
+Disallow: /search/
+Disallow: /query/
+Disallow: /account/
+Disallow: /admin/
+Disallow: /editor/
+Disallow: /publisher/

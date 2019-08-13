@@ -1,0 +1,46 @@
+# robots.txt for https://www.bigcommerce.com/
+User-agent: deepcrawl
+Disallow: /
+User-agent: *
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+Disallow: /mojocheck/
+Disallow: /split/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /hub/
+Disallow: /comment/reply/
+Disallow: /*filter=
+Disallow: /?filter=
+Disallow: /comment/
+Disallow: /*price=
+Disallow: /?price=
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/
+Disallow: /lp
+# Paths (Don't index any unclean paths)
+Disallow: /?q=
+Disallow: /?s=
+Disallow: /?marketplaceCosts=
+Sitemap: https://www.bigcommerce.com/sitemaps/sitemap-index.xml
+Sitemap: https://www.bigcommerce.com/blog/sitemap_index.xml

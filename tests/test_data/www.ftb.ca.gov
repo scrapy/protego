@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /forms/archive
+Disallow: /tax-pros/ask-a-legal-expert.asp

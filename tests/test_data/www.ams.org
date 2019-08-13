@@ -1,0 +1,123 @@
+## robots.txt for http://www.ams.org/ ##
+## To block pages from search results, use methods such as password protection or noindex tags or directives ##
+## https://developers.google.com/search/reference/robots_txt ##
+
+## SITEMAPS ##
+Sitemap: http://www.ams.org/sitemap.xml
+Sitemap: http://www.ams.org/sitemap_news.xml
+Sitemap: http://www.ams.org/sitemapindex.xml
+
+## SPECIFICALLY ALLOW ##
+
+## Allow Google to get our news RSS feed ##
+User-agent: Googlebot
+Allow: /cgi-bin/content/news_items.cgi?rss=1
+
+## Allow so Google can get lists of issues ##
+Allow: /jourcgi
+
+## SPECIFICALLY DISALLOW THESE AGENTS ##
+
+User-agent: Slurp
+Disallow: /mathscinet-getitem/
+
+User-agent: Baiduspider
+Disallow: /
+
+## SPECIFICALLY DISALLOW ALL AGENTS FROM THE FOLLOWING AREAS ##
+
+User-agent: *
+
+## JOURNALS ##
+Disallow: /distribution/
+Disallow: /editflow/ 
+Disallow: /cgi-bin/peerdemo/
+Disallow: /peertrack/
+Disallow: /ams/web/peer_review/bull/
+Disallow: /jour-getitem/
+Disallow: /journal-getitem/
+Disallow: /joursearch/
+Disallow: /peer-review/
+Disallow: /submit-book-journal/
+Disallow: /peerdomo/
+
+## MATHSCINET ##
+Disallow: /leavingmsn/
+Disallow: /msnpdf/
+Disallow: /mathscinet-docdelivery/
+Disallow: /mathscinet-relay/
+Disallow: /mathscinet/
+Disallow: /mathscinet/addclip.html
+Disallow: /msnhtml/
+Disallow: /mathscinet-getauth
+Disallow: /mref/
+Disallow: /batchmref/
+Disallow: /msdemo/
+Disallow: /cgi-bin/msdemo/
+Disallow: /msnmain
+Disallow: /mrlookup/
+Disallow: /batchmrlookup/
+Disallow: /mathscinet-getitem/
+Disallow: /mresub/
+
+## BOOKS AND BOOKSTORE ##
+Disallow: /online_bks/
+Disallow: /bookexpress
+Disallow: /amsbookstore
+Disallow: /amsshop
+
+## PRIVATE ##
+Disallow: /ecbt/
+Disallow: /treas-reports/
+Disallow: /ams/staffdirectory.html
+Disallow: /investcom/
+Disallow: /prof-services/nsa/
+Disallow: /ebc-private/bboard2002/
+Disallow: /vendor-info/
+Disallow: /bboards/
+
+## CML ##
+Disallow: /cml/
+Disallow: /cml-lookup/
+Disallow: /cml*
+Disallow: /member-getitem*
+Disallow: /member-directory
+
+## STIX ##
+Disallow: /STIX/
+Disallow: /STIX/images/
+Disallow: /STIX/ion/Univ/
+
+## PAO ##
+Disallow: /ams/press/
+
+## MEETINGS ##
+Disallow: /amsmtgs/2124_abstracts/1056-30-23.pdf
+Disallow: /meetings/national/jmm/2124_abstracts/1056-30-23.pdf
+
+## ANNUAL SURVEY ##
+Disallow: /profession/data/annual-survey/AS-Committee/
+
+## PROFESSIONAL SERVICES ##
+Disallow: /prof-services/
+
+## MISCELLANEOUS ##
+Disallow: /ftp/
+Disallow: /delete/
+Disallow: /cgi-bin
+Disallow: /testing/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

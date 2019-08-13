@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /aspnet_client/
+Disallow: /bin/
+Disallow: /config/
+Disallow: /data/
+Disallow: /install/
+Disallow: /macroScripts/
+Disallow: /masterpages/
+Disallow: /umbraco/
+Disallow: /umbraco_client/
+Disallow: /usercontrols/
+Disallow: /xslt/

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /panelshop/*
+Disallow: /search
+User-agent: Googlebot-News
+Disallow: /owner-reviews/*
+Sitemap: https://www.caradvice.com.au/sitemap.xml
+Sitemap: https://www.caradvice.com.au/sitemap-v8.xml

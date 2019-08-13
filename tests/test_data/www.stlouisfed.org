@@ -1,0 +1,12 @@
+Sitemap: https://www.stlouisfed.org/sitemap.xml
+Sitemap: sitemap.xml
+
+User-Agent: *
+Disallow: /email/
+Disallow: /emailpages/
+Disallow: /education/2014-ap-economics-conference
+Disallow: /education/2015-ap-economics-conference
+Disallow: /~/media/Education/Presentations/Kwan-Teaching-Market-Structures-2015-AP.pdf
+Disallow: /~/media/Education/Presentations/Vandenbroucke-Exchange-Rates-2015-AP.pdf
+Disallow: /~/media/Education/Presentations/Vandenbroucke-The-Money-Market-2015-AP.pdf
+Disallow: /~/media/Education/Presentations/2015-AP-Macro-College-Board-Outline.pdf

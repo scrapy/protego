@@ -1,0 +1,26 @@
+
+# This document prevents compliant search engines from indexing, retrieving and displaying DE 1101 I files used only by the eApply4UI application.
+
+
+User-agent: *
+Disallow: /ssi/
+Disallow: /VPOS/
+Disallow: /pdf_pub_ctr/de1101i.pdf
+Disallow: /pdf_pub_ctr/de1101ia.pdf
+Disallow: /pdf_pub_ctr/de1101iab.pdf
+Disallow: /pdf_pub_ctr/de1101ib.pdf
+Disallow: /pdf_pub_ctr/de1101id.pdf
+Disallow: /pdf_pub_ctr/de1101iad.pdf
+Disallow: /pdf_pub_ctr/de1101iabd.pdf
+Disallow: /pdf_pub_ctr/de1101ibd.pdf
+Disallow: /pdf_pub_ctr/de1101is.pdf
+Disallow: /pdf_pub_ctr/de1101ias.pdf
+Disallow: /pdf_pub_ctr/de1101iabs.pdf
+Disallow: /pdf_pub_ctr/de1101ibs.pdf
+Disallow: /pdf_pub_ctr/de1101ids.pdf
+Disallow: /pdf_pub_ctr/de1101iads.pdf
+Disallow: /pdf_pub_ctr/de1101iabds.pdf
+Disallow: /pdf_pub_ctr/de1101ibds.pdf
+Disallow: /pdf_pub_ctr/default.htm
+Disallow: /payroll_tax_seminars/Payroll_Tax_Seminars_Error.aspx
+Disallow: /payroll_tax_seminars/View_Spanish_Seminars.aspx

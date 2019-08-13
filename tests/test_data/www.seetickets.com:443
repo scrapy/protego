@@ -1,0 +1,9 @@
+user-agent: *
+allow: /artist/beret/1314430
+allow: /artist/david-bisbal/612305
+allow: /artist/tego-calder-n/116037
+allow: /artist/ana-guerra/1446046
+disallow: /artist/
+disallow: /Artist/
+disallow: /content/tandcs-usa
+sitemap: https://static.seetickets.com/Content/Sitemaps/16/sitemap.xml

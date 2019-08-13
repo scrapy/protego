@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /_search
+Disallow: /_add
+Disallow: /_api
+
+User-agent: msnbot
+Crawl-delay: 1
+
+User-agent: Slurp
+Crawl-delay: 1
+
+User-agent: Yandex
+Crawl-delay: 1
+
+User-agent: BLEXBot
+Crawl-delay: 1
+
+User-agent: grapeshot
+Crawl-delay: 0.5

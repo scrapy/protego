@@ -1,0 +1,27 @@
+User-Agent: *
+Crawl-Delay: 5
+Disallow: /we-want-to-help
+Disallow: /search
+Disallow: /site/features/*
+Disallow: /search/results/*
+Disallow: /kb/results/*
+Disallow: /technical-review/*
+Disallow: /tutorials/*
+Disallow: /site/ads/*
+Disallow: /blazing-fast-abantecart-hosting
+Disallow: /website-x5-professional-hosting
+Disallow: /werc-wordpress-hosting
+Disallow: /imbay-wordpress-meetup-hosting
+Disallow: /free-migration-switch-to-more-reliable-hosting-now
+Disallow: /wp-reviews-wordpress-hosting
+Disallow: /promotions/attracta-promo
+Disallow: /swete-admin/*
+Disallow: /https:/*
+Disallow: /http:/*
+Disallow: /ad/*
+Sitemap: https://www.a2hosting.com/xml-sitemap
+Sitemap: http://blog.a2hosting.com/blog/sitemap_index.xml
+
+User-Agent: AhrefsBot
+Crawl-Delay: 15
+Disallow: /reviews/*

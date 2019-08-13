@@ -1,0 +1,7 @@
+# /robots.txt file for Yahoo
+
+User-agent: Slurp
+Crawl-delay: 300
+
+User-agent: *
+Disallow: /download/

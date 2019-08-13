@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /Components/
+Disallow: /sitecore/
+Disallow: /Layout/
+Disallow: /layouts/
+Disallow: /*/sitecore/content/

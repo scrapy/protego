@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Disallow: /environments/
+
+# Buscador do Google:
+User-agent: Googlebot
+Allow: /
+
+# Google Imagens:
+User-agent: Googlebot-Image
+Allow: /
+
+# Sites Parceiros do Google:
+User-agent: Mediapartners-Google
+Disallow: /
+
+# Google Ads:
+User-agent: Adsbot-Google
+Disallow: /
+
+# Google Ads para Aplicativos Mobile:
+User-agent: AdsBot-Google-Mobile-Apps
+Disallow: /
+
+# Google Notícias:
+User-agent: Googlebot-News
+Allow: /
+
+# Youtube:
+User-agent: Googlebot-Video
+Allow: /
+
+# Google Ads Mobile:
+User-agent: AdsBot-Google-Mobile
+Disallow: /

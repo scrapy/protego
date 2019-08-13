@@ -1,0 +1,30 @@
+User-Agent: *
+Sitemap: https://www.qut.edu.au/sitemaps/index.xml
+Disallow: /staff/
+Disallow: /student/
+Disallow: /corpsite/
+Disallow: /orientation
+Disallow: /study/structures
+Disallow: /study/structures/*
+Disallow: /admin*
+Disallow: /study/unit/outline
+Disallow: /study/unit/outline/*
+Disallow: /_designs/nested-content-that-needs-a-url
+Disallow: /live-streaming
+Disallow: /live-streaming/*
+Allow: /live-streaming/graduation
+Disallow: /live-streaming/graduation*
+
+User-agent: QVNutch
+Sitemap: https://www.qut.edu.au/sitemaps/index.xml
+Allow: /staff/web-manual
+Allow: /staff/web-manual/
+Disallow: /staff/
+Disallow: /student/
+Disallow: /corpsite/
+Disallow: /orientation
+Disallow: /_designs
+
+User-agent: Sogou web spider
+Sitemap: https://www.qut.edu.au/sitemaps/index.xml
+Disallow: /

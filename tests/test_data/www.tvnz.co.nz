@@ -1,0 +1,14 @@
+Crawl-delay: 1 # Delay 1 second between crawler requests
+User-agent: *
+Allow: /api/v1/web/play/sitemap
+Allow: /api/v1/web/play/sitemap/*
+Allow: /api/v1/web/image/*
+Allow: /api/v1/web/play/boot
+Allow: /api/v1/web/play/config/gtm
+Noindex: /content/tvnz/ondemand/*
+Noindex: /content/play/*
+Noindex: /api/v1/web/play/*
+Disallow: /api/v1/web/play/video/*
+Disallow: /4180/*
+Sitemap: https://www.tvnz.co.nz/system/tvnz/sitemap.xml # News sitemap
+Sitemap: https://www.tvnz.co.nz/api/v1/web/play/sitemap # OD sitemap

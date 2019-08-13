@@ -1,0 +1,20 @@
+# Robots.txt file for www.seek.com.au
+# URLs are case sensitive!
+
+# All other agents will not spider
+User-agent: *
+Disallow: /alliances/
+Disallow: /JobListing/
+Disallow: /job/*/apply
+
+# LinkedIn Bot
+User-agent: LinkedInBot
+Disallow: /
+
+# Google Ad Sense
+User-agent: Mediapartners-Google
+Disallow:
+
+# Bing Ads
+User-agent: AdIdxBot
+Disallow:

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /terminalfour/SiteManager/
+Crawl-delay: 20
+ 
+User-agent: slurp
+Crawl-delay: 80

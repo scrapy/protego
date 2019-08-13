@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/*/
+Disallow: /wp-content/plugins/
+Disallow: /wp-login.php/
+Disallow: /wp-content/ai1wm-backups/

@@ -1,0 +1,3737 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" type="image/ico" href="images/favicon.ico" />
+<title>Welcome to WBSEDCL</title>
+<link rel="stylesheet" type="text/css"
+	href="css/bootstrap-css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+<!--
+<link rel="stylesheet" type="text/css"
+	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery-latest.js"></script>
+<script type="text/javascript" src="js/bootstrap-js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+<style>
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 360px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 200px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+</style>
+
+ <!--
+	<script type="text/javascript">
+         $(document).ready(function(){
+           var originalSize = $('div').css('font-size');
+          // reset
+           $(".resetMe").click(function(){
+          $('div').css('font-size', originalSize);
+           });
+
+           // Increase Font Size
+           $(".increase").click(function(){
+          var currentSize = $('div').css('font-size');
+          var currentSize = parseFloat(currentSize)*1.2;
+          $('div').css('font-size', currentSize);
+          return false;
+          });
+
+           // Decrease Font Size
+           $(".decrease").click(function(){
+           var currentFontSize = $('div').css('font-size');
+           var currentSize = $('div').css('font-size');
+           var currentSize = parseFloat(currentSize)*0.8;
+           $('div').css('font-size', currentSize);
+           return false;
+           });
+         });
+
+      </script> -->
+
+
+
+
+</head>
+<body>
+	<a href="#" class="display-none back-to-top">Back to Top</a>
+
+	<div id="menubarListDiv">
+		<ul class="menubar-div">
+			<li id="nav1"><a class="clearfix1"
+				href="https://www.wbsedcl.in/webdynpro/dispatcher/local/SelfReg/SelfregApp" target="_blank"><span class="pay-your-qutn img">
+				</span> <span class="content1">Consumer Registration</span></a></li>
+			<li><a class="clearfix1" href="Consumer_Login.html"><span
+					class="app-load-enhnt img"></span> <span class="content1">Consumer
+						Login</span></a></li>
+			<li><a class="clearfix1" href="Online_Application.html" target="_blank"><span
+					class="app-status img"> </span><span class="content1">Online
+						Application</span></a></li>
+			<li><a class="clearfix1" href="Pay_Registered_Consumer.html"><span
+					class="view-bill img"> </span><span class="content1">Online
+						Payment</span></a></li>
+			<li><a class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/ViewDuplicatePaymentReceipt/DuplicateReceiptapp" target="_blank"><span
+					class="paymnt-recpt img"></span><span class="content1">Download
+						Payment Receipt</span></a></li>
+			<li><a class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/WBViewBillWL/WBViewBillWL" target="_blank"><span
+					class="griv-redrsl img"> </span><span class="content1">View
+						Bill</span></a></li>
+			<li><a class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/ComplainRegWithoutLogin/ComplainRegWithoutLogin" target="_blank"><span
+					class="complaint img"></span><span class="content1">Docket
+						Your Complaints</span></a></li>
+			<li><a class="clearfix1" href="awardsRecognition.html"><span
+					class="rept-prob img"></span><span class="content1">Awards &
+						Recognition</span></a></li>
+			<li><a class="clearfix1" href="Vidyut_Sahayogi.html"><span class="trf-dtls img"></span><span
+					class="content1">Download Mobile Apps</span></a></li>
+		</ul>
+	</div>
+
+    <script language="javascript" src="js/include_Header.js"></script>
+
+					<section class='carousel-section'>
+					  <div class='container-fluid'>
+					    <div class='row'>
+						   <div id='myCarousel' class='carousel slide' data-ride='carousel'>
+						      <div class='carousel-inner' role='listbox'>
+
+					<div class='item active'>
+					<img class='img-responsive' src='images/image/s_sahoyogi_new.jpg' alt='banner-img' width='100%' />
+							<div class='overlapped-div'>
+							<div class='inner-overlapped-div'>
+							<div Class='company-name'>
+							<p class='text1'>Vidyut Sahayogi</p>
+						    <div class='hidden-xs'>
+                            <p class='text3'>
+											You can pay your electricity bill using<br/> Vidyut Sahayogi Mobile App.
+							</p>
+							<p class='text2'>
+							No more travel , No More queue.<br/>Avail service at Your Doorstep.
+
+							</p>
+							</div>
+						   <a href='Vidyut_Sahayogi.html' target='_blank'>
+							<button class='applyNow'>Find out More</button>
+							</a>
+						 </div>
+					        </div>
+							</div>
+					</div>
+
+						<div class='item'>
+							<img class='img-responsive' src='images/image/s_New.jpg' alt='banner-img' width='100%' />
+							<!--	height='388' />-->
+							<div class='overlapped-div'>
+								<div class='inner-overlapped-div'>
+									<div Class='company-name'>
+										<p class='text1'>
+										    Online Application for <br> Industrial New Connection
+										</p>
+										<div class='hidden-xs'>
+										<p class='text2'>
+											Want Electricity Connection for Your<br> business ? We
+											provide you the solution.<br> Its easy, fast and hassle
+											free.
+										</p>
+										</div>
+                                       <!--<a href='NewConnection_Bulk_Industrial.html' target='_blank'>-->
+
+                                       <a href='https://www.wbsedcl.in/AllPortalSSO/UserLogin.jsp' target='_blank'>
+
+
+										<button class='applyNow'>Apply Now</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class='item'>
+							<img class='img-responsive' src='images/image/s4.jpg' alt='banner-img' width='100%' />
+							<!--	height='388' />-->
+							<div class='overlapped-div'>
+								<div class='inner-overlapped-div'>
+									<div Class='company-name'>
+										<p class='text1'>
+											Apply Online for LT<br /> Domestic/Commercial Connection
+										</p>
+										<div class='hidden-xs'>
+										<p class='text2'>
+											Apply for New Connection & check<br /> application Status
+											from your doorstep
+										</p>
+										</div>
+										<a href='NewConnection_LT_Others.html' target='_blank'>
+										<button class='applyNow'>Click to Apply</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class='item'>
+							<img class='img-responsive' src='images/image/s2.jpg' alt='banner-img' width='100%'/>
+					<!--		height='388' />-->
+							<div class='overlapped-div'>
+								<div class='inner-overlapped-div'>
+									<div Class='company-name'>
+										<p class='text1'>Quick Pay</p>
+										<div class='hidden-xs'>
+										<p class='text2'>
+											Quick Pay Your Bill & Quotation without <br /> login. Its
+											easy and simple
+										</p>
+										</div>
+                                       <a href='https://www.wbsedcl.in/webdynpro/dispatcher/local/QUARTERLYONLINEPAYMENT/OnlineBillPay' target='_blank'>
+										<button class='applyNow'>Click to Pay</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class='item'>
+							<img class='img-responsive' src='images/image/s5.jpg' alt='banner-img' width='100%' />
+					<!--		height='388' />-->
+							<div class='overlapped-div'>
+								<div class='inner-overlapped-div'>
+									<div class='company-name'>
+										<p class='text1'>
+											Pay through our third party agent near<br />your doorstep
+											beyond office hours
+										</p>
+										<div class='hidden-xs'>
+										<p class='text2'>You can pay near your door step through
+											our third party collection agents i.e. SAHAJ</p>
+										<ul>
+											<li>You may provide your mobile no. to the collection
+												agent to get confirmation SMS from WBSEDCL</li>
+											<li>Verify those payments from our Website by
+												downloading Payment Receipt</li>
+										</ul>
+										</div>
+										<!--<a href = 'Pay_Registered_Consumer.html' target='_blank'>-->
+										<a href = 'Payment_Modes.html' target='_blank'>
+										<button class='applyNow'>Find out More</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class='item'>
+							<img class='img-responsive' src='images/image/s3.jpg' alt='banner-img' width='100%' />
+							<!--	height='388' />-->
+							<div class='overlapped-div'>
+								<div class='inner-overlapped-div'>
+									<div Class='company-name'>
+										<p class='text1'>Energy Conservation</p>
+										<div class='hidden-xs'>
+										<p class='text2'>
+											Efficient and eco-friendly energy <br /> always to all
+										</p>
+										</div>
+										<a href='Energy_Awareness.html' target='_blank'>
+										<button class='applyNow'>Know More</button>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+							</div>
+							<!-- Left and right controls -->
+							<a class="left carousel-control" href="#myCarousel" role="button"
+								data-slide="prev"><img src="images/arrow-l.png" /> </a> <a
+								class="right carousel-control" href="#myCarousel" role="button"
+								data-slide="next"><img src="images/arrow-r.png" /> </a>
+				         </div>
+			            </div>
+		              </div>
+	                </section>
+
+
+            <!--
+					<script language="javascript">
+					var isMobile = false; //initiate as false
+				  // device detection
+					if (/Mobi/.test(navigator.userAgent))
+					{
+					  //isMobile = true;
+					document.write("<section class='carousel-section'>");
+					 document.write(" <div class='container-fluid'>");
+					    document.write("<div class='row'>");
+						  document.write(" <div id='myCarousel' class='carousel slide' data-ride='carousel'>");
+						    document.write("  <div class='carousel-inner' role='listbox'>");
+                    alert('hi');
+					document.write("<div class='item active'>");
+					document.write("<img class='img-responsive' src='images/image/s_sahoyogi.jpg' alt='banner-img' width='100%' height='150' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("		<div class='inner-overlapped-div'>");
+					document.write("		<div Class='company-name'>");
+					document.write("		<p class='text1'><font color='#000000'>Vidyut Sahoyogi</font></p>");
+					document.write("	    <div class='hidden-xs'>");
+					document.write("					<p class='text2'><font color='#000000'>");
+					document.write("						Avail service at Your Door Step.<br/>No more travel,No More queue.");
+                    document.write("                        </font>");
+					document.write("					</p>");
+					document.write("					</div>");
+                    document.write("                   <a href='Vidyut_Sahayogi.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Find out More</button>");
+					document.write("					</a>");
+					document.write("				 </div>");
+					document.write("        </div>");
+					document.write("		</div>");
+					document.write("</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s_New_Mob.jpg' alt='banner-img' width='100%'");
+					//document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>");
+					document.write("					    Online Application for <br> Industrial New Connection");
+					document.write("					</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Want Electricity Connection for Your<br> business ?? We");
+					document.write("						provide you the solution.<br> Its easy, fast and hassle");
+					document.write("						free.");
+					document.write("					</p>");
+					document.write("					</div>");
+                    document.write("                   <a href='NewConnection_Bulk_Industrial.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Apply Now</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s4_Mob.jpg' alt='banner-img' width='100%'");
+					//document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>");
+					document.write("						Apply Online for LT<br /> Domestic/Commercial Connection");
+					document.write("					</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Apply for New Connection & check<br /> application Status");
+					document.write("						from your doorstep");
+					document.write("					</p>");
+					document.write("					</div>");
+					document.write("					<a href='NewConnection_LT_Others.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Click to Apply</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s2_Mob.jpg' alt='banner-img' width='100%' ");
+					//document.write("			height='388' /> ");
+					document.write("		<div class='overlapped-div'> ");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>Quick Pay</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Quick Pay Your Bill & Quotation without <br /> login. Its");
+					document.write("						easy and simple");
+					document.write("					</p>");
+					document.write("					</div>");
+                    document.write("                   <a href='Pay_Registered_Consumer.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Click to Apply</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s5_Mob.jpg' alt='banner-img' width='100%'");
+					//document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div class='company-name'>");
+					document.write("					<p class='text1'>");
+					document.write("						Pay through our third party agent near<br />your door step");
+					document.write("						beyond office hours");
+					document.write("					</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>You can pay near your door step through");
+					document.write("						our third party collection agents i.e. SAHAJ</p>");
+					document.write("					<ul>");
+					document.write("						<li>You may provide your mobile no. to the collection");
+					document.write("							agent to get confirmation SMS from WBSEDCL</li>");
+					document.write("						<li>Verify those payments from our Website by");
+					document.write("							downloading Payment Receipt</li>");
+					document.write("					</ul>");
+					document.write("					</div>");
+					document.write("					<a href = 'ConsumerRegistration.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Find out More</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s3_Mob.jpg' alt='banner-img' width='100%'");
+					document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>Energy Conservation</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Efficient and eco-friendly energy <br /> always to all");
+					document.write("					</p>");
+					document.write("					</div>");
+					document.write("					<a href='Energy_Awareness.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Know More</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("		</div>");
+							<!-- Left and right controls --
+					document.write("		<a class='left carousel-control' href='#myCarousel' role='button'");
+					document.write("			data-slide='prev'><img src='images/arrow-l.png' /> </a> <a");
+					document.write("			class='right carousel-control' href='#myCarousel' role='button'");
+					document.write("			data-slide='next'><img src='images/arrow-r.png' /> </a>");
+				    document.write("     </div>");
+			        document.write("    </div>");
+		            document.write("  </div>");
+	                document.write("</section>");
+					}
+					else
+					{
+					document.write("<section class='carousel-section'>");
+					 document.write(" <div class='container-fluid'>");
+					    document.write("<div class='row'>");
+						  document.write(" <div id='myCarousel' class='carousel slide' data-ride='carousel'>");
+						    document.write("  <div class='carousel-inner' role='listbox'>");
+
+                    document.write(" <div class='item active'>");
+					document.write("		<img class='img-responsive' src='images/image/s_sahoyogi.jpg' alt='banner-img' width='100%'");
+					document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'><font color='#000000'>Vidyut Sahoyogi</font></p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'><font color='#000000'>");
+					document.write("						Avail service at Your Door Step.<br/>No more travel,No More queue.");
+                    document.write("                        </font>");
+					document.write("					</p>");
+					document.write("					</div>");
+                    document.write("                    <a href='Vidyut_Sahayogi.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Find out More</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s_New.jpg' alt='banner-img' width='100%'");
+					document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>");
+					document.write("					    Online Application for <br> Industrial New Connection");
+					document.write("					</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Want Electricity Connection for Your<br> business ?? We");
+					document.write("						provide you the solution.<br> Its easy, fast and hassle");
+					document.write("						free.");
+					document.write("					</p>");
+					document.write("					</div>");
+                    document.write("                   <a href='NewConnection_Bulk_Industrial.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Apply Now</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s4.jpg' alt='banner-img' width='100%'");
+					document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>");
+					document.write("						Apply Online for LT<br /> Domestic/Commercial Connection");
+					document.write("					</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Apply for New Connection & check<br /> application Status");
+					document.write("						from your doorstep");
+					document.write("					</p>");
+					document.write("					</div>");
+					document.write("					<a href='NewConnection_LT_Others.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Click to Apply</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s2.jpg' alt='banner-img' width='100%' ");
+					document.write("			height='388' /> ");
+					document.write("		<div class='overlapped-div'> ");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>Quick Pay</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Quick Pay Your Bill & Quotation without <br /> login. Its");
+					document.write("						easy and simple");
+					document.write("					</p>");
+					document.write("					</div>");
+                    document.write("                   <a href='Pay_Registered_Consumer.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Click to Apply</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s5.jpg' alt='banner-img' width='100%'");
+					document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div class='company-name'>");
+					document.write("					<p class='text1'>");
+					document.write("						Pay through our third party agent near<br />your door step");
+					document.write("						beyond office hours");
+					document.write("					</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>You can pay near your door step through");
+					document.write("						our third party collection agents i.e. SAHAJ</p>");
+					document.write("					<ul>");
+					document.write("						<li>You may provide your mobile no. to the collection");
+					document.write("							agent to get confirmation SMS from WBSEDCL</li>");
+					document.write("						<li>Verify those payments from our Website by");
+					document.write("							downloading Payment Receipt</li>");
+					document.write("					</ul>");
+					document.write("					</div>");
+					document.write("					<a href = 'ConsumerRegistration.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Find out More</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+					document.write("	<div class='item'>");
+					document.write("		<img class='img-responsive' src='images/image/s3.jpg' alt='banner-img' width='100%'");
+					document.write("			height='388' />");
+					document.write("		<div class='overlapped-div'>");
+					document.write("			<div class='inner-overlapped-div'>");
+					document.write("				<div Class='company-name'>");
+					document.write("					<p class='text1'>Energy Conservation</p>");
+					document.write("					<div class='hidden-xs'>");
+					document.write("					<p class='text2'>");
+					document.write("						Efficient and eco-friendly energy <br /> always to all");
+					document.write("					</p>");
+					document.write("					</div>");
+					document.write("					<a href='Energy_Awareness.html' target='_blank'>");
+					document.write("					<button class='applyNow'>Know More</button>");
+					document.write("					</a>");
+					document.write("				</div>");
+					document.write("			</div>");
+					document.write("		</div>");
+					document.write("	</div>");
+
+
+					document.write("		</div>");
+							<!-- Left and right controls --
+					document.write("		<a class='left carousel-control' href='#myCarousel' role='button'");
+					document.write("			data-slide='prev'><img src='images/arrow-l.png' /> </a> <a");
+					document.write("			class='right carousel-control' href='#myCarousel' role='button'");
+					document.write("			data-slide='next'><img src='images/arrow-r.png' /> </a>");
+				    document.write("     </div>");
+			        document.write("    </div>");
+		            document.write("  </div>");
+	                document.write("</section>");
+
+					}
+					</script>
+-->
+
+	<section class="menu-bar-div-mobview">
+		<table class="container-fluid">
+			<tr class="row ">
+				<td class="bor-rgt-btm menu-optns col-sm-4 col-md-4 col-xs-4">
+					<a class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/SelfReg/SelfregApp" target="_blank">
+						<div class="col-xs-4 padding-5">
+						<img src="images/image/consumer_registration.png" />
+							<!-- <span class="pay-your-qutn img"> </span> -->
+						</div> <div class="col-xs-8 padding-0"><span class="content1">Consumer Registration</span></div>
+				</a>
+				</td>
+				<td class="bor-rgt-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="Consumer_Login.html">
+						<div class="col-xs-4 padding-5">
+						<img src="images/image/consumer_login.png" />
+							<!-- <span class="pay-your-qutn img"> </span> -->
+						</div> <div class="col-xs-8 padding-0">
+							<span class="content1">Consumer Login</span></div>
+				</a></td>
+				<td class="bor-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="Online_Application.html" target="_blank"><div class="col-xs-4 padding-5"><img src="images/image/online_application.png" />
+						</div> <div class="col-xs-8 padding-0">
+							<!-- <span class="app-status img"> </span> -->
+						<span class="content1">Online Application</span></a></td></div>
+			</tr>
+			<tr class="row ">
+				<td class="bor-rgt-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="Pay_Registered_Consumer.html"><div class="col-xs-4 padding-5">
+					<img src="images/image/online_payment.png" />
+						</div> <div class="col-xs-8 padding-0">
+					<!-- <span class="view-bill img"></span> -->
+					 <span class="content1">Online
+							Payment</span></div></a></td>
+				<td class="bor-rgt-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/ViewDuplicatePaymentReceipt/DuplicateReceiptapp" target="_blank"><div class="col-xs-4 padding-5">
+					<img src="images/image/download_payment_recept.png" />
+						</div> <div class="col-xs-8 padding-0"><span class="content1">Download
+							Payment Receipt</span></div></a></td>
+				<td class="bor-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/WBViewBillWL/WBViewBillWL" target="_blank"><div class="col-xs-4 padding-5">
+					<img src="images/image/view_bill.png" />
+						</div> <div class="col-xs-8 padding-0"><span class="content1">View
+							Bill</span></div></a></td>
+			</tr>
+			<tr class="row ">
+				<td class="bor-rgt-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="https://www.wbsedcl.in/webdynpro/dispatcher/local/ComplainRegWithoutLogin/ComplainRegWithoutLogin" target="_blank"><div class="col-xs-4 padding-5">
+					<img src="images/image/docket.png" />
+						</div> <div class="col-xs-8 padding-0"><span class="content1">Docket
+							Your Complaints</span></div></a></td>
+				<td class="bor-rgt-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="awardsRecognition.html"><div class="col-xs-4 padding-5">
+					<img src="images/image/award.png" />
+						</div> <div class="col-xs-8 padding-0"><span class="content1">Awards
+							& Recognition</span></div></a></td>
+				<td class="bor-btm menu-optns col-sm-4 col-md-4 col-xs-4"><a
+					class="clearfix1" href="Vidyut_Sahayogi.html"><div class="col-xs-4 padding-5">
+					<img src="images/image/download_mobile-app.png" />
+						</div> <div class="col-xs-8 padding-0"><span
+						class="content1">Download Mobile Apps</span></div></a></td>
+			</tr>
+		</table>
+
+
+	</section>
+	<section>
+		<div class="container-fluid">
+			<div class="row msg-section">
+				<div class="main-container clearfix">
+					<div class="tollFreeFixDiv">
+						<div class="tollFree">
+							<img src="images/whats_new.png" class="telicon" alt="tel-icon" />
+							<span>What's New</span>
+						</div>
+						<img class="tollFreeArrow" src="images/grey_arrow.png" />
+					</div>
+					<div class="tollFreeDiv">
+
+						<div id="myCarousel4"
+							class="whats-new-carousal carousel slide carousel-fade"
+							data-ride="carousel">
+							<ol class="whats-next-carousal-ind carousel-indicators">
+								<li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel4" data-slide-to="1"></li>
+								<li data-target="#myCarousel4" data-slide-to="2"></li>
+								<li data-target="#myCarousel4" data-slide-to="3"></li>
+							</ol>
+							<!-- Wrapper for slides -->
+							<div class="carousel-inner" role="listbox">
+
+
+
+
+			            <!--<div class="item ">
+								<p style="color:black">Due to upgradation activities all online services including e-payment will be suspended from 08.02.2019, 06:00 PM to 13.02.2019, 06:00 AM</b></p>
+								<font color="forestgreen"> RTGS payment will be available.</font>
+								<font color="#005c99">Pre-paid vouchers may be purchased at the prepaid counters.</font>
+											Download Notification
+								</b>
+						      </a>&nbsp; &nbsp; <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Bengali-Version.pdf" target="_blank"><font color="green">Bengali</font>&nbsp;
+						      </a>&nbsp; &nbsp; <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/English-Version.pdf" target="_blank"><font color="green">English</font>&nbsp;
+						      </a>&nbsp; &nbsp; <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf//Hindi-Version.pdf" target="_blank"><font color="green">Hindi</font>
+
+							</div>-->
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd" style="color:#005c99; font-size: 12px;" >
+								<b>Due to unavoidable circumstances,  online services including E-Payment will not be available from 08:00  AM to 04:00 PM on 23.06.2019 (Sunday).</b></div>
+
+
+								<br><br>
+
+							</div>-->
+
+
+<!--<div class="item active" >
+								<div class="tollFreAdd" style="color:#8a42f5; font-size: 12px;" >
+								<b>Due to upgradation activities, all online services including portal, e-payment  & Call docketing through <br>IVRS will be suspended from 05:00 PM of 20.07.2019 to 11.00 AM of 21.07.2019 .
+								Inconvenience caused are regretted.</b></div>
+
+
+
+
+							</div>-->
+
+<!--<div class="item ">
+								<div class="tollFreAdd" style="color:#005c99; font-size: 12px;" >
+
+									  Now erstwhile DPL LT consumers can pay their bills through <b><a href="Payment_Modes.html">any e-payment channels of WBSEDCL</a></b> by pre-fixing
+									  '509' with their earlier Consumer No.<br>
+									  However HT consumers can pay their dues using NEFT/RTGS <b><a href="Payment_Modes.html">as mentioned in their respective bills</a></b> only.
+
+								</div>
+
+							</div>-->
+
+
+
+					<!--<div class="item ">
+								<div class="tollFreAdd">
+
+								   <b>
+
+										Consumer can now E-Pay the bill/quotation using BBPS / UPI / BHIM / Bharat QR without any transaction charges.
+										<a href="https://www.wbsedcl.in/webdynpro/dispatcher/local/QUARTERLYONLINEPAYMENT/OnlineBillPay" target="_blank">Pay Now</a>
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+		</div>-->
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SO_(S&LP)-MPP-2019-04.pdf" target="_blank">
+								   <b>
+								   Contractual Engagement to the Post of Special Officer (S&LP) under Notification No. MPP/2019/04.
+
+								</b></a>&nbsp;&nbsp;
+								<a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Application-Format_SO(S&LP).pdf" target="_blank">
+											 	<font color="green">Application Format</font></a>
+
+
+							    </div>
+							</div>-->
+
+
+<div class="item active">
+								<div class="tollFreAdd">
+
+								   <b>
+
+								   <font color="#005c99">Pay your bill online using any digital mode within due date to avail 1% additional rebate as per tariff order.</font>
+
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+		</div>
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/CHR-02_19.07.2019.pdf" target="_blank">
+								   <b>
+								   Felicitation to the meritorious wards of the employees of WBSEDCL and PTDs working under the Company.
+
+								</b></a><br>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/APP_AM_F&A_HR&A_MO_MPP-2017-03.pdf" target="_blank">
+								   <b>
+								   Appointment for the post of AM (F&A), AM(HR&A) and Medical Officer under Notification No. MPP/2018/04 and MPP/2017/10.
+
+								</b></a><br>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="http://www.eselect.in/wbsedcl" target="_blank">
+								   <b>
+								   Download Admit Card for Written Test under Notification No. MPP/2018/05
+											 	Rectt. for the Post of OE  and JOT-	CUM-TA under WBSEDCL.
+											 	</b></a><br>
+
+
+											 	<a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/List_of_Departmental_Candidate_MPP-2018-05.pdf" target="_blank">
+											 	<font color="green">Departmental Category</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											 	<a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/List_of_Exempted_Category_Candidate_MPP-2018-05.pdf" target="_blank">
+											 	<font color="green">Exempted Category</font>
+
+
+
+							    </div>
+							</div>
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/10th_App_SAE(E)_MPP-2017-03.pdf" target="_blank">
+								   <b>
+								   10<sup>th</sup> phase of Appointment of Candidates in the post of SAE(Electrical) under Notification No. MPP/2017/03.
+
+								</b></a><br>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd_App_JE_MPP-2018-04.pdf" target="_blank">
+								   <b>
+								   2<sup>nd</sup> phase of Appointment of Candidates in the post of Junior Executive (Finance) under Notification No. MPP/2018/04
+
+								</b></a><br>
+
+							    </div>
+							</div>
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/8th_App_OE_MPP-04.pdf" target="_blank">
+								   <b>
+								   8<sup>th</sup> phase of Appointment of Candidates in the post of Office Executive under Notification No. MPP/2017/04.
+
+								</b></a><br>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP-2018-05-Press_Notification-Admit-Card.pdf" target="_blank">
+								   <b>
+								   Intimation w.r.t release of Admit Card under Notification No. MPP/2018/05 -<br>
+								   Rectt. for the Post of Office Executive  & Junior Operator Technician cum Technical Assistant under WBSEDCL.
+								</b></a><br>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Secretary_Bureau_06.05.2019.pdf" target="_blank">
+								   <b>
+								   Appointment Secretary in the Bureau of Energy Efficiency on deputation Basis.</b></a><br>
+
+							    </div>
+							</div>
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="http://52.20.165.76/" target="_blank">
+								   View Scores under Notification No. MPP/2018/04- Rectt. for
+											 	 the Post of Asst. Mgr (HR&A) , Asst. Mgr (F&A) and Jr. Executive (Finance) under WBSEDCL.<br/>
+							    </div>
+							</div>--->
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Guideline_OE_4th-phase_MPP-2017-04.pdf" target="_blank">
+								   <b>
+                                    Guideline for 4<sup>th</sup> Phase Pre Employment Medical
+									Test for the post of Office Executive under Notification No. MPP/2017/04
+
+									</b><br/>
+
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/OE_4th-medical-Test_Mpp-2017-04.pdf" target="_blank">
+								   <b>
+                                    List of provisionally selected candidates for 4<sup>th</sup> Phase Pre Employment Medical
+									<br>Test for the post of Office Executive under Notification No. MPP/2017/04
+
+									</b><br/>
+
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Dept-AE_Elect_Civil_Mech_IT&C_Mpp-2019-03.pdf" target="_blank">
+								   <b>
+
+										Circular for Departmental Employees w.r.t Recruitment for the Post of Assistant Engineer (Electrical), Assistant Engineer (Civil),<br> Assistant Engineer (Mechanical) and Assistant Engineer (IT&C)
+											 	through GATE-2019 Score under WBSEDCL -  Notification No. MPP/2019/03
+
+									</b>
+							      </a>&nbsp; &nbsp; <a href="http://recttindia.com/" target="_blank"><font color="green">Apply Online</font><br/>
+							    </div>
+							</div>
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/OE_4th-medical-Test_Mpp-2017-04.pdf" target="_blank">
+								   <b>
+                                    List of provisionally selected candidates for 4<sup>th</sup> Phase Pre Employment Medical
+									<br>Test for the post of Office Executive under Notification No. MPP/2017/04
+
+									</b><br/>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/AM_F&A_1st-list.pdf" target="_blank">
+								   <b>
+                                    Appointment for the post of AM (F&A) (1<sup>st</sup> list) under Notification No. MPP/2018/04
+
+									</b><br/><br/>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/AE_Elect_Civil_Mech_IT&C_Mpp-2019-03.pdf" target="_blank">
+								   <b>
+
+										Recruitment for the Post of Assistant Engineer (Electrical), Assistant Engineer (Civil), Assistant Engineer (Mechanical) and<br> Assistant Engineer (IT&C)
+											 	through GATE-2019 Score under WBSEDCL -  Notification No. MPP/2019/03
+
+									</b>
+							      </a>&nbsp; &nbsp; <a href="http://recttindia.com/" target="_blank"><font color="green">Apply Online</font><br/>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/9th_Sub-AE.pdf" target="_blank">
+								   <b>
+                                    9<sup>th</sup> phase of Appointment of Candidate in the post of Sub Asst. Engineer (E) under Notification No. MPP/2017/03
+
+									</b><br/><br/>
+
+							    </div>
+							</div>-->
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/7th_OE.pdf" target="_blank">
+								   <b>
+                                    7<sup>th</sup> phase of Appointment of Candidates in the post of Office Executive under Notification No. MPP/2017/04
+
+									</b><br/><br/>
+
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/1st_AM_HR&A-F&A-04.pdf" target="_blank">
+								   <b>
+                                    Appointment for the post of AM (HR&A) / AM(F&A) (1<sup>st</sup> list) under Notification No. MPP/2018/04
+
+									</b><br/><br/>
+
+							    </div>
+							</div>-->
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/1st_appointment-04.pdf" target="_blank">
+								   <b>
+                                    1<sup>st</sup> Phase of Appointment of Candidates in the post of Junior Executive (Fin) under Notification No. MPP/2018/04
+
+									</b><br/><br/>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical-Officer-2017_10.pdf" target="_blank">
+								   <b>
+                                    Medical Fitness Test for Candidates Provisionally shortlisted for the post of Medical Officer.Notification No: MPP/2017/10
+
+									</b><br/>
+
+							    </div>
+							</div>
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical-Test_Junior_Executive-F&A_04.pdf" target="_blank">
+								   <b>
+                                    List of provisionally selected candidates called for Pre Employment Medical Test for<br> the post of
+											 	Junior Executive (Finance)..Notification No. MPP/2018/04
+
+
+									</b><br/>
+
+							    </div>
+							</div>
+
+
+
+
+
+
+
+<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical-Test_Asst-Mgr-HR&A_F&A_04.pdf" target="_blank">
+								   <b>
+                                    Medical Fitness Test for Candidates Provisionally shortlisted for the Post of <br>Assistant Manager (HR&A)/
+											 	Assistant Manager(F&A)..Notification No. MPP/2018/04
+
+
+									</b><br/>
+
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+					<!--<div class="item ">
+								<div class="tollFreAdd">
+
+								   <b>
+										Contractual Engagement to the post of Special Officer(S&LP)-Notification No. MPP/2019/02.
+									<a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/A-F_S&LP_02.pdf" target="_blank">Application Format</a>
+
+									</b><br/><br>
+							    </div>
+							</div>-->
+
+
+
+					<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Asst-Mgr-Jr_04.pdf" target="_blank">
+								   <b>
+                                    Intimation to the shortlisted candidates for Personal Interview w.r.t Rectt. for the Post of Asst. Mgr (HR&A),<br>
+                                    Asst. Mgr (F&A) & Jr. Excutive (Fin) against Notification No. MPP/2018/04
+
+
+									</b><br/>
+
+							    </div>
+							</div>-->
+
+
+							<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/8th_appointment-03.pdf" target="_blank">
+								   <b>
+                                    8<sup>th</sup> phase of Appointment of Candidates in the post of SAE(Electrical) under Notification No. MPP/2017/03
+
+
+									</b><br/><br/>
+
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/3rd_appointment-03.pdf" target="_blank">
+								   <b>
+                                    3<sup>rd</sup> phase of Appointment of Candidates in the post of SAE(C) under Notification No. MPP/2017/03
+
+
+									</b><br/><br/>
+
+							    </div>
+							</div>
+
+
+
+							<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/6th_appointment-04.pdf" target="_blank">
+								   <b>
+                                    6<sup>th</sup> Phase of Appointment of Candidate in the post of Office Executive under Notification No. MPP/2017/04
+
+
+									</b><br/><br/>
+
+							    </div>
+							</div>-->
+
+
+					<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/DPL_02.01.2019.pdf" target="_blank">
+								   <b>
+                                    Orders related to transfer of the entire distribution business and activities presently <br> under the DPL along with all associated assets and liabilities to WBSEDCL
+
+
+									</b>
+
+							    </div>
+							</div>
+
+                     <div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Advisor_Engineering_WBERC.pdf" target="_blank">
+								   <b>
+
+										Selection for the post of Adviser (Engineering) in West Bengal Electricity Regulatory Commission
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/OE_JOT_MPP-2018-05.pdf" target="_blank">
+								   <b>
+
+										Recruitment for the Post of Office Executive  &  Junior Operator Technician cum Technical Assistant
+											 	<br>under WBSEDCL -  Notification No. MPP/2018/05
+
+									</b>
+							      </a>&nbsp; &nbsp; <a href="https://www.eselect.in/wbsedcl/" target="_blank"><font color="green">Apply Online</font><br/>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/3rd-Phase_OE_PMT_MPP_2017-04.pdf" target="_blank">
+								   <b>
+
+										 3<sup>rd</sup> Phase of PMT for the post of Office Executive under Notification No. MPP/2017/04.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/3rd-Phase_Elect_PMT_MPP_2017-03.pdf" target="_blank">
+								   <b>
+
+										3<sup>rd</sup> Phase of PMT for the post of SAE (Electrical) under Notification No. MPP/2017/03.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/3rd-Phase_PMT_MPP_2017-03.pdf" target="_blank">
+								   <b>
+
+										3<sup>rd</sup> Phase of PMT for the post of SAE (Civil) under Notification No. MPP/2017/03.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Advisor_Engineering_WBERC.pdf" target="_blank">
+								   <b>
+
+										Selection for the post of Adviser (Engineering) in West Bengal Electricity Regulatory Commission
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Admin-Surveyor-01.pdf" target="_blank">
+								   <b>
+
+										Notification for Walk-In-Interview for Admin / Surveyor.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Departmental_Circular_F&A_HR&A_Finance_MPP-2018-04.pdf" target="_blank">
+								   <b>
+
+										Departmental Circular - Recruitment for the Post of Assistant Manager (HR&A), Assistant Manager(F&A) &<br> Junior Executive (Finance)
+											 	under WBSEDCL -  Notification No. MPP/2018/04
+
+									</b>
+							      </a>
+							      &nbsp; &nbsp; <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Addendum_To_Departmental_Circular_MPP-2018-04.pdf" target="_blank"><font color="green">Addendum to Departmental Circular</font><br/>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/F&A_HR&A_Finance_MPP-2018-04.pdf" target="_blank">
+								   <b>
+
+										Recruitment for the Post of Assistant Manager (HR&A), Assistant Manager(F&A) & <br>Junior Executive (Finance)
+											 	under WBSEDCL - Notification No. MPP/2018/04
+
+									</b>
+							      </a>&nbsp; &nbsp; <a href="https://www.eselect.in" target="_blank"><font color="green">Apply Online</font><br/>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/LPSC_Waiver_Scheme.pdf" target="_blank">
+								   <b>
+
+										Late Payment Surcharge (LPSC) Waiver Scheme for deemed terminated Consumers having Contract Demand 50 KVA and above.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div class="item">
+								<div class="tollFreAdd">
+
+								   <b>
+
+										MERGER OF NTESCL WITH WBSEDCL.
+
+										 <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Creditors_Notice_WBSEDCL.pdf" target="_blank">(Creditors Notice WBSEDCL)</a> /
+										 <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Creditors_Notice_NTESCL.pdf" target="_blank"> <font color="green">(Creditors Notice NTESCL)</font></a>
+
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/6th_Phase-of-SAE_MPP-2017-03.pdf" target="_blank">
+								   <b>
+
+										6<sup>th</sup> phase of Appointment of Candidates in Post of Sub Assistant Engineer(E)
+											 	under Notification No. MPP/2017/03
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/4th_Phase-of-OE_MPP-2017-04.pdf" target="_blank">
+								   <b>
+
+										4<sup>th</sup> phase of Appointment of Candidates in Post of Office Executive under Notification No. MPP/2017/04
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/3rd_Phase-of-OE_MPP-2017-04.pdf" target="_blank">
+								   <b>
+
+										3<sup>rd</sup> phase of Appointment of Candidates in Post of Office Executive under Notification No. MPP/2017/04
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/5th_Phase-of-SAE_MPP-2017-03.pdf" target="_blank">
+								   <b>
+
+										5<sup>th</sup> phase of Appointment of Candidates in Post of SAE(Electrical) under Notification No. MPP/2017/03
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+                    	<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_Test-Notification-No_MPP-2017-04.pdf" target="_blank">
+								   <b>
+
+										Supplementary list of provisionally selected candidate called for 2<SUP>nd</SUP> Phase Pre Employment Medical Test for the post of <BR/> Office Executive under Notification No. MPP/2017/04
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+					<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Departmental_Circular_MPP-2018-03.pdf" target="_blank">
+								   <b>
+
+										Departmental circular w.r.t Notification No. MPP/2018/03 for Recruitment to the Post of Assistant Engineer(Electrical), <br>
+										Assistant Engineer(Civil), Assistant Engineer(Mechanical), & Assistant Engineer(IT&C) through GATE-2019 Score under WBSEDCL.
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+				<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SAE(E)_4th-phase.pdf" target="_blank">
+								   <b>
+
+										4<sup>th</sup> phase of Appointment of Candidates in Post of SAE(Electrical) under Notification No. MPP/2017/03
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+				<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Appointment_of_AE(Elec)-AE(IT&C)-3rd_list.pdf" target="_blank">
+								   <b>
+
+										Appointment for the Post of AE(Elec), AE(IT&C) [3<sup>rd</sup> List] Notification No. MPP/2017/01
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+					<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Recruitment_of_AE(E)-AE(C)-AE(M)-AE(IT&C)-2019.pdf" target="_blank">
+								   <b>
+
+										Recruitment for the Post of Assistant Engineer(Electrical), Assistant Engineer(Civil), Assistant Engineer(Mechanical),<br> &
+										Assistant Engineer(IT&C) through GATE-2019 Score - Notification No. MPP/2018/03
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+			<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd-phase_SAE_MPP-2017-03.pdf" target="_blank">
+								   <b>
+
+										List of provisionally selected candidates called for 2<sup>nd</sup> Phase Pre Employment <br>Medical Fitness
+											 	Test for the post of SAE(Electrical) under Notification No. MPP/2017/03
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+						<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Renewal_Enlistment_of_Electrical_Contractors.pdf" target="_blank">
+								   <b>
+
+										Renewal of Enlistment of Electrical Contractors under WBSEDCL.   Dated:09.07.2018
+
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+						<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/CED_Enlistment-Renewal_02.pdf" target="_blank">
+								   <b>
+
+										Renewal of Enlistment of Electrical Contractors under WBSEDCL.   Dated:09.07.2018
+
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/EC_Turga _PSP.PDF" target="_blank">
+								   <b>
+
+										Environmental Clearance for 1000 MW Turga Pumped Storage Project
+
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+				<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/CHR-05.pdf" target="_blank">
+								   <b>
+
+										Circular No: CHR/05      Dated 04.07.2018
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+				<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Joining_of_OE_MPP-2017-04.pdf" target="_blank">
+								   <b>
+
+										Rescheduling of Date of Joining in the post of  Office Executive (2<sup>nd</sup> phase)
+
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+				<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd-phase_Office-Executive.pdf" target="_blank">
+								   <b>
+
+										Supplementary List of Candidates for Appointment in the Post of Office Executive, 2<sup>nd</sup> phase,
+											 	under  Notification No:MPP/2017/04.
+
+
+									</b><br/><br>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_Fitness-Test.pdf" target="_blank">
+								   <b>
+
+										Medical Fitness Test for 3rd List of Candidated Provisionally shortlisted for the post of
+										Assistant Engineer(Electrical)/<br> Assistant Engineer (IT&C).....Notification No:MPP/2017/01
+
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+							<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SAE(E)_3rd-phase.pdf" target="_blank">
+								   <b>
+
+										Supplementary list of Candidates for Appointment in the post of SAE(Electrical), 3<sup>rd</sup> phase, under  Notification No:MPP/2017/03.
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/3rd_Phase_SAE(Electrical).pdf" target="_blank">
+								   <b>
+
+										3<sup>rd</sup> Phase of Appointment of Candidates in the post of SAE(Electrical) under Notification No:MPP/2017/03.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+					<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd_Phase_Office_Executive.pdf" target="_blank">
+								   <b>
+
+										2<sup>nd</sup> Phase of Appointment of Candidates in the post of Office Executive under Notification No:MPP/2017/04.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+					<!--<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd_Phase_SAE(Civil).pdf" target="_blank">
+								   <b>
+
+										2<sup>nd</sup> Phase of Appointment of Candidates in the post of SAE(Civil) under Notification No:MPP/2017/03.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Rescheduled_Date_of_Joining.pdf" target="_blank">
+								   <b>
+
+										Revised date of joining to the Post of Office Executive, Ref:MPP/2017/04.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/1st_phase_Appointment_Office_Executive.pdf" target="_blank">
+								   <b>
+
+										1<sup>st</sup> phase of Appointment of Candidates in the Post of Office Executive under Notification No:MPP/2017/04.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Appointment_AE(Electrical).pdf" target="_blank">
+								   <b>
+
+										Appointment for the Post of AE(Elec) [2<sup>nd</sup> Panel]. Notification No:MPP/2017/01.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd_Phase_Appointment(SAE).pdf" target="_blank">
+								   <b>
+
+										2<sup>nd</sup> Phase of  Appointment For The Post Of SAE (ELECTRICAL). Notification No:MPP/2017/03.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/REC_Power_Distribution_Extension.pdf" target="_blank">
+								   <b>
+
+										Extension of last date upto 31.03.2018 regarding submission of applications at REC Power Distribution Company
+										Limited (REC PDCL)<br>on deputation/contractual basis.
+
+									</b><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SAE_Electrical.pdf" target="_blank">
+								   <b>
+
+										1<sup>st</sup> Phase of  Appointment OF Candidates in The Post OF SAE (ELECTRICAL). Notification No:MPP/2017/03....
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+						<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_FitnessTest_for_Office_Executive_Correction.pdf" target="_blank">
+								   <b>
+
+										Correction Notification i.r.o. Provisionally selected candidates called for Medical Fitness Test for the post of Office Executive
+											 Notification No:MPP/2017/04
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+							<div class="item ">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_FitnessTest_for_Office_Executive.pdf" target="_blank">
+								   <b>
+
+										List of Provisionally selected candidates called for Medical Fitness Test for the post of Office Executive.
+											 Notification No:MPP/2017/04
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Appointment_of_SAE(Civil).pdf" target="_blank">
+									<b>
+										Appointment of candidates in the post of SAE (Civil)......Notification No:MPP/2017/03....
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+						<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/EE_directoriate_of_electricity.pdf" target="_blank">
+									<b>
+										Placement of Service of six Electrical Engineers in Directorate of Electricity......
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/AE_2nd_Panel.pdf" target="_blank">
+									<b>
+										Appointment for the post of AE(ELEC.), AE(CIVIL) & AE(IT&C) [2<sup>nd</sup> Panel]......
+											 Notification No:MPP/2017/01....
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/2nd_list_SAE(Civil).pdf" target="_blank">
+									<b>
+										Second list of provisionally selected candidates called for Medical Fitness Test for the
+										post of SAE(Civil)....Notification No:MPP/2017/03....
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+				<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/AE(ELEC)_AE(CIVIL)_AE(IT&C)_2nd Panel.pdf" target="_blank">
+									<b>
+										Appointment for the post of AE(Elec)/AE(Civil)/AE(IT&C)....Notification No:MPP/2017/01....
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+				<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_Guidelines & Affidavit_Format for the post of SAE(E).pdf" target="_blank">
+									<b>
+										Medical Fitness Test for the post of SAE (Electrical)....Notification No:MPP/2017/03....
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+						<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Vacancy_Notice_North_Estern.pdf" target="_blank">
+									<b>
+										Vacency at North Estern Council Secretariat, Shillong on deputation/ contractual basis.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+
+							<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/REC_Power_Distribution.pdf" target="_blank">
+									<b>
+										Appointment at REC Power Distribution Company Limited (REC PDCL) on deputation/contractual basis.....Dated:02.01.2018....
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+
+				<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_Test_of_Class-I_officers_on_07.02.18.pdf" target="_blank">
+										<b>
+										Medical Fitness Test for 2<sup>nd</sup> list of Candidates Provisionally Shortlisted for the Post of <br>Assistant Engineer
+										(Electrical)/Assistant Engineer(CIVIL)/Assistant Engineer(IT&C).
+										</b>
+
+
+									<br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+				<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Medical_SAE.pdf" target="_blank">
+									<b>
+										List of provisionally selected candidates called for Medical Fitness Test for the post of SAE(Civil)
+										under Notification No:MPP/2017/03.
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Assistant_Engineer_Civil.pdf" target="_blank">
+									<b>
+										Appointment for the post of Assistant Engineer (Electrical)/Assistant Engineer (CIVIL)/<br>Assistant Engineer(IT&C)
+										Notification No.:MPP/2017/01....
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+					<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Siliguri_CEI_Scan.pdf" target="_blank">
+									<b>
+										Requirement of Electrical Inspectors of Lifts at CEI Branch Office, Siliguri on deputation....
+
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+					<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Advisor_Deputy_Director.pdf" target="_blank">
+									<b>
+										Filling up the posts of Advisor (Engineering) and Deputy Director (Administration) in West Bengal<br>
+										Electricity Regulatory Commission on deputation/contractual basis.....
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+					<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Walk_In_Drive.pdf" target="_blank">
+									<b>
+										 One retired experienced personnel on contractual basis for the post of SURVEYOR to<br>
+										 be posted at 24 Pgs(N) Regional Office, WBSEDCL....
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+						<!--<div class="item">
+														<div class="tollFreAdd">
+														   <a href="http://180.92.168.131/wbsedcl/post2.html" target="_blank">
+														  <b>Downloading of Call Letter (s) for Personal interview under Notification No:MPP/2017/04 -<br>
+														  Recruitment of Office Executive.</b>
+														</a>
+													    </div>
+													</div>-->
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Appointment_Order.pdf" target="_blank">
+									<b>
+										 Appointment Order of AE (E), (IT&C) : Notification No: MPP/2017/01...
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+							<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_01.pdf" target="_blank">
+									<b>
+										 Appointment orders Reference: Notification No: MPP/2017/01...
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+							<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MD_IPGCL.pdf" target="_blank">
+									<b>
+										Extension of last date upto 15.12.17 regarding filling up the post of MDF,IPGCL/PPCL, Director(Finance) in DTL/DPCL,
+										<br>Director(Finance) in IPGCL/PPCL, Director(HR) in DTL/DPCL and Director(HR) in IPGCL/PPCL on deputation.
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_2017_10.pdf" target="_blank">
+									<b>
+										Advertisement for requirement to the post of Medical Officer under WBSEDCL-Notification No. MPP/2017/10...
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+ 						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_09.pdf" target="_blank">
+									<b>
+									Advertisement for requirement to the post of Special Officer (Land) under WBSEDCL-Notification No. MPP/2017/09...
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+                             <!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/s_lp_08.pdf" target="_blank">
+									<b>
+									Contractual Engagement to the Post of Special Officer (S&LP) under WBSEDCL - Notification No:: MPP/2017/08...
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Whatsnew.pdf" target="_blank">
+									<b>
+									Filling up the post of Director (Finance) in West Bengal
+									Electricity Regulatory Commission...
+
+									</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+						<!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_2017_07.pdf" target="_blank">
+									<b>
+									Requirement for the post of Medical Officer at PPSP Site under WBSEDCL-
+									<br>Notification No: MPP/2017/07...
+
+									</b>
+							      </a>
+							    </div>
+							</div>
+
+
+
+ 						<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_CARRER.pdf" target="_blank">
+									<b>Requirement for the post of Chief Security Officer under WBSEDCL -
+									<br>Notification No: MPP/2017/06
+
+
+									</b>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+                           <div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/dtl_dpcl.pdf" target="_blank">
+									<b>Filling up the post of MD, IPGCL / PPCL , Director (Finance) IN DTL/DPCL , Director (Finance) in DTL/DPCL ,
+									Director (Finance) in IPGCL/PPCL , <br>Director (HR) in DTL/DPCL and Director (HR) in IPGCL/PPCL on deputation </b>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           <!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="http://180.92.168.131/wbsedcl/post1.html" target="_blank">
+								  <b>Downloading of Call Letter (s) for Personal interview under Notification No:MPP/2017/03 - Recruitment of
+								  Sub Assistant <br/>Engineer (Electrical) and Sub Assistant Engineer (Civil)</b>
+								</a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+                              <!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/EE_IT_CIVIL_MEDICAL FITNESS.pdf" target="_blank">
+									<b>Medical Fitness Test for the Candidates Provisionally Shortlisted for the Post of
+									Assistant Enginer(Electrical) / Assistant <br/>Enginer(CIVIL) / Assistant Engineer(IT/C)</b>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	                      <!-- <div class="item">
+								<div class="tollFreAdd">
+								  <a href="#">
+									<b>L&MV Consumers can now pay electricity bill through Paytm Wallet.</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+
+
+
+                             <div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/Prepaid_Consumer_Login.html" target="_blank">
+									<b>Pre-Paid consumers can now able to pay and generate vouchar online.</b><br/><br/>
+							      </a>
+							    </div>
+							</div>
+
+
+
+
+
+
+                             <div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/atal_rooftop_solar_user_navigator.pdf" target="_blank">
+									<b>Mobile App-ARUN (Atal Rooftop Solar User Navigator)</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+                        <!--<div class="item">
+							    <div class="tollFreAdd">
+							        <a href="#">
+								      <b>L&MV Consumers can now pay electricity bill through bank's portal/ATM through EBPP payment solution.</b></a><br/>
+                                    <a href="#">
+								      (This facility is initially introduced for customers of HDFC bank only.Other bank will be included shortly)
+
+								    </a>
+								</div>
+						  </div>-->
+
+
+
+
+
+
+
+
+                           <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Notice to bulk consumers.pdf" target="_blank">
+										<b>Notice to bulk consumers</b><br/><br/>
+									</a></div>
+								</div>-->
+
+
+
+
+
+
+
+
+
+                          <!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/retired_employees.pdf" target="_blank">
+									<b>Notification Regarding Group Medical Insurance Against Retired Employees</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+                          <!--<div class="item">
+								<div class="tollFreAdd">
+								   <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/WBSEDCL-Selected list for CPT.pdf" target="_blank">
+									<b>List of Candidates Shortlisted for Computer Proficiency Test under Notification No : MPP/2017/04
+									<br/>Recruitment of Office Executive.</b>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           <!--<div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/17_Puja.pdf" target="_blank">
+									<b>Notification to Consumers - Temporary Puja Connection</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+                          <!--<div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/THDCIL.pdf" target="_blank">
+									<b>Filling up One (1) post of Director (Pers.) , in THDC India Limited.</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+	                      <!--<div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SJVN_Limited.pdf" target="_blank">
+									<b>Filling up the post of Chairman and Managing Director , SJVN Limited.</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+                           <!--<div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Notification.pdf" target="_blank">
+									<b>Notification regarding the circular i.r.o filling up the post of Director (Finance) , on Deputation in WBERC.</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+                             <!--<div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/wberc_finance.pdf" target="_blank">
+									<b>Filling up the post of Director (Finance) , on Deputation in WBERC.</b><br/><br/>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!--<div class="item">
+								<div class="tollFreAdd">
+								  <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Goverment_Of_Goa.pdf" target="_blank">
+									<b>Filling up of One (01) post of State Electrical Inspector , Group "A" Gazetted in the Pay Matrix level 12 by transfer on deputation <br/>Electricity Department , Goverment of Goa.</b>
+							      </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+                   <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/CHR_01.pdf" target="_blank">
+									<b>Circular No-CHR/01...Dated:12.07.2017 </b><br/><br/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+	                <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Combine_Result_JOT_CUM_TA.pdf" target="_blank">
+									<b>List of candidates called for joining for the post of JOT-CUM-TA under Notification MPP/2015/06(i) </b><br/><br/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+                         <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Combine_Result_PHARMACIST.pdf" target="_blank">
+									<b>List of candidates called for joining for the post of PHARMACIST under Notification MPP/2016/11 </b><br/><br/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+                         <!--<div class="item">
+                               <div class="tollFreAdd" style="color:#005c99;">
+								   <a href="#">
+
+							<b>Due to system maintenance, call docket through IVRS is not possible from 8:00 AM to 4:00 PM on 30.09.2018. <br/>Inconvenience caused is deeply regretted </b>
+								</a>
+								</div>
+							</div>-->
+
+
+
+
+
+
+
+
+                             <!--<div class="item">
+								<div class="tollFreAdd">
+								<a href="#">
+									List of candidates shortlisted for Computer Proficiency Test under Notification No: MPP/2017/03...Recruitmant of  Sub Assistant Engineer(Electrical/Civil)
+										</a>
+								<br/><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SAE(E)_2017_03.pdf" target="_blank">
+									<b>Sub Assistant Engineer(Electrical) </b>
+							    </a>&nbsp
+							    <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SAE(C)_2017_03.pdf" target="_blank">
+																	<b>Sub Assistant Engineer(Civil) </b>
+
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+	                       <!--<div class="item">
+								<div class="tollFreAdd" style="color:#005c99;">
+								   <a href="#">
+									  <b>APS / CPS Interview which has scheduled on 22.06.17 has been postponed. <br/>Details will be uploaded shortly .</b>
+									</a>
+								</div>
+
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_AE_Personal_Interview_Intimation.pdf" target="_blank">
+									<b>Intimation regarding rescheduling of the Personal Interview scheduled on 28.06.2017 for the Post of <br/>Assistant Engineeer (Civil) under Notification MPP/2017/01...Dated:28.06.2017 </b>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+					      <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/JOT_CUM_TA_3rd_panel.pdf" target="_blank">
+									<b>List of candidates called for pre-employment medical fitness test for the post of JOT-CUM-TA under <br/>Notification MPP/2015/06&06(i)...Dated:30.06.2017 </b>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+	                    <!-- <div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/PHARMACIST.pdf" target="_blank">
+									<b>List of candidates called for pre-employment medical fitness test for the post of Pharmacist under <br/>Notification MPP/2016/11...Dated:30.06.2017 </b>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+				<!--<div class="item">
+								<div class="tollFreAdd">
+								<a href="#">
+									List of candidates shortlisted for Personal Interview under Notification No: MPP/2017/01...Recruitmant of Assistant Engineer(Electrical/Civil/IT&C)
+										</a>
+								<br/><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/List of Shortlisted Candidates for the Post of Assistant Engineer (Electrical).pdf" target="_blank">
+									<b>Assistant Engineer(Electrical) </b>
+							    </a>
+							    <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/List of Shortlisted Candidates for the Post of Assistant Engineer (Civil).pdf" target="_blank">
+																	<b>Assistant Engineer(Civil) </b>
+							    </a>
+							    <a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/List of Shortlisted Candidates for the Post of Assistant Engineer (IT&C).pdf" target="_blank">
+																									<b>Assistant Engineer(IT&C) </b>
+							    </a>
+							    </div>
+							</div>-->
+
+
+
+
+
+
+
+                        <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/CMO_Departmental_Circular.pdf" target="_blank">
+									<b>Circular for WBSEDCL's Departmental Employees under Notification No:MPP/2017/05 Recruitment of Chief Medical Officer </b><BR/><BR/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+                       <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Website_Advertiseme.pdf" target="_blank">
+									<b> RECRUITMENT FOR THE POST OF CHIEF MEDICAL OFFICER UNDER WBSEDCL Notification No:MPP/2017/05 </b>
+							    </a><br/><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Application_Format.pdf" target="_blank">
+									<b>  Application Format </b>
+							    </a></div>
+							</div>-->
+
+
+
+
+	                 <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/mpp_13_2015.pdf" target="_blank">
+									<b> List of candidates called for joining for the post of Office Executive under Notification No:MPP/2015/13 </b><BR/><BR/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	                       <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Company_work.pdf" target="_blank">
+									<b> Filling up of different post under NTESCL from retired employees of the Organization who are engaged in Power Utility Service </b><BR/><BR/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+                       <!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Office_Executive.pdf" target="_blank">
+									<b> Circular for WBSEDCL's Existing Regular Employees under Notification No:MPP/201704 RECRUITMENT OF OFFICE EXECUTIVE. </b><BR/><BR/>
+							    </a></div>
+							</div>-->
+
+
+
+
+
+
+
+
+							<!--<div class="item">
+								<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/mpp_13.pdf" target="_blank">
+									<b>List of provisionally selected office Executive called for pre-employment Medical Exam test vide...<br/>Notification No:MPP/2015/13  </b>
+							    </a></div>
+							</div>-->
+
+
+
+							                    <!--<div class="item">
+																<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/statPer_04_05_17.pdf" target="_blank">
+																<b>INTERVIEW UNDER CPS/APS...Dated:04.05.2017  </b><br/><br/>
+															</a></div>
+															</div>-->
+
+
+			                             <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/SAEjEn_03_05_17.pdf" target="_blank">
+									<b>INTERVIEW UNDER CPS/APS...Dated:03.05.2017 </b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+		                 <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/jr_executive.pdf" target="_blank">
+									<b>Selected candidate called for joining for the post of jr.Executive(F) under Notificatin No:MPP/2016/13. </b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+		                 <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/JOT_CUM_ta.pdf" target="_blank">
+									<b>List of candidates called for joining for the post of JOT-CUM-TA under Notification No:MPP/2015/06 & MPP /2015/06(i)</b><br/><br/>
+
+
+
+								</a></div>
+								</div>-->
+
+
+			                <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/EE_ASS.pdf" target="_blank">
+									<b>Recruitment for the Post of Assistant Engineer (Electrical) Notification No:MPP/2016/01 </b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+
+
+	                            <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/distribution.pdf" target="_blank">
+									<b>RECRUTIMENT FOR THE POST OF DIRECTOR (DISTRIBUTION) </b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+                                <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/generation.pdf" target="_blank">
+									<b>RECRUTIMENT FOR THE POST OF DIRECTOR (GENERATION) </b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+
+
+                                <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/projects.pdf" target="_blank">
+									<b>RECRUTIMENT FOR THE POST OF DIRECTOR (PROJECT) </b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+
+                            <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/elc_civil.pdf" target="_blank">
+									<b>RECRUTIMENT FOR THE POST OF SUB ASSISTANT ENGINEER (ELECTRICAL) AND SUB ASSISTANT ENGINEER (CIVIL)...<br/>Notification No:MPP/2017/03 </b>
+								</a></div>
+								</div>-->
+
+
+
+
+
+	                    <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Website_Advertisement_SAE.pdf" target="_blank">
+									<b>Recruitment for the post of Sub Assistant Engineer (Electrical) & Sub Assistant Engineer (Civil) <br/>under WBSEDCL-Notification No:MPP/2017/03.</b>&nbsp&nbsp
+								</a>
+								<a href="https://180.92.168.131/wbsedcl/index.html" target="_blank">
+									<b> APPLY ONLINE</b><br/>
+									</a>
+								</div>
+								</div>-->
+
+
+
+                      <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/medical_test.pdf" target="_blank">
+									<b>Medical Fitness Test For The Candidate Provisionally Selected For The Post of ASSISTANT ENGINEER (ELECTRICAL)...<BR/>Notification No:MPP/2016/01</b>
+								</a></div>
+								</div>-->
+
+
+			<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/JR_EXECUTIVE.pdf" target="_blank">
+									<b>List of candidates for pre-employment medical fitness test for the post of Jr. Executive (finance) under <BR/>..Notification:MPP/2016/13</b>
+								</a></div>
+								</div>-->
+
+
+           <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/JOT_CUM.pdf" target="_blank">
+									<b>List of candidates for pre-employment medical fitness test for the post of JOT-CUM-TA under <BR/>..Notification:MPP/2015/06&06(i)</b>
+								</a></div>
+								</div>-->
+
+
+
+
+
+
+
+
+
+	                             <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Electrical_civil_mpp_2017_03.pdf" target="_blank">
+									<b>Circular for WBSEDCL's Department/Deputed Employees under Notification No:MPP/2017/03-Recruitment of Sub Assiatant <br/>Engineer (Electrical) & Sub Assistant Engineer (Civil).</b>
+								</a></div>
+								</div>-->
+
+
+
+				             <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Website_Advertisement_SAE.pdf" target="_blank">
+									<b>Recruitment for the post of Sub Assistant Engineer (Electrical) & Sub Assistant Engineer (Civil) <br/>under WBSEDCL-Notification No:MPP/2017/03.</b>&nbsp&nbsp
+								</a>
+								<a href="https://182.18.132.62/wbsedcl/index.html" target="_blank">
+									<b> APPLY ONLINE</b><br/>
+									</a>
+								</div>
+								</div>-->
+
+
+
+
+
+
+							<!--<div class="item">
+										<div class="tollFreAdd"><a href="https://www.wbsedcl.eadmissions.net" target="_blank">
+									<b>Downloading of Admit Card for Written Test under Notification No. MPP/2016/11: Recruitment of Pharmacist under WBSCDCL.</b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+                                  <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_2016_01.pdf" target="_blank">
+									<b>Medical Fitnes Test For The Candidates Provisionality Selected For The Post Of Assistant Engineer (Electrical)</b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+
+
+                                 <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/OE.pdf" target="_blank">
+									<b>LIST OF SHORTLISTED CANDIDATES CALLED FOR JOINING FOR THE POST OF OFFICE EXECUTIVE UNDER <BR/>NOTIFICATION NO: MPP/2015/13.</b>
+								</a></div>
+								</div>-->
+
+
+
+
+                               <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Departmental_Circular.pdf" target="_blank">
+									<b>Circular for WBSEDCL's Departmental/Deputed Employees under Notification No:MPP/2017/01-Recruitment of <br/>Assistant Engineer (Electrical/civil/IT&C) trough GATE-2017 Score.</b>
+								</a></div>
+								</div>-->
+
+
+
+
+
+                            <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/MPP_01.pdf" target="_blank">
+									<b>RECRUITMENT FOR THE POST OF ASSISTANT ENGINEER (Electrical/Civil/IT&C) through GATE-2017 Score under <br/>WBSEDCL-Notification No:MPP/2017/01.</b>&nbsp&nbsp
+								</a>
+								<a href="https://gatewbsedcl.eadmissions.net/" target="_blank">
+									<b> APPLY ONLINE</b><br/>
+									</a>
+								</div>
+								</div>-->
+
+
+
+                               <!-- <div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Contractual_Engagement.pdf" target="_blank">
+									<b>RECRUITMENT FOR SPECIAL OFFICER (S&LP) & SPECIAL OFFICER (LAND) UNDER WBSEDCL..NOTIFICATION NO:-MPP/2017/02</b><br/>
+								</a>
+								<a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Application_Format.pdf" target="_blank">
+									<b> APPLIICATIION FORMAT</b><br/>
+									</a>
+								</div>
+								</div>-->
+
+
+
+
+
+                           <!-- <div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/mpp_jot_cum_ta.pdf" target="_blank">
+									<b>List of candidates called for joining for the post of JOT-CUM-TA under Notification No:MPP/2015/06 & MPP/2015/06(i)</b><br/><br/>
+								</a></div>
+								</div>-->
+
+
+
+
+
+
+                              <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/33_kv_132_kv.pdf" target="_blank">
+									<b>Presentation and application form on Scheme for revenue enhancement through increased sale to the industries supplied at 33 KV <br/>and 132 KV under WBSEDCL through rationalization.</b><br/>
+								</a></div>
+								</div>-->
+
+
+
+
+
+	                           <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/electricity_regulatory.pdf" target="_blank">
+									<b>The gist along-with Scheme details has been prepared as per the Order dated 08/02/2017 of <BR/>West Bengal Electricity Regulatory Commission(WBERC).</b><br/>
+								</a></div>
+								</div>-->
+
+
+                              <!-- <div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/PANEL0001.pdf" target="_blank">
+									<b>List of provisionally selected office Executive called for pre-employment Medical Exam test vide <BR/>Notification No.MPP/2015/13</b><br/>
+								</a></div>
+								</div>-->
+
+
+
+                           <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Power_Utility_Services.pdf" target="_blank">
+									<b>Applications are invited from retired employees of the Organizations who are engaged in Power Utility Services, <br/>for making a panel of different posts in New Town Electric Supply Company Limited</b><br/>
+								</a></div>
+								</div>-->
+
+
+                           <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/contractual_engagrment_project_associate.pdf" target="_blank">
+									<b>CONTRACTUAL ENGAGEMENT FOR THE POST OF PROJECT ASSOCIATE (E)/(C) AND SENIOR <BR/>PROJECT ASSOCIATE (E)/(C)..NOTIFICATION NO:-MPP/2016/08	</b><br/>
+								</a></div>
+								</div>-->
+
+
+                                 <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/JOT_CUM_TA_MEDICAL.pdf" target="_blank">
+									<b>List of Candidates required to undertake corrective measures onMedical Unfitness under <BR/>Notification No. MPP/2015/06 & 06(i) : JOT-CUM-TA</b><br/>
+								</a></div>
+								</div>-->
+
+
+                               <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/JOT_CUM_TA.pdf" target="_blank">
+									<b>LIST OF SHORTLISTED CANDIDATES CALLED FOR JOINING FOR THE POST OF JOT-CUM-TA UNDER <br/>NOTIFICATION NO:-MPP/2015/06 & MPP/2015/06(i)</b><br/>
+								</a></div>
+								</div>-->
+
+
+					             <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/PDFsam_mergempp.pdf" target="_blank">
+									<b>LIST OF SHORTLISTED CANDIDATES FOR THE POST OF ASSISTANT ENGINEER(ELECTRICAL), ASSISTANT ENGINEER(MECHANICAL) <br/>& ASSISTANT MANANGER(HR&A) NOTIFICATION NO:MPP/2016/01 & NOTIFICATION NO:MPP/2015/13</b><br/>
+								</a></div>
+								</div>-->
+
+                            <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Departmental_Circular_Pharmacist.pdf" target="_blank">
+									<b>Circular for WBSEDCL's Departmental/Deputed Employees under Notification No.:MPP/2016/11 Recuritment of Pharmacist.</b><br/><p></p>
+								</a></div>
+								</div>-->
+
+                             <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/department_circular_extension.pdf" target="_blank">
+									<b>Circular for WBSEDCL's Departmental/Deputed Employees under Notification No.:MPP/2016/13 Recuritment of <br/>Junior Executive (Finance) under ST Category - Special Recruitment Drive (WITH EXTENSION).</b><br/>
+								</a>
+								</div>
+								</div>-->
+
+
+							<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/PDFsam_mergecandidates.pdf" target="_blank">
+									<b>List of shortlisted candidates called for joining for the post of office Executive</b><br/><p></p>
+								</a></div>
+								</div>-->
+
+                           <!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/WEBSITE_CORRECTIVE_MEASURES.pdf" target="_blank">
+										<b>List of candidates required to undertake Corrective Measures on Medical Fitness</b><br/><p></p>
+									</a></div>
+								</div>-->
+
+
+
+
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="Temporary_new_Connection.html">
+										<b>Now consumer can apply online for temporary connection (Puja/others)</b> <br/>
+										<b>from Web-Portal</b>
+									</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Recruitment of Chief Land Officer under WBSEDCL- Notification No.MPP-2016-12.pdf" target="_blank">
+										Recruitment for the post of Chief Land Officer on Contractual Basis
+										<br/>under WBSEDCL - Notification No: MPP/2016/12
+									</a></div>
+								</div>-->
+
+								<!--<div class="item">
+										<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/[JOT-CUM-TA]-List of Shortlisted Candidates for Personal Interview - Notification No. MPP-2015-06.pdf" target="_blank">
+											List of shortlisted candidates for Personal Interview for the post of Junior Operator Technician Cum Technical Assistant <br/>under WBSEDCL - Notification No.MPP/2015/06(i)
+										</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Recruitment to the Post of Pharmacist under WBSEDCL....dt...24.10.2016.pdf" target="_blank">
+										Recruitment to the post of Pharmacist under WBSEDCL - <br/>Notification No:MPP/2016/11
+									</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/enlistment_notice...dt...03.10.2016.pdf" target="_blank">
+										Enrolment of names of electrical constractors in existing list under <br/>
+										WBSEDCL for the year 2016-17.
+									</a></div>
+								</div>-->
+
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Circular for AE(IT&C) Recruitment through GATE-2017...dt..29.09.2016.pdf" target="_blank">
+										Circular for WBSEDCL's Departmental/Deputed Employees under <br/>
+										Notification MPP/2016/10
+									</a></div>
+								</div>-->
+
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Website Advertisement-Recruitment of AE(IT&C) through GATE-2017...dt...29.09.2016.pdf" target="_blank">
+										Recruitment for the post of Assistant Engineer(IT&C) through GATE-2017 Score under WBSEDCL- <br/>
+										Notification No:MPP/2016/10
+									</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Office Executive candidates called for joining who were subsequently found medically fit to join in service of WBSEDCL under Notification.MPP-2015-13.pdf" target="_blank">
+										Office Executive candidates called for joining who were subsequently found medically fit to join in service <br/>
+										of WBSEDCL under Notification.MPP/2015/13.
+									</a></div>
+								</div>-->
+
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Result of promotion to the post of AE(Electrical)(Civil)(IT&C),AM(HR&A)(F&A).pdf" target="_blank">
+										Result of promotion to the post of AE(Electrical)/(Civil)/(IT&C),<br/>AM(HR&A)/(F&A)
+									</a></div>
+								</div>-->
+
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Tariff_Volumn/Obtaining reconnection-new connection at disconnected terminated premises having outstanding due.pdf" target="_blank">
+										Obtaining reconnection/new connection at disconnected terminated premises having<br/>outstanding due
+									</a></div>
+								</div>-->
+
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Appointment to the post of Assistant Engineer(E) and Assistant Engineer(M).under Notification No.MPP-2016-01..dt..21.09.2016.pdf" target="_blank">
+										Appointment to the post of Assistant Engineer(E) and Assistant Engineer(M).under <br/>Notification No.MPP/2016/01
+									</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Departmental Circular against Notification No. MPP-2016-07...Dated..19.09.2016.pdf" target="_blank">
+										Circular for WBSEDCL's Departmental/Deputed Employees <br>
+										under Notification No:-MPP/2016/07.
+									</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Recruitment to the Post of Legal Advisor - Notification No. MPP-2016-09.pdf" target="_blank">
+										Recruitment to the Post of Legal Advisor on contractual basis under WBSEDCL <br>- Notification No:-MPP/2016/09
+									</a>
+									&nbsp;&nbsp;<a class="font-bold" href="https://www.wbsedcl.in/irj/go/km/docs/internet/new_website/pdf/Careers/Application Format - Legal Advisor...Dated...17.09.2016.pdf" target="_blank"> Application Format
+									</a>
+									</div>
+								</div>-->
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/WEBSITE%20CORRECTIVE%20MEASURES....Dated...12.09.2016.pdf" target="_blank">
+										List of Office Executive Candidates required to undertake Corrective Measures on <br> Medical Fitness..
+									</a></div>
+								</div>-->
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/Recruitment%20of%20AE(E)%20&%20AE(C)%20through%20GATE-2017%20Score%20-%20Notification%20No.%20MPP-2016-07...Dated...12.09.2016.pdf" target="_blank">Recruitment for the Post of Assistant Engineer(Electrical) and Assistant Engineer(Civil)
+									through GATE-2017 Score <br>under WBSEDCL- Notification No:MPP/2016/07</a></div>
+								</div>-->
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/documents%20for%20appointment%20of%20OE...Dated...09.09.2016.pdf">
+									List Of Selected Office Executive candidates called for joining under Notification <br>No.MPP/2015/13</a></div>
+								</div>
+								<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/(MPP-2016-06)-Website%20Advertisement.Special%20Officer%20(S&LP)...Dated...07.09.2016.pdf">Recruitment for the post of Special Officer(S&LP) on Contractual Basis under WBSEDCL-
+									Notification <br>No.MPP/2016/06</a></div>
+								</div>
+
+								<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/1%20List%20of%20seleceted%20JE(F)_2%20sets%20of%20document%20for%20appointment-Jr.Exe(fin).pdf">The List of selected candidates called for the post of Jr.Executive(Finance) against notification <br> no.MPP/2015/13..</a></div>
+								</div>
+								<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/WEBSITE%20CORRECTIVE%20MEASURES....Dated...12.09.2016.pdf">List of Office Executive Candidates required to undertake Corrective Measures on
+									Medical Fitness are placed below <br>
+									for kind persual and forwarding it to IT&C Cell.</a></div>
+								</div>
+								<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/Recruitment%20of%20AE(E)%20&%20AE(C)%20through%20GATE-2017%20Score%20-%20Notification%20No.%20MPP-2016-07...Dated...12.09.2016.pdf">Recruitment for the Post of Assistant Engineer(Electrical) and Assistant
+										Engineer(Civil) through GATE-2017 <br>Score under WBSEDCL- Notification No:MPP/2016/07</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/documents%20for%20appointment%20of%20OE...Dated...09.09.2016.pdf">List Of Selected Office Executive candidates called for joining under Notification<br>
+									No.MPP/2015/13</a></div>
+								</div>
+								<div class="item">
+									<div class="tollFreAdd"><a href="https://www.wbsedcl.in/irj/go/km/docs/internet/webpage/PDF/Careers/(MPP-2016-06)-Website%20Advertisement.Special%20Officer%20(S&LP)...Dated...07.09.2016.pdf">Recruitment for the post of Special Officer(S&LP) on Contractual Basis under WBSEDCL-Notification <br>No.MPP/2016/06</a></div>
+								</div>-->
+
+								<!--<div class="item">
+									<div class="tollFreAdd">List of candidates called for Medical Fitness Test for the post of JR.Executive(Finance) under Notification No.MPP/2015/13</div>
+								</div>
+
+								<div class="item">
+									<div class="tollFreAdd width1024">Rescheduled Date of Personal Interview for the post of Assistant Engineer(Electrical)-Limited Departmental Examination...</div>
+								</div>
+
+								<div class="item">
+									<div class="tollFreAdd width1024">List of shortlisted candidates for pre-employement mdical fitness test for the post of Office Executive..</div>
+								</div>
+
+								<div class="item">
+									<div class="tollFreAdd width1024">Medical Fitness test for Candidate of Assistant Manager(HR&A) and Assistant Manager(F&A)... </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">List of shortlisted candidates for pre-employment medical fitness test for the post of Jr.Executive(finance) </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Transmission of list of shortlisted candidates for Medical Fitness Test for the post of AM(HR&A) and AM(F&A) </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Recruitment for the Post of Principal at EETI on Contractual Basis under WBSEDCL-Notification No.MPP/2016/04 </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Downloading of Call Letter for Personal Interview-Promotion through Limited Departmental Examination-[Circular No.-Nil Dated 23.11.2015 of Director(HR)] </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Supply of power by WBSEDCL to Industrial Consumers at 132 KV and 33 KV and Traction consumers in the command area of Damodar Velley </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Recruitment for the post of Manager(Engg),Deputy Manager(Engg) & Assistant Manager(Engg) under REC TPCL. </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Recruitment for the post of Chief Security Officer on Contractual Basis under WBSEDCL- Notification No.:MPP/2016/03 </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Recruitment for the post of Medical Officer at PPSP Site on Contractual Basis under WBSEDCL-Notification No.:MPP/2016/02 </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">New Procurement Procedure for Procurement of single phase and three phase whole current energy meters </div>
+								</div>
+
+                                <div class="item">
+									<div class="tollFreAdd width1024">Downloading of Admit card for Promotion through limited Departmental Examination - [Circular No. - Nil Dated 23.11.2015 of Director (HR)]. </div>
+								</div>
+
+							</div>
+							-->
+
+							<!-- Left and right controls -->
+							<a class="left carousel-control topadjstmntfrst"
+								href="#myCarousel4" role="button" data-slide="prev">
+								<div class="arrowContain">
+									<img src="images/small_arrow_2.png" />
+								</div>
+							</a> <a class="right carousel-control topadjstmnt"
+								href="#myCarousel4" role="button" data-slide="next">
+								<div class="arrowContain rightarrwborder">
+									<img src="images/small_arrow_1.png" />
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <script language="javascript" src="js/include_Footer.js"></script>
+
+	<!--<footer>
+		<div class="container-fluid">
+			<div class="row hrrow main-container footer_wrapper">
+				<div class="col-sm-12 col-md-2 col-xs-12 paddleft0">
+					<div class="dropdown associatedMenu">
+						<div data-toggle="dropdown"
+							class="dropdown-toggle dropdown selecT">
+							Associated Sites <img src="images/associated-site-downarrow.png" />
+						</div>
+						<ul aria-labelledby="drop5" role="menu"
+							class="dropdown-menu width100" id="menu2">
+							<li role="presentation"><a href="#" tabindex="-1"
+								role="menuitem">MOP, GOI </a></li>
+							<hr />
+							<li role="presentation"><a href="#" tabindex="-1"
+								role="menuitem">WBERC</a></li>
+							<hr />
+							<li role="presentation"><a href="#" tabindex="-1"
+								role="menuitem">WBSDAE</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md-10 col-xs-12 footer-toplinks">
+					<ul>
+						<li><a href="#">Investor's</a></li>
+						<li><a href="#">Safety</a></li>
+						<li><a href="#">Energy Conservation</a></li>
+						<li><a href="csr.html">CSR</a></li>
+						<li><a href="#">Retired Employee's Corner</a></li>
+						<li><a href="#">Employee Information</a></li>
+						<li><a href="careers.html">Career</a></li>
+						<li><a href="contactUs.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- 			<hr /> -->
+			<!--<div class="row main-container footer-btmlinks clearfix">
+				<div class="col-xs-12 col-sm-12 col-md-4 copyrgt">West Bengal State
+					Electricity Distribution Company Limited</div>
+				<div class="col-xs-12 col-sm-12 col-md-8 footer-menu">
+					<ul>
+						<li>Disclaimer</li>
+						<li>Site Map</li>
+						<li>Browser Compatibility</li>
+					</ul>
+					<div class="copyright">Copyright &copy; WBSEDCL, All Rights
+						Reserved</div>
+				</div>
+			</div>
+		</div>
+	</footer>-->
+
+
+</body>
+</html>

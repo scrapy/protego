@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /account/
+Disallow: /bookmarks
+Disallow: /chowpickawards
+Disallow: /action/rd
+Disallow: /account/signup
+Disallow: /users/recipes/
+Disallow: /comments/list
+Disallow: /search
+Disallow: /share_tools
+Disallow: /partners
+Disallow: /profile
+Disallow: /content_blocks*
+Disallow: /*?*ajax_page*
+Disallow: /*?*apple_news*
+
+Sitemap: https://www.chowhound.com/sitemap.xml.gz
+Sitemap: https://www.chowhound.com/editorial-sitemap.xml.gz
+Sitemap: https://www.chowhound.com/image-sitemap.xml.gz
+Sitemap: https://www.chowhound.com/latest.xml
+Sitemap: https://www.chowhound.com/sitemaps/recipes/recipe-sitemap.xml.gz
+Sitemap: https://www.chowhound.com/video-sitemap.xml.gz
+Sitemap: https://www.chowhound.com/news-sitemap.xml

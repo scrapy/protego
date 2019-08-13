@@ -1,0 +1,58 @@
+User-agent: msnbot 
+Crawl-delay: 4
+
+User-Agent: bingbot
+Crawl-delay: 4
+
+User-agent: Slurp
+Crawl-delay: 4
+
+User-agent: SeznamBot
+Request-rate: 1/10s	
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: ChangeDetection
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: sistrix
+Disallow: /
+
+User-agent: SEOkicks-Robot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: *
+Disallow: /zzz/
+Disallow: /mailings/
+Noindex: /zzz/
+Noindex: /mailings/
+
+Sitemap: https://www.tennis-warehouse.com/sitemap.xml

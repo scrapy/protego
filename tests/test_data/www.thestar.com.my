@@ -1,0 +1,102 @@
+User-agent: *
+
+Disallow: /bin/
+Disallow: /temp/
+Disallow: /themes/
+
+User-agent: AhrefsBot/6.1
+Disallow: /
+
+User-agent: MegaIndex.ru
+Disallow: /
+
+User-agent: MegaIndex.ru/2.0
+Disallow: /
+
+User-agent: Cutbot;+1.5
+Disallow: /
+
+User-agent: Cutbot/1.5
+Disallow: /
+
+User-agent: Cutbot/+1.5
+Disallow: /
+
+User-agent: Slurp
+Disallow: /
+
+User-agent: Yahoo! Slurp
+Disallow: /
+
+User-agent: ToutiaoSpider
+Disallow: /
+
+User-agent: ToutiaoSpider/1.0
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: Baiduspider/2.0
+Disallow: /
+
+User-agent: Baiduspider-render
+Disallow: /
+
+User-agent: Baiduspider-render/2.0
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: SemrushBot/3~bl
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: YandexBot/3.0
+Disallow: /
+
+User-agent: YandexImages
+Disallow: /
+
+User-agent: YandexImages/3.0
+Disallow: /
+
+User-agent: PaperLiBot
+Disallow: /
+
+User-agent: PaperLiBot/2.1
+Disallow: /
+
+User-agent: Clickagy Intelligence Bot v2
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: Sogou web spider/4.0
+Disallow: /
+
+User-agent: Cliqzbot
+Disallow: /
+
+User-agent: Cliqzbot/2.0
+Disallow: /
+
+User-agent: VoluumDSP-content-bot/2.0
+Disallow: /
+
+User-agent: DotBot/1.1
+Disallow: /
+
+User-agent: AhrefsBot/5.2
+Disallow: /
+
+User-agent: AhrefsBot/6.1
+Disallow: /
+
+User-agent: Freshbot/4.0
+Disallow: /
+

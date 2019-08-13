@@ -1,0 +1,24 @@
+Sitemap: https://patient.info/sitemap.xml
+User-agent: *
+Disallow: /aspnet_client/
+Disallow: /pdf/
+Disallow: /forums/profiles/
+Disallow: /printer.asp
+Disallow: /print/
+Disallow: /sponsored
+Disallow: *order=*
+Disallow: /feedback?ref=*
+Disallow: /forums/user?returnurl*
+Disallow: /forums/new-discussion/
+Disallow: /in/
+Disallow: /wellbeing/
+Disallow: /forums/me/
+Disallow: */related
+Disallow: /forums/index-*
+Disallow: *returnurl=*
+Disallow: /search.asp?*
+Disallow: *?discussionOrder*
+Disallow: *onlyWithImages*
+
+User-agent: Mediapartners-Google
+Disallow:

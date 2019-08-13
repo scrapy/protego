@@ -1,0 +1,29 @@
+User-Agent: *
+Disallow: /*ftpupload*
+Disallow: /19225505*
+Disallow: /Portal/AccountHolders*
+Disallow: /Login
+Disallow: /Portal/Listing/DetailsPrint*
+Disallow: /Portal/UserProfile/*
+Disallow: /Portal/ListProperty/ListItYourselfLoggedInCheck*
+Disallow: /Portal/ExternalLink/*
+Disallow: /Portal/PremiumCampaigns/*
+Disallow: /advice/search*
+Disallow: /go.aspx*
+Disallow: /Portal/Search/SearchBoxSearch*
+Disallow: /Portal/ViewStats/*
+Disallow: /Portal/Brand/GetAutoCompleteSuggestions
+Disallow: /Portal/BrandedAttorneys/GetAutoCompleteSuggestions
+Disallow: /Portal/Search/GetGeoLocation
+Disallow: /Portal/Search/NoResultsFound
+Disallow: /Portal/Search/GetAutocompleteLocations
+Disallow: /ld/*
+Disallow: /advice/tags/*
+Disallow: /Redirect/*
+
+
+Sitemap: http://www.privateproperty.co.za/SiteMap/sitemap-index.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+

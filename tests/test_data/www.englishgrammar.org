@@ -1,0 +1,9 @@
+Sitemap: https://www.englishgrammar.org/sitemap.xml
+
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /ext/
+Disallow: /newsletter/
+Disallow: /wp_quiz/
+Disallow: /apps/

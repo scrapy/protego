@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /webapp/wcs/stores/servlet/
+Disallow: /Logon
+Disallow: /Password
+Disallow: /Register
+Disallow: /Registration
+Disallow: /Address
+Disallow: /Cart
+Disallow: /Order
+Disallow: /TrackOrder
+Disallow: /Checkout
+Disallow: /Payment
+Disallow: /Error
+Disallow: /Account
+Disallow: /InterestItem
+Disallow: /WishList
+Disallow: /CategoryNavigationResultsView
+Disallow: /ProductDisplay
+Disallow: /ProductListingView
+
+Sitemap: https://www.golfgalaxy.com/sitemap.xml

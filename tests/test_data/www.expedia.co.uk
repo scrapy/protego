@@ -1,0 +1,29 @@
+# This file MUST NOT be edited without approval from the SEO team. Please email the ewwseo alias if you plan to change this file.
+
+User-Agent: * 
+Allow: / 
+Disallow: /daily/shared/common/tracking/ 
+Disallow: /e:/ 
+Disallow: /daily/slideshow/ 
+
+
+
+
+Disallow: /pub/agent.dll?qscr=mrdt 
+Disallow: /pub/agent.dll?qscr=mrdr
+Disallow: /cd/
+Disallow: /pub/agent.dll?qscr=pkgl*
+
+Disallow: /Mates-Rates
+Disallow: /Details
+Disallow: /ugc/urs/api/hotelreviews/hotel/HOTELID/
+
+Disallow: /23171577/
+
+Disallow: /pubspec/scripts/
+Disallow: /recommendations/
+Disallow: /trips/
+User-agent: google-hoteladsverifier
+Allow: /
+User-agent: AdIdxBot
+Allow: /

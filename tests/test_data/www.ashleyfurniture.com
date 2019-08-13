@@ -1,0 +1,32 @@
+User-Agent: *
+
+Disallow: /ordertracking*
+Disallow: /order-details*
+Disallow: /order-status*
+Disallow: /orders*
+Disallow: /orderconfirmation*
+Disallow: /register*
+Disallow: /shipping*
+Disallow: /checkout*
+Disallow: /cart*
+Disallow: /wishlist*
+Disallow: /billing*
+Disallow: /account*
+Disallow: /mycontentlist*
+Disallow: /login*
+Disallow: /profile*
+Disallow: /addressbook*
+Disallow: /header-footer*
+Disallow: /searchwishlist*
+Disallow: /addressbook*
+Disallow: /global-includes*
+Disallow: /footer-includes*
+Disallow: /header-includes*
+Disallow: /revieworder*
+Disallow: /compare*
+Disallow: /size-charts*
+Disallow: /customer-service-nav*
+Disallow: /passwordreset*
+Disallow: /setpassword*
+
+Sitemap: https://www.ashleyfurniture.com/sitemap.xml

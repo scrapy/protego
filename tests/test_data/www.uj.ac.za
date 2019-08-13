@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /_layouts/
+Disallow: /_vti_bin/
+Disallow: /_catalogs/
+Disallow: /studyatUJ/_layouts/15/RecycleBin.aspx
+Disallow: /studyatUJ/Lists/SickNoteSubmissionList/AllItems.aspx
+Disallow: /studyatUJ/Lists/General registration assistant/AllItems.aspx
+Disallow: /Student Assistant Application List/AllItems.aspx
+
+Sitemap: http://www.uj.ac.za:80/sitemap.xml

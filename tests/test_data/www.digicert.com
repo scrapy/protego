@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /custsupport/
+Disallow: /help/ssl_check
+Disallow: /offers/
+Disallow: /analytics/
+Disallow: /reports/
+Disallow: /seals/
+Disallow: /link/
+Disallow: /ppc/
+Disallow: /events/summit-2014/
+Disallow: /order/discovery/
+Disallow: /secure/
+Disallow: /services/
+Disallow: /events/dcab-2016/
+Disallow: /account/sso/
+Disallow: /account/saml-guest-request/
+Disallow: /new-customer-review-appreciation.htm
+Disallow: /customer-5-year-anniversary.htm
+Disallow: /partners/exclusive/
+
+
+
+User-agent: AdsBot-Google
+Allow: /ppc/
+
+Sitemap: https://www.digicert.com/sitemap.xml
+Sitemap: https://www.digicert.com/es/sitemap.xml
+

@@ -1,0 +1,9 @@
+user-agent: *
+disallow: /ajax/
+disallow: /search/
+disallow: /monitor/home-base
+disallow: /search
+disallow: /search?=
+sitemap: https://www.wfaa.com/sitemap.xml
+sitemap: https://www.wfaa.com/feeds/googlenews
+sitemap: https://www.wfaa.com/feeds/googlevideos

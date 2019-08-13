@@ -1,0 +1,27 @@
+User-agent: *
+Crawl-Delay: 6
+Disallow: /test/
+Disallow: /tools/
+Disallow: /template/
+Disallow: /search/
+Disallow: /visit/plan/
+Disallow: /gss/
+Disallow: /video-old/
+
+
+# SiteImprove should ignore these page particularly because they aren't actually used, but are still linked for historical reasons
+User-agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl by Siteimprove.com
+Disallow: /cuinfo/specialconditions/
+Disallow: /_includes/header.cfm
+
+User-agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove.com
+Disallow: /cuinfo/specialconditions/
+Disallow: /_includes/header.cfm
+
+User-agent: HTML validator: Siteimprove_W3C_Validator/1.3
+Disallow: /cuinfo/specialconditions/
+Disallow: /_includes/header.cfm
+
+User-agent: CSS Validator: Jigsaw/2.3.0 W3C_CSS_Validator_JFouffa/2.0
+Disallow: /cuinfo/specialconditions/
+Disallow: /_includes/header.cfm

@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /wps/portal/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKd3R09TMx9DAzc_YKcDTxNnEyMPNydjAx8DfULsh0VAZxImc4!/
+Disallow: /wps/portal/!ut/p/a0/04_Sj9CPykssy0xPLMnMz0vMAfGjzOKd3R09TMx9DAzc_YKcDTxNnEyMPNydjAx8DfULsh0VAZxImc4!

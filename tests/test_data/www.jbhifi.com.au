@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /Static/
+Disallow: /Products/Product-Detail/AddedToCart/
+Disallow: /My-Account/
+Disallow: /Search/results/
+Disallow: /Stores/Store-Finder/*?*Initialparams*
+Disallow: /aspxerrorpath=*
+Disallow: /productid=*
+Disallow: /ReturnUrl=*
+Disallow: /refferer=*
+Disallow: /id=*
+Disallow: /keywords=*
+Disallow: /initalparams=*
+sitemap: https://www.jbhifi.com.au/sitemap.xml

@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /WorkArea/
+Disallow: /widgets/
+Disallow: /redesign/
+Disallow: /workarea/
+Disallow: /rssfeeds/
+Disallow: /App_Code/
+Disallow: /App_Data/
+Disallow: /index2.aspx
+Disallow: /index4.aspx
+Disallow: /index4_wide.aspx
+Disallow: /assets/
+Disallow: /privateassets/
+

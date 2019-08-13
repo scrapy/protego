@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+ 
+<html lang="en-gb">
+<head>
+<meta charset="utf-8">
+<title>
+	University of Birmingham - A leading global university
+</title><meta name="GENERATOR" content="Contensis CMS Version 8.3" /><meta name="Description" content="A world top 100 university and part of the prestigious Russell Group, the University of Birmingham makes important things happen." /><meta name="google-site-verification" content="h_DGWrGRIQRCLmLmW1JQwrAzuhNVFInOZk3ty7keZts" />		<script  type="text/javascript" src="/WebResource.axd?d=kl-An0vt_-Vi5auuFyvOcbfZAn58b_NO97StVEip_N_yGQeukh75zDEzWm3_YhsOJeKNOFQe0VovamXnMiRbFJn083xA_i0ju3yvk9BCMqpwOZgY0&amp;t=636571561876533889&amp;build=831938"></script>
+
+<script type="text/javascript">
+//<![CDATA[
+
+if (typeof(window.$j) == 'undefined') { window.$j = $; }
+window.$j.register = function(name) {if (!this._components){this._components = {};} this._components[name] = true;};
+window.$j.isRegistered = function(name) { if (!this._components) { return false; } return !!(this._components[name]); };
+window.$j.requires = function(name) { if (!this.isRegistered(name)) { alert('JQuery Extension " ' + name + '" not registered'); }};
+if (typeof(jQuery.fn.setArray) == 'undefined') { jQuery.fn.setArray = function( elems ) { this.length = 0; jQuery.fn.push.apply(this, elems); return this; }};
+//]]>
+</script>
+<!--
+ControlID:ctl12 of type UniBirmingham.Web.UI.Navigation.PopularPages has set the maximum duration to 1800 seconds
+ControlID:Ctrlf4b51bed8ec6411187abcef36cd69154 of type CMS_API.WebUI.WebControls.RazorView has set the maximum duration to 1800 seconds
+ControlID:Ctrl339b953c4bc441d490f08d07dcd44e89 of type CMS_API.WebUI.WebControls.RazorView has set the maximum duration to 1800 seconds
+ControlID:Ctrl641f70eb6e374ae5b54b61f44e2be046 of type CMS_API.WebUI.WebControls.RazorView has set the maximum duration to 1800 seconds
+ControlID:Ctrlaf61d6737d434f5084f9b6376c1761ec of type CMS_API.WebUI.WebControls.RazorView has set the maximum duration to 1800 seconds
+ControlID:Ctrla3111ccb8f314ae8890bcc8042997d1e of type CMS_API.WebUI.WebControls.RazorView has set the maximum duration to 1800 seconds
+ControlID:__Page of type ASP.index_aspx has set the maximum duration to 3600 seconds
+Cache Enabled using rule ControlID:ctl12 of type UniBirmingham.Web.UI.Navigation.PopularPages has set the maximum duration to 1800 seconds
+Cache Page Render Time 22/07/2019 21:50:59
+
+-->
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" href="/assets/css/ie.css?versionId=1843436">
+	<![endif]-->
+
+	<!--[if gt IE 8]><!-->
+	<link rel="stylesheet" href="/assets/css/styles.css?versionId=1840345">
+	<!--<![endif]-->
+
+	<noscript>
+	<link rel="stylesheet" href="/assets/grunticon/icons.fallback.css?versionId=1843442">
+	</noscript>
+
+	<script src="/assets/js/vendor/modernizr.js?versionId=1780576" ></script><meta name="UoB_TemplateName" content="HomePage" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /></head>
+<body>
+    <form method="post" action="/index.aspx" id="form1" class="no-js">
+<div class="aspNetHidden">
+<input type="hidden" name="ScriptManager_HiddenField" id="ScriptManager_HiddenField" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwOTAzMDM1MTYPZBYCAgMQZGQWCAIJEGRkFgJmD2QWAmYPFgIeBFRleHQF+AUgIAoKCgo8c3R5bGU+CiAgQG1lZGlhIHNjcmVlbiBhbmQgKG1pbi13aWR0aDogMzBlbSkgewoJLmNvdmVyLS1wcmltYXJ5IHsKICAgIAliYWNrZ3JvdW5kLWltYWdlOiB1cmwoL0ltYWdlcy93ZWJzaXRlL0hvbWVQYWdlRmVhdHVyZXMvcmVzcG9uc2l2ZS9oZXJvLWltYWdlLXRlc3QtMS5qcGcpOwoJfQp9CgoJQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogMzBlbSkgewogCSAuY292ZXItLXByaW1hcnkgewogICAgCWJhY2tncm91bmQtaW1hZ2U6IHVybCgvSW1hZ2VzL3dlYnNpdGUvSG9tZVBhZ2VGZWF0dXJlcy9yZXNwb25zaXZlL2hlcm8taW1hZ2UtdGVzdC0xLWJwei5qcGcpOwoJfQp9Cjwvc3R5bGU+CjxzZWN0aW9uIGNsYXNzPSJjb3ZlciBjb3Zlci0tcHJpbWFyeSBjb3Zlci0tZGFyayI+Cgk8YXJ0aWNsZSBjbGFzcz0iY292ZXJfX2NvbnRlbnQiPgogICAgICAgIDxoMSBjbGFzcz0iY292ZXJfX2hlYWRpbmciPjxhIGhyZWY9Ii91bml2ZXJzaXR5L2luZGV4LmFzcHgiPlRoZSBnbG9iYWwgdW5pdmVyc2l0eSBhdCB0aGUgaGVhcnQgb2YgYW4gYW1iaXRpb3VzIGNpdHk8L2E+PC9oMT4KICAgICAgICA8cD5QZXJzdWFzaXZlLCBwZXJzaXN0ZW50IGFuZCBib2xkLiBXZSBlbmNvdXJhZ2UgYW5kIGVtcG93ZXIgcGVvcGxlIHRvIHR1cm4gaW5nZW51aXR5IGludG8gcmVhbGl0eSBhbmQgbWFrZSBpbXBvcnRhbnQgdGhpbmdzIGhhcHBlbi48L3A+ICAgIAoJPC9hcnRpY2xlPgogIDwhLS0gY29tbWVudCBoZXJlIC0tPgo8L3NlY3Rpb24+ZAILEGRkFgJmD2QWAmYPFgIfAAXyHgogIDxzZWN0aW9uIGNsYXNzPSJjb3ZlciBjb3Zlci0tZGFyayBjb3Zlci0tbGVmdCIgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgvSW1hZ2VzL3dlYnNpdGUvSG9tZVBhZ2VGZWF0dXJlcy9yZXNwb25zaXZlL2ludGVybmF0aW9uYWwtY2xlYXJpbmcyLTAwYWVjNS5qcGcpOyBiYWNrZ3JvdW5kLWNvbG9yOiAjMDBhZWM1OyI+CiAgPGRpdiBjbGFzcz0iY292ZXJfX2lubmVyIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29udGFpbmVyIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWRfX2NlbGwgdW5pdC0xLTItLWJwMyI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxhcnRpY2xlIGNsYXNzPSJjb3Zlcl9fY29udGVudCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3M9ImNvdmVyX19oZWFkaW5nIj48YSBocmVmPS91bmRlcmdyYWR1YXRlL0NsZWFyaW5nMjAxOS9DbGVhcmluZy1JbnRlcm5hdGlvbmFsLmFzcHg+Q2xlYXJpbmcgZm9yIGludGVybmF0aW9uYWwgc3R1ZGVudHMgbm93IG9wZW48L2E+PC9oMT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5BcHBseSBub3cgdG8gc3R1ZHkgYXQgQmlybWluZ2hhbSBpbiAyMDE5PC9wPgogIAkJCQkJCQkKICAgICAgICAgICAgICAgICAgICAgICAgPC9hcnRpY2xlPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogIDxzZWN0aW9uIGNsYXNzPSJjb3ZlciIgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgvSW1hZ2VzL3dlYnNpdGUvSG9tZVBhZ2VGZWF0dXJlcy9yZXNwb25zaXZlL2h5cGVydGVuc2lvbi1mNGVmZWMtZnAtbGEtbWluLmpwZyk7IGJhY2tncm91bmQtY29sb3I6ICNmNGVmZWM7Ij4KICA8ZGl2IGNsYXNzPSJjb3Zlcl9faW5uZXIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZF9fY2VsbCB1bml0LTEtMi0tYnAzIGdyaWRfX2NlbGwtLXJpZ2h0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPGFydGljbGUgY2xhc3M9ImNvdmVyX19jb250ZW50Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzcz0iY292ZXJfX2hlYWRpbmciPjxhIGhyZWY9L25ld3MvbGF0ZXN0LzIwMTkvMDcvaHlwZXJ0ZW5zaW9uLXN1ZmZlcmVycy1taXNzaW5nLXRyZWF0bWVudC1zdHVkeS5hc3B4Pkdsb2JhbCBTb3V0aCBoeXBlcnRlbnNpb24gc3VmZmVyZXJzIGFyZSBtaXNzaW5nIHRyZWF0bWVudDwvYT48L2gxPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPkhlYWx0aGNhcmUgaW4gbG93LSBhbmQgbWlkZGxlLWluY29tZSBjb3VudHJpZXMgaXMgcG9vcmx5IHByZXBhcmVkIGZvciBpbmNyZWFzaW5nIG51bWJlcnMgb2YgcGVvcGxlIHdpdGggaGlnaCBibG9vZCBwcmVzc3VyZSwgd2l0aCB0d28tdGhpcmRzIGdvaW5nIHdpdGhvdXQgdHJlYXRtZW50LjwvcD4KICAJCQkJCQkJCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYXJ0aWNsZT4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICA8c2VjdGlvbiBjbGFzcz0iY292ZXIgY292ZXItLWRhcmsgY292ZXItLWxlZnQiIHN0eWxlPSJiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL0ltYWdlcy93ZWJzaXRlL0hvbWVQYWdlRmVhdHVyZXMvcmVzcG9uc2l2ZS9yaGV1bWF0b2lkLWFydGhyaXRpcy0wMDAwMDAtZnAtcmEtbWluLmpwZyk7IGJhY2tncm91bmQtY29sb3I6ICMwMDAwMDA7Ij4KICA8ZGl2IGNsYXNzPSJjb3Zlcl9faW5uZXIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZF9fY2VsbCB1bml0LTEtMi0tYnAzIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGFydGljbGUgY2xhc3M9ImNvdmVyX19jb250ZW50Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzcz0iY292ZXJfX2hlYWRpbmciPjxhIGhyZWY9L25ld3MvbGF0ZXN0LzIwMTkvMDcvbGlnaHQtdG91Y2gtdG8taW1wcm92ZS1yaGV1bWF0b2lkLWFydGhyaXRpcy1kaWFnbm9zaXMuYXNweD5MaWdodCB0b3VjaCB0byBpbXByb3ZlIHJoZXVtYXRvaWQgYXJ0aHJpdGlzIGRpYWdub3NpczwvYT48L2gxPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPlVzaW5nIGluZnJhcmVkIGxpZ2h0IGNvdWxkIG9mZmVyIGFuIG9iamVjdGl2ZSB3YXkgb2YgZGlhZ25vc2luZyB0aGUgZGlzZWFzZSBhbmQgbW9uaXRvcmluZyB0cmVhdG1lbnQgZWZmZWN0aXZlbmVzczwvcD4KICAJCQkJCQkJCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYXJ0aWNsZT4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICA8c2VjdGlvbiBjbGFzcz0iY292ZXIgY292ZXItLWRhcmsiIHN0eWxlPSJiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL0ltYWdlcy93ZWJzaXRlL0hvbWVQYWdlRmVhdHVyZXMvcmVzcG9uc2l2ZS9uZXRmbGl4LXVzLXBvbGl0aWNzLTAyMDIwMi1mcC1sYS1taW4uanBnKTsgYmFja2dyb3VuZC1jb2xvcjogIzAyMDIwMjsiPgogIDxkaXYgY2xhc3M9ImNvdmVyX19pbm5lciI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkX19jZWxsIHVuaXQtMS0yLS1icDMgZ3JpZF9fY2VsbC0tcmlnaHQiPgogICAgICAgICAgICAgICAgICAgICAgICA8YXJ0aWNsZSBjbGFzcz0iY292ZXJfX2NvbnRlbnQiPgogICAgCQkJCQkJCTxhIGhyZWY9Ii9yZXNlYXJjaC9wZXJzcGVjdGl2ZS9uZXRmbGl4LXVzLXByb2dyZXNzaXZlLXBvbGl0aWNzLmFzcHgiIGNsYXNzPSJpZGVudGlmaWVyIj5CaXJtaW5naGFtIFBlcnNwZWN0aXZlPC9hPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzPSJjb3Zlcl9faGVhZGluZyI+PGEgaHJlZj0vcmVzZWFyY2gvcGVyc3BlY3RpdmUvbmV0ZmxpeC11cy1wcm9ncmVzc2l2ZS1wb2xpdGljcy5hc3B4Pk5ldGZsaXg6IFRoZSBOZXcgT3V0bGV0IGZvciBVUyBQcm9ncmVzc2l2ZSBQb2xpdGljcz88L2E+PC9oMT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD4iU3VyZWx5IGl0IGlzIG9ubHkgYSBtYXR0ZXIgb2YgdGltZSBiZWZvcmUgTmV0ZmxpeCBiZWNvbWVzIGEgdGFyZ2V0IG9mIHRoZSBQcmVzaWRlbnTigJlzIHRocmVhdHMiPC9wPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPSIvcmVzZWFyY2gvcGVyc3BlY3RpdmUvbmV0ZmxpeC11cy1wcm9ncmVzc2l2ZS1wb2xpdGljcy5hc3B4Ij5Kb2luIHRoZSBjb252ZXJzYXRpb248c3BhbiBjbGFzcz0iY2hldnJvbiBpY29uLS1jaGV2cm9uLWJsdWUiPjwvc3Bhbj48L2E+CiAgCQkJCQkJCQogICAgICAgICAgICAgICAgICAgICAgICA8L2FydGljbGU+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CmQCDRBkZBYEAgEQZGQWAmYPZBYCZg8WAh8ABdIKICAKICAKPHNlY3Rpb24gY2xhc3M9ImZlZWQiPgo8aDEgY2xhc3M9ImRlbHRhIGhlYWRpbmctZGl2aWRlIj5MYXRlc3QgbmV3czwvaDE+CgogICAgPGFydGljbGUgY2xhc3M9ImZlZWRfX2l0ZW0iPgogICAgPGEgaHJlZj0iL25ld3MvbGF0ZXN0LzIwMTkvMDcvd2F0dC1pbi10aGUtd29ybGQtZXhoaWJpdGlvbi1vcGVucy1pbi1jaXR5LWxpYnJhcnkuYXNweCI+PGltZyBjbGFzcz0iZmVlZF9fdGh1bWIiIHNyYz0iL0ltYWdlcy93ZWJzaXRlL0hvbWVQYWdlRmVhdHVyZXMvcHJvbW9zL3dhdHQtMTgwcHguanBnIiBhbHQ9IldhdHQgaW4gdGhlIFdvcmxkIGV4aGliaXRpb24gb3BlbnMgaW4gY2l0eSBsaWJyYXJ5Ij48L2E+CiAgICA8aDEgY2xhc3M9ImVwc2lsb24iPjxhIGhyZWY9Ii9uZXdzL2xhdGVzdC8yMDE5LzA3L3dhdHQtaW4tdGhlLXdvcmxkLWV4aGliaXRpb24tb3BlbnMtaW4tY2l0eS1saWJyYXJ5LmFzcHgiPldhdHQgaW4gdGhlIFdvcmxkIGV4aGliaXRpb24gb3BlbnMgaW4gY2l0eSBsaWJyYXJ5PC9hPjwvaDE+CiAgICA8cD5BIG5ldyBleGhpYml0aW9uIG9uIEphbWVzIFdhdHQgaGFzIG9wZW5lZCBhdCB0aGUgTGlicmFyeSBvZiBCaXJtaW5naGFtLjwvcD4KICAgIDwvYXJ0aWNsZT4KICAgIDxhcnRpY2xlIGNsYXNzPSJmZWVkX19pdGVtIj4KICAgIDxhIGhyZWY9Ii9uZXdzL2xhdGVzdC8yMDE5LzA3L2hvbWVsZXNzLWhlYWx0aGNhcmUtZGlzY3JpbWluYXRpb24tTkhTLXJlc2VhcmNoLmFzcHgiPjxpbWcgY2xhc3M9ImZlZWRfX3RodW1iIiBzcmM9Ii9JbWFnZXMvd2Vic2l0ZS9Ib21lUGFnZUZlYXR1cmVzL3Byb21vcy9ob21lbGVzcy0xODBweC5qcGciIGFsdD0iSG9tZWxlc3MgcGVvcGxlIGFyZSBkZW5pZWQgYmFzaWMgaGVhbHRoIGNhcmUsIHJlc2VhcmNoIGZpbmRzIj48L2E+CiAgICA8aDEgY2xhc3M9ImVwc2lsb24iPjxhIGhyZWY9Ii9uZXdzL2xhdGVzdC8yMDE5LzA3L2hvbWVsZXNzLWhlYWx0aGNhcmUtZGlzY3JpbWluYXRpb24tTkhTLXJlc2VhcmNoLmFzcHgiPkhvbWVsZXNzIHBlb3BsZSBhcmUgZGVuaWVkIGJhc2ljIGhlYWx0aCBjYXJlLCByZXNlYXJjaCBmaW5kczwvYT48L2gxPgogICAgPHA+QSBzdHVkeSBsZWQgYnkgdGhlIFVuaXZlcnNpdHkgb2YgQmlybWluZ2hhbSBoYXMgcGFpbnRlZCBhIHNoYW1pbmcgcGljdHVyZSBvZiBuZWdsZWN0IGFuZCBkaXNjcmltaW5hdGlvbiBzaG93biB0b3dhcmRzIHRoZSBob21lbGVzcyB3aGVuIGFjY2Vzc2luZyBVSyBoZWFsdGggc2VydmljZXMuPC9wPgogICAgPC9hcnRpY2xlPgoKCgk8YSBocmVmPSJodHRwOi8vd3d3LmJpcm1pbmdoYW0uYWMudWsvbmV3cyIgY2xhc3M9ImZlZWRfX21vcmUiPkFsbCBuZXdzPC9hPgo8L3NlY3Rpb24+ZAIDEGRkFgJmD2QWAmYPFgIfAAXnCCAgCiAgCjxzZWN0aW9uIGNsYXNzPSJmZWVkIj4KPGgxIGNsYXNzPSJkZWx0YSBoZWFkaW5nLWRpdmlkZSI+TGF0ZXN0IGV2ZW50czwvaDE+CgogICAgPGFydGljbGUgY2xhc3M9ImZlZWRfX2l0ZW0iPgogICAgPCEtLSBjYWxlbmRhciBpdGVtIGhlcmUgLS0+CiAgICA8ZGl2IGNsYXNzPSJkYXRlIGRhdGUtLWxhcmdlIGZlZWRfX2NhbCI+CiAgICAJPHNwYW4gY2xhc3M9ImRhdGVfX21vbnRoIj5TZXB0ZW1iZXI8L3NwYW4+CiAgICAgICAgPHNwYW4gY2xhc3M9ImRhdGVfX2RheSI+MTI8L3NwYW4+CiAgICA8L2Rpdj4KICAgIDxoMSBjbGFzcz0iZXBzaWxvbiI+PGEgaHJlZj0iL3NjaG9vbHMvYnVzaW5lc3MvZXZlbnRzLzIwMTkvMDkvUkItQWNhZGVtaWMtU3ltcG9zaXVtL3Jlc3BvbnNpYmxlLWJ1c2luZXNzLWFjYWRlbWljLXN5bXBvc2l1bS5hc3B4Ij5SZXNwb25zaWJsZSBCdXNpbmVzcyBBY2FkZW1pYyBTeW1wb3NpdW08L2E+PC9oMT4KICAgIDxwPlRoaXMgb25lLWRheSBzeW1wb3NpdW0gYWltcyB0byBwcm92aWRlIGEgbmV3IGNvbGxlY3RpdmUgZm9ydW0gZm9yIHJlc2VhcmNoZXJzIHdvcmtpbmcgaW4gdGhpcyBicm9hZCBmaWVsZDwvcD4KICAgIDwvYXJ0aWNsZT4KICAgIDxhcnRpY2xlIGNsYXNzPSJmZWVkX19pdGVtIj4KICAgIDwhLS0gY2FsZW5kYXIgaXRlbSBoZXJlIC0tPgogICAgPGRpdiBjbGFzcz0iZGF0ZSBkYXRlLS1sYXJnZSBmZWVkX19jYWwiPgogICAgCTxzcGFuIGNsYXNzPSJkYXRlX19tb250aCI+T2N0b2Jlcjwvc3Bhbj4KICAgICAgICA8c3BhbiBjbGFzcz0iZGF0ZV9fZGF5Ij4yNTwvc3Bhbj4KICAgIDwvZGl2PgogICAgPGgxIGNsYXNzPSJlcHNpbG9uIj48YSBocmVmPSIvc2Nob29scy9sY2FobS9kZXBhcnRtZW50cy9tdXNpYy9ldmVudHMvMjAxOS9hdXR1bW4vYmFyYmVyLWx1bmNodGltZS1rZW5uZXRoLWhhbWlsdG9uLmFzcHgiPktlbm5ldGggSGFtaWx0b24gTGVjdHVyZS1yZWNpdGFsPC9hPjwvaDE+CiAgICA8cD5CYXJiZXIgbHVuY2h0aW1lIGNvbmNlcnQ8L3A+CiAgICA8L2FydGljbGU+CgoKCTxhIGhyZWY9Imh0dHA6Ly93d3cuYmlybWluZ2hhbS5hYy51ay9ldmVudHMiIGNsYXNzPSJmZWVkX19tb3JlIj5BbGwgZXZlbnRzPC9hPgo8L3NlY3Rpb24+ZAIPEGRkFgJmD2QWAmYPFgIfAAWWHAogIDxzZWN0aW9uIGNsYXNzPSJjb3ZlciBjb3Zlci0tbGVmdCIgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgvSW1hZ2VzL3dlYnNpdGUvSG9tZVBhZ2VGZWF0dXJlcy9yZXNwb25zaXZlL3VuZmlsdGVyZWQtbGl2ZXMtZWJlYmU5LWZwLXJhLmpwZyk7IGJhY2tncm91bmQtY29sb3I6ICNlYmViZTk7Ij4KICA8ZGl2IGNsYXNzPSJjb3Zlcl9faW5uZXIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJjb250YWluZXIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JpZF9fY2VsbCB1bml0LTEtMi0tYnAzIj4KICAgICAgICAgICAgICAgICAgICAgICAgPGFydGljbGUgY2xhc3M9ImNvdmVyX19jb250ZW50Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxoMSBjbGFzcz0iY292ZXJfX2hlYWRpbmciPjxhIGhyZWY9L3VuaXZlcnNpdHkvY29sbGVnZXMvc29jc2NpL3VuZmlsdGVyZWQtbGl2ZXMvaW5kZXguYXNweD5VbmZpbHRlcmVkIExpdmVzPC9hPjwvaDE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+V2UgYXJlIHRlbGxpbmcgdGhlIHN0b3JpZXMgb2YgcmVhbCBwZW9wbGUgd2hvc2UgbGl2ZXMgaGF2ZSBwb3NpdGl2ZWx5IGNoYW5nZWQgYXMgYSByZXN1bHQgb2Ygb3VyIHJlc2VhcmNoPC9wPgogIAkJCQkJCQkKICAgICAgICAgICAgICAgICAgICAgICAgPC9hcnRpY2xlPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogIDxzZWN0aW9uIGNsYXNzPSJjb3ZlciIgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgvSW1hZ2VzL3dlYnNpdGUvSG9tZVBhZ2VGZWF0dXJlcy9yZXNwb25zaXZlL3B1bHNlLW94LWViZWJlOS1sYS1mcC5qcGcpOyBiYWNrZ3JvdW5kLWNvbG9yOiAjZWJlYmU5OyI+CiAgPGRpdiBjbGFzcz0iY292ZXJfX2lubmVyIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iY29udGFpbmVyIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWQiPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdyaWRfX2NlbGwgdW5pdC0xLTItLWJwMyBncmlkX19jZWxsLS1yaWdodCI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxhcnRpY2xlIGNsYXNzPSJjb3Zlcl9fY29udGVudCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aDEgY2xhc3M9ImNvdmVyX19oZWFkaW5nIj48YSBocmVmPS9yZXNlYXJjaC9hY3Rpdml0eS9tZXRhYm9saXNtLXN5c3RlbXMvUHVsc2Utb3hpbWV0cnktc2NyZWVuaW5nLXNhdmluZy1iYWJpZXMtbGl2ZXMuYXNweD5QdWxzZSBveGltZXRyeSBzY3JlZW5pbmc6IHNhdmluZyBiYWJpZXPigJkgbGl2ZXM8L2E+PC9oMT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD5BIHBvc3Rjb2RlIGxvdHRlcnkgZGVjaWRlcyBpZiBiYWJpZXMgYXJlIHRlc3RlZCBmb3IgYSBoZWFydCBkZWZlY3QuIFdlIHRoaW5rIHRoaXMgbmVlZHMgdG8gY2hhbmdlPC9wPgogIAkJCQkJCQkKICAgICAgICAgICAgICAgICAgICAgICAgPC9hcnRpY2xlPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogIDxzZWN0aW9uIGNsYXNzPSJjb3ZlciBjb3Zlci0tZGFyayBjb3Zlci0tbGVmdCIgc3R5bGU9ImJhY2tncm91bmQtaW1hZ2U6IHVybCgvSW1hZ2VzL3dlYnNpdGUvSG9tZVBhZ2VGZWF0dXJlcy9yZXNwb25zaXZlL2NvZGluZy1ib290Y2FtcC0wZDBiMGUtcmEuanBnKTsgYmFja2dyb3VuZC1jb2xvcjogIzBkMGIwZTsiPgogIDxkaXYgY2xhc3M9ImNvdmVyX19pbm5lciI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkX19jZWxsIHVuaXQtMS0yLS1icDMiPgogICAgICAgICAgICAgICAgICAgICAgICA8YXJ0aWNsZSBjbGFzcz0iY292ZXJfX2NvbnRlbnQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzPSJjb3Zlcl9faGVhZGluZyI+PGEgaHJlZj1odHRwczovL3d3dy5iaXJtaW5naGFtLmFjLnVrL3Bvc3RncmFkdWF0ZS9jb3Vyc2VzL2NwZC9jb2RpbmctYm9vdC1jYW1wLmFzcHg/dXRtX2NhbXBhaWduPXRyaWxvZ3lfYm9vdF9jYW1wJmFtcDt1dG1fbWVkaXVtPXdlYnNpdGUmYW1wO3V0bV9zb3VyY2U9aG9tZXBhZ2U+QmVjb21lIGEgd2ViIGRldmVsb3BlciB3aXRoIG91ciBuZXcgQ29kaW5nIEJvb3QgQ2FtcDwvYT48L2gxPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwPkJpcm1pbmdoYW0gbGF1bmNoZXMgdGhlIGNpdHnigJlzIGZpcnN0IDI0LXdlZWsgY29kaW5nIHNob3J0IGNvdXJzZTwvcD4KICAJCQkJCQkJCiAgICAgICAgICAgICAgICAgICAgICAgIDwvYXJ0aWNsZT4KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgIDwvc2VjdGlvbj4KICA8c2VjdGlvbiBjbGFzcz0iY292ZXIgY292ZXItLWRhcmsiIHN0eWxlPSJiYWNrZ3JvdW5kLWltYWdlOiB1cmwoL0ltYWdlcy93ZWJzaXRlL0hvbWVQYWdlRmVhdHVyZXMvcmVzcG9uc2l2ZS9hc3Rvbi13ZWJiLTViN2Y5OS1mcC1sYS1taW4uanBnKTsgYmFja2dyb3VuZC1jb2xvcjogIzViN2Y5OTsiPgogIDxkaXYgY2xhc3M9ImNvdmVyX19pbm5lciI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNvbnRhaW5lciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncmlkX19jZWxsIHVuaXQtMS0yLS1icDMgZ3JpZF9fY2VsbC0tcmlnaHQiPgogICAgICAgICAgICAgICAgICAgICAgICA8YXJ0aWNsZSBjbGFzcz0iY292ZXJfX2NvbnRlbnQiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzPSJjb3Zlcl9faGVhZGluZyI+PGEgaHJlZj0vbmV3cy9sYXRlc3QvMjAxOS8wNi91bml2ZXJzaXR5LW9mLWJpcm1pbmdoYW0tcmlzZXMtaW4tdGhlLXJhbmtpbmdzLmFzcHg+QmlybWluZ2hhbSBpcyBvZmZpY2lhbGx5IDE2dGggdG9wIHVuaXZlcnNpdHkgaW4gdGhlIFVLPC9hPjwvaDE+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHA+V2UgYXJlIGRlbGlnaHRlZCB0byBtb3ZlIHVwIDMgcGxhY2VzIGluIHRoZSBHdWFyZGlhbiBVbml2ZXJzaXR5IEd1aWRlIDIwMjA8L3A+CiAgCQkJCQkJCQogICAgICAgICAgICAgICAgICAgICAgICA8L2FydGljbGU+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CmRkddhykItC28b2H9fQ46bZMOZfMcU=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script><noscript><p>Browser does not support script.</p></noscript>
+
+
+<script src="/WebResource.axd?d=IF7XhWv2NgH3jBEHemaT_0Ma9jrn3mCo42UyeJAyDlTylkkzQ1Syv5wxsbtq68iWTwbBYh2OWK_2wPOKYHfxxOwFNT01&amp;t=636768476402700171" type="text/javascript"></script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MM4Z3Q"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MM4Z3Q');</script><noscript><p>Browser does not support script.</p></noscript>
+<!-- End Google Tag Manager -->
+<script type="text/javascript">
+//<![CDATA[
+if ($){$('.no-js').removeClass('no-js').addClass('js');}//]]>
+</script><noscript><p>Browser does not support script.</p></noscript>
+
+<script src="/ScriptResource.axd?d=XFldKEAHH7vTw8F4AV58kLqfnerxxq7SRfuVXauDzU62URflTogzHWl7aPKVfVv1PxuX5u6baQ91cBrgAJUtTcAi1JjdVh_31hHE7ANHhAyCTmgPLwrm1TX1AMOAj08ASR3IMxxN-qi0vMEax_FOA7QAUEI1&amp;t=2b48f70a" type="text/javascript"></script><noscript><p>Browser does not support script.</p></noscript>
+<script src="/ScriptResource.axd?d=1XyIIvNRB73qKd3EKpYJKK4bXo_FVyNyeCjLY3imqWP0F9w_Ihd2lck_nx-mu4Hdha3PL2n45QhNbSkJgSWOKd-Dz-BEKJgHZMrfJfdEEdV8EEyNsh7VTrhRIcmnSLoCLh_mFy5e1U1wJW7VtsbGlVoyl5pMB4yucabQQ-xqgwfZV5aN0&amp;t=2b48f70a" type="text/javascript"></script><noscript><p>Browser does not support script.</p></noscript><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'form1', [], [], [], 90, '');
+//]]>
+</script><noscript><p>Browser does not support script.</p></noscript>
+
+        
+<header class="banner banner--overlayed" role="banner">
+
+
+<div class="container container--head">
+    <a href="/index.aspx" class="logo icon--uob-logo">
+        <span class="accessibility">University of Birmingham</span>
+    </a>
+
+    <div class="navbar">
+        <nav class="utility-nav" role="navigation">
+            <ul class="nav nav--secondary nav--inline">
+                <li class="nav__item"><a href="/university/hefi/index.aspx" class="nav__link">Teaching excellence</a></li>
+                <li class="nav__item"><a href="/alumni/index.aspx" class="nav__link">Alumni</a></li>
+                <li class="nav__item"><a href="/staff/index.aspx" class="nav__link">Work here</a></li>
+                <li class="nav__item"><a href="/events/index.aspx" class="nav__link">Events</a></li>
+                   <li class="nav__item"><a href="/visit/index.aspx" class="nav__link">Visit</a></li>
+                
+                <li class="nav__item nav__item--switch">
+                    <div class="nav-switch">
+                        <a href="/index.aspx" class="nav-switch__button nav-switch__button--active">UK</a>
+                        <a href="/dubai/index.aspx" class="nav-switch__button">Dubai</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="" class="nav--primary__toggle icon--menu js-nav-toggle"><span class="accessibility">Menu</span></a>
+        <nav class="navbox js-nav-menu" role="navigation">
+            <ul class="nav nav--primary nav--inline">
+                <li class="nav__item"><a href="/study/index.aspx" class="nav__link">Study</a></li>
+                <li class="nav__item"><a href="/research/index.aspx" class="nav__link">Research</a></li>
+                <li class="nav__item"><a href="/International/index.aspx" class="nav__link">International</a></li>
+                <li class="nav__item"><a href="/partners/index.aspx" class="nav__link">Business</a></li>
+                <li class="nav__item"><a href="/news/index.aspx" class="nav__link">News</a></li>
+                <li class="nav__item"><a href="/university/index.aspx" class="nav__link">About us</a></li>
+            </ul>
+
+            <ul class="nav nav--secondary--mobile">
+                <li class="nav__item"><a href="/university/hefi/index.aspx" class="nav__link">Teaching excellence</a></li>
+                <li class="nav__item"><a href="/alumni/index.aspx" class="nav__link">Alumni</a></li>
+                <li class="nav__item"><a href="/staff/index.aspx" class="nav__link">Work here</a></li>
+                <li class="nav__item"><a href="/events/index.aspx" class="nav__link">Events</a></li>
+                <li class="nav__item"><a href="/visit/index.aspx" class="nav__link">Visit</a></li>
+                <li class="nav__item"><a href="/dubai/index.aspx" class="nav__link--switch">Switch to Dubai campus</a></li>
+            </ul>
+        </nav>
+        <button type="button" class="search-toggle js-search-toggle"><span class="accessibility">Search</span></button>
+
+    </div>
+</div>
+<!-- Search form -->
+<div id="GlobalSearchForm_searchForm" class="search-form form--inline js-search" role="search">
+	<div class="container">
+		<div class="search-form__fields form--inline__fields">
+			<label for="_globalSearchTextBox" class="accessibility">Search for:</label><input name="_globalSearchTextBox" type="text" id="_globalSearchTextBox" placeholder="Search for courses, people, research, information and much more..." /><button id="_globalSearchButton" class="btn search-form__button" type="submit" name="_globalSearchButton"><span class="icon--search search-form__icon"></span><span class="search-form__text">Search</span></button>
+		</div><h2 class="epsilon">
+			Recommended pages
+		</h2><ul class="list--cols-4 list--unset zero--bottom">
+			<li><a href="https://www.birmingham.ac.uk/teachers/index.aspx">Information for teachers</a></li><li><a href="https://www.birmingham.ac.uk/undergraduate/prospectus/index.aspx">Request a prospectus</a></li><li><a href="https://www.birmingham.ac.uk/undergraduate/visit/index.aspx">Visit us for an open day</a></li><li><a href="https://www.birmingham.ac.uk/study/accommodation/index.aspx">Accommodation</a></li><li><a href="https://www.birmingham.ac.uk/contact/index.aspx">Contact us</a></li><li><a href="https://www.birmingham.ac.uk/contact/directions/index.aspx">Maps and directions</a></li><li><a href="https://www.birmingham.ac.uk/libraries/index.aspx">Browse our libraries</a></li><li><a href="https://www.sportandfitness.bham.ac.uk/">Sport and fitness</a></li>
+		</ul>
+	</div>
+</div>
+</header>
+  
+
+
+
+<style>
+  @media screen and (min-width: 30em) {
+	.cover--primary {
+    	background-image: url(/Images/website/HomePageFeatures/responsive/hero-image-test-1.jpg);
+	}
+}
+
+	@media screen and (max-width: 30em) {
+ 	 .cover--primary {
+    	background-image: url(/Images/website/HomePageFeatures/responsive/hero-image-test-1-bpz.jpg);
+	}
+}
+</style>
+<section class="cover cover--primary cover--dark">
+	<article class="cover__content">
+        <h1 class="cover__heading"><a href="/university/index.aspx">The global university at the heart of an ambitious city</a></h1>
+        <p>Persuasive, persistent and bold. We encourage and empower people to turn ingenuity into reality and make important things happen.</p>    
+	</article>
+  <!-- comment here -->
+</section>
+
+  <section class="cover cover--dark cover--left" style="background-image: url(/Images/website/HomePageFeatures/responsive/international-clearing2-00aec5.jpg); background-color: #00aec5;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=/undergraduate/Clearing2019/Clearing-International.aspx>Clearing for international students now open</a></h1>
+                            
+                              <p>Apply now to study at Birmingham in 2019</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="cover" style="background-image: url(/Images/website/HomePageFeatures/responsive/hypertension-f4efec-fp-la-min.jpg); background-color: #f4efec;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3 grid__cell--right">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=/news/latest/2019/07/hypertension-sufferers-missing-treatment-study.aspx>Global South hypertension sufferers are missing treatment</a></h1>
+                            
+                              <p>Healthcare in low- and middle-income countries is poorly prepared for increasing numbers of people with high blood pressure, with two-thirds going without treatment.</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="cover cover--dark cover--left" style="background-image: url(/Images/website/HomePageFeatures/responsive/rheumatoid-arthritis-000000-fp-ra-min.jpg); background-color: #000000;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=/news/latest/2019/07/light-touch-to-improve-rheumatoid-arthritis-diagnosis.aspx>Light touch to improve rheumatoid arthritis diagnosis</a></h1>
+                            
+                              <p>Using infrared light could offer an objective way of diagnosing the disease and monitoring treatment effectiveness</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="cover cover--dark" style="background-image: url(/Images/website/HomePageFeatures/responsive/netflix-us-politics-020202-fp-la-min.jpg); background-color: #020202;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3 grid__cell--right">
+                        <article class="cover__content">
+    							<a href="/research/perspective/netflix-us-progressive-politics.aspx" class="identifier">Birmingham Perspective</a>
+                            <h1 class="cover__heading"><a href=/research/perspective/netflix-us-progressive-politics.aspx>Netflix: The New Outlet for US Progressive Politics?</a></h1>
+                            
+                              <p>"Surely it is only a matter of time before Netflix becomes a target of the President’s threats"</p>
+                              <a href="/research/perspective/netflix-us-progressive-politics.aspx">Join the conversation<span class="chevron icon--chevron-blue"></span></a>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="row align--center">
+<div class="container">
+
+<div class="grid sys_uobFeature">
+<div class="grid__cell unit-1-2--bp2 align--center">
+  
+  
+<section class="feed">
+<h1 class="delta heading-divide">Latest news</h1>
+
+    <article class="feed__item">
+    <a href="/news/latest/2019/07/watt-in-the-world-exhibition-opens-in-city-library.aspx"><img class="feed__thumb" src="/Images/website/HomePageFeatures/promos/watt-180px.jpg" alt="Watt in the World exhibition opens in city library"></a>
+    <h1 class="epsilon"><a href="/news/latest/2019/07/watt-in-the-world-exhibition-opens-in-city-library.aspx">Watt in the World exhibition opens in city library</a></h1>
+    <p>A new exhibition on James Watt has opened at the Library of Birmingham.</p>
+    </article>
+    <article class="feed__item">
+    <a href="/news/latest/2019/07/homeless-healthcare-discrimination-NHS-research.aspx"><img class="feed__thumb" src="/Images/website/HomePageFeatures/promos/homeless-180px.jpg" alt="Homeless people are denied basic health care, research finds"></a>
+    <h1 class="epsilon"><a href="/news/latest/2019/07/homeless-healthcare-discrimination-NHS-research.aspx">Homeless people are denied basic health care, research finds</a></h1>
+    <p>A study led by the University of Birmingham has painted a shaming picture of neglect and discrimination shown towards the homeless when accessing UK health services.</p>
+    </article>
+
+
+	<a href="http://www.birmingham.ac.uk/news" class="feed__more">All news</a>
+</section>
+</div>
+<div class="grid__cell unit-1-2--bp2 align--center">
+  
+  
+<section class="feed">
+<h1 class="delta heading-divide">Latest events</h1>
+
+    <article class="feed__item">
+    <!-- calendar item here -->
+    <div class="date date--large feed__cal">
+    	<span class="date__month">September</span>
+        <span class="date__day">12</span>
+    </div>
+    <h1 class="epsilon"><a href="/schools/business/events/2019/09/RB-Academic-Symposium/responsible-business-academic-symposium.aspx">Responsible Business Academic Symposium</a></h1>
+    <p>This one-day symposium aims to provide a new collective forum for researchers working in this broad field</p>
+    </article>
+    <article class="feed__item">
+    <!-- calendar item here -->
+    <div class="date date--large feed__cal">
+    	<span class="date__month">October</span>
+        <span class="date__day">25</span>
+    </div>
+    <h1 class="epsilon"><a href="/schools/lcahm/departments/music/events/2019/autumn/barber-lunchtime-kenneth-hamilton.aspx">Kenneth Hamilton Lecture-recital</a></h1>
+    <p>Barber lunchtime concert</p>
+    </article>
+
+
+	<a href="http://www.birmingham.ac.uk/events" class="feed__more">All events</a>
+</section>
+</div>
+</div>
+
+</div>
+</div>
+
+  <section class="cover cover--left" style="background-image: url(/Images/website/HomePageFeatures/responsive/unfiltered-lives-ebebe9-fp-ra.jpg); background-color: #ebebe9;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=/university/colleges/socsci/unfiltered-lives/index.aspx>Unfiltered Lives</a></h1>
+                            
+                              <p>We are telling the stories of real people whose lives have positively changed as a result of our research</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="cover" style="background-image: url(/Images/website/HomePageFeatures/responsive/pulse-ox-ebebe9-la-fp.jpg); background-color: #ebebe9;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3 grid__cell--right">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=/research/activity/metabolism-systems/Pulse-oximetry-screening-saving-babies-lives.aspx>Pulse oximetry screening: saving babies’ lives</a></h1>
+                            
+                              <p>A postcode lottery decides if babies are tested for a heart defect. We think this needs to change</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="cover cover--dark cover--left" style="background-image: url(/Images/website/HomePageFeatures/responsive/coding-bootcamp-0d0b0e-ra.jpg); background-color: #0d0b0e;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=https://www.birmingham.ac.uk/postgraduate/courses/cpd/coding-boot-camp.aspx?utm_campaign=trilogy_boot_camp&amp;utm_medium=website&amp;utm_source=homepage>Become a web developer with our new Coding Boot Camp</a></h1>
+                            
+                              <p>Birmingham launches the city’s first 24-week coding short course</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section class="cover cover--dark" style="background-image: url(/Images/website/HomePageFeatures/responsive/aston-webb-5b7f99-fp-la-min.jpg); background-color: #5b7f99;">
+  <div class="cover__inner">
+            <div class="container">
+                <div class="grid">
+                    <div class="grid__cell unit-1-2--bp3 grid__cell--right">
+                        <article class="cover__content">
+                            <h1 class="cover__heading"><a href=/news/latest/2019/06/university-of-birmingham-rises-in-the-rankings.aspx>Birmingham is officially 16th top university in the UK</a></h1>
+                            
+                              <p>We are delighted to move up 3 places in the Guardian University Guide 2020</p>
+  							
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<div class="accordion home-accordion js-accordion zero--bottom">
+
+
+<section class="accordion__block">
+            <header class="accordion__head" role="button" tabindex="0" aria-controls="pageFooterAccordion1">
+                <div class="container">
+                    <h1 class="accordion__title">Culture and collections</h1>
+                    <i class="accordion__control icon--maximise"></i>
+                </div>
+            </header>
+            <div class="accordion__body" id="pageFooterAccordion1" class="accordion__body" role="contentinfo">
+                <div class="container">
+                    <div class="grid">
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset  nav nav--footer">
+                                <li>
+                                    <a href="http://barber.org.uk"><img src="/assets/img/degas.jpg" alt="Barber Institute of Fine Arts"></a>
+                                   <a href="http://barber.org.uk">Barber Institute of Fine Arts</a>
+                                </li>
+                                <li>
+                                    <a href="https://thebramall.co.uk"><img src="/assets/img/bramall.jpg" alt="Bramall Music Building"></a>
+                                    <a href="https://thebramall.co.uk">Bramall Music Building</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset nav nav--footer">
+                                <li>
+                                    <a href="/facilities/cadbury/index.aspx"><img src="/assets/img/book-hours-crl-promo-2.jpg" alt="Cadbury Research Library"></a>
+                                    <a href="/facilities/cadbury/index.aspx">Cadbury Research Library</a>
+                                </li>
+                                <li>
+                                    <a href="/facilities/lapworth-museum/index.aspx"><img src="/assets/img/lapworth.jpg" alt="Lapworth Museum of Geology"></a>
+                                    <a href="/facilities/lapworth-museum/index.aspx">Lapworth Museum of Geology</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset nav nav--footer">
+                                <li>
+                                    <a href="https://www.winterbourne.org.uk"><img src="/assets/img/winterbourne-2017.jpg" alt="Winterbourne House and Garden"></a>
+                                    <a href="https://www.winterbourne.org.uk">Winterbourne House and Garden</a>
+                                </li>
+  								 <li>
+                                    <a href="/schools/lcahm/departments/music/universitymusic/index.aspx"><img src="/assets/img/music.jpg" alt="University Music"></a>
+                                    <a href="/schools/lcahm/departments/music/universitymusic/index.aspx">University Music</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset nav nav--footer">
+                                <li>
+                                    <a href="/facilities/rcc/index.aspx"><img src="/assets/img/research.jpg" alt="Research and Cultural collections"></a>
+                                    <a href="/facilities/rcc/index.aspx">Research and Cultural collections</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<section class="accordion__block">
+            <header class="accordion__head" role="button" tabindex="0" aria-controls="pageFooterAccordion2">
+                <div class="container">
+                    <h1 class="accordion__title">Schools, institutes and departments</h1>
+                    <i class="accordion__control icon--maximise"></i>
+                </div>
+            </header>
+            <div id="pageFooterAccordion2" class="accordion__body" role="contentinfo">
+                <div class="container">
+                    <div class="grid grid--spaced">
+                        <div class="grid__cell unit-1-2--bp1 unit-1-3--bp3">
+                            <h2 class="epsilon"><a href="/university/colleges/artslaw/index.aspx">College of Arts and Law</a></h2>
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="/schools/law/index.aspx">Birmingham Law School</a></li>
+                                <li><a href="/schools/edacs/index.aspx">English, Drama and American &amp; Canadian Studies</a></li>
+                                <li><a href="/schools/historycultures/index.aspx">History and Cultures</a></li>
+                                <li><a href="/schools/lcahm/index.aspx">Language, Cultures, Art History and Music</a></li>
+                                <li><a href="/schools/ptr/index.aspx">Philosophy, Theology and Religion</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-3--bp3">
+                        <h2 class="epsilon"><a href="/university/colleges/mds/index.aspx">College of Medical and Dental Sciences</a></h2>
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="/research/activity/applied-health/index.aspx">Applied Health Research </a></li>
+								<li><a href="/schools/biomedical-science/index.aspx">Biomedical Science</a></li>
+                                <li><a href="/schools/medical-school/index.aspx">Birmingham Medical School</a></li>
+  								<li><a href="/research/activity/cancer-genomics/index.aspx">Cancer and Genomic Sciences</a></li>
+                                <li><a href="/research/activity/cardiovascular-sciences/index.aspx">Cardiovascular Sciences </a></li>
+								<li><a href="/research/activity/clinical-sciences/index.aspx">Clinical Sciences</a></li>
+          						<li><a href="/schools/dentistry/index.aspx">Dentistry</a></li>
+								<li><a href="/schools/mds-graduate-school/index.aspx">Graduate School</a></li>
+								<li><a href="/research/activity/immunology-immunotherapy/index.aspx">Immunology and Immunotherapy </a></li>
+                                <li><a href="/research/activity/inflammation-ageing/index.aspx">Inflammation and Ageing </a></li>
+            					<li><a href="/research/activity/metabolism-systems/index.aspx">Metabolism and Systems Research</a></li>
+          						<li><a href="/research/activity/microbiology-infection/index.aspx">Microbiology and Infection</a></li>
+								<li><a href="/schools/nursing/index.aspx">Nursing</a></li>
+          						<li><a href="/schools/pharmacy/index.aspx">Pharmacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-3--bp3">
+                            <h2 class="epsilon"><a href="/university/colleges/les/index.aspx">College of Life and Environmental Sciences</a></h2>
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="/schools/biosciences/index.aspx">Biosciences</a></li>
+                                <li><a href="/schools/gees/index.aspx">Geography, Earth and Environmental Sciences</a></li>
+                                <li><a href="/schools/psychology/index.aspx">Psychology</a></li>
+                                <li><a href="/schools/sport-exercise/index.aspx">Sport, Exercise and Rehabilitation Sciences</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-3--bp3">
+                            <h2 class="epsilon"><a href="/university/colleges/eps/index.aspx">College of Engineering and Physical Sciences</a></h2>
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="/schools/chemical-engineering/index.aspx">Chemical Engineering</a></li>
+                                <li><a href="/schools/chemistry/index.aspx">Chemistry</a></li>
+                                <li><a href="https://www.cs.bham.ac.uk">Computer Science</a></li>
+                                <li><a href="/schools/engineering/index.aspx">Engineering</a></li>
+                                <li><a href="/schools/mathematics/index.aspx">Mathematics</a></li>
+                                <li><a href="/schools/metallurgy-materials/index.aspx">Metallurgy and Materials</a></li>
+                                <li><a href="/schools/physics/index.aspx">Physics and Astronomy</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-3--bp3">
+                            <h2 class="epsilon"><a href="/university/colleges/socsci/index.aspx">College of Social Sciences</a></h2>
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="/schools/business/index.aspx">Birmingham Business School</a></li>
+                                <li><a href="/schools/education/index.aspx">Education</a></li>
+                                <li><a href="/schools/government-society/index.aspx">Government</a></li>
+                                <li><a href="/schools/social-policy/index.aspx">Social Policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-3--bp3">
+                            <h2 class="epsilon"><a href="/schools/index.aspx">See all schools, departments, research and professional services</a></h2>
+          					<ul class="list--unset nav nav--footer">
+    							<li><a href="/schools/liberal-arts-and-sciences/index.aspx">Liberal Arts and Natural Sciences</a></li>
+							</ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+<section class="accordion__block">
+            <header class="accordion__head" role="button" tabindex="0" aria-controls="pageFooterAccordion3">
+                <div class="container">
+                    <h1 class="accordion__title">Services and facilities</h1>
+                    <i class="accordion__control icon--maximise"></i>
+                </div>
+            </header>
+            <div id="pageFooterAccordion3" class="accordion__body" role="contentinfo">
+                <div class="container">
+                    <div class="grid">
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="https://conferences.bham.ac.uk/">Conferences and hospitality</a></li>
+                                <li><a href="/facilities/index.aspx">Facilities search</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="/libraries/index.aspx">Libraries</a></li>
+                                <li><a href="https://www.guildofstudents.com">Guild of students</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset nav nav--footer">
+                                <li><a href="https://uobschool.org.uk/">University of Birmingham School</a></li>
+                                <li><a href="https://www.sportandfitness.bham.ac.uk/">UoB Sport and Fitness</a></li>
+                            </ul>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1 unit-1-4--bp3">
+                            <ul class="list--unset  nav nav--footer">
+                                <li><a href="https://shop.bham.ac.uk">Online Shop</a></li>
+  								<li><a href="/partners/freedom-of-speech/index.aspx">Freedom of Speech</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+</div>
+<footer role="contentinfo">
+
+
+<footer class="footer " role="contentinfo">
+
+    <div class="row row--black">
+        <div class="container">
+                <a href="http://www.birmingham.ac.uk" class="logo logo--footer icon--uob-logo"><span class="accessibility">University of Birmingham</span></a>
+                <div class="contact-details">
+                    <div class="grid">
+                        <div class="grid__cell unit-1-2--bp1">
+                            <p>
+                                Edgbaston<br>
+                                Birmingham B15 2TT<br>
+                                United Kingdom
+                            </p>
+                        </div>
+                        <div class="grid__cell unit-1-2--bp1">
+                            <p>
+                                Main Switchboard:<br>
+                                Tel: <a href="tel:441214143344">+44 (0)121 414 3344</a><br>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://instagram.com/unibirmingham/" class="social__link icon--instagram-circle"><span class="accessibility">Instagram</span></a>
+                    <a href="https://www.facebook.com/unibirmingham" class="social__link icon--facebook"><span class="accessibility">Facebook</span></a>
+                    <a href="https://twitter.com/unibirmingham" class="social__link icon--twitter"><span class="accessibility">Twitter</span></a>
+                    <a href="https://www.youtube.com/user/unibirmingham" class="social__link icon--youtube"><span class="accessibility">Youtube</span></a>
+                  	<a href="https://www.weibo.com/unibirmingham" class="social__link icon--weibo_logo"><span class="accessibility">Weibo</span></a>
+                  	<a href="/contact/we-chat.aspx" class="social__link icon--wechat_logo"><span class="accessibility">Weibo</span></a>
+                </div>
+        </div>
+    </div>
+
+    <div class="row row--narrow row--light-gray">
+        <div class="container">
+            <div class="grid">
+                <div class="grid__cell unit-5-6--bp2">
+                    <ul class="nav nav--support">
+                        <li class="nav__item"><a href="/privacy/index.aspx">Privacy</a></li>
+                        <li class="nav__item"><a href="/legal/index.aspx">Legal</a></li>
+                        <li class="nav__item"><a href="/accessibility/index.aspx">Accessibility</a></li>
+                        <li class="nav__item"><a href="https://intranet.birmingham.ac.uk">Intranet</a></li>
+                        <li class="nav__item"><a href="https://www.my.bham.ac.uk">my.bham portal</a></li>
+                        <li class="nav__item"><a href="https://canvas.bham.ac.uk">Canvas Learning Environment</a></li>
+                        <li class="nav__item"><a href="/university/governance/publication-scheme/index.aspx">Publication Scheme</a></li>
+                        <li class="nav__item"><a href="/undergraduate/courses/applicant-information.aspx">Information for Applicants</a></li>
+                        <li class="nav__item"><a href="/university/governance/policies-regs/information/index.aspx">Freedom of information</a></li>
+                        <li class="nav__item"><a href="/university/governance/publication-scheme/charitable.aspx">Charitable information</a></li>
+                        <li class="nav__item"><a href="/privacy/cookies.aspx">Cookies and cookie policy</a></li>
+                        <li class="nav__item"><a href="/sitemap/SiteMap.aspx">Site map</a></li>
+                        <li class="nav__item"><a href="/contact/feedback/index.aspx">Website feedback</a></li>
+          				<li class="nav__item"><a href="/contact/index.aspx">Contact us</a></li>
+                    </ul>
+                    <small class="copyright">&copy; University of Birmingham 2019</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</footer>
+    
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="90059987" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAI9QRN+hX6Oq9p8Iem5rJOnvPrITNcMEtubfVEvfBWs2/dT+VkicoyvnD+W7zQ8DhYLG0tb" />
+</div>
+		<script  type="text/javascript" src="/assets/js/all.min.js?versionId=1843444&amp;build=831938"></script><noscript><p>Browser does not support script.</p></noscript>
+</form>
+</body>
+</html>

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /images/profile/
+Disallow: /lazy*.php
+Disallow: /check*.php
+Disallow: /feeds*.php
+Disallow: /follow*.php
+Disallow: /geoarts*.php
+Disallow: /micro_page.php

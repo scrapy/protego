@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sorry, unable to access page...</title>
+<style>
+body{font-family: Arial; margin:0px; padding:0px;}
+h1{font-size: 1.7em}
+.logo{padding-top:80px;}
+</style>
+</head>
+<body>
+<center>
+<div class="logo"><img src="http://www.jobstreet.com/images/jobstreet-logo-global.png" border="0" /></div>
+
+<h1>Sorry, unable to access page...</h1>
+You are entering JobStreet.com through an unauthorised source.<br />
+
+Please visit our website at <a id="jobstreet.com" href="http://www.jobstreet.com" title="JobStreet.com">www.jobstreet.com</a><span class="text-muted text-center"> </span></li> to apply for this job. We apologise for any inconvenience caused.<br /><br />
+If you have any enquiries, please do contact us by clicking <b>"Contact us here"</b> below.<br/><br/>
+
+<p style="text-align:center">For Jobstreet Malaysia: <a id="jobstreet.com" href="https://myjobstreet.jobstreet.com.my/home/feedback.php?language_code=3&site=my&sub=feedback" title="JobStreet.com">Contact us here</a><span class="text-muted text-center"> </span></li> <br/><p/>
+<p style="text-align:center">For Jobstreet Singapore: <a id="jobstreet.com" href="https://myjobstreet.jobstreet.com.sg/home/feedback.php?language_code=3&site=sg&sub=feedback" title="JobStreet.com">Contact us here</a><span class="text-muted text-center"> </span></li><br/><p/>
+<p style="text-align:center">For Jobstreet Philipines: <a id="jobstreet.com" href="https://myjobstreet.jobstreet.com.ph/home/feedback.php?language_code=3&site=ph&sub=feedback" title="JobStreet.com">Contact us here</a><span class="text-muted text-center"> </span></li><br/><p/>
+<p style="text-align:center">For Jobstreet Indonesia: <a id="jobstreet.com" href="https://myjobstreet.jobstreet.co.id/home/feedback.php?language_code=3&site=id&sub=feedback" title="JobStreet.com">Contact us here</a><span class="text-muted text-center"> </span></li></p>
+   
+
+   
+   
+   
+<div style="position: absolute; bottom: 5px; background-color: white; color:#000000">
+    The Incident ID is: N/A
+</div>
+
+
+</center>
+<div style="position: absolute; bottom: 36px; background-color: white; color:#000000">
+ Your IP is:<br><iframe src="https://ipinfo.io/ip" height="33.5" width="200" frameBorder="0"></iframe>
+</div>
+</body>
+</html>

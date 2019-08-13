@@ -1,0 +1,20 @@
+User-Agent: *
+Allow: /
+
+# folders
+Disallow: /t3lib/
+Disallow: /typo3/
+Disallow: /typo3conf/
+Allow: /typo3conf/ext/
+Allow: /typo3temp/
+
+# parameters
+Disallow: /*?id=*               # non-realurl URLs
+Disallow: /*cHash               # no cHash
+Disallow: /*tx_powermail_pi1    # no powermail thanks pages
+Disallow: /*tx_form_formframework    # no forms
+
+# sitemap
+Sitemap: https://avm.de/sitemap.xml
+<!-- cached statically on: cached statically on: 22-07-19 12:10 -->
+<!-- expires on: cached statically on: 23-07-19 00:00 -->

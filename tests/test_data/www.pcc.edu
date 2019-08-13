@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /_mm/
+Disallow: /_notes/
+Disallow: /_baks/
+Disallow: /MMWIP/
+
+User-agent: googlebot
+Disallow: *.csi
+
+User-agent: test
+Disallow: /_*
+Disallow: /scripts/webevent.pl*
+Disallow: /search/
+Disallow: */xmlrpc.php
+Disallow: *.js
+Disallow: *.json
+Disallow: *.css
+Disallow: *.xml

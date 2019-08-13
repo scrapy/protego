@@ -1,0 +1,25 @@
+User-agent: *
+Disallow: /handover/
+Disallow: /test/
+Disallow: /htmlfragment/
+Disallow: /errorpages/
+Disallow: /PreambleForms/
+Disallow: /workflowtest/
+Disallow: /confirmation.asp
+Disallow: /currentaccounts/currentaccount/confirmation
+Disallow: /currentaccounts/cap/confirmation
+Disallow: /currentaccounts/student/confirmation
+Disallow: /loans/important-information
+Disallow: /creditcards/confirmation
+Disallow: /savings/cash-isa/confirmation
+Disallow: /savings/smart-saver/confirmation
+Disallow: /mortgages/mortgages-exit-page
+Disallow: /mortgages/apply/apply-now
+Disallow: /mortgages/what-to-consider-when-you-apply-for-a-mortgage-online
+Disallow: /currentaccounts/everyday-extra-survey
+Disallow: /xtestx/
+Disallow: /business/business-switch
+Disallow: /business/community-switch
+Disallow: /business/current-accounts
+
+Sitemap: http://www.co-operativebank.co.uk/sitemap.xml

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="windows-1252" />
+<meta http-equiv="Content-Type" content="text/html; windows-1252" />
+<meta http-equiv='Pragma' content='no-cache' />
+<meta http-equiv='Cache-Control' content='no-cache' />
+
+<meta name="HandheldFriendly" content="True">
+<!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320">
+<!-- for Windows mobile -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<title>Login</title>
+
+<style id="antiClickjack">body{display:none !important;}</style>
+<script type="text/javascript">
+   if (self === top) {
+	   var antiClickjack = document.getElementById("antiClickjack");
+	   antiClickjack.parentNode.removeChild(antiClickjack);
+   } else {
+	   top.location = self.location;
+   }
+</script>
+
+<style>
+.error_login {
+	background-color: #FFFFCC;
+	background-image: url("/imageserver/dmv/images/ca_master/warning_bg.gif");
+	background-position: left top;
+	background-repeat: no-repeat;
+	border: 1px solid #E3E3E3;
+	min-height: 30px;
+	padding: 8px 10px 8px 60px;
+}
+</style>
+
+<link rel="stylesheet" href="/imageserver/theme/css/colorscheme-oceanside.css">
+<link rel="stylesheet" href="/imageserver/theme/css/cagov.core.css">
+<link rel="stylesheet" href="/imageserver/theme/css/wasapp.css">
+<script src="/imageserver/theme/js/jquery.min.js"></script>
+<script src="/imageserver/theme/js/modernizr-2.0.6.min.js"></script>
+
+<script type="text/javascript" src="/imageserver/dmv/js/idm.js"></script>	
+
+</head>
+
+
+<body class="app javascript_on">
+
+	<div id="heading">
+		<header id="header" class="global-header">
+
+			<div id="skip_to_content" style="visibility: visible"></div>
+
+			<!-- logo and organization banner -->
+			<div class="branding">
+				<div class="header-cagov-logo">
+					<img src="/imageserver/theme/images/header-ca.gov.png" alt="CA.gov" />
+				</div>
+
+				<div class="header-organization-banner">
+					<a href="/portal/dmv">
+						<img src="/imageserver/theme/images/header-organization.png"
+							alt="California Department of Motor Vehicles">
+					</a>
+				</div>
+			</div>
+
+
+			<div class="mobile-controls">
+				<span class="mobile-control cagov-logo"><span class="ca-gov-icon-logo"
+					aria-hidden="false"></span></span> <span class="mobile-control toggle-menu"><span
+					class="ca-gov-icon-menu" aria-hidden="true"></span><span class="sr-only">Menu</span></span> <span
+					class="mobile-control-group mobile-menu-icons"> <!-- Add more mobile controls here. These will be on the top right section of the expanded mobile menu -->
+				</span>
+			</div>
+
+			<!-- main navigation -->
+			<nav id="navigation" class="main-navigation singlelevelnav auto-highlight mobile-closed">
+				<ul id="nav_list" class="top-level-nav">
+					<li id="home-link" class="nav-item"><a href="/portal/dmv"
+							class="first-level-link">
+							<span>Home</span>
+						</a></li>
+					<li class="nav-item"><a href="/portal/dmv/dmv/offices" class="first-level-link">
+							<span>Offices</span>
+						</a></li>
+					<li class="nav-item"><a href="/portal/dmv/dmv/onlinesvcs" class="first-level-link">
+						<span>Online Services</span>
+						</a></li>
+					<li class="nav-item"><a href="/portal/dmv/dmv/dl" class="first-level-link">
+						<span>Driver License</span>
+						</a></li>
+					<li class="nav-item"><a href="/portal/dmv/dmv/vr" class="first-level-link">
+						<span>Vehicle Registration</span>
+						</a></li>
+				</ul>
+			</nav>
+
+			<div class="header-decoration"></div>
+		</header>
+	</div>
+
+	<a name="content"></a>
+
+	<div id="main-content" class="main-content">
+		<div id="app_header">
+			<h1>Login to Online Services</h1>
+		</div>
+		<div id="app_content">
+			<noscript>
+				<strong>WARNING:</strong> To maintain your login session, make sure that your browser is configured to accept Cookies.
+			</noscript>
+		
+			<script language="JavaScript">
+				var loginErrorText ='';
+				var errorText;
+				if(loginErrorText =='HPDIA0233W   Authentication failed. You have used an invalid password. This account has been temporarily locked due to too many failed login attempts.'){
+					errorText = "This account has been locked. Please try again later.";
+				}
+				else if (loginErrorText =='HPDIA0306W   This account has been temporarily locked out due to too many failed login attempts.') {
+					errorText = "This account has been locked. Please try again later.";
+				}
+				else if(loginErrorText =='HPDIA0200W   Authentication failed. You have used an invalid user name, password or client certificate.') {
+					errorText = "Information provided does not match our records.  Please try again.";
+				}
+				else if(loginErrorText =='HPDIA0309W   This account is disabled.') {
+					errorText = "This account is currently inactive. Please contact the account administrator to re-activate.";
+				}
+				else if(loginErrorText.match('HPDIA0119W')) {
+					errorText = "Our system is currently unavailable. Please try again later.";
+				}
+				else if(loginErrorText != '') {
+					errorText = "Unexpected error: " + loginErrorText;
+				}
+				
+				if( errorText ) {
+					document.write("<div class='col-xs-12'><div class='alert alert-warning col-xs-12 col-md-6'>" + errorText + "</div></div>");
+				}
+			</script>
+			
+			<form name="form" method="POST" action="/pkmslogin.form" class="form-horizontal col-xs-12 col-md-6" autocomplete="off">
+				<div class="form-group">
+					<label for="username" class="control-label left col-xs-12 col-md-2">User ID</label>
+					<div class="col-xs-12 col-md-10">
+						<input name="username" id="username" class="form-control" type="text" tabindex="1" autofocus required />
+						<a href="javascript:change();">Forgot your User ID?</a>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="password" class="control-label left col-xs-12 col-md-2">Password</label>
+					<div class="col-xs-12 col-md-10">
+						<input name="password" id="password" class="form-control" type="password" tabindex="2" required />
+						<a href="javascript:forgot();">Forgot your Password?</a>
+					</div>
+					<input type="hidden" name="login-form-type" value="pwd" />
+				</div>
+				
+				<div class="form-group col-xs-12">
+					<button onclick="javascript:doLogin();return false;" class="btn btn-primary col-xs-12" tabindex="3">Login</button>
+				</div>
+				
+				<p class="form-group col-xs-12">
+					<strong>Not Registered?</strong> If you want to login, you'll need to register first.
+				</p>
+				
+				<div class="form-group col-xs-12">
+					<button onclick="javascript:selfreg();return false;" class="btn btn-primary col-xs-12" tabindex="4">Register</button>
+				</div>
+				
+			</form>
+			
+			<div class="col-xs-12">
+			<h2>Additional Information</h2>
+			<ul>
+				<li><a href="/portal/dmv/detail/SelfHelp/faq">FAQs</a></li>
+				<li><a href="/portal/dmv/detail/SelfHelp/privacy">Privacy and Security</a></li>
+				<li><a href="/portal/dmv/detail/SelfHelp/browser">Browser Requirements</a></li>
+			</ul>
+			<p>For assistance with technical issues while using our online services you may reach us at 1-877-563-5213.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="cleaner"></div>
+
+	<div id="footer">
+		<div class="footer-copyright global-footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4">
+
+						<div class="foot1">
+							<a href="/portal/dmv/dmvfooter2/accessibility">Accessibility</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter2/conditionsofuse">Conditions of Use</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter2/contactus">Contact DMV</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter1/CustomerSurveys">Customer Surveys</a>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="head2">
+							<a href="/portal/dmv/dmvfooter1/disabilityservices">Disability Services</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter2/forms">Forms</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter1/footerhelp">Help</a>
+							<br>
+							<a href="/portal/dmv">Home</a>
+						</div>
+					</div>
+					
+					<div class="col-md-4">
+						<div class="head2">
+							<a href="/portal/dmv/dmvfooter2/privacypolicy">Privacy Policy</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter2/pubs">Publications</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter1/sitemap">Site Map</a>
+							<br>
+							<a href="/portal/dmv/dmvfooter1/technicalsupport">Technical Support</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+			    <br/>
+				<p>Copyright &copy; 2016 State of California</p>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="/imageserver/theme/js/wasapp.js"></script>
+	<script src="/imageserver/theme/js/cagov.core.js"></script>
+</body>
+
+</html>

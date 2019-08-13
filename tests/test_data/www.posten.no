@@ -1,0 +1,6 @@
+# Hovedinnstillinger
+User-agent: *
+Sitemap: https://www.posten.no/sitemap.xml
+
+# ...URL
+

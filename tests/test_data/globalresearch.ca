@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /wp-login.php
+Disallow: /wp-admin/
+
+User-agent: AhrefsBot 
+Crawl-Delay: [5]
+
+# Allow search crawlers to discover the sitemap.
+Sitemap: https://www.globalresearch.ca/sitemap.xml

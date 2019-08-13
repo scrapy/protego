@@ -1,0 +1,22 @@
+User-agent: archive.org_bot
+Disallow:/include
+Disallow:/scripts
+Disallow:/crs
+Disallow:/_private
+Disallow:/iisadmin
+Disallow:/srchadm
+Disallow:/idcf
+Disallow:/*print*
+Disallow:/schedule/archives/
+Disallow:/*.PDF$
+
+User-agent:*
+Disallow:/include  
+Disallow:/scripts  
+Disallow:/crs
+Disallow:/_private
+Disallow:/iisadmin
+Disallow:/srchadm
+Disallow:/idcf
+Disallow:/duac
+Disallow:/*print*

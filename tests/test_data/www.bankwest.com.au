@@ -1,0 +1,13 @@
+# robots.txt file for new https://www.bankwest.com.au     
+     
+User-agent: *        
+Disallow: /content/bankwest-commons/
+Disallow: /content/dam/bankwest/seo/
+Disallow: /content/dam/digital-production/
+Disallow: /content/dam/bankwest/documents/hosted/
+Disallow: /content/dam/bankwest/web-assets/
+Disallow: /content/bankwest-offers/
+Disallow: /cs/
+Disallow: /ibs/
+
+Sitemap: https://www.bankwest.com.au/sitemap.xml

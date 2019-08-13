@@ -1,0 +1,21 @@
+# LAST CHANGED: Fri Dec 15 2017, at 19:37:43 GMT+0000 (GMT)
+
+# Version 1.0.4
+
+User-agent: *
+Disallow: /records/pal:/
+Disallow: /pal:/
+Disallow: /cgi-bin/
+Disallow: /photos/view/
+Disallow: /photos/person/
+Disallow: /photos/album/
+Disallow: /Eng/
+Disallow: /Search/
+Disallow: /tree
+Disallow: /learningcenter
+Disallow: /ark:/61903/1:
+Disallow: /ark:/61903/2:
+
+Sitemap: https://www.familysearch.org/photos/sitemapIndex?category=albums
+Sitemap: https://www.familysearch.org/photos/sitemapIndex?category=artifacts&artifactCategory=IMAGE
+Sitemap: https://www.familysearch.org/photos/sitemapIndex?category=artifacts&artifactCategory=STORY

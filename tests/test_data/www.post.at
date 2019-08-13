@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /sendungsverfolgung.php?
+Disallow: /sendungsverfolgung.php/
+Disallow: /downloads/ 

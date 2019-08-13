@@ -1,0 +1,12 @@
+User-agent: *
+
+User-agent: Twitterbot
+
+User-agent: facebookexternalhit
+
+Disallow: /testpage/
+Disallow: /api/
+Noindex: /testpage/
+Noindex: /api/
+
+Sitemap: https://www.celcom.com.my/sitemap.xml

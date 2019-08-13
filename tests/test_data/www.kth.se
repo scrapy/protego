@@ -1,0 +1,36 @@
+#
+# robots.txt from 17.392
+#
+User-agent: *
+Disallow: /form/
+Disallow: /public/
+Disallow: /cm/
+Disallow: /info/
+Disallow: /work/
+Disallow: /xyz/
+Disallow: /xyz
+Disallow: /en/xyz/
+Disallow: /en/xyz
+Disallow: /2.9631/
+Disallow: /2.1019/
+Disallow: /2.1166/
+Disallow: /2.1218/
+Disallow: /2.1219/
+Disallow: /2.36446
+Disallow: /itm/inst/indek/2.40930/
+Disallow: /search/search
+Disallow: /en/search/search
+Disallow: /kthb/testtesttest/
+Disallow: /ees/utbildning/2.6182
+Disallow: /ees/utbildning/2.6182/
+Disallow: /social/user/_report_/abuse/
+Disallow: /en/ees/sokanstalld/publicprofile.php
+Disallow: /gemensamt/kategorier-1.31190
+Disallow: /en/gemensamt/kategorier-1.31190
+Disallow: /social/api/profile/1.1/
+Disallow: /test/
+Disallow: /om/work-at-kth/lediga-jobb/
+Disallow: /om/work-at-kth/lediga-jobb?
+Disallow: /en/om/work-at-kth/lediga-jobb/
+Disallow: /en/om/work-at-kth/lediga-jobb?
+Disallow: /blogs/tags

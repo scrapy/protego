@@ -1,0 +1,23 @@
+# robots.txt
+# @url: https://www.diplomatie.gouv.fr
+# @generator: SPIP
+
+User-agent: *
+Allow:    /local/cache-css/
+Allow:    /local/cache-js/
+Allow:    /local/cache-gd2/
+Allow:    /local/cache-vignettes/
+Disallow: /local/
+Disallow: /ecrire/
+Disallow: /plugins-dist/
+Disallow: /lib/
+Disallow: /plugins/
+Disallow: /prive/
+Disallow: /squelettes-dist/
+Disallow: /squelettes/
+Crawl-delay: 1
+
+User-agent: Twitterbot
+Disallow:
+
+Sitemap: https://www.diplomatie.gouv.fr/sitemap.xml

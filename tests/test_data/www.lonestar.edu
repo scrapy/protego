@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /test/
+
+User-agent: Googlebot
+Disallow: /news/
+
+User-agent: bingbot
+Disallow: /news/
+
+User-agent: Twitterbot
+Disallow:

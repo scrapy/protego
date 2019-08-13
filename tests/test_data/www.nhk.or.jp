@@ -1,0 +1,74 @@
+User-agent: KDDI-Googlebot-Mobile
+Disallow: /
+
+User-agent: BaiduImagespider
+Disallow: /
+
+User-agent: BaiduMobaider
+Disallow: /
+
+User-agent: Y!J-SRD/1.0
+Disallow: /
+
+User-agent: Y!J-MBS/1.0
+Disallow: /
+
+User-agent: ichiro/mobile
+Disallow: /
+
+User-agent: ichiro/mobile goo
+Disallow: /
+
+User-Agent: Sogou web spider
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+Allow: /archives/
+Allow: /das/
+
+User-agent: Googlebot-Video
+Disallow: /
+Allow: /archives/
+Allow: /das/
+
+User-agent: Googlebot-Mobile
+Disallow: /
+Allow: /knews/
+Allow: /daily/
+Allow: /ktop/
+Allow: /*/k/
+
+User-agent: *
+Disallow: /*/k/
+Disallow: /*/sp/
+Disallow: /*/smart/
+Disallow: /*/api/
+Disallow: /*/r/
+Disallow: /hensei/
+Disallow: /cgisearch/
+Disallow: /cgiblog/
+Disallow: /topepg/
+Disallow: /error/
+Disallow: /chronicle/
+Disallow: /toppage/errors/
+Disallow: /saigai/*/dl/
+Disallow: /saigai/*/dn/
+Disallow: /saigai/*/ev/
+Disallow: /saigai/*/ss/
+Disallow: /saigai/f/
+Disallow: /*/hc/
+Disallow: /*/shv/
+Disallow: /*.cgi$
+Disallow: /*.cgi?
+
+User-agent: Xagool
+Disallow: /*-blog
+Disallow: /*-blog2
+Allow: /*-blog/$
+Allow: /*-blog2/$
+
+User-agent: Twitterbot
+Disallow:
+
+Sitemap: http://www.nhk.or.jp/sitemap.xml

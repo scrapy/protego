@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: /contactform2/
+Disallow: /contactperson/
+Disallow: /resources/
+Disallow: /search/
+Disallow: */search/*
+Disallow: /conference.booking/book/
+Disallow: /university.calendar/archive/volumei/
+Disallow: /event.tees/
+
+# Remove page from search engine listings as per I180919-0036 (19.9.18)
+Disallow: /iccl/forthcoming_events/?eventno=8854
+
+# Remove profile from listings due to decease of subject as per I181207-0107 (10.12.18)
+Disallow: /business/about/our-people/honorary-visiting/?id=3841
+
+#Encourage index removal of obsolete URL from I190121-0428
+Disallow: /cis/security.old/gaming/
+
+# I190314-0369
+Disallow: /business/programmes/mba/mba-room/
+
+# I190326-0042
+Disallow: /hatfield.college/alumni/trust/annual_report/

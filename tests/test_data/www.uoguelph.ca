@@ -1,0 +1,6 @@
+User-Agent:	*
+sitemap:        http://a180102.sitemaphosting.com/4113054/sitemap.xml
+Disallow:	/cgi-bin
+Disallow:	/president/provost-search
+Disallow:	/president/vpr-search
+

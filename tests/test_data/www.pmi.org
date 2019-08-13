@@ -1,0 +1,9 @@
+# The Project Management Institute (PMI) 
+# robots.txt for https://www.pmi.org
+
+User-agent: *
+Allow: /
+Disallow: /landing/
+Disallow: /sitecore/
+
+sitemap: https://www.pmi.org/sitemap

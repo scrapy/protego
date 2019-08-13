@@ -1,0 +1,44 @@
+##Please don't remove folders from disallow.  
+##The allows at the top allow any of the mimetypes listed to be crawled within any folder
+##using long-tail wildcards, these ignore the disallows for the folders below.
+##This gives full render for the search engines whilst preventing full crawls of system 
+##folders
+User-agent: *
+#THIS ALLOWS FULL RENDER AT ENGINES
+Allow: /*.js***************
+Allow: /*.css**************
+Allow: /*.png**************
+Allow: /*.jpg**************
+Allow: /*.jpeg**************
+Allow: /*.gif**************
+Allow: /*.eot**************
+Allow: /*.woff**************
+Allow: /*.ttf**************
+Allow: /*.svg**************
+Allow: /*.otf**************
+Allow: /*.pdf**************
+Allow: /*.PNG**************
+Allow: /*.JPG**************
+Allow: /*.JPEG**************
+Allow: /*.mp3**************
+Allow: /*.pdf**************
+#THESE FOLDERS SHOULD NEVER BE CRAWLED
+Disallow: /administrator/
+Disallow: /cache/
+Disallow: /cdn/
+Disallow: /cgi-bin/
+Disallow: /cli/
+Disallow: /components/
+Disallow: /includes/
+Disallow: /installation/
+Disallow: /language/
+Disallow: /layouts/
+Disallow: /libraries/
+Disallow: /lists/
+Disallow: /media/
+Disallow: /modules/
+Disallow: /plugins/
+Disallow: /templates/
+Disallow: /t3-assets/
+Disallow: /tmp/
+Disallow: /videos/

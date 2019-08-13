@@ -1,0 +1,17 @@
+
+
+User-agent: Twitterbot
+Disallow: /
+Allow: /features/videos/
+
+User-agent: *
+Disallow: /admin/
+Disallow: /limit.html
+Disallow: /features/preview/
+Disallow: /offline
+Disallow: /offline.html
+Disallow: /preview/
+Disallow: /test/
+Disallow: /training_guide/
+
+Sitemap: https://www.uchicago.edu/xml-sitemaps/index.xml

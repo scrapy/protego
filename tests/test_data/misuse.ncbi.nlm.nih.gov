@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html>
+<head>
+<title>NCBI - WWW Error Blocked Diagnostic</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta name="robots" content="noarchive,none" />
+
+<style type="text/css">
+body {
+min-width: 950px;
+_width: 950px;
+}
+h1.error {color: red; font-size: 40pt}
+
+#mainContent {
+padding: 1em 2em;
+}
+
+dl#diags {
+padding: 0.5em 0.5em 1.5em 0.5em;
+padding-left: 2em;
+border: solid 1px #888;
+border-left: none;
+border-right: none;
+margin-bottom:0;
+background-color:#eeeeee;
+color:#666;
+font-size: 80%;
+_font-size: 70%;
+font-family: Verdana, sans-serif;
+}
+
+dl#diags dt {
+float: left;
+font-weight: bold;
+width: auto;
+}
+
+dl#diags dd {
+margin-left:1em;
+float: left;
+margin-right: 2em;
+}
+
+#footer span {
+float: left;
+color: #888;
+font-size: 80%;
+}
+
+#footer {
+text-align: right;
+padding: 0 0.5em;
+clear: left;
+}
+
+#footer img {
+border: none;
+}
+
+.ncbi {
+margin: 0;
+padding:0;
+font-size:240%;
+font-weight: bold;
+font-family: Times, serif;
+color: #336699;
+float: left;
+display: inline;
+}
+
+.ncbi a {
+text-decoration: none;
+color: #336699;
+}
+
+.ncbi a:visited {
+text-decoration: none;
+color: #336699;
+}
+
+.ncbi a:hover {
+text-decoration: underline;
+}
+
+.message {
+font-family: Verdana, sans-serif;
+background-color: #336699;
+color: white;
+padding: .35em;
+margin-left: 7em;
+margin-top: .67em;
+_margin-top: 0.5em;
+font-weight: bold;
+font-size: 100%;
+margin-bottom: 0;
+}
+
+h1 {
+clear: left;
+font-size: 110%;
+font-family: Verdana, sans-serif;
+}
+
+
+body.denied {
+background-color: black;
+color: white;
+}
+
+body.denied h1 {
+color: red;
+}
+
+body.denied a {
+color: green;
+}
+
+body.denied #footer, body.denied #diags {
+color: black;
+}
+
+#searchme:focus {
+background-color: #ffa;
+}
+
+.errurl {
+letter-spacing: 0;
+margin: 0 1em;
+padding: 0.25em;
+background-color: #fff0f0;
+color: #c00;
+font-family: "Courier New", Courier, monospace;
+font-size: 90%;
+_font-size: 80%;
+}
+
+body.denied .errurl {
+background-color: black;
+color: yellow;
+}
+
+span.x {
+display: none;
+}
+
+</style>
+
+</head>
+<body class='denied'>
+
+
+
+<div id='header'>
+<a href="#mainContent" title="Skip to main content" />
+<p class="ncbi"><a href="http://www.ncbi.nlm.nih.gov">NCBI</a></p>
+<p class="message">Error</p>
+</div>
+
+<div id='mainContent'>
+
+
+<h1 class="error">Access Denied</h1>
+
+
+<p>
+Your access to the NCBI website at <b>www.ncbi.nlm.nih.gov</b> has been
+temporarily blocked due to a possible misuse/abuse situation
+involving your site. This is not an indication of a security issue
+such as a virus or attack. It could be something as simple as a run
+away script or learning how to better use E-utilities,
+<a href="http://www.ncbi.nlm.nih.gov/books/NBK25497/">http://www.ncbi.nlm.nih.gov/books/NBK25497/</a>,
+for more efficient work such that your work does not impact the ability of other researchers
+to also use our site.
+To restore access and understand how to better interact with our site
+to avoid this in the future, please have your system administrator
+contact 
+<a href="mailto:info@ncbi.nlm.nih.gov?subject=NCBI Web site BLOCKED: 103.88.218.109&amp;body=%3E%20Error%3Dblocked for possible abuse%0D%3E%20Server%3Dmisuse.ncbi.nlm.nih.gov%0D%3E%20Client%3D103.88.218.109%0D%3E%20Time%3DMonday, 22-Jul-2019 16:39:59 EDT  %0D%0DPlease%20enter%20comments%20below:%0D%0D">info@ncbi.nlm.nih.gov</a>.
+</p>
+
+</div>
+
+<dl id='diags'>
+
+<dt>Error</dt><dd>blocked for possible abuse </dd>
+<dt>Server</dt><dd>misuse.ncbi.nlm.nih.gov</dd>
+<dt>Client</dt><dd>103.88.218.109</dd>
+<dt>Time</dt><dd>Monday, 22-Jul-2019 16:39:59 EDT</dd>
+
+</dl>
+ 
+
+<p id='footer'>
+<span id='rev'>Rev. 05/18/15</span>
+</p>
+
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /search/
+
+Disallow: /20*/feed/
+
+Disallow: /*.pdf
+
+Disallow: /post-style/*
+
+Disallow: /jobs-scrape/*
+
+# News Sitemap
+Sitemap: https://metro.co.uk/news-sitemap.xml
+
+# Sitemap archive
+Sitemap: https://metro.co.uk/sitemap.xml
+
+Sitemap: https://metro.co.uk/sitemap-channels.xml
+
+Sitemap: https://metro.co.uk/sitemap-tags.xml
+
+Sitemap: https://metro.co.uk/sitemap-authors.xml
+
+Sitemap: https://metro.co.uk/sitemap-videos.xml
+
+Sitemap: https://metro.co.uk/sitemap-tv-soaps.xml
+
+Sitemap: https://metro.co.uk/sitemap-images.xml
+
+# Sitemap archive
+Sitemap: https://metro.co.uk/sitemap.xml
+

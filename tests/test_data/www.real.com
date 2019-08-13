@@ -1,0 +1,31 @@
+# /robots.txt file for https://www.real.com
+User-agent: *
+# Wistia Video Sitemap
+Sitemap: https://www.real.com/resources/sitemap.xml
+Sitemap: https://www.real.com/sitemap.xml
+Disallow: /dmm/
+Disallow: /realplayer/partner/
+Disallow: /realplayer/affiliate/
+Disallow: /realplayer/action-sports/
+Disallow: /realplayer/thankyou/
+Disallow: /realplayer/trigger/
+Disallow: /sem/
+Disallow: /em/
+Disallow: /affiliate/
+Allow: /realplayer/download-video
+Disallow: /realplayer/
+Disallow: /download/
+Disallow: /realtimes/trigger/
+Disallow: /*/dmm/
+Disallow: /*/realplayer/partner/
+Disallow: /*/realplayer/affiliate/
+Disallow: /*/realplayer/action-sports/
+Disallow: /*/realplayer/thankyou/
+Disallow: /*/realplayer/trigger/
+Disallow: /*/sem/
+Disallow: /*/em/
+Disallow: /*/affiliate/
+Disallow: /*/realplayer/
+Disallow: /*/download/
+Disallow: /*/realtimes/trigger/
+# changes

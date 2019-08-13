@@ -1,0 +1,50 @@
+User-agent: *
+
+Disallow: /account/
+Disallow: /en-ca/Search
+Disallow: /en-ca/search
+Disallow: /fr-ca/chercher
+Disallow: /fr-ca/Chercher
+Disallow: /en-ca/collection/
+Disallow: /fr-ca/collection/
+Disallow: /en-ca/brand-hub/
+Disallow: /fr-ca/marques/
+Disallow: /en-ca/product-sellers/
+Disallow: /fr-ca/vendeurs-de-produit/
+Disallow: /en-ca/create-review/
+Disallow: /fr-ca/ecrire-evaluation/
+Disallow: /en-ca/reserve-and-pickup/
+Disallow: /fr-ca/reservez-et-ramassez/
+Disallow: /order/
+Disallow: /checkout/
+Disallow: /en-CA/order-status
+Disallow: /en-ca/order-status
+Disallow: /fr-CA/ma-commande
+Disallow: /fr-ca/ma-commande
+Disallow: /en-ca/Basket
+Disallow: /en-ca/basket
+Disallow: /fr-ca/Panier
+Disallow: /fr-ca/panier
+Disallow: /identity/
+Disallow: /routes.json
+
+
+Allow: /en-ca/category/
+Allow: /en-ca/product/
+Allow: /en-ca/brand/
+Allow: /en-ca/event/
+Allow: /en-ca/services/
+Allow: /en-ca/about/
+Allow: /en-ca/help/
+Allow: /fr-ca/categorie/
+Allow: /fr-ca/produit/
+Allow: /fr-ca/marque/
+Allow: /fr-ca/evenement/
+Allow: /fr-ca/services/
+Allow: /fr-ca/a-propos/
+Allow: /fr-ca/aide/
+Allow: /account/en-ca/email-sign-up
+Allow: /account/fr-ca/abonnement-courriels
+
+
+Sitemap: https://www.bestbuy.ca/sitemap_index.xml

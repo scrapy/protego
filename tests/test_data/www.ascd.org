@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /Publications/Books/Literacy-Unleashed-Book-Video-Clips.aspx
+Disallow: /professional-development/Videos/Video-Facilitator-Guides.aspx
+Disallow: /activate/
+Disallow: /Default.aspx/feed/

@@ -1,0 +1,153 @@
+User-agent: NaverBot
+User-agent: Yeti
+User-agent: moget
+User-agent: ichiro
+User-agent: Yandex
+User-agent: Baiduspider
+User-agent: Baiduspider-video
+User-agent: Baiduspider-image
+User-agent: sogou spider
+User-agent: YoudaoBot
+User-agent: ia_archiver
+User-agent: archive.org_bot
+Disallow: /
+
+User-Agent: *
+# removed Disallow: /*?ClearLS=*
+Disallow: /PartDetail/Large-Part-Image
+Disallow: /*-Parts?z=*
+Disallow: /*-Parts?*&z=*
+Disallow: /*-Parts?s=*
+Disallow: /*-Parts?*&s=*
+Disallow: /buy/
+Disallow: /Login/
+Disallow: /ImageFetch/ItemNumberImage/
+Disallow: /cart/update/
+Allow: /images/Sprites/mobileSprite-022016.png
+Allow: /images/Sprites/partDetailSprite-102815.png
+Allow: /images/img/img-video2.png
+Disallow: /*discountFilter=*
+Disallow: /*?searchtext=*
+Disallow: /Shopping-Cart
+Disallow: /order/
+Disallow: utm_source=*
+Disallow: utm_medium=*
+Disallow: utm_term=*
+Disallow: utm_content=*
+Disallow: utm_campaign=*
+Disallow: msclkid=*
+Disallow: *Page=*
+Disallow: /*?*query=
+
+# disallow pages in the shop for parts "new" directory
+Disallow: /*-Parts/New/*
+
+#disallow model specific repair help indexes
+Disallow: /RepairHelp/*-ModelTroubleshooting
+
+#disallow model specific repair help troubleshooting
+Disallow: /RepairHelp/*/new/*
+
+
+Disallow: /*?mclid=*
+
+#disallow weird JS related URL patterns
+Disallow: */data
+Disallow: */params
+Disallow: */uri
+Disallow: */init
+Disallow: */utils
+Disallow: */cookies
+Disallow: */migrations
+Disallow: */terms
+Disallow: */NaN
+Disallow: *.php
+
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/sitemap_index.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail1.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail10.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail11.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail12.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail13.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail14.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail15.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail16.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail17.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail18.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail19.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail2.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail20.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail21.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail22.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail23.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail24.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail25.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail26.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail27.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail28.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail29.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail3.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail30.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail31.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail32.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail33.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail34.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail35.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail36.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail37.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail38.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail39.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail4.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail40.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail41.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail42.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail43.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail44.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail45.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail46.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail47.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail48.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail49.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail5.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail50.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail6.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail7.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail8.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/PartDetail9.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail1.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail10.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail11.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail12.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail13.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail14.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail15.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail16.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail17.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail18.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail19.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail2.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail20.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail21.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail22.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail23.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail24.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail25.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail26.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail27.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail28.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail29.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail3.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail30.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail31.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail32.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail4.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail5.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail6.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail7.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail8.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/ProductDetail9.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/RepairHelp1.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/Shop-For-Parts1.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/Shop-For-Parts2.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/Shop-For-Parts3.xml
+Sitemap: https://sitemaps.repairclinic.com/sitemaps/Shop-For-Parts4.xml

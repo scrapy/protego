@@ -1,0 +1,19 @@
+User-agent: *
+Disallow: /user/*/traces/
+Allow: /user/
+Disallow: /traces/tag/
+Disallow: /traces/page/
+Disallow: /api/
+Disallow: /edit
+Disallow: /browse
+Disallow: /login
+Disallow: /geocoder
+Disallow: /history
+Disallow: /message
+Disallow: /trace/
+Disallow: /*lat=
+Disallow: /*node=
+Disallow: /*way=
+Disallow: /*relation=
+
+Host: www.openstreetmap.org

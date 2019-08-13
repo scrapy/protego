@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /personal/loans/personal-loan-gobear.html
+Disallow: /*?cat=*
+Disallow: /*?tag=*
+Disallow: /*keepThis=*
+Sitemap: https://www.uob.com.sg/sitemap.xml
+Sitemap: https://www.uob.com.sg/business/sitemap.xml
+Sitemap: https://www.uob.com.sg/corporate/sitemap.xml

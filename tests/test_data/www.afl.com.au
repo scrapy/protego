@@ -1,0 +1,11 @@
+# robots.txt
+Sitemap: https://www.afl.com.au/sitemap.xml
+User-agent: *
+Disallow: /sites
+Disallow: /search
+Disallow: *.aspx
+Disallow: *.mobileapp
+Disallow: *.liveradio
+Disallow: *.smartmobile
+Disallow: *.responsive
+Disallow: /stats?*

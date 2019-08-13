@@ -1,0 +1,35 @@
+User-agent: usasearch
+Crawl-delay: 5
+
+User-agent: * 
+Disallow: /usapa/
+Disallow: /USAPA/
+Disallow: /rv4_includes/
+Disallow: /rv4_js/
+Disallow: /rv4_css/
+Disallow: /css/
+Disallow: /rv5_downloads/
+Disallow: /contact/
+Disallow: /contactus/
+Disallow: /mediaplayer/
+Disallow: /search/
+Disallow: /-speeches/
+Disallow: /-news/
+Disallow: /-links/
+Disallow: /-newsreleases/
+Disallow: /-slideshows/
+Disallow: /-images/
+Disallow: /e2/-images/
+Disallow: /mobile/article/
+Disallow: /m/
+Disallow: /article/144521/
+Disallow: /article/63478/
+Disallow: /standto/archive/
+Disallow: /aps/
+
+Allow: /media/publications/
+Allow: /media/socialmedia/
+Allow: /e2/-images/**/*.jpg$
+Allow: /-images/**/*.jpg$
+
+Sitemap: https://www.army.mil/sitemap.xml

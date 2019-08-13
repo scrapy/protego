@@ -1,0 +1,32 @@
+User-agent: *
+Crawl-delay: 100
+Allow: /
+Disallow: /images/kjv-king-james-version.jpg
+Disallow: /images/King-James-Bible-Online.jpg
+Disallow: /Contact_Us.php
+Disallow: /Tobacco_Use/
+Disallow: /Bible-Verses-About-Tobacco-Use/
+Disallow: /James-05-6/
+Disallow: /old/
+
+
+User-agent: Mediapartners-Google
+Allow: /
+Disallow: /images/kjv-king-james-version.jpg
+Disallow: /images/King-James-Bible-Online.jpg
+Disallow: /Contact_Us.php
+Disallow: /Tobacco_Use/
+Disallow: /Bible-Verses-About-Tobacco-Use/
+Disallow: /old/
+
+User-agent: Slurp 
+Crawl-delay: 400
+
+User-agent: bingbot
+Crawl-delay: 100
+
+User-agent: YandexBot
+Crawl-delay: 400
+
+User-agent: Baiduspider
+Crawl-delay: 400

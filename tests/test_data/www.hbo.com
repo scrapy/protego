@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /services/hbo/sitemap/video.xml
+Allow: /services/hbo/headers.json
+Allow: /services/hbo/video.xml/
+Disallow: /services/
+Disallow: /html/mobile-landing/
+Disallow: /content/hboweb/
+Sitemap: https://www.hbo.com/sitemap.xml
+Sitemap: https://www.hbo.com/services/hbo/sitemap/video.xml

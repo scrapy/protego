@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Disallow: /content/dam/act/secured/

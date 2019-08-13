@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /text/
+Disallow: /search/
+Disallow: /10years/
+Disallow: /external/
+Disallow: /eircomonly/
+Disallow: /frontpage/
+Disallow: /views/
+Disallow: /weather/
+Disallow: /redfm/
+Disallow: /boionly/
+Disallow: /mms/
+Disallow: /farming/
+Disallow: /views/
+Disallow: /lifestyle/
+Disallow: /briefings/
+
+User-agent: ia_archiver
+Disallow: /
+
+Sitemap: https://www.breakingnews.ie/sitemap.xml.gz
+Sitemap: https://www.breakingnews.ie/sitemap_googlenews.xml.gz
+Sitemap: https://www.breakingnews.ie/sitemap_channels.xml.gz

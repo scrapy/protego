@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /_documentation/
+Disallow: /_examples/
+Disallow: /_feeds/
+Disallow: /_home/
+Disallow: /_includes/
+Disallow: /_internal/
+Disallow: /_php/
+Disallow: /_shared-sections/
+Disallow: /chunks/
+Disallow: /error/
+Disallow: /gwassets/
+Disallow: /machform/
+Disallow: /~
+Sitemap: https://www.indiana.edu/sitemap.xml

@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /search
+Disallow: /support/rss
+Disallow: /archive/
+Disallow: /?filters

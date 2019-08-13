@@ -1,0 +1,44 @@
+User-agent: *
+Disallow: /zoombutton/
+Disallow: /spacer/
+Disallow: /imagezoom.php
+Disallow: /rateimage.php
+Disallow: /zoomv1/
+Disallow: /catsearch.php
+Disallow: /downloadcomp.php
+Disallow: /comments.php
+Disallow: /profileinterview.php
+Disallow: /pdf_lightbox.php
+Disallow: /slideshow/
+Disallow: /managemail.php
+Disallow: /downloadpubliclightbox.php
+Disallow: /mylightbox.php
+Disallow: /search_free.php
+Disallow: /islogin_globalv3.php
+Disallow: /similar-images/
+Disallow: /similar.php
+Disallow: /similar_ajax.php
+Disallow: /subject-cluster/
+Disallow: /search_cluster.php
+Disallow: /similar-model/
+Disallow: /similarmodel_ajax.php
+Disallow: /bova/
+Disallow: /images/verify_image.png
+Disallow: /images/welcome_image.png
+Disallow: /images/ga_img_handler.php
+Disallow: /bigdata/logging/
+Disallow: /visual/
+
+User-agent: bingbot
+Disallow: /details_licensetab_ajax_v5.php
+Disallow: /details_similar_img_ajax.php
+Crawl-delay: 15
+
+User-agent: msnbot
+Disallow: /details_licensetab_ajax_v5.php
+Disallow: /details_similar_img_ajax.php
+Crawl-delay: 15
+
+User-agent: baiduspider
+Disallow: /details_licensetab_ajax_v5.php
+Disallow: /details_similar_img_ajax.php

@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /CancelOrRefundDetails.aspx
+Disallow: /hotels/details/
+Disallow: /hotels/booking/
+Disallow: /hotels/search/
+Disallow: /searchdataapi/
+Disallow: /search
+Disallow: /en/search
+Disallow: /Pay/PaymentDetails
+Disallow: /ticket/
+Disallow: /Failed
+Disallow: /web/Content/
+Disallow: /build/
+Allow: /Booking/SearchResultsJSON.aspx
+Allow: /pilgrimages/
+Disallow: /pilgrimages/darshans/
+Disallow: /pilgrimages/packages
+Disallow: /pilgrimages/itinerary
+Disallow: /pilgrimages/seats
+Disallow: /pilgrimages/custinfo
+Disallow: /pilgrimages/payment
+Disallow: /pilgrimages/confirm
+Disallow: /seo/v1
+User-agent: AdsBot-Google
+Allow: /
+
+Sitemap:  https://www.redbus.in/sitemap.xml

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /typo3/
+Disallow: /ueber-diese-seite/nicht-gefunden
+Disallow: /ueber-diese-seite/nicht-gefunden/
+Disallow: /en/about-this-page/nicht-gefunden/
+Disallow: /en/about-this-page/nicht-gefunden/
+Disallow: /go/
+Disallow: /institute/webconsulting/
+Disallow: /institute/einfuehrung/
+Disallow: /sites/info/
+Disallow: /sites/sandbox/

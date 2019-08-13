@@ -1,0 +1,124 @@
+
+User-Agent: Mediapartners-Google
+Disallow: /j-dealer-link-inc.json*
+Disallow: /j-contact-seller.json*
+Disallow: /j-vac-inc-carproof.json*
+Disallow: /j-send-to-friend.json*
+Disallow: /j-vac-phone-get.json*
+Disallow: /j-auto-suggest.json*
+Disallow: /b-search-map-ajax-search-markers.json*
+Disallow: /b-search-map-ajax-get-ads-by-ids.json*
+Disallow: /b-search-map-ajax-search-ads.json*
+Disallow: /j-homepage-galerie.json*
+Disallow: /j-homepage-gallery.json*
+Disallow: /j-feature-link-inc.json*
+Disallow: /j-edit-watchlist.json*
+Disallow: /j-get-watchlist-item.json*
+Disallow: /.well-known/assetlinks.json*
+Disallow: /bb-audio.html*
+Disallow: /bb-image.html*
+Disallow: /j-homepage-gallery.json*
+Disallow: /j-tokens-gen.json
+Disallow: /j-vac-inc-get.json*
+Disallow: /j-page-view.json*
+Disallow: /j-recently-viewed*
+Disallow: /j-locations.json*
+
+User-agent: *
+
+
+# canonical path https://www.kijiji.ca/sitemaps/20190721T020000.642Z/relatedsearch-index-1.xml.gz
+Sitemap: https://www.kijiji.ca/sitemaps/latest/relatedsearch-index-1.xml.gz
+# canonical path https://www.kijiji.ca/sitemaps/20190721T023000.569Z/popularsearch-index-1.xml.gz
+Sitemap: https://www.kijiji.ca/sitemaps/latest/popularsearch-index-1.xml.gz
+# canonical path https://www.kijiji.ca/sitemaps/20190722T020000.693Z/browse-index-1.xml.gz
+Sitemap: https://www.kijiji.ca/sitemaps/latest/browse-index-1.xml.gz
+# canonical path https://www.kijiji.ca/sitemaps/20190722T023000.597Z/attributes-index-1.xml.gz
+Sitemap: https://www.kijiji.ca/sitemaps/latest/attributes-index-1.xml.gz
+# canonical path https://www.kijiji.ca/sitemaps/20190722T070000.419Z/vip-index-1.xml.gz
+Sitemap: https://www.kijiji.ca/sitemaps/latest/vip-index-1.xml.gz
+
+Allow: /
+
+Disallow: /s-SignIn*
+Disallow: /s-StartRegistration*
+Disallow: /v-view-image.html*
+Disallow: /v-map-view.html*
+Disallow: /v-print-view*
+Disallow: /p-edit-ad*
+Disallow: /Search/*
+Disallow: /ViewAd/*
+Disallow: /browse/*
+Disallow: /c-ManageMyAds*
+Disallow: /c-SelectCategory*
+Disallow: /c-SavedAds*
+Disallow: /c-AdComparison*
+Disallow: /s-ForgotPassword*
+Disallow: /j-dealer-link-inc.json
+Disallow: /j-contact-seller.json
+Disallow: /j-vac-inc-carproof.json
+Disallow: /j-vac-inc-get.json
+Disallow: /j-send-to-friend.json
+Disallow: /j-vac-phone-get.json
+Disallow: /j-auto-suggest.json
+Disallow: /b-search-map-ajax-search-markers.json
+Disallow: /b-search-map-ajax-get-ads-by-ids.json
+Disallow: /b-search-map-ajax-search-ads.json
+Disallow: /b-search.html*
+Disallow: /bb-audio.html*
+Disallow: /bb-image.html*
+Disallow: /j-homepage-galerie.json
+Disallow: /j-homepage-gallery.json
+Disallow: /j-feature-link-inc.json
+Disallow: /j-edit-watchlist.json
+Disallow: /j-get-watchlist-item.json
+Disallow: /VIP/*
+Disallow: /apple-app-site-association
+Disallow: /.well-known/assetlinks.json
+Disallow: /pages/ps/*
+
+User-Agent: Googlebot
+Disallow: /5138/
+Disallow: /t-login.html?targetUrl=*
+Disallow: /*/*/*price-type=*
+Disallow: /*/*/*videoOnly=*
+Disallow: /*/*/*ad=*
+Disallow: /*/*/*address=*
+Disallow: /*/*/*urgentAds=*
+Disallow: /*/*/*a-louer-par=*
+Disallow: /*/*/*a-vendre-par=*
+Disallow: /*/*/*animaux-acceptes=*
+Disallow: /*/*/*autre-info=*
+Disallow: /*/*/*bathrooms=*
+Disallow: /*/*/*bedrooms=*
+Disallow: /*/*/*boite-de-vitesse=*
+Disallow: /*/*/*carproofAds=*
+Disallow: /*/*/*chambres-nb=*
+Disallow: /*/*/*cpoAds=*
+Disallow: /*/*/*dealerReviews=*
+Disallow: /*/*/*financingAvailable=*
+Disallow: /*/*/*for-rent-by=*
+Disallow: /*/*/*for-sale-by=*
+Disallow: /*/*/*furnished=*
+Disallow: /*/*/*meuble=*
+Disallow: /*/*/*minNumberOfImages=*
+Disallow: /*/*/*more-info=*
+Disallow: /*/*/*offered-by=*
+Disallow: /*/*/*pet-friendly=*
+Disallow: /*/*/*price=*
+Disallow: /*/*/*price-type=*
+Disallow: /*/*/*propose-par=*
+Disallow: /*/*/*salles-de-bain-nb=*
+Disallow: /*/*/*Services=*
+Disallow: /*/*/*siteLocale=*
+Disallow: /*/*/*transmission=*
+Disallow: /*/*/*utm_campaign=*
+Disallow: /*/*/*utm_content=*
+Disallow: /*/*/*utm_medium=*
+Disallow: /*/*/*utm_source=*
+Disallow: /*/*/*utm_term=*
+Disallow: /*/*/*veteranFriendly=*
+Disallow: /*/*/*sort=*
+Disallow: /b-*page-*
+Disallow: /n-notifications.html*
+Disallow: /v-*/*/*/c*

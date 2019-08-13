@@ -1,0 +1,24 @@
+# robots.txt - www.overclockers.co.uk
+# 2014-05-28
+# access allow
+
+User-agent: *
+
+Disallow: /compare
+Disallow: /checkout
+Disallow: /register
+Disallow: /account
+Disallow: /note
+Disallow: /templates/emotion_overclockerscouk/frontend/_resources/javascript/linkMasker.min.js
+
+Disallow: /*.pdf$
+
+Disallow: /suche? 
+Disallow: /shopware.php/sViewport,search 
+Disallow: /search?s*sSearch 
+Disallow: /search?sSearch
+Disallow: /search/index/sSearch/
+Disallow: /SwpFindologic/
+Disallow: /FinSearchAPI/
+
+Sitemap: https://www.overclockers.co.uk/cksitemaps/sitemap_index.xml

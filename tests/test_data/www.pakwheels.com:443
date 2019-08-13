@@ -1,0 +1,129 @@
+# /robots.txt for https://www.pakwheels.com
+
+Sitemap: https://www.pakwheels.com/sitemap.xml.gz
+Sitemap: https://www.pakwheels.com/forums/sitemap_index.xml.gz
+Sitemap: https://www.pakwheels.com/blog/sitemap_index.xml
+
+User-agent: Googlebot-Mobile
+Allow: .js
+Allow: .css
+Disallow: /import-of-Vehicles-faq/
+Disallow: /technical-auto-help/
+Disallow: /technical-help-on-electrical-auto-issues/
+Disallow: /forums/modcp/
+Disallow: /cgi-bin
+Disallow: /forums/admin-cp
+Disallow: /forums/usercp.php
+# block nofollow
+Disallow: /*?*nf=true*
+Disallow: /used-cars/lightbox_window
+Disallow: /used-cars/notify_seller
+Disallow: /used-cars/manage/
+Disallow: /used-cars/activate/
+Disallow: /used-bikes/lightbox_window
+Disallow: /used-bikes/notify_seller
+Disallow: /used-bikes/manage/
+Disallow: /used-bikes/activate/
+Disallow: /accessories/notify_seller
+Disallow: /fetch_used_cars_featured_ads
+Disallow: /fetch_used_bikes_featured_ads
+Disallow: /fetch_ad_listings_featured_ads
+Disallow: /report_abuse_histories
+Disallow: /subscribe_newsletter
+Disallow: /get_cities
+Disallow: /checkuser
+Disallow: /checkemail
+Disallow: /checkspam
+Disallow: /forums/register
+Disallow: /forums/register.php
+Disallow: /dealer/
+Disallow: /remove_picture/
+Disallow: /multi_file_uploader/
+Disallow: /password_resets
+Disallow: /users
+Disallow: /sessions
+Disallow: /logout
+Disallow: /login
+Disallow: /signup
+Disallow: /admin
+Disallow: /alerts
+Disallow: /oauths
+Disallow: /oauth/
+Disallow: /oauth_client_apps #need to check with or without slash
+Disallow: /oauth_docs
+Disallow: /oauth_tests
+Disallow: /ckeditor
+Disallow: /pictures
+Disallow: /attachment_files
+Disallow: /*.json$
+Disallow: /car-finance/*/detail
+Disallow: /autoshow/wp-content/
+Disallow: /1012037/
+Disallow:/wp-content/plugins/
+Disallow: /shops/
+Disallow: /xt_details.asp
+Disallow: /NewArrivals/
+Disallow: /media/gallery_view/
+
+
+User-agent: *
+Allow: .js
+Allow: .css
+Disallow: /1012037/
+Disallow:/wp-content/plugins/
+Disallow: /shops/
+Disallow: /cgi-bin
+Disallow: /forums/admin-cp
+Disallow: /forums/usercp.php
+# block nofollow
+Disallow: /*?*nf=true*
+Disallow: /used-cars/lightbox_window
+Disallow: /used-cars/notify_seller
+Disallow: /used-cars/manage/
+Disallow: /used-cars/activate/
+Disallow: /used-bikes/lightbox_window
+Disallow: /used-bikes/notify_seller
+Disallow: /used-bikes/manage/
+Disallow: /used-bikes/activate/
+Disallow: /accessories/notify_seller
+Disallow: /fetch_used_cars_featured_ads
+Disallow: /fetch_used_bikes_featured_ads
+Disallow: /fetch_ad_listings_featured_ads
+Disallow: /report_abuse_histories
+Disallow: /subscribe_newsletter
+Disallow: /get_cities
+Disallow: /checkuser
+Disallow: /checkemail
+Disallow: /checkspam
+Disallow: /forums/register
+Disallow: /forums/register.php
+Disallow: /dealer/
+Disallow: /remove_picture/
+Disallow: /multi_file_uploader/
+Disallow: /password_resets
+Disallow: /users
+Disallow: /sessions
+Disallow: /logout
+Disallow: /login
+Disallow: /signup
+Disallow: /admin
+Disallow: /alerts
+Disallow: /oauths
+Disallow: /oauth/
+Disallow: /oauth_client_apps #need to check with or without slash
+Disallow: /oauth_docs
+Disallow: /oauth_tests
+Disallow: /ckeditor
+Disallow: /pictures
+Disallow: /attachment_files
+Disallow: /*.json$
+Disallow: /recent-ads/
+Disallow: /car-finance/*/detail
+Disallow: /autoshow/wp-content/
+Disallow: /xt_details.asp
+Disallow: /NewArrivals/
+Disallow: /media/gallery_view/
+Disallow: /car_sure_requests/
+
+User-agent: Mediapartners-Google
+Allow: /

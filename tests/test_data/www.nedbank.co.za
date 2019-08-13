@@ -1,0 +1,420 @@
+<!DOCTYPE HTML>
+<html lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <meta charset="utf-8"/>
+    
+        <script type="text/javascript" src="/ruxitagentjs_ICA2SVfqru_10161190306152812.js" data-dtconfig="rid=RID_1840381546|rpid=1771486343|domain=nedbank.co.za|reportUrl=/rb_b1f2a563-4555-4443-963c-43092d459063|app=9035e847b129194b|ssc=1|featureHash=ICA2SVfqru|srsr=25000|rdnt=1|uxrgce=1|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|dpvc=1|lastModification=1563809014449|dtVersion=10161190306152812|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA2SVfqru_10161190306152812.js"></script><script type="text/javascript" src="/ruxitagentjs_ICA2SVfqru_10161190306152812.js" data-dtconfig="app=9035e847b129194b|ssc=1|featureHash=ICA2SVfqru|srsr=25000|rdnt=1|uxrgce=1|srms=1,1,,,|uxrgcm=100,25,300,3;100,25,300,3|dpvc=1|lastModification=1563809014449|dtVersion=10161190306152812|tp=500,50,0,1|uxdcw=1500|agentUri=/ruxitagentjs_ICA2SVfqru_10161190306152812.js|reportUrl=/rb_b1f2a563-4555-4443-963c-43092d459063|rid=RID_1840381546|rpid=1382864565|domain=nedbank.co.za"></script><style id="sherlock">html{display:none !important;}</style>
+        <script type="text/javascript">
+           if(self===top){var sherlock=document.getElementById("sherlock");sherlock.parentNode.removeChild(sherlock)}else top.location=self.location;
+        </script>
+    
+    
+    
+    
+<link rel="stylesheet" href="/etc/clientlibs/foundation/main.084a9873a81d51aa8d0915c8acdab221.css" type="text/css">
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.fb50358df4c2bd6aa6e1dd5b0d9b9d29.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.960d4a24cc6fa3b473b4ae2018d5c364.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.1cd927e8b915fa4931c6c086a8cfda10.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.04c02883bbd8d131b579412d156fbd96.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/main.b0e37cd4a9e4a7e9533b8ae13c803716.js"></script>
+
+
+
+    
+    <link href="/etc/designs/nedbank-new.css" rel="stylesheet" type="text/css"/>
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+    
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/etc/designs/nedbank-new/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/etc/designs/nedbank-new/favicon.ico">
+    
+    <title>Personal</title>
+    <link rel="canonical" href="/content/nedbank/desktop/gt/en/personal.html"/>
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+
+    
+    <meta name="description" content="Nedbank has a banking solution to cater for every individual need, be it with credit cards, saving and investing, home loans, or vehicle finance."/>
+    <meta name="navjsonfilename" navjsonfilename="nedbank"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <script>
+        var navRestUrl = "personal.navinfo.json?ienocache=yesplease";
+        var Nedbank = {};
+        var navJsonFileName = $("meta[name='navjsonfilename']").attr("navjsonfilename")== undefined ? "nedbank" : $("meta[name='navjsonfilename']").attr("navjsonfilename") ;
+        var currentPath = "/content/nedbank/desktop/gt/en/personal";
+    </script>
+
+    <!--library.html start-->
+
+<!--library.html end-->
+
+    
+    
+<link rel="stylesheet" href="/etc/clientlibs/nedbank-new/main/fonts.0abc67087939831a7f28f0fd6a2fac7d.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/nedbank-new/main.dfe5536e30dfc01a59fa61374ec5151e.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/nedbank-new/dependencies.9130071483ba24725961d3974dcce280.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/nedbank/dependencies.4555a7247424f2771ea2bdb926a48521.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/nedbank/nedbank-formtheme.c6bacb015bdb161e3a0d90e1f836feb3.css" type="text/css">
+<link rel="stylesheet" href="/etc/clientlibs/nedbank-new/main/components/responsive/new-navigation.d41d8cd98f00b204e9800998ecf8427e.css" type="text/css">
+
+
+
+    
+    
+
+
+
+
+
+    <script type="text/javascript">
+var prmryCat = "personal";
+path = document.location.pathname,
+pageURLPath = (prmryCat != "")? path.substr(path.indexOf(prmryCat)):"";
+
+var digitalData = {
+    page : {
+        pageInstanceId: "production-\/content\/nedbank\/desktop\/gt\/en\/personal",
+        pageInfo: {
+            destinationUrl: document.location.origin+document.location.pathname,                
+            effectiveDate: "",
+            expiryDate: "", 
+            geoRegion: "Gauteng",
+            issueDate: "2019\u002D07\u002D19T06:36:06.06+02:00",  
+            metaTitle: "Personal",
+            metaDescription: "Nedbank has a banking solution to cater for every individual need, be it with credit cards, saving and investing, home loans, or vehicle finance.",
+            metaKeywords: "",                
+            pageName: "personal",
+            pageUrlPath:"/"+pageURLPath,
+            pageUrlHierarchy:pageURLPath.replace(/\//g,":").replace(".html",""),                
+            pageAemPath: "\/content\/nedbank\/desktop\/gt\/en\/personal",
+            pageAemHierarchy: "content:nedbank:desktop:gt:en:personal",                
+            primaryCategory: prmryCat,
+            pageType: "landingpage",                
+            referringUrl: document.referrer,                
+			assetLocations: "\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Home_Loans\/Feature\/feature\u002Dbox\u002Dmusician\u002Dguitar2 (002).jpg,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Digital\/Feature\/efica static banner.jpg,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Accounts\/Feature\/Unlocked Student 2.jpg,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Card\/Hero\/Carousel\u002DBanner final final\u002D.co.jpg,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Professional\/Hero\/young\u002Dprofessionals2.png,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Personal_Loans\/Hero\/Home page PL banner July.png,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/FOREX\/Hero\/Travel_Card_Carousel_Image_v8.png,\/content\/dam\/nedbank\/site\u002Dassets\/Personal\/Wealth\/Carousel\/7163_Nedbank_NFP_MG_Carousel Banner_1140x400_90dpi Carousel July.jpg",
+		   	pageFilter: "",
+			pageErrorType:"",
+            sysEnv: $(window).width() > 1024 ? 'desktop' : $(window).width() >= 768 ? 'tablet' : 'mobile'
+        },
+        
+        pageAttributes: {
+            language: "English",
+            template: "sly\u002Dlandingpage",                
+            version: "2.2"
+        }
+    },
+
+    website: {
+        websiteName: "Nedbank",
+        websiteInstanceID: "nedbank\u002Dprod",
+        websiteID: "nedbank.co.za",
+        websiteEnvironment: "production"
+    }
+};
+
+var categoriesStringList = "personal,,,,,,,,,";
+if(categoriesStringList != ""){
+    var categoriesArray = categoriesStringList.split(",");
+
+    if(categoriesArray.length > 0){
+        $(categoriesArray).each(function(index,value){
+            if(index > 0){
+                if(value != ""){
+                    digitalData.page.pageInfo["subCategory"+index] = value;
+                }
+            }
+        });    
+    }
+}</script>
+    <script type="text/javascript">digitalData.form = {
+	formID: "",
+	formName: "",
+    formIDFallback: "",
+    formParentStepID: "",
+    formParentStepName: "",
+    formTransactionID: "",
+    formApprovalStatus: "",
+    formApplicationDownload: "",
+    formApplicationPrint: "",
+    formHelpUsImproveFeedback: "",
+    formCompletionEvent:"false",
+    formStatus: "",
+    formisSubmitted: "false"
+};</script>
+    <meta class="mod modDynamicTagManager" name="modDynamicTagManager" content="" property=""/>
+
+
+    
+    <script type="text/javascript" src="/etc/clientlibs/dtm/nedbankrefreshed-dtm/6f79158dfa45cb7908379f7bc785fd272fdc804e/0970aa6aece398cfe03cc902ec724ac16bf280f2/6f79158dfa45cb7908379f7bc785fd272fdc804e/satelliteLib-0970aa6aece398cfe03cc902ec724ac16bf280f2.js"></script>
+
+
+
+    <!-- new head baseHref && meta properties for content -->
+    <base href="/content/nedbank/desktop/gt">
+
+    <style>
+        .app-loading {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 89vh;
+        }
+    	.app-loading .app-loading-container {
+        	display: flex;
+            flex:1;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            background-position: 50% 50%;	
+            width:130px;
+        }
+        .lds-ring {
+  display: flex;
+  position: relative;
+  width:100%;
+  }
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 101px;
+  height: 101px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #006341 transparent transparent transparent;
+}
+
+.lds-ring svg{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    }
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+        .app-loading .icon-primary .stroke-target {
+          stroke: #006341;
+        }
+      </style>
+    
+</head>
+
+<div>
+    
+    <body class="mod modBody">
+	  <section id='calculatorsMetaData' class='metadata hidden' style='display:none'>
+    
+		<div id="header-dropdown">
+            <div class="dropdownItem" data-url="/content/nedbank/desktop/gt/en/personal/apply-online.html" data-description="Apply Online"></div>
+        
+            <div class="dropdownItem" data-url="https://netbank.nedsecure.co.za/" data-description="Internet Banking"></div>
+        
+            <div class="dropdownItem" data-url="https://onlinesharetrading.nedbank.co.za/#/overview" data-description="Online share trading"></div>
+        
+            <div class="dropdownItem" data-url="https://businessbanking.nedsecure.co.za/" data-description="NetBank Business"></div>
+        
+            <div class="dropdownItem" data-url="https://www.nedfleet.co.za/" data-description="NedFleet"></div>
+        
+            <div class="dropdownItem" data-url="https://nedbankgreenbacks.nedsecure.co.za/" data-description="Nedbank Greenbacks"></div>
+        
+            <div class="dropdownItem" data-url="http://www.nedbankatwork.nedbank.co.za/home" data-description="Nedbank@work"></div>
+        
+            <div class="dropdownItem" data-url="https://myfinanciallife.nedsecure.co.za/" data-description="MyFinancialLife"></div>
+        
+            <div class="dropdownItem" data-url="/content/nedbank/desktop/gt/en/aboutus/legal/fraud-awareness.html" data-description="Security centre"></div>
+        
+            <div class="dropdownItem" data-url="/content/nedbank/desktop/gt/en/personal/fees2019.html" data-description="Fees"></div>
+        </div>
+    
+	
+		<input type='hidden' id="calculatorComponentCurreny" value="R"/>
+    
+    <input type='hidden' id='primeText' value="Prime Interest Rate:"/>
+    <input type='hidden' id='primeRate' value="10"/>
+    <input type='hidden' id='vatRate' value="15"/>
+    
+        <input type='hidden' id="primeExchageRates"/>
+	
+    
+		<input type='hidden' id="currentCurrency" value="R"/>
+    	<input type='hidden' id="currencyDescription" value="South African Rand"/>
+		<div id="foreignExchangeRateItems">
+            
+                <div class='fItem' data-code="USD" data-buy="0.0744" data-sell="13.4409" data-description="U.S. Dollars"></div>
+            
+                <div class='fItem' data-code="GBP" data-buy="0.0598" data-sell="16.7123" data-description="British Pounds"></div>
+            
+                <div class='fItem' data-code="EUR" data-buy="0.0669" data-sell="14.9448" data-description="Euro"></div>
+            
+                <div class='fItem' data-code="AUD" data-buy="0.1074" data-sell="9.3110" data-description="Australian Dollar"></div>
+            
+                <div class='fItem' data-code="CAD" data-buy="0.0988" data-sell="10.1215" data-description="Canadian Dollars"></div>
+            
+                <div class='fItem' data-code="CNY" data-buy="0.5223" data-sell="1.9146" data-description="Chinese Yuan"></div>
+            
+                <div class='fItem' data-code="MUR" data-buy="2.7670" data-sell="0.3614" data-description="Mauritius Rupee"></div>
+            
+                <div class='fItem' data-code="NZD" data-buy="0.1144" data-sell="8.7413" data-description="New Zealand Dollar"></div>
+            
+                <div class='fItem' data-code="THB" data-buy="2.4802" data-sell="0.4032" data-description="Thai Baht"></div>
+            
+                <div class='fItem' data-code="HKD" data-buy="0.5982" data-sell="1.6717" data-description="Hong Kong Dollars"></div>
+            
+                <div class='fItem' data-code="BWP" data-buy="0.8503" data-sell="1.1761" data-description="Botswana Pula"></div>
+            
+                <div class='fItem' data-code="CHF" data-buy="0.0742" data-sell="13.4771" data-description="Swiss Franc"></div>
+            
+                <div class='fItem' data-code="DKK" data-buy="0.5085" data-sell="1.9666" data-description="Danish Krone"></div>
+            
+                <div class='fItem' data-code="JPY" data-buy="8.1471" data-sell="0.1227" data-description="Japanese Yen"></div>
+            
+                <div class='fItem' data-code="ILS" data-buy="0.2682" data-sell="3.7286" data-description="Israeli Shekels"></div>
+            
+                <div class='fItem' data-code="NOK" data-buy="0.6592" data-sell="1.5170" data-description="Norwegian Krone"></div>
+            
+                <div class='fItem' data-code="SEK" data-buy="0.7177" data-sell="1.3933" data-description="Swedish Krona"></div>
+            
+                <div class='fItem' data-code="SGD" data-buy="0.1040" data-sell="9.6154" data-description="Singapore Dollars"></div>
+            
+                <div class='fItem' data-code="LSL" data-buy="1.0000" data-sell="1.0000" data-description="Lesotho Loti"></div>
+            
+                <div class='fItem' data-code="NAD" data-buy="1.0000" data-sell="1.0000" data-description="Namibian Dollars"></div>
+            
+                <div class='fItem' data-code="SZL" data-buy="1.0000" data-sell="1.0000" data-description="Swazi Lilangeni"></div>
+            
+                <div class='fItem' data-code="AED" data-buy="0.2747" data-sell="3.6403" data-description="United Arab Emirates"></div>
+            
+                <div class='fItem' data-code="CNH" data-buy="0.5120" data-sell="1.9531" data-description="Chinese Yuan"></div>
+            
+        </div>
+    
+	
+    
+        <input type='hidden' id='loanTerms'/>
+	
+    
+		  <input type='hidden' id='forexsearchurl' value="https://onlineforms.nedsecure.co.za/forexreferencedata/nedbank/dev/referencedata/v1/FOREX?"/>
+          <input type='hidden' id='currenciesurl' value="https://onlineforms.nedsecure.co.za/forexreferencedata/nedbank/dev/referencedata/v1/FOREX/currencies"/>
+          <input type='hidden' id='cardtypesurl' value="https://onlineforms.nedsecure.co.za/forexreferencedata/nedbank/dev/referencedata/v1/FOREX/CardTypes"/>
+    
+    
+        <input type="hidden" id="includeFilterAllOption">
+        
+    
+    
+		<input type="hidden" id="poiSearchUrl" value="https://nedbank2.nedsecure.mobi/geolocation/POIResolver.svc/json/GetPOILocationsForPos">
+		<input type="hidden" id="poiCategoriesUrl" value="https://nedbank2.nedsecure.mobi/geolocation/POIResolver.svc/json/GetCategories"/>
+	
+    <div>
+    	<div id="meta-provinces">
+            
+                <div data-item="Eastern Cape"></div>
+            
+                <div data-item="Free State"></div>
+            
+                <div data-item="Gauteng"></div>
+            
+                <div data-item="KwaZulu-Natal"></div>
+            
+                <div data-item="Limpopo"></div>
+            
+                <div data-item="Mpumalanga"></div>
+            
+                <div data-item="North West"></div>
+            
+        </div>
+        <div id="meta-housingTypes">
+ 			
+        </div>
+        <div id="meta-sortby">
+            
+        </div>
+    </div>
+
+</section>
+	<div>
+        <!-- @Root Angular app -->
+        <nb-root>
+        	<div class="app-loading">
+				<div class="app-loading-container">
+                   <div class="lds-ring">
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                       <div></div>
+                        <svg style="width:6rem;height:6rem;" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Nedbank-logo/80px---Large">
+                          <g id="Group" transform="translate(10.000000, 10.000000)">
+                            <polygon id="Path-2" fill="#006341" points="2.67857329 12.2557137 2.67857329 47.4402945 17.0301403 56.7835551 30.0878217 48.2184189 43.1541359 56.7835551 57.061374 47.4402945 57.061374 12.2458101 43.1541359 3.01621329 30.0878217 11.4158053 17.0301403 3.01621329"></polygon>
+                            <g id="Nedbank-logo-new-Copy-10" transform="translate(1.428571, 1.428571)" fill="#FFFFFF">
+                              <path d="M41.4223511,0.18395176 L56.8428672,10.3137203 L56.8428672,46.7060253 L41.4223511,56.8391063 L28.4182667,48.3018013 L15.4820248,56.8413146 L0.052782029,46.7063014 L0.052782029,10.3418761 L15.4794912,0.180639303 L28.4182667,8.7182203 L41.4223511,0.18395176 Z M54.4244087,11.4922923 L41.5208213,2.95139888 L28.6172338,11.4922923 L15.7139279,2.95139888 L2.48801817,11.4922923 L2.48801817,45.3386984 L15.7139279,53.8793158 L28.6172338,45.3386984 L41.5208213,53.8793158 L54.4244087,45.3386984 L54.4244087,11.4922923 Z" id="Combined-Shape"></path>
+                              <path d="M15.7139279,36.798081 L26.0366852,43.7570004 L15.7139279,50.7161958 L15.7139279,36.798081 Z M41.5208213,23.1960298 L41.5208213,6.11479499 L51.5209749,12.7573747 L51.5209749,43.4406608 L5.06856676,13.0737144 L15.7139279,6.11479499 L41.5208213,23.1960298 Z" id="Fill-14"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </g>
+                    </svg>
+                   </div>
+
+                </div>
+			</div>
+        </nb-root>
+    </div>
+	<!--<div id="nedBotApp"></div>-->
+    <!-- </div> -->
+    
+
+	<script src="/services/nedbank/csrfguard.js"></script>
+	<!--<div data-sly-resource="cloudservices"></div>-->
+
+    
+    
+<script type="text/javascript" src="/etc/clientlibs/nedbank-new/main/components/responsive/new-navigation.44361ef7ce88b61290fb6eeefdc894ed.js"></script>
+
+
+
+    <!-- end -->
+
+    
+</body>
+
+</div>
+
+</html>

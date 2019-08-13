@@ -1,0 +1,29 @@
+User-agent: *
+Disallow: /priceShopperRedirectAction.do?method=load
+Disallow: /shop/
+Disallow: /wushop/
+Disallow: /wupay/
+Disallow: /info/
+Disallow: /web-inf/
+Disallow: /pdf/
+Disallow: /index_1.html
+Disallow: /index.php
+Disallow: /www.tigomoney.com.gt
+Disallow: /favico.ico
+Disallow: /*responsive-pages/
+Disallow: /*utils/
+Disallow: /*legal/
+Disallow: /*legal*
+Disallow: /wu/
+Disallow: /*hardLock/
+Disallow: /*docupload*
+Disallow: /*legalDisclaimer*
+Disallow: /*kycSucess*
+Disallow: /*interstitialPage*
+Disallow: /*kycVerification*
+Disallow: /*session-expired*
+Disallow: /*site-restriction*
+
+Noindex: /*site-restriction*
+
+Sitemap: https://www.westernunion.com/sitemap.xml

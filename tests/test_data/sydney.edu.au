@@ -1,0 +1,25 @@
+User-agent: FunnelBack
+Disallow: /education_social_work/bulletin/
+
+User-agent: *
+Allow: /
+Sitemap:https://sydney.edu.au/sitemap.xml
+Disallow: /medicine/fmrc/icpc3dev/
+Disallow: /handbooks/archive/2011/
+Disallow: /medicine/people/academics-old/profiles/
+Disallow: /search/
+
+Disallow: /library/images/
+Disallow: /library/scripts/
+Disallow: /library/styles/
+Disallow: /library/test/
+Disallow: /library/templates/
+Disallow: /library/stream/
+Disallow: /library/screens/
+Disallow: /library/cgi-bin/
+Disallow: /library/unified-search/
+Disallow: /library/contacts/email-campaigns/
+
+Disallow: /styleguide/
+
+Disallow: /errors/

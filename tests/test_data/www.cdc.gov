@@ -1,0 +1,68 @@
+# Ignore FrontPage files
+User-agent: *
+Disallow: /_borders
+Disallow: /_derived
+Disallow: /_fpclass
+Disallow: /_overlay
+Disallow: /_private
+Disallow: /_themes
+Disallow: /_vti_bin
+Disallow: /_vti_cnf
+Disallow: /_vti_log
+Disallow: /_vti_map
+Disallow: /_vti_pvt
+Disallow: /_vti_txt
+
+# Do not index the following URLs
+Disallow: /travel/
+Disallow: /flu/espanol/
+Disallow: /migration/
+Disallow: /Features/SpinaBifidaProgram/
+Disallow: /concussion/HeadsUp/training/
+Disallow: /niosh/archive/
+Disallow: /TemplatePackage/examples
+Disallow: /TemplatePackage/gadgets
+Disallow: /TemplatePackage/modules
+Disallow: /TemplatePackage/subtopic
+Disallow: /TemplatePackage/Templates
+Disallow: /TemplatePackage/3.0/examples
+Disallow: /TemplatePackage/3.0/Templates
+Disallow: /TemplatePackage/4.0/docs
+Disallow: /TemplatePackage/4.0/gallery-internal
+Disallow: /templatepackage/examples
+Disallow: /templatepackage/gadgets
+Disallow: /templatepackage/modules
+Disallow: /templatepackage/subtopic
+Disallow: /templatepackage/Templates
+Disallow: /templatepackage/templates
+Disallow: /templatepackage/3.0/examples
+Disallow: /templatepackage/3.0/Templates
+Disallow: /templatepackage/3.0/templates
+Disallow: /templatepackage/4.0/docs
+Disallow: /templatepackage/4.0/gallery-internal
+
+# Don't spider search pages
+Disallow: /search.do
+
+# Don't spider email-this-page pages
+Disallow: /email.do
+ 
+# Don't spider printer-friendly versions of pages
+Disallow: /print.do
+
+# Rover is a bad dog
+User-agent: Roverbot
+Disallow: /
+
+# EmailSiphon is a hunter/gatherer which extracts email addresses for spam-mailers to use
+User-agent: EmailSiphon
+Disallow: /
+
+# Exclude MindSpider since it appears to be ill-behaved
+User-agent: MindSpider
+Disallow: /
+
+# Sitemap link per CR14586
+Sitemap: http://www.cdc.gov/niosh/sitemaps/sitemapsNIOSH.xml
+Sitemap: https://www.cdc.gov/std/STDsitemap1.xml
+Sitemap: https://www.cdc.gov/grand-rounds/sitemap.xml

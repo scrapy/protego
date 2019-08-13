@@ -1,0 +1,17 @@
+User-Agent: *
+Allow:	  /Ajax/Static/Terms.page
+Disallow: /mobile/
+Disallow: /Ajax/
+Disallow: /servlet/FormsServlet
+Disallow: /servlet/proxy/solr.nikon
+Disallow: /Dealers/
+Disallow: /en/Nikon-Products/WhereToBuy.page
+Disallow: /Find-Your-Nikon/WhereToBuy.page
+Disallow: /en/Find-Your-Nikon/WhereToBuy.page
+Disallow: /en/Nikon-Store/AddToCartConfirmation.page
+Disallow: /*Hunting-TV/
+Disallow: /Press-Room/
+Disallow: /en/nikon-store/terms-and-conditions.page
+Disallow: /en/about-nikon/terms-of-use.page
+Crawl-delay: 10
+Sitemap: https://www.nikonusa.com/google/20180215/sitemap.xml

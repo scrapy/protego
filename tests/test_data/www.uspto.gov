@@ -1,0 +1,12 @@
+<!-- Id = $Id: robots.txt 3287 2018-08-09 14:41:48Z JKarthigairajan $ -->
+<!-- URL = $URL: https://prod-cicm.uspto.gov/scm/svn/ADMIN-WWWUSPTO-DEV/trunk/www/web_common/var/www/html/robots.txt $ -->
+
+User-agent: *
+Disallow: /web/offices/com/sol/foia/oed/disc/D2008-03.pdf
+Disallow: /go/com/sol/foia/oed/disc/D2008-03.pdf
+Disallow: /cgi-bin/
+Disallow: /includes/
+
+Sitemap: https://www.uspto.gov/xfer-search/sitemap.xml
+Sitemap: https://www.uspto.gov/xfer-search/sitemap1.xml
+

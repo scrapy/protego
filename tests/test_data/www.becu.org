@@ -1,0 +1,14 @@
+User-agent: *
+
+allow: 
+
+Sitemap: https://www.becu.org/sitemap.xml
+Disallow: /sitecore
+Disallow: /404
+Disallow: /olb
+Disallow: /Archive
+Disallow: /apps
+Disallow: /landing/amazon-visa
+Disallow: /landing/member-referral
+Disallow: /join
+Disallow: /support/wifi-thank-you

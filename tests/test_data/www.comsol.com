@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /search/
+Disallow: /community/forums/general/message/reply/
+Disallow: /community/forums/private/
+Disallow: /community/forums/general/addnotification/
+Disallow: /share/twitter/
+Disallow: /*.rss
+Disallow: / *&o= *
+Disallow: /alternate/
+Disallow: /landing/
+Disallow: /chat/
+Disallow: /ping
+Disallow: /blogs/post-comments/?rnd=
+Disallow: /customer-administration-downloads/
+Disallow: /forum/thread/add-view/*
+Disallow: /forum/thread/new/*
+User-agent: Nutch
+Disallow: /

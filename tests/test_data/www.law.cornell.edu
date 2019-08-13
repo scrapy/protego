@@ -1,0 +1,115 @@
+User-agent: *
+
+Crawl-Delay: 1
+Disallow: /supct-cgi/
+Disallow: /search/
+Allow: /search/guidance/
+Disallow: /cgi-bin/
+Disallow: /cfr-cgi/
+Disallow: /wex-cgi/
+Disallow: /const-cgi/ 
+Disallow: /uscode/HowCurrent.php
+Disallow: /uscode-cgi/
+Disallow: /usc-cgi/
+Disallow: /nyctap-cgi/
+Disallow: /other/
+Disallow: /tmp/briefs/
+
+Allow: /sites/all/themes/liinsd7port/styles/liins_sass/stylesheets/
+Allow: /sites/all/themes/liinsd7port/images/
+Allow: /sites/www.law.cornell.edu/files/css/
+Allow: /sites/www.law.cornell.edu/files/js/
+Allow: /sites/all/modules/quicktabs/quicktabs_tabstyles/tabstyles/zen/images/
+Allow: /sites/all/themes/liizenboot/styles/liins_sass/stylesheets/
+Allow: /sites/all/themes/liizenboot/images/
+Allow: /sites/all/themes/zen/liininesixty/lii/images/
+Allow: /sites/all/themes/liizenboot/colorbox/images/
+Allow: /scripts/jquery.js
+Allow: /sites/all/themes/liinsd7port/images/
+Allow: /sites/all/modules/lii/lii/fundraiser/lii-fundraiser-js.js
+
+Disallow: /sites/default/
+Disallow: /sites/all/libraries/
+Disallow: /sites/all/modules/
+Disallow: /sites/all/zen/
+Disallow: /sites/all/themes/liizenboot/
+Disallow: /sites/all/themes/zen/
+Disallow: /sites/all/themes/liinsd7port/colorbox/
+Disallow: /sites/all/themes/liinsd7port/extras/
+Disallow: /sites/all/themes/liinsd7port/templates/
+Disallow: /sites/all/themes/liinsd7port/template.php
+Disallow: /sites/all/themes/liinsd7port/LICENSE.txt
+Disallow: /sites/all/themes/liinsd7port/liinsd7port.info
+Disallow: /sites/all/themes/liinsd7port/logo.png
+Disallow: /sites/all/themes/liinsd7port/nathansmith-adapt-c3f08d6.zip
+Disallow: /sites/all/themes/liinsd7port/README.txt
+
+Disallow: /sites/www.law.cornell.edu/files/*.gif
+Disallow: /sites/www.law.cornell.edu/files/*.jpg
+Disallow: /sites/www.law.cornell.edu/files/*.pdf
+Disallow: /sites/www.law.cornell.edu/files/*.ico
+Disallow: /sites/www.law.cornell.edu/files/private/
+Disallow: /sites/www.law.cornell.edu/files/color/
+Disallow: /sites/www.law.cornell.edu/files/ctools/
+Disallow: /sites/www.law.cornell.edu/files/imagecache/
+Disallow: /sites/www.law.cornell.edu/files/images/
+Disallow: /sites/www.law.cornell.edu/files/imce_images/
+Disallow: /sites/www.law.cornell.edu/files/liid/
+Disallow: /sites/www.law.cornell.edu/files/pictures/
+Disallow: /sites/www.law.cornell.edu/files/standalone/
+Disallow: /sites/www.law.cornell.edu/files/supremecourt/
+Disallow: /sites/www.law.cornell.edu/files/uploads/
+Disallow: /sites/www.law.cornell.edu/files/users/
+Disallow: /sites/www.law.cornell.edu/files/[user]/
+
+
+Disallow: /sites/example.sites.php
+Disallow: /README.txt
+Disallow: /node/
+Disallow: /taxonomy/term/
+Disallow: /*quicktabs_*
+Disallow: /*qt-*
+Disallow: /ajax/
+Disallow: /*/search/
+
+#####FROM /DRUPAL  NEED TO CONSOLIDATE
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/

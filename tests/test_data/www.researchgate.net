@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /connector/
+Disallow: /deref/
+Disallow: /plugins.
+Disallow: /firststeps.
+Disallow: /publicliterature.PublicLiterature.search.html
+Disallow: /amp/authorize
+Allow: /signup.SignUp.html
+Disallow: /signup.

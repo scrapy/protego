@@ -1,0 +1,59 @@
+Sitemap: https://www.autotrader.co.uk/sitemap-index.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: CrystalSemanticsBot
+Disallow: /
+
+User-agent: WeSEE:Ads/PageBot (http://www.wesee.com/bot/)
+Disallow: /
+
+User-agent: WeSEE:Ads/PictureBot (http://www.wesee.com/bot/)
+Disallow: /
+
+User-agent: *
+Disallow: /car-search
+Disallow: /featuredlistingad/advert
+Disallow: /new-cars/search
+Disallow: /new-cars/*lead*
+Disallow: /redirect
+Disallow: /cgi-bin
+Disallow: /quicksearch/form
+Disallow: /contextualUsedCars
+Disallow: /reserve
+Disallow: *write-a-review*/dealer-id*
+Disallow: /report-bad-advert
+Disallow: /partners
+Disallow: *advertorial*
+Disallow: /ect-preview
+Disallow: /home-editorial
+Disallow: /home-sell
+Disallow: /new-cars/derivative
+Disallow: /new-cars/generation
+Disallow: /secure*
+Disallow: /secure/minimal/register
+Disallow: /content/sponsored-content*
+Disallow: /dealer/contact/*
+Disallow: *write-an-open-review*
+Disallow: /van-search
+Disallow: /bike-search
+Disallow: /caravan-search
+Disallow: *?olaId=
+Disallow: *supplied-price-from
+Disallow: *advertising-location
+Disallow: *?region=
+Disallow: *?sort=
+Disallow: *?body-type=
+Disallow: *?year-from=
+Disallow: *?postcode=
+Disallow: *?county=
+Disallow: *?radius=
+Disallow: */owner-reviews/third-party-reviews*
+Disallow: /configure*
+Disallow: /classified*
+Disallow: /secure/signin*
+Disallow: /secure/register*

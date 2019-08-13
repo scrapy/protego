@@ -1,0 +1,6 @@
+# robots.txt 
+User-agent:*
+Disallow: 
+Allow: /*.css$
+Allow: /*.js$
+Sitemap: //www.agendaweb.org/sitemap.xml

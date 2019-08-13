@@ -1,0 +1,23 @@
+User-agent: *
+
+Disallow: /*facets=
+Disallow: /*sort=
+Disallow: /*colour=
+Disallow: /*size=
+Disallow: /search?query=
+Disallow: /*login
+Disallow: /webapp/wcs/stores/servlet/ShoppingBag?catalogId=
+Disallow: /webapp/wcs/stores/servlet/Checkout?catalogId=
+Disallow: /*account
+Disallow: /offers/
+Disallow: /just-landed-709561--1/
+Disallow: /women/
+Disallow: /men/
+Disallow: /beauty/
+Disallow: /kidsbaby/
+Disallow: /all-toys/
+Disallow: /home/
+Disallow: /electrical/
+Disallow: /gifts/
+Disallow: /*/all$
+Sitemap: https://www.myer.com.au/sitemap/sitemap_20251.xml.gz

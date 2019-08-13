@@ -1,0 +1,9 @@
+Host: store.steampowered.com
+User-Agent: *
+Disallow: /share/
+Disallow: /news/externalpost/
+Disallow: /account/emailoptout/?*token=
+Disallow: /login/?*guestpasskey=
+Disallow: /join/?*redir=
+Disallow: /account/ackgift/
+Disallow: /email/

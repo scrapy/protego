@@ -1,0 +1,38 @@
+User-agent: *
+Crawl-delay: 5
+Allow: /
+Disallow: /spaceinvideos/layout/set
+Disallow: /spaceinimages/layout/set
+Disallow: /esatv/layout/set
+Disallow: /layout/set
+Disallow: /ger/layout/set
+Disallow: /fre/layout/set
+Disallow: /dut/layout/set
+Disallow: /dan/layout/set
+Disallow: /esl/layout/set
+Disallow: /fin/layout/set
+Disallow: /ell/layout/set
+Disallow: /ita/layout/set
+Disallow: /nor/layout/set
+Disallow: /pol/layout/set
+Disallow: /por/layout/set
+Disallow: /cze/layout/set
+Disallow: /ron/layout/set
+Disallow: /swe/layout/set
+
+User-agent: YahooCacheSystem
+User-agent: Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)
+Crawl-delay: 20
+
+User-agent: YandexBot
+User-agent: YandexMedia
+User-agent: YandexImages
+User-agent: YandexCatalog
+User-agent: YaDirectFetcher
+User-agent: YandexBlogs
+User-agent: YandexNews
+User-agent: YandexPagechecker
+User-agent: YandexMetrika
+User-agent: YandexMarket
+User-agent: YandexCalendar
+Crawl-delay: 20

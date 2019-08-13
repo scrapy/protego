@@ -1,0 +1,41 @@
+Sitemap: https://dblp.uni-trier.de/sitemap.xml
+
+User-agent: *
+
+Crawl-delay: 1
+
+Disallow: //
+
+Disallow: /cgi-bin
+Disallow: /maps
+
+Allow:	  /db
+Disallow: /db/indices
+
+Allow:    /pers
+Disallow: /pers/hb
+Disallow: /pers/hg
+Disallow: /pers/hj
+Disallow: /pers/hk
+Disallow: /pers/hx
+Disallow: /pers/tb
+Disallow: /pers/te
+Disallow: /pers/tr
+Disallow: /pers/xr
+Disallow: /pers/xx
+Disallow: /pers/xs
+Disallow: /pers/xc
+Disallow: /pers/xk
+
+Allow:    /rec
+Disallow: /rec/bib
+Disallow: /rec/ris
+Disallow: /rec/nt
+Disallow: /rec/rdf
+Disallow: /rec/xml
+
+Disallow: /search
+Allow:    /search/$
+
+Disallow: /lookup
+Allow:    /lookup/$

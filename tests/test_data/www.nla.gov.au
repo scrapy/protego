@@ -1,0 +1,94 @@
+# Robots.txt for www.nla.gov.au
+
+User-agent: nutch4nlaweb
+Allow:	/apais/thesaurus/html
+Allow:	/apais/thesaurus/htmla
+Allow:	/apais/thesaurus/htmltop
+
+User-agent: *
+Allow:	/apps/oaicat
+Disallow:	/apps		# Site java apps servlets
+Disallow:	/servlet	# BAT java servlets
+Disallow:	/admin		# added for Lesley Bezear
+Disallow:	/cgi-bin
+Disallow:	/abn		# inactive site
+Disallow:	/aclis		# inactive site
+Disallow:	/apais/thesaurus/html
+Disallow:	/apais/thesaurus/htmla
+Disallow:	/apais/thesaurus/htmltop
+Disallow:	/css
+Disallow:	/download
+Disallow:	/ecommerce
+Disallow:	/ferguson
+Disallow:	/images
+Disallow:	/initiatives/sg/metadata.xls
+Disallow:	/jslib		# Javascript files
+Disallow:	/kinetica/rap	# Excluded as only retained for 6 months
+Disallow:	/linkscan
+Disallow:	/list-archives
+Disallow:	/manual
+Disallow: 	/nacq		# Exclude new acquisitions lists
+Disallow:	/newspapers-reading-rooms/
+Disallow:	/nla/pandora
+Disallow:	/nla/staffpaper/archive
+Disallow:	/nla/tutorial
+Disallow:	/nph-arch	# For PANDORA
+Disallow:	/parchive	# For PANDORA
+Disallow:	/pathways/jnls/austjnls
+Disallow:	/piview
+Disallow:	/policy/annrep01/textonly
+Disallow:	/publictest
+Disallow:	/recent
+Disallow:	/software
+Disallow:	/structuralmap
+Disallow:	/stylesheets
+Disallow:	/sys
+Disallow:	/temp
+Disallow:	/templates
+Disallow:	/test
+Disallow:	/unavail
+Disallow:	/users
+Disallow:       /wgroups
+Disallow:       /nla.oh/
+Disallow:       /amad3-server/
+Disallow:       /ess
+Disallow:       /librariesaustralia-test
+#
+# Drupal stuff
+#
+# Directories
+Disallow: /includes/
+Disallow: /profiles/
+Disallow: /scripts/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+User-agent: AGLS
+Meta: /harvest/aglsharvest.txt

@@ -1,0 +1,6 @@
+User-agent: *
+Sitemap: https://www.telekom.hu/static-la/sitemap.xml 
+Sitemap: https://www.telekom.hu/static-tr/sitemap.xml 
+Sitemap: https://www.telekom.hu/static-ut/sitemap.xml 
+Sitemap: https://www.telekom.hu/shop/sitemap/siteindex.xml
+Disallow: /kereses?
