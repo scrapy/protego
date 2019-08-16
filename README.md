@@ -1,7 +1,7 @@
 # Protego
 
 ![build-badge](https://img.shields.io/travis/scrapy/protego)
-## Overview
+## overview
 Protego is a pure-Python `robots.txt` parser with support for modern conventions.
 
 ## Requirements
