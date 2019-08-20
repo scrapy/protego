@@ -47,3 +47,5 @@ deploy:
     secure: "PS/TgqpU8Fgqymd9jSWBywH0qV5ftNUHgN3VPJJ+mIJ/H96z9EcWzWjlPJaS87//WrvgdK2IEi+AxGTI4VLX/YyXdQAFxxBbpK90WU8dG0CdYlO1IBpZ2zy03L8+Vl5a7ljWSsjjVzaft/C1aH4tZnqbZ/gD6bYGUYjh3BemqbCS5VyZXjaIl0t/n4oPoJi72oQ71x4gAr8d+juG8STt1BeoWpszRl5uo9z8DmBDdTOkwLfvzEuiVVTE96ajOtCeyPzvhrRGSAiAUETzHdv/iVRNc93alqOUDbuK0zNDwVd3rnXHQf84apzWJasWBSDW9sv1G5FTgXN8G3g9pkqVjmxRhNwLDkZsMjSTv/v/S7KxR/G3ANdPwKJ8JFaANh841k2WbqmQJZVeAqB7dpJaJjkLbwzxn0CTlL/zq68Xzdxx+HcvwH0G+Ni0UQoCFzyq1BK4EQu0k2EUam1qrewMQDMPz3tSTwdaMU+Vzv9UHz8KcW0/yP98nEhbvTaMZ90XW8Ps+HISiJvVv9hVidI407RMMWGkV73pLtoVTt28+k0orXT730ictpVT/xrbHWCIY0kz4vVHNG9GY+dODScF9lT2HajKLcwaQGr9sPoUBOzqzWvhxiI2WWL1sJVu/cKotgHL1YWpAUa07KURcMPalhhs+APxM51L7jwJR+GdLFk="
   on:
     tags: true
+    repo: scrapy/protego
+    condition: "$TOXENV == py27 && $TRAVIS_TAG =~ ^[0-9]+[.][0-9]+[.][0-9]+(rc[0-9]+|[.]dev[0-9]+)?$"
