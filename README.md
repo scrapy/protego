@@ -1,6 +1,7 @@
 # Protego
 
 ![build-badge](https://api.travis-ci.com/scrapy/protego.svg?branch=master)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 ## Overview
 Protego is a pure-Python `robots.txt` parser with support for modern conventions.
 
