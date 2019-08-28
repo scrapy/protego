@@ -2,50 +2,48 @@ language: python
 dist: trusty
 branches:
   only:
-    - master
-
+  - master
 matrix:
   include:
-    - python: 2.7
-      env: TOXENV=py27
-    - python: 3.5
-      env: TOXENV=py35
-    - python: 3.6
-      env: TOXENV=py36
-    - python: 3.7
-      env: TOXENV=py37
-      dist: xenial
-      sudo: true
-    - python: 2.7
-      env: TOXENV=pypy
-    - python: 2.7
-      env: TOXENV=pypy3
-
+  - python: 2.7
+    env: TOXENV=py27
+  - python: 3.5
+    env: TOXENV=py35
+  - python: 3.6
+    env: TOXENV=py36
+  - python: 3.7
+    env: TOXENV=py37
+    dist: xenial
+    sudo: true
+  - python: 2.7
+    env: TOXENV=pypy
+  - python: 2.7
+    env: TOXENV=pypy3
 install:
-  - |
-      if [ "$TOXENV" = "pypy" ]; then
-        export PYPY_VERSION="pypy-6.0.0-linux_x86_64-portable"
-        wget "https://bitbucket.org/squeaky/portable-pypy/downloads/${PYPY_VERSION}.tar.bz2"
-        tar -jxf ${PYPY_VERSION}.tar.bz2
-        virtualenv --python="$PYPY_VERSION/bin/pypy" "$HOME/virtualenvs/$PYPY_VERSION"
-        source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
-      fi
-      if [ "$TOXENV" = "pypy3" ]; then
-        export PYPY_VERSION="pypy3.5-5.9-beta-linux_x86_64-portable"
-        wget "https://bitbucket.org/squeaky/portable-pypy/downloads/${PYPY_VERSION}.tar.bz2"
-        tar -jxf ${PYPY_VERSION}.tar.bz2
-        virtualenv --python="$PYPY_VERSION/bin/pypy3" "$HOME/virtualenvs/$PYPY_VERSION"
-        source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
-      fi
-  - pip install -U tox
-
+- |
+  if [ "$TOXENV" = "pypy" ]; then
+    export PYPY_VERSION="pypy-6.0.0-linux_x86_64-portable"
+    wget "https://bitbucket.org/squeaky/portable-pypy/downloads/${PYPY_VERSION}.tar.bz2"
+    tar -jxf ${PYPY_VERSION}.tar.bz2
+    virtualenv --python="$PYPY_VERSION/bin/pypy" "$HOME/virtualenvs/$PYPY_VERSION"
+    source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
+  fi
+  if [ "$TOXENV" = "pypy3" ]; then
+    export PYPY_VERSION="pypy3.5-5.9-beta-linux_x86_64-portable"
+    wget "https://bitbucket.org/squeaky/portable-pypy/downloads/${PYPY_VERSION}.tar.bz2"
+    tar -jxf ${PYPY_VERSION}.tar.bz2
+    virtualenv --python="$PYPY_VERSION/bin/pypy3" "$HOME/virtualenvs/$PYPY_VERSION"
+    source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
+  fi
+- pip install -U tox
 script: tox
 deploy:
   provider: pypi
   user: anubhavp
-  password:   
-    secure: "PS/TgqpU8Fgqymd9jSWBywH0qV5ftNUHgN3VPJJ+mIJ/H96z9EcWzWjlPJaS87//WrvgdK2IEi+AxGTI4VLX/YyXdQAFxxBbpK90WU8dG0CdYlO1IBpZ2zy03L8+Vl5a7ljWSsjjVzaft/C1aH4tZnqbZ/gD6bYGUYjh3BemqbCS5VyZXjaIl0t/n4oPoJi72oQ71x4gAr8d+juG8STt1BeoWpszRl5uo9z8DmBDdTOkwLfvzEuiVVTE96ajOtCeyPzvhrRGSAiAUETzHdv/iVRNc93alqOUDbuK0zNDwVd3rnXHQf84apzWJasWBSDW9sv1G5FTgXN8G3g9pkqVjmxRhNwLDkZsMjSTv/v/S7KxR/G3ANdPwKJ8JFaANh841k2WbqmQJZVeAqB7dpJaJjkLbwzxn0CTlL/zq68Xzdxx+HcvwH0G+Ni0UQoCFzyq1BK4EQu0k2EUam1qrewMQDMPz3tSTwdaMU+Vzv9UHz8KcW0/yP98nEhbvTaMZ90XW8Ps+HISiJvVv9hVidI407RMMWGkV73pLtoVTt28+k0orXT730ictpVT/xrbHWCIY0kz4vVHNG9GY+dODScF9lT2HajKLcwaQGr9sPoUBOzqzWvhxiI2WWL1sJVu/cKotgHL1YWpAUa07KURcMPalhhs+APxM51L7jwJR+GdLFk="
+  password:
+    secure: gRhs/ZcSJsF5C1DodVf18SB2EkJeILEDKYOdIU094vicElfTYWnzBCugKHMu/9cwDW4feJWdkYu8cVr7Axba/bI1KfcjiYaImxU2/7zRjkIRo70iwmmq4wENIATQNVNSfivdu4fCzGPvgM0PFNDcJw4f6lqARvaHLs58g9EIdgB5zY7Cku2mw+ZVAOEW8NHK0nMe+nXSMdCt7y7MiQK0JPRo8/SjwG91G1Y9/4kgH3bhVnJ4WgdFr4xkjo6jNug/KZmD4x9V8URGRmNfcyfPm9vXR83kua5xSOKLV1FcR5LgTszMGk6gjyfuk6GsmPWifU69oWxqnhtis4jsOGPwiFEvp8z2AL1Ld9NB8AnicFy/wYdNIjo2FM0g9cGpwWob8WepDHpuER8qFQNFJNOqN3x27JmiRrL152zb+1iUJUG4XzFeP1Nk+3If+0HY4yoaf7GENrLhx30ILFqeuDk7pxglB2RtHwjw+XZe7Umy5t13L6x+Slq7DHlALXEF6KHEeb5IK7lOUbzRRRmOGp1TZWshrqrrXh/SjDKjnzSX+RA1KsKXqDwXdcKCbESLPauXHSfN/NaFVNZYe/JevfXNJo4fPx9FsVEm9714xsTgpQFF8QZB96mTk9LQu6Uiz0PvWubRrXLWl//tunlDluddXtBV0Elj6LYj+h0V94QCV+8=
   on:
     tags: true
     repo: scrapy/protego
     condition: "$TOXENV == py27 && $TRAVIS_TAG =~ ^[0-9]+[.][0-9]+[.][0-9]+(rc[0-9]+|[.]dev[0-9]+)?$"
+  
