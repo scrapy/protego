@@ -3,8 +3,8 @@ dist: trusty
 branches:
   only:
   - master
-  - /^\d\.\d+$/
-  - /^\d\.\d+\.\d+(rc\d+|\.dev\d+)?$/
+  - "/^\\d\\.\\d+$/"
+  - "/^\\d\\.\\d+\\.\\d+(rc\\d+|\\.dev\\d+)?$/"
 matrix:
   include:
   - python: 2.7
@@ -43,9 +43,8 @@ deploy:
   provider: pypi
   user: anubhavp
   password:
-    secure: DRvL9zPDHv8g8zkDN0aXL2cSM3/8lUwJ+N0MUX90ZWWXfjsnQDztCoE7FH7SpD0RBSUbZBFGClsWEX2XrWCBxKZM0Hx+x8PQ9N5TaHY71GAcY0fXM9PmIXtbVee8qsqm/VzfUOJrTZuGMO5i2KrtuJtBjXaIBMqhXdw7c+CWI1yw4FGEsNbIyThQSMp5RDnbOkLhVF+MflhhSmYRsmTgXmOH1KxJZl2MGJYRHuOQYYQlAhKs2dXdeGlSBSApBBh9nCgcH9asOW2Kixo71IiY8HIZAN7e3S1UJ4ENn1WxGKib7hrAapQx6LCNXLsTqSMuZ2rkXtELVWXWwSt2KzSgkKkUEQa1dlRjfuzKXCAVxYNJzzWFprhBJ9auXZYLkvGD30qhZ28uCw0Ov+zKZZZsKr9YVvEgmYa3ajYXQynte21hLRiMAem9lTLaRZPKL8W5Xjma5ItV4eXBCdRpgzV8n9ye2xV1FZXo+vAOZfdSg+9mB6SMfn7X6VTGYLPw8SzamVaa1b0Gv93nUtlxIiHmm4Cl6OMFF3leLLrwOeYWHrZ92vHmXAb3xWbXIYcHhe/UcMOndIH5lfsjCR3+8cdMFEetiQxSTCGJi02/lsQcysXkI1FpOfTSzCoTySNXpBvoKWPZ63MlOPqZTTXXN+7kJ2NcW0Q1QVY0nTn8dnBA6Hk=
+    secure: FSm+2GEwzgZH56FbNml782qGO7zznd/4MsaDe42lsxJ88TP+tdyXmiexJLnRrXoq+rYn9jyvj1s/2DbnB089HUV86dBL2uXNaLBZbeA1zU+eP2KTRooWa9VnUvOgoReyjx+jnRnIUzxXQbkQv8cBVvGoql69nWA8paBeEhYP6JcRL3tScOOO/i/evPCaImgmgEvI5BGDa3j1tSRub87uVmtLzbRFobyVl/SK8c6JB1/n3QRBAG0Ecqyevvh1v9kBTSTPwyyZUThwzP+0bA+94x728feM0Zms3XTARsM25r2qV+1YEnwx2L8AIEqezDCmJkFDBeoHPLb61LSmO50zpK1YqMkQXf4ZJDutWzBD62r37fQ8hVByTHPO6bxYZ6FbgRnYtB738NbbbZcNThLb466aTS6qpcVznGVSyOb8D0Yv3DXqwGzXgHZzyNQd7u9BpNl36cLORayQ3BL1DpiM8OBO2UuG9+PZeSdWW1V5m6+ChTvs7JeDb8kbLIBUZlG/IAxh4SqIwmTAYEDHIFLsKh3lu6K7lG7Mb2q6u5G23VlSpaflsK9pZ+ocRS35L7Kfm4w8k9uwk/pEeEo5M/JXfIvRgr7dUvMYxjkDR/ugdsGQgsarubVZtPGWsjngE7JdWPIlRHRYdl0qtqMBntx4w6QtbinpLrq5WgufUo0uG9E=
   on:
     tags: true
     repo: scrapy/protego
     condition: "$TOXENV == py27 && $TRAVIS_TAG =~ ^[0-9]+[.][0-9]+[.][0-9]+(rc[0-9]+|[.]dev[0-9]+)?$"
-  
