@@ -21,6 +21,22 @@ class TestProtego(TestCase):
         self.assertTrue(rp.can_fetch("https://www.site.local/abc/d", "*"))
         self.assertFalse(rp.can_fetch("https://www.site.local/disallowed", "*"))
 
+    def test_malformed_disallow(self):
+        content = ("User-agent: * \n"
+                   "Disallow: /one \n"
+                   "Dissallow: /two \n"
+                   "Dissalow: /three \n"
+                   "Disalow: /four \n"
+                   "Diasllow: /five \n"
+                   "Disallaw: /six \n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.can_fetch("https://www.site.local/one", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/two", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/three", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/four", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/five", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/six", "*"))
+
     def test_length_based_precedence(self):
         content = ("User-agent: * \n"
                    "Disallow: / \n"
