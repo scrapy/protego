@@ -1037,3 +1037,14 @@ class TestProtego(TestCase):
         self.assertFalse(rp.can_fetch("http://foo.bar/x*x/abc", "FooBot"))
         self.assertFalse(rp.can_fetch("http://foo.bar/x/abc$", "FooBot"))
         self.assertFalse(rp.can_fetch("http://foo.bar/x/abc%24", "FooBot"))
+
+    def test_absolute_url(self):
+        content = ("user-agent: *\n"
+                   "disallow: http://example.com/path1\n")
+        rp = Protego.parse(content=content)
+        self.assertFalse(rp.can_fetch("http://example.com/path1", "mybot"))
+        self.assertTrue(rp.can_fetch("http://example.com/path2", "mybot"))
+        self.assertTrue(rp.can_fetch("http://example.org/path1", "mybot"))
+        self.assertTrue(rp.can_fetch("https://example.com/path1", "mybot"))
+        self.assertFalse(rp.can_fetch("http://example.com/http://example.com/path1", "mybot"))
+        self.assertTrue(rp.can_fetch("http://example.com/http://example.com/path2", "mybot"))

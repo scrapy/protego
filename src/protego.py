@@ -28,6 +28,14 @@ _HEX_DIGITS = set('0123456789ABCDEFabcdef')
 __all__ = ['RequestRate', 'Protego']
 
 
+def _hexescape(char):
+    """Escape char as RFC 2396 specifies"""
+    hex_repr = hex(ord(char))[2:].upper()
+    if len(hex_repr) == 1:
+        hex_repr = "0%s" % hex_repr
+    return "%" + hex_repr
+
+
 def _is_valid_directive_field(field):
     return any([field in _DISALLOW_DIRECTIVE,
                 field in _ALLOW_DIRECTIVE,
@@ -38,12 +46,74 @@ def _is_valid_directive_field(field):
                 field in _HOST_DIRECTIVE])
 
 
+def _unquote(url, ignore='', errors='replace'):
+    """Replace %xy escapes by their single-character equivalent."""
+    if '%' not in url:
+        return url
+
+    def hex_to_byte(h):
+        """Replaces a %xx escape with equivalent binary sequence."""
+        if six.PY2:
+            return chr(int(h, 16))
+        return bytes.fromhex(h)
+
+    # ignore contains %xy escapes for characters that are not
+    # meant to be converted back.
+    ignore = {'{:02X}'.format(ord(c)) for c in ignore}
+
+    parts = url.split('%')
+    parts[0] = parts[0].encode('utf-8')
+
+    for i in range(1, len(parts)):
+        if len(parts[i]) >= 2:
+            # %xy is a valid escape only if x and y are hexadecimal digits.
+            if set(parts[i][:2]).issubset(_HEX_DIGITS):
+                # make sure that all %xy escapes are in uppercase.
+                hexcode = parts[i][:2].upper()
+                leftover = parts[i][2:]
+                if hexcode not in ignore:
+                    parts[i] = hex_to_byte(hexcode) + leftover.encode('utf-8')
+                    continue
+                else:
+                    parts[i] = hexcode + leftover
+
+        # add back the '%' we removed during splitting.
+        parts[i] = b'%' + parts[i].encode('utf-8')
+
+    return b''.join(parts).decode('utf-8', errors)
+
+
+def _urlparse_pattern(pattern):
+    """Returns a ``(scheme, netloc, pattern)`` given a URL pattern."""
+    # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
+    # Save the last character otherwise, urlparse will kill it.
+    last_char = ''
+    if pattern[-1] == '?' or pattern[-1] == ';' or pattern[-1] == '$':
+        last_char = pattern[-1]
+        pattern = pattern[:-1]
+    parts = urlparse(pattern)
+    pattern = _unquote(parts.path, ignore='/*$%')
+    # quote do not work with unicode strings in Python 2.7
+    if six.PY2:
+        pattern = quote(pattern.encode('utf-8'), safe='/*%')
+    else:
+        pattern = quote(pattern, safe='/*%')
+    scheme = parts.scheme
+    netloc = parts.netloc
+    parts = ParseResult('', '', pattern + last_char, parts.params, parts.query,
+                        parts.fragment)
+    pattern = urlunparse(parts)
+    return scheme, netloc, pattern
+
+
 class _URLPattern(object):
     """Internal class which represents a URL pattern."""
 
-    def __init__(self, pattern):
+    def __init__(self, pattern, scheme=None, netloc=None):
         self._pattern = pattern
-        self.priority = len(pattern)
+        self._scheme = scheme
+        self._netloc = netloc
+        self.priority = len(self._pattern)
         self._contains_asterisk = '*' in self._pattern
         self._contains_dollar = self._pattern.endswith('$')
 
@@ -57,24 +127,32 @@ class _URLPattern(object):
     def match(self, url):
         """Retun True if pattern matches the given URL, otherwise return False."""
         # check if pattern is already compiled
+        parts = urlparse(url)
+        if self._scheme and self._scheme != parts.scheme:
+            return False
+        if self._netloc and self._netloc != parts.netloc:
+            return False
+        parsed_remainder = ParseResult('', '', parts.path, parts.params,
+                                       parts.query, parts.fragment)
+        remainder = urlunparse(parsed_remainder)
         if self._pattern_compiled:
-            return self._pattern.match(url)
+            return self._pattern.match(remainder)
 
         if not self._contains_asterisk:
             if not self._contains_dollar:
                 # answer directly for patterns without wildcards
-                return url.startswith(self._pattern)
+                return remainder.startswith(self._pattern)
 
             # pattern only contains $ wildcard.
-            return url == self._pattern_before_dollar
+            return remainder == self._pattern_before_dollar
 
-        if not url.startswith(self._pattern_before_asterisk):
+        if not remainder.startswith(self._pattern_before_asterisk):
             return False
 
         self._pattern = self._prepare_pattern_for_regex(self._pattern)
         self._pattern = re.compile(self._pattern)
         self._pattern_compiled = True
-        return self._pattern.match(url)
+        return self._pattern.match(remainder)
 
     def _prepare_pattern_for_regex(self, pattern):
         """Return equivalent regex pattern for the given URL pattern."""
@@ -108,60 +186,18 @@ class _RuleSet(object):
             return len(self.user_agent)
         return 0
 
-    def _unquote(self, url, ignore='', errors='replace'):
-        """Replace %xy escapes by their single-character equivalent."""
-        if '%' not in url:
-            return url
-
-        def hex_to_byte(h):
-            """Replaces a %xx escape with equivalent binary sequence."""
-            if six.PY2:
-                return chr(int(h, 16))
-            return bytes.fromhex(h)
-
-        # ignore contains %xy escapes for characters that are not
-        # meant to be converted back.
-        ignore = {'{:02X}'.format(ord(c)) for c in ignore}
-
-        parts = url.split('%')
-        parts[0] = parts[0].encode('utf-8')
-
-        for i in range(1, len(parts)):
-            if len(parts[i]) >= 2:
-                # %xy is a valid escape only if x and y are hexadecimal digits.
-                if set(parts[i][:2]).issubset(_HEX_DIGITS):
-                    # make sure that all %xy escapes are in uppercase.
-                    hexcode = parts[i][:2].upper()
-                    leftover = parts[i][2:]
-                    if hexcode not in ignore:
-                        parts[i] = hex_to_byte(hexcode) + leftover.encode('utf-8')
-                        continue
-                    else:
-                        parts[i] = hexcode + leftover
-
-            # add back the '%' we removed during splitting.
-            parts[i] = b'%' + parts[i].encode('utf-8')
-
-        return b''.join(parts).decode('utf-8', errors)
-
-    def hexescape(self, char):
-        """Escape char as RFC 2396 specifies"""
-        hex_repr = hex(ord(char))[2:].upper()
-        if len(hex_repr) == 1:
-            hex_repr = "0%s" % hex_repr
-        return "%" + hex_repr
-
-    def _quote_path(self, path):
-        """Return percent encoded path."""
-        parts = urlparse(path)
-        path = self._unquote(parts.path, ignore='/%')
+    def _quote_url(self, url):
+        """Returns the URL with its path percent-encoded."""
+        parts = urlparse(url)
+        path = _unquote(parts.path, ignore='/%')
         # quote do not work with unicode strings in Python 2.7
         if six.PY2:
             path = quote(path.encode('utf-8'), safe='/%')
         else:
             path = quote(path, safe='/%')
 
-        parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
+        parts = ParseResult(parts.scheme, parts.netloc, path, parts.params,
+                            parts.query, parts.fragment)
         path = urlunparse(parts)
         return path
 
@@ -174,45 +210,52 @@ class _RuleSet(object):
             pattern = pattern[:-1]
 
         parts = urlparse(pattern)
-        pattern = self._unquote(parts.path, ignore='/*$%')
+        pattern = _unquote(parts.path, ignore='/*$%')
         # quote do not work with unicode strings in Python 2.7
         if six.PY2:
             pattern = quote(pattern.encode('utf-8'), safe='/*%')
         else:
             pattern = quote(pattern, safe='/*%')
 
-        parts = ParseResult('', '', pattern + last_char, parts.params, parts.query, parts.fragment)
+        parts = ParseResult(parts.scheme, parts.netloc, pattern + last_char,
+                            parts.params, parts.query, parts.fragment)
         pattern = urlunparse(parts)
         return pattern
 
+    def _add_pattern(self, field, pattern):
+        scheme, netloc, _pattern = _urlparse_pattern(pattern)
+        if scheme:
+            url_pattern = _URLPattern(_pattern, scheme, netloc)
+            self._rules.append(_Rule(field=field, value=url_pattern))
+            _, _, _pattern = _urlparse_pattern('http://example.com/' + pattern)
+        url_pattern = _URLPattern(_pattern)
+        self._rules.append(_Rule(field=field, value=url_pattern))
+
+    def _allow(self, pattern):
+        self._add_pattern('allow', pattern)
+
     def allow(self, pattern):
         if '$' in pattern:
-            self.allow(pattern.replace('$', self.hexescape('$')))
-
-        pattern = self._quote_pattern(pattern)
-        if not pattern:
-            return
-        self._rules.append(_Rule(field='allow', value=_URLPattern(pattern)))
-
+            self._allow(pattern.replace('$', _hexescape('$')))
+        self._allow(pattern)
         # If index.html is allowed, we interpret this as / being allowed too.
         if pattern.endswith('/index.html'):
-            self.allow(pattern[:-10] + '$')
+            self._allow(pattern[:-10] + '$')
+
+    def _disallow(self, pattern):
+        self._add_pattern('disallow', pattern)
 
     def disallow(self, pattern):
         if '$' in pattern:
-            self.disallow(pattern.replace('$', self.hexescape('$')))
-
-        pattern = self._quote_pattern(pattern)
-        if not pattern:
-            return
-        self._rules.append(_Rule(field='disallow', value=_URLPattern(pattern)))
+            self._disallow(pattern.replace('$', _hexescape('$')))
+        self._disallow(pattern)
 
     def finalize_rules(self):
         self._rules.sort(key=lambda r: (r.value.priority, r.field == 'allow'), reverse=True)
 
     def can_fetch(self, url):
         """Return if the url can be fetched."""
-        url = self._quote_path(url)
+        url = self._quote_url(url)
         allowed = True
         for rule in self._rules:
             if rule.value.match(url):
