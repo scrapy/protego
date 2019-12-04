@@ -13,6 +13,7 @@ Protego
 Protego is a pure-Python ``robots.txt`` parser with support for modern
 conventions.
 
+
 Install
 =======
 
@@ -74,6 +75,33 @@ True
 ['https://www.google.com/sitemap.xml']
 
 .. _Requests: https://3.python-requests.org/
+
+
+Comparison
+==========
+
+The following table compares Protego to the most popular ``robots.txt`` parsers
+implemented in Python or featuring Python bindings:
+
++----------------------------+---------+-----------------+--------+---------------------------+
+|                            | Protego | RobotFileParser | Reppy  | Robotexclusionrulesparser |
++============================+=========+=================+========+===========================+
+| Implementation language    | Python  | Python          | C++    | Python                    |
++----------------------------+---------+-----------------+--------+---------------------------+
+| Reference specification    | Google_ | `Martijn Koster’s 1996 draft`_                       |
++----------------------------+---------+-----------------+--------+---------------------------+
+| `Wildcard support`_        | ✓       |                 | ✓      | ✓                         |
++----------------------------+---------+-----------------+--------+---------------------------+
+| `Length-based precedence`_ | ✓       |                 | ✓      |                           |
++----------------------------+---------+-----------------+--------+---------------------------+
+| Performance_               |         | +40%            | +1300% | -25%                      |
++----------------------------+---------+-----------------+--------+---------------------------+
+
+.. _Google: https://developers.google.com/search/reference/robots_txt
+.. _Length-based precedence: https://developers.google.com/search/reference/robots_txt#order-of-precedence-for-group-member-lines
+.. _Martijn Koster’s 1996 draft: https://www.robotstxt.org/norobots-rfc.txt
+.. _Performance: https://anubhavp28.github.io/gsoc-weekly-checkin-12/
+.. _Wildcard support: https://developers.google.com/search/reference/robots_txt#url-matching-based-on-path-values
 
 
 API Reference
