@@ -4,7 +4,7 @@ from collections import namedtuple
 from datetime import time
 
 import six
-from six.moves.urllib.parse import (ParseResult, quote, unquote, urlparse,
+from six.moves.urllib.parse import (ParseResult, quote, urlparse,
                                     urlunparse)
 
 logger = logging.getLogger(__name__)
