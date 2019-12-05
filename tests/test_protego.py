@@ -349,33 +349,33 @@ class TestProtego(TestCase):
 
         content = """
         # robots.txt for http://www.example.com/
-        
+
         User-agent: Rule1TestBot
         Disallow:  /foo*
-        
+
         User-agent: Rule2TestBot
         Disallow:  /foo*/bar.html
-        
+
         # Disallows anything containing the letter m!
         User-agent: Rule3TestBot
         Disallow:  *m
-        
+
         User-agent: Rule4TestBot
         Allow:  /foo/bar.html
         Disallow: *
-        
+
         User-agent: Rule5TestBot
         Disallow:  /foo*/*bar.html
-        
+
         User-agent: Rule6TestBot
         Allow:  /foo$
         Disallow:  /foo
-        
+
         # Exercise excessive wildcards
         # https://bitbucket.org/philip_semanchuk/robotexclusionrulesparser/issues/1
         User-agent: Rule7TestBot
         Allow: *****************/****.js
-        
+
         """
         rp = Protego.parse(content=content)
 
@@ -466,13 +466,13 @@ class TestProtego(TestCase):
 
         content = u"""
         # robots.txt for http://www.example.com/
-        
+
         User-Agent: Jävla-Foobot
         Disallow: /
-        
+
         User-Agent: \u041b\u044c\u0432\u0456\u0432-bot
         Disallow: /totalitarianism/
-        
+
         """
         rp = Protego.parse(content=content)
 
@@ -808,10 +808,10 @@ class TestProtego(TestCase):
     def test_implicit_allow(self):
         content = """
         # robots.txt for http://www.example.com/
-        
+
         User-agent: *
         Disallow:    /
-        
+
         User-agent: foobot
         Disallow:
         """
@@ -856,7 +856,7 @@ class TestProtego(TestCase):
         robotstxt_incorrect_accepted = """
         user-agent foobot
         disallow /
-        user agent harry potter 
+        user agent harry potter
         disallow /horcrux
         request rate 1/10s 1820-1940
         """
@@ -1037,3 +1037,11 @@ class TestProtego(TestCase):
         self.assertFalse(rp.can_fetch("http://foo.bar/x*x/abc", "FooBot"))
         self.assertFalse(rp.can_fetch("http://foo.bar/x/abc$", "FooBot"))
         self.assertFalse(rp.can_fetch("http://foo.bar/x/abc%24", "FooBot"))
+
+    def test_with_absolute_urls(self):
+        content = ("user-agent: *\n"
+                   "disallow: http://ms-web00.walkerplus.com/\n")
+
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.can_fetch("http://foo.bar/", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://foo.bar/http://ms-web00.walkerplus.com/", "FooBot"))
