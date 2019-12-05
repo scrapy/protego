@@ -4,7 +4,7 @@ from collections import namedtuple
 from datetime import time
 
 import six
-from six.moves.urllib.parse import (ParseResult, quote, unquote, urlparse,
+from six.moves.urllib.parse import (ParseResult, quote, urlparse,
                                     urlunparse)
 
 logger = logging.getLogger(__name__)
@@ -36,6 +36,13 @@ def _is_valid_directive_field(field):
                 field in _CRAWL_DELAY_DIRECTIVE,
                 field in _REQUEST_RATE_DIRECTIVE,
                 field in _HOST_DIRECTIVE])
+
+
+def _enforce_path(pattern):
+    if pattern.startswith('/'):
+        return pattern
+
+    return '/' + pattern
 
 
 class _URLPattern(object):
@@ -386,11 +393,11 @@ class Protego(object):
 
             elif field in _ALLOW_DIRECTIVE:
                 for rule_set in current_rule_sets:
-                    rule_set.allow(value)
+                    rule_set.allow(_enforce_path(value))
 
             elif field in _DISALLOW_DIRECTIVE:
                 for rule_set in current_rule_sets:
-                    rule_set.disallow(value)
+                    rule_set.disallow(_enforce_path(value))
 
             elif field in _SITEMAP_DIRECTIVE:
                 self._sitemap_list.append(value)
