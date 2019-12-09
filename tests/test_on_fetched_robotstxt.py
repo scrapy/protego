@@ -6,7 +6,7 @@ import pytest
 from protego import Protego
 
 test_data_directory = join(dirname(abspath(__file__)), 'test_data')
-robotstxts = [(f) for f in listdir(test_data_directory) if isfile(join(test_data_directory, f))]
+robotstxts = [f for f in listdir(test_data_directory) if isfile(join(test_data_directory, f))]
 
 
 @pytest.mark.parametrize('path_to_robotstxt', robotstxts)
