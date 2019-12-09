@@ -822,12 +822,12 @@ class TestProtego(TestCase):
         self.assertFalse(rp.can_fetch("/blahblahblah", "SomeOtherBot"))
 
     def test_grouping_unknown_keys(self):
-        '''
+        """
         When we encounter unknown keys, we should disregard any grouping that may have
         happened between user agent rules.
         This is an example from the wild. `Invalid_directive` not being a valid directive,
         we'll not consider the '*' and 'ia_archiver' rules together.
-        '''
+        """
         content = """
         User-agent: abc
         Disallow: /content/2/
@@ -999,7 +999,7 @@ class TestProtego(TestCase):
         self.assertTrue(rp.can_fetch("http://foo.bar/x/y", "FooBot"))
 
     def test_nonterminal_dollar(self):
-        '''Non terminal dollar sign should be treated as an odinary character.'''
+        """Non terminal dollar sign should be treated as an odinary character."""
         content = ("user-agent: FooBot\n"
                    "disallow: /x$/abc\n"
                    "disallow: /y/abc$\n"
@@ -1016,7 +1016,7 @@ class TestProtego(TestCase):
         self.assertTrue(rp.can_fetch("http://foo.bar/yabcy/abcdef", "FooBot"))
 
     def test_escaped_special_symbols(self):
-        '''Percent encoded special symbols should be treated as ordinary characters.'''
+        """Percent encoded special symbols should be treated as ordinary characters."""
         content = ("user-agent: FooBot\n"
                    "disallow: /x/abc%24\n"
                    "disallow: /x%2Ax/abc\n")
@@ -1029,7 +1029,7 @@ class TestProtego(TestCase):
         self.assertTrue(rp.can_fetch("http://foo.bar/xabcx/abc", "FooBot"))
 
     def test_special_symbols_dual_behaviour(self):
-        '''Special symbols such as * and $, should also be treated as an ordinary character'''
+        """Special symbols such as * and $, should also be treated as an ordinary character"""
         content = ("user-agent: FooBot\n"
                    "disallow: /x/abc$\n"
                    "disallow: /x*x/abc\n")
