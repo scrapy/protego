@@ -14,7 +14,3 @@ dist/
 
 # test
 .tox/
-
-# ide
-.vscode/
-.idea/
