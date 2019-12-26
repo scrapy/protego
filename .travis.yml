@@ -37,8 +37,10 @@ install:
     virtualenv --python="$PYPY_VERSION/bin/pypy3" "$HOME/virtualenvs/$PYPY_VERSION"
     source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
   fi
-- pip install -U tox
+- pip install -U codecov tox
 script: tox
+after_success:
+  - codecov
 deploy:
   provider: pypi
   user: anubhavp
