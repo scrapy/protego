@@ -69,7 +69,6 @@ class TestUnquote(TestCase):
         result = _unquote(given)
         self.assertEqual(expect, result,
                          "using unquote(): %r != %r" % (expect, result))
-        expect = given.replace('+', ' ')
 
     def test_unquote_with_unicode(self):
         # Characters in the Latin-1 range, encoded with UTF-8
