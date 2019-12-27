@@ -4,3 +4,6 @@ comment:
 coverage:
   status:
     project: false
+
+fixes:
+  - "src/::"
