@@ -6,4 +6,4 @@ coverage:
     project: false
 
 fixes:
-  - "src/::"
+  - "::src/"
