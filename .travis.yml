@@ -37,12 +37,13 @@ install:
     virtualenv --python="$PYPY_VERSION/bin/pypy3" "$HOME/virtualenvs/$PYPY_VERSION"
     source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
   fi
-- pip install -U codecov tox
+- pip install -U codecov tox wheel
 script: tox
 after_success:
   - codecov
 deploy:
   provider: pypi
+  distributions: "sdist bdist_wheel"
   user: anubhavp
   password:
     secure: bLB4MZIg6EdY3BysDbjNysufrvV6YpUZt6hOCWJ23HEiqsAIatvMAG1u8rkSoPLiYWuWsgeO+E18eu88LKc0GUvnUJjE5PB5ggt03dv7zSRcfhIo5othmxb65cRbAknL3vwaN8xzz6o6yAfrg1fapVwcWFnMxJgolmoB0nC0BQcpiUxrE8L9m56r+luWT6LhhSiSZdthCzJwi7OUV5NSDgYzxz2whgYXkrD3XxdDQgohYqwAzlThwGca/DOncntXOudlinf+g6fcBvNJf2lCwFls5sNg90H8XWub7J/xmG8bfXRTN5efIbP4KGaZR41wJHAl+CjgPVGsyy+vshDAwpmQLiBmoR04c6TYLpMg8idit3GMiWGGgtJGfeerl8WNeuyxGEXUrP5VJgM+9MVdknt1gMQgRVXk2TVKeFhakumqOMUsTTjrO8jEM/CwoRZpdhLupxagBaziXqM2VAEcSQYgiQ39xIZFSgobTG2IpCTU3kCUJobSmAOADBZMtfbFH/lmL+q5GAzf6h60GGmVVo424hv0HgDKEOuNLGnpXKeu8yVeE/QwgDkXSokBeKjiHqZBI7WD0rdY50B6aSvM2Zoo1UdygsitURnMvibKwg3rPc1tH082ZL+1ICgxp180yt6aXQj6yfl/CCA09qaAjy6eeNWR9fh50rFVvrkTNbU=
