@@ -24,17 +24,21 @@ matrix:
 install:
 - |
   if [ "$TOXENV" = "pypy" ]; then
-    export PYTHON_VERSION="pypy-7.2.0"
+    export PYPY_MAJOR_VERSION="pypy-7.2.0"
     export PYPY_VERSION="pypy-7.2.0-linux_x86_64-portable"
+    wget "https://github.com/squeaky-pl/portable-pypy/releases/download/${PYPY_MAJOR_VERSION}/${PYPY_VERSION}.tar.bz2"
+    tar -jxf ${PYPY_VERSION}.tar.bz2
+    virtualenv --python="$PYPY_VERSION/bin/pypy" "$HOME/virtualenvs/$PYPY_VERSION"
+    source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
   fi
   if [ "$TOXENV" = "pypy3" ]; then
-    export PYTHON_VERSION="pypy3.6-7.2.0"
+    export PYPY_MAJOR_VERSION="pypy3.6-7.2.0"
     export PYPY_VERSION="pypy3.6-7.2.0-linux_x86_64-portable"
+    wget "https://github.com/squeaky-pl/portable-pypy/releases/download/${PYPY_MAJOR_VERSION}/${PYPY_VERSION}.tar.bz2"
+    tar -jxf ${PYPY_VERSION}.tar.bz2
+    virtualenv --python="$PYPY_VERSION/bin/pypy" "$HOME/virtualenvs/$PYPY_VERSION"
+    source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
   fi
-  wget "https://github.com/squeaky-pl/portable-pypy/releases/download/${PYPY_BRANCH}/${PYPY_VERSION}.tar.bz2"
-  tar -jxf ${PYPY_VERSION}.tar.bz2
-  virtualenv --python="$PYPY_VERSION/bin/pypy3" "$HOME/virtualenvs/$PYPY_VERSION"
-  source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
 - pip install -U codecov tox wheel
 script: tox
 after_success:
