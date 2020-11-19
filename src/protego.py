@@ -62,7 +62,7 @@ class _URLPattern(object):
         self._pattern_compiled = False
 
     def match(self, url):
-        """Retun True if pattern matches the given URL, otherwise return False."""
+        """Return True if pattern matches the given URL, otherwise return False."""
         # check if pattern is already compiled
         if self._pattern_compiled:
             return self._pattern.match(url)
