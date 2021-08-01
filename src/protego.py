@@ -360,7 +360,7 @@ class Protego(object):
                 continue
 
             # Ignore rules without a corresponding user agent.
-            if not current_rule_sets and field not in _USER_AGENT_DIRECTIVE:
+            if not current_rule_sets and field not in _USER_AGENT_DIRECTIVE and field not in _SITEMAP_DIRECTIVE:
                 logger.debug("Rule at line {} without any user agent to enforce it on.".format(self._total_line_seen))
                 continue
 

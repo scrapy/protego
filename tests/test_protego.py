@@ -1045,3 +1045,11 @@ class TestProtego(TestCase):
         rp = Protego.parse(content=content)
         self.assertTrue(rp.can_fetch("http://foo.bar/", "FooBot"))
         self.assertFalse(rp.can_fetch("http://foo.bar/http://ms-web00.walkerplus.com/", "FooBot"))
+
+    def test_sitemaps_come_first(self):
+        """Some websites have sitemaps before any robots directives"""
+        content = ("Sitemap: https://www.foo.bar/sitmap.xml\n"
+                   "User-Agent: FootBot\n"
+                   "Disallow: /something")
+        rp = Protego.parse(content=content)
+        self.assertEquals(list(rp.sitemaps), ["https://www.foo.bar/sitmap.xml"])
