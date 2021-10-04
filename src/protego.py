@@ -307,6 +307,8 @@ class Protego(object):
     @classmethod
     def parse(cls, content):
         o = cls()
+        if isinstance(content, bytes):
+            content = content.decode()
         o._parse_robotstxt(content)
         return o
 
