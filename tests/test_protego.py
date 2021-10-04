@@ -1053,3 +1053,9 @@ class TestProtego(TestCase):
                    "Disallow: /something")
         rp = Protego.parse(content=content)
         self.assertEquals(list(rp.sitemaps), ["https://www.foo.bar/sitmap.xml"])
+
+    def test_bytestrings(self):
+        content= b"User-Agent: FootBot\nDisallow: /something"    
+        with self.assertRaises(ValueError) as context:
+            Protego.parse(content=content)
+        self.assertTrue('cannot parse' in str(context.exception))
