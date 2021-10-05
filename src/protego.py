@@ -308,7 +308,7 @@ class Protego(object):
     def parse(cls, content):
         o = cls()
         if not isinstance(content, str):
-            raise ValueError("Not a string - cannot parse: {}".format(content))
+            raise ValueError(f"Protego.parse expects str, got {type(content).__name__}")
         o._parse_robotstxt(content)
         return o
 
