@@ -1058,4 +1058,4 @@ class TestProtego(TestCase):
         content= b"User-Agent: FootBot\nDisallow: /something"    
         with self.assertRaises(ValueError) as context:
             Protego.parse(content=content)
-        self.assertTrue('cannot parse' in str(context.exception))
+        self.assertTrue('Protego.parse expects str' in str(context.exception))
