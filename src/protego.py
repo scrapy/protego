@@ -170,7 +170,7 @@ class _RuleSet(object):
 
         parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
-        return path
+        return path or '/'
 
     def _quote_pattern(self, pattern):
         # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
