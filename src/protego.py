@@ -2,6 +2,7 @@ import logging
 import re
 from collections import namedtuple
 from datetime import time
+from operator import itemgetter
 
 import six
 from six.moves.urllib.parse import (ParseResult, quote, urlparse,
@@ -39,7 +40,7 @@ def _is_valid_directive_field(field):
 
 
 def _enforce_path(pattern):
-    if pattern.startswith('/'):
+    if pattern.startswith('/') or pattern.startswith("*"):
         return pattern
 
     return '/' + pattern
@@ -49,6 +50,7 @@ class _URLPattern(object):
     """Internal class which represents a URL pattern."""
 
     def __init__(self, pattern):
+        self._pattern_str = pattern  # pattern is overwritten with a regex object when compiled
         self._pattern = pattern
         self.priority = len(pattern)
         self._contains_asterisk = '*' in self._pattern
@@ -94,6 +96,9 @@ class _URLPattern(object):
                 s[index] = '.*?'
         pattern = ''.join(s)
         return pattern
+
+    def __len__(self):
+        return len(self._pattern_str)
 
 
 class _RuleSet(object):
@@ -221,11 +226,20 @@ class _RuleSet(object):
         """Return if the url can be fetched."""
         url = self._quote_path(url)
         allowed = True
+
+        # Implements selecting the applied rule by using the longest matched pattern
+        matches = []
         for rule in self._rules:
             if rule.value.match(url):
                 if rule.field == 'disallow':
-                    allowed = False
-                break
+                    matches.append((len(rule), False))
+                if rule.field == "allow":
+                    matches.append((len(rule), True))
+
+        if matches:
+            sorted_matches = sorted(matches, key=itemgetter(0), reverse=True)
+            return sorted_matches[0][1]
+
         return allowed
 
     @property

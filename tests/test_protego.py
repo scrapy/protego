@@ -1059,3 +1059,12 @@ class TestProtego(TestCase):
         rp = Protego.parse(content)
         self.assertFalse(rp.can_fetch("http://example.com/", "FooBot"))
         self.assertFalse(rp.can_fetch("http://example.com", "FooBot"))
+
+    def test_allow_disallow_conflict(self):
+        """Some website have a disallow rule and then an allow rule to certain urls"""
+        content = ("User-agent: *\n"
+                   "Disallow: /feed/\n"
+                   "Disallow: */feed/\n"
+                   "Allow: */feed/*/articles.xml")
+        rp = Protego.parse(content)
+        self.assertTrue(rp.can_fetch("https://foo.com/feed/googlesitemap/articles.xml", "FooBot"))
