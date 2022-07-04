@@ -6,9 +6,9 @@ Protego
    :target: https://pypi.python.org/pypi/protego
    :alt: Supported Python Versions
 
-.. image:: https://img.shields.io/travis/scrapy/protego/master.svg
-   :target: https://travis-ci.org/scrapy/protego
-   :alt: Build Status
+.. image:: https://github.com/scrapy/protego/workflows/CI/badge.svg
+   :target: https://github.com/scrapy/protego/actions?query=workflow%3ACI
+   :alt: CI
 
 Protego is a pure-Python ``robots.txt`` parser with support for modern
 conventions.

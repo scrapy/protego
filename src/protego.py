@@ -162,11 +162,7 @@ class _RuleSet(object):
         """Return percent encoded path."""
         parts = urlparse(path)
         path = self._unquote(parts.path, ignore='/%')
-        # quote do not work with unicode strings in Python 2.7
-        if six.PY2:
-            path = quote(path.encode('utf-8'), safe='/%')
-        else:
-            path = quote(path, safe='/%')
+        path = quote(path, safe='/%')
 
         parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
@@ -182,11 +178,7 @@ class _RuleSet(object):
 
         parts = urlparse(pattern)
         pattern = self._unquote(parts.path, ignore='/*$%')
-        # quote do not work with unicode strings in Python 2.7
-        if six.PY2:
-            pattern = quote(pattern.encode('utf-8'), safe='/*%')
-        else:
-            pattern = quote(pattern, safe='/*%')
+        pattern = quote(pattern, safe='/*%')
 
         parts = ParseResult('', '', pattern + last_char, parts.params, parts.query, parts.fragment)
         pattern = urlunparse(parts)
