@@ -8,9 +8,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - python-version: 3.6
-          env:
-            TOXENV: py36
         - python-version: 3.7
           env:
             TOXENV: py37
@@ -23,12 +20,16 @@ jobs:
         - python-version: "3.10"
           env:
             TOXENV: py310
-        
+
         # PyPY
         - python-version: pypy3
           env:
             TOXENV: pypy3
-            PYPY_VERSION: 3.6-v7.2.0
+            PYPY_VERSION: 3.7-v7.3.5
+        - python-version: pypy3
+          env:
+            TOXENV: pypy3
+            PYPY_VERSION: 3.9-v7.3.9
 
     steps:
     - uses: actions/checkout@v2
