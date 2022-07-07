@@ -1059,3 +1059,10 @@ class TestProtego(TestCase):
         rp = Protego.parse(content)
         self.assertFalse(rp.can_fetch("http://example.com/", "FooBot"))
         self.assertFalse(rp.can_fetch("http://example.com", "FooBot"))
+
+    def test_bytestrings(self):
+        content = b"User-Agent: FootBot\nDisallow: /something"
+        with self.assertRaises(ValueError) as context:
+            Protego.parse(content=content)
+
+        self.assertEqual("Protego.parse expects str, got bytes", str(context.exception))
