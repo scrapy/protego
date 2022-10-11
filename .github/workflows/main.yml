@@ -22,33 +22,24 @@ jobs:
             TOXENV: py310
 
         # PyPY
-        - python-version: pypy3
+        - python-version: pypy3.7
           env:
             TOXENV: pypy3
-            PYPY_VERSION: 3.7-v7.3.5
-        - python-version: pypy3
+        - python-version: pypy3.9
           env:
             TOXENV: pypy3
-            PYPY_VERSION: 3.9-v7.3.9
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
     - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
 
     - name: Run tests
       env: ${{ matrix.env }}
       run: |
-        if [[ ! -z "$PYPY_VERSION" ]]; then
-          export PYPY_VERSION="pypy$PYPY_VERSION-linux64"
-          wget "https://downloads.python.org/pypy/${PYPY_VERSION}.tar.bz2"
-          tar -jxf ${PYPY_VERSION}.tar.bz2
-          $PYPY_VERSION/bin/pypy3 -m venv "$HOME/virtualenvs/$PYPY_VERSION"
-          source "$HOME/virtualenvs/$PYPY_VERSION/bin/activate"
-        fi
         pip install -U tox
         tox
 
