@@ -3,9 +3,7 @@ import re
 from collections import namedtuple
 from datetime import time
 
-import six
-from six.moves.urllib.parse import (ParseResult, quote, urlparse,
-                                    urlunparse)
+from urllib.parse import ParseResult, quote, urlparse, urlunparse
 
 logger = logging.getLogger(__name__)
 
@@ -122,8 +120,6 @@ class _RuleSet(object):
 
         def hex_to_byte(h):
             """Replaces a %xx escape with equivalent binary sequence."""
-            if six.PY2:
-                return chr(int(h, 16))
             return bytes.fromhex(h)
 
         # ignore contains %xy escapes for characters that are not
