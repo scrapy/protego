@@ -36,13 +36,6 @@ def _is_valid_directive_field(field):
                 field in _HOST_DIRECTIVE])
 
 
-def _enforce_path(pattern):
-    if pattern.startswith('/'):
-        return pattern
-
-    return '/' + pattern
-
-
 class _URLPattern(object):
     """Internal class which represents a URL pattern."""
 
@@ -165,6 +158,9 @@ class _RuleSet(object):
         return path or '/'
 
     def _quote_pattern(self, pattern):
+        if pattern.startswith('https://') or pattern.startswith('http://'):
+            pattern = '/' + pattern
+
         # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
         # Save the last character otherwise, urlparse will kill it.
         last_char = ''
@@ -383,11 +379,11 @@ class Protego(object):
 
             elif field in _ALLOW_DIRECTIVE:
                 for rule_set in current_rule_sets:
-                    rule_set.allow(_enforce_path(value))
+                    rule_set.allow(value)
 
             elif field in _DISALLOW_DIRECTIVE:
                 for rule_set in current_rule_sets:
-                    rule_set.disallow(_enforce_path(value))
+                    rule_set.disallow(value)
 
             elif field in _SITEMAP_DIRECTIVE:
                 self._sitemap_list.append(value)

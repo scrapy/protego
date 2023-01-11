@@ -1,5 +1,6 @@
-# encoding=utf-8
 from unittest import TestCase
+
+import pytest
 
 from protego import Protego
 
@@ -1066,3 +1067,20 @@ class TestProtego(TestCase):
             Protego.parse(content=content)
 
         self.assertEqual("Protego.parse expects str, got bytes", str(context.exception))
+
+
+@pytest.mark.parametrize(
+    'allow,disallow,url,allowed',
+    [
+        ("*/p", "/", "http://example.com/page", True),
+        ("/page", "*/*.htm", "https://example.com/page.htm", False),
+    ]
+)
+def test_leading_asterisk(allow, disallow, url, allowed):
+    content = (
+        f"User-Agent: *\n"
+        f"allow: {allow}\n"
+        f"disallow: {disallow}\n"
+    )
+    rp = Protego.parse(content)
+    assert rp.can_fetch(url, '*') == allowed
