@@ -1052,7 +1052,7 @@ class TestProtego(TestCase):
                    "User-Agent: FootBot\n"
                    "Disallow: /something")
         rp = Protego.parse(content=content)
-        self.assertEquals(list(rp.sitemaps), ["https://www.foo.bar/sitmap.xml"])
+        self.assertEqual(list(rp.sitemaps), ["https://www.foo.bar/sitmap.xml"])
 
     def test_disallow_target_url_path_is_missing(self):
         content = "User-Agent: *\nDisallow: /\n"
