@@ -2,40 +2,51 @@ import logging
 import re
 from collections import namedtuple
 from datetime import time
-
 from urllib.parse import ParseResult, quote, urlparse, urlunparse
 
 logger = logging.getLogger(__name__)
 
-_Rule = namedtuple('Rule', ['field', 'value'])
+_Rule = namedtuple("Rule", ["field", "value"])
 RequestRate = namedtuple(
-    'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
-VisitTime = namedtuple('VisitTime', ['start_time', 'end_time'])
+    "RequestRate", ["requests", "seconds", "start_time", "end_time"]
+)
+VisitTime = namedtuple("VisitTime", ["start_time", "end_time"])
 
-_DISALLOW_DIRECTIVE = {'disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw'}
-_ALLOW_DIRECTIVE = {'allow'}
-_USER_AGENT_DIRECTIVE = {'user-agent', 'useragent', 'user agent'}
-_SITEMAP_DIRECTIVE = {'sitemap', 'sitemaps', 'site-map'}
-_CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
-_REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
-_VISIT_TIME_DIRECTIVE = {'visit-time', 'visit time'}
-_HOST_DIRECTIVE = {'host'}
+_DISALLOW_DIRECTIVE = {
+    "disallow",
+    "dissallow",
+    "dissalow",
+    "disalow",
+    "diasllow",
+    "disallaw",
+}
+_ALLOW_DIRECTIVE = {"allow"}
+_USER_AGENT_DIRECTIVE = {"user-agent", "useragent", "user agent"}
+_SITEMAP_DIRECTIVE = {"sitemap", "sitemaps", "site-map"}
+_CRAWL_DELAY_DIRECTIVE = {"crawl-delay", "crawl delay"}
+_REQUEST_RATE_DIRECTIVE = {"request-rate", "request rate"}
+_VISIT_TIME_DIRECTIVE = {"visit-time", "visit time"}
+_HOST_DIRECTIVE = {"host"}
 
-_WILDCARDS = {'*', '$'}
+_WILDCARDS = {"*", "$"}
 
-_HEX_DIGITS = set('0123456789ABCDEFabcdef')
+_HEX_DIGITS = set("0123456789ABCDEFabcdef")
 
-__all__ = ['RequestRate', 'Protego']
+__all__ = ["RequestRate", "Protego"]
 
 
 def _is_valid_directive_field(field):
-    return any([field in _DISALLOW_DIRECTIVE,
-                field in _ALLOW_DIRECTIVE,
-                field in _USER_AGENT_DIRECTIVE,
-                field in _SITEMAP_DIRECTIVE,
-                field in _CRAWL_DELAY_DIRECTIVE,
-                field in _REQUEST_RATE_DIRECTIVE,
-                field in _HOST_DIRECTIVE])
+    return any(
+        [
+            field in _DISALLOW_DIRECTIVE,
+            field in _ALLOW_DIRECTIVE,
+            field in _USER_AGENT_DIRECTIVE,
+            field in _SITEMAP_DIRECTIVE,
+            field in _CRAWL_DELAY_DIRECTIVE,
+            field in _REQUEST_RATE_DIRECTIVE,
+            field in _HOST_DIRECTIVE,
+        ]
+    )
 
 
 class _URLPattern(object):
@@ -44,11 +55,11 @@ class _URLPattern(object):
     def __init__(self, pattern):
         self._pattern = pattern
         self.priority = len(pattern)
-        self._contains_asterisk = '*' in self._pattern
-        self._contains_dollar = self._pattern.endswith('$')
+        self._contains_asterisk = "*" in self._pattern
+        self._contains_dollar = self._pattern.endswith("$")
 
         if self._contains_asterisk:
-            self._pattern_before_asterisk = self._pattern[:self._pattern.find('*')]
+            self._pattern_before_asterisk = self._pattern[: self._pattern.find("*")]
         elif self._contains_dollar:
             self._pattern_before_dollar = self._pattern[:-1]
 
@@ -78,14 +89,14 @@ class _URLPattern(object):
 
     def _prepare_pattern_for_regex(self, pattern):
         """Return equivalent regex pattern for the given URL pattern."""
-        pattern = re.sub(r'\*+', '*', pattern)
-        s = re.split(r'(\*|\$$)', pattern)
+        pattern = re.sub(r"\*+", "*", pattern)
+        s = re.split(r"(\*|\$$)", pattern)
         for index, substr in enumerate(s):
             if substr not in _WILDCARDS:
                 s[index] = re.escape(substr)
-            elif s[index] == '*':
-                s[index] = '.*?'
-        pattern = ''.join(s)
+            elif s[index] == "*":
+                s[index] = ".*?"
+        pattern = "".join(s)
         return pattern
 
 
@@ -103,15 +114,15 @@ class _RuleSet(object):
     def applies_to(self, robotname):
         """Return matching score."""
         robotname = robotname.strip().lower()
-        if self.user_agent == '*':
+        if self.user_agent == "*":
             return 1
         if self.user_agent in robotname:
             return len(self.user_agent)
         return 0
 
-    def _unquote(self, url, ignore='', errors='replace'):
+    def _unquote(self, url, ignore="", errors="replace"):
         """Replace %xy escapes by their single-character equivalent."""
-        if '%' not in url:
+        if "%" not in url:
             return url
 
         def hex_to_byte(h):
@@ -120,10 +131,10 @@ class _RuleSet(object):
 
         # ignore contains %xy escapes for characters that are not
         # meant to be converted back.
-        ignore = {'{:02X}'.format(ord(c)) for c in ignore}
+        ignore = {"{ord_c:02X}".format(ord_c=ord(c)) for c in ignore}
 
-        parts = url.split('%')
-        parts[0] = parts[0].encode('utf-8')
+        parts = url.split("%")
+        parts[0] = parts[0].encode("utf-8")
 
         for i in range(1, len(parts)):
             if len(parts[i]) >= 2:
@@ -133,15 +144,15 @@ class _RuleSet(object):
                     hexcode = parts[i][:2].upper()
                     leftover = parts[i][2:]
                     if hexcode not in ignore:
-                        parts[i] = hex_to_byte(hexcode) + leftover.encode('utf-8')
+                        parts[i] = hex_to_byte(hexcode) + leftover.encode("utf-8")
                         continue
                     else:
                         parts[i] = hexcode + leftover
 
             # add back the '%' we removed during splitting.
-            parts[i] = b'%' + parts[i].encode('utf-8')
+            parts[i] = b"%" + parts[i].encode("utf-8")
 
-        return b''.join(parts).decode('utf-8', errors)
+        return b"".join(parts).decode("utf-8", errors)
 
     def hexescape(self, char):
         """Escape char as RFC 2396 specifies"""
@@ -153,12 +164,12 @@ class _RuleSet(object):
     def _quote_path(self, path):
         """Return percent encoded path."""
         parts = urlparse(path)
-        path = self._unquote(parts.path, ignore='/%')
-        path = quote(path, safe='/%')
+        path = self._unquote(parts.path, ignore="/%")
+        path = quote(path, safe="/%")
 
-        parts = ParseResult('', '', path, parts.params, parts.query, parts.fragment)
+        parts = ParseResult("", "", path, parts.params, parts.query, parts.fragment)
         path = urlunparse(parts)
-        return path or '/'
+        return path or "/"
 
     def _quote_pattern(self, pattern):
         if pattern.startswith('https://') or pattern.startswith('http://'):
@@ -166,43 +177,47 @@ class _RuleSet(object):
 
         # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
         # Save the last character otherwise, urlparse will kill it.
-        last_char = ''
-        if pattern[-1] == '?' or pattern[-1] == ';' or pattern[-1] == '$':
+        last_char = ""
+        if pattern[-1] == "?" or pattern[-1] == ";" or pattern[-1] == "$":
             last_char = pattern[-1]
             pattern = pattern[:-1]
 
         parts = urlparse(pattern)
-        pattern = self._unquote(parts.path, ignore='/*$%')
-        pattern = quote(pattern, safe='/*%')
+        pattern = self._unquote(parts.path, ignore="/*$%")
+        pattern = quote(pattern, safe="/*%")
 
-        parts = ParseResult('', '', pattern + last_char, parts.params, parts.query, parts.fragment)
+        parts = ParseResult(
+            "", "", pattern + last_char, parts.params, parts.query, parts.fragment
+        )
         pattern = urlunparse(parts)
         return pattern
 
     def allow(self, pattern):
-        if '$' in pattern:
-            self.allow(pattern.replace('$', self.hexescape('$')))
+        if "$" in pattern:
+            self.allow(pattern.replace("$", self.hexescape("$")))
 
         pattern = self._quote_pattern(pattern)
         if not pattern:
             return
-        self._rules.append(_Rule(field='allow', value=_URLPattern(pattern)))
+        self._rules.append(_Rule(field="allow", value=_URLPattern(pattern)))
 
         # If index.html is allowed, we interpret this as / being allowed too.
-        if pattern.endswith('/index.html'):
-            self.allow(pattern[:-10] + '$')
+        if pattern.endswith("/index.html"):
+            self.allow(pattern[:-10] + "$")
 
     def disallow(self, pattern):
-        if '$' in pattern:
-            self.disallow(pattern.replace('$', self.hexescape('$')))
+        if "$" in pattern:
+            self.disallow(pattern.replace("$", self.hexescape("$")))
 
         pattern = self._quote_pattern(pattern)
         if not pattern:
             return
-        self._rules.append(_Rule(field='disallow', value=_URLPattern(pattern)))
+        self._rules.append(_Rule(field="disallow", value=_URLPattern(pattern)))
 
     def finalize_rules(self):
-        self._rules.sort(key=lambda r: (r.value.priority, r.field == 'allow'), reverse=True)
+        self._rules.sort(
+            key=lambda r: (r.value.priority, r.field == "allow"), reverse=True
+        )
 
     def can_fetch(self, url):
         """Return if the url can be fetched."""
@@ -210,7 +225,7 @@ class _RuleSet(object):
         allowed = True
         for rule in self._rules:
             if rule.value.match(url):
-                if rule.field == 'disallow':
+                if rule.field == "disallow":
                     allowed = False
                 break
         return allowed
@@ -226,8 +241,12 @@ class _RuleSet(object):
             delay = float(delay)
         except ValueError:
             # Value is malformed, do nothing.
-            logger.debug("Malformed rule at line {} : cannot set crawl delay to '{}'. "
-                         "Ignoring this rule.".format(self._parser_instance._total_line_seen, delay))
+            logger.debug(
+                "Malformed rule at line {line_seen} : cannot set crawl delay to '{delay}'. "
+                "Ignoring this rule.".format(
+                    line_seen=self._parser_instance._total_line_seen, delay=delay
+                )
+            )
             return
 
         self._crawl_delay = delay
@@ -244,17 +263,17 @@ class _RuleSet(object):
             if len(parts) == 2:
                 rate, time_period = parts
             else:
-                rate, time_period = parts[0], ''
+                rate, time_period = parts[0], ""
 
-            requests, seconds = rate.split('/')
+            requests, seconds = rate.split("/")
             time_unit = seconds[-1].lower()
             requests, seconds = int(requests), int(seconds[:-1])
 
-            if time_unit == 'm':
+            if time_unit == "m":
                 seconds *= 60
-            elif time_unit == 'h':
+            elif time_unit == "h":
                 seconds *= 3600
-            elif time_unit == 'd':
+            elif time_unit == "d":
                 seconds *= 86400
 
             start_time = None
@@ -263,14 +282,18 @@ class _RuleSet(object):
                 start_time, end_time = self._parse_time_period(time_period)
         except Exception:
             # Value is malformed, do nothing.
-            logger.debug("Malformed rule at line {} : cannot set request rate using '{}'. "
-                         "Ignoring this rule.".format(self._parser_instance._total_line_seen, value))
+            logger.debug(
+                "Malformed rule at line {line_seen} : cannot set request rate using '{value}'. "
+                "Ignoring this rule.".format(
+                    line_seen=self._parser_instance._total_line_seen, value=value
+                )
+            )
             return
 
         self._req_rate = RequestRate(requests, seconds, start_time, end_time)
 
-    def _parse_time_period(self, time_period, separator='-'):
-        """ Parse a string with a time period into a tuple of start and end times."""
+    def _parse_time_period(self, time_period, separator="-"):
+        """Parse a string with a time period into a tuple of start and end times."""
         start_time, end_time = time_period.split(separator)
         start_time = time(int(start_time[:2]), int(start_time[-2:]))
         end_time = time(int(end_time[:2]), int(end_time[-2:]))
@@ -284,15 +307,19 @@ class _RuleSet(object):
     @visit_time.setter
     def visit_time(self, value):
         try:
-            start_time, end_time = self._parse_time_period(value, separator=' ')
-        except Exception as e:
-            logger.debug("Malformed rule at line {} : cannot set visit time using '{}'. "
-                         "Ignoring this rule.".format(self._parser_instance._total_line_seen, value))
+            start_time, end_time = self._parse_time_period(value, separator=" ")
+        except Exception:
+            logger.debug(
+                "Malformed rule at line {line_seen} : cannot set visit time using '{value}'. "
+                "Ignoring this rule.".format(
+                    line_seen=self._parser_instance._total_line_seen, value=value
+                )
+            )
             return
         self._visit_time = VisitTime(start_time, end_time)
 
-class Protego(object):
 
+class Protego(object):
     def __init__(self):
         # A dict mapping user agents (specified in robots.txt) to rule sets.
         self._user_agents = {}
@@ -332,9 +359,9 @@ class Protego(object):
             self._total_line_seen += 1
 
             # Remove the comment portion of the line
-            hash_pos = line.find('#')
+            hash_pos = line.find("#")
             if hash_pos != -1:
-                line = line[0: hash_pos].strip()
+                line = line[0:hash_pos].strip()
 
             # Whitespace at the beginning and at the end of the line is ignored.
             line = line.strip()
@@ -342,20 +369,20 @@ class Protego(object):
                 continue
 
             # Format for a valid robots.txt rule is "<field>:<value>"
-            if line.find(':') != -1:
-                field, value = line.split(':', 1)
+            if line.find(":") != -1:
+                field, value = line.split(":", 1)
             else:
                 # We will be generous here and give it a second chance.
-                parts = line.split(' ')
+                parts = line.split(" ")
                 if len(parts) < 2:
                     continue
 
                 possible_filed = parts[0]
                 for i in range(1, len(parts)):
                     if _is_valid_directive_field(possible_filed):
-                        field, value = possible_filed, ' '.join(parts[i:])
+                        field, value = possible_filed, " ".join(parts[i:])
                         break
-                    possible_filed += ' ' + parts[i]
+                    possible_filed += " " + parts[i]
                 else:
                     continue
 
@@ -368,24 +395,36 @@ class Protego(object):
                 continue
 
             # Ignore rules without a corresponding user agent.
-            if not current_rule_sets and field not in _USER_AGENT_DIRECTIVE and field not in _SITEMAP_DIRECTIVE:
-                logger.debug("Rule at line {} without any user agent to enforce it on.".format(self._total_line_seen))
+            if (
+                not current_rule_sets
+                and field not in _USER_AGENT_DIRECTIVE
+                and field not in _SITEMAP_DIRECTIVE
+            ):
+                logger.debug(
+                    "Rule at line {line_seen} without any user agent to enforce it on.".format(
+                        line_seen=self._total_line_seen
+                    )
+                )
                 continue
 
             self._total_directive_seen += 1
 
             if field in _USER_AGENT_DIRECTIVE:
-                if previous_rule_field and previous_rule_field not in _USER_AGENT_DIRECTIVE:
+                if (
+                    previous_rule_field
+                    and previous_rule_field not in _USER_AGENT_DIRECTIVE
+                ):
                     current_rule_sets = []
 
                 # Wildcards are not supported in the user agent values.
                 # We will be generous here and remove all the wildcards.
                 user_agent = value.strip().lower()
                 user_agent_without_asterisk = None
-                if user_agent != '*' and '*' in user_agent:
-                    user_agent_without_asterisk = user_agent.replace('*', '')
+                if user_agent != "*" and "*" in user_agent:
+                    user_agent_without_asterisk = user_agent.replace("*", "")
 
-                for user_agent in [user_agent, user_agent_without_asterisk]:
+                user_agents = [user_agent, user_agent_without_asterisk]
+                for user_agent in user_agents:
                     if not user_agent:
                         continue
                     # See if this user agent is encountered before, if so merge these rules into it.
@@ -440,7 +479,9 @@ class Protego(object):
 
         if user_agent in self._matched_rule_set:
             return self._matched_rule_set[user_agent]
-        score_rule_set_pairs = ((rs.applies_to(user_agent), rs) for rs in self._user_agents.values())
+        score_rule_set_pairs = (
+            (rs.applies_to(user_agent), rs) for rs in self._user_agents.values()
+        )
         match_score, matched_rule_set = max(score_rule_set_pairs, key=lambda p: p[0])
 
         if not match_score:
