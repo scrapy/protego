@@ -1141,18 +1141,15 @@ class TestProtego(TestCase):
         self.assertEqual(start_time, time(5, 0))
         self.assertEqual(end_time, time(6, 0))
 
+
 @pytest.mark.parametrize(
-    'allow,disallow,url,allowed',
+    "allow,disallow,url,allowed",
     [
         ("*/p", "/", "http://example.com/page", True),
         ("/page", "*/*.htm", "https://example.com/page.htm", False),
-    ]
+    ],
 )
 def test_leading_asterisk(allow, disallow, url, allowed):
-    content = (
-        f"User-Agent: *\n"
-        f"allow: {allow}\n"
-        f"disallow: {disallow}\n"
-    )
+    content = f"User-Agent: *\n" f"allow: {allow}\n" f"disallow: {disallow}\n"
     rp = Protego.parse(content)
-    assert rp.can_fetch(url, '*') == allowed
+    assert rp.can_fetch(url, "*") == allowed

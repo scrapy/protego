@@ -172,8 +172,8 @@ class _RuleSet(object):
         return path or "/"
 
     def _quote_pattern(self, pattern):
-        if pattern.startswith('https://') or pattern.startswith('http://'):
-            pattern = '/' + pattern
+        if pattern.startswith("https://") or pattern.startswith("http://"):
+            pattern = "/" + pattern
 
         # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
         # Save the last character otherwise, urlparse will kill it.
