@@ -133,3 +133,7 @@ Methods
 *   ``request_rate(user_agent)`` Return the request rate specified for the user
     agent as a named tuple ``RequestRate(requests, seconds, start_time,
     end_time)``. If nothing is specified, return ``None``.
+
+*   ``visit_time(user_agent)`` Return the visit time specified for the user 
+    agent as a named tuple ``VisitTime(start_time, end_time)``. 
+    If nothing is specified, return ``None``.
