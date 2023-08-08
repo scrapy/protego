@@ -10,6 +10,7 @@ logger = logging.getLogger(__name__)
 _Rule = namedtuple('Rule', ['field', 'value'])
 RequestRate = namedtuple(
     'RequestRate', ['requests', 'seconds', 'start_time', 'end_time'])
+VisitTime = namedtuple('VisitTime', ['start_time', 'end_time'])
 
 _DISALLOW_DIRECTIVE = {'disallow', 'dissallow', 'dissalow', 'disalow', 'diasllow', 'disallaw'}
 _ALLOW_DIRECTIVE = {'allow'}
@@ -17,6 +18,7 @@ _USER_AGENT_DIRECTIVE = {'user-agent', 'useragent', 'user agent'}
 _SITEMAP_DIRECTIVE = {'sitemap', 'sitemaps', 'site-map'}
 _CRAWL_DELAY_DIRECTIVE = {'crawl-delay', 'crawl delay'}
 _REQUEST_RATE_DIRECTIVE = {'request-rate', 'request rate'}
+_VISIT_TIME_DIRECTIVE = {'visit-time', 'visit time'}
 _HOST_DIRECTIVE = {'host'}
 
 _WILDCARDS = {'*', '$'}
@@ -95,6 +97,7 @@ class _RuleSet(object):
         self._rules = []
         self._crawl_delay = None
         self._req_rate = None
+        self._visit_time = None
         self._parser_instance = parser_instance
 
     def applies_to(self, robotname):
@@ -257,9 +260,7 @@ class _RuleSet(object):
             start_time = None
             end_time = None
             if time_period:
-                start_time, end_time = time_period.split('-')
-                start_time = time(int(start_time[:2]), int(start_time[-2:]))
-                end_time = time(int(end_time[:2]), int(end_time[-2:]))
+                start_time, end_time = self._parse_time_period(time_period)
         except Exception:
             # Value is malformed, do nothing.
             logger.debug("Malformed rule at line {} : cannot set request rate using '{}'. "
@@ -268,6 +269,27 @@ class _RuleSet(object):
 
         self._req_rate = RequestRate(requests, seconds, start_time, end_time)
 
+    def _parse_time_period(self, time_period, separator='-'):
+        """ Parse a string with a time period into a tuple of start and end times."""
+        start_time, end_time = time_period.split(separator)
+        start_time = time(int(start_time[:2]), int(start_time[-2:]))
+        end_time = time(int(end_time[:2]), int(end_time[-2:]))
+        return start_time, end_time
+
+    @property
+    def visit_time(self):
+        """Get & set visit time for the rule set."""
+        return self._visit_time
+
+    @visit_time.setter
+    def visit_time(self, value):
+        try:
+            start_time, end_time = self._parse_time_period(value, separator=' ')
+        except Exception as e:
+            logger.debug("Malformed rule at line {} : cannot set visit time using '{}'. "
+                         "Ignoring this rule.".format(self._parser_instance._total_line_seen, value))
+            return
+        self._visit_time = VisitTime(start_time, end_time)
 
 class Protego(object):
 
@@ -399,6 +421,10 @@ class Protego(object):
             elif field in _HOST_DIRECTIVE:
                 self._host = value
 
+            elif field in _VISIT_TIME_DIRECTIVE:
+                for rule_set in current_rule_sets:
+                    rule_set.visit_time = value
+
             else:
                 self._invalid_directive_seen += 1
 
@@ -448,6 +474,15 @@ class Protego(object):
         if not matched_rule_set:
             return None
         return matched_rule_set.request_rate
+
+    def visit_time(self, user_agent):
+        """Return the visit time specified for the user agent as a named tuple
+        VisitTime(start_time, end_time). If nothing is specified, return None.
+        """
+        matched_rule_set = self._get_matching_rule_set(user_agent)
+        if not matched_rule_set:
+            return None
+        return matched_rule_set.visit_time
 
     @property
     def sitemaps(self):

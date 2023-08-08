@@ -1,8 +1,9 @@
+from datetime import time
 from unittest import TestCase
 
 import pytest
 
-from protego import Protego
+from protego import Protego, _RuleSet
 
 
 class TestProtego(TestCase):
@@ -1053,7 +1054,7 @@ class TestProtego(TestCase):
                    "User-Agent: FootBot\n"
                    "Disallow: /something")
         rp = Protego.parse(content=content)
-        self.assertEquals(list(rp.sitemaps), ["https://www.foo.bar/sitmap.xml"])
+        self.assertEqual(list(rp.sitemaps), ["https://www.foo.bar/sitmap.xml"])
 
     def test_disallow_target_url_path_is_missing(self):
         content = "User-Agent: *\nDisallow: /\n"
@@ -1068,6 +1069,24 @@ class TestProtego(TestCase):
 
         self.assertEqual("Protego.parse expects str, got bytes", str(context.exception))
 
+    def test_visit_time(self):
+        """Some website specified allow time for crawling in UTC"""
+        content = "User-Agent: *\nVisit-time: 0200 0630\nUser-Agent: NoTime"
+        rp = Protego.parse(content)
+        visit_time = rp.visit_time('FooBoot')
+        self.assertEqual(visit_time.start_time, time(2,0))
+        self.assertEqual(visit_time.end_time, time(6, 30))
+        self.assertIsNone(rp.visit_time('NoTime'))
+
+    def test_parse_time_period(self):
+        rs = _RuleSet(None)
+        start_time, end_time = rs._parse_time_period('0100-1000')
+        self.assertEqual(start_time, time(1, 0))
+        self.assertEqual(end_time, time(10, 0))
+
+        start_time, end_time = rs._parse_time_period('0500 0600', separator=' ')
+        self.assertEqual(start_time, time(5, 0))
+        self.assertEqual(end_time, time(6, 0))
 
 @pytest.mark.parametrize(
     'allow,disallow,url,allowed',
