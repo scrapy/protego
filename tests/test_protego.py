@@ -1,6 +1,7 @@
-# encoding=utf-8
 from datetime import time
 from unittest import TestCase
+
+import pytest
 
 from protego import Protego, _RuleSet
 
@@ -1139,3 +1140,16 @@ class TestProtego(TestCase):
         start_time, end_time = rs._parse_time_period("0500 0600", separator=" ")
         self.assertEqual(start_time, time(5, 0))
         self.assertEqual(end_time, time(6, 0))
+
+
+@pytest.mark.parametrize(
+    "allow,disallow,url,allowed",
+    [
+        ("*/p", "/", "http://example.com/page", True),
+        ("/page", "*/*.htm", "https://example.com/page.htm", False),
+    ],
+)
+def test_leading_asterisk(allow, disallow, url, allowed):
+    content = f"User-Agent: *\n" f"allow: {allow}\n" f"disallow: {disallow}\n"
+    rp = Protego.parse(content)
+    assert rp.can_fetch(url, "*") == allowed
