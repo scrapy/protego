@@ -138,7 +138,7 @@ class _RuleSet(object):
 
         # ignore contains %xy escapes for characters that are not
         # meant to be converted back.
-        ignore = {"{:02X}".format(ord(c)) for c in ignore}
+        ignore = {"{ord_c:02X}".format(ord_c=ord(c)) for c in ignore}
 
         parts = url.split("%")
         parts[0] = parts[0].encode("utf-8")
@@ -246,9 +246,9 @@ class _RuleSet(object):
         except ValueError:
             # Value is malformed, do nothing.
             logger.debug(
-                "Malformed rule at line {} : cannot set crawl delay to '{}'. "
+                "Malformed rule at line {line_seen} : cannot set crawl delay to '{delay}'. "
                 "Ignoring this rule.".format(
-                    self._parser_instance._total_line_seen, delay
+                    line_seen=self._parser_instance._total_line_seen, delay=delay
                 )
             )
             return
@@ -287,9 +287,9 @@ class _RuleSet(object):
         except Exception:
             # Value is malformed, do nothing.
             logger.debug(
-                "Malformed rule at line {} : cannot set request rate using '{}'. "
+                "Malformed rule at line {line_seen} : cannot set request rate using '{value}'. "
                 "Ignoring this rule.".format(
-                    self._parser_instance._total_line_seen, value
+                    line_seen=self._parser_instance._total_line_seen, value=value
                 )
             )
             return
@@ -312,11 +312,11 @@ class _RuleSet(object):
     def visit_time(self, value):
         try:
             start_time, end_time = self._parse_time_period(value, separator=" ")
-        except Exception as e:
+        except Exception:
             logger.debug(
-                "Malformed rule at line {} : cannot set visit time using '{}'. "
+                "Malformed rule at line {line_seen} : cannot set visit time using '{value}'. "
                 "Ignoring this rule.".format(
-                    self._parser_instance._total_line_seen, value
+                    line_seen=self._parser_instance._total_line_seen, value=value
                 )
             )
             return
@@ -405,8 +405,8 @@ class Protego(object):
                 and field not in _SITEMAP_DIRECTIVE
             ):
                 logger.debug(
-                    "Rule at line {} without any user agent to enforce it on.".format(
-                        self._total_line_seen
+                    "Rule at line {line_seen} without any user agent to enforce it on.".format(
+                        line_seen=self._total_line_seen
                     )
                 )
                 continue
@@ -427,7 +427,8 @@ class Protego(object):
                 if user_agent != "*" and "*" in user_agent:
                     user_agent_without_asterisk = user_agent.replace("*", "")
 
-                for user_agent in [user_agent, user_agent_without_asterisk]:
+                user_agents = [user_agent, user_agent_without_asterisk]
+                for user_agent in user_agents:
                     if not user_agent:
                         continue
                     # See if this user agent is encountered before, if so merge these rules into it.

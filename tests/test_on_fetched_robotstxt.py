@@ -22,6 +22,8 @@ def test_no_exceptions(path_to_robotstxt):
                 return
             Protego.parse(content=content)
     except Exception as e:
-        assert False, "{}. Exception raised while parsing {}".format(
-            e, join(path_to_robotstxt, "robots.txt")
+        raise AssertionError(
+            "{error}. Exception raised while parsing {robots}".format(
+                error=e, robots=join(path_to_robotstxt, "robots.txt")
+            )
         )

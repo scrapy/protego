@@ -92,9 +92,9 @@ def test_user_agent_precedence(path, user_agent):
 def test_path_matching(pattern, path, match):
     content = """
     User-Agent: *
-    disallow: {}
+    disallow: {pattern}
     """.format(
-        pattern
+        pattern=pattern
     )
     rp = Protego.parse(content)
     assert (not rp.can_fetch(path, "*")) == match
@@ -112,9 +112,9 @@ def test_path_matching(pattern, path, match):
 def test_record_precedence(rules, url, allowed):
     content = """
     User-Agent: *
-    {}
+    {rules}
     """.format(
-        rules
+        rules=rules
     )
     rp = Protego.parse(content)
     assert rp.can_fetch(url, "*") == allowed

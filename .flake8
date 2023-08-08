@@ -10,3 +10,6 @@ ignore =
 
     # Refers to "Unnecessary dict call - rewrite as a literal".
     C408
+per-file-ignores =
+    # Ignore: "Found for loop that reassigns the iterable it is iterating with each iterable value"
+    src/protego.py:430:21:B020
