@@ -1066,3 +1066,14 @@ class TestProtego(TestCase):
             Protego.parse(content=content)
 
         self.assertEqual("Protego.parse expects str, got bytes", str(context.exception))
+
+    def test_visit_time(self):
+        """Some website specified allow time for crawling in UTC"""
+        content = "User-Agent: *\nVisit-time: 0200 0630\nUser-Agent: NoTime"
+        rp = Protego.parse(content)
+        visit_time = rp.visit_time('FooBoot')
+        self.assertEqual(visit_time.start_time.hour, 2)
+        self.assertEqual(visit_time.start_time.minute, 0)
+        self.assertEqual(visit_time.end_time.hour, 6)
+        self.assertEqual(visit_time.end_time.minute, 30)
+        self.assertIsNone(rp.visit_time('NoTime'))
