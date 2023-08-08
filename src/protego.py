@@ -416,6 +416,7 @@ class Protego(object):
         if not self._user_agents:
             return None
 
+        user_agent = user_agent.lower()
         if user_agent in self._matched_rule_set:
             return self._matched_rule_set[user_agent]
         score_rule_set_pairs = ((rs.applies_to(user_agent), rs) for rs in self._user_agents.values())
