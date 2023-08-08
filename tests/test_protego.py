@@ -1,7 +1,8 @@
 # encoding=utf-8
+from datetime import time
 from unittest import TestCase
 
-from protego import Protego
+from protego import Protego, _RuleSet
 
 
 class TestProtego(TestCase):
@@ -1072,8 +1073,16 @@ class TestProtego(TestCase):
         content = "User-Agent: *\nVisit-time: 0200 0630\nUser-Agent: NoTime"
         rp = Protego.parse(content)
         visit_time = rp.visit_time('FooBoot')
-        self.assertEqual(visit_time.start_time.hour, 2)
-        self.assertEqual(visit_time.start_time.minute, 0)
-        self.assertEqual(visit_time.end_time.hour, 6)
-        self.assertEqual(visit_time.end_time.minute, 30)
+        self.assertEqual(visit_time.start_time, time(2,0))
+        self.assertEqual(visit_time.end_time, time(6, 30))
         self.assertIsNone(rp.visit_time('NoTime'))
+
+    def test_parse_time_period(self):
+        rs = _RuleSet(None)
+        start_time, end_time = rs._parse_time_period('0100-1000')
+        self.assertEqual(start_time, time(1, 0))
+        self.assertEqual(end_time, time(10, 0))
+
+        start_time, end_time = rs._parse_time_period('0500 0600', separator=' ')
+        self.assertEqual(start_time, time(5, 0))
+        self.assertEqual(end_time, time(6, 0))
