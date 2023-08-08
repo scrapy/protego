@@ -5,19 +5,23 @@ import pytest
 
 from protego import Protego
 
-test_data_directory = join(dirname(abspath(__file__)), 'test_data')
-robotstxts = [f for f in listdir(test_data_directory) if isfile(join(test_data_directory, f))]
+test_data_directory = join(dirname(abspath(__file__)), "test_data")
+robotstxts = [
+    f for f in listdir(test_data_directory) if isfile(join(test_data_directory, f))
+]
 
 
-@pytest.mark.parametrize('path_to_robotstxt', robotstxts)
+@pytest.mark.parametrize("path_to_robotstxt", robotstxts)
 def test_no_exceptions(path_to_robotstxt):
     try:
-        with open(join(test_data_directory, path_to_robotstxt), 'rb') as f:
+        with open(join(test_data_directory, path_to_robotstxt), "rb") as f:
             try:
-                content = f.read().decode('utf-8')
+                content = f.read().decode("utf-8")
             except UnicodeDecodeError:
                 # Downloaded robots.txt is malformed, ignore this
                 return
             Protego.parse(content=content)
     except Exception as e:
-        assert False, "{}. Exception raised while parsing {}".format(e, join(path_to_robotstxt, 'robots.txt'))
+        assert False, "{}. Exception raised while parsing {}".format(
+            e, join(path_to_robotstxt, "robots.txt")
+        )
