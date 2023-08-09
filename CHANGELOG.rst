@@ -2,8 +2,8 @@
 Protego changelog
 =================
 
-0.3.0 (to be released)
-======================
+0.3.0 (2023-08-09)
+==================
 
 -   Changed requirements:
 
