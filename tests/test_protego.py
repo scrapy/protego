@@ -1141,6 +1141,16 @@ class TestProtego(TestCase):
         self.assertEqual(start_time, time(5, 0))
         self.assertEqual(end_time, time(6, 0))
 
+    def test_disallow_query_wildcard(self):
+        content = (
+            "User-agent: * \n"
+            "Disallow: /*s="
+        )
+        rp = Protego.parse(content=content)
+        self.assertTrue(rp.can_fetch("https://www.site.local/", "*"))
+        self.assertTrue(rp.can_fetch("https://www.site.local/s/", "*"))
+        self.assertFalse(rp.can_fetch("https://www.site.local/?s=asd", "*"))
+
 
 @pytest.mark.parametrize(
     "allow,disallow,url,allowed",
