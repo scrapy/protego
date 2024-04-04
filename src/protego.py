@@ -184,7 +184,7 @@ class _RuleSet(object):
 
         parts = urlparse(pattern)
         pattern = self._unquote(parts.path, ignore="/*$%")
-        pattern = quote(pattern, safe="/*%")
+        pattern = quote(pattern, safe="/*%=")
 
         parts = ParseResult(
             "", "", pattern + last_char, parts.params, parts.query, parts.fragment
