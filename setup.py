@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="Protego",
-    version="0.3.0",
+    version="0.3.1",
     description="Pure-Python robots.txt parser with support for modern conventions",
     long_description=open("README.rst").read(),
     long_description_content_type="text/x-rst",
