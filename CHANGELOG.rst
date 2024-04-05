@@ -2,6 +2,15 @@
 Protego changelog
 =================
 
+0.3.1 (unreleased)
+==================
+
+-   Added official support for Python 3.12.
+
+-   ``=`` is no longer percent-encoded in patterns, fixing many scenarios where
+    patterns included query strings.
+
+
 0.3.0 (2023-08-09)
 ==================
 
