@@ -27,52 +27,57 @@ To install Protego, simply use pip:
 Usage
 =====
 
->>> from protego import Protego
->>> robotstxt = """
-... User-agent: *
-... Disallow: /
-... Allow: /about
-... Allow: /account
-... Disallow: /account/contact$
-... Disallow: /account/*/profile
-... Crawl-delay: 4
-... Request-rate: 10/1m                 # 10 requests every 1 minute
-... 
-... Sitemap: http://example.com/sitemap-index.xml
-... Host: http://example.co.in
-... """
->>> rp = Protego.parse(robotstxt)
->>> rp.can_fetch("http://example.com/profiles", "mybot")
-False
->>> rp.can_fetch("http://example.com/about", "mybot")
-True
->>> rp.can_fetch("http://example.com/account", "mybot")
-True
->>> rp.can_fetch("http://example.com/account/myuser/profile", "mybot")
-False
->>> rp.can_fetch("http://example.com/account/contact", "mybot")
-False
->>> rp.crawl_delay("mybot")
-4.0
->>> rp.request_rate("mybot")
-RequestRate(requests=10, seconds=60, start_time=None, end_time=None)
->>> list(rp.sitemaps)
-['http://example.com/sitemap-index.xml']
->>> rp.preferred_host
-'http://example.co.in'
+.. code-block:: none
+
+   >>> from protego import Protego
+   >>> robotstxt = """
+   ... User-agent: *
+   ... Disallow: /
+   ... Allow: /about
+   ... Allow: /account
+   ... Disallow: /account/contact$
+   ... Disallow: /account/*/profile
+   ... Crawl-delay: 4
+   ... Request-rate: 10/1m                 # 10 requests every 1 minute
+   ... 
+   ... Sitemap: http://example.com/sitemap-index.xml
+   ... Host: http://example.co.in
+   ... """
+   >>> rp = Protego.parse(robotstxt)
+   >>> rp.can_fetch("http://example.com/profiles", "mybot")
+   False
+   >>> rp.can_fetch("http://example.com/about", "mybot")
+   True
+   >>> rp.can_fetch("http://example.com/account", "mybot")
+   True
+   >>> rp.can_fetch("http://example.com/account/myuser/profile", "mybot")
+   False
+   >>> rp.can_fetch("http://example.com/account/contact", "mybot")
+   False
+   >>> rp.crawl_delay("mybot")
+   4.0
+   >>> rp.request_rate("mybot")
+   RequestRate(requests=10, seconds=60, start_time=None, end_time=None)
+   >>> list(rp.sitemaps)
+   ['http://example.com/sitemap-index.xml']
+   >>> rp.preferred_host
+   'http://example.co.in'
+
 
 Using Protego with Requests_:
 
->>> from protego import Protego
->>> import requests
->>> r = requests.get("https://google.com/robots.txt")
->>> rp = Protego.parse(r.text)
->>> rp.can_fetch("https://google.com/search", "mybot")
-False
->>> rp.can_fetch("https://google.com/search/about", "mybot")
-True
->>> list(rp.sitemaps)
-['https://www.google.com/sitemap.xml']
+.. code-block:: none
+
+   >>> from protego import Protego
+   >>> import requests
+   >>> r = requests.get("https://google.com/robots.txt")
+   >>> rp = Protego.parse(r.text)
+   >>> rp.can_fetch("https://google.com/search", "mybot")
+   False
+   >>> rp.can_fetch("https://google.com/search/about", "mybot")
+   True
+   >>> list(rp.sitemaps)
+   ['https://www.google.com/sitemap.xml']
 
 .. _Requests: https://3.python-requests.org/
 
