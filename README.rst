@@ -27,7 +27,7 @@ To install Protego, simply use pip:
 Usage
 =====
 
-.. code-block:: none
+.. code-block:: pycon
 
    >>> from protego import Protego
    >>> robotstxt = """
@@ -66,7 +66,7 @@ Usage
 
 Using Protego with Requests_:
 
-.. code-block:: none
+.. code-block:: pycon
 
    >>> from protego import Protego
    >>> import requests
