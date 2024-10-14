@@ -15,7 +15,6 @@ setup(
     packages=find_packages("src"),
     py_modules=["protego"],
     python_requires=">=3.9",
-    tests_require=["pytest"],
     include_package_data=True,
     keywords=["robots.txt", "parser", "robots", "rep"],
     classifiers=[
