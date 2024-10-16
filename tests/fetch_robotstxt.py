@@ -4,6 +4,7 @@ Usage
 -----
 >>> python fetch_robotstxt.py -l top-10000-websites.txt -d test_data
 """
+
 import argparse
 import os
 import sys
