@@ -2,6 +2,16 @@
 Protego changelog
 =================
 
+0.4.0 (2024-11-15)
+==================
+
+-   Dropped Python 3.8 support, added official Python 3.13 support.
+
+-   Added support for ``//``-prefixed URLs.
+
+-   Improved the rendering of the ``README.rst`` code snippets in GitHub.
+
+
 0.3.1 (2024-04-05)
 ==================
 
