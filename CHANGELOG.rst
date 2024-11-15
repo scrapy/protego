@@ -2,7 +2,7 @@
 Protego changelog
 =================
 
-0.4.0 (2024-11-DD)
+0.4.0 (2024-11-15)
 ==================
 
 -   Dropped Python 3.8 support, added official Python 3.13 support.
