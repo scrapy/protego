@@ -1122,6 +1122,16 @@ class TestProtego(TestCase):
 
         self.assertEqual("Protego.parse expects str, got bytes", str(context.exception))
 
+    def test_leading_double_slash_in_pattern(self):
+        content = "User-Agent: *\nDisallow: //folder/*\n"
+        rp = Protego.parse(content)
+        self.assertTrue(rp.can_fetch("http://example.com/", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/folder", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/folder/", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com/folder/page", "FooBot"))
+        self.assertTrue(rp.can_fetch("http://example.com//folder", "FooBot"))
+        self.assertFalse(rp.can_fetch("http://example.com//folder/page", "FooBot"))
+
     def test_visit_time(self):
         """Some website specified allow time for crawling in UTC"""
         content = "User-Agent: *\nVisit-time: 0200 0630\nUser-Agent: NoTime"
