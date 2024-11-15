@@ -7,7 +7,7 @@ Protego changelog
 
 -   Dropped Python 3.8 support, added official Python 3.13 support.
 
--   Support `//`-prefixed URLs.
+-   Added support for ``//``-prefixed URLs.
 
 -   Improved the rendering of the ``README.rst`` code snippets in GitHub.
 
