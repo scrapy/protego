@@ -16,3 +16,8 @@ dist/
 .tox/
 
 .idea/
+
+# coverage data
+.coverage
+.coverage.*
+coverage.*
