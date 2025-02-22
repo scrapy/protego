@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import pytest
 
 from protego import Protego
@@ -27,6 +29,7 @@ def test_user_agent_precedence(path, user_agent):
     allow: /group3
     """
     rp = Protego.parse(content=robotstxt_content)
+    allowed_path: str | None
     for allowed_path in ("/group1", "/group2", "/group3"):
         if rp.can_fetch(allowed_path, user_agent):
             break
