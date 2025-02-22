@@ -6,12 +6,10 @@ rs = _RuleSet(None)
 
 
 def _unquote(url, ignore="", errors="replace"):
-    global rs
     return rs._unquote(url, ignore, errors)
 
 
 def hexescape(char):
-    global rs
     return rs.hexescape(char)
 
 
@@ -26,7 +24,7 @@ class TestUnquote(TestCase):
             expect = chr(num)
             result = _unquote(given)
             self.assertEqual(
-                expect, result, "using unquote(): %r != %r" % (expect, result)
+                expect, result, f"using unquote(): {expect!r} != {result!r}"
             )
             escape_list.append(given)
         escape_string = "".join(escape_list)
@@ -35,7 +33,7 @@ class TestUnquote(TestCase):
         self.assertEqual(
             result.count("%"),
             1,
-            "using unquote(): not all characters escaped: " "%s" % result,
+            f"using unquote(): not all characters escaped: {result}",
         )
 
     def test_unquoting_badpercent(self):
@@ -43,69 +41,72 @@ class TestUnquote(TestCase):
         given = "%xab"
         expect = given
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
+
         given = "%x"
         expect = given
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
+
         given = "%"
         expect = given
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
     def test_unquoting_parts(self):
         # Make sure unquoting works when have non-quoted characters
         # interspersed
-        given = "ab%sd" % hexescape("c")
+        given = f"ab{hexescape('c')}d"
         expect = "abcd"
         result = _unquote(given)
-        self.assertEqual(expect, result, "using quote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using quote(): {expect!r} != {result!r}")
 
     def test_unquoting_plus(self):
         # Test difference between unquote() and unquote_plus()
         given = "are+there+spaces..."
         expect = given
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
     def test_unquote_with_unicode(self):
         # Characters in the Latin-1 range, encoded with UTF-8
         given = "br%C3%BCckner_sapporo_20050930.doc"
         expect = "br\u00fcckner_sapporo_20050930.doc"
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
+
         # Characters in the Latin-1 range, encoded with None (default)
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
         # Characters in BMP, encoded with UTF-8
         given = "%E6%BC%A2%E5%AD%97"
         expect = "\u6f22\u5b57"  # "Kanji"
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
         # Decode with UTF-8, invalid sequence
         given = "%F3%B1"
         expect = "\ufffd"  # Replacement character
         result = _unquote(given)
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
         # Decode with UTF-8, invalid sequence, replace errors
         result = _unquote(given, errors="replace")
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
         # Decode with UTF-8, invalid sequence, ignoring errors
         given = "%F3%B1"
         expect = ""
         result = _unquote(given, errors="ignore")
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
         # A mix of non-ASCII and percent-encoded characters, UTF-8
         result = _unquote("\u6f22%C3%BC")
         expect = "\u6f22\u00fc"
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
 
     def test_escape_sequence_uppercase(self):
         result = _unquote("%2fabc%7exyz", ignore="/~")
         expect = "%2Fabc%7Exyz"
-        self.assertEqual(expect, result, "using unquote(): %r != %r" % (expect, result))
+        self.assertEqual(expect, result, f"using unquote(): {expect!r} != {result!r}")
