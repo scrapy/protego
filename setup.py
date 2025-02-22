@@ -1,11 +1,12 @@
-#!/usr/bin/env python
+from pathlib import Path
+
 from setuptools import find_packages, setup
 
 setup(
     name="Protego",
     version="0.4.0",
     description="Pure-Python robots.txt parser with support for modern conventions",
-    long_description=open("README.rst").read(),
+    long_description=Path("README.rst").read_text(encoding="utf-8"),
     long_description_content_type="text/x-rst",
     url="https://github.com/scrapy/protego",
     author="Anubhav Patel",
