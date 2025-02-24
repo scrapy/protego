@@ -32,7 +32,7 @@ _WILDCARDS = {"*", "$"}
 
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
 
-__all__ = ["RequestRate", "Protego"]
+__all__ = ["Protego", "RequestRate"]
 
 
 def _is_valid_directive_field(field):
@@ -49,7 +49,7 @@ def _is_valid_directive_field(field):
     )
 
 
-class _URLPattern(object):
+class _URLPattern:
     """Internal class which represents a URL pattern."""
 
     def __init__(self, pattern):
@@ -96,11 +96,10 @@ class _URLPattern(object):
                 s[index] = re.escape(substr)
             elif s[index] == "*":
                 s[index] = ".*?"
-        pattern = "".join(s)
-        return pattern
+        return "".join(s)
 
 
-class _RuleSet(object):
+class _RuleSet:
     """Internal class which stores rules for a user agent."""
 
     def __init__(self, parser_instance):
@@ -131,23 +130,21 @@ class _RuleSet(object):
 
         # ignore contains %xy escapes for characters that are not
         # meant to be converted back.
-        ignore = {"{ord_c:02X}".format(ord_c=ord(c)) for c in ignore}
+        ignore = {f"{ord(c):02X}" for c in ignore}
 
         parts = url.split("%")
         parts[0] = parts[0].encode("utf-8")
 
         for i in range(1, len(parts)):
-            if len(parts[i]) >= 2:
-                # %xy is a valid escape only if x and y are hexadecimal digits.
-                if set(parts[i][:2]).issubset(_HEX_DIGITS):
-                    # make sure that all %xy escapes are in uppercase.
-                    hexcode = parts[i][:2].upper()
-                    leftover = parts[i][2:]
-                    if hexcode not in ignore:
-                        parts[i] = hex_to_byte(hexcode) + leftover.encode("utf-8")
-                        continue
-                    else:
-                        parts[i] = hexcode + leftover
+            # %xy is a valid escape only if x and y are hexadecimal digits.
+            if len(parts[i]) >= 2 and set(parts[i][:2]).issubset(_HEX_DIGITS):
+                # make sure that all %xy escapes are in uppercase.
+                hexcode = parts[i][:2].upper()
+                leftover = parts[i][2:]
+                if hexcode not in ignore:
+                    parts[i] = hex_to_byte(hexcode) + leftover.encode("utf-8")
+                    continue
+                parts[i] = hexcode + leftover
 
             # add back the '%' we removed during splitting.
             parts[i] = b"%" + parts[i].encode("utf-8")
@@ -158,8 +155,8 @@ class _RuleSet(object):
         """Escape char as RFC 2396 specifies"""
         hex_repr = hex(ord(char))[2:].upper()
         if len(hex_repr) == 1:
-            hex_repr = "0%s" % hex_repr
-        return "%" + hex_repr
+            hex_repr = f"0{hex_repr}"
+        return f"%{hex_repr}"
 
     def _quote_path(self, path):
         """Return percent encoded path."""
@@ -172,7 +169,7 @@ class _RuleSet(object):
         return path or "/"
 
     def _quote_pattern(self, pattern):
-        if pattern.startswith("https://") or pattern.startswith("http://"):
+        if pattern.startswith(("https://", "http://")):
             pattern = "/" + pattern
         if pattern.startswith("//"):
             pattern = "//" + pattern
@@ -191,8 +188,7 @@ class _RuleSet(object):
         parts = ParseResult(
             "", "", pattern + last_char, parts.params, parts.query, parts.fragment
         )
-        pattern = urlunparse(parts)
-        return pattern
+        return urlunparse(parts)
 
     def allow(self, pattern):
         if "$" in pattern:
@@ -244,10 +240,8 @@ class _RuleSet(object):
         except ValueError:
             # Value is malformed, do nothing.
             logger.debug(
-                "Malformed rule at line {line_seen} : cannot set crawl delay to '{delay}'. "
-                "Ignoring this rule.".format(
-                    line_seen=self._parser_instance._total_line_seen, delay=delay
-                )
+                f"Malformed rule at line {self._parser_instance._total_line_seen} : "
+                f"cannot set crawl delay to '{delay}'. Ignoring this rule."
             )
             return
 
@@ -285,10 +279,8 @@ class _RuleSet(object):
         except Exception:
             # Value is malformed, do nothing.
             logger.debug(
-                "Malformed rule at line {line_seen} : cannot set request rate using '{value}'. "
-                "Ignoring this rule.".format(
-                    line_seen=self._parser_instance._total_line_seen, value=value
-                )
+                f"Malformed rule at line {self._parser_instance._total_line_seen} : "
+                f"cannot set request rate using '{value}'. Ignoring this rule."
             )
             return
 
@@ -312,16 +304,14 @@ class _RuleSet(object):
             start_time, end_time = self._parse_time_period(value, separator=" ")
         except Exception:
             logger.debug(
-                "Malformed rule at line {line_seen} : cannot set visit time using '{value}'. "
-                "Ignoring this rule.".format(
-                    line_seen=self._parser_instance._total_line_seen, value=value
-                )
+                f"Malformed rule at line {self._parser_instance._total_line_seen} : "
+                f"cannot set visit time using '{value}'. Ignoring this rule."
             )
             return
         self._visit_time = VisitTime(start_time, end_time)
 
 
-class Protego(object):
+class Protego:
     def __init__(self):
         # A dict mapping user agents (specified in robots.txt) to rule sets.
         self._user_agents = {}
@@ -403,9 +393,7 @@ class Protego(object):
                 and field not in _SITEMAP_DIRECTIVE
             ):
                 logger.debug(
-                    "Rule at line {line_seen} without any user agent to enforce it on.".format(
-                        line_seen=self._total_line_seen
-                    )
+                    f"Rule at line {self._total_line_seen} without any user agent to enforce it on."
                 )
                 continue
 
