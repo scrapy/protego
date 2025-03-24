@@ -28,6 +28,9 @@ jobs:
         - python-version: pypy3.10
           env:
             TOXENV: pypy3
+        - python-version: pypy3.11
+          env:
+            TOXENV: pypy3
 
         # checks
         - python-version: "3.13"
