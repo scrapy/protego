@@ -157,25 +157,24 @@ class _RuleSet:
         # meant to be converted back.
         ignore_set = {f"{ord(c):02X}" for c in ignore}
 
-        # TODO: try to refactor this
         parts = url.split("%")
         parts_encoded: list[bytes] = [parts[0].encode("utf-8")]
 
-        for i in range(1, len(parts)):
+        for part in parts[1:]:
             # %xy is a valid escape only if x and y are hexadecimal digits.
-            if len(parts[i]) >= 2 and set(parts[i][:2]).issubset(_HEX_DIGITS):
+            if len(part) >= 2 and set(part[:2]).issubset(_HEX_DIGITS):
                 # make sure that all %xy escapes are in uppercase.
-                hexcode = parts[i][:2].upper()
-                leftover = parts[i][2:]
+                hexcode = part[:2].upper()
+                leftover = part[2:]
                 if hexcode not in ignore_set:
                     parts_encoded.append(
                         hex_to_byte(hexcode) + leftover.encode("utf-8")
                     )
                     continue
-                parts[i] = hexcode + leftover
+                part = hexcode + leftover
 
             # add back the '%' we removed during splitting.
-            parts_encoded.append(b"%" + parts[i].encode("utf-8"))
+            parts_encoded.append(b"%" + part.encode("utf-8"))
 
         return b"".join(parts_encoded).decode("utf-8", errors)
 
