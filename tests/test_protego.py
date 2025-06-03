@@ -3,7 +3,8 @@ from unittest import TestCase
 
 import pytest
 
-from protego import Protego, _RuleSet
+from protego import Protego
+from protego._utils import _parse_time_period
 
 
 class TestProtego(TestCase):
@@ -1113,11 +1114,11 @@ class TestProtego(TestCase):
         self.assertIsNone(rp.visit_time("NoTime"))
 
     def test_parse_time_period(self):
-        start_time, end_time = _RuleSet._parse_time_period("0100-1000")
+        start_time, end_time = _parse_time_period("0100-1000")
         self.assertEqual(start_time, time(1, 0))
         self.assertEqual(end_time, time(10, 0))
 
-        start_time, end_time = _RuleSet._parse_time_period("0500 0600", separator=" ")
+        start_time, end_time = _parse_time_period("0500 0600", separator=" ")
         self.assertEqual(start_time, time(5, 0))
         self.assertEqual(end_time, time(6, 0))
 

@@ -14,7 +14,6 @@ setup(
     license="BSD",
     package_dir={"": "src"},
     packages=find_packages("src"),
-    py_modules=["protego"],
     python_requires=">=3.9",
     include_package_data=True,
     keywords=["robots.txt", "parser", "robots", "rep"],
