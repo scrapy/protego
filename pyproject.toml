@@ -15,6 +15,10 @@ exclude_also = [
     "if TYPE_CHECKING:",
 ]
 
+[[tool.mypy.overrides]]
+module = "tests.*"
+allow_untyped_defs = true
+
 [tool.ruff.lint]
 extend-select = [
     # flake8-bugbear
@@ -129,10 +133,6 @@ ignore = [
     "RUF012",
     # Use of `assert` detected
     "S101",
-
-    # to be done when adding type hints
-    # Use `typing.NamedTuple` instead of `collections.namedtuple`
-    "PYI024",
 ]
 
 [tool.ruff.lint.pydocstyle]

@@ -5,13 +5,23 @@ Usage
 $ python fetch_robotstxt.py -l top-10000-websites.txt -d test_data
 """
 
+from __future__ import annotations
+
 import argparse
 import sys
 from pathlib import Path
+from typing import TYPE_CHECKING, Any
 from urllib.parse import ParseResult, urlparse, urlunparse
 
 import scrapy
 from scrapy.crawler import CrawlerProcess
+
+if TYPE_CHECKING:
+    from collections.abc import Iterable
+
+    from scrapy.http import Response
+    from twisted.python.failure import Failure
+
 
 parser = argparse.ArgumentParser(description="Download robots.txt of given websites.")
 parser.add_argument(
@@ -40,7 +50,7 @@ if not args.directory or not args.websites:
 class RobotstxtSpider(scrapy.Spider):
     name = "robotstxt_spider"
 
-    def start_requests(self):
+    def start_requests(self) -> Iterable[scrapy.Request]:
         w: Path
         for w in args.websites:
             if w.is_file():
@@ -52,14 +62,14 @@ class RobotstxtSpider(scrapy.Spider):
                             errback=self.err_cb,
                         )
 
-    def parse(self, response):
+    def parse(self, response: Response, **kwargs: Any) -> Any:
         filename = urlparse(response.url).netloc
         if not args.directory.exists():
             args.directory.mkdir()
         (args.directory / filename).write_bytes(response.body)
 
-    def err_cb(self, failure):
-        request = failure.request
+    def err_cb(self, failure: Failure) -> Iterable[scrapy.Request]:
+        request = failure.request  # type: ignore[attr-defined]
         parts = urlparse(request.url)
         parts = ParseResult(
             "http", parts.netloc, parts.path, parts.params, parts.query, parts.fragment

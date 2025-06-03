@@ -9,7 +9,7 @@ robotstxts = [f for f in test_data_directory.iterdir() if f.is_file()]
 
 
 @pytest.mark.parametrize("path_to_robotstxt", robotstxts)
-def test_no_exceptions(path_to_robotstxt):
+def test_no_exceptions(path_to_robotstxt: Path) -> None:
     try:
         try:
             content = path_to_robotstxt.read_bytes().decode("utf-8")
