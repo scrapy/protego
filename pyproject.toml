@@ -1,11 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Protego"
+version = "0.4.0"
+description = "Pure-Python robots.txt parser with support for modern conventions"
+authors = [
+    { name = "Anubhav Patel", email = "anubhavp28@gmail.com" },
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = [
+    "parser",
+    "rep",
+    "robots",
+    "robots.txt",
+]
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+readme = "README.rst"
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/scrapy/protego"
+Source = "https://github.com/scrapy/protego"
+Tracker = "https://github.com/scrapy/protego/issues"
+"Release notes" = "https://github.com/scrapy/protego/blob/master/CHANGELOG.rst"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/src",
+    "/tests",
+    "/CHANGELOG.rst",
+    "/tox.ini",
+]
+
 [tool.bumpversion]
-current_version = "0.4.0"
 commit = true
 tag = true
 tag_name = "{new_version}"
-
-[[tool.bumpversion.files]]
-filename = "setup.py"
 
 [tool.coverage.run]
 branch = true
