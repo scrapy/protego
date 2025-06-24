@@ -2,6 +2,23 @@
 Protego changelog
 =================
 
+0.5.0 (unreleased)
+==================
+
+-   Restructured the code, splitting the single ``protego.py`` file into
+    multiple modules. The public API remains the same but some internal names
+    may now be available at different import paths.
+
+-   Added type hints and ``py.typed``.
+
+-   Added official support for PyPy 3.11.
+
+-   Switched the build backend from ``setuptools`` to ``hatchling``.
+
+-   Switched from ``setup.py`` to ``pyproject.toml``.
+
+-   CI fixes and improvements.
+
 0.4.0 (2024-11-15)
 ==================
 
