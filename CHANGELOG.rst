@@ -2,7 +2,7 @@
 Protego changelog
 =================
 
-0.5.0 (unreleased)
+0.5.0 (2025-06-24)
 ==================
 
 -   Restructured the code, splitting the single ``protego.py`` file into
