@@ -4,12 +4,7 @@ import logging
 from typing import TYPE_CHECKING, NamedTuple
 
 from ._urlpattern import _URLPattern
-from ._utils import (
-    _hexescape,
-    _parse_time_period,
-    _quote_path,
-    _quote_pattern,
-)
+from ._utils import _hexescape, _parse_time_period, _quote_path, _quote_pattern
 
 if TYPE_CHECKING:
     from datetime import time
