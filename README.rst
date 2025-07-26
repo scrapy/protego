@@ -39,7 +39,7 @@ Usage
    ... Disallow: /account/*/profile
    ... Crawl-delay: 4
    ... Request-rate: 10/1m                 # 10 requests every 1 minute
-   ... 
+   ...
    ... Sitemap: http://example.com/sitemap-index.xml
    ... Host: http://example.co.in
    ... """
@@ -139,6 +139,6 @@ Methods
     agent as a named tuple ``RequestRate(requests, seconds, start_time,
     end_time)``. If nothing is specified, return ``None``.
 
-*   ``visit_time(user_agent)`` Return the visit time specified for the user 
-    agent as a named tuple ``VisitTime(start_time, end_time)``. 
+*   ``visit_time(user_agent)`` Return the visit time specified for the user
+    agent as a named tuple ``VisitTime(start_time, end_time)``.
     If nothing is specified, return ``None``.
