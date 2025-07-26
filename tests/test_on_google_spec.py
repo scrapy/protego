@@ -6,7 +6,7 @@ from protego import Protego
 
 
 @pytest.mark.parametrize(
-    "path,user_agent",
+    ("path", "user_agent"),
     [
         ("/group1", "hedwig-news"),
         ("/group1", "hedwig-news2"),
@@ -39,7 +39,7 @@ def test_user_agent_precedence(path, user_agent):
 
 
 @pytest.mark.parametrize(
-    "pattern,path,match",
+    ("pattern", "path", "match"),
     [
         ("/", "/harry", True),
         ("/", "/device/time-turner", True),
@@ -102,7 +102,7 @@ def test_path_matching(pattern, path, match):
 
 
 @pytest.mark.parametrize(
-    "rules,url,allowed",
+    ("rules", "url", "allowed"),
     [
         ("allow: /p \n disallow: /", "http://example.com/page", True),
         ("allow: /folder \n disallow: /folder", "http://example.com/folder/page", True),
