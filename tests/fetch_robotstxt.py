@@ -56,8 +56,11 @@ class RobotstxtSpider(scrapy.Spider):
             if w.is_file():
                 with w.open() as f:
                     for domain in f:
+                        domain = domain.strip()
+                        if not domain:
+                            continue
                         yield scrapy.Request(
-                            url=f"https://{domain.strip()}/robots.txt",
+                            url=f"https://{domain}/robots.txt",
                             callback=self.parse,
                             errback=self.err_cb,
                         )
