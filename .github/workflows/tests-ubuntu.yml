@@ -27,7 +27,7 @@ jobs:
         # PyPy
         - python-version: pypy3.11
           env:
-            TOXENV: pypy3
+            TOXENV: py
 
         # checks
         - python-version: "3.14"
