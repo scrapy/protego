@@ -15,7 +15,6 @@ classifiers = [
     "Operating System :: OS Independent",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -35,7 +34,7 @@ keywords = [
 license = "BSD-3-Clause"
 license-files = ["LICENSE"]
 readme = "README.rst"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 
 [project.urls]
 Homepage = "https://github.com/scrapy/protego"
@@ -65,10 +64,8 @@ regex = true
 [tool.coverage.run]
 branch = true
 
-[tool.coverage.report]
-exclude_also = [
-    "if TYPE_CHECKING:",
-]
+[tool.mypy]
+strict = true
 
 [[tool.mypy.overrides]]
 module = "tests.*"

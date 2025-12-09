@@ -1012,7 +1012,7 @@ class TestProtego:
 
     def test_bytestrings(self):
         content = b"User-Agent: FootBot\nDisallow: /something"
-        with pytest.raises(ValueError, match="Protego.parse expects str, got bytes"):
+        with pytest.raises(ValueError, match=r"Protego\.parse expects str, got bytes"):
             Protego.parse(content=content)  # type: ignore[arg-type]
 
     def test_leading_double_slash_in_pattern(self):

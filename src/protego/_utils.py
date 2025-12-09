@@ -45,10 +45,7 @@ def _unquote(url: str, ignore: str = "", errors: str = "replace") -> str:
 
 def _hexescape(char: str) -> str:
     """Escape char as RFC 2396 specifies"""
-    hex_repr = hex(ord(char))[2:].upper()
-    if len(hex_repr) == 1:
-        hex_repr = f"0{hex_repr}"
-    return f"%{hex_repr}"
+    return f"%{ord(char):02X}"
 
 
 def _quote_path(path: str) -> str:
