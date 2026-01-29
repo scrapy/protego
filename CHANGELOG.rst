@@ -2,7 +2,7 @@
 Protego changelog
 =================
 
-0.6.0 (unreleased)
+0.6.0 (2026-01-29)
 ==================
 
 -   Added official support for Python 3.14.
