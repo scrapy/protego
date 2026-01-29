@@ -2,6 +2,15 @@
 Protego changelog
 =================
 
+0.6.0 (unreleased)
+==================
+
+-   Added official support for Python 3.14.
+
+-   Dropped support for Python 3.9 and PyPy 3.10.
+
+-   CI fixes and improvements.
+
 0.5.0 (2025-06-24)
 ==================
 
