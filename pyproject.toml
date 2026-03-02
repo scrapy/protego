@@ -45,7 +45,6 @@ Tracker = "https://github.com/scrapy/protego/issues"
 [tool.hatch.build.targets.sdist]
 include = [
     "/src",
-    "/tests",
     "/CHANGELOG.rst",
     "/tox.ini",
 ]
