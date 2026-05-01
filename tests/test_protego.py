@@ -489,6 +489,24 @@ class TestProtego:
         assert not rp.can_fetch("https://site.local/testbot", "tEStbOt")
         assert rp.can_fetch("https://site.local/default-UA", "tEStbOt")
 
+    def test_user_agent_prefix_matching(self):
+        content = """
+        User-Agent: bot
+        Disallow: /bot
+
+        User-Agent: google
+        Disallow: /google
+
+        User-Agent: googlebot
+        Allow: /google
+        Disallow: /googlebot
+        """
+        rp = Protego.parse(content=content)
+        assert rp.can_fetch("https://site.local/bot", "mybot")
+        assert not rp.can_fetch("https://site.local/bot", "bot")
+        assert rp.can_fetch("https://site.local/google", "googlebot-mobile")
+        assert not rp.can_fetch("https://site.local/googlebot", "googlebot-mobile")
+
     def test_user_agent_grouping(self):
         content = """
         User-Agent: one

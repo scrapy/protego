@@ -49,8 +49,11 @@ class _RuleSet:
         robotname = robotname.strip().lower()
         if self.user_agent == "*":
             return 1
-        if self.user_agent in robotname:
-            return len(self.user_agent)
+        start = robotname.find(self.user_agent)
+        while start != -1:
+            if start == 0 or not robotname[start - 1].isalnum():
+                return len(self.user_agent)
+            start = robotname.find(self.user_agent, start + 1)
         return 0
 
     def allow(self, pattern: str) -> None:
