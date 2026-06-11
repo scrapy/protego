@@ -123,7 +123,12 @@ class _RuleSet:
 
             requests_str, seconds_str = rate.split("/")
             time_unit = seconds_str[-1].lower()
-            requests, seconds = int(requests_str), int(seconds_str[:-1])
+            if time_unit in ("s", "m", "h", "d"):
+                seconds = int(seconds_str[:-1])
+            else:
+                time_unit = "s"
+                seconds = int(seconds_str)
+            requests = int(requests_str)
 
             if time_unit == "m":
                 seconds *= 60
