@@ -2,7 +2,7 @@
 Protego changelog
 =================
 
-0.6.1 (unreleased)
+0.6.1 (2026-06-11)
 ==================
 
 -   Fixed parsing of ``Request-rate`` values where the seconds field has no
