@@ -2,6 +2,13 @@
 Protego changelog
 =================
 
+0.6.1 (unreleased)
+==================
+
+-   Fixed parsing of ``Request-rate`` values where the seconds field has no
+    time-unit suffix (e.g. ``1/60`` instead of ``1/60s``). Previously the last
+    digit of the number was silently dropped.
+
 0.6.0 (2026-01-29)
 ==================
 
