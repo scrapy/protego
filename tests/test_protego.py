@@ -261,6 +261,52 @@ class TestProtego:
         assert req_rate.end_time.hour == 19
         assert req_rate.end_time.minute == 40
 
+    def test_request_rate_bare_number(self):
+        content = """
+        User-agent: one
+        Request-rate: 1/60
+        User-agent: two
+        Request-rate: 10/60
+        User-agent: three
+        Request-rate: 90/180
+        User-agent: four
+        Request-rate: 1/5
+        User-agent: five
+        Request-rate: 1/10 0600-0845
+        """
+        rp = Protego.parse(content=content)
+
+        req_rate = rp.request_rate("one")
+        assert req_rate is not None
+        assert req_rate.requests == 1
+        assert req_rate.seconds == 60
+
+        req_rate = rp.request_rate("two")
+        assert req_rate is not None
+        assert req_rate.requests == 10
+        assert req_rate.seconds == 60
+
+        req_rate = rp.request_rate("three")
+        assert req_rate is not None
+        assert req_rate.requests == 90
+        assert req_rate.seconds == 180
+
+        req_rate = rp.request_rate("four")
+        assert req_rate is not None
+        assert req_rate.requests == 1
+        assert req_rate.seconds == 5
+
+        req_rate = rp.request_rate("five")
+        assert req_rate is not None
+        assert req_rate.requests == 1
+        assert req_rate.seconds == 10
+        assert req_rate.start_time is not None
+        assert req_rate.start_time.hour == 6
+        assert req_rate.start_time.minute == 0
+        assert req_rate.end_time is not None
+        assert req_rate.end_time.hour == 8
+        assert req_rate.end_time.minute == 45
+
     def test_no_request_rate(self):
         content = """
         User-agent: one
