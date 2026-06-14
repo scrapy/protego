@@ -117,3 +117,34 @@ def test_record_precedence(rules, url, allowed):
     """
     rp = Protego.parse(content)
     assert rp.can_fetch(url, "*") == allowed
+
+
+@pytest.mark.parametrize(
+    ("content", "url", "allowed"),
+    [
+        # "=" in a wildcard pattern must match "=" in the URL path.
+        (
+            "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n",
+            "http://example.com/1/filter/page=5/",
+            True,
+        ),
+        (
+            "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n",
+            "http://example.com/a/filter/page=99/",
+            True,
+        ),
+        # The trailing "$" still requires the path to end right after the slash.
+        (
+            "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n",
+            "http://example.com/1/filter/page=5",
+            False,
+        ),
+        # "=" must be matched literally without wildcards too.
+        ("User-agent: *\nDisallow: /path=1\n", "http://example.com/path=1", False),
+        ("User-agent: *\nDisallow: /path=1\n", "http://example.com/path=2", True),
+    ],
+)
+def test_equals_sign_in_path(content, url, allowed):
+    # Regression test for https://github.com/scrapy/protego/issues/51
+    rp = Protego.parse(content)
+    assert rp.can_fetch(url, "mozilla") == allowed

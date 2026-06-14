@@ -52,7 +52,9 @@ def _quote_path(path: str) -> str:
     """Return percent encoded path."""
     parts = urlparse(path)
     path = _unquote(parts.path, ignore="/%")
-    path = quote(path, safe="/%")
+    # Keep "=" unescaped so paths match patterns, which also keep "=" literal
+    # (see _quote_pattern). https://github.com/scrapy/protego/issues/51
+    path = quote(path, safe="/%=")
 
     parts = ParseResult("", "", path, parts.params, parts.query, parts.fragment)
     path = urlunparse(parts)
