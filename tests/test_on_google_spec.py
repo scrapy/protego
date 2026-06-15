@@ -133,14 +133,21 @@ def test_record_precedence(rules, url, allowed):
             "http://example.com/a/filter/page=99/",
             True,
         ),
+        # A pre-encoded "%3D" in the URL is normalised back to "=" and matches.
+        (
+            "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n",
+            "http://example.com/1/filter/page%3D5/",
+            True,
+        ),
         # The trailing "$" still requires the path to end right after the slash.
         (
             "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n",
             "http://example.com/1/filter/page=5",
             False,
         ),
-        # "=" must be matched literally without wildcards too.
+        # Non-wildcard patterns are prefix matches, and "=" is literal there too.
         ("User-agent: *\nDisallow: /path=1\n", "http://example.com/path=1", False),
+        ("User-agent: *\nDisallow: /path=1\n", "http://example.com/path=12", False),
         ("User-agent: *\nDisallow: /path=1\n", "http://example.com/path=2", True),
     ],
 )
