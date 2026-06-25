@@ -1109,3 +1109,15 @@ def test_leading_asterisk(allow, disallow, url, allowed):
     content = f"User-Agent: *\nallow: {allow}\ndisallow: {disallow}\n"
     rp = Protego.parse(content)
     assert rp.can_fetch(url, "*") == allowed
+
+
+@pytest.mark.timeout(2)
+def test_redos():
+    # A pattern with many wildcards against a near-miss URL causes catastrophic
+    # backtracking with a naive regex approach. 32 wildcards are enough to hang
+    # for minutes; the fix resolves it in microseconds.
+    disallow = "/a/" + "*a" * 32 + "b"
+    url = "http://example.com/a/" + "a" * 32 + "c"
+    content = f"User-agent: *\nDisallow: {disallow}\n"
+    rp = Protego.parse(content)
+    assert rp.can_fetch(url, "*")

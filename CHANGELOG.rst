@@ -2,6 +2,21 @@
 Protego changelog
 =================
 
+0.6.2 (unreleased)
+==================
+
+-   Fixed a ReDoS (regular expression denial of service) vulnerability: URL
+    patterns from ``robots.txt`` ``Allow`` and ``Disallow`` directives were
+    compiled into regular expressions, where multiple ``*`` wildcards could
+    cause exponential backtracking. A server could exploit this to cause denial
+    of service by serving a crafted ``robots.txt`` file. Wildcard matching is
+    now performed without regular expressions. Please, see the
+    `CVE-2026-55520`_ and `GHSA-wjmf-p669-5m5p`_ security advisories for more
+    information.
+
+.. _CVE-2026-55520: https://www.cve.org/CVERecord?id=CVE-2026-55520
+.. _GHSA-wjmf-p669-5m5p: https://github.com/scrapy/protego/security/advisories/GHSA-wjmf-p669-5m5p
+
 0.6.1 (2026-06-11)
 ==================
 
