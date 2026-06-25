@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "Protego"
-version = "0.6.1"
+version = "0.6.2"
 description = "Pure-Python robots.txt parser with support for modern conventions"
 authors = [
     { name = "Anubhav Patel", email = "anubhavp28@gmail.com" },
