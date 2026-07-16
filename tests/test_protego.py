@@ -179,28 +179,32 @@ class TestProtego:
         rp = Protego.parse(content=content)
         assert rp.preferred_host is None
 
-    def test_crawl_delay(self):
+    @pytest.mark.parametrize("value", [0, 10, 15])
+    def test_crawl_delay(self, value: int) -> None:
         content = (
             "User-agent: * \n"
             "Disallow: /disallowed \n"
             "Allow: /allowed \n"
             "Crawl-delay: 10 \n"
             "User-agent: testbot\n"
-            "Crawl-delay: 15 \n"
+            f"Crawl-delay: {value}\n"
         )
         rp = Protego.parse(content=content)
         assert rp.crawl_delay("*") == 10.0
-        assert rp.crawl_delay("testbot") == 15.0
+        assert rp.crawl_delay("testbot") == value
 
-    def test_malformed_crawl_delay(self):
+    @pytest.mark.parametrize(
+        "value", ["random_word", "-5", "-0.5", "inf", "-inf", "nan"]
+    )
+    def test_malformed_crawl_delay(self, value: str) -> None:
         content = (
             "User-agent: * \n"
             "Disallow: /disallowed \n"
             "Allow: /allowed \n"
-            "Crawl-delay: random_word"
+            f"Crawl-delay: {value}"
         )
         rp = Protego.parse(content=content)
-        assert rp.crawl_delay("*") is None
+        assert rp.crawl_delay("*") is None, value
 
     def test_no_crawl_delay(self):
         content = "User-agent: * \nDisallow: /disallowed \nAllow: /allowed"
@@ -316,6 +320,25 @@ class TestProtego:
         """
         rp = Protego.parse(content=content)
         assert rp.request_rate("two") is None
+
+    @pytest.mark.parametrize(
+        "value",
+        [
+            "one/two",
+            "5",
+            "-1/5",
+            "0/5",
+            "1/0",
+            "0/0",
+            "1/-5",
+            # A malformed time window invalidates the whole rule.
+            "1/5 9-17",
+        ],
+    )
+    def test_malformed_request_rate(self, value):
+        content = f"User-agent: *\nRequest-rate: {value}"
+        rp = Protego.parse(content=content)
+        assert rp.request_rate("*") is None
 
     def test_empty_response(self):
         """empty response should equal 'allow all'"""
@@ -1072,14 +1095,39 @@ class TestProtego:
         assert not rp.can_fetch("http://example.com//folder/page", "FooBot")
 
     def test_visit_time(self):
-        """Some website specified allow time for crawling in UTC"""
-        content = "User-Agent: *\nVisit-time: 0200 0630\nUser-Agent: NoTime"
+        """The de-facto Visit-time convention, from the "Extended Standard
+        for Robot Exclusion", is hyphen-separated."""
+        content = "User-Agent: *\nVisit-time: 0400-0845\nUser-Agent: NoTime"
         rp = Protego.parse(content)
-        visit_time = rp.visit_time("FooBoot")
+        visit_time = rp.visit_time("FooBot")
+        assert visit_time is not None
+        assert visit_time.start_time == time(4, 0)
+        assert visit_time.end_time == time(8, 45)
+        assert rp.visit_time("NoTime") is None
+
+        # The space-separated form is also accepted.
+        content = "User-Agent: *\nVisit-time: 0200 0630"
+        rp = Protego.parse(content)
+        visit_time = rp.visit_time("FooBot")
         assert visit_time is not None
         assert visit_time.start_time == time(2, 0)
         assert visit_time.end_time == time(6, 30)
-        assert rp.visit_time("NoTime") is None
+
+    @pytest.mark.parametrize(
+        "value",
+        [
+            "9-17",
+            "900",
+            "0400-",
+            "0400-0845-1000",
+            "2500-2600",
+            "abcd-efgh",
+        ],
+    )
+    def test_malformed_visit_time(self, value):
+        content = f"User-Agent: *\nVisit-time: {value}"
+        rp = Protego.parse(content)
+        assert rp.visit_time("FooBot") is None
 
     def test_parse_time_period(self):
         start_time, end_time = _parse_time_period("0100-1000")
@@ -1089,6 +1137,15 @@ class TestProtego:
         start_time, end_time = _parse_time_period("0500 0600", separator=" ")
         assert start_time == time(5, 0)
         assert end_time == time(6, 0)
+
+        # Three-digit values are read as HMM.
+        start_time, end_time = _parse_time_period("900-1700")
+        assert start_time == time(9, 0)
+        assert end_time == time(17, 0)
+
+        for time_period in ["9-17", "18-19", "-", "0900-", "090000-100000"]:
+            with pytest.raises(ValueError, match="Invalid time of day"):
+                _parse_time_period(time_period)
 
     def test_disallow_query_wildcard(self):
         content = "User-agent: * \nDisallow: /*s="
