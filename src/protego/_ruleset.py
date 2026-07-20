@@ -49,8 +49,17 @@ class _RuleSet:
         robotname = robotname.strip().lower()
         if self.user_agent == "*":
             return 1
-        if self.user_agent in robotname:
-            return len(self.user_agent)
+        # Match the product token only at a token boundary. This avoids
+        # false positives such as "bot" matching "mybot", while still
+        # matching a token within a full User-Agent header, e.g.
+        # "Mozilla/5.0 (compatible; Foobot/1.0)" matching "foobot".
+        index = robotname.find(self.user_agent)
+        while index != -1:
+            if index == 0 or not (
+                robotname[index - 1].isalnum() or robotname[index - 1] in "-_"
+            ):
+                return len(self.user_agent)
+            index = robotname.find(self.user_agent, index + 1)
         return 0
 
     def allow(self, pattern: str) -> None:

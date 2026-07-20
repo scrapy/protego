@@ -39,6 +39,32 @@ def test_user_agent_precedence(path, user_agent):
 
 
 @pytest.mark.parametrize(
+    ("robots_user_agent", "crawler_user_agent", "applies"),
+    [
+        # A product token must not match as a substring in the middle of
+        # another token (https://github.com/scrapy/protego/issues/65).
+        ("bot", "mybot", False),
+        ("google", "notgooglebot", False),
+        # Exact matches and boundary prefixes do apply.
+        ("googlebot", "googlebot", True),
+        ("googlebot", "googlebot-news", True),
+        ("google", "googlebot-mobile", True),
+        # A token embedded in a full User-Agent header still applies.
+        ("foobot", "Mozilla/5.0 (compatible; Foobot/1.0)", True),
+        # Matching is case-insensitive.
+        ("foobot", "FOOBOT", True),
+    ],
+)
+def test_user_agent_boundary_matching(robots_user_agent, crawler_user_agent, applies):
+    content = f"User-Agent: {robots_user_agent}\nDisallow: /private\n"
+    rp = Protego.parse(content=content)
+    # When the group applies, /private is disallowed for the crawler.
+    assert (
+        not rp.can_fetch("http://example.com/private", crawler_user_agent)
+    ) == applies
+
+
+@pytest.mark.parametrize(
     ("pattern", "path", "match"),
     [
         ("/", "/harry", True),
