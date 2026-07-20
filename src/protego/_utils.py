@@ -6,12 +6,18 @@ from urllib.parse import ParseResult, quote, urlparse, urlunparse
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
 
 
+def _parse_time_of_day(value: str) -> time:
+    """Parse an HMM or HHMM time-of-day value."""
+    value = value.strip()
+    if not (3 <= len(value) <= 4 and value.isascii() and value.isdigit()):
+        raise ValueError(f"Invalid time of day: {value!r}")
+    return time(int(value[:-2]), int(value[-2:]))
+
+
 def _parse_time_period(time_period: str, separator: str = "-") -> tuple[time, time]:
     """Parse a string with a time period into a tuple of start and end times."""
     start_time_str, end_time_str = time_period.split(separator)
-    start_time = time(int(start_time_str[:2]), int(start_time_str[-2:]))
-    end_time = time(int(end_time_str[:2]), int(end_time_str[-2:]))
-    return start_time, end_time
+    return _parse_time_of_day(start_time_str), _parse_time_of_day(end_time_str)
 
 
 def _unquote(url: str, ignore: str = "", errors: str = "replace") -> str:

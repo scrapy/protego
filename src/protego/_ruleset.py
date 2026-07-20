@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import math
 from typing import TYPE_CHECKING, NamedTuple
 
 from ._urlpattern import _URLPattern
@@ -108,13 +109,17 @@ class _RuleSet:
     @crawl_delay.setter
     def crawl_delay(self, delay: str) -> None:
         try:
-            self._crawl_delay = float(delay)
+            parsed_delay = float(delay)
         except ValueError:
+            parsed_delay = None
+        if parsed_delay is None or not math.isfinite(parsed_delay) or parsed_delay < 0:
             # Value is malformed, do nothing.
             logger.debug(
                 f"Malformed rule at line {self._parser_instance._total_line_seen} : "
                 f"cannot set crawl delay to '{delay}'. Ignoring this rule."
             )
+            return
+        self._crawl_delay = parsed_delay
 
     @property
     def request_rate(self) -> RequestRate | None:
@@ -138,6 +143,9 @@ class _RuleSet:
                 time_unit = "s"
                 seconds = int(seconds_str)
             requests = int(requests_str)
+
+            if requests <= 0 or seconds <= 0:
+                raise ValueError(f"Request rate must be positive: {value!r}")
 
             if time_unit == "m":
                 seconds *= 60
@@ -168,7 +176,12 @@ class _RuleSet:
     @visit_time.setter
     def visit_time(self, value: str) -> None:
         try:
-            start_time, end_time = _parse_time_period(value, separator=" ")
+            try:
+                # "0400-0845"
+                start_time, end_time = _parse_time_period(value)
+            except ValueError:
+                # "0400 0845"
+                start_time, end_time = _parse_time_period(value, separator=" ")
         except Exception:
             logger.debug(
                 f"Malformed rule at line {self._parser_instance._total_line_seen} : "
