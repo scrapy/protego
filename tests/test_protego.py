@@ -688,6 +688,108 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/path1", "testbot")
         assert rp.can_fetch("https://site.local/path2", "testbot")
 
+    def test_empty_user_agent_line(self):
+        """A user agent line with no value still starts a new record group."""
+        content = """
+        User-Agent: alpha
+        Disallow: /x
+        User-Agent:
+        User-Agent: beta
+        Disallow: /y
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/x", "alpha")
+        assert rp.can_fetch("https://site.local/y", "alpha")
+        assert rp.can_fetch("https://site.local/x", "beta")
+        assert not rp.can_fetch("https://site.local/y", "beta")
+
+        # Rules following a lone empty user agent line apply to no one.
+        content = """
+        User-Agent: alpha
+        Disallow: /x
+        User-Agent:
+        Disallow: /y
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/x", "alpha")
+        assert rp.can_fetch("https://site.local/y", "alpha")
+
+        # An empty user agent line between two user agent lines does not
+        # split their group.
+        content = """
+        User-Agent: alpha
+        User-Agent:
+        User-Agent: beta
+        Disallow: /x
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/x", "alpha")
+        assert not rp.can_fetch("https://site.local/x", "beta")
+
+        # A colon-less, value-less user agent line behaves the same as
+        # "User-Agent:".
+        content = """
+        User-Agent: alpha
+        Disallow: /x
+        user agent
+        Disallow: /y
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/x", "alpha")
+        assert rp.can_fetch("https://site.local/y", "alpha")
+
+    def test_global_directives_do_not_split_groups(self):
+        """Sitemap and Host lines are site-wide; consecutive user agent lines
+        form a single group across them."""
+        content = """
+        User-Agent: one
+        Sitemap: https://site.local/sitemap.xml
+        User-Agent: two
+        Host: www.site.local
+        User-Agent: three
+        Disallow: /disallowed
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/disallowed", "one")
+        assert not rp.can_fetch("https://site.local/disallowed", "two")
+        assert not rp.can_fetch("https://site.local/disallowed", "three")
+        assert list(rp.sitemaps) == ["https://site.local/sitemap.xml"]
+        assert rp.preferred_host == "www.site.local"
+
+        # They do not prevent a legitimate group split either.
+        content = """
+        User-Agent: one
+        Disallow: /disallowed
+        Sitemap: https://site.local/sitemap.xml
+        User-Agent: two
+        Crawl-delay: 5
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/disallowed", "one")
+        assert rp.can_fetch("https://site.local/disallowed", "two")
+        assert rp.crawl_delay("one") is None
+        assert rp.crawl_delay("two") == 5.0
+
+    def test_preferred_host_before_user_agent(self):
+        """Host, like Sitemap, is a site-wide directive and needs no
+        preceding user agent line."""
+        content = """
+        Host: www.site.local
+        Sitemap: https://site.local/sitemap.xml
+        """
+        rp = Protego.parse(content=content)
+        assert rp.preferred_host == "www.site.local"
+        assert list(rp.sitemaps) == ["https://site.local/sitemap.xml"]
+
+        content = """
+        Host: www.site.local
+        User-Agent: *
+        Disallow: /disallowed
+        """
+        rp = Protego.parse(content=content)
+        assert rp.preferred_host == "www.site.local"
+        assert not rp.can_fetch("https://site.local/disallowed", "FooBot")
+
     def test_1994rfc_example(self):
         """Test parser on examples form 1994 RFC."""
         content = """
@@ -908,6 +1010,103 @@ class TestProtego:
         rp = Protego.parse(content=wildcards_in_user_agent)
         assert not rp.can_fetch("http://foo.bar/myprofile", "foo*bot")
         assert not rp.can_fetch("http://foo.bar/myprofile", "foobot")
+
+    def test_generosity_case_insensitivity(self):
+        """Colon-less directive lines are salvaged regardless of case."""
+        content = """
+        User-Agent FooBot
+        Disallow /disallowed
+        Allow /disallowed/exception
+        Crawl-delay 5
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/disallowed", "FooBot")
+        assert rp.can_fetch("https://site.local/disallowed/exception", "FooBot")
+        assert rp.can_fetch("https://site.local/disallowed", "BarBot")
+        assert rp.crawl_delay("FooBot") == 5.0
+
+    def test_generosity_visit_time(self):
+        """Colon-less Visit-time lines are salvaged like other directives."""
+        content = """
+        User-agent: *
+        visit-time 0200 0630
+        """
+        rp = Protego.parse(content=content)
+        visit_time = rp.visit_time("FooBot")
+        assert visit_time is not None
+        assert visit_time.start_time == time(2, 0)
+        assert visit_time.end_time == time(6, 30)
+
+    def test_generosity_sitemap(self):
+        """A colon-less Sitemap line still contains a colon in its URL value,
+        so it is parsed as "<field>:<value>" with a nonsense field before the
+        space-separated fallback can salvage it."""
+        content = """
+        User-agent: *
+        Disallow: /disallowed
+        Sitemap https://site.local/sitemap.xml
+        """
+        rp = Protego.parse(content=content)
+        assert list(rp.sitemaps) == ["https://site.local/sitemap.xml"]
+        assert not rp.can_fetch("https://site.local/disallowed", "FooBot")
+
+    def test_generosity_not_for_unknown_colon_directives(self):
+        """A line with an unknown "<field>: <value>" directive is ignored,
+        even if it starts with a directive name; only a colon that cannot be
+        a field separator (e.g. inside a URL) triggers the space-separated
+        fallback."""
+        content = """
+        User-agent: *
+        Disallow: /disallowed
+        User-agent must match exactly: see the docs
+        Allow: /disallowed/exception
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/disallowed", "FooBot")
+        assert rp.can_fetch("https://site.local/disallowed/exception", "FooBot")
+
+        content = """
+        Host: www.site.local
+        Host name: www.other.example
+        Sitemap index: see https://site.local/sitemap.xml
+        """
+        rp = Protego.parse(content=content)
+        assert rp.preferred_host == "www.site.local"
+        assert list(rp.sitemaps) == []
+
+    def test_generosity_tab_separated(self):
+        """Colon-less directive lines may use any whitespace as the
+        field-value separator."""
+        content = "User-agent: *\nDisallow\t/disallowed"
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/disallowed", "FooBot")
+
+    def test_empty_field_line_does_not_merge_groups(self):
+        """A line with an empty field (e.g. a stray ":") is ignored and does
+        not prevent the next user agent line from starting a new group."""
+        content = """
+        User-Agent: alpha
+        Disallow: /x
+        :
+        User-Agent: beta
+        Disallow: /y
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/x", "alpha")
+        assert rp.can_fetch("https://site.local/y", "alpha")
+        assert not rp.can_fetch("https://site.local/y", "beta")
+
+        content = """
+        User-Agent: alpha
+        Disallow: /x
+        : foo
+        User-Agent: beta
+        Disallow: /y
+        """
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("https://site.local/x", "alpha")
+        assert rp.can_fetch("https://site.local/y", "alpha")
+        assert not rp.can_fetch("https://site.local/y", "beta")
 
     def test_directive_case_insensitivity(self):
         content = """
