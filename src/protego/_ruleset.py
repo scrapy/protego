@@ -73,8 +73,15 @@ class _RuleSet:
         self._rules.append(_Rule(field="allow", value=_URLPattern(pattern)))
 
         # If index.html is allowed, we interpret this as / being allowed too.
-        if pattern.endswith("/index.html"):
-            self.allow(pattern[:-10] + "$")
+        page = "index.html"
+        if pattern.endswith(f"/{page}"):
+            # Add the rule directly; going through allow() would treat the
+            # "$" anchor as a literal dollar sign too.
+            self._rules.append(
+                _Rule(
+                    field="allow", value=_URLPattern(pattern.removesuffix(page) + "$")
+                )
+            )
 
     def disallow(self, pattern: str) -> None:
         if "$" in pattern:

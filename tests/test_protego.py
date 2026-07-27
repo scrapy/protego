@@ -1179,6 +1179,9 @@ class TestProtego:
         assert rp.can_fetch("http://foo.com/allowed-slash/index.html", "footbot")
         assert not rp.can_fetch("http://foo.com/allowed-slash/index.htm", "footbot")
         assert not rp.can_fetch("http://foo.com/anyother-url", "footbot")
+        # The "$" anchor of the added directory rule must not leak a rule
+        # matching a literal dollar sign.
+        assert not rp.can_fetch("http://foo.com/allowed-slash/$budget", "footbot")
 
     def test_percentage_encoding(self):
         content = (
