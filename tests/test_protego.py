@@ -194,7 +194,7 @@ class TestProtego:
         assert rp.crawl_delay("testbot") == value
 
     @pytest.mark.parametrize(
-        "value", ["random_word", "-5", "-0.5", "inf", "-inf", "nan"]
+        "value", ["random_word", "-5", "-0.5", "inf", "-inf", "nan", "1_000", "1e2"]
     )
     def test_malformed_crawl_delay(self, value: str) -> None:
         content = (
@@ -331,6 +331,8 @@ class TestProtego:
             "1/0",
             "0/0",
             "1/-5",
+            "1_0/5",
+            "1/1_0",
             # A malformed time window invalidates the whole rule.
             "1/5 9-17",
         ],

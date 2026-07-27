@@ -20,6 +20,23 @@ def _parse_time_period(time_period: str, separator: str = "-") -> tuple[time, ti
     return _parse_time_of_day(start_time_str), _parse_time_of_day(end_time_str)
 
 
+def _parse_int(value: str) -> int:
+    """Parse a plain decimal integer, rejecting other forms that int()
+    accepts, such as "1_0", "+5" or non-ASCII digits."""
+    if not (value.isascii() and value.isdigit()):
+        raise ValueError(f"Invalid integer: {value!r}")
+    return int(value)
+
+
+def _parse_float(value: str) -> float:
+    """Parse a plain non-negative decimal number, rejecting other forms that
+    float() accepts, such as "1_000", "1e2", "inf" or "-5"."""
+    integral = value.replace(".", "", 1)
+    if not (integral.isascii() and integral.isdigit()):
+        raise ValueError(f"Invalid number: {value!r}")
+    return float(value)
+
+
 def _unquote(url: str, ignore: str = "", errors: str = "replace") -> str:
     """Replace %xy escapes by their single-character equivalent."""
     if "%" not in url:

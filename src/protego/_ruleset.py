@@ -5,7 +5,14 @@ import math
 from typing import TYPE_CHECKING, NamedTuple
 
 from ._urlpattern import _URLPattern
-from ._utils import _hexescape, _parse_time_period, _quote_path, _quote_pattern
+from ._utils import (
+    _hexescape,
+    _parse_float,
+    _parse_int,
+    _parse_time_period,
+    _quote_path,
+    _quote_pattern,
+)
 
 if TYPE_CHECKING:
     from datetime import time
@@ -109,7 +116,7 @@ class _RuleSet:
     @crawl_delay.setter
     def crawl_delay(self, delay: str) -> None:
         try:
-            parsed_delay = float(delay)
+            parsed_delay = _parse_float(delay)
         except ValueError:
             parsed_delay = None
         if parsed_delay is None or not math.isfinite(parsed_delay) or parsed_delay < 0:
@@ -138,11 +145,11 @@ class _RuleSet:
             requests_str, seconds_str = rate.split("/")
             time_unit = seconds_str[-1].lower()
             if time_unit in ("s", "m", "h", "d"):
-                seconds = int(seconds_str[:-1])
+                seconds = _parse_int(seconds_str[:-1])
             else:
                 time_unit = "s"
-                seconds = int(seconds_str)
-            requests = int(requests_str)
+                seconds = _parse_int(seconds_str)
+            requests = _parse_int(requests_str)
 
             if requests <= 0 or seconds <= 0:
                 raise ValueError(f"Request rate must be positive: {value!r}")
