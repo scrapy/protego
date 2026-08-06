@@ -1,0 +1,2 @@
+robotexclusionrulesparser==1.7.1
+robotspy==0.13.0

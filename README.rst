@@ -86,27 +86,79 @@ Comparison
 ==========
 
 The following table compares Protego to the most popular ``robots.txt`` parsers
-implemented in Python or featuring Python bindings:
+implemented in Python. Performance is the speed difference against Protego,
+measured as executed instructions, so a positive value means faster than
+Protego.
 
-+----------------------------+---------+-----------------+--------+---------------------------+
-|                            | Protego | RobotFileParser | Reppy  | Robotexclusionrulesparser |
-+============================+=========+=================+========+===========================+
-| Implementation language    | Python  | Python          | C++    | Python                    |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| Reference specification    | Google_ | `Martijn Koster’s 1996 draft`_                       |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| `Wildcard support`_        | ✓       |                 | ✓      | ✓                         |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| `Length-based precedence`_ | ✓       |                 | ✓      |                           |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| Performance_               |         | +40%            | +1300% | -25%                      |
-+----------------------------+---------+-----------------+--------+---------------------------+
+.. comparison-table-start
 
-.. _Google: https://developers.google.com/search/reference/robots_txt
-.. _Length-based precedence: https://developers.google.com/search/reference/robots_txt#order-of-precedence-for-group-member-lines
-.. _Martijn Koster’s 1996 draft: https://www.robotstxt.org/norobots-rfc.txt
-.. _Performance: https://anubhavp28.github.io/gsoc-weekly-checkin-12/
-.. _Wildcard support: https://developers.google.com/search/reference/robots_txt#url-matching-based-on-path-values
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+
+   * -
+     - Protego
+     - RobotFileParser
+     - robotspy
+     - Robotexclusionrulesparser
+   * - Version tested
+     -
+     - Python 3.14.7
+     - 0.13.0
+     - 1.7.1
+   * - Reference specification
+     - Google_
+     - `Martijn Koster's 1996 draft`_
+     - `RFC 9309`_
+     - `Martijn Koster's 1996 draft`_
+   * - `Wildcard support`_
+     - ✓
+     -
+     - ✓
+     - ✓
+   * - `Length-based precedence`_
+     - ✓
+     -
+     - ✓
+     -
+   * - Crawl-delay
+     - ✓
+     - ✓
+     -
+     -
+   * - Request-rate
+     - ✓
+     -
+     -
+     -
+   * - Visit-time
+     - ✓
+     -
+     -
+     -
+   * - Sitemaps
+     - ✓
+     - ✓
+     - ✓
+     - ✓
+   * - Host
+     - ✓
+     -
+     -
+     -
+   * - Performance
+     -
+     - +40%
+     -
+     - -25%
+
+.. comparison-table-end
+
+.. _Google: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
+.. _Length-based precedence: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#order-of-precedence-for-rules
+.. _Martijn Koster's 1996 draft: https://www.robotstxt.org/norobots-rfc.txt
+.. _RFC 9309: https://www.rfc-editor.org/rfc/rfc9309
+.. _Wildcard support: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#url-matching-based-on-path-values
 
 
 API Reference
