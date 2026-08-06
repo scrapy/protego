@@ -58,7 +58,7 @@ def _quote_path(path: str) -> str:
     """Return percent encoded path."""
     parts = urlparse(path)
     path = _unquote(parts.path, ignore="/%")
-    path = quote(path, safe="/%")
+    path = quote(path, safe="/%=")
 
     parts = ParseResult("", "", path, parts.params, parts.query, parts.fragment)
     path = urlunparse(parts)

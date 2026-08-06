@@ -1358,6 +1358,20 @@ class TestProtego:
 
 
 @pytest.mark.parametrize(
+    ("url", "allowed"),
+    [
+        ("https://example.com/1/filter/page=5/", True),
+        ("https://example.com/1/filter/page%3D5/", True),
+        ("https://example.com/1/filter/page=5/x", False),
+    ],
+)
+def test_equal_sign_in_path(url, allowed):
+    content = "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n"
+    rp = Protego.parse(content)
+    assert rp.can_fetch(url, "*") == allowed
+
+
+@pytest.mark.parametrize(
     ("allow", "disallow", "url", "allowed"),
     [
         ("*/p", "/", "http://example.com/page", True),
