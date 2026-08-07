@@ -948,6 +948,16 @@ class TestProtego:
         assert not rp.can_fetch("/", "SomeOtherBot")
         assert not rp.can_fetch("/blahblahblah", "SomeOtherBot")
 
+    def test_robotstxt_is_always_allowed(self):
+        content = """
+        User-agent: *
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+        assert rp.can_fetch("/robots.txt", "foobot")
+        assert rp.can_fetch("http://www.example.com/robots.txt", "foobot")
+        assert not rp.can_fetch("http://www.example.com/a/robots.txt", "foobot")
+
     def test_grouping_unknown_keys(self):
         """
         When we encounter unknown keys, we should disregard any grouping that may have
