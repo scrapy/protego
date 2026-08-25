@@ -3,13 +3,25 @@ on:
   push:
     branches: [master]
   pull_request:
+    paths:
+    - src/**
+    - benchmarks/**
+    - .github/workflows/benchmarks.yml
+    - tox.ini
+  workflow_dispatch:
 
-permissions:
-  contents: read
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+permissions: {}
 
 jobs:
   codspeed:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write  # OIDC authentication with CodSpeed
     env:
       # Hash randomization perturbs dict and set behaviour, which shows up as
       # jitter in instruction counts.
@@ -29,7 +41,6 @@ jobs:
 
     - uses: CodSpeedHQ/action@0ca9cbbf4623b599a6c3ed4fc8a922942705d9f1 # v5.0.2
       with:
-        token: ${{ secrets.CODSPEED_TOKEN }}
         mode: simulation
         exclude-allocations: true
         run: tox -e benchmarks
