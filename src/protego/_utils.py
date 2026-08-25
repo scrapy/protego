@@ -1,9 +1,16 @@
 from __future__ import annotations
 
 from datetime import time
-from urllib.parse import ParseResult, quote, urlparse, urlunparse
+from urllib.parse import quote, urlsplit
 
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
+
+# Characters kept verbatim while percent-encoding a URL for comparison: the
+# path separator, and "%" so that escapes already present are not doubled.
+_SAFE = "/%"
+
+# Patterns additionally keep "*", which stands for any sequence of characters.
+_PATTERN_SAFE = f"{_SAFE}*"
 
 
 def _parse_time_of_day(value: str) -> time:
@@ -54,35 +61,46 @@ def _hexescape(char: str) -> str:
     return f"%{ord(char):02X}"
 
 
-def _quote_path(path: str) -> str:
-    """Return percent encoded path."""
-    parts = urlparse(path)
-    path = _unquote(parts.path, ignore="/%")
-    path = quote(path, safe="/%")
+def _quote(value: str, safe: str) -> str:
+    """Return *value* with its percent-encoding normalized.
 
-    parts = ParseResult("", "", path, parts.params, parts.query, parts.fragment)
-    path = urlunparse(parts)
-    return path or "/"
+    Escapes of characters that need none are decoded, characters that do need
+    one are encoded, and the characters in *safe* are left as they are. Both
+    sides of a comparison must be normalized with the same *safe* set, or
+    equivalent strings end up spelled differently.
+    """
+    return quote(_unquote(value, ignore=safe), safe=safe)
+
+
+def _quote_path(url: str) -> str:
+    """Return the path and query of *url*, normalized for comparison.
+
+    The scheme, the authority and the fragment are dropped, since rules never
+    match against them.
+    """
+    url = url.partition("#")[0]
+    parts = urlsplit(url)
+    path = parts.path
+    # A "?" with nothing after it is still part of what rules match against.
+    if "?" in url:
+        path += f"?{parts.query}"
+    path = _quote(path, safe=_SAFE)
+    return path if path.startswith("/") else f"/{path}"
 
 
 def _quote_pattern(pattern: str) -> str:
+    """Return *pattern* normalized for comparison.
+
+    A trailing "$", which anchors the pattern to the end of the URL, is kept
+    as it is; a "$" anywhere else is an ordinary character.
+    """
+    # A rule written as an absolute URL matches a path with that URL in it,
+    # which is what the site owner who wrote it by mistake gets.
     if pattern.startswith(("https://", "http://")):
-        pattern = "/" + pattern
-    if pattern.startswith("//"):
-        pattern = "//" + pattern
+        pattern = f"/{pattern}"
 
-    # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
-    # Save the last character otherwise, urlparse will kill it.
-    last_char = ""
-    if pattern[-1] == "?" or pattern[-1] == ";" or pattern[-1] == "$":
-        last_char = pattern[-1]
+    anchor = ""
+    if pattern.endswith("$"):
+        anchor = "$"
         pattern = pattern[:-1]
-
-    parts = urlparse(pattern)
-    pattern = _unquote(parts.path, ignore="/*$%")
-    pattern = quote(pattern, safe="/*%=")
-
-    parts = ParseResult(
-        "", "", pattern + last_char, parts.params, parts.query, parts.fragment
-    )
-    return urlunparse(parts)
+    return _quote(pattern, safe=_PATTERN_SAFE) + anchor

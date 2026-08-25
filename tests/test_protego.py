@@ -1209,6 +1209,29 @@ class TestProtego:
         assert rp.can_fetch("http://foo.bar/foo/bar/baz", "FooBot")
         assert rp.can_fetch("http://foo.bar/foo/bar/%62%61%7A", "FooBot")
 
+    def test_percentage_encoding_query(self):
+        """Queries are encoded like paths, so that a rule matches a URL
+        regardless of how either of the two spells a character."""
+        content = "User-agent: FooBot\nDisallow: /en-uk/*q=*relevance*\n"
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch(
+            "http://foo.bar/en-uk/c/4018?q=%3Arelevance%3Atype%3AFood", "FooBot"
+        )
+        assert not rp.can_fetch("http://foo.bar/en-uk/c/4018?q=:relevance", "FooBot")
+        assert rp.can_fetch("http://foo.bar/en-uk/c/4018?q=:price", "FooBot")
+
+        content = "User-agent: FooBot\nDisallow: /\nAllow: /foo?bar=ツ\n"
+        rp = Protego.parse(content=content)
+        assert rp.can_fetch("http://foo.bar/foo?bar=ツ", "FooBot")
+        assert rp.can_fetch("http://foo.bar/foo?bar=%E3%83%84", "FooBot")
+        assert rp.can_fetch("http://foo.bar/foo?bar=%e3%83%84", "FooBot")
+
+        # A parameter and a query are matched against, a fragment is not.
+        content = "User-agent: FooBot\nDisallow: /foo;a=b?c=d$\n"
+        rp = Protego.parse(content=content)
+        assert not rp.can_fetch("http://foo.bar/foo;a=b?c=d", "FooBot")
+        assert not rp.can_fetch("http://foo.bar/foo;a=b?c=d#e", "FooBot")
+
     def test_url_case_sensitivity(self):
         content = "user-agent: FooBot\ndisallow: /x/\n"
         rp = Protego.parse(content=content)
