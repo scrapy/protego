@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 from typing import TYPE_CHECKING
+from urllib.parse import urlparse
 
 from ._ruleset import RequestRate, VisitTime, _RuleSet
 
@@ -259,6 +260,8 @@ class Protego:
 
     def can_fetch(self, url: str, user_agent: str) -> bool:
         """Return True if the user agent can fetch the URL, otherwise return False."""
+        if urlparse(url).path == "/robots.txt":
+            return True
         matched_rule_set = self._get_matching_rule_set(user_agent)
         if not matched_rule_set:
             return True
