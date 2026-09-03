@@ -21,3 +21,6 @@ dist/
 .coverage
 .coverage.*
 coverage.*
+
+# test reports
+testenv.junit.xml

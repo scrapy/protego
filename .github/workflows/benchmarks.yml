@@ -1,0 +1,42 @@
+name: Benchmarks
+on:
+  push:
+    branches: [master]
+  pull_request:
+    paths:
+    - src/**
+    - benchmarks/**
+    - .github/workflows/benchmarks.yml
+    - tox.ini
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  codspeed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write  # OIDC authentication with CodSpeed
+    steps:
+    - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+      with:
+        persist-credentials: false
+
+    - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+      with:
+        python-version: "3.14.7"
+
+    - name: Install
+      run: |
+        pip install -U tox
+
+    - uses: CodSpeedHQ/action@0ca9cbbf4623b599a6c3ed4fc8a922942705d9f1 # v5.0.2
+      with:
+        mode: simulation
+        exclude-allocations: true
+        run: tox -e benchmarks
