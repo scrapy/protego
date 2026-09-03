@@ -113,12 +113,12 @@ Protego.
      - `Martijn Koster's 1996 draft`_
    * - `Wildcard support`_
      - ✓
-     -
+     - ✓
      - ✓
      - ✓
    * - `Length-based precedence`_
      - ✓
-     -
+     - ✓
      - ✓
      -
    * - Crawl-delay
@@ -148,9 +148,9 @@ Protego.
      -
    * - Performance
      -
-     - +40%
-     -
-     - -25%
+     - +5%
+     - +180%
+     - +206%
 
 .. comparison-table-end
 
