@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://bunny.net/sitemap.xml
+Host: https://bunny.net

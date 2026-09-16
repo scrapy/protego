@@ -1,0 +1,211 @@
+
+# version: 958ed1a58c8ce418427283859a5538a5ce0eb62d
+# The BBC's Terms of Use: https://www.bbc.co.uk/terms
+# - Explain the rules for using our services
+# - Tell you what you can do with our content
+#
+# In short: Please use our site like a human, not a robot.
+# That means:
+# - No scraping, crawling, or systematic extraction of content 
+# - No use of BBC content for training or fine-tuning AI models, including large language models (LLMs)
+# - No retrieval-augmented generation (RAG), AI-powered search, agentic AI or grounding using BBC content
+# - No creating datasets from BBC content
+# - No text and data mining (TDM) under Article 4 of the EU Directive on Copyright in the Digital Single Market
+# - No using BBC content to create summaries for your own use
+# - No business use without permission (details: https://www.bbc.co.uk/usingthebbc/terms/can-i-use-bbc-content-for-my-business/)
+# - The BBC reserves all rights in its content and expressly opts out of any statutory exceptions in any jurisdiction for text and data mining, as permitted by law
+ 
+# TL;DR: Browse, read, watch, enjoy - like a human.
+#
+
+# HTTPS www.bbc.co.uk
+
+User-agent: *
+Sitemap: https://www.bbc.co.uk/sitemap.xml
+Sitemap: https://www.bbc.co.uk/sitemaps/https-index-uk-archive.xml
+Sitemap: https://www.bbc.co.uk/sitemaps/https-index-uk-news.xml
+Sitemap: https://www.bbc.co.uk/food/sitemap.xml
+Sitemap: https://www.bbc.co.uk/bitesize/sitemap/sitemapindex.xml
+Sitemap: https://www.bbc.co.uk/teach/sitemap/sitemapindex.xml
+Sitemap: https://www.bbc.co.uk/sitemaps/https-index-uk-archive_video.xml
+Sitemap: https://www.bbc.co.uk/sitemaps/https-index-uk-video.xml
+Sitemap: https://www.bbc.co.uk/sitemaps/sitemap-uk-ws-topics.xml
+Sitemap: https://www.bbc.co.uk/sport/sitemap.xml
+Sitemap: https://www.bbc.co.uk/sitemaps/sitemap-uk-topics.xml
+Sitemap: https://www.bbc.co.uk/ideas/sitemap.xml
+Sitemap: https://www.bbc.co.uk/tiny-happy-people/sitemap/sitemapindex.xml
+
+Disallow: /asset/
+Disallow: /backstage/bbc-login-help/
+Disallow: /backstage/bbc-login-help$
+Disallow: /bitesize/search$
+Disallow: /bitesize/search/
+Disallow: /bitesize/search?
+Disallow: /cbbc/search$
+Disallow: /cbbc/search/
+Disallow: /cbbc/search?
+Disallow: /cbeebies/search$
+Disallow: /cbeebies/search/
+Disallow: /cbeebies/search?
+Disallow: /chwilio/
+Disallow: /chwilio$
+Disallow: /chwilio?
+Disallow: /iplayer/bigscreen/
+Disallow: /iplayer/cbbc/episodes/
+Disallow: /iplayer/cbbc/search
+Disallow: /iplayer/cbeebies/episodes/
+Disallow: /iplayer/cbeebies/search
+Disallow: /iplayer/search
+Disallow: /indepthtoolkit/smallprox$
+Disallow: /indepthtoolkit/smallprox/
+Disallow: /moderation/reports/
+Disallow: /modules/musicnav/language/
+Disallow: /news/0
+Disallow: /radio/aod/
+Disallow: /radio/aod$
+Disallow: /radio/imda
+Disallow: /radio/player/
+Disallow: /radio/player$
+Disallow: /search/
+Disallow: /search$
+Disallow: /search?
+Disallow: /sport/alpha/
+Disallow: /sounds/player/
+Disallow: /sounds/player$
+Disallow: /ugc$
+Disallow: /ugc/
+Disallow: /ugcsupport$
+Disallow: /ugcsupport/
+Disallow: /userinfo/
+Disallow: /userinfo
+Disallow: /food/favourites
+Disallow: /food/menus/*/shopping-list
+Disallow: /food/recipes/*/shopping-list
+Disallow: /food/search*?*
+Disallow: /sounds/search$
+Disallow: /sounds/search/
+Disallow: /sounds/search?
+Disallow: /ws/includes
+Disallow: /rd/search$
+Disallow: /rd/search/
+Disallow: /rd/search?
+Disallow: /things/search$
+Disallow: /things/search/
+Disallow: /things/search?
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-Agent: omgili
+Disallow: /
+ 
+User-Agent: omgilibot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+ 
+User-agent: Claude-Web
+Disallow: /
+ 
+User-agent: anthropic-ai
+Disallow: /
+ 
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-Agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: YandexAdditional
+Disallow: /
+
+User-agent: YandexAdditionalBot
+Disallow: /
+
+User-agent: TurnitinBot
+Disallow: /
+
+User-agent: Brightbot
+Disallow: /
+
+User-agent: ApifyBot
+Disallow: /
+
+User-agent: ApifyWebsiteContentCrawler
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Diffbot-User
+Disallow: /
+
+User-agent: ExaBot
+Disallow: /
+
+User-agent: TavilyBot
+Disallow: /
+
+User-agent: ShapBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: FirecrawlAgent
+Disallow:/
+
+User-agent: Amzn-SearchBot
+Disallow: /
+
+User-agent: Amzn-User
+Disallow: /
+
+User-agent: ProRataInc
+Disallow: /
+
+User-agent: CloudflareBrowserRenderingCrawler
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /afs/
+Disallow: /cgi-bin/
+Disallow: /user/
+Disallow: /org/
+Disallow: /activity/
+Disallow: /contrib/
+Disallow: /dept/
+Disallow: /software/
+Disallow: /bin/
+Disallow: */Public/*

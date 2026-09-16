@@ -1,0 +1,17 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://www.harvard.edu/sitemap_index.xml
+Sitemap: https://www.harvard.edu/president/sitemap_index.xml
+Sitemap: https://www.harvard.edu/media-relations/sitemap_index.xml
+Sitemap: https://www.harvard.edu/climate-and-sustainability/sitemap_index.xml
+Sitemap: https://www.harvard.edu/wellbeing/sitemap_index.xml
+Sitemap: https://www.harvard.edu/guidelines/sitemap_index.xml
+Sitemap: https://www.harvard.edu/ai/sitemap_index.xml
+Sitemap: https://www.harvard.edu/community/sitemap_index.xml
+Sitemap: https://legacyofslavery.harvard.edu/sitemap_index.xml
+Sitemap: https://www.harvard.edu/federal-lawsuits/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

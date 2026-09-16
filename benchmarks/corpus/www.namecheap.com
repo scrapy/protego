@@ -1,0 +1,50 @@
+User-agent: *
+
+Disallow: /blog/wp-admin/
+Allow: /status-updates/wp-admin/admin-ajax.php
+Disallow: /status-updates/wp-admin/
+Disallow: /domains/transfer-a-domain/transfer.aspx*
+Disallow: /domains/whois/whois-ajax.aspx*
+Disallow: /Domains/DomainControlPanel/*
+Disallow: /support/knowledgebase/article.aspx?type=article*contentid*
+Disallow: /support/knowledgebase/subcategory.aspx?type=category*contentid*
+
+# parameters
+Disallow: /*app=*
+Disallow: /?Author=*
+Disallow: /*Bpreview=*
+Disallow: /*ca_referer=*
+Disallow: /*cerkl_id=*
+Disallow: /*controlsVisibleOnLoad=*
+Disallow: /*content_title=*
+Disallow: /*conversion-rate=*
+Disallow: /?country=*
+Disallow: /*cta_guid=*
+Disallow: /*eco_language=*
+Disallow: /*gfe_rd=*
+Disallow: /*gh_jid=*
+Disallow: /*hsCtaTracking=*
+Disallow: /*hsFormKey=*
+Disallow: /*hs_amp=*
+Disallow: /*playerColor=*
+Disallow: /*jobid=*
+Disallow: /*library=*
+Disallow: /*marketing_company_auto__c=*
+Disallow: /*MessageRunDetailID=*
+Disallow: /*mimeType=*
+Disallow: /*mobileformat=*
+Disallow: /*modal_active=*
+Disallow: /*msclkid=*
+Disallow: /*PageSpeed=noscript*
+Disallow: /*;preview=*
+Disallow: /*redirect=*
+Disallow: /*reviews_page=*
+Disallow: /*rs=*
+Disallow: /*sections_activeEl=*
+Disallow: /*smclient=*
+Disallow: /*subject=*
+Disallow: /*videoHeight=*
+Disallow: /*videoFoam=*
+
+# Sitemap link
+Sitemap: https://www.namecheap.com/sitemap.xml

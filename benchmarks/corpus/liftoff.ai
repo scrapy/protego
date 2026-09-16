@@ -1,0 +1,5 @@
+User-agent: *
+Crawl-delay: 30
+
+Disallow: /resources/*?*topics=
+Disallow: /resources/*?*type=

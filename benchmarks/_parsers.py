@@ -8,14 +8,11 @@ from importlib.metadata import version
 from typing import TYPE_CHECKING, ClassVar
 from urllib.robotparser import RobotFileParser
 
+from benchmarks._workload import USER_AGENT as _UA
 from protego import Protego
 
 if TYPE_CHECKING:
     from collections.abc import Callable
-
-# A user agent with its own record group in the corpus, so that matching walks
-# its wildcard rules instead of the two plain rules of "*".
-_UA = "ccbot"
 
 
 class _Adapter:
