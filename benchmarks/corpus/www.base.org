@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://base.org/sitemap.xml

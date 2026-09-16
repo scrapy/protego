@@ -1,0 +1,48 @@
+Sitemap: https://wordpress.org/sitemap.xml
+Sitemap: https://wordpress.org/news-sitemap.xml
+Sitemap: https://wordpress.org/themes/sitemap.xml
+Sitemap: https://wordpress.org/plugins/sitemap.xml
+Sitemap: https://wordpress.org/news/sitemap.xml
+Sitemap: https://wordpress.org/showcase/sitemap.xml
+Sitemap: https://wordpress.org/documentation/sitemap.xml
+Sitemap: https://wordpress.org/patterns/sitemap.xml
+Sitemap: https://wordpress.org/photos/sitemap.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Allow: /wp-admin/load-scripts.php
+Allow: /wp-admin/load-styles.php
+
+User-agent: *
+Disallow: /search
+Disallow: /?s=
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Copilot
+Allow: /
+
+User-agent: *
+Disallow: /plugins/search/
