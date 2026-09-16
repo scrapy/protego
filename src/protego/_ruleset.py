@@ -165,7 +165,7 @@ class _RuleSet:
             end_time = None
             if time_period:
                 start_time, end_time = _parse_time_period(time_period)
-        except Exception:
+        except Exception:  # noqa: BLE001
             # Value is malformed, do nothing.
             logger.debug(
                 f"Malformed rule at line {self._parser_instance._total_line_seen} : "
@@ -189,7 +189,7 @@ class _RuleSet:
             except ValueError:
                 # "0400 0845"
                 start_time, end_time = _parse_time_period(value, separator=" ")
-        except Exception:
+        except Exception:  # noqa: BLE001
             logger.debug(
                 f"Malformed rule at line {self._parser_instance._total_line_seen} : "
                 f"cannot set visit time using '{value}'. Ignoring this rule."

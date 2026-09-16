@@ -93,26 +93,76 @@ Comparison
 ==========
 
 The following table compares Protego to the most popular ``robots.txt`` parsers
-implemented in Python or featuring Python bindings:
+implemented in Python. Performance is the speed difference against Protego,
+measured as executed instructions, so a positive value means faster than
+Protego.
 
-+----------------------------+---------+-----------------+--------+---------------------------+
-|                            | Protego | RobotFileParser | Reppy  | Robotexclusionrulesparser |
-+============================+=========+=================+========+===========================+
-| Implementation language    | Python  | Python          | C++    | Python                    |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| Reference specification    | `RFC    | `Martijn Koster’s 1996 draft`_                       |
-|                            | 9309`_  |                                                      |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| `Wildcard support`_        | ✓       |                 | ✓      | ✓                         |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| `Length-based precedence`_ | ✓       |                 | ✓      |                           |
-+----------------------------+---------+-----------------+--------+---------------------------+
-| Performance_               |         | +40%            | +1300% | -25%                      |
-+----------------------------+---------+-----------------+--------+---------------------------+
+.. comparison-table-start
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+
+   * -
+     - Protego
+     - RobotFileParser
+     - robotspy
+     - Robotexclusionrulesparser
+   * - Version tested
+     -
+     - Python 3.14.7
+     - 0.13.0
+     - 1.7.1
+   * - Reference specification
+     - `RFC 9309`_
+     - `Martijn Koster's 1996 draft`_
+     - `RFC 9309`_
+     - `Martijn Koster's 1996 draft`_
+   * - `Wildcard support`_
+     - ✓
+     - ✓
+     - ✓
+     - ✓
+   * - `Length-based precedence`_
+     - ✓
+     - ✓
+     - ✓
+     -
+   * - Crawl-delay
+     - ✓
+     - ✓
+     -
+     -
+   * - Request-rate
+     - ✓
+     -
+     -
+     -
+   * - Visit-time
+     - ✓
+     -
+     -
+     -
+   * - Sitemaps
+     - ✓
+     - ✓
+     - ✓
+     - ✓
+   * - Host
+     - ✓
+     -
+     -
+     -
+   * - Performance
+     -
+     - +5%
+     - +180%
+     - +206%
+
+.. comparison-table-end
 
 .. _Length-based precedence: https://www.rfc-editor.org/rfc/rfc9309.html#section-2.2.2
-.. _Martijn Koster’s 1996 draft: https://www.robotstxt.org/norobots-rfc.txt
-.. _Performance: https://anubhavp28.github.io/gsoc-weekly-checkin-12/
+.. _Martijn Koster's 1996 draft: https://www.robotstxt.org/norobots-rfc.txt
 .. _Wildcard support: https://www.rfc-editor.org/rfc/rfc9309.html#section-2.2.3
 
 
