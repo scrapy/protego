@@ -63,34 +63,46 @@ class _RuleSet:
             index = robotname.find(self.user_agent, index + 1)
         return 0
 
+    def _url_pattern(self, pattern: str) -> _URLPattern | None:
+        """Return the URL pattern for a directive value, or None if the value
+        quotes to nothing.
+
+        The same value usually appears once per user agent in a robots.txt,
+        so patterns are shared across the rule sets of a parser.
+        """
+        cache = self._parser_instance._url_patterns
+        if pattern not in cache:
+            quoted = _quote_pattern(pattern)
+            cache[pattern] = _URLPattern(quoted) if quoted else None
+        return cache[pattern]
+
     def allow(self, pattern: str) -> None:
         if "$" in pattern:
             self.allow(pattern.replace("$", _hexescape("$")))
 
-        pattern = _quote_pattern(pattern)
-        if not pattern:
+        url_pattern = self._url_pattern(pattern)
+        if url_pattern is None:
             return
-        self._rules.append(_Rule(field="allow", value=_URLPattern(pattern)))
+        self._rules.append(_Rule(field="allow", value=url_pattern))
 
         # If index.html is allowed, we interpret this as / being allowed too.
         page = "index.html"
-        if pattern.endswith(f"/{page}"):
+        quoted = url_pattern._pattern
+        if quoted.endswith(f"/{page}"):
             # Add the rule directly; going through allow() would treat the
             # "$" anchor as a literal dollar sign too.
             self._rules.append(
-                _Rule(
-                    field="allow", value=_URLPattern(pattern.removesuffix(page) + "$")
-                )
+                _Rule(field="allow", value=_URLPattern(quoted.removesuffix(page) + "$"))
             )
 
     def disallow(self, pattern: str) -> None:
         if "$" in pattern:
             self.disallow(pattern.replace("$", _hexescape("$")))
 
-        pattern = _quote_pattern(pattern)
-        if not pattern:
+        url_pattern = self._url_pattern(pattern)
+        if url_pattern is None:
             return
-        self._rules.append(_Rule(field="disallow", value=_URLPattern(pattern)))
+        self._rules.append(_Rule(field="disallow", value=url_pattern))
 
     def finalize_rules(self) -> None:
         self._rules.sort(
