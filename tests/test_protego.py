@@ -678,6 +678,21 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/path1", "two")
         assert rp.can_fetch("https://site.local/path2", "two")
 
+    def test_directives_without_path(self):
+        """Values whose path is empty after quoting, such as a bare URL
+        without a path, add no rule."""
+        content = """
+        User-Agent: one
+        Disallow: ftp://site.local
+
+        User-Agent: two
+        Allow: ftp://site.local
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+        assert rp.can_fetch("https://site.local/path", "one")
+        assert not rp.can_fetch("https://site.local/path", "two")
+
     def test_empty_record_group(self):
         content = """
         User-Agent: harrybot
