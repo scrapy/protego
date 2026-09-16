@@ -260,7 +260,7 @@ class Protego:
 
     def can_fetch(self, url: str, user_agent: str) -> bool:
         """Return True if the user agent can fetch the URL, otherwise return False."""
-        if urlparse(url).path == "/robots.txt":
+        if "/robots.txt" in url and urlparse(url).path == "/robots.txt":
             return True
         matched_rule_set = self._get_matching_rule_set(user_agent)
         if not matched_rule_set:
