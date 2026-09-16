@@ -10,8 +10,15 @@ Protego
    :target: https://github.com/scrapy/protego/actions/workflows/tests-ubuntu.yml
    :alt: CI
 
-Protego is a pure-Python ``robots.txt`` parser with support for modern
-conventions.
+Protego is a pure-Python ``robots.txt`` parser. It implements the parsing and
+URL matching rules of `RFC 9309`_, and additionally supports the
+``Crawl-delay``, ``Request-rate``, ``Visit-time`` and ``Host`` extensions.
+
+Fetching ``robots.txt`` is up to you, and so are the parts of `RFC 9309`_ that
+govern it, such as the handling of HTTP status codes and redirects, caching, and
+imposing a parsing limit.
+
+.. _RFC 9309: https://www.rfc-editor.org/rfc/rfc9309.html
 
 
 Install
@@ -107,7 +114,7 @@ Protego.
      - 0.13.0
      - 1.7.1
    * - Reference specification
-     - Google_
+     - `RFC 9309`_
      - `Martijn Koster's 1996 draft`_
      - `RFC 9309`_
      - `Martijn Koster's 1996 draft`_
@@ -154,11 +161,9 @@ Protego.
 
 .. comparison-table-end
 
-.. _Google: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
-.. _Length-based precedence: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#order-of-precedence-for-rules
+.. _Length-based precedence: https://www.rfc-editor.org/rfc/rfc9309.html#section-2.2.2
 .. _Martijn Koster's 1996 draft: https://www.robotstxt.org/norobots-rfc.txt
-.. _RFC 9309: https://www.rfc-editor.org/rfc/rfc9309
-.. _Wildcard support: https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#url-matching-based-on-path-values
+.. _Wildcard support: https://www.rfc-editor.org/rfc/rfc9309.html#section-2.2.3
 
 
 API Reference
@@ -183,6 +188,11 @@ Methods
 
 *   ``can_fetch(url, user_agent)`` Return True if the user agent can fetch the
     URL, otherwise return ``False``.
+
+    *user_agent* may be a product token, such as ``"mybot"``, or a whole
+    ``User-Agent`` header value, such as ``"Mozilla/5.0 (compatible;
+    mybot/1.0)"``; a group applies when its product token appears in
+    *user_agent* at a token boundary.
 
 *   ``crawl_delay(user_agent)`` Return the crawl delay specified for the user
     agent as a float. If nothing is specified, return ``None``.

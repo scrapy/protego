@@ -28,7 +28,7 @@ BASE = 20
 _REFS = re.compile(rb"^==\d+==\s+Collected\s+:\s+([\d,]+)", re.MULTILINE)
 
 _SPEC = {
-    "Protego": "Google_",
+    "Protego": "`RFC 9309`_",
     "RobotFileParser": "`Martijn Koster's 1996 draft`_",
     "robotspy": "`RFC 9309`_",
     "Robotexclusionrulesparser": "`Martijn Koster's 1996 draft`_",
