@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 from datetime import time
-from urllib.parse import ParseResult, quote, urlparse, urlunparse
+from urllib.parse import ParseResult, quote, urlparse
 
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
 
@@ -65,6 +65,17 @@ def _hexescape(char: str) -> str:
     return f"%{ord(char):02X}"
 
 
+def _join(path: str, parts: ParseResult) -> str:
+    """Return *path* with the params, query and fragment of *parts* appended."""
+    if parts.params:
+        path = f"{path};{parts.params}"
+    if parts.query:
+        path = f"{path}?{parts.query}"
+    if parts.fragment:
+        path = f"{path}#{parts.fragment}"
+    return path
+
+
 def _quote_path(path: str) -> str:
     """Return percent encoded path."""
     quoted = _QUOTED_URL(path)
@@ -74,10 +85,7 @@ def _quote_path(path: str) -> str:
     parts = urlparse(path)
     path = _unquote(parts.path, ignore="/%")
     path = quote(path, safe="/%=")
-
-    parts = ParseResult("", "", path, parts.params, parts.query, parts.fragment)
-    path = urlunparse(parts)
-    return path or "/"
+    return _join(path, parts) or "/"
 
 
 def _quote_pattern(pattern: str) -> str:
@@ -99,8 +107,4 @@ def _quote_pattern(pattern: str) -> str:
     parts = urlparse(pattern)
     pattern = _unquote(parts.path, ignore="/*$%")
     pattern = quote(pattern, safe="/*%=")
-
-    parts = ParseResult(
-        "", "", pattern + last_char, parts.params, parts.query, parts.fragment
-    )
-    return urlunparse(parts)
+    return _join(pattern + last_char, parts)
