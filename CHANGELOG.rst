@@ -2,6 +2,12 @@
 Protego changelog
 =================
 
+0.x.x (unreleased)
+==================
+
+-   **Backward-incompatible:** ``Protego.parse()`` now raises a more suitable
+    ``TypeError`` instead of a ``ValueError`` when ``content`` is not a string.
+
 0.6.2 (2026-06-25)
 ==================
 

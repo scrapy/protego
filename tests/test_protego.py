@@ -1306,7 +1306,7 @@ class TestProtego:
 
     def test_bytestrings(self):
         content = b"User-Agent: FootBot\nDisallow: /something"
-        with pytest.raises(ValueError, match=r"Protego\.parse expects str, got bytes"):
+        with pytest.raises(TypeError, match=r"Protego\.parse expects str, got bytes"):
             Protego.parse(content=content)  # type: ignore[arg-type]
 
     def test_leading_double_slash_in_pattern(self):
@@ -1378,6 +1378,20 @@ class TestProtego:
         assert rp.can_fetch("https://www.site.local/", "*")
         assert rp.can_fetch("https://www.site.local/s/", "*")
         assert not rp.can_fetch("https://www.site.local/?s=asd", "*")
+
+
+@pytest.mark.parametrize(
+    ("url", "allowed"),
+    [
+        ("https://example.com/1/filter/page=5/", True),
+        ("https://example.com/1/filter/page%3D5/", True),
+        ("https://example.com/1/filter/page=5/x", False),
+    ],
+)
+def test_equal_sign_in_path(url, allowed):
+    content = "User-agent: *\nAllow: /*/filter/page=*/$\nDisallow: /\n"
+    rp = Protego.parse(content)
+    assert rp.can_fetch(url, "*") == allowed
 
 
 @pytest.mark.parametrize(

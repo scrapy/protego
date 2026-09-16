@@ -120,7 +120,7 @@ class Protego:
     def parse(cls, content: str) -> Self:
         o = cls()
         if not isinstance(content, str):
-            raise ValueError(f"Protego.parse expects str, got {type(content).__name__}")
+            raise TypeError(f"Protego.parse expects str, got {type(content).__name__}")
         o._parse_robotstxt(content)
         return o
 
