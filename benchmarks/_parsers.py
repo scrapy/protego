@@ -13,7 +13,9 @@ from protego import Protego
 if TYPE_CHECKING:
     from collections.abc import Callable
 
-_UA = "mybot"
+# A user agent with its own record group in the corpus, so that matching walks
+# its wildcard rules instead of the two plain rules of "*".
+_UA = "ccbot"
 
 
 class _Adapter:
