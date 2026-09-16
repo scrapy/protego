@@ -155,9 +155,9 @@ Protego.
      -
    * - Performance
      -
-     - +5%
-     - +180%
-     - +206%
+     - -70%
+     - -24%
+     - -21%
 
 .. comparison-table-end
 
