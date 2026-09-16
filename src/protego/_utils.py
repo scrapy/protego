@@ -1,9 +1,20 @@
 from __future__ import annotations
 
+import re
 from datetime import time
 from urllib.parse import ParseResult, quote, urlparse, urlunparse
 
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
+
+# Characters that percent-encoding leaves alone and that urlparse does not read
+# as a delimiter, so that a path made only of them needs no quoting. A path
+# starting with "//" is left out because urlparse reads it as a network
+# location.
+_QUOTED_URL = re.compile(
+    r"(?:[A-Za-z][A-Za-z0-9+.-]*://[^/?#]*)?(/(?!/)[A-Za-z0-9_.~/=-]*)"
+).fullmatch
+# Patterns keep "*" unquoted as well, and their trailing "$" is preserved as is.
+_QUOTED_PATTERN = re.compile(r"(?!//)[A-Za-z0-9_.~/=*-]+\$?").fullmatch
 
 
 def _parse_time_of_day(value: str) -> time:
@@ -56,6 +67,10 @@ def _hexescape(char: str) -> str:
 
 def _quote_path(path: str) -> str:
     """Return percent encoded path."""
+    quoted = _QUOTED_URL(path)
+    if quoted:
+        return quoted[1]
+
     parts = urlparse(path)
     path = _unquote(parts.path, ignore="/%")
     path = quote(path, safe="/%=")
@@ -66,6 +81,9 @@ def _quote_path(path: str) -> str:
 
 
 def _quote_pattern(pattern: str) -> str:
+    if _QUOTED_PATTERN(pattern):
+        return pattern
+
     if pattern.startswith(("https://", "http://")):
         pattern = "/" + pattern
     if pattern.startswith("//"):

@@ -3,7 +3,7 @@ from datetime import time
 import pytest
 
 from protego import Protego
-from protego._utils import _parse_time_period
+from protego._utils import _parse_time_period, _quote_path, _quote_pattern
 
 
 class TestProtego:
@@ -1419,3 +1419,29 @@ def test_redos():
     content = f"User-agent: *\nDisallow: {disallow}\n"
     rp = Protego.parse(content)
     assert rp.can_fetch(url, "*")
+
+
+@pytest.mark.parametrize(
+    ("value", "path", "pattern"),
+    [
+        ("/a/b", "/a/b", "/a/b"),
+        ("/a=b", "/a=b", "/a=b"),
+        ("//host/path", "/path", "//host/path"),
+        ("/a%2fb", "/a%2Fb", "/a%2Fb"),
+        ("/a?b", "/a?b", "/a?b"),
+        ("/a;b", "/a;b", "/a;b"),
+        ("/a:b", "/a%3Ab", "/a%3Ab"),
+        ("/a b", "/a%20b", "/a%20b"),
+        ("/á", "/%C3%A1", "/%C3%A1"),
+        ("/a*b", "/a%2Ab", "/a*b"),
+        ("/a$b", "/a%24b", "/a%24b"),
+        ("/a$", "/a%24", "/a$"),
+        ("https://example.com/a/b", "/a/b", "/https%3A//example.com/a/b"),
+        ("https://example.com/a b", "/a%20b", "/https%3A//example.com/a%20b"),
+        ("https://example.com//a", "//a", "/https%3A//example.com//a"),
+        ("https://example.com", "/", "/https%3A//example.com"),
+    ],
+)
+def test_quoting(value, path, pattern):
+    assert _quote_path(value) == path
+    assert _quote_pattern(value) == pattern
