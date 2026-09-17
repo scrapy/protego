@@ -123,7 +123,7 @@ URLs their homepages link to, and the time taken to parse the files themselves.
      - Robotexclusionrulesparser
    * - Version tested
      -
-     - Python 3.14.3
+     - Python 3.14.7
      - 0.13.0
      - 1.7.1
    * - Reference specification
@@ -133,12 +133,12 @@ URLs their homepages link to, and the time taken to parse the files themselves.
      - `Martijn Koster's 1996 draft`_
    * - `Wildcard support`_
      - ✓
-     -
+     - ✓
      - ✓
      - ✓
    * - `Length-based precedence`_
      - ✓
-     -
+     - ✓
      - ✓
      -
    * - Crawl-delay
@@ -168,14 +168,14 @@ URLs their homepages link to, and the time taken to parse the files themselves.
      -
    * - Matching performance
      -
-     - +1%
+     - -39%
      - -56%
      - -94%
    * - Parsing performance
      -
-     - +167%
-     - +114%
-     - +148%
+     - -55%
+     - +110%
+     - +150%
 
 .. comparison-table-end
 
