@@ -39,6 +39,8 @@ class _RuleSet:
     def __init__(self, parser_instance: Protego):
         self.user_agent: str | None = None
         self._rules: list[_Rule] = []
+        self._plain_prefixes: tuple[str, ...] | None = None
+        self._special_rules: list[_Rule] = []
         self._crawl_delay: float | None = None
         self._req_rate: RequestRate | None = None
         self._visit_time: VisitTime | None = None
@@ -109,11 +111,36 @@ class _RuleSet:
             key=lambda r: (r.value.priority, r.field == "allow"), reverse=True
         )
 
+    def _build_index(self) -> tuple[str, ...]:
+        """Split the rules into the patterns that can only match as a prefix
+        of a URL and the rules that can match otherwise.
+
+        Built on the first match rather than at parse time because a
+        robots.txt declares many rule sets and a crawler queries one.
+        """
+        prefixes = []
+        special = []
+        for rule in self._rules:
+            pattern = rule.value
+            if pattern._contains_asterisk or pattern._contains_dollar:
+                special.append(rule)
+            else:
+                prefixes.append(pattern._pattern)
+        self._special_rules = special
+        self._plain_prefixes = tuple(prefixes)
+        return self._plain_prefixes
+
     def can_fetch(self, url: str) -> bool:
         """Return if the url can be fetched."""
         url = _quote_path(url)
+        # A plain pattern matches only as a prefix of the URL, so a single
+        # startswith over all of them rules every one of them out at once.
+        prefixes = self._plain_prefixes
+        if prefixes is None:
+            prefixes = self._build_index()
+        rules = self._rules if url.startswith(prefixes) else self._special_rules
         allowed = True
-        for rule in self._rules:
+        for rule in rules:
             if rule.value.match(url):
                 if rule.field == "disallow":
                     allowed = False

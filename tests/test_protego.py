@@ -348,6 +348,21 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/index.html", "*")
         assert rp.can_fetch("https://site.local/disallowed", "*")
 
+    def test_wildcard_rule_in_a_rule_set_with_plain_rules(self):
+        content = """User-agent: *
+                     Disallow: /admin/
+                     Disallow: /private/
+                     Disallow: /*.pdf
+                     Disallow: /tmp$
+                """
+        rp = Protego.parse(content=content)
+
+        assert not rp.can_fetch("https://site.local/docs/manual.pdf", "bot")
+        assert not rp.can_fetch("https://site.local/tmp", "bot")
+        assert not rp.can_fetch("https://site.local/admin/index.html", "bot")
+        assert rp.can_fetch("https://site.local/docs/manual.txt", "bot")
+        assert rp.can_fetch("https://site.local/tmp/file", "bot")
+
     def test_allowed_wildcards(self):
         content = """User-agent: first
                      Disallow: /disallowed/*/end$
