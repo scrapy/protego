@@ -1,9 +1,20 @@
 from __future__ import annotations
 
+import re
 from datetime import time
-from urllib.parse import ParseResult, quote, urlparse, urlunparse
+from urllib.parse import ParseResult, quote, urlparse
 
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
+
+# Characters that percent-encoding leaves alone and that urlparse does not read
+# as a delimiter, so that a path made only of them needs no quoting. A path
+# starting with "//" is left out because urlparse reads it as a network
+# location.
+_QUOTED_URL = re.compile(
+    r"(?:[A-Za-z][A-Za-z0-9+.-]*://[^/?#]*)?(/(?!/)[A-Za-z0-9_.~/=-]*)"
+).fullmatch
+# Patterns keep "*" unquoted as well, and their trailing "$" is preserved as is.
+_QUOTED_PATTERN = re.compile(r"(?!//)[A-Za-z0-9_.~/=*-]+\$?").fullmatch
 
 
 def _parse_time_of_day(value: str) -> time:
@@ -54,18 +65,33 @@ def _hexescape(char: str) -> str:
     return f"%{ord(char):02X}"
 
 
+def _join(path: str, parts: ParseResult) -> str:
+    """Return *path* with the params, query and fragment of *parts* appended."""
+    if parts.params:
+        path = f"{path};{parts.params}"
+    if parts.query:
+        path = f"{path}?{parts.query}"
+    if parts.fragment:
+        path = f"{path}#{parts.fragment}"
+    return path
+
+
 def _quote_path(path: str) -> str:
     """Return percent encoded path."""
+    quoted = _QUOTED_URL(path)
+    if quoted:
+        return quoted[1]
+
     parts = urlparse(path)
     path = _unquote(parts.path, ignore="/%")
     path = quote(path, safe="/%=")
-
-    parts = ParseResult("", "", path, parts.params, parts.query, parts.fragment)
-    path = urlunparse(parts)
-    return path or "/"
+    return _join(path, parts) or "/"
 
 
 def _quote_pattern(pattern: str) -> str:
+    if _QUOTED_PATTERN(pattern):
+        return pattern
+
     if pattern.startswith(("https://", "http://")):
         pattern = "/" + pattern
     if pattern.startswith("//"):
@@ -81,8 +107,4 @@ def _quote_pattern(pattern: str) -> str:
     parts = urlparse(pattern)
     pattern = _unquote(parts.path, ignore="/*$%")
     pattern = quote(pattern, safe="/*%=")
-
-    parts = ParseResult(
-        "", "", pattern + last_char, parts.params, parts.query, parts.fragment
-    )
-    return urlunparse(parts)
+    return _join(pattern + last_char, parts)
