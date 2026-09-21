@@ -2,11 +2,58 @@
 Protego changelog
 =================
 
-0.x.x (unreleased)
+0.7.0 (unreleased)
 ==================
 
 -   **Backward-incompatible:** ``Protego.parse()`` now raises a more suitable
     ``TypeError`` instead of a ``ValueError`` when ``content`` is not a string.
+
+-   Added official support for Python 3.15.
+
+-   ``can_fetch()`` now allows ``/robots.txt`` whatever the rules say, as
+    required by RFC 9309.
+
+-   A group now applies to a user agent only if its product token appears in
+    that user agent at a token boundary, so that ``User-agent: bot`` no longer
+    applies to ``mybot``. A product token within a whole ``User-Agent`` header
+    value, e.g. ``Mozilla/5.0 (compatible; mybot/1.0)``, still matches.
+
+-   Percent-encoding is now normalized in the query string and the parameters
+    of a URL, and not only in its path, so that a rule matches whichever
+    spelling either of them uses, e.g. ``Disallow: /a?b=ツ`` now matches
+    ``/a?b=%E3%83%84``. The fragment is now left out of matching altogether.
+
+-   ``Visit-time`` now also accepts a hyphen between the two times, e.g.
+    ``0400-0845``, and times with a single-digit hour, e.g. ``400``.
+
+-   Malformed ``Crawl-delay`` values, such as a negative or infinite number,
+    and ``Request-rate`` values with zero requests or zero seconds, are now
+    ignored, as other malformed values already were.
+
+-   Improved the handling of invalid and misspelled lines.
+
+    ``Sitemap`` and ``Host`` lines are now read anywhere in the file,
+    including before any ``User-agent`` line, and no longer merge the groups
+    they sit between. A ``User-agent`` line without a value still ends the
+    preceding group. Lines written without a colon are now salvaged for every
+    directive, ``Visit-time`` included, and with any whitespace as the
+    separator. A line whose field is not a known directive is no longer read
+    as one.
+
+-   Fixed matching of URLs whose path contains ``=``, which no rule could
+    match because it was percent-encoded in the URL but not in the rule.
+
+-   Fixed matching of URLs whose path starts with ``//``, which got extra
+    slashes before being matched.
+
+-   Fixed ``Allow: …/index.html``, which, besides allowing the parent
+    directory as intended, also allowed URLs with a ``$`` right after that
+    directory.
+
+-   Improved matching and parsing performance.
+
+-   Documentation improvements, including a rewritten parser comparison table
+    generated from benchmarks.
 
 0.6.2 (2026-06-25)
 ==================
