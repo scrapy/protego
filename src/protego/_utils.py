@@ -2,19 +2,32 @@ from __future__ import annotations
 
 import re
 from datetime import time
-from urllib.parse import ParseResult, quote, urlparse
+from urllib.parse import quote, urlsplit
 
 _HEX_DIGITS = set("0123456789ABCDEFabcdef")
 
-# Characters that percent-encoding leaves alone and that urlparse does not read
-# as a delimiter, so that a path made only of them needs no quoting. A path
-# starting with "//" is left out because urlparse reads it as a network
-# location.
+# Escapes left as they are while normalizing a URL for comparison: the path
+# separator, and "%" so that escapes already present are not doubled.
+_KEPT = "/%"
+
+# Patterns additionally keep "*", which stands for any sequence of characters.
+_PATTERN_KEPT = f"{_KEPT}*"
+
+# Characters left verbatim rather than encoded. "=" is absent from the sets
+# above, so that "%3D" is decoded into it and both spellings compare equal.
+_SAFE = f"{_KEPT}="
+_PATTERN_SAFE = f"{_PATTERN_KEPT}="
+
+# A URL whose path is made only of characters that percent-encoding leaves
+# alone, and that urlsplit does not read as a delimiter, needs no quoting. A
+# path starting with "//" is left out because urlsplit reads it as an
+# authority.
 _QUOTED_URL = re.compile(
     r"(?:[A-Za-z][A-Za-z0-9+.-]*://[^/?#]*)?(/(?!/)[A-Za-z0-9_.~/=-]*)"
 ).fullmatch
-# Patterns keep "*" unquoted as well, and their trailing "$" is preserved as is.
-_QUOTED_PATTERN = re.compile(r"(?!//)[A-Za-z0-9_.~/=*-]+\$?").fullmatch
+
+# Patterns keep "*" unquoted as well, and their trailing "$" as it is.
+_QUOTED_PATTERN = re.compile(r"[A-Za-z0-9_.~/=*-]+\$?").fullmatch
 
 
 def _parse_time_of_day(value: str) -> time:
@@ -65,46 +78,53 @@ def _hexescape(char: str) -> str:
     return f"%{ord(char):02X}"
 
 
-def _join(path: str, parts: ParseResult) -> str:
-    """Return *path* with the params, query and fragment of *parts* appended."""
-    if parts.params:
-        path = f"{path};{parts.params}"
-    if parts.query:
-        path = f"{path}?{parts.query}"
-    if parts.fragment:
-        path = f"{path}#{parts.fragment}"
-    return path
+def _quote(value: str, kept: str, safe: str) -> str:
+    """Return *value* with its percent-encoding normalized.
+
+    Escapes other than those of the characters in *kept* are decoded,
+    characters that need an escape are encoded, and those in *safe* are left
+    verbatim. Both sides of a comparison must be normalized with the same
+    *kept* and *safe* sets, or equivalent strings end up spelled differently.
+    """
+    return quote(_unquote(value, ignore=kept), safe=safe)
 
 
-def _quote_path(path: str) -> str:
-    """Return percent encoded path."""
-    quoted = _QUOTED_URL(path)
+def _quote_path(url: str) -> str:
+    """Return the path and query of *url*, normalized for comparison.
+
+    The scheme, the authority and the fragment are dropped, since rules never
+    match against them.
+    """
+    quoted = _QUOTED_URL(url)
     if quoted:
         return quoted[1]
 
-    parts = urlparse(path)
-    path = _unquote(parts.path, ignore="/%")
-    path = quote(path, safe="/%=")
-    return _join(path, parts) or "/"
+    url = url.partition("#")[0]
+    parts = urlsplit(url)
+    path = parts.path
+    # A "?" with nothing after it is still part of what rules match against.
+    if "?" in url:
+        path += f"?{parts.query}"
+    path = _quote(path, _KEPT, _SAFE)
+    return path if path.startswith("/") else f"/{path}"
 
 
 def _quote_pattern(pattern: str) -> str:
+    """Return *pattern* normalized for comparison.
+
+    A trailing "$", which anchors the pattern to the end of the URL, is kept
+    as it is; a "$" anywhere else is an ordinary character.
+    """
     if _QUOTED_PATTERN(pattern):
         return pattern
 
+    # A rule written as an absolute URL matches a path with that URL in it,
+    # which is what the site owner who wrote it by mistake gets.
     if pattern.startswith(("https://", "http://")):
-        pattern = "/" + pattern
-    if pattern.startswith("//"):
-        pattern = "//" + pattern
+        pattern = f"/{pattern}"
 
-    # Corner case for query only (e.g. '/abc?') and param only (e.g. '/abc;') URLs.
-    # Save the last character otherwise, urlparse will kill it.
-    last_char = ""
-    if pattern[-1] == "?" or pattern[-1] == ";" or pattern[-1] == "$":
-        last_char = pattern[-1]
+    anchor = ""
+    if pattern.endswith("$"):
+        anchor = "$"
         pattern = pattern[:-1]
-
-    parts = urlparse(pattern)
-    pattern = _unquote(parts.path, ignore="/*$%")
-    pattern = quote(pattern, safe="/*%=")
-    return _join(pattern + last_char, parts)
+    return _quote(pattern, _PATTERN_KEPT, _PATTERN_SAFE) + anchor
