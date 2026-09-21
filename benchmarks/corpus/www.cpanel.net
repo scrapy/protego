@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /*?
+Disallow: /showip.shtml
+Disallow: /showip.cgi
+Disallow: /myip
+
+Disallow: /wp-content/themes/cPbase/assets/docs/*.pdf$
+Disallow: /wp-content/themes/cPbase/assets/downloads/*.pdf$
+Disallow: /wp-content/uploads/pdf/*.pdf$
+
+Sitemap: https://www.cpanel.net/sitemap_index.xml

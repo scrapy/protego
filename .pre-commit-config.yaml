@@ -1,4 +1,4 @@
-exclude: tests/test_data
+exclude: ^(tests/test_data|benchmarks/corpus)/
 repos:
 - repo: https://github.com/astral-sh/ruff-pre-commit
   rev: v0.16.4

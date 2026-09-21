@@ -1,0 +1,51 @@
+User-agent: *
+Allow: /
+Disallow: /wp-content/uploads/2024/04/Everest_Group_-_Making_Brownfield_Factories_Smarter_and_Greener_Capgemini.pdf
+Disallow: /es-es/noticias/casos-de-exito/ice-leverages-supply-chain-best-practices-to-improve-operational-efficiencies/
+Disallow: /wp-content/uploads/2026/05/WPCIR_2026_2MB-Weblock-1.pdf
+Disallow: /ch-en/search/*
+Disallow: /ch-en/*?amp=1
+Disallow: /ch-en/?*
+Disallow: /ch-en/*/amp/
+Disallow: /macs_cookies/
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://www.capgemini.com/sitemap_index.xml
+Sitemap: https://www.capgemini.com/gb-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/fr-fr/sitemap_index.xml
+Sitemap: https://www.capgemini.com/dk-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/de-de/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ar-es/sitemap_index.xml
+Sitemap: https://www.capgemini.com/at-de/sitemap_index.xml
+Sitemap: https://www.capgemini.com/br-pt/sitemap_index.xml
+Sitemap: https://www.capgemini.com/cn-zh/sitemap_index.xml
+Sitemap: https://www.capgemini.com/be-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/it-it/sitemap_index.xml
+Sitemap: https://www.capgemini.com/es-es/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ca-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/in-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/nl-nl/sitemap_index.xml
+Sitemap: https://www.capgemini.com/se-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ca-fr/sitemap_index.xml
+Sitemap: https://www.capgemini.com/jp-jp/sitemap_index.xml
+Sitemap: https://www.capgemini.com/no-no/sitemap_index.xml
+Sitemap: https://www.capgemini.com/fi-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/pl-pl/sitemap_index.xml
+Sitemap: https://www.capgemini.com/mx-es/sitemap_index.xml
+Sitemap: https://www.capgemini.com/us-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/cz-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/hu-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ae-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/sa-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ro-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/sg-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/nz-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/eg-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/gu-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/pt-en/sitemap_index.xml
+Sitemap: https://www.capgemini.com/ma-en/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

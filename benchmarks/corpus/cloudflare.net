@@ -1,0 +1,15 @@
+User-agent: *
+Crawl-delay: 10
+Allow: /
+
+User-agent: Eluta.ca
+Crawl-delay: 60
+Allow: /
+
+User-agent: MS Search 6.0 Robot
+Crawl-delay: 60
+Allow: /
+
+User-agent: gsa-crawler
+Crawl-delay: 60
+Allow: /

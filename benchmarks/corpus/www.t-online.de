@@ -1,0 +1,76 @@
+User-agent: *
+Disallow: /native/
+Disallow: /auth/
+Disallow: /?artid
+Disallow: /preisvergleich/
+Disallow: /spiele/weihnachtsspiele/
+Disallow: /studiopreview_
+Disallow: /vid_1/
+Disallow: /,ei=
+Disallow: /,linkId=
+Disallow: /,pt=pictureEnlarge
+Disallow: /,pt=print
+Disallow: /,pt=self
+Disallow: /,tid=print
+Disallow: /,vv=P5
+Disallow: /,vv=enlarge
+Disallow: */tid_external_content_proxy/
+Disallow: /-/id_62530634/tid_tsr_iframe_loginbox/index
+Disallow: /-/id_62530634/tid_tsr_iframe_loginbox_buzz/index
+Disallow: /gtm.js
+Disallow: /metatag/
+Disallow: /ki-ratgeber/
+Disallow: /api/greenplayer/
+Disallow: /api/search/zero-input
+
+User-agent: GPTBot
+Disallow: /
+Allow: /finanzen/versichern-und-vorsorgen/
+
+User-agent: PerplexityBot
+Disallow: /
+Allow: /finanzen/versichern-und-vorsorgen/
+
+User-agent: ClaudeBot
+Disallow: /
+Allow: /finanzen/versichern-und-vorsorgen/
+
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: Meta-ExternalAgent
+User-agent: meta-externalagent
+Disallow: /
+Allow: /finanzen/versichern-und-vorsorgen/
+
+User-agent: Google-Extended
+Disallow: /native/
+Disallow: /auth/
+Disallow: /?artid
+Disallow: /preisvergleich/
+Disallow: /spiele/weihnachtsspiele/
+Disallow: /studiopreview_
+Disallow: /vid_1/
+Disallow: /,ei=
+Disallow: /,linkId=
+Disallow: /,pt=pictureEnlarge
+Disallow: /,pt=print
+Disallow: /,pt=self
+Disallow: /,tid=print
+Disallow: /,vv=P5
+Disallow: /,vv=enlarge
+Disallow: */tid_external_content_proxy/
+Disallow: /-/id_62530634/tid_tsr_iframe_loginbox/index
+Disallow: /-/id_62530634/tid_tsr_iframe_loginbox_buzz/index
+Disallow: /gtm.js
+Disallow: /metatag/
+Disallow: /ki-ratgeber/
+Disallow: /api/greenplayer/
+Disallow: /api/search/zero-input
+Allow: /
+
+# Legal notice: t-online.de expressly reserves the right to use its content for commercial text and data mining (§ 44 b UrhG).
+# The use of robots or other automated means to access t-online.de or collect or mine data without
+# the express permission of t-online.de is strictly prohibited.
+# t-online.de may, in its discretion, permit certain automated access to certain t-online.de pages,
+# If you would like to apply for permission to crawl t-online.de, collect or use data, please email t-online@stroeer.de

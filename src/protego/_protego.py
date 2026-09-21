@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import logging
 from typing import TYPE_CHECKING
+from urllib.parse import urlparse
 
 from ._ruleset import RequestRate, VisitTime, _RuleSet
 
@@ -10,6 +11,8 @@ if TYPE_CHECKING:
 
     # typing.Self requires Python 3.11
     from typing_extensions import Self
+
+    from ._urlpattern import _URLPattern
 
 
 logger = logging.getLogger(__name__)
@@ -111,6 +114,9 @@ class Protego:
 
         # A memoization table mapping user agents (used in queries) to matched rule sets.
         self._matched_rule_set: dict[str, _RuleSet | None] = {}
+
+        # URL patterns by directive value, shared across rule sets.
+        self._url_patterns: dict[str, _URLPattern | None] = {}
 
         self._total_line_seen = 0
         self._invalid_directive_seen = 0
@@ -259,6 +265,8 @@ class Protego:
 
     def can_fetch(self, url: str, user_agent: str) -> bool:
         """Return True if the user agent can fetch the URL, otherwise return False."""
+        if "/robots.txt" in url and urlparse(url).path == "/robots.txt":
+            return True
         matched_rule_set = self._get_matching_rule_set(user_agent)
         if not matched_rule_set:
             return True

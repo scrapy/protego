@@ -3,7 +3,7 @@ from datetime import time
 import pytest
 
 from protego import Protego
-from protego._utils import _parse_time_period
+from protego._utils import _parse_time_period, _quote_path, _quote_pattern
 
 
 class TestProtego:
@@ -348,6 +348,21 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/index.html", "*")
         assert rp.can_fetch("https://site.local/disallowed", "*")
 
+    def test_wildcard_rule_in_a_rule_set_with_plain_rules(self):
+        content = """User-agent: *
+                     Disallow: /admin/
+                     Disallow: /private/
+                     Disallow: /*.pdf
+                     Disallow: /tmp$
+                """
+        rp = Protego.parse(content=content)
+
+        assert not rp.can_fetch("https://site.local/docs/manual.pdf", "bot")
+        assert not rp.can_fetch("https://site.local/tmp", "bot")
+        assert not rp.can_fetch("https://site.local/admin/index.html", "bot")
+        assert rp.can_fetch("https://site.local/docs/manual.txt", "bot")
+        assert rp.can_fetch("https://site.local/tmp/file", "bot")
+
     def test_allowed_wildcards(self):
         content = """User-agent: first
                      Disallow: /disallowed/*/end$
@@ -678,6 +693,21 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/path1", "two")
         assert rp.can_fetch("https://site.local/path2", "two")
 
+    def test_directives_without_path(self):
+        """Values whose path is empty after quoting, such as a bare URL
+        without a path, add no rule."""
+        content = """
+        User-Agent: one
+        Disallow: ftp://site.local
+
+        User-Agent: two
+        Allow: ftp://site.local
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+        assert rp.can_fetch("https://site.local/path", "one")
+        assert not rp.can_fetch("https://site.local/path", "two")
+
     def test_empty_record_group(self):
         content = """
         User-Agent: harrybot
@@ -947,6 +977,16 @@ class TestProtego:
         assert rp.can_fetch("/bar.html", "foobot")
         assert not rp.can_fetch("/", "SomeOtherBot")
         assert not rp.can_fetch("/blahblahblah", "SomeOtherBot")
+
+    def test_robotstxt_is_always_allowed(self):
+        content = """
+        User-agent: *
+        Disallow: /
+        """
+        rp = Protego.parse(content=content)
+        assert rp.can_fetch("/robots.txt", "foobot")
+        assert rp.can_fetch("http://www.example.com/robots.txt", "foobot")
+        assert not rp.can_fetch("http://www.example.com/a/robots.txt", "foobot")
 
     def test_grouping_unknown_keys(self):
         """
@@ -1417,3 +1457,29 @@ def test_redos():
     content = f"User-agent: *\nDisallow: {disallow}\n"
     rp = Protego.parse(content)
     assert rp.can_fetch(url, "*")
+
+
+@pytest.mark.parametrize(
+    ("value", "path", "pattern"),
+    [
+        ("/a/b", "/a/b", "/a/b"),
+        ("/a=b", "/a=b", "/a=b"),
+        ("//host/path", "/path", "//host/path"),
+        ("/a%2fb", "/a%2Fb", "/a%2Fb"),
+        ("/a?b", "/a%3Fb", "/a%3Fb"),
+        ("/a;b", "/a%3Bb", "/a%3Bb"),
+        ("/a:b", "/a%3Ab", "/a%3Ab"),
+        ("/a b", "/a%20b", "/a%20b"),
+        ("/á", "/%C3%A1", "/%C3%A1"),
+        ("/a*b", "/a%2Ab", "/a*b"),
+        ("/a$b", "/a%24b", "/a%24b"),
+        ("/a$", "/a%24", "/a$"),
+        ("https://example.com/a/b", "/a/b", "/https%3A//example.com/a/b"),
+        ("https://example.com/a b", "/a%20b", "/https%3A//example.com/a%20b"),
+        ("https://example.com//a", "//a", "/https%3A//example.com//a"),
+        ("https://example.com", "/", "/https%3A//example.com"),
+    ],
+)
+def test_quoting(value, path, pattern):
+    assert _quote_path(value) == path
+    assert _quote_pattern(value) == pattern
