@@ -363,6 +363,24 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/docs/manual.txt", "bot")
         assert rp.can_fetch("https://site.local/tmp/file", "bot")
 
+    def test_rule_of_each_kind_in_a_rule_set(self):
+        content = """User-agent: *
+                     Disallow: /admin/
+                     Disallow: /tmp$
+                     Disallow: /*.pdf
+                     Disallow: /a/*/b$
+                """
+        rp = Protego.parse(content=content)
+
+        assert not rp.can_fetch("https://site.local/admin/index.html", "bot")
+        assert not rp.can_fetch("https://site.local/tmp", "bot")
+        assert not rp.can_fetch("https://site.local/docs/manual.pdf", "bot")
+        assert not rp.can_fetch("https://site.local/a/x/y/b", "bot")
+        assert rp.can_fetch("https://site.local/administration", "bot")
+        assert rp.can_fetch("https://site.local/tmp/file", "bot")
+        assert rp.can_fetch("https://site.local/docs/manual.txt", "bot")
+        assert rp.can_fetch("https://site.local/a/x/b/y", "bot")
+
     def test_allowed_wildcards(self):
         content = """User-agent: first
                      Disallow: /disallowed/*/end$
