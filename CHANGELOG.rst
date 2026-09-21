@@ -2,7 +2,7 @@
 Protego changelog
 =================
 
-0.7.0 (unreleased)
+0.7.0 (2026-09-21)
 ==================
 
 -   **Backward-incompatible:** ``Protego.parse()`` now raises a more suitable
