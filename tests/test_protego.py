@@ -320,6 +320,7 @@ class TestProtego:
         """
         rp = Protego.parse(content=content)
         assert rp.request_rate("two") is None
+        assert rp.request_rate("three") is None
 
     @pytest.mark.parametrize(
         "value",
@@ -694,8 +695,8 @@ class TestProtego:
         assert rp.can_fetch("https://site.local/path2", "two")
 
     def test_directives_without_path(self):
-        """Values whose path is empty after quoting, such as a bare URL
-        without a path, add no rule."""
+        """A bare URL without a path is quoted as a path, so it only matches
+        a URL that contains it."""
         content = """
         User-Agent: one
         Disallow: ftp://site.local
@@ -1377,6 +1378,11 @@ class TestProtego:
         assert visit_time is not None
         assert visit_time.start_time == time(2, 0)
         assert visit_time.end_time == time(6, 30)
+
+    def test_no_visit_time(self):
+        content = "User-Agent: FooBot\nVisit-time: 0400-0845"
+        rp = Protego.parse(content)
+        assert rp.visit_time("BarBot") is None
 
     @pytest.mark.parametrize(
         "value",
