@@ -116,10 +116,9 @@ class Protego:
         self._matched_rule_set: dict[str, _RuleSet | None] = {}
 
         # URL patterns by directive value, shared across rule sets.
-        self._url_patterns: dict[str, _URLPattern | None] = {}
+        self._url_patterns: dict[str, _URLPattern] = {}
 
         self._total_line_seen = 0
-        self._invalid_directive_seen = 0
         self._total_directive_seen = 0
 
     @classmethod
@@ -239,9 +238,6 @@ class Protego:
                 for rule_set in current_rule_sets:
                     rule_set.visit_time = value
 
-            else:
-                self._invalid_directive_seen += 1
-
         for rule_set in self._user_agents.values():
             rule_set.finalize_rules()
 
@@ -309,7 +305,3 @@ class Protego:
     def preferred_host(self) -> str | None:
         """Get the preferred host."""
         return self._host
-
-    @property
-    def _valid_directive_seen(self) -> int:
-        return self._total_directive_seen - self._invalid_directive_seen

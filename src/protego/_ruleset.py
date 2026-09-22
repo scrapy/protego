@@ -65,17 +65,15 @@ class _RuleSet:
             index = robotname.find(self.user_agent, index + 1)
         return 0
 
-    def _url_pattern(self, pattern: str) -> _URLPattern | None:
-        """Return the URL pattern for a directive value, or None if the value
-        quotes to nothing.
+    def _url_pattern(self, pattern: str) -> _URLPattern:
+        """Return the URL pattern for a directive value.
 
         The same value usually appears once per user agent in a robots.txt,
         so patterns are shared across the rule sets of a parser.
         """
         cache = self._parser_instance._url_patterns
         if pattern not in cache:
-            quoted = _quote_pattern(pattern)
-            cache[pattern] = _URLPattern(quoted) if quoted else None
+            cache[pattern] = _URLPattern(_quote_pattern(pattern))
         return cache[pattern]
 
     def allow(self, pattern: str) -> None:
@@ -83,8 +81,6 @@ class _RuleSet:
             self.allow(pattern.replace("$", _hexescape("$")))
 
         url_pattern = self._url_pattern(pattern)
-        if url_pattern is None:
-            return
         self._rules.append(_Rule(field="allow", value=url_pattern))
 
         # If index.html is allowed, we interpret this as / being allowed too.
@@ -102,8 +98,6 @@ class _RuleSet:
             self.disallow(pattern.replace("$", _hexescape("$")))
 
         url_pattern = self._url_pattern(pattern)
-        if url_pattern is None:
-            return
         self._rules.append(_Rule(field="disallow", value=url_pattern))
 
     def finalize_rules(self) -> None:
