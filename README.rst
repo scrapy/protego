@@ -168,14 +168,14 @@ URLs their homepages link to, and the time taken to parse the files themselves.
      -
    * - Matching performance
      -
-     - -61%
-     - -72%
-     - -96%
+     - -75%
+     - -83%
+     - -98%
    * - Parsing performance
      -
      - -71%
-     - +35%
-     - +66%
+     - +29%
+     - +51%
 
 .. comparison-table-end
 
