@@ -8,9 +8,7 @@ from ._ruleset import RequestRate, VisitTime, _RuleSet
 
 if TYPE_CHECKING:
     from collections.abc import Iterator
-
-    # typing.Self requires Python 3.11
-    from typing_extensions import Self
+    from typing import Self
 
     from ._urlpattern import _URLPattern
 
