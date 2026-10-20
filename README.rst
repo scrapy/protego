@@ -174,8 +174,8 @@ URLs their homepages link to, and the time taken to parse the files themselves.
    * - Parsing performance
      -
      - -71%
-     - +29%
-     - +51%
+     - +36%
+     - +49%
 
 .. comparison-table-end
 
