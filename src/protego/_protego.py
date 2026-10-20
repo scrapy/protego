@@ -1,14 +1,13 @@
 from __future__ import annotations
 
 import logging
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Self
 from urllib.parse import urlparse
 
 from ._ruleset import RequestRate, VisitTime, _RuleSet
 
 if TYPE_CHECKING:
     from collections.abc import Iterator
-    from typing import Self
 
     from ._urlpattern import _URLPattern
 
