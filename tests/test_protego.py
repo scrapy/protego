@@ -121,6 +121,38 @@ class TestProtego:
         assert rp.can_fetch("https://www.site.local/a<d.html", "*")
         assert rp.can_fetch("https://www.site.local/a%3cd.html", "*")
 
+    @pytest.mark.parametrize(
+        ("encoded", "other"),
+        [
+            ("%FF", "%80"),
+            ("%C3", "%C2"),
+            ("%C0%AF", "%C0%AE"),
+            ("%ED%A0%80", "%ED%B0%80"),
+            ("%F3%B1", "%F3%B2"),
+            ("%FF", "%EF%BF%BD"),
+            ("%FF", "\ufffd"),
+            ("%C3%BC", "%C3%B6"),
+            ("%41", "%42"),
+        ],
+    )
+    @pytest.mark.parametrize(("prefix", "suffix"), [("/", "/item"), ("/?q=", "&x=1")])
+    @pytest.mark.parametrize("directive", ["Allow", "Disallow"])
+    def test_percent_encoded_octets(self, encoded, other, prefix, suffix, directive):
+        default = "Disallow" if directive == "Allow" else "Allow"
+        rp = Protego.parse(
+            f"User-agent: *\n{default}: /\n{directive}: {prefix}{encoded}{suffix}\n"
+        )
+        expected = directive == "Allow"
+        for spelling in (encoded, encoded.lower()):
+            assert (
+                rp.can_fetch(f"https://example.com{prefix}{spelling}{suffix}", "bot")
+                is expected
+            )
+        assert (
+            rp.can_fetch(f"https://example.com{prefix}{other}{suffix}", "bot")
+            is not expected
+        )
+
     def test_unescaped_url(self):
         content = "User-agent: * \nDisallow: / \nAllow: /a<d.html"
         rp = Protego.parse(content=content)
