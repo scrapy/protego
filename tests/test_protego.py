@@ -1507,3 +1507,18 @@ def test_redos():
 def test_quoting(value, path, pattern):
     assert _quote_path(value) == path
     assert _quote_pattern(value) == pattern
+
+
+@pytest.mark.parametrize(
+    ("prefix", "rule_applies"),
+    [
+        ("", True),
+        ("\ufeff", True),
+        ("\ufeff\ufeff", False),
+        (" \ufeff", False),
+    ],
+)
+def test_utf8_bom(prefix, rule_applies):
+    content = "User-agent: *\nDisallow: /private\n"
+    parsed = Protego.parse(prefix + content)
+    assert parsed.can_fetch("/private", "anybot") is not rule_applies

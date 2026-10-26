@@ -127,6 +127,9 @@ class Protego:
         return o
 
     def _parse_robotstxt(self, content: str) -> None:
+        # Ignore one leading UTF-8 byte order mark, matching Google's parser:
+        # https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
+        content = content.removeprefix("\ufeff")
         lines = content.splitlines()
 
         # A list containing rule sets corresponding to user
