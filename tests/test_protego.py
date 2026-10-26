@@ -1507,3 +1507,30 @@ def test_redos():
 def test_quoting(value, path, pattern):
     assert _quote_path(value) == path
     assert _quote_pattern(value) == pattern
+
+
+@pytest.mark.parametrize("prefix", ["", "\ufeff"])
+def test_utf8_bom_is_skipped(prefix):
+    content = "User-agent: *\nDisallow: /private\n"
+    parsed = Protego.parse(prefix + content)
+    assert not parsed.can_fetch("/private", "anybot")
+    assert not parsed.can_fetch("/private/page", "anybot")
+    assert parsed.can_fetch("/other", "anybot")
+
+
+@pytest.mark.parametrize("prefix", ["\ufeff\ufeff", " \ufeff", "\n\ufeff"])
+def test_only_one_bom_at_start_is_skipped(prefix):
+    content = "User-agent: *\nDisallow: /private\n"
+    assert Protego.parse(prefix + content).can_fetch("/private", "anybot")
+
+
+def test_bom_after_first_line_is_not_skipped():
+    content = "User-agent: *\n\ufeffDisallow: /private\n"
+    assert Protego.parse(content).can_fetch("/private", "anybot")
+
+
+def test_bom_in_path_is_preserved():
+    content = "User-agent: *\nDisallow: /\ufeffprivate\n"
+    parsed = Protego.parse(content)
+    assert not parsed.can_fetch("/\ufeffprivate", "anybot")
+    assert parsed.can_fetch("/private", "anybot")
