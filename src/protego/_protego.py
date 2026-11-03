@@ -98,6 +98,30 @@ def _extract_directive(line: str) -> tuple[str, str] | None:
     return field, value
 
 
+def parse_sitemaps(content: str) -> Iterator[str]:
+    """Return an iterator over the sitemaps specified in robots.txt, the same
+    as ``Protego.parse(content).sitemaps``, without parsing the other
+    directives.
+    """
+    if not isinstance(content, str):
+        raise TypeError(f"parse_sitemaps expects str, got {type(content).__name__}")
+    sitemaps: list[str] = []
+    # Every spelling in _SITEMAP_DIRECTIVE contains "site", so text without
+    # it cannot hold a sitemap directive.
+    if "site" not in content.lower():
+        return iter(sitemaps)
+    for line in content.removeprefix("\ufeff").splitlines():
+        if "site" not in line.lower():
+            continue
+        line = line.partition("#")[0].strip()
+        if not line:
+            continue
+        parsed = _extract_directive(line)
+        if parsed is not None and parsed[0] in _SITEMAP_DIRECTIVE and parsed[1]:
+            sitemaps.append(parsed[1])
+    return iter(sitemaps)
+
+
 class Protego:
     def __init__(self) -> None:
         # A dict mapping user agents (specified in robots.txt) to rule sets.

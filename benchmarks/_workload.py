@@ -6,6 +6,8 @@ import json
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+from protego import parse_sitemaps
+
 if TYPE_CHECKING:
     from benchmarks._parsers import _Adapter
 
@@ -46,3 +48,8 @@ def match(parsed: list[tuple[_Adapter, list[str]]]) -> None:
     for parser, urls in parsed:
         for url in urls:
             parser.can_fetch(url)
+
+
+def sitemaps(sites: list[tuple[str, list[str]]]) -> None:
+    for robotstxt, _ in sites:
+        list(parse_sitemaps(robotstxt))
