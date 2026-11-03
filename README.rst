@@ -222,3 +222,8 @@ Methods
 *   ``visit_time(user_agent)`` Return the visit time specified for the user
     agent as a named tuple ``VisitTime(start_time, end_time)``.
     If nothing is specified, return ``None``.
+
+Function ``protego.parse_sitemaps(robotstxt_body)``: Return an iterator over
+the sitemaps specified in ``robots.txt``, the same as
+``Protego.parse(robotstxt_body).sitemaps``, without parsing the other
+directives.
