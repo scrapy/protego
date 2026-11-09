@@ -53,16 +53,21 @@ def _is_valid_directive_field(field: str) -> bool:
 
 
 def _extract_directive(line: str) -> tuple[str, str] | None:
-    """Split a non-empty line into a lowercased directive field and a
-    stripped value, or return None if the line cannot be read as a
-    directive. A line with "<field>:<value>" shape is returned even when
-    the field is not a known directive, so that the caller can count it as
-    an invalid directive.
+    """Split a line into a lowercased directive field and a stripped value,
+    or return None if the line is empty once its comment is removed, or
+    cannot be read as a directive. A line with "<field>:<value>" shape is
+    returned even when the field is not a known directive, so that the
+    caller can count it as an invalid directive.
 
     We are more generous than the specs: we allow e.g. "User-agent: foo",
     "User-agent foo", "User agent: foo" and "User agent foo" even though all
     specs only specify the first form. We also tolerate some misspellings.
     """
+    # Remove the comment portion of the line, and the whitespace at the
+    # beginning and at the end of the line.
+    line = line.partition("#")[0].strip()
+    if not line:
+        return None
     field: str | None = None
     value = ""
     if ":" in line:
@@ -106,15 +111,10 @@ def parse_sitemaps(content: str) -> Iterator[str]:
     if not isinstance(content, str):
         raise TypeError(f"parse_sitemaps expects str, got {type(content).__name__}")
     sitemaps: list[str] = []
-    # Every spelling in _SITEMAP_DIRECTIVE contains "site", so text without
-    # it cannot hold a sitemap directive.
-    if "site" not in content.lower():
-        return iter(sitemaps)
     for line in content.removeprefix("\ufeff").splitlines():
+        # Every spelling in _SITEMAP_DIRECTIVE contains "site", so a line
+        # without it cannot be a sitemap directive.
         if "site" not in line.lower():
-            continue
-        line = line.partition("#")[0].strip()
-        if not line:
             continue
         parsed = _extract_directive(line)
         if parsed is not None and parsed[0] in _SITEMAP_DIRECTIVE and parsed[1]:
@@ -165,16 +165,6 @@ class Protego:
 
         for line in lines:
             self._total_line_seen += 1
-
-            # Remove the comment portion of the line
-            hash_pos = line.find("#")
-            if hash_pos != -1:
-                line = line[0:hash_pos].strip()
-
-            # Whitespace at the beginning and at the end of the line is ignored.
-            line = line.strip()
-            if not line:
-                continue
 
             parsed = _extract_directive(line)
             if parsed is None:
