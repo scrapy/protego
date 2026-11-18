@@ -65,6 +65,11 @@ regex = true
 [tool.coverage.run]
 branch = true
 
+[tool.pytest]
+filterwarnings = [
+    "error",
+]
+
 [tool.mypy]
 strict = true
 
