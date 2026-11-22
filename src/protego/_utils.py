@@ -86,7 +86,12 @@ def _quote(value: str, kept: str, safe: str) -> str:
     verbatim. Both sides of a comparison must be normalized with the same
     *kept* and *safe* sets, or equivalent strings end up spelled differently.
     """
-    return quote(_unquote(value, ignore=kept), safe=safe)
+    # Preserve percent-encoded octets that cannot be decoded as UTF-8.
+    return quote(
+        _unquote(value, ignore=kept, errors="surrogateescape"),
+        safe=safe,
+        errors="surrogateescape",
+    )
 
 
 def _quote_path(url: str) -> str:
