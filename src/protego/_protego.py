@@ -136,8 +136,13 @@ class Protego:
         # agents of the current record group.
         current_rule_sets: list[_RuleSet] = []
 
+        # Extension values apply to the most recent run of user-agent lines,
+        # while supported extensions do not end an access-rule group.
+        current_extension_rule_sets: list[_RuleSet] = []
+
         # Last encountered rule irrespective of whether it was valid or not.
         previous_rule_field = None
+        previous_access_rule_field = None
 
         for line in lines:
             self._total_line_seen += 1
@@ -157,14 +162,26 @@ class Protego:
                 continue
             field, value = parsed
 
-            # A user agent line, even one without a usable value, ends the
-            # previous record group.
-            if (
-                field in _USER_AGENT_DIRECTIVE
-                and previous_rule_field is not None
-                and previous_rule_field not in _USER_AGENT_DIRECTIVE
+            if field in _USER_AGENT_DIRECTIVE:
+                # Supported extensions do not end an access-rule group.
+                if (
+                    previous_access_rule_field is not None
+                    and previous_access_rule_field not in _USER_AGENT_DIRECTIVE
+                ):
+                    current_rule_sets = []
+                if (
+                    previous_rule_field is not None
+                    and previous_rule_field not in _USER_AGENT_DIRECTIVE
+                ):
+                    current_extension_rule_sets = []
+
+            if field not in (
+                _SITE_WIDE_DIRECTIVES
+                | _CRAWL_DELAY_DIRECTIVE
+                | _REQUEST_RATE_DIRECTIVE
+                | _VISIT_TIME_DIRECTIVE
             ):
-                current_rule_sets = []
+                previous_access_rule_field = field
 
             # Sitemap and Host are site-wide directives and don't matter for
             # record grouping.
@@ -212,6 +229,9 @@ class Protego:
                         self._user_agents[ua] = rule_set
                         current_rule_sets.append(rule_set)
 
+                    if rule_set not in current_extension_rule_sets:
+                        current_extension_rule_sets.append(rule_set)
+
             elif field in _ALLOW_DIRECTIVE:
                 for rule_set in current_rule_sets:
                     rule_set.allow(value)
@@ -224,18 +244,18 @@ class Protego:
                 self._sitemap_list.append(value)
 
             elif field in _CRAWL_DELAY_DIRECTIVE:
-                for rule_set in current_rule_sets:
+                for rule_set in current_extension_rule_sets:
                     rule_set.crawl_delay = value
 
             elif field in _REQUEST_RATE_DIRECTIVE:
-                for rule_set in current_rule_sets:
+                for rule_set in current_extension_rule_sets:
                     rule_set.request_rate = value
 
             elif field in _HOST_DIRECTIVE:
                 self._host = value
 
             elif field in _VISIT_TIME_DIRECTIVE:
-                for rule_set in current_rule_sets:
+                for rule_set in current_extension_rule_sets:
                     rule_set.visit_time = value
 
         for rule_set in self._user_agents.values():

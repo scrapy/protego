@@ -642,6 +642,70 @@ class TestProtego:
         assert not rp.can_fetch(url_foo, "BarBot")
         assert not rp.can_fetch(url_foo, "BazBot")
 
+    @pytest.mark.parametrize(
+        "other_record",
+        [
+            "Crawl-delay: 10",
+            "Request-rate: 1/10s",
+            "Visit-time: 0400-0845",
+        ],
+    )
+    def test_supported_extensions_do_not_split_access_group(self, other_record):
+        content = (
+            "User-agent: ExampleBot\n"
+            f"{other_record}\n"
+            "User-agent: OtherBot\n"
+            "Disallow: /private\n"
+        )
+        rp = Protego.parse(content)
+
+        assert not rp.can_fetch("https://example.com/private", "ExampleBot")
+        assert not rp.can_fetch("https://example.com/private", "OtherBot")
+
+    def test_crawl_delay_does_not_extend_to_later_user_agent(self):
+        content = (
+            "User-agent: ExampleBot\n"
+            "Crawl-delay: 10\n"
+            "User-agent: OtherBot\n"
+            "Disallow: /private\n"
+        )
+        rp = Protego.parse(content)
+
+        assert rp.crawl_delay("ExampleBot") == 10
+        assert rp.crawl_delay("OtherBot") is None
+        assert not rp.can_fetch("https://example.com/private", "ExampleBot")
+        assert not rp.can_fetch("https://example.com/private", "OtherBot")
+
+    def test_access_rule_still_splits_groups_after_extension(self):
+        content = (
+            "User-agent: ExampleBot\n"
+            "Disallow: /first\n"
+            "Crawl-delay: 10\n"
+            "User-agent: OtherBot\n"
+            "Disallow: /second\n"
+        )
+        rp = Protego.parse(content)
+
+        assert not rp.can_fetch("https://example.com/first", "ExampleBot")
+        assert rp.can_fetch("https://example.com/second", "ExampleBot")
+        assert rp.can_fetch("https://example.com/first", "OtherBot")
+        assert not rp.can_fetch("https://example.com/second", "OtherBot")
+
+    def test_extension_values_remain_scoped_to_their_user_agents(self):
+        content = (
+            "User-agent: ExampleBot\n"
+            "Crawl-delay: 10\n"
+            "User-agent: OtherBot\n"
+            "Crawl-delay: 20\n"
+            "Disallow: /private\n"
+        )
+        rp = Protego.parse(content)
+
+        assert rp.crawl_delay("ExampleBot") == 10
+        assert rp.crawl_delay("OtherBot") == 20
+        assert not rp.can_fetch("https://example.com/private", "ExampleBot")
+        assert not rp.can_fetch("https://example.com/private", "OtherBot")
+
     def test_comments(self):
         content = """
         # comment 1
