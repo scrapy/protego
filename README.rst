@@ -201,7 +201,7 @@ Properties
 Methods
 -------
 
-*   ``parse(robotstxt_body)`` Parse ``robots.txt`` and return a new instance of
+*   ``parse(content)`` Parse ``robots.txt`` and return a new instance of
     ``protego.Protego``.
 
 *   ``can_fetch(url, user_agent)`` Return True if the user agent can fetch the
@@ -222,3 +222,8 @@ Methods
 *   ``visit_time(user_agent)`` Return the visit time specified for the user
     agent as a named tuple ``VisitTime(start_time, end_time)``.
     If nothing is specified, return ``None``.
+
+Function ``protego.parse_sitemaps(content)``: Return an iterator over
+the sitemaps specified in ``robots.txt``, the same as
+``Protego.parse(content).sitemaps``, without parsing the other
+directives.
